@@ -76,7 +76,9 @@ def tsec(t):
 
 def get_log(pid):
     d = get("https://api-web.nhle.com/v1/player/%s/game-log/now" % pid)
-    return (d or {}).get("gameLog")
+    gl = (d or {}).get("gameLog")
+    if gl is None: return None
+    return sorted(gl, key=lambda g: g.get("gameDate", ""), reverse=True)  # newest first, whatever order the NHL sends
 
 logged = 0
 for p in skaters:

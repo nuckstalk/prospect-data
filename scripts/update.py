@@ -50,7 +50,12 @@ for table in soup.find_all("table"):
     for tr in table.find_all("tr"):
         cells = [td.get_text(" ", strip=True) for td in tr.find_all("td")]
         if len(cells) < tail + 3: continue
-        key = norm(re.sub(r"\([^)]*\)", "", cells[1]))
+        cands = [cells[1]] + [x.get_text(" ", strip=True) for x in tr.find_all(["th", "a"])]
+        key = None
+        for cnd in cands:
+            k = norm(re.sub(r"\([^)]*\)", "", cnd))
+            if k in known_sk or k in known_g: key = k; break
+        if key is None: continue
         team, lg = cells[-(tail + 2)], cells[-(tail + 1)]
         v = cells[-tail:]
         try:

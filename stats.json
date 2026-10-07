@@ -399,6 +399,7 @@
   {
    "abbr": "NYR",
    "name": "New York Rangers",
+   "nick": "Rangers",
    "div": "Metropolitan",
    "conf": "Eastern",
    "gp": 5,
@@ -418,6 +419,7 @@
   {
    "abbr": "UTA",
    "name": "Utah Mammoth",
+   "nick": "Mammoth",
    "div": "Central",
    "conf": "Western",
    "gp": 4,
@@ -437,6 +439,7 @@
   {
    "abbr": "VGK",
    "name": "Vegas Golden Knights",
+   "nick": "Golden Knights",
    "div": "Pacific",
    "conf": "Western",
    "gp": 4,
@@ -456,6 +459,7 @@
   {
    "abbr": "FLA",
    "name": "Florida Panthers",
+   "nick": "Panthers",
    "div": "Atlantic",
    "conf": "Eastern",
    "gp": 4,
@@ -475,6 +479,7 @@
   {
    "abbr": "MIN",
    "name": "Minnesota Wild",
+   "nick": "Wild",
    "div": "Central",
    "conf": "Western",
    "gp": 3,
@@ -494,6 +499,7 @@
   {
    "abbr": "EDM",
    "name": "Edmonton Oilers",
+   "nick": "Oilers",
    "div": "Pacific",
    "conf": "Western",
    "gp": 3,
@@ -513,6 +519,7 @@
   {
    "abbr": "WPG",
    "name": "Winnipeg Jets",
+   "nick": "Jets",
    "div": "Central",
    "conf": "Western",
    "gp": 3,
@@ -532,6 +539,7 @@
   {
    "abbr": "CAR",
    "name": "Carolina Hurricanes",
+   "nick": "Hurricanes",
    "div": "Metropolitan",
    "conf": "Eastern",
    "gp": 4,
@@ -551,6 +559,7 @@
   {
    "abbr": "COL",
    "name": "Colorado Avalanche",
+   "nick": "Avalanche",
    "div": "Central",
    "conf": "Western",
    "gp": 2,
@@ -570,6 +579,7 @@
   {
    "abbr": "ANA",
    "name": "Anaheim Ducks",
+   "nick": "Ducks",
    "div": "Pacific",
    "conf": "Western",
    "gp": 2,
@@ -589,6 +599,7 @@
   {
    "abbr": "OTT",
    "name": "Ottawa Senators",
+   "nick": "Senators",
    "div": "Atlantic",
    "conf": "Eastern",
    "gp": 3,
@@ -608,6 +619,7 @@
   {
    "abbr": "TBL",
    "name": "Tampa Bay Lightning",
+   "nick": "Lightning",
    "div": "Atlantic",
    "conf": "Eastern",
    "gp": 3,
@@ -627,6 +639,7 @@
   {
    "abbr": "PIT",
    "name": "Pittsburgh Penguins",
+   "nick": "Penguins",
    "div": "Metropolitan",
    "conf": "Eastern",
    "gp": 3,
@@ -646,6 +659,7 @@
   {
    "abbr": "BUF",
    "name": "Buffalo Sabres",
+   "nick": "Sabres",
    "div": "Atlantic",
    "conf": "Eastern",
    "gp": 3,
@@ -665,6 +679,7 @@
   {
    "abbr": "SJS",
    "name": "San Jose Sharks",
+   "nick": "Sharks",
    "div": "Pacific",
    "conf": "Western",
    "gp": 3,
@@ -684,6 +699,7 @@
   {
    "abbr": "SEA",
    "name": "Seattle Kraken",
+   "nick": "Kraken",
    "div": "Pacific",
    "conf": "Western",
    "gp": 4,
@@ -703,6 +719,7 @@
   {
    "abbr": "VAN",
    "name": "Vancouver Canucks",
+   "nick": "Canucks",
    "div": "Pacific",
    "conf": "Western",
    "gp": 4,
@@ -722,6 +739,7 @@
   {
    "abbr": "TOR",
    "name": "Toronto Maple Leafs",
+   "nick": "Maple Leafs",
    "div": "Atlantic",
    "conf": "Eastern",
    "gp": 4,
@@ -741,6 +759,7 @@
   {
    "abbr": "BOS",
    "name": "Boston Bruins",
+   "nick": "Bruins",
    "div": "Atlantic",
    "conf": "Eastern",
    "gp": 4,
@@ -760,6 +779,7 @@
   {
    "abbr": "MTL",
    "name": "Montréal Canadiens",
+   "nick": "Canadiens",
    "div": "Atlantic",
    "conf": "Eastern",
    "gp": 3,
@@ -779,6 +799,7 @@
   {
    "abbr": "NSH",
    "name": "Nashville Predators",
+   "nick": "Predators",
    "div": "Central",
    "conf": "Western",
    "gp": 3,
@@ -798,6 +819,7 @@
   {
    "abbr": "WSH",
    "name": "Washington Capitals",
+   "nick": "Capitals",
    "div": "Metropolitan",
    "conf": "Eastern",
    "gp": 2,
@@ -817,6 +839,7 @@
   {
    "abbr": "CBJ",
    "name": "Columbus Blue Jackets",
+   "nick": "Blue Jackets",
    "div": "Metropolitan",
    "conf": "Eastern",
    "gp": 2,
@@ -836,6 +859,7 @@
   {
    "abbr": "NYI",
    "name": "New York Islanders",
+   "nick": "Islanders",
    "div": "Metropolitan",
    "conf": "Eastern",
    "gp": 3,
@@ -855,6 +879,7 @@
   {
    "abbr": "DAL",
    "name": "Dallas Stars",
+   "nick": "Stars",
    "div": "Central",
    "conf": "Western",
    "gp": 3,
@@ -874,6 +899,7 @@
   {
    "abbr": "DET",
    "name": "Detroit Red Wings",
+   "nick": "Red Wings",
    "div": "Atlantic",
    "conf": "Eastern",
    "gp": 3,
@@ -893,6 +919,7 @@
   {
    "abbr": "STL",
    "name": "St. Louis Blues",
+   "nick": "Blues",
    "div": "Central",
    "conf": "Western",
    "gp": 3,
@@ -912,6 +939,7 @@
   {
    "abbr": "NJD",
    "name": "New Jersey Devils",
+   "nick": "Devils",
    "div": "Metropolitan",
    "conf": "Eastern",
    "gp": 3,
@@ -931,6 +959,7 @@
   {
    "abbr": "CHI",
    "name": "Chicago Blackhawks",
+   "nick": "Blackhawks",
    "div": "Central",
    "conf": "Western",
    "gp": 4,
@@ -950,6 +979,7 @@
   {
    "abbr": "PHI",
    "name": "Philadelphia Flyers",
+   "nick": "Flyers",
    "div": "Metropolitan",
    "conf": "Eastern",
    "gp": 4,
@@ -969,6 +999,7 @@
   {
    "abbr": "LAK",
    "name": "Los Angeles Kings",
+   "nick": "Kings",
    "div": "Pacific",
    "conf": "Western",
    "gp": 3,
@@ -988,6 +1019,7 @@
   {
    "abbr": "CGY",
    "name": "Calgary Flames",
+   "nick": "Flames",
    "div": "Pacific",
    "conf": "Western",
    "gp": 3,
@@ -1035,5 +1067,5 @@
    "rank": 19
   }
  },
- "updated": "2026-10-07T18:54:35Z"
+ "updated": "2026-10-07T19:21:02Z"
 }

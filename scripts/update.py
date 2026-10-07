@@ -62,7 +62,7 @@ for table in soup.find_all("table"):
             if is_goalie and key in known_g:
                 who = known_g[key]; rec = data["goalies"][who]
                 gp = to_int(v[0])
-                setv(rec, who, "team", team); setv(rec, who, "lg", lg); setv(rec, who, "gp", gp)
+                setv(rec, who, "gp", gp)
                 if gp > 0:
                     setv(rec, who, "gaa", to_float(v[1]))
                     sv = v[2].strip(); sv = sv[1:] if sv.startswith("0.") else sv
@@ -74,7 +74,6 @@ for table in soup.find_all("table"):
                 who = known_sk[key]; rec = data["skaters"][who]
                 gp, g, a, tp = (to_int(x) for x in v[:4])
                 if tp != g + a: print("SKIP (TP != G+A):", who, v); continue
-                setv(rec, who, "team", team); setv(rec, who, "lg", lg)
                 for k, val in (("gp", gp), ("g", g), ("a", a), ("tp", tp), ("ppg", (tp / gp if gp else 0)),
                                ("pim", to_int(v[5])), ("pm", to_int(v[6]))):
                     setv(rec, who, k, val)

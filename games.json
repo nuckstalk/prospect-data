@@ -1,7 +1,55 @@
 {
- "updated": "2026-10-05T00:00:00Z",
+ "updated": "2026-10-07T04:40:30Z",
  "results": [
-  {"opp": "Edmonton Oilers", "abbr": "EDM", "home": true, "date": "Oct 5", "us": 7, "them": 9, "res": "L"}
+  {
+   "opp": "Vegas Golden Knights",
+   "abbr": "VGK",
+   "home": true,
+   "date": "Oct 4",
+   "us": 2,
+   "them": 3,
+   "res": "L"
+  },
+  {
+   "opp": "Calgary Flames",
+   "abbr": "CGY",
+   "home": true,
+   "date": "Oct 3",
+   "us": 4,
+   "them": 1,
+   "res": "W"
+  },
+  {
+   "opp": "Edmonton Oilers",
+   "abbr": "EDM",
+   "home": true,
+   "date": "Oct 1",
+   "us": 7,
+   "them": 9,
+   "res": "L"
+  }
  ],
- "upcoming": []
+ "upcoming": [
+  {
+   "opp": "Carolina Hurricanes",
+   "abbr": "CAR",
+   "home": false,
+   "date": "Thu Oct 8",
+   "time": "4:00 PM PT"
+  },
+  {
+   "opp": "New Jersey Devils",
+   "abbr": "NJD",
+   "home": false,
+   "date": "Sat Oct 10",
+   "time": "12:30 PM PT"
+  },
+  {
+   "opp": "New York Rangers",
+   "abbr": "NYR",
+   "home": false,
+   "date": "Sun Oct 11",
+   "time": "3:00 PM PT"
+  }
+ ]
 }

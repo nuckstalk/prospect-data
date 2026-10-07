@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 URL = "https://www.eliteprospects.com/team/77/vancouver-canucks/in-the-system"
 data = json.load(open("prospects.json", encoding="utf-8"))
 
-req = urllib.request.Request(URL + "?cb=" + datetime.datetime.utcnow().strftime("%Y%m%d%H%M"),
+req = urllib.request.Request(URL + "?cb=" + datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d%H%M"),
     headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36",
              "Cache-Control": "no-cache"})
 try:
@@ -16,6 +16,19 @@ except Exception as e:
     print("FETCH FAILED:", e); sys.exit(0)
 
 soup = BeautifulSoup(html, "html.parser")
+
+# ---- DIAGNOSTICS (printed to the Actions log) ----
+print("HTML length:", len(html))
+print("Title:", soup.title.get_text(strip=True) if soup.title else None)
+print("Tables:", len(soup.find_all("table")))
+for i, t in enumerate(soup.find_all("table")[:4]):
+    print(" table", i, "headers:", [h.get_text(" ", strip=True) for h in t.find_all("th")][:14])
+    r = t.find_all("tr")
+    print("   rows:", len(r), "| sample:", r[1].get_text(" | ", strip=True)[:160] if len(r) > 1 else None)
+print("has __NEXT_DATA__:", "__NEXT_DATA__" in html, "| has 'Riley Patterson':", "Riley Patterson" in html,
+      "| cloudflare/challenge:", any(w in html.lower() for w in ("just a moment", "cf-chl", "captcha", "access denied")))
+print("Body text sample:", re.sub(r"\s+", " ", soup.get_text(" "))[:600])
+# ---------------------------------------------------
 
 def norm(s):
     import unicodedata
@@ -75,7 +88,7 @@ for grp in ("skaters", "goalies"):
     for n, r in data[grp].items():
         if r["gp"] < old[grp][n]["gp"]:
             print("GP DECREASED for", n, "- refusing to write"); sys.exit(0)
-today = datetime.datetime.utcnow() - datetime.timedelta(hours=8)  # Pacific-ish
+today = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(hours=8)  # Pacific-ish
 data["asof"] = today.strftime("%Y-%m-%d")
 data["label"] = today.strftime("%B ") + str(today.day) + today.strftime(", %Y")
 json.dump(data, open("prospects.json", "w", encoding="utf-8"), indent=1, ensure_ascii=False)

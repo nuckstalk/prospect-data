@@ -66,7 +66,7 @@ standings = []
 if st and st.get("standings"):
     for t in st["standings"]:
         standings.append({
-            "abbr": nm(t.get("teamAbbrev")), "name": nm(t.get("teamName")),
+            "abbr": nm(t.get("teamAbbrev")), "name": nm(t.get("teamName")), "nick": nm(t.get("teamCommonName")),
             "div": t.get("divisionName", t.get("divisionAbbrev", "")), "conf": t.get("conferenceName", t.get("conferenceAbbrev", "")),
             "gp": int(num(t.get("gamesPlayed"))), "w": int(num(t.get("wins"))), "l": int(num(t.get("losses"))),
             "otl": int(num(t.get("otLosses"))), "pts": int(num(t.get("points"))),

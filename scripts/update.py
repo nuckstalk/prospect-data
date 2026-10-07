@@ -44,11 +44,13 @@ for table in soup.find_all("table"):
     is_goalie = "Goalie" in heads
     is_skater = "Skater" in heads
     if not (is_goalie or is_skater): continue
+    first = next((r for r in table.find_all("tr") if r.find("td")), None)
+    if first: print("first row cells:", [c.get_text(" ", strip=True) for c in first.find_all("td")])
     tail = 6 if is_goalie else 7   # columns after League: GP.. / GP,GAA,SV%,SO,W-L-T,TOI
     for tr in table.find_all("tr"):
         cells = [td.get_text(" ", strip=True) for td in tr.find_all("td")]
         if len(cells) < tail + 3: continue
-        key = norm(cells[1])
+        key = norm(re.sub(r"\([^)]*\)", "", cells[1]))
         team, lg = cells[-(tail + 2)], cells[-(tail + 1)]
         v = cells[-tail:]
         try:

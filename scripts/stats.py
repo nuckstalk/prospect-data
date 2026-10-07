@@ -91,7 +91,7 @@ if season:
         METRICS = [("gf", "goalsForPerGame", True), ("ga", "goalsAgainstPerGame", False),
                    ("pp", "powerPlayPct", True), ("pk", "penaltyKillPct", True),
                    ("sf", "shotsForPerGame", True), ("sa", "shotsAgainstPerGame", False),
-                   ("fo", "faceoffWinPct", True)]
+                   ("fo", "faceoffWinPct", True), ("pt", "pointPct", True)]
         van = next((r for r in rows if "Vancouver" in str(r.get("teamFullName", ""))), None)
         if van:
             for key, field, high in METRICS:
@@ -99,7 +99,7 @@ if season:
                 if van.get(field) is None or not vals: continue
                 v = num(van[field])
                 rank = 1 + sum(1 for x in vals if (x > v if high else x < v))
-                team[key] = {"v": (pct(v) if key in ("pp", "pk", "fo") else round(v, 2)), "rank": rank}
+                team[key] = {"v": (pct(v) if key in ("pp", "pk", "fo", "pt") else round(v, 2)), "rank": rank}
     else:
         print("no team rows")
 

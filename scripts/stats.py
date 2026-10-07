@@ -37,7 +37,7 @@ skaters = []
 for p in cs["skaters"]:
     gp = int(num(p.get("gamesPlayed")))
     skaters.append({
-        "name": (nm(p.get("firstName")) + " " + nm(p.get("lastName"))).strip(),
+        "name": (nm(p.get("firstName")) + " " + nm(p.get("lastName"))).strip(), "id": p.get("playerId"),
         "pos": p.get("positionCode", ""), "gp": gp,
         "g": int(num(p.get("goals"))), "a": int(num(p.get("assists"))), "pts": int(num(p.get("points"))),
         "pm": int(num(p.get("plusMinus"))), "pim": int(num(p.get("penaltyMinutes"))),
@@ -51,7 +51,7 @@ skaters.sort(key=lambda s: (-s["pts"], -s["g"], s["name"]))
 goalies = []
 for p in cs.get("goalies", []):
     goalies.append({
-        "name": (nm(p.get("firstName")) + " " + nm(p.get("lastName"))).strip(),
+        "name": (nm(p.get("firstName")) + " " + nm(p.get("lastName"))).strip(), "id": p.get("playerId"),
         "gp": int(num(p.get("gamesPlayed"))), "gs": int(num(p.get("gamesStarted"))),
         "w": int(num(p.get("wins"))), "l": int(num(p.get("losses"))), "otl": int(num(p.get("overtimeLosses"))),
         "gaa": round(num(p.get("goalsAgainstAverage")), 2),
@@ -59,6 +59,43 @@ for p in cs.get("goalies", []):
         "so": int(num(p.get("shutouts"))), "sa": int(num(p.get("shotsAgainst"))),
         "sv": int(num(p.get("saves"))), "ga": int(num(p.get("goalsAgainst"))), "img": p.get("headshot", "")})
 goalies.sort(key=lambda g: (-g["gp"], g["name"]))
+
+
+# ---- game-by-game logs (newest first) for the Trends tab
+try:
+    prev = json.load(open("stats.json", encoding="utf-8"))
+except Exception:
+    prev = {}
+prev_logs = {p.get("id"): p.get("log") for p in prev.get("skaters", []) + prev.get("goalies", []) if p.get("log")}
+
+def tsec(t):
+    try:
+        m, sec = str(t).split(":"); return int(m) * 60 + int(sec)
+    except Exception:
+        return 0
+
+def get_log(pid):
+    d = get("https://api-web.nhle.com/v1/player/%s/game-log/now" % pid)
+    return (d or {}).get("gameLog")
+
+logged = 0
+for p in skaters:
+    gl = get_log(p["id"]) if p.get("id") else None
+    if gl is None:
+        p["log"] = prev_logs.get(p.get("id"), []); continue
+    p["log"] = [[g.get("gameDate", ""), int(num(g.get("goals"))), int(num(g.get("assists"))), int(num(g.get("points"))),
+                 int(num(g.get("plusMinus"))), int(num(g.get("pim"))), int(num(g.get("shots"))),
+                 int(num(g.get("powerPlayPoints"))), tsec(g.get("toi"))] for g in gl[:90]]
+    logged += 1
+for p in goalies:
+    gl = get_log(p["id"]) if p.get("id") else None
+    if gl is None:
+        p["log"] = prev_logs.get(p.get("id"), []); continue
+    p["log"] = [[g.get("gameDate", ""), str(g.get("decision", "")), int(num(g.get("shotsAgainst"))), int(num(g.get("goalsAgainst"))),
+                 tsec(g.get("toi")), int(num(g.get("shutouts"))), int(num(g.get("gamesStarted")))] for g in gl[:90]]
+    logged += 1
+print("game logs fetched:", logged, "of", len(skaters) + len(goalies))
+if skaters and skaters[0].get("log"): print("sample log row:", skaters[0]["log"][0])
 
 # ---- standings (all 32 teams, compact)
 st = get("https://api-web.nhle.com/v1/standings/now")

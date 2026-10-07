@@ -2,6 +2,7 @@
 Only updates stats for players already in the JSON (bios/draft data live in the embeds).
 Exits without changing the file if the page can't be parsed or the data looks wrong."""
 import json, re, sys, datetime, unicodedata, urllib.request
+from zoneinfo import ZoneInfo
 from bs4 import BeautifulSoup
 
 URL = "https://www.eliteprospects.com/team/77/vancouver-canucks/in-the-system"
@@ -92,6 +93,50 @@ for grp in ("skaters", "goalies"):
     for n, r in data[grp].items():
         if r["gp"] < old[grp][n]["gp"]:
             print("GP DECREASED for", n, "- refusing to write (page may be stale)"); sys.exit(0)
+
+
+# ---- Prospect Watch: log who played since the last run, filed under the Pacific game date ----
+def parse_rec(r):
+    try:
+        a = [int(x) for x in str(r).split("-")]
+        return a + [0] * (3 - len(a))
+    except Exception:
+        return [0, 0, 0]
+
+PT = ZoneInfo("America/Vancouver")
+game_date = (NOW.astimezone(PT) - datetime.timedelta(hours=8)).strftime("%Y-%m-%d")  # before 8am PT counts as last night
+watch = data.get("watch", [])
+day = next((d for d in watch if d["date"] == game_date), None)
+new_items = []
+for n, r in data["skaters"].items():
+    o = old["skaters"][n]
+    dgp = r["gp"] - o["gp"]
+    if dgp > 0:
+        new_items.append({"k": "S", "name": n, "lg": r["lg"], "dgp": dgp, "dg": r["g"] - o["g"], "da": r["a"] - o["a"],
+                          "dtp": r["tp"] - o["tp"], "sgp": r["gp"], "sg": r["g"], "sa": r["a"], "stp": r["tp"]})
+for n, r in data["goalies"].items():
+    o = old["goalies"][n]
+    dgp = r["gp"] - o["gp"]
+    if dgp > 0:
+        a, b = parse_rec(o["rec"]), parse_rec(r["rec"])
+        res = "W" if b[0] > a[0] else "L" if b[1] > a[1] else "OTL" if b[2] > a[2] else ""
+        new_items.append({"k": "G", "name": n, "lg": r["lg"], "dgp": dgp, "res": res, "gaa": r["gaa"],
+                          "svp": r["svp"], "sgp": r["gp"]})
+if new_items:
+    if day is None:
+        day = {"date": game_date, "items": []}; watch.append(day)
+    for it in new_items:
+        ex = next((x for x in day["items"] if x["name"] == it["name"]), None)
+        if ex is None:
+            day["items"].append(it)
+        else:  # same player again today: add the new deltas, keep latest season totals
+            for k in ("dgp", "dg", "da", "dtp"):
+                if k in it: ex[k] = ex.get(k, 0) + it[k]
+            ex.update({k: v for k, v in it.items() if k not in ("dgp", "dg", "da", "dtp")})
+    print("watch:", [(i["name"], i["dgp"]) for i in new_items])
+watch.sort(key=lambda d: d["date"], reverse=True)
+data["watch"] = watch[:7]
+# ---------------------------------------------------------------------------------------------
 
 today = NOW - datetime.timedelta(hours=8)
 data["asof"] = today.strftime("%Y-%m-%d")

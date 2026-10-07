@@ -1,6 +1,6 @@
 {
- "asof": "2026-10-05",
- "label": "October 5, 2026",
+ "asof": "2026-10-06",
+ "label": "October 6, 2026",
  "skaters": {
   "Riley Patterson": {
    "ep": 1,
@@ -160,7 +160,7 @@
   },
   "Anthony Romani": {
    "ep": 14,
-   "team": "Michigan State",
+   "team": "Michigan State Univ.",
    "lg": "NCAA",
    "gp": 0,
    "g": 0,
@@ -196,7 +196,7 @@
   },
   "Matthew Lansing": {
    "ep": 18,
-   "team": "Quinnipiac",
+   "team": "Quinnipiac Univ.",
    "lg": "NCAA",
    "gp": 2,
    "g": 1,
@@ -220,8 +220,8 @@
   },
   "Samuel Eriksson": {
    "ep": 20,
-   "team": "Färjestad BK U20",
-   "lg": "U20",
+   "team": "",
+   "lg": "totals",
    "gp": 10,
    "g": 1,
    "a": 1,
@@ -244,7 +244,7 @@
   },
   "Matthew Perkins": {
    "ep": 22,
-   "team": "Northeastern",
+   "team": "Northeastern Univ.",
    "lg": "NCAA",
    "gp": 0,
    "g": 0,
@@ -268,7 +268,7 @@
   },
   "Daimon Gardner": {
    "ep": 25,
-   "team": "Minnesota State (Mankato)",
+   "team": "Minnesota State Univ. (Mankato)",
    "lg": "NCAA",
    "gp": 0,
    "g": 0,
@@ -305,8 +305,8 @@
  },
  "goalies": {
   "Dmitri Ivchenko": {
-   "team": "Omskie Yastreby",
-   "lg": "MHL",
+   "team": "",
+   "lg": "totals",
    "gp": 6,
    "gaa": 3.64,
    "svp": ".862",

@@ -87,7 +87,7 @@ if missing: print("not found on page:", missing)
 for c in changed: print("  ", c)
 
 if len(seen) < 20: print("too few players parsed - no commit"); sys.exit(0)
-if not changed: print("nothing changed - no commit"); sys.exit(0)
+if not changed: print("no stat changes - refreshing the date only")
 for grp in ("skaters", "goalies"):
     for n, r in data[grp].items():
         if r["gp"] < old[grp][n]["gp"]:

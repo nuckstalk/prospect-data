@@ -229,10 +229,17 @@ def mins(v):
 
 
 def decision(r):
-    d = str(g(r, "decision", "result", "game_result", "win_loss", default="")).strip().upper()
-    if d[:1] == "W" or num(r.get("wins")) > 0: return "W"
-    if d[:2] in ("OT", "SO") or "OT" in d or num(r.get("ot_losses")) > 0 or num(r.get("shootout_losses")) > 0: return "OTL"
-    if d[:1] == "L" or num(r.get("losses")) > 0: return "L"
+    low = {str(k).lower(): v for k, v in r.items()}
+    for k in ("decision", "result", "game_result", "win_loss", "outcome", "record"):
+        d = str(low.get(k, "")).strip().upper()
+        if d:
+            if d[:1] == "W": return "W"
+            if d[:2] in ("OT", "SO") or "OT" in d: return "OTL"
+            if d[:1] == "L": return "L"
+    def on(*names): return any(num(low.get(n)) > 0 for n in names)
+    if on("win", "wins", "w"): return "W"
+    if on("ot_loss", "ot_losses", "otl", "overtime_loss", "overtime_losses", "so_loss", "shootout_loss", "shootout_losses", "sol"): return "OTL"
+    if on("loss", "losses", "l"): return "L"
     return ""
 
 
@@ -261,12 +268,15 @@ def get_log(pid, goalie):
         for x in games[:90]:
             if goalie:
                 ga = ival(x, "goals_against"); sa = ival(x, "shots_against", "shots") or (ival(x, "saves") + ga)
-                toi = mins(g(x, "minutes_played", "time_on_ice", "toi", "minutes")) or 3600
+                toi = mins(g(x, "minutes_played", "time_on_ice", "toi", "minutes", "ice_time_minutes_seconds")) or 3600
+                if not LOGGED.get("g"):
+                    LOGGED["g"] = 1; print("goalie game row:", json.dumps(x)[:700])
                 out.append([gdate(x), decision(x), sa, ga, toi, ival(x, "shutouts"), ival(x, "games_started") or 1])
             else:
                 gg, aa = ival(x, "goals"), ival(x, "assists")
                 out.append([gdate(x), gg, aa, ival(x, "points") or gg + aa, ival(x, "plus_minus"), ival(x, "penalty_minutes"),
-                            ival(x, "shots"), ival(x, "power_play_goals") + ival(x, "power_play_assists"), 0])
+                            ival(x, "shots"), ival(x, "power_play_goals") + ival(x, "power_play_assists"),
+                            mins(g(x, "ice_time_minutes_seconds", "time_on_ice", "toi"))])
         return out
     return None
 

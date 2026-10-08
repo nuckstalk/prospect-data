@@ -11,10 +11,10 @@ EAST = ("atlantic", "north")        # AHL divisions in the Eastern Conference; t
 
 
 HOSTS = ["https://lscluster.hockeytech.com/feed/index.php", "https://lscluster.hockeytech.com/feed/"]
-HEADERS = [H,
+HEADERS = [{"User-Agent": "Mozilla/5.0"}, H,
            {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
             "Accept": "application/json, text/javascript, */*; q=0.01", "Referer": "https://www.theahl.com/", "Origin": "https://www.theahl.com"},
-           {"User-Agent": "Mozilla/5.0"}]
+           ]
 SHOWN = set()
 
 
@@ -115,6 +115,7 @@ print("teams in season:", len(teams))
 if teams: print("team keys:", sorted(teams[0].keys()))
 abb = next((t for t in teams if "abbotsford" in json.dumps(t).lower()), None)
 tid = str(abb["id"]) if abb else "440"
+abb_code = str((abb or {}).get("code", (abb or {}).get("team_code", "ABB"))).upper()
 print("Abbotsford team id:", tid)
 by_id = {str(t.get("id")): t for t in teams}
 by_code = {str(t.get("team_code", t.get("code", ""))).upper(): t for t in teams}
@@ -131,7 +132,9 @@ def players(position):
             "position": position, "rookie": "no", "statsType": "standard", "rosterstatus": "undefined",
             "site_id": "3", "first": "0", "limit": "200", "sort": "points" if position == "skaters" else "games_played",
             "league_id": "4", "division": "-1", "conference": "-1", "qualified": "all"})
-    rows = rows_of(r)
+    rows = [x for x in rows_of(r) if "properties" not in x or len(x) > 1]
+    mine_rows = [x for x in rows if str(x.get("team_code", "")).upper() == abb_code]
+    if mine_rows: rows = mine_rows
     print(position, "rows:", len(rows), "| first row keys:", sorted(rows[0].keys()) if rows else "none")
     return rows
 
@@ -153,8 +156,10 @@ for r in players("skaters"):
         "name": pname(r), "id": g(r, "player_id", "id"), "pos": str(g(r, "position", "pos", default="")),
         "gp": ival(r, "games_played"), "g": ival(r, "goals"), "a": ival(r, "assists"), "pts": ival(r, "points"),
         "pm": ival(r, "plus_minus"), "pim": ival(r, "penalty_minutes"),
-        "ppg": ival(r, "power_play_goals"), "shg": ival(r, "short_handed_goals"), "gwg": ival(r, "game_winning_goals"),
-        "otg": None, "sog": ival(r, "shots"), "shp": round(num(g(r, "shooting_percentage", "shooting_pct")), 1),
+        "ppg": ival(r, "power_play_goals"), "shg": ival(r, "short_handed_goals"),
+        "gwg": ival(r, "game_winning_goals") if g(r, "game_winning_goals") is not None else None,
+        "otg": None, "sog": ival(r, "shots"),
+        "shp": round(num(g(r, "shooting_percentage", "shooting_pct"), None) if g(r, "shooting_percentage", "shooting_pct") is not None else (100.0 * num(r.get("goals")) / num(r.get("shots")) if num(r.get("shots")) else 0.0), 1),
         "toi": None, "fo": None, "img": img(r)})
 skaters = [s for s in skaters if s["name"]]
 skaters.sort(key=lambda s: (-s["pts"], -s["g"], s["name"]))
@@ -171,7 +176,7 @@ for r in players("goalies"):
         "name": pname(r), "id": g(r, "player_id", "id"), "gp": ival(r, "games_played"), "gs": None,
         "w": ival(r, "wins"), "l": ival(r, "losses"), "otl": ival(r, "ot_losses", "overtime_losses") + ival(r, "shootout_losses"),
         "gaa": round(num(g(r, "goals_against_average", "gaa")), 2), "svp": svp(g(r, "save_percentage", "sv_pct")),
-        "so": ival(r, "shutouts"), "sa": ival(r, "shots_against"), "sv": ival(r, "saves"), "ga": ival(r, "goals_against"),
+        "so": ival(r, "shutouts"), "sa": ival(r, "shots_against", "shots"), "sv": ival(r, "saves"), "ga": ival(r, "goals_against"),
         "img": img(r)})
 goalies = [x for x in goalies if x["name"]]
 goalies.sort(key=lambda x: (-x["gp"], x["name"]))
@@ -182,7 +187,7 @@ for k in ("gs", "sa", "sv", "ga"):          # drop a column the feed doesn't car
 # ---- standings
 sr = ht({"feed": "statviewfeed", "view": "teams", "groupTeamsBy": "league", "context": "overall", "site_id": "3",
          "season": sid, "season_id": sid, "special": "false", "league_id": "4"})
-srows = rows_of(sr)
+srows = [x for x in rows_of(sr) if (x.get("team_code") or x.get("code") or x.get("name")) and "games_played" in x]
 print("standings rows:", len(srows), "| first row keys:", sorted(srows[0].keys()) if srows else "none")
 standings = []
 for r in srows:

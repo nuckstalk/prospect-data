@@ -10,19 +10,62 @@ NOW = datetime.datetime.now(datetime.timezone.utc)
 EAST = ("atlantic", "north")        # AHL divisions in the Eastern Conference; the rest are Western
 
 
+HOSTS = ["https://lscluster.hockeytech.com/feed/index.php", "https://lscluster.hockeytech.com/feed/"]
+HEADERS = [H,
+           {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+            "Accept": "application/json, text/javascript, */*; q=0.01", "Referer": "https://www.theahl.com/", "Origin": "https://www.theahl.com"},
+           {"User-Agent": "Mozilla/5.0"}]
+SHOWN = set()
+
+
+def raw_get(url, headers):
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req, timeout=40) as r:
+        return r.status, r.headers.get("Content-Type", ""), r.read().decode("utf-8", "replace").strip()
+
+
+def discover_key():
+    """If the built-in key is rejected, look for the one theahl.com itself uses in its page scripts."""
+    pat = re.compile(r"""["']?(?:key|apiKey|api_key)["']?\s*[:=]\s*["']([0-9a-f]{16})["']""")
+    try:
+        _, _, home = raw_get("https://theahl.com/", H)
+        srcs = re.findall(r'src=["\']([^"\']+\.js[^"\']*)["\']', home)[:12]
+        for text in [home] + [raw_get(u if u.startswith("http") else urllib.parse.urljoin("https://theahl.com/", u), H)[2] for u in srcs if "theahl" in u or u.startswith("/")]:
+            m = pat.search(text)
+            if m: return m.group(1)
+    except Exception as e:
+        print("key discovery failed:", e)
+    return None
+
+
 def ht(params):
-    q = dict(params, key=KEY, client_code="ahl", fmt="json", lang="en")
-    url = BASE + "?" + urllib.parse.urlencode(q)
-    try:
-        raw = urllib.request.urlopen(urllib.request.Request(url, headers=H), timeout=40).read().decode("utf-8", "replace").strip()
-    except Exception as e:
-        print("FETCH FAILED:", params.get("view") or params.get("feed"), "->", e); return None
-    raw = re.sub(r"^[\w.$]*\(", "", raw)     # strip a JSONP wrapper if there is one
-    raw = re.sub(r"\)\s*;?\s*$", "", raw)
-    try:
-        return json.loads(raw)
-    except Exception as e:
-        print("NOT JSON:", params.get("view"), "->", raw[:200].replace("\n", " ")); return None
+    global KEY
+    for attempt in range(2):
+        q = dict(params, key=KEY, client_code="ahl", fmt="json", lang="en")
+        for host in HOSTS:
+            url = host + "?" + urllib.parse.urlencode(q)
+            for hi, hd in enumerate(HEADERS):
+                try:
+                    status, ctype, raw = raw_get(url, hd)
+                except Exception as e:
+                    sig = (params.get("view"), host, hi, str(e)[:60])
+                    if sig not in SHOWN: SHOWN.add(sig); print("FETCH FAILED:", params.get("view"), "| host", host[-12:], "| headers", hi, "->", e)
+                    continue
+                body = re.sub(r"^[\w.$]*\(", "", raw)
+                body = re.sub(r"\)\s*;?\s*$", "", body)
+                try:
+                    return json.loads(body)
+                except Exception:
+                    sig = (params.get("view"), host, hi, "notjson")
+                    if sig not in SHOWN:
+                        SHOWN.add(sig)
+                        print("NOT JSON:", params.get("view"), "| host", host[-12:], "| headers", hi, "| status", status, "|", ctype, "| length", len(raw), "|", raw[:150].replace("\n", " "))
+        if attempt == 0:
+            k = discover_key()
+            print("built-in key failed; key found on theahl.com:", k)
+            if not k or k == KEY: break
+            KEY = k
+    return None
 
 
 def rows_of(obj):

@@ -19,7 +19,31 @@
    "shp": 33.3,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/10089.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/10089.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     1,
+     0,
+     1,
+     -1,
+     0,
+     3,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     1,
+     0,
+     1,
+     -1,
+     0,
+     3,
+     0,
+     0
+    ]
+   ]
   },
   {
    "name": "Ilya Safonov",
@@ -39,7 +63,31 @@
    "shp": 0.0,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/11362.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/11362.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     0,
+     1,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     0,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
   },
   {
    "name": "Kirill Kudryavtsev",
@@ -59,7 +107,31 @@
    "shp": 0.0,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/10452.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/10452.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     0,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     0,
+     1,
+     1,
+     1,
+     4,
+     3,
+     0,
+     0
+    ]
+   ]
   },
   {
    "name": "Braeden Cootes",
@@ -79,7 +151,31 @@
    "shp": 11.1,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/11363.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/11363.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     1,
+     0,
+     1,
+     -1,
+     0,
+     5,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     0,
+     0,
+     0,
+     -2,
+     0,
+     4,
+     0,
+     0
+    ]
+   ]
   },
   {
    "name": "Jimmy Schuldt",
@@ -99,7 +195,31 @@
    "shp": 25.0,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/7767.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/7767.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     0,
+     0,
+     0,
+     -3,
+     2,
+     2,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     1,
+     0,
+     1,
+     1,
+     0,
+     2,
+     0,
+     0
+    ]
+   ]
   },
   {
    "name": "Bennett Schimek",
@@ -119,7 +239,31 @@
    "shp": 0.0,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/10974.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/10974.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     0,
+     1,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     0,
+     0,
+     0,
+     -1,
+     0,
+     4,
+     0,
+     0
+    ]
+   ]
   },
   {
    "name": "Riley Patterson",
@@ -139,7 +283,31 @@
    "shp": 0.0,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/11053.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/11053.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     0,
+     0,
+     0,
+     0,
+     0,
+     3,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     0,
+     1,
+     1,
+     1,
+     0,
+     2,
+     0,
+     0
+    ]
+   ]
   },
   {
    "name": "Trey Fix-Wolansky",
@@ -159,7 +327,31 @@
    "shp": 0.0,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/7669.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/7669.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     0,
+     0,
+     0,
+     -1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     0,
+     1,
+     1,
+     0,
+     0,
+     4,
+     0,
+     0
+    ]
+   ]
   },
   {
    "name": "Anri Ravinskis",
@@ -179,7 +371,31 @@
    "shp": 0.0,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/10919.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/10919.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     0,
+     0,
+     0,
+     0,
+     2,
+     0,
+     0,
+     0
+    ]
+   ]
   },
   {
    "name": "Ben Berard",
@@ -199,7 +415,31 @@
    "shp": 0.0,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/9674.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/9674.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     0,
+     0,
+     0,
+     -1,
+     0,
+     3,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     0,
+     0,
+     0,
+     -1,
+     0,
+     3,
+     0,
+     0
+    ]
+   ]
   },
   {
    "name": "Chase Wouters",
@@ -219,7 +459,31 @@
    "shp": 0.0,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/7696.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/7696.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     0,
+     0,
+     0,
+     -2,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     0,
+     0,
+     0,
+     -1,
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
   },
   {
    "name": "Cole Clayton",
@@ -239,7 +503,31 @@
    "shp": 0.0,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/8916.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/8916.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     0,
+     0,
+     0,
+     -1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     0,
+     0,
+     0,
+     1,
+     0,
+     2,
+     0,
+     0
+    ]
+   ]
   },
   {
    "name": "Gavin White",
@@ -259,7 +547,31 @@
    "shp": 0.0,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/9962.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/9962.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     0,
+     0,
+     0,
+     1,
+     0,
+     4,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     0,
+     0,
+     0,
+     -3,
+     0,
+     2,
+     0,
+     0
+    ]
+   ]
   },
   {
    "name": "Isaac Belliveau",
@@ -279,7 +591,20 @@
    "shp": 0.0,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/9803.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/9803.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     0,
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ]
   },
   {
    "name": "Joe Arntsen",
@@ -299,7 +624,20 @@
    "shp": 0.0,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/10146.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/10146.jpg",
+   "log": [
+    [
+     "2026-10-02",
+     0,
+     0,
+     0,
+     -2,
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
   },
   {
    "name": "Kole Lind",
@@ -319,7 +657,31 @@
    "shp": 0.0,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/7101.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/7101.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     0,
+     0,
+     0,
+     -1,
+     2,
+     2,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     0,
+     0,
+     0,
+     -1,
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
   },
   {
    "name": "Matthew Stienburg",
@@ -339,27 +701,31 @@
    "shp": 0.0,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/9683.jpg"
-  },
-  {
-   "name": "Nikita Tolopilo",
-   "id": "9983",
-   "pos": "G",
-   "gp": 1,
-   "g": 0,
-   "a": 0,
-   "pts": 0,
-   "pm": 0,
-   "pim": 2,
-   "ppg": 0,
-   "shg": 0,
-   "gwg": null,
-   "otg": null,
-   "sog": 0,
-   "shp": 0.0,
-   "toi": null,
-   "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/9983.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/9683.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     0,
+     0,
+     0,
+     -1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     0,
+     0,
+     0,
+     -1,
+     0,
+     1,
+     0,
+     0
+    ]
+   ]
   },
   {
    "name": "Sawyer Mynio",
@@ -379,27 +745,31 @@
    "shp": 0.0,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/10077.jpg"
-  },
-  {
-   "name": "Ty Young",
-   "id": "10454",
-   "pos": "G",
-   "gp": 1,
-   "g": 0,
-   "a": 0,
-   "pts": 0,
-   "pm": 0,
-   "pim": 0,
-   "ppg": 0,
-   "shg": 0,
-   "gwg": null,
-   "otg": null,
-   "sog": 0,
-   "shp": 0.0,
-   "toi": null,
-   "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/10454.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/10077.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     0,
+     0,
+     0,
+     -1,
+     0,
+     5,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     0,
+     0,
+     0,
+     -1,
+     0,
+     2,
+     0,
+     0
+    ]
+   ]
   },
   {
    "name": "Vilmer Alriksson",
@@ -419,7 +789,31 @@
    "shp": 0.0,
    "toi": null,
    "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/10117.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/10117.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     0,
+     0,
+     0,
+     -1,
+     2,
+     2,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     0,
+     0,
+     0,
+     -1,
+     0,
+     0,
+     0,
+     0
+    ]
+   ]
   }
  ],
  "goalies": [
@@ -437,7 +831,18 @@
    "sa": 20,
    "sv": 17,
    "ga": 3,
-   "img": "https://assets.leaguestat.com/ahl/240x240/9983.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/9983.jpg",
+   "log": [
+    [
+     "2026-10-02",
+     "",
+     20,
+     3,
+     3478,
+     0,
+     1
+    ]
+   ]
   },
   {
    "name": "Ty Young",
@@ -453,7 +858,18 @@
    "sa": 31,
    "sv": 28,
    "ga": 3,
-   "img": "https://assets.leaguestat.com/ahl/240x240/10454.jpg"
+   "img": "https://assets.leaguestat.com/ahl/240x240/10454.jpg",
+   "log": [
+    [
+     "2026-10-03",
+     "",
+     31,
+     3,
+     3521,
+     0,
+     1
+    ]
+   ]
   }
  ],
  "standings": [
@@ -1112,5 +1528,5 @@
    "rank": 27
   }
  },
- "updated": "2026-10-08T01:00:16Z"
+ "updated": "2026-10-08T01:11:56Z"
 }

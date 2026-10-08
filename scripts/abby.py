@@ -38,13 +38,13 @@ def discover_key():
     return None
 
 
-def ht(params):
+def ht(params, quick=False):
     global KEY
-    for attempt in range(2):
+    for attempt in range(1 if quick else 2):
         q = dict(params, key=KEY, client_code="ahl", fmt="json", lang="en")
-        for host in HOSTS:
+        for host in (HOSTS[:1] if quick else HOSTS):
             url = host + "?" + urllib.parse.urlencode(q)
-            for hi, hd in enumerate(HEADERS):
+            for hi, hd in enumerate(HEADERS[:1] if quick else HEADERS):
                 try:
                     status, ctype, raw = raw_get(url, hd)
                 except Exception as e:
@@ -161,7 +161,7 @@ for r in players("skaters"):
         "otg": None, "sog": ival(r, "shots"),
         "shp": round(num(g(r, "shooting_percentage", "shooting_pct"), None) if g(r, "shooting_percentage", "shooting_pct") is not None else (100.0 * num(r.get("goals")) / num(r.get("shots")) if num(r.get("shots")) else 0.0), 1),
         "toi": None, "fo": None, "img": img(r)})
-skaters = [s for s in skaters if s["name"]]
+skaters = [s for s in skaters if s["name"] and s["pos"].upper() != "G"]
 skaters.sort(key=lambda s: (-s["pts"], -s["g"], s["name"]))
 
 
@@ -183,6 +183,102 @@ goalies.sort(key=lambda x: (-x["gp"], x["name"]))
 for k in ("gs", "sa", "sv", "ga"):          # drop a column the feed doesn't carry rather than showing zeros
     if all(not x.get(k) for x in goalies):
         for x in goalies: x[k] = None
+
+# ---- game-by-game logs (newest first) for the Trends tab
+try:
+    prev = json.load(open("abby.json", encoding="utf-8"))
+except Exception:
+    prev = {}
+prev_logs = {str(p.get("id")): p.get("log") for p in prev.get("skaters", []) + prev.get("goalies", []) if p.get("log")}
+
+
+def find_games(obj):
+    """The longest list of per-game dicts anywhere in a response (rows with a date and a stat)."""
+    best = []
+    def walk(o):
+        nonlocal best
+        if isinstance(o, list):
+            flat = [(x["row"] if isinstance(x.get("row"), dict) else x) for x in o if isinstance(x, dict)]
+            if flat and any(any("date" in k for k in r) for r in flat) and \
+               any(("goals" in r or "saves" in r or "shots_against" in r or "goals_against" in r or "points" in r) for r in flat):
+                if len(flat) > len(best): best = flat
+            for x in o: walk(x)
+        elif isinstance(o, dict):
+            for v in o.values(): walk(v)
+    walk(obj)
+    return best
+
+
+def gdate(r):
+    for k in ("date_played", "game_date", "date", "game_date_iso_8601"):
+        if r.get(k): v = str(r[k]); break
+    else:
+        v = next((str(val) for key, val in r.items() if "date" in key and val), "")
+    m = re.search(r"\d{4}-\d{2}-\d{2}", v)
+    return m.group(0) if m else v
+
+
+def mins(v):
+    v = str(v or "").strip()
+    try:
+        if ":" in v:
+            a, b = v.split(":")[:2]; return int(num(a)) * 60 + int(num(b))
+        return int(num(v) * 60)
+    except Exception:
+        return 0
+
+
+def decision(r):
+    d = str(g(r, "decision", "result", "game_result", "win_loss", default="")).strip().upper()
+    if d[:1] == "W" or num(r.get("wins")) > 0: return "W"
+    if d[:2] in ("OT", "SO") or "OT" in d or num(r.get("ot_losses")) > 0 or num(r.get("shootout_losses")) > 0: return "OTL"
+    if d[:1] == "L" or num(r.get("losses")) > 0: return "L"
+    return ""
+
+
+LOGGED = {"shown": 0}
+ATTEMPTS = [
+    {"feed": "modulekit", "view": "player", "category": "gamebygame"},
+    {"feed": "statviewfeed", "view": "player", "statsType": "standard", "site_id": "3", "league_id": "4"},
+    {"feed": "modulekit", "view": "player", "category": "lastgames"},
+]
+
+
+def get_log(pid, goalie):
+    for at in ATTEMPTS:
+        resp = ht(dict(at, player_id=str(pid), season_id=sid, season=sid), quick=True)
+        games = [x for x in find_games(resp) if gdate(x)]
+        if not games:
+            if LOGGED.get("miss", 0) < 3 and resp is not None:
+                LOGGED["miss"] = LOGGED.get("miss", 0) + 1
+                print("no games found via", at.get("category") or at.get("view"), "| response starts:", json.dumps(resp)[:300])
+            continue
+        games.sort(key=lambda x: (gdate(x), str(x.get("game_id", ""))), reverse=True)
+        if LOGGED["shown"] < 2:
+            LOGGED["shown"] += 1
+            print("log source:", at.get("category") or at.get("view"), "| games:", len(games), "| game row keys:", sorted(games[0].keys()))
+        out = []
+        for x in games[:90]:
+            if goalie:
+                ga = ival(x, "goals_against"); sa = ival(x, "shots_against", "shots") or (ival(x, "saves") + ga)
+                toi = mins(g(x, "minutes_played", "time_on_ice", "toi", "minutes")) or 3600
+                out.append([gdate(x), decision(x), sa, ga, toi, ival(x, "shutouts"), ival(x, "games_started") or 1])
+            else:
+                gg, aa = ival(x, "goals"), ival(x, "assists")
+                out.append([gdate(x), gg, aa, ival(x, "points") or gg + aa, ival(x, "plus_minus"), ival(x, "penalty_minutes"),
+                            ival(x, "shots"), ival(x, "power_play_goals") + ival(x, "power_play_assists"), 0])
+        return out
+    return None
+
+
+logged = 0
+for p in skaters + goalies:
+    gl = get_log(p["id"], p in goalies) if p.get("id") else None
+    if gl is None:
+        p["log"] = prev_logs.get(str(p.get("id")), []); continue
+    p["log"] = gl; logged += 1
+print("game logs fetched:", logged, "of", len(skaters) + len(goalies))
+if skaters and skaters[0].get("log"): print("sample log row:", skaters[0]["log"][0])
 
 # ---- standings
 sr = ht({"feed": "statviewfeed", "view": "teams", "groupTeamsBy": "league", "context": "overall", "site_id": "3",

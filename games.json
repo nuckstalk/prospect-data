@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-07T04:40:30Z",
+ "updated": "2026-10-09T01:48:05Z",
  "results": [
+  {
+   "opp": "Carolina Hurricanes",
+   "abbr": "CAR",
+   "home": false,
+   "date": "Oct 8",
+   "us": 2,
+   "them": 7,
+   "res": "L"
+  },
   {
    "opp": "Vegas Golden Knights",
    "abbr": "VGK",
@@ -18,25 +27,9 @@
    "us": 4,
    "them": 1,
    "res": "W"
-  },
-  {
-   "opp": "Edmonton Oilers",
-   "abbr": "EDM",
-   "home": true,
-   "date": "Oct 1",
-   "us": 7,
-   "them": 9,
-   "res": "L"
   }
  ],
  "upcoming": [
-  {
-   "opp": "Carolina Hurricanes",
-   "abbr": "CAR",
-   "home": false,
-   "date": "Thu Oct 8",
-   "time": "4:00 PM PT"
-  },
   {
    "opp": "New Jersey Devils",
    "abbr": "NJD",
@@ -50,6 +43,13 @@
    "home": false,
    "date": "Sun Oct 11",
    "time": "3:00 PM PT"
+  },
+  {
+   "opp": "New York Islanders",
+   "abbr": "NYI",
+   "home": false,
+   "date": "Tue Oct 13",
+   "time": "4:45 PM PT"
   }
  ]
 }

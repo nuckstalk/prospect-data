@@ -1975,6 +1975,26 @@
    "lseq": 22
   },
   {
+   "abbr": "NJD",
+   "name": "New Jersey Devils",
+   "nick": "Devils",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 4,
+   "w": 2,
+   "l": 2,
+   "otl": 0,
+   "pts": 4,
+   "gf": 10,
+   "ga": 14,
+   "diff": -4,
+   "l10": "2-2-0",
+   "strk": "W1",
+   "dseq": 7,
+   "cseq": 12,
+   "lseq": 23
+  },
+  {
    "abbr": "BUF",
    "name": "Buffalo Sabres",
    "nick": "Sabres",
@@ -1991,8 +2011,8 @@
    "l10": "2-2-0",
    "strk": "L1",
    "dseq": 6,
-   "cseq": 12,
-   "lseq": 23
+   "cseq": 13,
+   "lseq": 24
   },
   {
    "abbr": "VAN",
@@ -2000,19 +2020,19 @@
    "nick": "Canucks",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 5,
+   "gp": 6,
    "w": 2,
-   "l": 3,
+   "l": 4,
    "otl": 0,
    "pts": 4,
-   "gf": 21,
-   "ga": 25,
-   "diff": -4,
-   "l10": "2-3-0",
-   "strk": "L2",
+   "gf": 22,
+   "ga": 29,
+   "diff": -7,
+   "l10": "2-4-0",
+   "strk": "L3",
    "dseq": 6,
    "cseq": 12,
-   "lseq": 24
+   "lseq": 25
   },
   {
    "abbr": "STL",
@@ -2032,7 +2052,7 @@
    "strk": "OT1",
    "dseq": 7,
    "cseq": 13,
-   "lseq": 25
+   "lseq": 26
   },
   {
    "abbr": "MTL",
@@ -2049,26 +2069,6 @@
    "ga": 19,
    "diff": -5,
    "l10": "1-2-1",
-   "strk": "L2",
-   "dseq": 7,
-   "cseq": 13,
-   "lseq": 26
-  },
-  {
-   "abbr": "NJD",
-   "name": "New Jersey Devils",
-   "nick": "Devils",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 3,
-   "w": 1,
-   "l": 2,
-   "otl": 0,
-   "pts": 2,
-   "gf": 6,
-   "ga": 13,
-   "diff": -7,
-   "l10": "1-2-0",
    "strk": "L2",
    "dseq": 7,
    "cseq": 14,
@@ -2209,5 +2209,5 @@
    "rank": 24
   }
  },
- "updated": "2026-10-10T19:45:16Z"
+ "updated": "2026-10-10T22:15:16Z"
 }

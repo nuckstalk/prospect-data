@@ -1600,16 +1600,16 @@
    "nick": "Jets",
    "div": "Central",
    "conf": "Western",
-   "gp": 4,
+   "gp": 5,
    "w": 3,
-   "l": 0,
+   "l": 1,
    "otl": 1,
    "pts": 7,
-   "gf": 12,
-   "ga": 10,
-   "diff": 2,
-   "l10": "3-0-1",
-   "strk": "W3",
+   "gf": 13,
+   "ga": 15,
+   "diff": -2,
+   "l10": "3-1-1",
+   "strk": "L1",
    "dseq": 1,
    "cseq": 3,
    "lseq": 4
@@ -1715,6 +1715,26 @@
    "lseq": 9
   },
   {
+   "abbr": "ANA",
+   "name": "Anaheim Ducks",
+   "nick": "Ducks",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 4,
+   "w": 3,
+   "l": 1,
+   "otl": 0,
+   "pts": 6,
+   "gf": 14,
+   "ga": 11,
+   "diff": 3,
+   "l10": "3-1-0",
+   "strk": "W1",
+   "dseq": 3,
+   "cseq": 5,
+   "lseq": 10
+  },
+  {
    "abbr": "FLA",
    "name": "Florida Panthers",
    "nick": "Panthers",
@@ -1732,7 +1752,7 @@
    "strk": "W1",
    "dseq": 3,
    "cseq": 6,
-   "lseq": 10
+   "lseq": 11
   },
   {
    "abbr": "SJS",
@@ -1750,9 +1770,9 @@
    "diff": -2,
    "l10": "3-1-0",
    "strk": "W1",
-   "dseq": 3,
-   "cseq": 5,
-   "lseq": 11
+   "dseq": 4,
+   "cseq": 6,
+   "lseq": 12
   },
   {
    "abbr": "SEA",
@@ -1770,9 +1790,9 @@
    "diff": 7,
    "l10": "3-2-0",
    "strk": "W1",
-   "dseq": 4,
-   "cseq": 6,
-   "lseq": 12
+   "dseq": 5,
+   "cseq": 7,
+   "lseq": 13
   },
   {
    "abbr": "UTA",
@@ -1791,8 +1811,8 @@
    "l10": "3-2-0",
    "strk": "L1",
    "dseq": 3,
-   "cseq": 7,
-   "lseq": 13
+   "cseq": 8,
+   "lseq": 14
   },
   {
    "abbr": "BOS",
@@ -1812,7 +1832,7 @@
    "strk": "W1",
    "dseq": 4,
    "cseq": 7,
-   "lseq": 14
+   "lseq": 15
   },
   {
    "abbr": "MIN",
@@ -1831,8 +1851,8 @@
    "l10": "2-1-1",
    "strk": "L1",
    "dseq": 4,
-   "cseq": 8,
-   "lseq": 15
+   "cseq": 9,
+   "lseq": 16
   },
   {
    "abbr": "NSH",
@@ -1851,8 +1871,8 @@
    "l10": "2-1-1",
    "strk": "W1",
    "dseq": 5,
-   "cseq": 9,
-   "lseq": 16
+   "cseq": 10,
+   "lseq": 17
   },
   {
    "abbr": "PIT",
@@ -1872,7 +1892,7 @@
    "strk": "OT1",
    "dseq": 4,
    "cseq": 8,
-   "lseq": 17
+   "lseq": 18
   },
   {
    "abbr": "TOR",
@@ -1892,26 +1912,6 @@
    "strk": "OT1",
    "dseq": 5,
    "cseq": 9,
-   "lseq": 18
-  },
-  {
-   "abbr": "ANA",
-   "name": "Anaheim Ducks",
-   "nick": "Ducks",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 3,
-   "w": 2,
-   "l": 1,
-   "otl": 0,
-   "pts": 4,
-   "gf": 9,
-   "ga": 10,
-   "diff": -1,
-   "l10": "2-1-0",
-   "strk": "L1",
-   "dseq": 5,
-   "cseq": 10,
    "lseq": 19
   },
   {
@@ -2178,7 +2178,7 @@
  "team": {
   "gf": {
    "v": 4.2,
-   "rank": 4
+   "rank": 3
   },
   "ga": {
    "v": 5.0,
@@ -2198,7 +2198,7 @@
   },
   "sa": {
    "v": 30.6,
-   "rank": 29
+   "rank": 30
   },
   "fo": {
    "v": 50.6,
@@ -2209,5 +2209,5 @@
    "rank": 24
   }
  },
- "updated": "2026-10-10T02:16:16Z"
+ "updated": "2026-10-10T06:22:30Z"
 }

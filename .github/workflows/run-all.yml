@@ -1,0 +1,18 @@
+name: Run all updates
+on:
+  workflow_dispatch: {}
+permissions:
+  actions: write
+  contents: read
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start every update
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run stats.yml --repo ${{ github.repository }}
+          gh workflow run abby.yml --repo ${{ github.repository }}
+          gh workflow run games.yml --repo ${{ github.repository }}
+          gh workflow run update.yml --repo ${{ github.repository }}

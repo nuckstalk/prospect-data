@@ -294,13 +294,13 @@
    "ep": 27,
    "team": "Lausanne HC",
    "lg": "NL",
-   "gp": 10,
+   "gp": 11,
    "g": 2,
    "a": 1,
    "tp": 3,
-   "ppg": 0.3,
+   "ppg": 0.2727272727272727,
    "pim": 52,
-   "pm": -2
+   "pm": -1
   }
  },
  "goalies": {
@@ -357,6 +357,19 @@
      "sg": 1,
      "sa": 1,
      "stp": 2
+    },
+    {
+     "k": "S",
+     "name": "Basile Sansonnens",
+     "lg": "NL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 11,
+     "sg": 2,
+     "sa": 1,
+     "stp": 3
     }
    ]
   },

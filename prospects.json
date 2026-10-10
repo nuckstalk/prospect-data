@@ -30,11 +30,11 @@
    "ep": 3,
    "team": "Peterborough Petes",
    "lg": "OHL",
-   "gp": 5,
+   "gp": 6,
    "g": 4,
-   "a": 3,
-   "tp": 7,
-   "ppg": 1.4,
+   "a": 5,
+   "tp": 9,
+   "ppg": 1.5,
    "pim": 0,
    "pm": -2
   },
@@ -78,13 +78,13 @@
    "ep": 7,
    "team": "Oshawa Generals",
    "lg": "OHL",
-   "gp": 5,
+   "gp": 6,
    "g": 0,
    "a": 4,
    "tp": 4,
-   "ppg": 0.8,
+   "ppg": 0.6666666666666666,
    "pim": 6,
-   "pm": 2
+   "pm": 1
   },
   "Kieren Dervin": {
    "ep": 8,
@@ -325,11 +325,11 @@
   "Alexei Medvedev": {
    "team": "London Knights",
    "lg": "OHL",
-   "gp": 2,
-   "gaa": 3.4,
-   "svp": ".910",
+   "gp": 3,
+   "gaa": 3.16,
+   "svp": ".915",
    "so": 0,
-   "rec": "1-1-0"
+   "rec": "1-1-1"
   },
   "Ty Young": {
    "team": "Abbotsford Canucks",
@@ -342,6 +342,47 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-10-09",
+   "items": [
+    {
+     "k": "S",
+     "name": "Adam Novotný",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 2,
+     "dtp": 2,
+     "sgp": 6,
+     "sg": 4,
+     "sa": 5,
+     "stp": 9
+    },
+    {
+     "k": "S",
+     "name": "Brooks Rogowski",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 6,
+     "sg": 0,
+     "sa": 4,
+     "stp": 4
+    },
+    {
+     "k": "G",
+     "name": "Alexei Medvedev",
+     "lg": "OHL",
+     "dgp": 1,
+     "res": "OTL",
+     "gaa": 3.16,
+     "svp": ".915",
+     "sgp": 3
+    }
+   ]
+  },
   {
    "date": "2026-10-07",
    "items": [

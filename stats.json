@@ -1535,6 +1535,26 @@
  ],
  "standings": [
   {
+   "abbr": "EDM",
+   "name": "Edmonton Oilers",
+   "nick": "Oilers",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 5,
+   "w": 4,
+   "l": 0,
+   "otl": 1,
+   "pts": 9,
+   "gf": 25,
+   "ga": 17,
+   "diff": 8,
+   "l10": "4-0-1",
+   "strk": "W4",
+   "dseq": 1,
+   "cseq": 1,
+   "lseq": 1
+  },
+  {
    "abbr": "VGK",
    "name": "Vegas Golden Knights",
    "nick": "Golden Knights",
@@ -1550,9 +1570,9 @@
    "diff": 8,
    "l10": "4-1-0",
    "strk": "W3",
-   "dseq": 1,
-   "cseq": 1,
-   "lseq": 1
+   "dseq": 2,
+   "cseq": 2,
+   "lseq": 2
   },
   {
    "abbr": "NYR",
@@ -1572,7 +1592,7 @@
    "strk": "L1",
    "dseq": 1,
    "cseq": 1,
-   "lseq": 2
+   "lseq": 3
   },
   {
    "abbr": "BOS",
@@ -1591,26 +1611,6 @@
    "l10": "4-2-0",
    "strk": "W2",
    "dseq": 1,
-   "cseq": 2,
-   "lseq": 3
-  },
-  {
-   "abbr": "EDM",
-   "name": "Edmonton Oilers",
-   "nick": "Oilers",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 4,
-   "w": 3,
-   "l": 0,
-   "otl": 1,
-   "pts": 7,
-   "gf": 22,
-   "ga": 16,
-   "diff": 6,
-   "l10": "3-0-1",
-   "strk": "W3",
-   "dseq": 2,
    "cseq": 2,
    "lseq": 4
   },
@@ -1775,26 +1775,6 @@
    "lseq": 12
   },
   {
-   "abbr": "SJS",
-   "name": "San Jose Sharks",
-   "nick": "Sharks",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 4,
-   "w": 3,
-   "l": 1,
-   "otl": 0,
-   "pts": 6,
-   "gf": 12,
-   "ga": 14,
-   "diff": -2,
-   "l10": "3-1-0",
-   "strk": "W1",
-   "dseq": 4,
-   "cseq": 6,
-   "lseq": 13
-  },
-  {
    "abbr": "SEA",
    "name": "Seattle Kraken",
    "nick": "Kraken",
@@ -1810,9 +1790,9 @@
    "diff": 7,
    "l10": "3-2-0",
    "strk": "W1",
-   "dseq": 5,
-   "cseq": 7,
-   "lseq": 14
+   "dseq": 4,
+   "cseq": 6,
+   "lseq": 13
   },
   {
    "abbr": "UTA",
@@ -1831,6 +1811,26 @@
    "l10": "3-2-0",
    "strk": "L1",
    "dseq": 3,
+   "cseq": 7,
+   "lseq": 14
+  },
+  {
+   "abbr": "SJS",
+   "name": "San Jose Sharks",
+   "nick": "Sharks",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 5,
+   "w": 3,
+   "l": 2,
+   "otl": 0,
+   "pts": 6,
+   "gf": 13,
+   "ga": 17,
+   "diff": -4,
+   "l10": "3-2-0",
+   "strk": "L1",
+   "dseq": 5,
    "cseq": 8,
    "lseq": 15
   },
@@ -2209,5 +2209,5 @@
    "rank": 24
   }
  },
- "updated": "2026-10-10T22:15:16Z"
+ "updated": "2026-10-10T22:53:49Z"
 }

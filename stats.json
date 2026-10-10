@@ -1575,6 +1575,26 @@
    "lseq": 2
   },
   {
+   "abbr": "BOS",
+   "name": "Boston Bruins",
+   "nick": "Bruins",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 6,
+   "w": 4,
+   "l": 2,
+   "otl": 0,
+   "pts": 8,
+   "gf": 20,
+   "ga": 13,
+   "diff": 7,
+   "l10": "4-2-0",
+   "strk": "W2",
+   "dseq": 1,
+   "cseq": 2,
+   "lseq": 3
+  },
+  {
    "abbr": "EDM",
    "name": "Edmonton Oilers",
    "nick": "Oilers",
@@ -1592,7 +1612,7 @@
    "strk": "W3",
    "dseq": 2,
    "cseq": 2,
-   "lseq": 3
+   "lseq": 4
   },
   {
    "abbr": "WPG",
@@ -1612,7 +1632,7 @@
    "strk": "L1",
    "dseq": 1,
    "cseq": 3,
-   "lseq": 4
+   "lseq": 5
   },
   {
    "abbr": "CAR",
@@ -1631,8 +1651,8 @@
    "l10": "3-1-1",
    "strk": "W3",
    "dseq": 2,
-   "cseq": 2,
-   "lseq": 5
+   "cseq": 3,
+   "lseq": 6
   },
   {
    "abbr": "COL",
@@ -1652,7 +1672,7 @@
    "strk": "W1",
    "dseq": 2,
    "cseq": 4,
-   "lseq": 6
+   "lseq": 7
   },
   {
    "abbr": "WSH",
@@ -1671,8 +1691,8 @@
    "l10": "3-1-0",
    "strk": "W2",
    "dseq": 3,
-   "cseq": 3,
-   "lseq": 7
+   "cseq": 4,
+   "lseq": 8
   },
   {
    "abbr": "OTT",
@@ -1690,9 +1710,9 @@
    "diff": 3,
    "l10": "3-1-0",
    "strk": "W1",
-   "dseq": 1,
-   "cseq": 4,
-   "lseq": 8
+   "dseq": 2,
+   "cseq": 5,
+   "lseq": 9
   },
   {
    "abbr": "TBL",
@@ -1710,9 +1730,9 @@
    "diff": 2,
    "l10": "3-1-0",
    "strk": "W3",
-   "dseq": 2,
-   "cseq": 5,
-   "lseq": 9
+   "dseq": 3,
+   "cseq": 6,
+   "lseq": 10
   },
   {
    "abbr": "ANA",
@@ -1732,7 +1752,7 @@
    "strk": "W1",
    "dseq": 3,
    "cseq": 5,
-   "lseq": 10
+   "lseq": 11
   },
   {
    "abbr": "FLA",
@@ -1750,9 +1770,9 @@
    "diff": 0,
    "l10": "2-0-2",
    "strk": "W1",
-   "dseq": 3,
-   "cseq": 6,
-   "lseq": 11
+   "dseq": 4,
+   "cseq": 7,
+   "lseq": 12
   },
   {
    "abbr": "SJS",
@@ -1772,7 +1792,7 @@
    "strk": "W1",
    "dseq": 4,
    "cseq": 6,
-   "lseq": 12
+   "lseq": 13
   },
   {
    "abbr": "SEA",
@@ -1792,7 +1812,7 @@
    "strk": "W1",
    "dseq": 5,
    "cseq": 7,
-   "lseq": 13
+   "lseq": 14
   },
   {
    "abbr": "UTA",
@@ -1812,26 +1832,6 @@
    "strk": "L1",
    "dseq": 3,
    "cseq": 8,
-   "lseq": 14
-  },
-  {
-   "abbr": "BOS",
-   "name": "Boston Bruins",
-   "nick": "Bruins",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 5,
-   "w": 3,
-   "l": 2,
-   "otl": 0,
-   "pts": 6,
-   "gf": 15,
-   "ga": 12,
-   "diff": 3,
-   "l10": "3-2-0",
-   "strk": "W1",
-   "dseq": 4,
-   "cseq": 7,
    "lseq": 15
   },
   {
@@ -2120,16 +2120,16 @@
    "nick": "Flyers",
    "div": "Metropolitan",
    "conf": "Eastern",
-   "gp": 5,
+   "gp": 6,
    "w": 0,
-   "l": 3,
+   "l": 4,
    "otl": 2,
    "pts": 2,
-   "gf": 6,
-   "ga": 19,
-   "diff": -13,
-   "l10": "0-3-2",
-   "strk": "L2",
+   "gf": 7,
+   "ga": 24,
+   "diff": -17,
+   "l10": "0-4-2",
+   "strk": "L3",
    "dseq": 8,
    "cseq": 16,
    "lseq": 30
@@ -2209,5 +2209,5 @@
    "rank": 24
   }
  },
- "updated": "2026-10-10T17:30:15Z"
+ "updated": "2026-10-10T19:45:16Z"
 }

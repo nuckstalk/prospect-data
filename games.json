@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-10T19:45:18Z",
+ "updated": "2026-10-10T22:15:19Z",
  "results": [
+  {
+   "opp": "New Jersey Devils",
+   "abbr": "NJD",
+   "home": false,
+   "date": "Oct 10",
+   "us": 1,
+   "them": 4,
+   "res": "L"
+  },
   {
    "opp": "Carolina Hurricanes",
    "abbr": "CAR",
@@ -18,15 +27,6 @@
    "us": 2,
    "them": 3,
    "res": "L"
-  },
-  {
-   "opp": "Calgary Flames",
-   "abbr": "CGY",
-   "home": true,
-   "date": "Oct 3",
-   "us": 4,
-   "them": 1,
-   "res": "W"
   }
  ],
  "upcoming": [

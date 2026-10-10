@@ -150,25 +150,25 @@
    "ep": 13,
    "team": "Quinnipiac Univ.",
    "lg": "NCAA",
-   "gp": 2,
+   "gp": 3,
    "g": 1,
    "a": 1,
    "tp": 2,
-   "ppg": 1,
+   "ppg": 0.6666666666666666,
    "pim": 0,
-   "pm": 4
+   "pm": 5
   },
   "Anthony Romani": {
    "ep": 14,
    "team": "Michigan State",
    "lg": "NCAA",
-   "gp": 0,
-   "g": 0,
-   "a": 0,
-   "tp": 0,
-   "ppg": 0,
+   "gp": 1,
+   "g": 2,
+   "a": 1,
+   "tp": 3,
+   "ppg": 3.0,
    "pim": 0,
-   "pm": 0
+   "pm": -1
   },
   "Sawyer Mynio": {
    "ep": 16,
@@ -198,13 +198,13 @@
    "ep": 18,
    "team": "Quinnipiac",
    "lg": "NCAA",
-   "gp": 2,
+   "gp": 3,
    "g": 1,
-   "a": 1,
-   "tp": 2,
+   "a": 2,
+   "tp": 3,
    "ppg": 1,
    "pim": 2,
-   "pm": 3
+   "pm": 4
   },
   "Wilson Björck": {
    "ep": 19,
@@ -270,7 +270,7 @@
    "ep": 25,
    "team": "Minnesota State (Mankato)",
    "lg": "NCAA",
-   "gp": 0,
+   "gp": 1,
    "g": 0,
    "a": 0,
    "tp": 0,
@@ -380,6 +380,58 @@
      "gaa": 3.16,
      "svp": ".915",
      "sgp": 3
+    },
+    {
+     "k": "S",
+     "name": "Parker Alcos",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 3,
+     "sg": 1,
+     "sa": 1,
+     "stp": 2
+    },
+    {
+     "k": "S",
+     "name": "Anthony Romani",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 2,
+     "da": 1,
+     "dtp": 3,
+     "sgp": 1,
+     "sg": 2,
+     "sa": 1,
+     "stp": 3
+    },
+    {
+     "k": "S",
+     "name": "Matthew Lansing",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 3,
+     "sg": 1,
+     "sa": 2,
+     "stp": 3
+    },
+    {
+     "k": "S",
+     "name": "Daimon Gardner",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 1,
+     "sg": 0,
+     "sa": 0,
+     "stp": 0
     }
    ]
   },

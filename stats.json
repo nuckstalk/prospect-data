@@ -1535,26 +1535,6 @@
  ],
  "standings": [
   {
-   "abbr": "NYR",
-   "name": "New York Rangers",
-   "nick": "Rangers",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 5,
-   "w": 4,
-   "l": 1,
-   "otl": 0,
-   "pts": 8,
-   "gf": 16,
-   "ga": 8,
-   "diff": 8,
-   "l10": "4-1-0",
-   "strk": "W4",
-   "dseq": 1,
-   "cseq": 1,
-   "lseq": 1
-  },
-  {
    "abbr": "VGK",
    "name": "Vegas Golden Knights",
    "nick": "Golden Knights",
@@ -1570,6 +1550,26 @@
    "diff": 8,
    "l10": "4-1-0",
    "strk": "W3",
+   "dseq": 1,
+   "cseq": 1,
+   "lseq": 1
+  },
+  {
+   "abbr": "NYR",
+   "name": "New York Rangers",
+   "nick": "Rangers",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 6,
+   "w": 4,
+   "l": 2,
+   "otl": 0,
+   "pts": 8,
+   "gf": 17,
+   "ga": 11,
+   "diff": 6,
+   "l10": "4-2-0",
+   "strk": "L1",
    "dseq": 1,
    "cseq": 1,
    "lseq": 2
@@ -1655,6 +1655,26 @@
    "lseq": 6
   },
   {
+   "abbr": "WSH",
+   "name": "Washington Capitals",
+   "nick": "Capitals",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 4,
+   "w": 3,
+   "l": 1,
+   "otl": 0,
+   "pts": 6,
+   "gf": 14,
+   "ga": 9,
+   "diff": 5,
+   "l10": "3-1-0",
+   "strk": "W2",
+   "dseq": 3,
+   "cseq": 3,
+   "lseq": 7
+  },
+  {
    "abbr": "OTT",
    "name": "Ottawa Senators",
    "nick": "Senators",
@@ -1671,8 +1691,8 @@
    "l10": "3-1-0",
    "strk": "W1",
    "dseq": 1,
-   "cseq": 3,
-   "lseq": 7
+   "cseq": 4,
+   "lseq": 8
   },
   {
    "abbr": "TBL",
@@ -1691,8 +1711,8 @@
    "l10": "3-1-0",
    "strk": "W3",
    "dseq": 2,
-   "cseq": 4,
-   "lseq": 8
+   "cseq": 5,
+   "lseq": 9
   },
   {
    "abbr": "FLA",
@@ -1711,8 +1731,8 @@
    "l10": "2-0-2",
    "strk": "W1",
    "dseq": 3,
-   "cseq": 5,
-   "lseq": 9
+   "cseq": 6,
+   "lseq": 10
   },
   {
    "abbr": "SJS",
@@ -1732,7 +1752,27 @@
    "strk": "W1",
    "dseq": 3,
    "cseq": 5,
-   "lseq": 10
+   "lseq": 11
+  },
+  {
+   "abbr": "SEA",
+   "name": "Seattle Kraken",
+   "nick": "Kraken",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 5,
+   "w": 3,
+   "l": 2,
+   "otl": 0,
+   "pts": 6,
+   "gf": 21,
+   "ga": 14,
+   "diff": 7,
+   "l10": "3-2-0",
+   "strk": "W1",
+   "dseq": 4,
+   "cseq": 6,
+   "lseq": 12
   },
   {
    "abbr": "UTA",
@@ -1751,8 +1791,8 @@
    "l10": "3-2-0",
    "strk": "L1",
    "dseq": 3,
-   "cseq": 6,
-   "lseq": 11
+   "cseq": 7,
+   "lseq": 13
   },
   {
    "abbr": "BOS",
@@ -1771,8 +1811,8 @@
    "l10": "3-2-0",
    "strk": "W1",
    "dseq": 4,
-   "cseq": 6,
-   "lseq": 12
+   "cseq": 7,
+   "lseq": 14
   },
   {
    "abbr": "MIN",
@@ -1791,8 +1831,8 @@
    "l10": "2-1-1",
    "strk": "L1",
    "dseq": 4,
-   "cseq": 7,
-   "lseq": 13
+   "cseq": 8,
+   "lseq": 15
   },
   {
    "abbr": "NSH",
@@ -1811,8 +1851,28 @@
    "l10": "2-1-1",
    "strk": "W1",
    "dseq": 5,
+   "cseq": 9,
+   "lseq": 16
+  },
+  {
+   "abbr": "PIT",
+   "name": "Pittsburgh Penguins",
+   "nick": "Penguins",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 5,
+   "w": 2,
+   "l": 2,
+   "otl": 1,
+   "pts": 5,
+   "gf": 20,
+   "ga": 16,
+   "diff": 4,
+   "l10": "2-2-1",
+   "strk": "OT1",
+   "dseq": 4,
    "cseq": 8,
-   "lseq": 14
+   "lseq": 17
   },
   {
    "abbr": "TOR",
@@ -1831,28 +1891,8 @@
    "l10": "2-2-1",
    "strk": "OT1",
    "dseq": 5,
-   "cseq": 7,
-   "lseq": 15
-  },
-  {
-   "abbr": "WSH",
-   "name": "Washington Capitals",
-   "nick": "Capitals",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 3,
-   "w": 2,
-   "l": 1,
-   "otl": 0,
-   "pts": 4,
-   "gf": 11,
-   "ga": 8,
-   "diff": 3,
-   "l10": "2-1-0",
-   "strk": "W1",
-   "dseq": 3,
-   "cseq": 8,
-   "lseq": 16
+   "cseq": 9,
+   "lseq": 18
   },
   {
    "abbr": "ANA",
@@ -1870,9 +1910,29 @@
    "diff": -1,
    "l10": "2-1-0",
    "strk": "L1",
-   "dseq": 4,
-   "cseq": 9,
-   "lseq": 17
+   "dseq": 5,
+   "cseq": 10,
+   "lseq": 19
+  },
+  {
+   "abbr": "CBJ",
+   "name": "Columbus Blue Jackets",
+   "nick": "Blue Jackets",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 3,
+   "w": 2,
+   "l": 1,
+   "otl": 0,
+   "pts": 4,
+   "gf": 10,
+   "ga": 9,
+   "diff": 1,
+   "l10": "2-1-0",
+   "strk": "W1",
+   "dseq": 5,
+   "cseq": 10,
+   "lseq": 20
   },
   {
    "abbr": "NYI",
@@ -1890,29 +1950,9 @@
    "diff": 5,
    "l10": "2-2-0",
    "strk": "W1",
-   "dseq": 4,
-   "cseq": 9,
-   "lseq": 18
-  },
-  {
-   "abbr": "SEA",
-   "name": "Seattle Kraken",
-   "nick": "Kraken",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 4,
-   "w": 2,
-   "l": 2,
-   "otl": 0,
-   "pts": 4,
-   "gf": 15,
-   "ga": 11,
-   "diff": 4,
-   "l10": "2-2-0",
-   "strk": "L1",
-   "dseq": 5,
-   "cseq": 10,
-   "lseq": 19
+   "dseq": 6,
+   "cseq": 11,
+   "lseq": 21
   },
   {
    "abbr": "DAL",
@@ -1932,27 +1972,7 @@
    "strk": "W2",
    "dseq": 6,
    "cseq": 11,
-   "lseq": 20
-  },
-  {
-   "abbr": "PIT",
-   "name": "Pittsburgh Penguins",
-   "nick": "Penguins",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 4,
-   "w": 2,
-   "l": 2,
-   "otl": 0,
-   "pts": 4,
-   "gf": 18,
-   "ga": 13,
-   "diff": 5,
-   "l10": "2-2-0",
-   "strk": "L2",
-   "dseq": 5,
-   "cseq": 10,
-   "lseq": 21
+   "lseq": 22
   },
   {
    "abbr": "BUF",
@@ -1971,8 +1991,8 @@
    "l10": "2-2-0",
    "strk": "L1",
    "dseq": 6,
-   "cseq": 11,
-   "lseq": 22
+   "cseq": 12,
+   "lseq": 23
   },
   {
    "abbr": "VAN",
@@ -1992,7 +2012,7 @@
    "strk": "L2",
    "dseq": 6,
    "cseq": 12,
-   "lseq": 23
+   "lseq": 24
   },
   {
    "abbr": "STL",
@@ -2012,7 +2032,7 @@
    "strk": "OT1",
    "dseq": 7,
    "cseq": 13,
-   "lseq": 24
+   "lseq": 25
   },
   {
    "abbr": "MTL",
@@ -2031,48 +2051,8 @@
    "l10": "1-2-1",
    "strk": "L2",
    "dseq": 7,
-   "cseq": 12,
-   "lseq": 25
-  },
-  {
-   "abbr": "CBJ",
-   "name": "Columbus Blue Jackets",
-   "nick": "Blue Jackets",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 2,
-   "w": 1,
-   "l": 1,
-   "otl": 0,
-   "pts": 2,
-   "gf": 7,
-   "ga": 7,
-   "diff": 0,
-   "l10": "1-1-0",
-   "strk": "L1",
-   "dseq": 6,
    "cseq": 13,
    "lseq": 26
-  },
-  {
-   "abbr": "DET",
-   "name": "Detroit Red Wings",
-   "nick": "Red Wings",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 3,
-   "w": 1,
-   "l": 2,
-   "otl": 0,
-   "pts": 2,
-   "gf": 7,
-   "ga": 8,
-   "diff": -1,
-   "l10": "1-2-0",
-   "strk": "W1",
-   "dseq": 8,
-   "cseq": 14,
-   "lseq": 27
   },
   {
    "abbr": "NJD",
@@ -2091,6 +2071,26 @@
    "l10": "1-2-0",
    "strk": "L2",
    "dseq": 7,
+   "cseq": 14,
+   "lseq": 27
+  },
+  {
+   "abbr": "DET",
+   "name": "Detroit Red Wings",
+   "nick": "Red Wings",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 4,
+   "w": 1,
+   "l": 3,
+   "otl": 0,
+   "pts": 2,
+   "gf": 10,
+   "ga": 14,
+   "diff": -4,
+   "l10": "1-3-0",
+   "strk": "L1",
+   "dseq": 8,
    "cseq": 15,
    "lseq": 28
   },
@@ -2198,7 +2198,7 @@
   },
   "sa": {
    "v": 30.6,
-   "rank": 28
+   "rank": 29
   },
   "fo": {
    "v": 50.6,
@@ -2209,5 +2209,5 @@
    "rank": 24
   }
  },
- "updated": "2026-10-09T18:18:44Z"
+ "updated": "2026-10-10T02:16:16Z"
 }

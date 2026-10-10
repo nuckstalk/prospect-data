@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T01:48:05Z",
+ "updated": "2026-10-10T19:45:18Z",
  "results": [
   {
    "opp": "Carolina Hurricanes",
@@ -31,13 +31,6 @@
  ],
  "upcoming": [
   {
-   "opp": "New Jersey Devils",
-   "abbr": "NJD",
-   "home": false,
-   "date": "Sat Oct 10",
-   "time": "12:30 PM PT"
-  },
-  {
    "opp": "New York Rangers",
    "abbr": "NYR",
    "home": false,
@@ -50,6 +43,13 @@
    "home": false,
    "date": "Tue Oct 13",
    "time": "4:45 PM PT"
+  },
+  {
+   "opp": "Florida Panthers",
+   "abbr": "FLA",
+   "home": false,
+   "date": "Thu Oct 15",
+   "time": "4:00 PM PT"
   }
  ]
 }

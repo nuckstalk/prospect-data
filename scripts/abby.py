@@ -314,6 +314,58 @@ for r in srows:
         "div": div, "conf": conf, "gp": gp, "w": w, "l": l, "otl": otl, "pts": pts, "gf": gf, "ga": ga, "diff": gf - ga,
         "l10": re.sub(r"-0$", "", str(p10)) if p10 else "", "strk": str(strk) if strk else "", "_pp": r})
 
+# ---- safety net: the AHL standings/season-total feeds can lag a game behind the game-by-game logs.
+# If the logs show more Abbotsford games than the standings row, add the missing newest game(s) on top.
+def catch_up():
+    me = next((t for t in standings if t["abbr"] == "ABB"), None)
+    if not me: return
+    res = {}
+    for gl in goalies:
+        for row in gl.get("log") or []:
+            d, dec = row[0], row[1]
+            if d not in res or (dec and not res[d]): res[d] = dec
+    dates = sorted(res)
+    miss = len(dates) - me["gp"]
+    if miss <= 0 or miss > 3: return
+    add = dates[-miss:]
+    if any(not res[d] for d in add): return
+    print("standings lag: adding", add, "to ABB row")
+    for d in add:
+        dec = res[d]
+        me["gp"] += 1
+        idx = {"W": 0, "L": 1, "OTL": 2}[dec]
+        if dec == "W": me["w"] += 1; me["pts"] += 2
+        elif dec == "L": me["l"] += 1
+        else: me["otl"] += 1; me["pts"] += 1
+        for f in ("l10", "strk"):
+            parts = [int(x) for x in re.findall(r"\d+", me.get(f) or "")]
+            if len(parts) < 3: parts = [0, 0, 0, 0]
+            parts = (parts + [0, 0, 0, 0])[:4]
+            if f == "strk":
+                only = [i for i in range(4) if parts[i] > 0]
+                cur = parts[idx] if only == [idx] else 0
+                parts = [0, 0, 0, 0]; parts[idx] = cur + 1
+            else:
+                parts[idx] += 1
+            me[f] = "-".join(str(x) for x in parts)
+    for gl in goalies:
+        for row in sorted([r for r in (gl.get("log") or []) if r[0] in add], key=lambda r: r[0]):
+            dec, sa, ga, toi = row[1], row[2], row[3], row[4] or 3600
+            old_min = (gl["ga"] * 3600.0 / gl["gaa"]) if gl.get("gaa") and gl.get("ga") else toi * gl["gp"]
+            gl["gp"] += 1; gl["sa"] += sa; gl["ga"] += ga; gl["sv"] += sa - ga
+            if dec == "W": gl["w"] += 1
+            elif dec == "L": gl["l"] += 1
+            elif dec == "OTL": gl["otl"] += 1
+            if len(row) > 5 and row[5]: gl["so"] = (gl.get("so") or 0) + 1
+            gl["gaa"] = round(gl["ga"] * 3600.0 / (old_min + toi), 2)
+            gl["svp"] = ("%.3f" % (gl["sv"] / gl["sa"])).lstrip("0") if gl["sa"] else gl.get("svp")
+
+
+try:
+    catch_up()
+except Exception as e:
+    print("catch_up skipped:", e)
+
 
 def key(t): return (-(t["pts"] / (2 * t["gp"]) if t["gp"] else 0), -t["pts"], -t["w"], t["name"])
 

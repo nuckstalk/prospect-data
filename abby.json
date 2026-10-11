@@ -1432,6 +1432,26 @@
    "dseq": 3
   },
   {
+   "abbr": "TOR",
+   "name": "Toronto Marlies",
+   "nick": "Marlies",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 4,
+   "w": 3,
+   "l": 1,
+   "otl": 0,
+   "pts": 6,
+   "gf": 16,
+   "ga": 12,
+   "diff": 4,
+   "l10": "3-1-0",
+   "strk": "3-0-0-0",
+   "lseq": 9,
+   "cseq": 4,
+   "dseq": 4
+  },
+  {
    "abbr": "CLE",
    "name": "Cleveland Monsters",
    "nick": "Monsters",
@@ -1512,6 +1532,26 @@
    "dseq": 6
   },
   {
+   "abbr": "GR",
+   "name": "Grand Rapids Griffins",
+   "nick": "Griffins",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 4,
+   "w": 2,
+   "l": 1,
+   "otl": 1,
+   "pts": 5,
+   "gf": 17,
+   "ga": 13,
+   "diff": 4,
+   "l10": "2-1-1",
+   "strk": "0-1-0-0",
+   "lseq": 12,
+   "cseq": 6,
+   "dseq": 3
+  },
+  {
    "abbr": "SD",
    "name": "San Diego Gulls",
    "nick": "Gulls",
@@ -1530,26 +1570,6 @@
    "lseq": 15,
    "cseq": 8,
    "dseq": 4
-  },
-  {
-   "abbr": "GR",
-   "name": "Grand Rapids Griffins",
-   "nick": "Griffins",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 4,
-   "w": 2,
-   "l": 1,
-   "otl": 1,
-   "pts": 5,
-   "gf": 16,
-   "ga": 13,
-   "diff": 3,
-   "l10": "2-1-1",
-   "strk": "0-1-0-0",
-   "lseq": 12,
-   "cseq": 6,
-   "dseq": 3
   },
   {
    "abbr": "SPR",
@@ -1622,9 +1642,9 @@
    "l": 0,
    "otl": 0,
    "pts": 4,
-   "gf": 5,
-   "ga": 2,
-   "diff": 3,
+   "gf": 7,
+   "ga": 3,
+   "diff": 4,
    "l10": "2-0-0",
    "strk": "2-0-0-0",
    "lseq": 2,
@@ -1643,12 +1663,12 @@
    "otl": 0,
    "pts": 4,
    "gf": 10,
-   "ga": 8,
-   "diff": 2,
+   "ga": 9,
+   "diff": 1,
    "l10": "2-1-0",
    "strk": "2-0-0-0",
-   "lseq": 10,
-   "cseq": 5,
+   "lseq": 11,
+   "cseq": 6,
    "dseq": 1
   },
   {
@@ -1692,26 +1712,6 @@
    "dseq": 5
   },
   {
-   "abbr": "TOR",
-   "name": "Toronto Marlies",
-   "nick": "Marlies",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 3,
-   "w": 2,
-   "l": 1,
-   "otl": 0,
-   "pts": 4,
-   "gf": 16,
-   "ga": 12,
-   "diff": 4,
-   "l10": "2-1-0",
-   "strk": "2-0-0-0",
-   "lseq": 11,
-   "cseq": 6,
-   "dseq": 5
-  },
-  {
    "abbr": "BEL",
    "name": "Belleville Senators",
    "nick": "Senators",
@@ -1722,14 +1722,14 @@
    "l": 1,
    "otl": 0,
    "pts": 4,
-   "gf": 8,
-   "ga": 10,
-   "diff": -2,
+   "gf": 9,
+   "ga": 12,
+   "diff": -3,
    "l10": "2-1-0",
    "strk": "2-0-0-0",
-   "lseq": 9,
-   "cseq": 4,
-   "dseq": 4
+   "lseq": 10,
+   "cseq": 5,
+   "dseq": 5
   },
   {
    "abbr": "CLT",
@@ -1757,17 +1757,17 @@
    "nick": "Hammers",
    "div": "North",
    "conf": "Eastern",
-   "gp": 3,
+   "gp": 4,
    "w": 1,
-   "l": 1,
+   "l": 2,
    "otl": 1,
    "pts": 3,
    "gf": 14,
    "ga": 17,
    "diff": -3,
-   "l10": "1-1-0-1",
-   "strk": "0-1-0-1",
-   "lseq": 22,
+   "l10": "1-2-0-1",
+   "strk": "0-2-0-1",
+   "lseq": 25,
    "cseq": 12,
    "dseq": 7
   },
@@ -1787,7 +1787,7 @@
    "diff": -4,
    "l10": "1-2-0-1",
    "strk": "1-0-0-0",
-   "lseq": 25,
+   "lseq": 24,
    "cseq": 13,
    "dseq": 8
   },
@@ -1802,12 +1802,12 @@
    "l": 1,
    "otl": 1,
    "pts": 3,
-   "gf": 8,
+   "gf": 9,
    "ga": 12,
-   "diff": -4,
+   "diff": -3,
    "l10": "1-1-0-1",
    "strk": "0-1-0-1",
-   "lseq": 23,
+   "lseq": 22,
    "cseq": 11,
    "dseq": 5
   },
@@ -1907,7 +1907,7 @@
    "diff": -4,
    "l10": "1-1-0",
    "strk": "0-1-0-0",
-   "lseq": 24,
+   "lseq": 23,
    "cseq": 12,
    "dseq": 7
   },
@@ -1963,8 +1963,8 @@
    "otl": 0,
    "pts": 0,
    "gf": 5,
-   "ga": 21,
-   "diff": -16,
+   "ga": 22,
+   "diff": -17,
    "l10": "0-3-0",
    "strk": "0-3-0-0",
    "lseq": 32,
@@ -1975,7 +1975,7 @@
  "team": {
   "gf": {
    "v": 2.75,
-   "rank": 19
+   "rank": 22
   },
   "ga": {
    "v": 3.75,
@@ -1983,8 +1983,8 @@
   },
   "pt": {
    "v": 37.5,
-   "rank": 25
+   "rank": 24
   }
  },
- "updated": "2026-10-11T22:15:18Z"
+ "updated": "2026-10-11T22:30:19Z"
 }

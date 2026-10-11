@@ -1811,6 +1811,26 @@
    "lseq": 3
   },
   {
+   "abbr": "UTA",
+   "name": "Utah Mammoth",
+   "nick": "Mammoth",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 6,
+   "w": 4,
+   "l": 2,
+   "otl": 0,
+   "pts": 8,
+   "gf": 22,
+   "ga": 15,
+   "diff": 7,
+   "l10": "4-2-0",
+   "strk": "W1",
+   "dseq": 1,
+   "cseq": 3,
+   "lseq": 4
+  },
+  {
    "abbr": "NYR",
    "name": "New York Rangers",
    "nick": "Rangers",
@@ -1828,7 +1848,7 @@
    "strk": "L1",
    "dseq": 2,
    "cseq": 2,
-   "lseq": 4
+   "lseq": 5
   },
   {
    "abbr": "BOS",
@@ -1848,7 +1868,7 @@
    "strk": "W2",
    "dseq": 1,
    "cseq": 3,
-   "lseq": 5
+   "lseq": 6
   },
   {
    "abbr": "MIN",
@@ -1866,9 +1886,9 @@
    "diff": 6,
    "l10": "3-1-1",
    "strk": "W1",
-   "dseq": 1,
-   "cseq": 3,
-   "lseq": 6
+   "dseq": 2,
+   "cseq": 4,
+   "lseq": 7
   },
   {
    "abbr": "WPG",
@@ -1886,9 +1906,9 @@
    "diff": -2,
    "l10": "3-1-1",
    "strk": "L1",
-   "dseq": 2,
-   "cseq": 4,
-   "lseq": 7
+   "dseq": 3,
+   "cseq": 5,
+   "lseq": 8
   },
   {
    "abbr": "COL",
@@ -1906,9 +1926,9 @@
    "diff": 12,
    "l10": "3-1-0",
    "strk": "W1",
-   "dseq": 3,
-   "cseq": 5,
-   "lseq": 8
+   "dseq": 4,
+   "cseq": 6,
+   "lseq": 9
   },
   {
    "abbr": "WSH",
@@ -1928,7 +1948,7 @@
    "strk": "W2",
    "dseq": 3,
    "cseq": 4,
-   "lseq": 9
+   "lseq": 10
   },
   {
    "abbr": "OTT",
@@ -1948,7 +1968,7 @@
    "strk": "W1",
    "dseq": 2,
    "cseq": 5,
-   "lseq": 10
+   "lseq": 11
   },
   {
    "abbr": "TBL",
@@ -1968,7 +1988,7 @@
    "strk": "W3",
    "dseq": 3,
    "cseq": 6,
-   "lseq": 11
+   "lseq": 12
   },
   {
    "abbr": "ANA",
@@ -1987,8 +2007,8 @@
    "l10": "3-1-0",
    "strk": "W1",
    "dseq": 3,
-   "cseq": 6,
-   "lseq": 12
+   "cseq": 7,
+   "lseq": 13
   },
   {
    "abbr": "SEA",
@@ -2006,26 +2026,6 @@
    "diff": 7,
    "l10": "3-2-0",
    "strk": "W1",
-   "dseq": 4,
-   "cseq": 7,
-   "lseq": 13
-  },
-  {
-   "abbr": "UTA",
-   "name": "Utah Mammoth",
-   "nick": "Mammoth",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 5,
-   "w": 3,
-   "l": 2,
-   "otl": 0,
-   "pts": 6,
-   "gf": 18,
-   "ga": 14,
-   "diff": 4,
-   "l10": "3-2-0",
-   "strk": "L1",
    "dseq": 4,
    "cseq": 8,
    "lseq": 14
@@ -2091,6 +2091,26 @@
    "lseq": 17
   },
   {
+   "abbr": "STL",
+   "name": "St. Louis Blues",
+   "nick": "Blues",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 5,
+   "w": 2,
+   "l": 2,
+   "otl": 1,
+   "pts": 5,
+   "gf": 14,
+   "ga": 16,
+   "diff": -2,
+   "l10": "2-2-1",
+   "strk": "W1",
+   "dseq": 6,
+   "cseq": 11,
+   "lseq": 18
+  },
+  {
    "abbr": "PIT",
    "name": "Pittsburgh Penguins",
    "nick": "Penguins",
@@ -2108,7 +2128,7 @@
    "strk": "OT1",
    "dseq": 4,
    "cseq": 8,
-   "lseq": 18
+   "lseq": 19
   },
   {
    "abbr": "TOR",
@@ -2128,26 +2148,6 @@
    "strk": "OT1",
    "dseq": 5,
    "cseq": 9,
-   "lseq": 19
-  },
-  {
-   "abbr": "CBJ",
-   "name": "Columbus Blue Jackets",
-   "nick": "Blue Jackets",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 3,
-   "w": 2,
-   "l": 1,
-   "otl": 0,
-   "pts": 4,
-   "gf": 10,
-   "ga": 9,
-   "diff": 1,
-   "l10": "2-1-0",
-   "strk": "W1",
-   "dseq": 5,
-   "cseq": 10,
    "lseq": 20
   },
   {
@@ -2166,8 +2166,8 @@
    "diff": 5,
    "l10": "2-2-0",
    "strk": "W1",
-   "dseq": 6,
-   "cseq": 11,
+   "dseq": 5,
+   "cseq": 10,
    "lseq": 21
   },
   {
@@ -2186,8 +2186,8 @@
    "diff": 4,
    "l10": "2-2-0",
    "strk": "W2",
-   "dseq": 6,
-   "cseq": 11,
+   "dseq": 7,
+   "cseq": 12,
    "lseq": 22
   },
   {
@@ -2206,9 +2206,29 @@
    "diff": -4,
    "l10": "2-2-0",
    "strk": "W1",
+   "dseq": 6,
+   "cseq": 11,
+   "lseq": 23
+  },
+  {
+   "abbr": "CBJ",
+   "name": "Columbus Blue Jackets",
+   "nick": "Blue Jackets",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 4,
+   "w": 2,
+   "l": 2,
+   "otl": 0,
+   "pts": 4,
+   "gf": 13,
+   "ga": 14,
+   "diff": -1,
+   "l10": "2-2-0",
+   "strk": "L1",
    "dseq": 7,
    "cseq": 12,
-   "lseq": 23
+   "lseq": 24
   },
   {
    "abbr": "BUF",
@@ -2216,19 +2236,19 @@
    "nick": "Sabres",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 4,
+   "gp": 5,
    "w": 2,
-   "l": 2,
+   "l": 3,
    "otl": 0,
    "pts": 4,
-   "gf": 10,
-   "ga": 15,
-   "diff": -5,
-   "l10": "2-2-0",
-   "strk": "L1",
+   "gf": 11,
+   "ga": 19,
+   "diff": -8,
+   "l10": "2-3-0",
+   "strk": "L2",
    "dseq": 6,
    "cseq": 13,
-   "lseq": 24
+   "lseq": 25
   },
   {
    "abbr": "VAN",
@@ -2247,26 +2267,6 @@
    "l10": "2-4-0",
    "strk": "L3",
    "dseq": 6,
-   "cseq": 12,
-   "lseq": 25
-  },
-  {
-   "abbr": "STL",
-   "name": "St. Louis Blues",
-   "nick": "Blues",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 4,
-   "w": 1,
-   "l": 2,
-   "otl": 1,
-   "pts": 3,
-   "gf": 9,
-   "ga": 13,
-   "diff": -4,
-   "l10": "1-2-1",
-   "strk": "OT1",
-   "dseq": 7,
    "cseq": 13,
    "lseq": 26
   },
@@ -2425,5 +2425,5 @@
    "rank": 27
   }
  },
- "updated": "2026-10-11T01:45:15Z"
+ "updated": "2026-10-11T01:48:36Z"
 }

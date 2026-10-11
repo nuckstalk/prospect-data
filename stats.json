@@ -1911,23 +1911,23 @@
    "lseq": 8
   },
   {
-   "abbr": "COL",
-   "name": "Colorado Avalanche",
-   "nick": "Avalanche",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 4,
+   "abbr": "TOR",
+   "name": "Toronto Maple Leafs",
+   "nick": "Maple Leafs",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 6,
    "w": 3,
-   "l": 1,
-   "otl": 0,
-   "pts": 6,
-   "gf": 23,
-   "ga": 11,
-   "diff": 12,
-   "l10": "3-1-0",
+   "l": 2,
+   "otl": 1,
+   "pts": 7,
+   "gf": 20,
+   "ga": 18,
+   "diff": 2,
+   "l10": "3-2-1",
    "strk": "W1",
-   "dseq": 4,
-   "cseq": 6,
+   "dseq": 2,
+   "cseq": 4,
    "lseq": 9
   },
   {
@@ -1947,7 +1947,7 @@
    "l10": "3-1-0",
    "strk": "W2",
    "dseq": 3,
-   "cseq": 4,
+   "cseq": 5,
    "lseq": 10
   },
   {
@@ -1966,8 +1966,8 @@
    "diff": 3,
    "l10": "3-1-0",
    "strk": "W1",
-   "dseq": 2,
-   "cseq": 5,
+   "dseq": 3,
+   "cseq": 6,
    "lseq": 11
   },
   {
@@ -1986,8 +1986,8 @@
    "diff": 2,
    "l10": "3-1-0",
    "strk": "W3",
-   "dseq": 3,
-   "cseq": 6,
+   "dseq": 4,
+   "cseq": 7,
    "lseq": 12
   },
   {
@@ -2007,8 +2007,28 @@
    "l10": "3-1-0",
    "strk": "W1",
    "dseq": 3,
-   "cseq": 7,
+   "cseq": 6,
    "lseq": 13
+  },
+  {
+   "abbr": "COL",
+   "name": "Colorado Avalanche",
+   "nick": "Avalanche",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 5,
+   "w": 3,
+   "l": 2,
+   "otl": 0,
+   "pts": 6,
+   "gf": 26,
+   "ga": 17,
+   "diff": 9,
+   "l10": "3-2-0",
+   "strk": "L1",
+   "dseq": 4,
+   "cseq": 7,
+   "lseq": 14
   },
   {
    "abbr": "SEA",
@@ -2028,7 +2048,7 @@
    "strk": "W1",
    "dseq": 4,
    "cseq": 8,
-   "lseq": 14
+   "lseq": 15
   },
   {
    "abbr": "FLA",
@@ -2046,9 +2066,9 @@
    "diff": -3,
    "l10": "2-1-2",
    "strk": "L1",
-   "dseq": 4,
-   "cseq": 7,
-   "lseq": 15
+   "dseq": 5,
+   "cseq": 8,
+   "lseq": 16
   },
   {
    "abbr": "SJS",
@@ -2068,7 +2088,7 @@
    "strk": "L1",
    "dseq": 5,
    "cseq": 9,
-   "lseq": 16
+   "lseq": 17
   },
   {
    "abbr": "NSH",
@@ -2088,7 +2108,7 @@
    "strk": "W1",
    "dseq": 5,
    "cseq": 10,
-   "lseq": 17
+   "lseq": 18
   },
   {
    "abbr": "STL",
@@ -2108,7 +2128,7 @@
    "strk": "W1",
    "dseq": 6,
    "cseq": 11,
-   "lseq": 18
+   "lseq": 19
   },
   {
    "abbr": "PIT",
@@ -2127,26 +2147,6 @@
    "l10": "2-2-1",
    "strk": "OT1",
    "dseq": 4,
-   "cseq": 8,
-   "lseq": 19
-  },
-  {
-   "abbr": "TOR",
-   "name": "Toronto Maple Leafs",
-   "nick": "Maple Leafs",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 5,
-   "w": 2,
-   "l": 2,
-   "otl": 1,
-   "pts": 5,
-   "gf": 14,
-   "ga": 15,
-   "diff": -1,
-   "l10": "2-2-1",
-   "strk": "OT1",
-   "dseq": 5,
    "cseq": 9,
    "lseq": 20
   },
@@ -2425,5 +2425,5 @@
    "rank": 27
   }
  },
- "updated": "2026-10-11T01:48:36Z"
+ "updated": "2026-10-11T02:00:18Z"
 }

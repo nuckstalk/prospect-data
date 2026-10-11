@@ -54,7 +54,7 @@
    "ep": 5,
    "team": "Univ. of North Dakota",
    "lg": "NCAA",
-   "gp": 1,
+   "gp": 2,
    "g": 0,
    "a": 0,
    "tp": 0,
@@ -342,6 +342,24 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-10-11",
+   "items": [
+    {
+     "k": "S",
+     "name": "Connor Davis",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 2,
+     "sg": 0,
+     "sa": 0,
+     "stp": 0
+    }
+   ]
+  },
   {
    "date": "2026-10-10",
    "items": [

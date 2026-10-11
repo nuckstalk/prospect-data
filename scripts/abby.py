@@ -367,6 +367,31 @@ except Exception as e:
     print("catch_up skipped:", e)
 
 
+# ---- streak: the feed's streak string can be ambiguous (e.g. "1-0-0-1"), so work it out from the game logs
+def fix_streak():
+    me = next((t for t in standings if t["abbr"] == "ABB"), None)
+    if not me: return
+    res = {}
+    for gl in goalies:
+        for row in gl.get("log") or []:
+            if row[0] not in res or (row[1] and not res[row[0]]): res[row[0]] = row[1]
+    seq_ = [res[d] for d in sorted(res, reverse=True)]
+    if not seq_ or not seq_[0] or len(seq_) < me["gp"]: return
+    n = 0
+    for r in seq_:
+        if r != seq_[0]: break
+        n += 1
+    idx = {"W": 0, "L": 1, "OTL": 2}[seq_[0]]
+    parts = [0, 0, 0, 0]; parts[idx] = n
+    me["strk"] = "-".join(str(x) for x in parts)
+
+
+try:
+    fix_streak()
+except Exception as e:
+    print("fix_streak skipped:", e)
+
+
 def key(t): return (-(t["pts"] / (2 * t["gp"]) if t["gp"] else 0), -t["pts"], -t["w"], t["name"])
 
 

@@ -6,13 +6,13 @@
    "ep": 1,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 3,
+   "gp": 4,
    "g": 0,
    "a": 3,
    "tp": 3,
-   "ppg": 1.0,
+   "ppg": 0.75,
    "pim": 4,
-   "pm": 2
+   "pm": 1
   },
   "Caleb Malhotra": {
    "ep": 2,
@@ -42,13 +42,13 @@
    "ep": 4,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 3,
-   "g": 1,
-   "a": 0,
-   "tp": 1,
-   "ppg": 0.3333333333333333,
+   "gp": 4,
+   "g": 2,
+   "a": 2,
+   "tp": 4,
+   "ppg": 1.0,
    "pim": 0,
-   "pm": -4
+   "pm": -2
   },
   "Connor Davis": {
    "ep": 5,
@@ -114,13 +114,13 @@
    "ep": 10,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 3,
-   "g": 3,
-   "a": 0,
-   "tp": 3,
-   "ppg": 1,
+   "gp": 4,
+   "g": 4,
+   "a": 1,
+   "tp": 5,
+   "ppg": 1.25,
    "pim": 2,
-   "pm": -2
+   "pm": -3
   },
   "Gabriel Chiarot": {
    "ep": 11,
@@ -150,13 +150,13 @@
    "ep": 13,
    "team": "Quinnipiac Univ.",
    "lg": "NCAA",
-   "gp": 3,
+   "gp": 4,
    "g": 1,
    "a": 1,
    "tp": 2,
-   "ppg": 0.6666666666666666,
+   "ppg": 0.5,
    "pim": 0,
-   "pm": 5
+   "pm": 3
   },
   "Anthony Romani": {
    "ep": 14,
@@ -174,13 +174,13 @@
    "ep": 16,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 2,
+   "gp": 3,
    "g": 0,
    "a": 0,
    "tp": 0,
    "ppg": 0,
    "pim": 0,
-   "pm": -2
+   "pm": -1
   },
   "Kirill Kudryavtsev": {
    "ep": 17,
@@ -198,12 +198,12 @@
    "ep": 18,
    "team": "Quinnipiac",
    "lg": "NCAA",
-   "gp": 3,
+   "gp": 4,
    "g": 1,
    "a": 2,
    "tp": 3,
-   "ppg": 1,
-   "pim": 2,
+   "ppg": 0.75,
+   "pim": 4,
    "pm": 4
   },
   "Wilson Björck": {
@@ -234,12 +234,12 @@
    "ep": 21,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 3,
+   "gp": 4,
    "g": 1,
    "a": 0,
    "tp": 1,
-   "ppg": 0.3333333333333333,
-   "pim": 2,
+   "ppg": 0.25,
+   "pim": 4,
    "pm": -2
   },
   "Matthew Perkins": {
@@ -282,12 +282,12 @@
    "ep": 26,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 3,
+   "gp": 4,
    "g": 0,
    "a": 2,
    "tp": 2,
-   "ppg": 0.6666666666666666,
-   "pim": 2,
+   "ppg": 0.5,
+   "pim": 4,
    "pm": 0
   },
   "Basile Sansonnens": {
@@ -409,6 +409,110 @@
      "sg": 0,
      "sa": 0,
      "stp": 0
+    },
+    {
+     "k": "S",
+     "name": "Riley Patterson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 4,
+     "sg": 0,
+     "sa": 3,
+     "stp": 3
+    },
+    {
+     "k": "S",
+     "name": "Braeden Cootes",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 1,
+     "da": 2,
+     "dtp": 3,
+     "sgp": 4,
+     "sg": 2,
+     "sa": 2,
+     "stp": 4
+    },
+    {
+     "k": "S",
+     "name": "Ty Mueller",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 1,
+     "da": 1,
+     "dtp": 2,
+     "sgp": 4,
+     "sg": 4,
+     "sa": 1,
+     "stp": 5
+    },
+    {
+     "k": "S",
+     "name": "Parker Alcos",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 4,
+     "sg": 1,
+     "sa": 1,
+     "stp": 2
+    },
+    {
+     "k": "S",
+     "name": "Sawyer Mynio",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 3,
+     "sg": 0,
+     "sa": 0,
+     "stp": 0
+    },
+    {
+     "k": "S",
+     "name": "Matthew Lansing",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 4,
+     "sg": 1,
+     "sa": 2,
+     "stp": 3
+    },
+    {
+     "k": "S",
+     "name": "Vilmer Alriksson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 4,
+     "sg": 1,
+     "sa": 0,
+     "stp": 1
+    },
+    {
+     "k": "S",
+     "name": "Anri Ravinskis",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 4,
+     "sg": 0,
+     "sa": 2,
+     "stp": 2
     }
    ]
   },

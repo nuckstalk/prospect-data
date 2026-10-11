@@ -1751,6 +1751,26 @@
  ],
  "standings": [
   {
+   "abbr": "VGK",
+   "name": "Vegas Golden Knights",
+   "nick": "Golden Knights",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 6,
+   "w": 5,
+   "l": 1,
+   "otl": 0,
+   "pts": 10,
+   "gf": 23,
+   "ga": 14,
+   "diff": 9,
+   "l10": "5-1-0",
+   "strk": "W4",
+   "dseq": 1,
+   "cseq": 1,
+   "lseq": 1
+  },
+  {
    "abbr": "EDM",
    "name": "Edmonton Oilers",
    "nick": "Oilers",
@@ -1766,9 +1786,9 @@
    "diff": 8,
    "l10": "4-0-1",
    "strk": "W4",
-   "dseq": 1,
-   "cseq": 1,
-   "lseq": 1
+   "dseq": 2,
+   "cseq": 2,
+   "lseq": 2
   },
   {
    "abbr": "CAR",
@@ -1788,7 +1808,7 @@
    "strk": "W4",
    "dseq": 1,
    "cseq": 1,
-   "lseq": 2
+   "lseq": 3
   },
   {
    "abbr": "TBL",
@@ -1808,12 +1828,12 @@
    "strk": "W4",
    "dseq": 1,
    "cseq": 2,
-   "lseq": 3
+   "lseq": 4
   },
   {
-   "abbr": "VGK",
-   "name": "Vegas Golden Knights",
-   "nick": "Golden Knights",
+   "abbr": "ANA",
+   "name": "Anaheim Ducks",
+   "nick": "Ducks",
    "div": "Pacific",
    "conf": "Western",
    "gp": 5,
@@ -1821,14 +1841,14 @@
    "l": 1,
    "otl": 0,
    "pts": 8,
-   "gf": 21,
+   "gf": 18,
    "ga": 13,
-   "diff": 8,
+   "diff": 5,
    "l10": "4-1-0",
-   "strk": "W3",
-   "dseq": 2,
-   "cseq": 2,
-   "lseq": 4
+   "strk": "W2",
+   "dseq": 3,
+   "cseq": 3,
+   "lseq": 5
   },
   {
    "abbr": "OTT",
@@ -1848,7 +1868,7 @@
    "strk": "W2",
    "dseq": 2,
    "cseq": 3,
-   "lseq": 5
+   "lseq": 6
   },
   {
    "abbr": "UTA",
@@ -1867,8 +1887,8 @@
    "l10": "4-2-0",
    "strk": "W1",
    "dseq": 1,
-   "cseq": 3,
-   "lseq": 6
+   "cseq": 4,
+   "lseq": 7
   },
   {
    "abbr": "NYR",
@@ -1888,7 +1908,7 @@
    "strk": "L1",
    "dseq": 2,
    "cseq": 4,
-   "lseq": 7
+   "lseq": 8
   },
   {
    "abbr": "BOS",
@@ -1908,7 +1928,7 @@
    "strk": "W2",
    "dseq": 3,
    "cseq": 5,
-   "lseq": 8
+   "lseq": 9
   },
   {
    "abbr": "MIN",
@@ -1927,8 +1947,8 @@
    "l10": "3-1-1",
    "strk": "W1",
    "dseq": 2,
-   "cseq": 4,
-   "lseq": 9
+   "cseq": 5,
+   "lseq": 10
   },
   {
    "abbr": "WPG",
@@ -1947,8 +1967,8 @@
    "l10": "3-1-1",
    "strk": "L1",
    "dseq": 3,
-   "cseq": 5,
-   "lseq": 10
+   "cseq": 6,
+   "lseq": 11
   },
   {
    "abbr": "TOR",
@@ -1968,7 +1988,7 @@
    "strk": "W1",
    "dseq": 4,
    "cseq": 6,
-   "lseq": 11
+   "lseq": 12
   },
   {
    "abbr": "PIT",
@@ -1988,7 +2008,7 @@
    "strk": "W1",
    "dseq": 3,
    "cseq": 7,
-   "lseq": 12
+   "lseq": 13
   },
   {
    "abbr": "WSH",
@@ -2008,26 +2028,6 @@
    "strk": "W2",
    "dseq": 4,
    "cseq": 8,
-   "lseq": 13
-  },
-  {
-   "abbr": "ANA",
-   "name": "Anaheim Ducks",
-   "nick": "Ducks",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 4,
-   "w": 3,
-   "l": 1,
-   "otl": 0,
-   "pts": 6,
-   "gf": 14,
-   "ga": 11,
-   "diff": 3,
-   "l10": "3-1-0",
-   "strk": "W1",
-   "dseq": 3,
-   "cseq": 6,
    "lseq": 14
   },
   {
@@ -2311,6 +2311,26 @@
    "lseq": 28
   },
   {
+   "abbr": "LAK",
+   "name": "Los Angeles Kings",
+   "nick": "Kings",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 4,
+   "w": 0,
+   "l": 2,
+   "otl": 2,
+   "pts": 2,
+   "gf": 10,
+   "ga": 17,
+   "diff": -7,
+   "l10": "0-2-2",
+   "strk": "OT1",
+   "dseq": 7,
+   "cseq": 14,
+   "lseq": 29
+  },
+  {
    "abbr": "CHI",
    "name": "Chicago Blackhawks",
    "nick": "Blackhawks",
@@ -2327,8 +2347,8 @@
    "l10": "1-5-0",
    "strk": "L2",
    "dseq": 8,
-   "cseq": 14,
-   "lseq": 29
+   "cseq": 15,
+   "lseq": 30
   },
   {
    "abbr": "PHI",
@@ -2348,26 +2368,6 @@
    "strk": "L3",
    "dseq": 8,
    "cseq": 16,
-   "lseq": 30
-  },
-  {
-   "abbr": "LAK",
-   "name": "Los Angeles Kings",
-   "nick": "Kings",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 3,
-   "w": 0,
-   "l": 2,
-   "otl": 1,
-   "pts": 1,
-   "gf": 9,
-   "ga": 15,
-   "diff": -6,
-   "l10": "0-2-1",
-   "strk": "L1",
-   "dseq": 7,
-   "cseq": 15,
    "lseq": 31
   },
   {
@@ -2376,16 +2376,16 @@
    "nick": "Flames",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 4,
+   "gp": 5,
    "w": 0,
-   "l": 4,
+   "l": 5,
    "otl": 0,
    "pts": 0,
-   "gf": 6,
-   "ga": 23,
-   "diff": -17,
-   "l10": "0-4-0",
-   "strk": "L4",
+   "gf": 8,
+   "ga": 27,
+   "diff": -19,
+   "l10": "0-5-0",
+   "strk": "L5",
    "dseq": 8,
    "cseq": 16,
    "lseq": 32
@@ -2425,5 +2425,5 @@
    "rank": 27
   }
  },
- "updated": "2026-10-11T02:45:16Z"
+ "updated": "2026-10-11T05:00:17Z"
 }

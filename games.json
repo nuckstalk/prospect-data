@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T22:15:19Z",
+ "updated": "2026-10-11T22:15:21Z",
  "results": [
   {
    "opp": "New Jersey Devils",
@@ -31,13 +31,6 @@
  ],
  "upcoming": [
   {
-   "opp": "New York Rangers",
-   "abbr": "NYR",
-   "home": false,
-   "date": "Sun Oct 11",
-   "time": "3:00 PM PT"
-  },
-  {
    "opp": "New York Islanders",
    "abbr": "NYI",
    "home": false,
@@ -50,6 +43,13 @@
    "home": false,
    "date": "Thu Oct 15",
    "time": "4:00 PM PT"
+  },
+  {
+   "opp": "Tampa Bay Lightning",
+   "abbr": "TBL",
+   "home": false,
+   "date": "Sat Oct 17",
+   "time": "1:00 PM PT"
   }
  ]
 }

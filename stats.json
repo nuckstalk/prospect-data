@@ -1831,6 +1831,26 @@
    "lseq": 4
   },
   {
+   "abbr": "MIN",
+   "name": "Minnesota Wild",
+   "nick": "Wild",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 5,
+   "w": 3,
+   "l": 1,
+   "otl": 1,
+   "pts": 7,
+   "gf": 15,
+   "ga": 9,
+   "diff": 6,
+   "l10": "3-1-1",
+   "strk": "W1",
+   "dseq": 1,
+   "cseq": 3,
+   "lseq": 5
+  },
+  {
    "abbr": "WPG",
    "name": "Winnipeg Jets",
    "nick": "Jets",
@@ -1846,9 +1866,9 @@
    "diff": -2,
    "l10": "3-1-1",
    "strk": "L1",
-   "dseq": 1,
-   "cseq": 3,
-   "lseq": 5
+   "dseq": 2,
+   "cseq": 4,
+   "lseq": 6
   },
   {
    "abbr": "CAR",
@@ -1868,7 +1888,7 @@
    "strk": "W3",
    "dseq": 2,
    "cseq": 3,
-   "lseq": 6
+   "lseq": 7
   },
   {
    "abbr": "COL",
@@ -1886,9 +1906,9 @@
    "diff": 12,
    "l10": "3-1-0",
    "strk": "W1",
-   "dseq": 2,
-   "cseq": 4,
-   "lseq": 7
+   "dseq": 3,
+   "cseq": 5,
+   "lseq": 8
   },
   {
    "abbr": "WSH",
@@ -1908,7 +1928,7 @@
    "strk": "W2",
    "dseq": 3,
    "cseq": 4,
-   "lseq": 8
+   "lseq": 9
   },
   {
    "abbr": "OTT",
@@ -1928,7 +1948,7 @@
    "strk": "W1",
    "dseq": 2,
    "cseq": 5,
-   "lseq": 9
+   "lseq": 10
   },
   {
    "abbr": "TBL",
@@ -1948,7 +1968,7 @@
    "strk": "W3",
    "dseq": 3,
    "cseq": 6,
-   "lseq": 10
+   "lseq": 11
   },
   {
    "abbr": "ANA",
@@ -1967,27 +1987,7 @@
    "l10": "3-1-0",
    "strk": "W1",
    "dseq": 3,
-   "cseq": 5,
-   "lseq": 11
-  },
-  {
-   "abbr": "FLA",
-   "name": "Florida Panthers",
-   "nick": "Panthers",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 4,
-   "w": 2,
-   "l": 0,
-   "otl": 2,
-   "pts": 6,
-   "gf": 8,
-   "ga": 8,
-   "diff": 0,
-   "l10": "2-0-2",
-   "strk": "W1",
-   "dseq": 4,
-   "cseq": 7,
+   "cseq": 6,
    "lseq": 12
   },
   {
@@ -2007,7 +2007,7 @@
    "l10": "3-2-0",
    "strk": "W1",
    "dseq": 4,
-   "cseq": 6,
+   "cseq": 7,
    "lseq": 13
   },
   {
@@ -2026,9 +2026,29 @@
    "diff": 4,
    "l10": "3-2-0",
    "strk": "L1",
-   "dseq": 3,
-   "cseq": 7,
+   "dseq": 4,
+   "cseq": 8,
    "lseq": 14
+  },
+  {
+   "abbr": "FLA",
+   "name": "Florida Panthers",
+   "nick": "Panthers",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 5,
+   "w": 2,
+   "l": 1,
+   "otl": 2,
+   "pts": 6,
+   "gf": 9,
+   "ga": 12,
+   "diff": -3,
+   "l10": "2-1-2",
+   "strk": "L1",
+   "dseq": 4,
+   "cseq": 7,
+   "lseq": 15
   },
   {
    "abbr": "SJS",
@@ -2047,26 +2067,6 @@
    "l10": "3-2-0",
    "strk": "L1",
    "dseq": 5,
-   "cseq": 8,
-   "lseq": 15
-  },
-  {
-   "abbr": "MIN",
-   "name": "Minnesota Wild",
-   "nick": "Wild",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 4,
-   "w": 2,
-   "l": 1,
-   "otl": 1,
-   "pts": 5,
-   "gf": 11,
-   "ga": 8,
-   "diff": 3,
-   "l10": "2-1-1",
-   "strk": "L1",
-   "dseq": 4,
    "cseq": 9,
    "lseq": 16
   },
@@ -2425,5 +2425,5 @@
    "rank": 27
   }
  },
- "updated": "2026-10-10T23:15:15Z"
+ "updated": "2026-10-11T01:00:18Z"
 }

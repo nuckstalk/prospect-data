@@ -1347,7 +1347,7 @@
    "diff": 4,
    "l10": "3-1-1",
    "strk": "1-0-0-0",
-   "lseq": 10,
+   "lseq": 11,
    "cseq": 6,
    "dseq": 3
   },
@@ -1387,7 +1387,7 @@
    "diff": 12,
    "l10": "3-1-0",
    "strk": "1-0-0-0",
-   "lseq": 8,
+   "lseq": 9,
    "cseq": 5,
    "dseq": 2
   },
@@ -1407,8 +1407,8 @@
    "diff": 9,
    "l10": "3-1-0",
    "strk": "3-0-0-0",
-   "lseq": 7,
-   "cseq": 3,
+   "lseq": 8,
+   "cseq": 4,
    "dseq": 3
   },
   {
@@ -1432,6 +1432,26 @@
    "dseq": 2
   },
   {
+   "abbr": "HER",
+   "name": "Hershey Bears",
+   "nick": "Bears",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 4,
+   "w": 3,
+   "l": 1,
+   "otl": 0,
+   "pts": 6,
+   "gf": 13,
+   "ga": 9,
+   "diff": 4,
+   "l10": "3-1-0",
+   "strk": "3-0-0-0",
+   "lseq": 7,
+   "cseq": 3,
+   "dseq": 1
+  },
+  {
    "abbr": "HFD",
    "name": "Hartford Wolf Pack",
    "nick": "Wolf Pack",
@@ -1449,26 +1469,6 @@
    "strk": "0-2-0-0",
    "lseq": 17,
    "cseq": 9,
-   "dseq": 4
-  },
-  {
-   "abbr": "TOR",
-   "name": "Toronto Marlies",
-   "nick": "Marlies",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 4,
-   "w": 3,
-   "l": 1,
-   "otl": 0,
-   "pts": 6,
-   "gf": 16,
-   "ga": 12,
-   "diff": 4,
-   "l10": "3-1-0",
-   "strk": "3-0-0-0",
-   "lseq": 9,
-   "cseq": 4,
    "dseq": 4
   },
   {
@@ -1490,6 +1490,26 @@
    "lseq": 6,
    "cseq": 4,
    "dseq": 3
+  },
+  {
+   "abbr": "TOR",
+   "name": "Toronto Marlies",
+   "nick": "Marlies",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 4,
+   "w": 3,
+   "l": 1,
+   "otl": 0,
+   "pts": 6,
+   "gf": 16,
+   "ga": 12,
+   "diff": 4,
+   "l10": "3-1-0",
+   "strk": "3-0-0-0",
+   "lseq": 10,
+   "cseq": 5,
+   "dseq": 4
   },
   {
    "abbr": "CLE",
@@ -1652,26 +1672,6 @@
    "dseq": 1
   },
   {
-   "abbr": "HER",
-   "name": "Hershey Bears",
-   "nick": "Bears",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 3,
-   "w": 2,
-   "l": 1,
-   "otl": 0,
-   "pts": 4,
-   "gf": 13,
-   "ga": 9,
-   "diff": 4,
-   "l10": "2-1-0",
-   "strk": "2-0-0-0",
-   "lseq": 11,
-   "cseq": 5,
-   "dseq": 1
-  },
-  {
    "abbr": "TUC",
    "name": "Tucson Roadrunners",
    "nick": "Roadrunners",
@@ -1767,7 +1767,7 @@
    "diff": -3,
    "l10": "1-2-0-1",
    "strk": "0-2-0-1",
-   "lseq": 25,
+   "lseq": 24,
    "cseq": 12,
    "dseq": 7
   },
@@ -1787,8 +1787,8 @@
    "diff": -4,
    "l10": "1-2-0-1",
    "strk": "1-0-0-0",
-   "lseq": 24,
-   "cseq": 13,
+   "lseq": 23,
+   "cseq": 12,
    "dseq": 8
   },
   {
@@ -1797,18 +1797,18 @@
    "nick": "Stars",
    "div": "Central",
    "conf": "Western",
-   "gp": 3,
+   "gp": 4,
    "w": 1,
-   "l": 1,
+   "l": 2,
    "otl": 1,
    "pts": 3,
    "gf": 9,
    "ga": 15,
    "diff": -6,
-   "l10": "1-1-0-1",
-   "strk": "0-1-0-1",
-   "lseq": 22,
-   "cseq": 11,
+   "l10": "1-2-0-1",
+   "strk": "0-2-0-1",
+   "lseq": 25,
+   "cseq": 13,
    "dseq": 5
   },
   {
@@ -1907,8 +1907,8 @@
    "diff": -3,
    "l10": "1-1-0",
    "strk": "0-1-0-0",
-   "lseq": 23,
-   "cseq": 12,
+   "lseq": 22,
+   "cseq": 11,
    "dseq": 7
   },
   {
@@ -1975,7 +1975,7 @@
  "team": {
   "gf": {
    "v": 2.75,
-   "rank": 20
+   "rank": 19
   },
   "ga": {
    "v": 3.75,
@@ -1983,8 +1983,8 @@
   },
   "pt": {
    "v": 37.5,
-   "rank": 24
+   "rank": 23
   }
  },
- "updated": "2026-10-11T23:30:18Z"
+ "updated": "2026-10-11T23:45:15Z"
 }

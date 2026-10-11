@@ -2171,6 +2171,26 @@
    "lseq": 21
   },
   {
+   "abbr": "MTL",
+   "name": "Montréal Canadiens",
+   "nick": "Canadiens",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 5,
+   "w": 2,
+   "l": 2,
+   "otl": 1,
+   "pts": 5,
+   "gf": 15,
+   "ga": 19,
+   "diff": -4,
+   "l10": "2-2-1",
+   "strk": "W1",
+   "dseq": 6,
+   "cseq": 10,
+   "lseq": 22
+  },
+  {
    "abbr": "NJD",
    "name": "New Jersey Devils",
    "nick": "Devils",
@@ -2187,8 +2207,8 @@
    "l10": "2-2-0",
    "strk": "W1",
    "dseq": 5,
-   "cseq": 10,
-   "lseq": 22
+   "cseq": 11,
+   "lseq": 23
   },
   {
    "abbr": "CBJ",
@@ -2207,8 +2227,8 @@
    "l10": "2-2-0",
    "strk": "L1",
    "dseq": 6,
-   "cseq": 11,
-   "lseq": 23
+   "cseq": 12,
+   "lseq": 24
   },
   {
    "abbr": "NYI",
@@ -2227,8 +2247,8 @@
    "l10": "2-3-0",
    "strk": "L1",
    "dseq": 7,
-   "cseq": 12,
-   "lseq": 24
+   "cseq": 13,
+   "lseq": 25
   },
   {
    "abbr": "BUF",
@@ -2246,9 +2266,9 @@
    "diff": -8,
    "l10": "2-3-0",
    "strk": "L2",
-   "dseq": 6,
-   "cseq": 13,
-   "lseq": 25
+   "dseq": 7,
+   "cseq": 14,
+   "lseq": 26
   },
   {
    "abbr": "VAN",
@@ -2268,26 +2288,6 @@
    "strk": "L3",
    "dseq": 6,
    "cseq": 13,
-   "lseq": 26
-  },
-  {
-   "abbr": "MTL",
-   "name": "Montréal Canadiens",
-   "nick": "Canadiens",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 4,
-   "w": 1,
-   "l": 2,
-   "otl": 1,
-   "pts": 3,
-   "gf": 14,
-   "ga": 19,
-   "diff": -5,
-   "l10": "1-2-1",
-   "strk": "L2",
-   "dseq": 7,
-   "cseq": 14,
    "lseq": 27
   },
   {
@@ -2296,16 +2296,16 @@
    "nick": "Red Wings",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 4,
+   "gp": 5,
    "w": 1,
    "l": 3,
-   "otl": 0,
-   "pts": 2,
+   "otl": 1,
+   "pts": 3,
    "gf": 10,
-   "ga": 14,
-   "diff": -4,
-   "l10": "1-3-0",
-   "strk": "L1",
+   "ga": 15,
+   "diff": -5,
+   "l10": "1-3-1",
+   "strk": "OT1",
    "dseq": 8,
    "cseq": 15,
    "lseq": 28
@@ -2402,7 +2402,7 @@
   },
   "pp": {
    "v": 20.0,
-   "rank": 18
+   "rank": 17
   },
   "pk": {
    "v": 52.2,
@@ -2425,5 +2425,5 @@
    "rank": 27
   }
  },
- "updated": "2026-10-11T02:15:17Z"
+ "updated": "2026-10-11T02:30:14Z"
 }

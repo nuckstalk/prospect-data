@@ -1507,8 +1507,8 @@
    "diff": 6,
    "l10": "2-1-0-1",
    "strk": "0-1-0-0",
-   "lseq": 15,
-   "cseq": 8,
+   "lseq": 14,
+   "cseq": 7,
    "dseq": 6
   },
   {
@@ -1527,7 +1527,7 @@
    "diff": 2,
    "l10": "2-1-1",
    "strk": "1-0-0-0",
-   "lseq": 16,
+   "lseq": 15,
    "cseq": 8,
    "dseq": 4
   },
@@ -1547,9 +1547,29 @@
    "diff": 2,
    "l10": "2-1-1",
    "strk": "0-1-0-0",
-   "lseq": 13,
+   "lseq": 12,
    "cseq": 6,
    "dseq": 3
+  },
+  {
+   "abbr": "SPR",
+   "name": "Springfield Thunderbirds",
+   "nick": "Thunderbirds",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 4,
+   "w": 2,
+   "l": 1,
+   "otl": 1,
+   "pts": 5,
+   "gf": 8,
+   "ga": 9,
+   "diff": -1,
+   "l10": "2-1-0-1",
+   "strk": "0-1-0-1",
+   "lseq": 16,
+   "cseq": 8,
+   "dseq": 2
   },
   {
    "abbr": "IA",
@@ -1567,7 +1587,7 @@
    "diff": 0,
    "l10": "2-1-0-1",
    "strk": "1-0-0-0",
-   "lseq": 14,
+   "lseq": 13,
    "cseq": 7,
    "dseq": 4
   },
@@ -1647,7 +1667,7 @@
    "diff": 2,
    "l10": "2-2-0",
    "strk": "2-0-0-0",
-   "lseq": 20,
+   "lseq": 21,
    "cseq": 10,
    "dseq": 6
   },
@@ -1672,26 +1692,6 @@
    "dseq": 5
   },
   {
-   "abbr": "SPR",
-   "name": "Springfield Thunderbirds",
-   "nick": "Thunderbirds",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 3,
-   "w": 2,
-   "l": 1,
-   "otl": 0,
-   "pts": 4,
-   "gf": 8,
-   "ga": 8,
-   "diff": 0,
-   "l10": "2-1-0",
-   "strk": "0-1-0-0",
-   "lseq": 11,
-   "cseq": 6,
-   "dseq": 2
-  },
-  {
    "abbr": "TOR",
    "name": "Toronto Marlies",
    "nick": "Marlies",
@@ -1702,13 +1702,13 @@
    "l": 1,
    "otl": 0,
    "pts": 4,
-   "gf": 14,
+   "gf": 15,
    "ga": 12,
-   "diff": 2,
+   "diff": 3,
    "l10": "2-1-0",
    "strk": "2-0-0-0",
-   "lseq": 12,
-   "cseq": 7,
+   "lseq": 11,
+   "cseq": 6,
    "dseq": 5
   },
   {
@@ -1732,6 +1732,26 @@
    "dseq": 4
   },
   {
+   "abbr": "CLT",
+   "name": "Charlotte Checkers",
+   "nick": "Checkers",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 4,
+   "w": 2,
+   "l": 2,
+   "otl": 0,
+   "pts": 4,
+   "gf": 11,
+   "ga": 12,
+   "diff": -1,
+   "l10": "2-2-0",
+   "strk": "1-0-0-0",
+   "lseq": 20,
+   "cseq": 11,
+   "dseq": 5
+  },
+  {
    "abbr": "HAM",
    "name": "Hamilton Hammers",
    "nick": "Hammers",
@@ -1743,12 +1763,12 @@
    "otl": 1,
    "pts": 3,
    "gf": 14,
-   "ga": 15,
-   "diff": -1,
+   "ga": 16,
+   "diff": -2,
    "l10": "1-1-0-1",
    "strk": "0-1-0-1",
-   "lseq": 21,
-   "cseq": 11,
+   "lseq": 22,
+   "cseq": 12,
    "dseq": 7
   },
   {
@@ -1767,7 +1787,7 @@
    "diff": -4,
    "l10": "1-2-0-1",
    "strk": "1-0-0-0",
-   "lseq": 24,
+   "lseq": 25,
    "cseq": 13,
    "dseq": 8
   },
@@ -1787,28 +1807,8 @@
    "diff": -4,
    "l10": "1-1-0-1",
    "strk": "0-1-0-1",
-   "lseq": 22,
+   "lseq": 23,
    "cseq": 11,
-   "dseq": 5
-  },
-  {
-   "abbr": "CLT",
-   "name": "Charlotte Checkers",
-   "nick": "Checkers",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 3,
-   "w": 1,
-   "l": 2,
-   "otl": 0,
-   "pts": 2,
-   "gf": 10,
-   "ga": 12,
-   "diff": -2,
-   "l10": "1-2-0",
-   "strk": "0-2-0-0",
-   "lseq": 25,
-   "cseq": 12,
    "dseq": 5
   },
   {
@@ -1907,7 +1907,7 @@
    "diff": -3,
    "l10": "1-1-0",
    "strk": "0-1-0-0",
-   "lseq": 23,
+   "lseq": 24,
    "cseq": 12,
    "dseq": 7
   },
@@ -1975,16 +1975,16 @@
  "team": {
   "gf": {
    "v": 2.75,
-   "rank": 20
+   "rank": 19
   },
   "ga": {
    "v": 3.75,
-   "rank": 22
+   "rank": 23
   },
   "pt": {
    "v": 37.5,
-   "rank": 24
+   "rank": 25
   }
  },
- "updated": "2026-10-11T21:45:18Z"
+ "updated": "2026-10-11T22:00:16Z"
 }

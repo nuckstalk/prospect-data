@@ -1871,6 +1871,26 @@
    "lseq": 6
   },
   {
+   "abbr": "SEA",
+   "name": "Seattle Kraken",
+   "nick": "Kraken",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 6,
+   "w": 4,
+   "l": 2,
+   "otl": 0,
+   "pts": 8,
+   "gf": 26,
+   "ga": 17,
+   "diff": 9,
+   "l10": "4-2-0",
+   "strk": "W2",
+   "dseq": 4,
+   "cseq": 4,
+   "lseq": 7
+  },
+  {
    "abbr": "UTA",
    "name": "Utah Mammoth",
    "nick": "Mammoth",
@@ -1887,8 +1907,8 @@
    "l10": "4-2-0",
    "strk": "W1",
    "dseq": 1,
-   "cseq": 4,
-   "lseq": 7
+   "cseq": 5,
+   "lseq": 8
   },
   {
    "abbr": "NYR",
@@ -1908,7 +1928,7 @@
    "strk": "L1",
    "dseq": 2,
    "cseq": 4,
-   "lseq": 8
+   "lseq": 9
   },
   {
    "abbr": "BOS",
@@ -1928,7 +1948,7 @@
    "strk": "W2",
    "dseq": 3,
    "cseq": 5,
-   "lseq": 9
+   "lseq": 10
   },
   {
    "abbr": "MIN",
@@ -1947,8 +1967,8 @@
    "l10": "3-1-1",
    "strk": "W1",
    "dseq": 2,
-   "cseq": 5,
-   "lseq": 10
+   "cseq": 6,
+   "lseq": 11
   },
   {
    "abbr": "WPG",
@@ -1967,8 +1987,8 @@
    "l10": "3-1-1",
    "strk": "L1",
    "dseq": 3,
-   "cseq": 6,
-   "lseq": 11
+   "cseq": 7,
+   "lseq": 12
   },
   {
    "abbr": "TOR",
@@ -1988,7 +2008,7 @@
    "strk": "W1",
    "dseq": 4,
    "cseq": 6,
-   "lseq": 12
+   "lseq": 13
   },
   {
    "abbr": "PIT",
@@ -2008,26 +2028,6 @@
    "strk": "W1",
    "dseq": 3,
    "cseq": 7,
-   "lseq": 13
-  },
-  {
-   "abbr": "WSH",
-   "name": "Washington Capitals",
-   "nick": "Capitals",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 4,
-   "w": 3,
-   "l": 1,
-   "otl": 0,
-   "pts": 6,
-   "gf": 14,
-   "ga": 9,
-   "diff": 5,
-   "l10": "3-1-0",
-   "strk": "W2",
-   "dseq": 4,
-   "cseq": 8,
    "lseq": 14
   },
   {
@@ -2047,25 +2047,25 @@
    "l10": "3-2-0",
    "strk": "L1",
    "dseq": 4,
-   "cseq": 7,
+   "cseq": 8,
    "lseq": 15
   },
   {
-   "abbr": "SEA",
-   "name": "Seattle Kraken",
-   "nick": "Kraken",
-   "div": "Pacific",
-   "conf": "Western",
+   "abbr": "WSH",
+   "name": "Washington Capitals",
+   "nick": "Capitals",
+   "div": "Metropolitan",
+   "conf": "Eastern",
    "gp": 5,
    "w": 3,
    "l": 2,
    "otl": 0,
    "pts": 6,
-   "gf": 21,
+   "gf": 17,
    "ga": 14,
-   "diff": 7,
+   "diff": 3,
    "l10": "3-2-0",
-   "strk": "W1",
+   "strk": "L1",
    "dseq": 4,
    "cseq": 8,
    "lseq": 16
@@ -2425,5 +2425,5 @@
    "rank": 27
   }
  },
- "updated": "2026-10-11T05:45:13Z"
+ "updated": "2026-10-12T00:00:17Z"
 }

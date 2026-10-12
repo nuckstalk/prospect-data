@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-11T22:15:21Z",
+ "updated": "2026-10-12T00:45:21Z",
  "results": [
+  {
+   "opp": "New York Rangers",
+   "abbr": "NYR",
+   "home": false,
+   "date": "Oct 11",
+   "us": 2,
+   "them": 6,
+   "res": "L"
+  },
   {
    "opp": "New Jersey Devils",
    "abbr": "NJD",
@@ -17,15 +26,6 @@
    "date": "Oct 8",
    "us": 2,
    "them": 7,
-   "res": "L"
-  },
-  {
-   "opp": "Vegas Golden Knights",
-   "abbr": "VGK",
-   "home": true,
-   "date": "Oct 4",
-   "us": 2,
-   "them": 3,
    "res": "L"
   }
  ],

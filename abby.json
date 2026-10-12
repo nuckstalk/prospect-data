@@ -1387,8 +1387,8 @@
    "diff": 12,
    "l10": "3-1-0",
    "strk": "1-0-0-0",
-   "lseq": 9,
-   "cseq": 5,
+   "lseq": 8,
+   "cseq": 4,
    "dseq": 2
   },
   {
@@ -1407,7 +1407,7 @@
    "diff": 9,
    "l10": "3-1-0",
    "strk": "3-0-0-0",
-   "lseq": 8,
+   "lseq": 7,
    "cseq": 4,
    "dseq": 3
   },
@@ -1427,9 +1427,9 @@
    "diff": 4,
    "l10": "3-1-0",
    "strk": "0-1-0-0",
-   "lseq": 4,
-   "cseq": 3,
-   "dseq": 2
+   "lseq": 3,
+   "cseq": 2,
+   "dseq": 1
   },
   {
    "abbr": "HER",
@@ -1447,7 +1447,7 @@
    "diff": 4,
    "l10": "3-1-0",
    "strk": "3-0-0-0",
-   "lseq": 7,
+   "lseq": 6,
    "cseq": 3,
    "dseq": 1
   },
@@ -1467,8 +1467,28 @@
    "diff": -3,
    "l10": "3-2-0",
    "strk": "0-2-0-0",
-   "lseq": 17,
+   "lseq": 18,
    "cseq": 9,
+   "dseq": 4
+  },
+  {
+   "abbr": "TOR",
+   "name": "Toronto Marlies",
+   "nick": "Marlies",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 4,
+   "w": 3,
+   "l": 1,
+   "otl": 0,
+   "pts": 6,
+   "gf": 16,
+   "ga": 12,
+   "diff": 4,
+   "l10": "3-1-0",
+   "strk": "3-0-0-0",
+   "lseq": 9,
+   "cseq": 5,
    "dseq": 4
   },
   {
@@ -1487,29 +1507,29 @@
    "diff": 4,
    "l10": "3-1-0",
    "strk": "0-1-0-0",
-   "lseq": 6,
-   "cseq": 4,
-   "dseq": 3
+   "lseq": 5,
+   "cseq": 3,
+   "dseq": 2
   },
   {
-   "abbr": "TOR",
-   "name": "Toronto Marlies",
-   "nick": "Marlies",
-   "div": "North",
-   "conf": "Eastern",
+   "abbr": "CV",
+   "name": "Coachella Valley Firebirds",
+   "nick": "Firebirds",
+   "div": "Pacific",
+   "conf": "Western",
    "gp": 4,
-   "w": 3,
-   "l": 1,
-   "otl": 0,
+   "w": 2,
+   "l": 0,
+   "otl": 2,
    "pts": 6,
-   "gf": 16,
-   "ga": 12,
-   "diff": 4,
-   "l10": "3-1-0",
-   "strk": "3-0-0-0",
+   "gf": 19,
+   "ga": 14,
+   "diff": 5,
+   "l10": "2-0-2",
+   "strk": "2-0-2-0",
    "lseq": 10,
    "cseq": 5,
-   "dseq": 4
+   "dseq": 3
   },
   {
    "abbr": "CLE",
@@ -1527,29 +1547,9 @@
    "diff": 2,
    "l10": "3-1-0",
    "strk": "3-0-0-0",
-   "lseq": 5,
+   "lseq": 4,
    "cseq": 2,
    "dseq": 2
-  },
-  {
-   "abbr": "CV",
-   "name": "Coachella Valley Firebirds",
-   "nick": "Firebirds",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 3,
-   "w": 2,
-   "l": 0,
-   "otl": 1,
-   "pts": 5,
-   "gf": 19,
-   "ga": 14,
-   "diff": 5,
-   "l10": "2-0-1",
-   "strk": "2-0-1-0",
-   "lseq": 3,
-   "cseq": 2,
-   "dseq": 1
   },
   {
    "abbr": "WBS",
@@ -1567,7 +1567,7 @@
    "diff": 8,
    "l10": "2-1-1",
    "strk": "2-0-0-0",
-   "lseq": 16,
+   "lseq": 17,
    "cseq": 8,
    "dseq": 3
   },
@@ -1587,7 +1587,7 @@
    "diff": 6,
    "l10": "2-1-0-1",
    "strk": "0-1-0-0",
-   "lseq": 13,
+   "lseq": 14,
    "cseq": 6,
    "dseq": 5
   },
@@ -1607,9 +1607,9 @@
    "diff": 2,
    "l10": "2-1-1",
    "strk": "1-0-0-0",
-   "lseq": 14,
-   "cseq": 8,
-   "dseq": 4
+   "lseq": 15,
+   "cseq": 9,
+   "dseq": 5
   },
   {
    "abbr": "SPR",
@@ -1627,7 +1627,7 @@
    "diff": -1,
    "l10": "2-1-0-1",
    "strk": "0-1-0-1",
-   "lseq": 15,
+   "lseq": 16,
    "cseq": 7,
    "dseq": 2
   },
@@ -1647,8 +1647,8 @@
    "diff": 0,
    "l10": "2-1-0-1",
    "strk": "1-0-0-0",
-   "lseq": 12,
-   "cseq": 7,
+   "lseq": 13,
+   "cseq": 8,
    "dseq": 4
   },
   {
@@ -1687,9 +1687,9 @@
    "diff": 2,
    "l10": "2-2-0",
    "strk": "2-0-0-0",
-   "lseq": 21,
-   "cseq": 10,
-   "dseq": 6
+   "lseq": 22,
+   "cseq": 11,
+   "dseq": 7
   },
   {
    "abbr": "BAK",
@@ -1707,9 +1707,9 @@
    "diff": 1,
    "l10": "2-2-0",
    "strk": "1-0-0-0",
-   "lseq": 18,
-   "cseq": 9,
-   "dseq": 5
+   "lseq": 19,
+   "cseq": 10,
+   "dseq": 6
   },
   {
    "abbr": "CLT",
@@ -1727,7 +1727,7 @@
    "diff": -1,
    "l10": "2-2-0",
    "strk": "1-0-0-0",
-   "lseq": 20,
+   "lseq": 21,
    "cseq": 11,
    "dseq": 5
   },
@@ -1747,9 +1747,29 @@
    "diff": -3,
    "l10": "2-2-0",
    "strk": "0-1-0-0",
-   "lseq": 19,
+   "lseq": 20,
    "cseq": 10,
    "dseq": 6
+  },
+  {
+   "abbr": "ONT",
+   "name": "Ontario Reign",
+   "nick": "Reign",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 3,
+   "w": 2,
+   "l": 1,
+   "otl": 0,
+   "pts": 4,
+   "gf": 11,
+   "ga": 13,
+   "diff": -2,
+   "l10": "2-1-0",
+   "strk": "1-0-0-0",
+   "lseq": 12,
+   "cseq": 7,
+   "dseq": 4
   },
   {
    "abbr": "HAM",
@@ -1892,26 +1912,6 @@
    "dseq": 6
   },
   {
-   "abbr": "ONT",
-   "name": "Ontario Reign",
-   "nick": "Reign",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 2,
-   "w": 1,
-   "l": 1,
-   "otl": 0,
-   "pts": 2,
-   "gf": 11,
-   "ga": 13,
-   "diff": -2,
-   "l10": "1-1-0",
-   "strk": "0-1-0-0",
-   "lseq": 22,
-   "cseq": 11,
-   "dseq": 7
-  },
-  {
    "abbr": "SJ",
    "name": "San Jose Barracuda",
    "nick": "Barracuda",
@@ -1979,12 +1979,12 @@
   },
   "ga": {
    "v": 3.75,
-   "rank": 23
+   "rank": 24
   },
   "pt": {
    "v": 37.5,
    "rank": 23
   }
  },
- "updated": "2026-10-12T00:45:18Z"
+ "updated": "2026-10-12T01:00:18Z"
 }

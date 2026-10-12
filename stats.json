@@ -2320,26 +2320,6 @@
    "lseq": 17
   },
   {
-   "abbr": "FLA",
-   "name": "Florida Panthers",
-   "nick": "Panthers",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 5,
-   "w": 2,
-   "l": 1,
-   "otl": 2,
-   "pts": 6,
-   "gf": 9,
-   "ga": 12,
-   "diff": -3,
-   "l10": "2-1-2",
-   "strk": "L1",
-   "dseq": 5,
-   "cseq": 9,
-   "lseq": 18
-  },
-  {
    "abbr": "SJS",
    "name": "San Jose Sharks",
    "nick": "Sharks",
@@ -2357,7 +2337,47 @@
    "strk": "L1",
    "dseq": 5,
    "cseq": 10,
+   "lseq": 18
+  },
+  {
+   "abbr": "BUF",
+   "name": "Buffalo Sabres",
+   "nick": "Sabres",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 6,
+   "w": 3,
+   "l": 3,
+   "otl": 0,
+   "pts": 6,
+   "gf": 16,
+   "ga": 22,
+   "diff": -6,
+   "l10": "3-3-0",
+   "strk": "W1",
+   "dseq": 5,
+   "cseq": 9,
    "lseq": 19
+  },
+  {
+   "abbr": "FLA",
+   "name": "Florida Panthers",
+   "nick": "Panthers",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 6,
+   "w": 2,
+   "l": 2,
+   "otl": 2,
+   "pts": 6,
+   "gf": 12,
+   "ga": 17,
+   "diff": -5,
+   "l10": "2-2-2",
+   "strk": "L2",
+   "dseq": 6,
+   "cseq": 10,
+   "lseq": 20
   },
   {
    "abbr": "DAL",
@@ -2377,7 +2397,7 @@
    "strk": "OT1",
    "dseq": 6,
    "cseq": 11,
-   "lseq": 20
+   "lseq": 21
   },
   {
    "abbr": "STL",
@@ -2397,7 +2417,7 @@
    "strk": "W1",
    "dseq": 7,
    "cseq": 12,
-   "lseq": 21
+   "lseq": 22
   },
   {
    "abbr": "MTL",
@@ -2415,9 +2435,9 @@
    "diff": -4,
    "l10": "2-2-1",
    "strk": "W1",
-   "dseq": 6,
-   "cseq": 10,
-   "lseq": 22
+   "dseq": 7,
+   "cseq": 11,
+   "lseq": 23
   },
   {
    "abbr": "NJD",
@@ -2436,8 +2456,8 @@
    "l10": "2-2-0",
    "strk": "W1",
    "dseq": 5,
-   "cseq": 11,
-   "lseq": 23
+   "cseq": 12,
+   "lseq": 24
   },
   {
    "abbr": "CBJ",
@@ -2456,8 +2476,8 @@
    "l10": "2-2-0",
    "strk": "L1",
    "dseq": 6,
-   "cseq": 12,
-   "lseq": 24
+   "cseq": 13,
+   "lseq": 25
   },
   {
    "abbr": "NYI",
@@ -2475,26 +2495,6 @@
    "diff": 3,
    "l10": "2-3-0",
    "strk": "L1",
-   "dseq": 7,
-   "cseq": 13,
-   "lseq": 25
-  },
-  {
-   "abbr": "BUF",
-   "name": "Buffalo Sabres",
-   "nick": "Sabres",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 5,
-   "w": 2,
-   "l": 3,
-   "otl": 0,
-   "pts": 4,
-   "gf": 11,
-   "ga": 19,
-   "diff": -8,
-   "l10": "2-3-0",
-   "strk": "L2",
    "dseq": 7,
    "cseq": 14,
    "lseq": 26
@@ -2654,5 +2654,5 @@
    "rank": 28
   }
  },
- "updated": "2026-10-12T02:00:17Z"
+ "updated": "2026-10-12T19:45:15Z"
 }

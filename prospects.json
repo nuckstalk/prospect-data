@@ -30,13 +30,13 @@
    "ep": 3,
    "team": "Peterborough Petes",
    "lg": "OHL",
-   "gp": 7,
+   "gp": 8,
    "g": 4,
    "a": 5,
    "tp": 9,
-   "ppg": 1.2857142857142858,
+   "ppg": 1.125,
    "pim": 0,
-   "pm": -2
+   "pm": -3
   },
   "Braeden Cootes": {
    "ep": 4,
@@ -342,6 +342,24 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-10-12",
+   "items": [
+    {
+     "k": "S",
+     "name": "Adam Novotný",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 8,
+     "sg": 4,
+     "sa": 5,
+     "stp": 9
+    }
+   ]
+  },
   {
    "date": "2026-10-11",
    "items": [

@@ -325,7 +325,7 @@
   "Alexei Medvedev": {
    "team": "London Knights",
    "lg": "OHL",
-   "gp": 3,
+   "gp": 4,
    "gaa": 3.16,
    "svp": ".915",
    "so": 0,
@@ -342,6 +342,21 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-10-13",
+   "items": [
+    {
+     "k": "G",
+     "name": "Alexei Medvedev",
+     "lg": "OHL",
+     "dgp": 1,
+     "res": "",
+     "gaa": 3.16,
+     "svp": ".915",
+     "sgp": 4
+    }
+   ]
+  },
   {
    "date": "2026-10-12",
    "items": [

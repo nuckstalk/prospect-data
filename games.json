@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-14T00:00:19Z",
+ "updated": "2026-10-14T02:30:20Z",
  "results": [
+  {
+   "opp": "New York Islanders",
+   "abbr": "NYI",
+   "home": false,
+   "date": "Oct 13",
+   "us": 2,
+   "them": 3,
+   "res": "L"
+  },
   {
    "opp": "New York Rangers",
    "abbr": "NYR",
@@ -17,15 +26,6 @@
    "date": "Oct 10",
    "us": 1,
    "them": 4,
-   "res": "L"
-  },
-  {
-   "opp": "Carolina Hurricanes",
-   "abbr": "CAR",
-   "home": false,
-   "date": "Oct 8",
-   "us": 2,
-   "them": 7,
    "res": "L"
   }
  ],

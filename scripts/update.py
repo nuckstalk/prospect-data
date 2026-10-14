@@ -121,7 +121,7 @@ for n, r in data["goalies"].items():
         a, b = parse_rec(o["rec"]), parse_rec(r["rec"])
         res = "W" if b[0] > a[0] else "L" if b[1] > a[1] else "OTL" if b[2] > a[2] else ""
         new_items.append({"k": "G", "name": n, "lg": r["lg"], "dgp": dgp, "res": res, "gaa": r["gaa"],
-                          "svp": r["svp"], "sgp": r["gp"]})
+                          "svp": r["svp"], "sgp": r["gp"], "rec0": o["rec"]})
 if new_items:
     if day is None:
         day = {"date": game_date, "items": []}; watch.append(day)
@@ -132,8 +132,18 @@ if new_items:
         else:  # same player again today: add the new deltas, keep latest season totals
             for k in ("dgp", "dg", "da", "dtp"):
                 if k in it: ex[k] = ex.get(k, 0) + it[k]
-            ex.update({k: v for k, v in it.items() if k not in ("dgp", "dg", "da", "dtp")})
+            ex.update({k: v for k, v in it.items() if k not in ("dgp", "dg", "da", "dtp", "rec0") and not (k == "res" and not v)})
     print("watch:", [(i["name"], i["dgp"]) for i in new_items])
+# a goalie's W/L/OTL can post later than his GP: fill in any blank result once the record catches up
+for d in watch:
+    for it in d["items"]:
+        if it.get("k") == "G" and not it.get("res") and it.get("rec0") and it["name"] in data["goalies"]:
+            a, b = parse_rec(it["rec0"]), parse_rec(data["goalies"][it["name"]]["rec"])
+            res = "W" if b[0] > a[0] else "L" if b[1] > a[1] else "OTL" if b[2] > a[2] else ""
+            if res:
+                gg = data["goalies"][it["name"]]
+                it["res"] = res; it["svp"] = gg["svp"]; it["gaa"] = gg["gaa"]; it.pop("rec0", None)
+                print("result filled in:", it["name"], res)
 watch.sort(key=lambda d: d["date"], reverse=True)
 data["watch"] = watch[:7]
 # ---------------------------------------------------------------------------------------------

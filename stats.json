@@ -2280,26 +2280,6 @@
    "lseq": 15
   },
   {
-   "abbr": "PIT",
-   "name": "Pittsburgh Penguins",
-   "nick": "Penguins",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 6,
-   "w": 3,
-   "l": 2,
-   "otl": 1,
-   "pts": 7,
-   "gf": 22,
-   "ga": 17,
-   "diff": 5,
-   "l10": "3-2-1",
-   "strk": "W1",
-   "dseq": 3,
-   "cseq": 8,
-   "lseq": 16
-  },
-  {
    "abbr": "MTL",
    "name": "Montréal Canadiens",
    "nick": "Canadiens",
@@ -2316,8 +2296,8 @@
    "l10": "3-2-1",
    "strk": "W2",
    "dseq": 6,
-   "cseq": 9,
-   "lseq": 17
+   "cseq": 8,
+   "lseq": 16
   },
   {
    "abbr": "BUF",
@@ -2336,6 +2316,26 @@
    "l10": "3-3-1",
    "strk": "OT1",
    "dseq": 7,
+   "cseq": 9,
+   "lseq": 17
+  },
+  {
+   "abbr": "PIT",
+   "name": "Pittsburgh Penguins",
+   "nick": "Penguins",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 7,
+   "w": 3,
+   "l": 3,
+   "otl": 1,
+   "pts": 7,
+   "gf": 25,
+   "ga": 22,
+   "diff": 3,
+   "l10": "3-3-1",
+   "strk": "L1",
+   "dseq": 3,
    "cseq": 10,
    "lseq": 18
   },
@@ -2520,6 +2520,26 @@
    "lseq": 27
   },
   {
+   "abbr": "CHI",
+   "name": "Chicago Blackhawks",
+   "nick": "Blackhawks",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 7,
+   "w": 2,
+   "l": 5,
+   "otl": 0,
+   "pts": 4,
+   "gf": 17,
+   "ga": 29,
+   "diff": -12,
+   "l10": "2-5-0",
+   "strk": "W1",
+   "dseq": 8,
+   "cseq": 13,
+   "lseq": 28
+  },
+  {
    "abbr": "VAN",
    "name": "Vancouver Canucks",
    "nick": "Canucks",
@@ -2536,8 +2556,8 @@
    "l10": "2-6-0",
    "strk": "L5",
    "dseq": 6,
-   "cseq": 13,
-   "lseq": 28
+   "cseq": 14,
+   "lseq": 29
   },
   {
    "abbr": "PHI",
@@ -2557,7 +2577,7 @@
    "strk": "OT1",
    "dseq": 8,
    "cseq": 16,
-   "lseq": 29
+   "lseq": 30
   },
   {
    "abbr": "LAK",
@@ -2576,26 +2596,6 @@
    "l10": "0-2-2",
    "strk": "OT1",
    "dseq": 7,
-   "cseq": 14,
-   "lseq": 30
-  },
-  {
-   "abbr": "CHI",
-   "name": "Chicago Blackhawks",
-   "nick": "Blackhawks",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 6,
-   "w": 1,
-   "l": 5,
-   "otl": 0,
-   "pts": 2,
-   "gf": 12,
-   "ga": 26,
-   "diff": -14,
-   "l10": "1-5-0",
-   "strk": "L2",
-   "dseq": 8,
    "cseq": 15,
    "lseq": 31
   },
@@ -2623,7 +2623,7 @@
  "team": {
   "gf": {
    "v": 3.43,
-   "rank": 8
+   "rank": 9
   },
   "ga": {
    "v": 5.0,
@@ -2654,5 +2654,5 @@
    "rank": 28
   }
  },
- "updated": "2026-10-14T02:30:15Z"
+ "updated": "2026-10-14T02:45:21Z"
 }

@@ -1985,16 +1985,16 @@
    "nick": "Hurricanes",
    "div": "Metropolitan",
    "conf": "Eastern",
-   "gp": 7,
-   "w": 5,
+   "gp": 8,
+   "w": 6,
    "l": 1,
    "otl": 1,
-   "pts": 11,
-   "gf": 27,
-   "ga": 17,
-   "diff": 10,
-   "l10": "5-1-1",
-   "strk": "W5",
+   "pts": 13,
+   "gf": 31,
+   "ga": 19,
+   "diff": 12,
+   "l10": "6-1-1",
+   "strk": "W6",
    "dseq": 1,
    "cseq": 1,
    "lseq": 1
@@ -2280,6 +2280,46 @@
    "lseq": 15
   },
   {
+   "abbr": "MTL",
+   "name": "Montréal Canadiens",
+   "nick": "Canadiens",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 6,
+   "w": 3,
+   "l": 2,
+   "otl": 1,
+   "pts": 7,
+   "gf": 19,
+   "ga": 22,
+   "diff": -3,
+   "l10": "3-2-1",
+   "strk": "W2",
+   "dseq": 6,
+   "cseq": 9,
+   "lseq": 16
+  },
+  {
+   "abbr": "BUF",
+   "name": "Buffalo Sabres",
+   "nick": "Sabres",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 7,
+   "w": 3,
+   "l": 3,
+   "otl": 1,
+   "pts": 7,
+   "gf": 19,
+   "ga": 26,
+   "diff": -7,
+   "l10": "3-3-1",
+   "strk": "OT1",
+   "dseq": 7,
+   "cseq": 10,
+   "lseq": 17
+  },
+  {
    "abbr": "COL",
    "name": "Colorado Avalanche",
    "nick": "Avalanche",
@@ -2297,27 +2337,7 @@
    "strk": "L1",
    "dseq": 4,
    "cseq": 8,
-   "lseq": 16
-  },
-  {
-   "abbr": "WSH",
-   "name": "Washington Capitals",
-   "nick": "Capitals",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 5,
-   "w": 3,
-   "l": 2,
-   "otl": 0,
-   "pts": 6,
-   "gf": 17,
-   "ga": 14,
-   "diff": 3,
-   "l10": "3-2-0",
-   "strk": "L1",
-   "dseq": 4,
-   "cseq": 9,
-   "lseq": 17
+   "lseq": 18
   },
   {
    "abbr": "NSH",
@@ -2337,7 +2357,7 @@
    "strk": "OT1",
    "dseq": 5,
    "cseq": 9,
-   "lseq": 18
+   "lseq": 19
   },
   {
    "abbr": "SJS",
@@ -2357,27 +2377,27 @@
    "strk": "L1",
    "dseq": 5,
    "cseq": 10,
-   "lseq": 19
+   "lseq": 20
   },
   {
-   "abbr": "BUF",
-   "name": "Buffalo Sabres",
-   "nick": "Sabres",
-   "div": "Atlantic",
+   "abbr": "WSH",
+   "name": "Washington Capitals",
+   "nick": "Capitals",
+   "div": "Metropolitan",
    "conf": "Eastern",
    "gp": 6,
    "w": 3,
    "l": 3,
    "otl": 0,
    "pts": 6,
-   "gf": 16,
-   "ga": 22,
-   "diff": -6,
+   "gf": 19,
+   "ga": 18,
+   "diff": 1,
    "l10": "3-3-0",
-   "strk": "W1",
-   "dseq": 6,
-   "cseq": 10,
-   "lseq": 20
+   "strk": "L2",
+   "dseq": 4,
+   "cseq": 11,
+   "lseq": 21
   },
   {
    "abbr": "NJD",
@@ -2396,8 +2416,8 @@
    "l10": "3-3-0",
    "strk": "W1",
    "dseq": 5,
-   "cseq": 11,
-   "lseq": 21
+   "cseq": 12,
+   "lseq": 22
   },
   {
    "abbr": "DAL",
@@ -2417,7 +2437,7 @@
    "strk": "OT1",
    "dseq": 6,
    "cseq": 11,
-   "lseq": 22
+   "lseq": 23
   },
   {
    "abbr": "STL",
@@ -2433,26 +2453,6 @@
    "gf": 14,
    "ga": 16,
    "diff": -2,
-   "l10": "2-2-1",
-   "strk": "W1",
-   "dseq": 7,
-   "cseq": 12,
-   "lseq": 23
-  },
-  {
-   "abbr": "MTL",
-   "name": "Montréal Canadiens",
-   "nick": "Canadiens",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 5,
-   "w": 2,
-   "l": 2,
-   "otl": 1,
-   "pts": 5,
-   "gf": 15,
-   "ga": 19,
-   "diff": -4,
    "l10": "2-2-1",
    "strk": "W1",
    "dseq": 7,
@@ -2654,5 +2654,5 @@
    "rank": 28
   }
  },
- "updated": "2026-10-14T01:15:17Z"
+ "updated": "2026-10-14T01:45:16Z"
 }

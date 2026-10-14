@@ -2247,6 +2247,26 @@
    "lseq": 3
   },
   {
+   "abbr": "UTA",
+   "name": "Utah Mammoth",
+   "nick": "Mammoth",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 7,
+   "w": 5,
+   "l": 2,
+   "otl": 0,
+   "pts": 10,
+   "gf": 27,
+   "ga": 19,
+   "diff": 8,
+   "l10": "5-2-0",
+   "strk": "W2",
+   "dseq": 1,
+   "cseq": 2,
+   "lseq": 4
+  },
+  {
    "abbr": "SEA",
    "name": "Seattle Kraken",
    "nick": "Kraken",
@@ -2263,8 +2283,8 @@
    "l10": "5-2-0",
    "strk": "W3",
    "dseq": 2,
-   "cseq": 2,
-   "lseq": 4
+   "cseq": 3,
+   "lseq": 5
   },
   {
    "abbr": "OTT",
@@ -2284,7 +2304,7 @@
    "strk": "L1",
    "dseq": 1,
    "cseq": 3,
-   "lseq": 5
+   "lseq": 6
   },
   {
    "abbr": "EDM",
@@ -2303,8 +2323,8 @@
    "l10": "4-0-1",
    "strk": "W4",
    "dseq": 3,
-   "cseq": 3,
-   "lseq": 6
+   "cseq": 4,
+   "lseq": 7
   },
   {
    "abbr": "WPG",
@@ -2322,9 +2342,9 @@
    "diff": 1,
    "l10": "4-1-1",
    "strk": "W1",
-   "dseq": 1,
-   "cseq": 4,
-   "lseq": 7
+   "dseq": 2,
+   "cseq": 5,
+   "lseq": 8
   },
   {
    "abbr": "MIN",
@@ -2342,9 +2362,9 @@
    "diff": 5,
    "l10": "4-2-1",
    "strk": "L1",
-   "dseq": 2,
-   "cseq": 5,
-   "lseq": 8
+   "dseq": 3,
+   "cseq": 6,
+   "lseq": 9
   },
   {
    "abbr": "ANA",
@@ -2363,8 +2383,8 @@
    "l10": "4-1-0",
    "strk": "W2",
    "dseq": 4,
-   "cseq": 6,
-   "lseq": 9
+   "cseq": 7,
+   "lseq": 10
   },
   {
    "abbr": "COL",
@@ -2380,26 +2400,6 @@
    "gf": 29,
    "ga": 19,
    "diff": 10,
-   "l10": "4-2-0",
-   "strk": "W1",
-   "dseq": 3,
-   "cseq": 7,
-   "lseq": 10
-  },
-  {
-   "abbr": "UTA",
-   "name": "Utah Mammoth",
-   "nick": "Mammoth",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 6,
-   "w": 4,
-   "l": 2,
-   "otl": 0,
-   "pts": 8,
-   "gf": 22,
-   "ga": 15,
-   "diff": 7,
    "l10": "4-2-0",
    "strk": "W1",
    "dseq": 4,
@@ -2487,26 +2487,6 @@
    "lseq": 15
   },
   {
-   "abbr": "TOR",
-   "name": "Toronto Maple Leafs",
-   "nick": "Maple Leafs",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 6,
-   "w": 3,
-   "l": 2,
-   "otl": 1,
-   "pts": 7,
-   "gf": 20,
-   "ga": 18,
-   "diff": 2,
-   "l10": "3-2-1",
-   "strk": "W1",
-   "dseq": 5,
-   "cseq": 7,
-   "lseq": 16
-  },
-  {
    "abbr": "MTL",
    "name": "Montréal Canadiens",
    "nick": "Canadiens",
@@ -2522,6 +2502,26 @@
    "diff": -3,
    "l10": "3-2-1",
    "strk": "W2",
+   "dseq": 5,
+   "cseq": 7,
+   "lseq": 16
+  },
+  {
+   "abbr": "TOR",
+   "name": "Toronto Maple Leafs",
+   "nick": "Maple Leafs",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 7,
+   "w": 3,
+   "l": 3,
+   "otl": 1,
+   "pts": 7,
+   "gf": 24,
+   "ga": 23,
+   "diff": 1,
+   "l10": "3-3-1",
+   "strk": "L1",
    "dseq": 6,
    "cseq": 8,
    "lseq": 17
@@ -2846,7 +2846,7 @@
   },
   "sf": {
    "v": 22.38,
-   "rank": 29
+   "rank": 30
   },
   "sa": {
    "v": 31.62,
@@ -2861,5 +2861,5 @@
    "rank": 29
   }
  },
- "updated": "2026-10-14T03:30:15Z"
+ "updated": "2026-10-14T04:00:19Z"
 }

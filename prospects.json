@@ -294,13 +294,13 @@
    "ep": 27,
    "team": "Lausanne HC",
    "lg": "NL",
-   "gp": 11,
+   "gp": 12,
    "g": 2,
    "a": 1,
    "tp": 3,
-   "ppg": 0.2727272727272727,
+   "ppg": 0.25,
    "pim": 52,
-   "pm": -1
+   "pm": -2
   }
  },
  "goalies": {
@@ -342,6 +342,24 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-10-14",
+   "items": [
+    {
+     "k": "S",
+     "name": "Basile Sansonnens",
+     "lg": "NL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 12,
+     "sg": 2,
+     "sa": 1,
+     "stp": 3
+    }
+   ]
+  },
   {
    "date": "2026-10-13",
    "items": [

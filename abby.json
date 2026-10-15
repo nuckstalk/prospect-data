@@ -1367,8 +1367,8 @@
    "diff": 4,
    "l10": "3-1-1",
    "strk": "1-0-0-0",
-   "lseq": 12,
-   "cseq": 7,
+   "lseq": 11,
+   "cseq": 6,
    "dseq": 3
   },
   {
@@ -1517,18 +1517,18 @@
    "nick": "Firebirds",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 4,
+   "gp": 5,
    "w": 2,
-   "l": 0,
+   "l": 1,
    "otl": 2,
    "pts": 6,
    "gf": 19,
    "ga": 18,
    "diff": 1,
-   "l10": "2-0-2",
-   "strk": "2-0-2-0",
-   "lseq": 11,
-   "cseq": 6,
+   "l10": "2-1-2",
+   "strk": "0-1-1-0",
+   "lseq": 16,
+   "cseq": 8,
    "dseq": 4
   },
   {
@@ -1587,7 +1587,7 @@
    "diff": 8,
    "l10": "2-1-1",
    "strk": "2-0-0-0",
-   "lseq": 16,
+   "lseq": 15,
    "cseq": 8,
    "dseq": 3
   },
@@ -1607,7 +1607,7 @@
    "diff": 6,
    "l10": "2-1-0-1",
    "strk": "0-1-0-0",
-   "lseq": 14,
+   "lseq": 13,
    "cseq": 6,
    "dseq": 5
   },
@@ -1647,7 +1647,7 @@
    "diff": -1,
    "l10": "2-1-0-1",
    "strk": "0-1-0-1",
-   "lseq": 15,
+   "lseq": 14,
    "cseq": 7,
    "dseq": 2
   },
@@ -1667,8 +1667,8 @@
    "diff": 0,
    "l10": "2-1-0-1",
    "strk": "1-0-0-0",
-   "lseq": 13,
-   "cseq": 8,
+   "lseq": 12,
+   "cseq": 7,
    "dseq": 4
   },
   {
@@ -1707,9 +1707,9 @@
    "diff": 2,
    "l10": "2-2-0",
    "strk": "2-0-0-0",
-   "lseq": 22,
-   "cseq": 11,
-   "dseq": 7
+   "lseq": 23,
+   "cseq": 12,
+   "dseq": 8
   },
   {
    "abbr": "BAK",
@@ -1730,6 +1730,26 @@
    "lseq": 19,
    "cseq": 10,
    "dseq": 6
+  },
+  {
+   "abbr": "HSK",
+   "name": "Henderson Silver Knights",
+   "nick": "Silver Knights",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 4,
+   "w": 2,
+   "l": 2,
+   "otl": 0,
+   "pts": 4,
+   "gf": 9,
+   "ga": 8,
+   "diff": 1,
+   "l10": "2-2-0",
+   "strk": "1-0-0-0",
+   "lseq": 22,
+   "cseq": 11,
+   "dseq": 7
   },
   {
    "abbr": "CLT",
@@ -1787,7 +1807,7 @@
    "diff": -3,
    "l10": "1-2-0-1",
    "strk": "0-2-0-1",
-   "lseq": 24,
+   "lseq": 25,
    "cseq": 12,
    "dseq": 7
   },
@@ -1807,9 +1827,9 @@
    "diff": -4,
    "l10": "1-2-0-1",
    "strk": "1-0-0-0",
-   "lseq": 23,
-   "cseq": 12,
-   "dseq": 8
+   "lseq": 24,
+   "cseq": 13,
+   "dseq": 9
   },
   {
    "abbr": "LV",
@@ -1827,7 +1847,7 @@
    "diff": -4,
    "l10": "1-2-1",
    "strk": "1-0-0-0",
-   "lseq": 25,
+   "lseq": 26,
    "cseq": 13,
    "dseq": 6
   },
@@ -1847,29 +1867,9 @@
    "diff": -6,
    "l10": "1-2-0-1",
    "strk": "0-2-0-1",
-   "lseq": 26,
-   "cseq": 13,
-   "dseq": 5
-  },
-  {
-   "abbr": "HSK",
-   "name": "Henderson Silver Knights",
-   "nick": "Silver Knights",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 3,
-   "w": 1,
-   "l": 2,
-   "otl": 0,
-   "pts": 2,
-   "gf": 9,
-   "ga": 8,
-   "diff": 1,
-   "l10": "1-2-0",
-   "strk": "0-2-0-0",
    "lseq": 27,
    "cseq": 14,
-   "dseq": 9
+   "dseq": 5
   },
   {
    "abbr": "RFD",
@@ -1975,16 +1975,16 @@
  "team": {
   "gf": {
    "v": 2.75,
-   "rank": 22
+   "rank": 21
   },
   "ga": {
    "v": 3.75,
-   "rank": 23
+   "rank": 24
   },
   "pt": {
    "v": 37.5,
-   "rank": 23
+   "rank": 24
   }
  },
- "updated": "2026-10-15T05:00:19Z"
+ "updated": "2026-10-15T05:15:17Z"
 }

@@ -2447,6 +2447,26 @@
    "lseq": 13
   },
   {
+   "abbr": "WSH",
+   "name": "Washington Capitals",
+   "nick": "Capitals",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 7,
+   "w": 4,
+   "l": 3,
+   "otl": 0,
+   "pts": 8,
+   "gf": 24,
+   "ga": 22,
+   "diff": 2,
+   "l10": "4-3-0",
+   "strk": "W1",
+   "dseq": 3,
+   "cseq": 6,
+   "lseq": 14
+  },
+  {
    "abbr": "FLA",
    "name": "Florida Panthers",
    "nick": "Panthers",
@@ -2463,8 +2483,8 @@
    "l10": "3-2-2",
    "strk": "W1",
    "dseq": 4,
-   "cseq": 6,
-   "lseq": 14
+   "cseq": 7,
+   "lseq": 15
   },
   {
    "abbr": "STL",
@@ -2484,26 +2504,6 @@
    "strk": "W2",
    "dseq": 5,
    "cseq": 9,
-   "lseq": 15
-  },
-  {
-   "abbr": "MTL",
-   "name": "Montréal Canadiens",
-   "nick": "Canadiens",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 6,
-   "w": 3,
-   "l": 2,
-   "otl": 1,
-   "pts": 7,
-   "gf": 19,
-   "ga": 22,
-   "diff": -3,
-   "l10": "3-2-1",
-   "strk": "W2",
-   "dseq": 5,
-   "cseq": 7,
    "lseq": 16
   },
   {
@@ -2522,7 +2522,7 @@
    "diff": 1,
    "l10": "3-3-1",
    "strk": "L1",
-   "dseq": 6,
+   "dseq": 5,
    "cseq": 8,
    "lseq": 17
   },
@@ -2542,7 +2542,7 @@
    "diff": -7,
    "l10": "3-3-1",
    "strk": "OT1",
-   "dseq": 7,
+   "dseq": 6,
    "cseq": 9,
    "lseq": 18
   },
@@ -2562,9 +2562,29 @@
    "diff": 3,
    "l10": "3-3-1",
    "strk": "L1",
-   "dseq": 3,
+   "dseq": 4,
    "cseq": 10,
    "lseq": 19
+  },
+  {
+   "abbr": "MTL",
+   "name": "Montréal Canadiens",
+   "nick": "Canadiens",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 7,
+   "w": 3,
+   "l": 3,
+   "otl": 1,
+   "pts": 7,
+   "gf": 23,
+   "ga": 27,
+   "diff": -4,
+   "l10": "3-3-1",
+   "strk": "L1",
+   "dseq": 7,
+   "cseq": 11,
+   "lseq": 20
   },
   {
    "abbr": "NYI",
@@ -2582,26 +2602,6 @@
    "diff": 4,
    "l10": "3-3-0",
    "strk": "W1",
-   "dseq": 4,
-   "cseq": 11,
-   "lseq": 20
-  },
-  {
-   "abbr": "WSH",
-   "name": "Washington Capitals",
-   "nick": "Capitals",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 6,
-   "w": 3,
-   "l": 3,
-   "otl": 0,
-   "pts": 6,
-   "gf": 19,
-   "ga": 18,
-   "diff": 1,
-   "l10": "3-3-0",
-   "strk": "L2",
    "dseq": 5,
    "cseq": 12,
    "lseq": 21
@@ -2861,5 +2861,5 @@
    "rank": 29
   }
  },
- "updated": "2026-10-14T06:30:16Z"
+ "updated": "2026-10-15T02:30:16Z"
 }

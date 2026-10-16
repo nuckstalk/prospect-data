@@ -2187,6 +2187,26 @@
  ],
  "standings": [
   {
+   "abbr": "VGK",
+   "name": "Vegas Golden Knights",
+   "nick": "Golden Knights",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 9,
+   "w": 7,
+   "l": 2,
+   "otl": 0,
+   "pts": 14,
+   "gf": 36,
+   "ga": 22,
+   "diff": 14,
+   "l10": "7-2-0",
+   "strk": "W2",
+   "dseq": 1,
+   "cseq": 1,
+   "lseq": 1
+  },
+  {
    "abbr": "CAR",
    "name": "Carolina Hurricanes",
    "nick": "Hurricanes",
@@ -2204,7 +2224,7 @@
    "strk": "W6",
    "dseq": 1,
    "cseq": 1,
-   "lseq": 1
+   "lseq": 2
   },
   {
    "abbr": "UTA",
@@ -2222,26 +2242,6 @@
    "diff": 10,
    "l10": "6-2-0",
    "strk": "W3",
-   "dseq": 1,
-   "cseq": 1,
-   "lseq": 2
-  },
-  {
-   "abbr": "VGK",
-   "name": "Vegas Golden Knights",
-   "nick": "Golden Knights",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 8,
-   "w": 6,
-   "l": 2,
-   "otl": 0,
-   "pts": 12,
-   "gf": 30,
-   "ga": 20,
-   "diff": 10,
-   "l10": "6-2-0",
-   "strk": "W1",
    "dseq": 1,
    "cseq": 2,
    "lseq": 3
@@ -2812,16 +2812,16 @@
    "nick": "Flames",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 6,
+   "gp": 7,
    "w": 1,
-   "l": 5,
+   "l": 6,
    "otl": 0,
    "pts": 2,
-   "gf": 12,
-   "ga": 29,
-   "diff": -17,
-   "l10": "1-5-0",
-   "strk": "W1",
+   "gf": 14,
+   "ga": 35,
+   "diff": -21,
+   "l10": "1-6-0",
+   "strk": "L1",
    "dseq": 8,
    "cseq": 16,
    "lseq": 32
@@ -2861,5 +2861,5 @@
    "rank": 29
   }
  },
- "updated": "2026-10-16T03:45:14Z"
+ "updated": "2026-10-16T05:00:16Z"
 }

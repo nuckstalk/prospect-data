@@ -2287,6 +2287,26 @@
    "lseq": 5
   },
   {
+   "abbr": "MIN",
+   "name": "Minnesota Wild",
+   "nick": "Wild",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 8,
+   "w": 5,
+   "l": 2,
+   "otl": 1,
+   "pts": 11,
+   "gf": 26,
+   "ga": 20,
+   "diff": 6,
+   "l10": "5-2-1",
+   "strk": "W1",
+   "dseq": 1,
+   "cseq": 3,
+   "lseq": 6
+  },
+  {
    "abbr": "SEA",
    "name": "Seattle Kraken",
    "nick": "Kraken",
@@ -2303,8 +2323,8 @@
    "l10": "5-2-1",
    "strk": "OT1",
    "dseq": 3,
-   "cseq": 3,
-   "lseq": 6
+   "cseq": 4,
+   "lseq": 7
   },
   {
    "abbr": "UTA",
@@ -2322,9 +2342,9 @@
    "diff": 8,
    "l10": "5-2-0",
    "strk": "W2",
-   "dseq": 1,
-   "cseq": 4,
-   "lseq": 7
+   "dseq": 2,
+   "cseq": 5,
+   "lseq": 8
   },
   {
    "abbr": "BOS",
@@ -2344,7 +2364,7 @@
    "strk": "W3",
    "dseq": 2,
    "cseq": 4,
-   "lseq": 8
+   "lseq": 9
   },
   {
    "abbr": "TBL",
@@ -2364,7 +2384,27 @@
    "strk": "W1",
    "dseq": 3,
    "cseq": 5,
-   "lseq": 9
+   "lseq": 10
+  },
+  {
+   "abbr": "WPG",
+   "name": "Winnipeg Jets",
+   "nick": "Jets",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 7,
+   "w": 4,
+   "l": 1,
+   "otl": 2,
+   "pts": 10,
+   "gf": 21,
+   "ga": 21,
+   "diff": 0,
+   "l10": "4-1-2",
+   "strk": "OT1",
+   "dseq": 3,
+   "cseq": 6,
+   "lseq": 11
   },
   {
    "abbr": "FLA",
@@ -2384,27 +2424,7 @@
    "strk": "W2",
    "dseq": 4,
    "cseq": 6,
-   "lseq": 10
-  },
-  {
-   "abbr": "WPG",
-   "name": "Winnipeg Jets",
-   "nick": "Jets",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 6,
-   "w": 4,
-   "l": 1,
-   "otl": 1,
-   "pts": 9,
-   "gf": 18,
-   "ga": 17,
-   "diff": 1,
-   "l10": "4-1-1",
-   "strk": "W1",
-   "dseq": 2,
-   "cseq": 5,
-   "lseq": 11
+   "lseq": 12
   },
   {
    "abbr": "COL",
@@ -2422,26 +2442,6 @@
    "diff": 9,
    "l10": "4-2-1",
    "strk": "OT1",
-   "dseq": 3,
-   "cseq": 6,
-   "lseq": 12
-  },
-  {
-   "abbr": "MIN",
-   "name": "Minnesota Wild",
-   "nick": "Wild",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 7,
-   "w": 4,
-   "l": 2,
-   "otl": 1,
-   "pts": 9,
-   "gf": 21,
-   "ga": 16,
-   "diff": 5,
-   "l10": "4-2-1",
-   "strk": "L1",
    "dseq": 4,
    "cseq": 7,
    "lseq": 13
@@ -2527,6 +2527,26 @@
    "lseq": 17
   },
   {
+   "abbr": "SJS",
+   "name": "San Jose Sharks",
+   "nick": "Sharks",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 7,
+   "w": 4,
+   "l": 3,
+   "otl": 0,
+   "pts": 8,
+   "gf": 19,
+   "ga": 25,
+   "diff": -6,
+   "l10": "4-3-0",
+   "strk": "W1",
+   "dseq": 5,
+   "cseq": 9,
+   "lseq": 18
+  },
+  {
    "abbr": "TOR",
    "name": "Toronto Maple Leafs",
    "nick": "Maple Leafs",
@@ -2544,26 +2564,6 @@
    "strk": "OT1",
    "dseq": 6,
    "cseq": 10,
-   "lseq": 18
-  },
-  {
-   "abbr": "STL",
-   "name": "St. Louis Blues",
-   "nick": "Blues",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 6,
-   "w": 3,
-   "l": 2,
-   "otl": 1,
-   "pts": 7,
-   "gf": 21,
-   "ga": 18,
-   "diff": 3,
-   "l10": "3-2-1",
-   "strk": "W2",
-   "dseq": 5,
-   "cseq": 9,
    "lseq": 19
   },
   {
@@ -2587,6 +2587,26 @@
    "lseq": 20
   },
   {
+   "abbr": "STL",
+   "name": "St. Louis Blues",
+   "nick": "Blues",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 7,
+   "w": 3,
+   "l": 3,
+   "otl": 1,
+   "pts": 7,
+   "gf": 25,
+   "ga": 23,
+   "diff": 2,
+   "l10": "3-3-1",
+   "strk": "L1",
+   "dseq": 5,
+   "cseq": 10,
+   "lseq": 21
+  },
+  {
    "abbr": "DAL",
    "name": "Dallas Stars",
    "nick": "Stars",
@@ -2603,8 +2623,28 @@
    "l10": "3-3-1",
    "strk": "W1",
    "dseq": 6,
-   "cseq": 10,
-   "lseq": 21
+   "cseq": 11,
+   "lseq": 22
+  },
+  {
+   "abbr": "NSH",
+   "name": "Nashville Predators",
+   "nick": "Predators",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 7,
+   "w": 2,
+   "l": 2,
+   "otl": 3,
+   "pts": 7,
+   "gf": 18,
+   "ga": 22,
+   "diff": -4,
+   "l10": "2-2-3",
+   "strk": "OT1",
+   "dseq": 7,
+   "cseq": 12,
+   "lseq": 23
   },
   {
    "abbr": "PIT",
@@ -2624,7 +2664,7 @@
    "strk": "L1",
    "dseq": 6,
    "cseq": 12,
-   "lseq": 22
+   "lseq": 24
   },
   {
    "abbr": "MTL",
@@ -2644,46 +2684,6 @@
    "strk": "L1",
    "dseq": 7,
    "cseq": 13,
-   "lseq": 23
-  },
-  {
-   "abbr": "NSH",
-   "name": "Nashville Predators",
-   "nick": "Predators",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 6,
-   "w": 2,
-   "l": 2,
-   "otl": 2,
-   "pts": 6,
-   "gf": 16,
-   "ga": 19,
-   "diff": -3,
-   "l10": "2-2-2",
-   "strk": "L1",
-   "dseq": 7,
-   "cseq": 11,
-   "lseq": 24
-  },
-  {
-   "abbr": "SJS",
-   "name": "San Jose Sharks",
-   "nick": "Sharks",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 6,
-   "w": 3,
-   "l": 3,
-   "otl": 0,
-   "pts": 6,
-   "gf": 16,
-   "ga": 23,
-   "diff": -7,
-   "l10": "3-3-0",
-   "strk": "L2",
-   "dseq": 5,
-   "cseq": 12,
    "lseq": 25
   },
   {
@@ -2707,6 +2707,26 @@
    "lseq": 26
   },
   {
+   "abbr": "CHI",
+   "name": "Chicago Blackhawks",
+   "nick": "Blackhawks",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 8,
+   "w": 3,
+   "l": 5,
+   "otl": 0,
+   "pts": 6,
+   "gf": 21,
+   "ga": 32,
+   "diff": -11,
+   "l10": "3-5-0",
+   "strk": "W2",
+   "dseq": 8,
+   "cseq": 13,
+   "lseq": 27
+  },
+  {
    "abbr": "VAN",
    "name": "Vancouver Canucks",
    "nick": "Canucks",
@@ -2723,8 +2743,8 @@
    "l10": "2-6-1",
    "strk": "OT1",
    "dseq": 6,
-   "cseq": 13,
-   "lseq": 27
+   "cseq": 14,
+   "lseq": 28
   },
   {
    "abbr": "CBJ",
@@ -2744,26 +2764,6 @@
    "strk": "L2",
    "dseq": 7,
    "cseq": 15,
-   "lseq": 28
-  },
-  {
-   "abbr": "CHI",
-   "name": "Chicago Blackhawks",
-   "nick": "Blackhawks",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 7,
-   "w": 2,
-   "l": 5,
-   "otl": 0,
-   "pts": 4,
-   "gf": 17,
-   "ga": 29,
-   "diff": -12,
-   "l10": "2-5-0",
-   "strk": "W1",
-   "dseq": 8,
-   "cseq": 14,
    "lseq": 29
   },
   {
@@ -2861,5 +2861,5 @@
    "rank": 29
   }
  },
- "updated": "2026-10-16T02:30:15Z"
+ "updated": "2026-10-16T03:00:16Z"
 }

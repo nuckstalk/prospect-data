@@ -89,10 +89,11 @@ for c in changed: print("  ", c)
 
 if len(seen) < 20: print("too few players parsed - no commit"); sys.exit(0)
 if not changed: print("no stat changes - refreshing the date only")
-for grp in ("skaters", "goalies"):
-    for n, r in data[grp].items():
-        if r["gp"] < old[grp][n]["gp"]:
-            print("GP DECREASED for", n, "- refusing to write (page may be stale)"); sys.exit(0)
+dropped = [n for grp in ("skaters", "goalies") for n, r in data[grp].items() if r["gp"] < old[grp][n]["gp"]]
+if len(dropped) > 2:
+    print("GP DECREASED for", dropped, "- refusing to write (page looks stale)"); sys.exit(0)
+for n in dropped:
+    print("GP decreased for", n, "- treating it as a correction from EliteProspects and writing it")
 
 
 # ---- Prospect Watch: log who played since the last run, filed under the Pacific game date ----

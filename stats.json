@@ -2207,26 +2207,6 @@
    "lseq": 1
   },
   {
-   "abbr": "NYR",
-   "name": "New York Rangers",
-   "nick": "Rangers",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 8,
-   "w": 6,
-   "l": 2,
-   "otl": 0,
-   "pts": 12,
-   "gf": 27,
-   "ga": 14,
-   "diff": 13,
-   "l10": "6-2-0",
-   "strk": "W2",
-   "dseq": 2,
-   "cseq": 2,
-   "lseq": 2
-  },
-  {
    "abbr": "VGK",
    "name": "Vegas Golden Knights",
    "nick": "Golden Knights",
@@ -2244,6 +2224,26 @@
    "strk": "W1",
    "dseq": 1,
    "cseq": 1,
+   "lseq": 2
+  },
+  {
+   "abbr": "NYR",
+   "name": "New York Rangers",
+   "nick": "Rangers",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 9,
+   "w": 6,
+   "l": 3,
+   "otl": 0,
+   "pts": 12,
+   "gf": 28,
+   "ga": 21,
+   "diff": 7,
+   "l10": "6-3-0",
+   "strk": "L1",
+   "dseq": 2,
+   "cseq": 2,
    "lseq": 3
   },
   {
@@ -2467,6 +2467,26 @@
    "lseq": 14
   },
   {
+   "abbr": "NJD",
+   "name": "New Jersey Devils",
+   "nick": "Devils",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 7,
+   "w": 4,
+   "l": 3,
+   "otl": 0,
+   "pts": 8,
+   "gf": 23,
+   "ga": 23,
+   "diff": 0,
+   "l10": "4-3-0",
+   "strk": "W2",
+   "dseq": 4,
+   "cseq": 7,
+   "lseq": 15
+  },
+  {
    "abbr": "FLA",
    "name": "Florida Panthers",
    "nick": "Panthers",
@@ -2483,8 +2503,8 @@
    "l10": "3-2-2",
    "strk": "W1",
    "dseq": 4,
-   "cseq": 7,
-   "lseq": 15
+   "cseq": 8,
+   "lseq": 16
   },
   {
    "abbr": "STL",
@@ -2504,7 +2524,7 @@
    "strk": "W2",
    "dseq": 5,
    "cseq": 9,
-   "lseq": 16
+   "lseq": 17
   },
   {
    "abbr": "TOR",
@@ -2523,8 +2543,8 @@
    "l10": "3-3-1",
    "strk": "L1",
    "dseq": 5,
-   "cseq": 8,
-   "lseq": 17
+   "cseq": 9,
+   "lseq": 18
   },
   {
    "abbr": "BUF",
@@ -2543,8 +2563,8 @@
    "l10": "3-3-1",
    "strk": "OT1",
    "dseq": 6,
-   "cseq": 9,
-   "lseq": 18
+   "cseq": 10,
+   "lseq": 19
   },
   {
    "abbr": "DAL",
@@ -2564,7 +2584,7 @@
    "strk": "W1",
    "dseq": 6,
    "cseq": 10,
-   "lseq": 19
+   "lseq": 20
   },
   {
    "abbr": "PIT",
@@ -2582,9 +2602,9 @@
    "diff": 3,
    "l10": "3-3-1",
    "strk": "L1",
-   "dseq": 4,
-   "cseq": 10,
-   "lseq": 20
+   "dseq": 5,
+   "cseq": 11,
+   "lseq": 21
   },
   {
    "abbr": "MTL",
@@ -2603,8 +2623,8 @@
    "l10": "3-3-1",
    "strk": "L1",
    "dseq": 7,
-   "cseq": 11,
-   "lseq": 21
+   "cseq": 12,
+   "lseq": 22
   },
   {
    "abbr": "NYI",
@@ -2622,9 +2642,9 @@
    "diff": 4,
    "l10": "3-3-0",
    "strk": "W1",
-   "dseq": 5,
-   "cseq": 12,
-   "lseq": 22
+   "dseq": 6,
+   "cseq": 13,
+   "lseq": 23
   },
   {
    "abbr": "NSH",
@@ -2644,26 +2664,6 @@
    "strk": "L1",
    "dseq": 7,
    "cseq": 11,
-   "lseq": 23
-  },
-  {
-   "abbr": "NJD",
-   "name": "New Jersey Devils",
-   "nick": "Devils",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 6,
-   "w": 3,
-   "l": 3,
-   "otl": 0,
-   "pts": 6,
-   "gf": 16,
-   "ga": 22,
-   "diff": -6,
-   "l10": "3-3-0",
-   "strk": "W1",
-   "dseq": 6,
-   "cseq": 13,
    "lseq": 24
   },
   {
@@ -2861,5 +2861,5 @@
    "rank": 29
   }
  },
- "updated": "2026-10-15T04:15:16Z"
+ "updated": "2026-10-16T01:45:13Z"
 }

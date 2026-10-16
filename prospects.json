@@ -1,6 +1,6 @@
 {
- "asof": "2026-10-14",
- "label": "October 14, 2026",
+ "asof": "2026-10-15",
+ "label": "October 15, 2026",
  "skaters": {
   "Riley Patterson": {
    "ep": 1,
@@ -30,13 +30,13 @@
    "ep": 3,
    "team": "Peterborough Petes",
    "lg": "OHL",
-   "gp": 8,
+   "gp": 9,
    "g": 4,
-   "a": 5,
-   "tp": 9,
-   "ppg": 1.125,
+   "a": 7,
+   "tp": 11,
+   "ppg": 1.2222222222222223,
    "pim": 0,
-   "pm": -3
+   "pm": -2
   },
   "Braeden Cootes": {
    "ep": 4,
@@ -54,7 +54,7 @@
    "ep": 5,
    "team": "Univ. of North Dakota",
    "lg": "NCAA",
-   "gp": 2,
+   "gp": 1,
    "g": 0,
    "a": 0,
    "tp": 0,
@@ -307,11 +307,11 @@
   "Dmitri Ivchenko": {
    "team": "Omskie Yastreby",
    "lg": "MHL",
-   "gp": 7,
-   "gaa": 3.54,
-   "svp": ".870",
+   "gp": 8,
+   "gaa": 3.5,
+   "svp": ".872",
    "so": 0,
-   "rec": "3-3-0"
+   "rec": "3-4-0"
   },
   "Aku Koskenvuo": {
    "team": "Kalamazoo Wings",
@@ -342,6 +342,35 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-10-15",
+   "items": [
+    {
+     "k": "S",
+     "name": "Adam Novotný",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 2,
+     "dtp": 2,
+     "sgp": 9,
+     "sg": 4,
+     "sa": 7,
+     "stp": 11
+    },
+    {
+     "k": "G",
+     "name": "Dmitri Ivchenko",
+     "lg": "MHL",
+     "dgp": 1,
+     "res": "L",
+     "gaa": 3.5,
+     "svp": ".872",
+     "sgp": 8,
+     "rec0": "3-3-0"
+    }
+   ]
+  },
   {
    "date": "2026-10-14",
    "items": [
@@ -815,24 +844,6 @@
      "sg": 0,
      "sa": 2,
      "stp": 2
-    }
-   ]
-  },
-  {
-   "date": "2026-10-07",
-   "items": [
-    {
-     "k": "S",
-     "name": "Basile Sansonnens",
-     "lg": "NL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 10,
-     "sg": 2,
-     "sa": 1,
-     "stp": 3
     }
    ]
   }

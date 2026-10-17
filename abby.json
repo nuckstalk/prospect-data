@@ -1498,6 +1498,26 @@
    "dseq": 5
   },
   {
+   "abbr": "TOR",
+   "name": "Toronto Marlies",
+   "nick": "Marlies",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 5,
+   "w": 4,
+   "l": 1,
+   "otl": 0,
+   "pts": 8,
+   "gf": 21,
+   "ga": 16,
+   "diff": 5,
+   "l10": "4-1-0",
+   "strk": "4-0-0-0",
+   "lseq": 5,
+   "cseq": 3,
+   "dseq": 3
+  },
+  {
    "abbr": "ROC",
    "name": "Rochester Americans",
    "nick": "Americans",
@@ -1613,8 +1633,8 @@
    "diff": 6,
    "l10": "3-1-0",
    "strk": "3-0-0-0",
-   "lseq": 5,
-   "cseq": 3,
+   "lseq": 6,
+   "cseq": 4,
    "dseq": 1
   },
   {
@@ -1656,26 +1676,6 @@
    "lseq": 23,
    "cseq": 12,
    "dseq": 6
-  },
-  {
-   "abbr": "TOR",
-   "name": "Toronto Marlies",
-   "nick": "Marlies",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 4,
-   "w": 3,
-   "l": 1,
-   "otl": 0,
-   "pts": 6,
-   "gf": 21,
-   "ga": 16,
-   "diff": 5,
-   "l10": "3-1-0",
-   "strk": "3-0-0-0",
-   "lseq": 7,
-   "cseq": 4,
-   "dseq": 3
   },
   {
    "abbr": "CLT",
@@ -1733,9 +1733,29 @@
    "diff": -1,
    "l10": "3-1-0",
    "strk": "2-0-0-0",
-   "lseq": 6,
+   "lseq": 7,
    "cseq": 3,
    "dseq": 2
+  },
+  {
+   "abbr": "BEL",
+   "name": "Belleville Senators",
+   "nick": "Senators",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 6,
+   "w": 2,
+   "l": 2,
+   "otl": 2,
+   "pts": 6,
+   "gf": 18,
+   "ga": 23,
+   "diff": -5,
+   "l10": "2-2-2",
+   "strk": "0-1-2-0",
+   "lseq": 18,
+   "cseq": 9,
+   "dseq": 6
   },
   {
    "abbr": "LV",
@@ -1796,26 +1816,6 @@
    "lseq": 20,
    "cseq": 11,
    "dseq": 5
-  },
-  {
-   "abbr": "BEL",
-   "name": "Belleville Senators",
-   "nick": "Senators",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 5,
-   "w": 2,
-   "l": 2,
-   "otl": 1,
-   "pts": 5,
-   "gf": 18,
-   "ga": 23,
-   "diff": -5,
-   "l10": "2-2-1",
-   "strk": "0-1-1-0",
-   "lseq": 18,
-   "cseq": 9,
-   "dseq": 6
   },
   {
    "abbr": "MIL",
@@ -2045,12 +2045,12 @@
   },
   "ga": {
    "v": 3.75,
-   "rank": 22
+   "rank": 23
   },
   "pt": {
    "v": 37.5,
    "rank": 25
   }
  },
- "updated": "2026-10-17T22:45:16Z"
+ "updated": "2026-10-17T23:00:16Z"
 }

@@ -1418,6 +1418,26 @@
    "dseq": 1
   },
   {
+   "abbr": "LAV",
+   "name": "Laval Rocket",
+   "nick": "Rocket",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 5,
+   "w": 4,
+   "l": 1,
+   "otl": 0,
+   "pts": 8,
+   "gf": 21,
+   "ga": 11,
+   "diff": 10,
+   "l10": "4-1-0",
+   "strk": "4-0-0-0",
+   "lseq": 5,
+   "cseq": 3,
+   "dseq": 3
+  },
+  {
    "abbr": "CLE",
    "name": "Cleveland Monsters",
    "nick": "Monsters",
@@ -1489,33 +1509,13 @@
    "otl": 0,
    "pts": 6,
    "gf": 21,
-   "ga": 8,
-   "diff": 13,
+   "ga": 9,
+   "diff": 12,
    "l10": "3-1-0",
    "strk": "1-0-0-0",
    "lseq": 8,
    "cseq": 4,
    "dseq": 2
-  },
-  {
-   "abbr": "LAV",
-   "name": "Laval Rocket",
-   "nick": "Rocket",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 4,
-   "w": 3,
-   "l": 1,
-   "otl": 0,
-   "pts": 6,
-   "gf": 21,
-   "ga": 11,
-   "diff": 10,
-   "l10": "3-1-0",
-   "strk": "3-0-0-0",
-   "lseq": 7,
-   "cseq": 4,
-   "dseq": 3
   },
   {
    "abbr": "HER",
@@ -1533,8 +1533,8 @@
    "diff": 4,
    "l10": "3-1-0",
    "strk": "3-0-0-0",
-   "lseq": 6,
-   "cseq": 3,
+   "lseq": 7,
+   "cseq": 4,
    "dseq": 1
   },
   {
@@ -1543,19 +1543,19 @@
    "nick": "Wolf Pack",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 6,
+   "gp": 7,
    "w": 3,
-   "l": 3,
+   "l": 4,
    "otl": 0,
    "pts": 6,
    "gf": 15,
    "ga": 22,
    "diff": -7,
-   "l10": "3-3-0",
-   "strk": "0-3-0-0",
-   "lseq": 15,
-   "cseq": 7,
-   "dseq": 2
+   "l10": "3-4-0",
+   "strk": "0-4-0-0",
+   "lseq": 24,
+   "cseq": 12,
+   "dseq": 6
   },
   {
    "abbr": "COL",
@@ -1573,7 +1573,7 @@
    "diff": 8,
    "l10": "3-1-0",
    "strk": "0-1-0-0",
-   "lseq": 5,
+   "lseq": 6,
    "cseq": 3,
    "dseq": 2
   },
@@ -1598,6 +1598,26 @@
    "dseq": 4
   },
   {
+   "abbr": "CLT",
+   "name": "Charlotte Checkers",
+   "nick": "Checkers",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 5,
+   "w": 3,
+   "l": 2,
+   "otl": 0,
+   "pts": 6,
+   "gf": 13,
+   "ga": 13,
+   "diff": 0,
+   "l10": "3-2-0",
+   "strk": "2-0-0-0",
+   "lseq": 14,
+   "cseq": 7,
+   "dseq": 2
+  },
+  {
    "abbr": "CV",
    "name": "Coachella Valley Firebirds",
    "nick": "Firebirds",
@@ -1613,7 +1633,7 @@
    "diff": 1,
    "l10": "2-1-2",
    "strk": "0-1-1-0",
-   "lseq": 14,
+   "lseq": 15,
    "cseq": 8,
    "dseq": 4
   },
@@ -1648,8 +1668,8 @@
    "l": 1,
    "otl": 1,
    "pts": 5,
-   "gf": 16,
-   "ga": 7,
+   "gf": 17,
+   "ga": 8,
    "diff": 9,
    "l10": "2-1-0-1",
    "strk": "0-1-0-0",
@@ -1673,8 +1693,8 @@
    "diff": 6,
    "l10": "2-2-1",
    "strk": "0-1-0-0",
-   "lseq": 19,
-   "cseq": 10,
+   "lseq": 20,
+   "cseq": 11,
    "dseq": 5
   },
   {
@@ -1693,7 +1713,7 @@
    "diff": 1,
    "l10": "2-2-1",
    "strk": "0-1-0-0",
-   "lseq": 17,
+   "lseq": 18,
    "cseq": 9,
    "dseq": 5
   },
@@ -1713,8 +1733,8 @@
    "diff": -1,
    "l10": "2-2-1",
    "strk": "2-0-0-0",
-   "lseq": 16,
-   "cseq": 8,
+   "lseq": 17,
+   "cseq": 9,
    "dseq": 3
   },
   {
@@ -1733,8 +1753,8 @@
    "diff": -4,
    "l10": "2-2-0-1",
    "strk": "0-2-0-1",
-   "lseq": 18,
-   "cseq": 9,
+   "lseq": 19,
+   "cseq": 10,
    "dseq": 4
   },
   {
@@ -1756,6 +1776,26 @@
    "lseq": 12,
    "cseq": 7,
    "dseq": 4
+  },
+  {
+   "abbr": "BEL",
+   "name": "Belleville Senators",
+   "nick": "Senators",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 5,
+   "w": 2,
+   "l": 2,
+   "otl": 1,
+   "pts": 5,
+   "gf": 14,
+   "ga": 18,
+   "diff": -4,
+   "l10": "2-2-1",
+   "strk": "0-1-1-0",
+   "lseq": 16,
+   "cseq": 8,
+   "dseq": 6
   },
   {
    "abbr": "MIL",
@@ -1793,7 +1833,7 @@
    "diff": 2,
    "l10": "2-2-0",
    "strk": "2-0-0-0",
-   "lseq": 24,
+   "lseq": 23,
    "cseq": 12,
    "dseq": 8
   },
@@ -1813,7 +1853,7 @@
    "diff": 1,
    "l10": "2-2-0",
    "strk": "1-0-0-0",
-   "lseq": 20,
+   "lseq": 21,
    "cseq": 10,
    "dseq": 6
   },
@@ -1833,49 +1873,9 @@
    "diff": 1,
    "l10": "2-2-0",
    "strk": "1-0-0-0",
-   "lseq": 23,
+   "lseq": 22,
    "cseq": 11,
    "dseq": 7
-  },
-  {
-   "abbr": "CLT",
-   "name": "Charlotte Checkers",
-   "nick": "Checkers",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 4,
-   "w": 2,
-   "l": 2,
-   "otl": 0,
-   "pts": 4,
-   "gf": 13,
-   "ga": 13,
-   "diff": 0,
-   "l10": "2-2-0",
-   "strk": "1-0-0-0",
-   "lseq": 22,
-   "cseq": 12,
-   "dseq": 6
-  },
-  {
-   "abbr": "BEL",
-   "name": "Belleville Senators",
-   "nick": "Senators",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 4,
-   "w": 2,
-   "l": 2,
-   "otl": 0,
-   "pts": 4,
-   "gf": 14,
-   "ga": 18,
-   "diff": -4,
-   "l10": "2-2-0",
-   "strk": "0-1-0-0",
-   "lseq": 21,
-   "cseq": 11,
-   "dseq": 6
   },
   {
    "abbr": "ABB",
@@ -1908,8 +1908,8 @@
    "l": 2,
    "otl": 1,
    "pts": 3,
-   "gf": 14,
-   "ga": 20,
+   "gf": 15,
+   "ga": 21,
    "diff": -6,
    "l10": "1-2-0-1",
    "strk": "0-2-0-1",
@@ -1928,9 +1928,9 @@
    "l": 2,
    "otl": 1,
    "pts": 3,
-   "gf": 11,
+   "gf": 12,
    "ga": 18,
-   "diff": -7,
+   "diff": -6,
    "l10": "1-2-0-1",
    "strk": "0-2-0-1",
    "lseq": 27,
@@ -2045,12 +2045,12 @@
   },
   "ga": {
    "v": 3.75,
-   "rank": 24
+   "rank": 25
   },
   "pt": {
    "v": 37.5,
    "rank": 25
   }
  },
- "updated": "2026-10-17T01:45:18Z"
+ "updated": "2026-10-17T02:00:16Z"
 }

@@ -2656,6 +2656,26 @@
    "lseq": 12
   },
   {
+   "abbr": "WSH",
+   "name": "Washington Capitals",
+   "nick": "Capitals",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 8,
+   "w": 5,
+   "l": 3,
+   "otl": 0,
+   "pts": 10,
+   "gf": 28,
+   "ga": 24,
+   "diff": 4,
+   "l10": "5-3-0",
+   "strk": "W2",
+   "dseq": 3,
+   "cseq": 6,
+   "lseq": 13
+  },
+  {
    "abbr": "FLA",
    "name": "Florida Panthers",
    "nick": "Panthers",
@@ -2672,8 +2692,8 @@
    "l10": "4-2-2",
    "strk": "W2",
    "dseq": 4,
-   "cseq": 6,
-   "lseq": 13
+   "cseq": 7,
+   "lseq": 14
   },
   {
    "abbr": "BUF",
@@ -2692,26 +2712,6 @@
    "l10": "4-3-1",
    "strk": "W1",
    "dseq": 5,
-   "cseq": 7,
-   "lseq": 14
-  },
-  {
-   "abbr": "WSH",
-   "name": "Washington Capitals",
-   "nick": "Capitals",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 7,
-   "w": 4,
-   "l": 3,
-   "otl": 0,
-   "pts": 8,
-   "gf": 24,
-   "ga": 22,
-   "diff": 2,
-   "l10": "4-3-0",
-   "strk": "W1",
-   "dseq": 3,
    "cseq": 8,
    "lseq": 15
   },
@@ -2736,26 +2736,6 @@
    "lseq": 16
   },
   {
-   "abbr": "NJD",
-   "name": "New Jersey Devils",
-   "nick": "Devils",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 7,
-   "w": 4,
-   "l": 3,
-   "otl": 0,
-   "pts": 8,
-   "gf": 23,
-   "ga": 23,
-   "diff": 0,
-   "l10": "4-3-0",
-   "strk": "W2",
-   "dseq": 4,
-   "cseq": 9,
-   "lseq": 17
-  },
-  {
    "abbr": "SJS",
    "name": "San Jose Sharks",
    "nick": "Sharks",
@@ -2772,6 +2752,26 @@
    "l10": "4-3-0",
    "strk": "W1",
    "dseq": 5,
+   "cseq": 9,
+   "lseq": 17
+  },
+  {
+   "abbr": "NJD",
+   "name": "New Jersey Devils",
+   "nick": "Devils",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 8,
+   "w": 4,
+   "l": 4,
+   "otl": 0,
+   "pts": 8,
+   "gf": 25,
+   "ga": 27,
+   "diff": -2,
+   "l10": "4-4-0",
+   "strk": "L1",
+   "dseq": 4,
    "cseq": 9,
    "lseq": 18
   },
@@ -3090,5 +3090,5 @@
    "rank": 29
   }
  },
- "updated": "2026-10-17T05:30:18Z"
+ "updated": "2026-10-17T19:45:16Z"
 }

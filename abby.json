@@ -1415,7 +1415,7 @@
    "strk": "2-0-0-0",
    "lseq": 6,
    "cseq": 3,
-   "dseq": 2
+   "dseq": 1
   },
   {
    "abbr": "CGY",
@@ -1428,13 +1428,13 @@
    "l": 1,
    "otl": 0,
    "pts": 8,
-   "gf": 22,
+   "gf": 24,
    "ga": 17,
-   "diff": 5,
+   "diff": 7,
    "l10": "4-1-0",
    "strk": "1-0-0-0",
-   "lseq": 3,
-   "cseq": 2,
+   "lseq": 2,
+   "cseq": 1,
    "dseq": 1
   },
   {
@@ -1458,6 +1458,26 @@
    "dseq": 3
   },
   {
+   "abbr": "COL",
+   "name": "Colorado Eagles",
+   "nick": "Eagles",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 5,
+   "w": 4,
+   "l": 1,
+   "otl": 0,
+   "pts": 8,
+   "gf": 18,
+   "ga": 11,
+   "diff": 7,
+   "l10": "4-1-0",
+   "strk": "1-0-0-0",
+   "lseq": 4,
+   "cseq": 2,
+   "dseq": 2
+  },
+  {
    "abbr": "CLE",
    "name": "Cleveland Monsters",
    "nick": "Monsters",
@@ -1473,7 +1493,7 @@
    "diff": 4,
    "l10": "4-1-0",
    "strk": "4-0-0-0",
-   "lseq": 4,
+   "lseq": 3,
    "cseq": 2,
    "dseq": 2
   },
@@ -1493,7 +1513,7 @@
    "diff": 9,
    "l10": "3-1-0-1",
    "strk": "1-0-0-0",
-   "lseq": 13,
+   "lseq": 12,
    "cseq": 6,
    "dseq": 5
   },
@@ -1513,9 +1533,9 @@
    "diff": 4,
    "l10": "3-1-1",
    "strk": "1-0-0-0",
-   "lseq": 11,
-   "cseq": 6,
-   "dseq": 3
+   "lseq": 10,
+   "cseq": 5,
+   "dseq": 2
   },
   {
    "abbr": "IA",
@@ -1533,9 +1553,9 @@
    "diff": 2,
    "l10": "3-1-0-1",
    "strk": "2-0-0-0",
-   "lseq": 12,
-   "cseq": 7,
-   "dseq": 4
+   "lseq": 11,
+   "cseq": 6,
+   "dseq": 3
   },
   {
    "abbr": "UTC",
@@ -1573,7 +1593,7 @@
    "diff": 4,
    "l10": "3-1-0",
    "strk": "3-0-0-0",
-   "lseq": 8,
+   "lseq": 7,
    "cseq": 4,
    "dseq": 1
   },
@@ -1598,26 +1618,6 @@
    "dseq": 6
   },
   {
-   "abbr": "COL",
-   "name": "Colorado Eagles",
-   "nick": "Eagles",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 4,
-   "w": 3,
-   "l": 1,
-   "otl": 0,
-   "pts": 6,
-   "gf": 18,
-   "ga": 11,
-   "diff": 7,
-   "l10": "3-1-0",
-   "strk": "0-1-0-0",
-   "lseq": 7,
-   "cseq": 4,
-   "dseq": 2
-  },
-  {
    "abbr": "TOR",
    "name": "Toronto Marlies",
    "nick": "Marlies",
@@ -1633,7 +1633,7 @@
    "diff": 4,
    "l10": "3-1-0",
    "strk": "3-0-0-0",
-   "lseq": 10,
+   "lseq": 9,
    "cseq": 5,
    "dseq": 4
   },
@@ -1693,8 +1693,8 @@
    "diff": -1,
    "l10": "3-1-0",
    "strk": "2-0-0-0",
-   "lseq": 9,
-   "cseq": 5,
+   "lseq": 8,
+   "cseq": 4,
    "dseq": 3
   },
   {
@@ -1803,19 +1803,19 @@
    "nick": "Admirals",
    "div": "Central",
    "conf": "Western",
-   "gp": 2,
+   "gp": 3,
    "w": 2,
-   "l": 0,
+   "l": 1,
    "otl": 0,
    "pts": 4,
    "gf": 8,
    "ga": 6,
    "diff": 2,
-   "l10": "2-0-0",
-   "strk": "2-0-0-0",
-   "lseq": 2,
-   "cseq": 1,
-   "dseq": 1
+   "l10": "2-1-0",
+   "strk": "0-1-0-0",
+   "lseq": 13,
+   "cseq": 7,
+   "dseq": 4
   },
   {
    "abbr": "TUC",
@@ -2009,8 +2009,8 @@
    "otl": 0,
    "pts": 2,
    "gf": 18,
-   "ga": 28,
-   "diff": -10,
+   "ga": 30,
+   "diff": -12,
    "l10": "1-4-0",
    "strk": "0-3-0-0",
    "lseq": 31,
@@ -2041,7 +2041,7 @@
  "team": {
   "gf": {
    "v": 2.75,
-   "rank": 22
+   "rank": 21
   },
   "ga": {
    "v": 3.75,
@@ -2052,5 +2052,5 @@
    "rank": 25
   }
  },
- "updated": "2026-10-17T03:00:21Z"
+ "updated": "2026-10-17T03:15:15Z"
 }

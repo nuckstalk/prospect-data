@@ -329,7 +329,7 @@
    "gaa": 2.64,
    "svp": ".919",
    "so": 0,
-   "rec": "2-1-1"
+   "rec": "3-1-1"
   },
   "Ty Young": {
    "team": "Abbotsford Canucks",
@@ -402,11 +402,10 @@
      "name": "Alexei Medvedev",
      "lg": "OHL",
      "dgp": 1,
-     "res": "",
-     "gaa": 3.05,
-     "svp": ".910",
-     "sgp": 5,
-     "rec0": "2-1-1"
+     "res": "W",
+     "gaa": 2.64,
+     "svp": ".919",
+     "sgp": 5
     },
     {
      "k": "S",

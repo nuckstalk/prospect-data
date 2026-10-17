@@ -2416,6 +2416,26 @@
  ],
  "standings": [
   {
+   "abbr": "CAR",
+   "name": "Carolina Hurricanes",
+   "nick": "Hurricanes",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 9,
+   "w": 7,
+   "l": 1,
+   "otl": 1,
+   "pts": 15,
+   "gf": 34,
+   "ga": 21,
+   "diff": 13,
+   "l10": "7-1-1",
+   "strk": "W7",
+   "dseq": 1,
+   "cseq": 1,
+   "lseq": 1
+  },
+  {
    "abbr": "VGK",
    "name": "Vegas Golden Knights",
    "nick": "Golden Knights",
@@ -2431,26 +2451,6 @@
    "diff": 14,
    "l10": "7-2-0",
    "strk": "W2",
-   "dseq": 1,
-   "cseq": 1,
-   "lseq": 1
-  },
-  {
-   "abbr": "CAR",
-   "name": "Carolina Hurricanes",
-   "nick": "Hurricanes",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 8,
-   "w": 6,
-   "l": 1,
-   "otl": 1,
-   "pts": 13,
-   "gf": 31,
-   "ga": 19,
-   "diff": 12,
-   "l10": "6-1-1",
-   "strk": "W6",
    "dseq": 1,
    "cseq": 1,
    "lseq": 2
@@ -2636,26 +2636,6 @@
    "lseq": 11
   },
   {
-   "abbr": "WPG",
-   "name": "Winnipeg Jets",
-   "nick": "Jets",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 7,
-   "w": 4,
-   "l": 1,
-   "otl": 2,
-   "pts": 10,
-   "gf": 21,
-   "ga": 21,
-   "diff": 0,
-   "l10": "4-1-2",
-   "strk": "OT1",
-   "dseq": 4,
-   "cseq": 7,
-   "lseq": 12
-  },
-  {
    "abbr": "WSH",
    "name": "Washington Capitals",
    "nick": "Capitals",
@@ -2673,6 +2653,26 @@
    "strk": "W2",
    "dseq": 3,
    "cseq": 6,
+   "lseq": 12
+  },
+  {
+   "abbr": "WPG",
+   "name": "Winnipeg Jets",
+   "nick": "Jets",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 8,
+   "w": 4,
+   "l": 2,
+   "otl": 2,
+   "pts": 10,
+   "gf": 23,
+   "ga": 24,
+   "diff": -1,
+   "l10": "4-2-2",
+   "strk": "L1",
+   "dseq": 4,
+   "cseq": 7,
    "lseq": 13
   },
   {
@@ -3090,5 +3090,5 @@
    "rank": 29
   }
  },
- "updated": "2026-10-17T20:15:15Z"
+ "updated": "2026-10-17T22:30:14Z"
 }

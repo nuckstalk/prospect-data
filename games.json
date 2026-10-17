@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-17T20:15:20Z",
+ "updated": "2026-10-17T22:45:18Z",
  "results": [
+  {
+   "opp": "Tampa Bay Lightning",
+   "abbr": "TBL",
+   "home": false,
+   "date": "Oct 17",
+   "us": 2,
+   "them": 4,
+   "res": "L"
+  },
   {
    "opp": "Florida Panthers",
    "abbr": "FLA",
@@ -17,15 +26,6 @@
    "date": "Oct 13",
    "us": 2,
    "them": 3,
-   "res": "L"
-  },
-  {
-   "opp": "New York Rangers",
-   "abbr": "NYR",
-   "home": false,
-   "date": "Oct 11",
-   "us": 2,
-   "them": 6,
    "res": "L"
   }
  ],

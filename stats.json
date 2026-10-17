@@ -2496,6 +2496,26 @@
    "lseq": 4
   },
   {
+   "abbr": "TBL",
+   "name": "Tampa Bay Lightning",
+   "nick": "Lightning",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 8,
+   "w": 6,
+   "l": 2,
+   "otl": 0,
+   "pts": 12,
+   "gf": 25,
+   "ga": 21,
+   "diff": 4,
+   "l10": "6-2-0",
+   "strk": "W2",
+   "dseq": 2,
+   "cseq": 3,
+   "lseq": 5
+  },
+  {
    "abbr": "OTT",
    "name": "Ottawa Senators",
    "nick": "Senators",
@@ -2511,9 +2531,9 @@
    "diff": 3,
    "l10": "6-2-0",
    "strk": "W1",
-   "dseq": 2,
-   "cseq": 3,
-   "lseq": 5
+   "dseq": 3,
+   "cseq": 4,
+   "lseq": 6
   },
   {
    "abbr": "NYR",
@@ -2532,8 +2552,8 @@
    "l10": "6-3-0",
    "strk": "L1",
    "dseq": 2,
-   "cseq": 4,
-   "lseq": 6
+   "cseq": 5,
+   "lseq": 7
   },
   {
    "abbr": "EDM",
@@ -2553,7 +2573,7 @@
    "strk": "L1",
    "dseq": 2,
    "cseq": 3,
-   "lseq": 7
+   "lseq": 8
   },
   {
    "abbr": "COL",
@@ -2573,7 +2593,7 @@
    "strk": "W1",
    "dseq": 2,
    "cseq": 4,
-   "lseq": 8
+   "lseq": 9
   },
   {
    "abbr": "MIN",
@@ -2593,7 +2613,7 @@
    "strk": "W1",
    "dseq": 3,
    "cseq": 5,
-   "lseq": 9
+   "lseq": 10
   },
   {
    "abbr": "SEA",
@@ -2613,26 +2633,6 @@
    "strk": "OT1",
    "dseq": 3,
    "cseq": 6,
-   "lseq": 10
-  },
-  {
-   "abbr": "TBL",
-   "name": "Tampa Bay Lightning",
-   "nick": "Lightning",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 7,
-   "w": 5,
-   "l": 2,
-   "otl": 0,
-   "pts": 10,
-   "gf": 21,
-   "ga": 19,
-   "diff": 2,
-   "l10": "5-2-0",
-   "strk": "W1",
-   "dseq": 3,
-   "cseq": 5,
    "lseq": 11
   },
   {
@@ -2961,16 +2961,16 @@
    "nick": "Canucks",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 9,
+   "gp": 10,
    "w": 2,
-   "l": 6,
+   "l": 7,
    "otl": 1,
    "pts": 5,
-   "gf": 28,
-   "ga": 41,
-   "diff": -13,
-   "l10": "2-6-1",
-   "strk": "OT1",
+   "gf": 30,
+   "ga": 45,
+   "diff": -15,
+   "l10": "2-7-1",
+   "strk": "L1",
    "dseq": 6,
    "cseq": 14,
    "lseq": 28
@@ -3090,5 +3090,5 @@
    "rank": 29
   }
  },
- "updated": "2026-10-17T22:30:14Z"
+ "updated": "2026-10-17T22:45:14Z"
 }

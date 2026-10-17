@@ -1413,7 +1413,7 @@
    "diff": 15,
    "l10": "4-1-0",
    "strk": "2-0-0-0",
-   "lseq": 5,
+   "lseq": 4,
    "cseq": 2,
    "dseq": 1
   },
@@ -1433,7 +1433,7 @@
    "diff": 5,
    "l10": "4-2-0",
    "strk": "0-1-0-0",
-   "lseq": 12,
+   "lseq": 11,
    "cseq": 6,
    "dseq": 3
   },
@@ -1453,9 +1453,9 @@
    "diff": 10,
    "l10": "4-1-0",
    "strk": "4-0-0-0",
-   "lseq": 4,
-   "cseq": 3,
-   "dseq": 3
+   "lseq": 3,
+   "cseq": 2,
+   "dseq": 2
   },
   {
    "abbr": "COL",
@@ -1473,7 +1473,7 @@
    "diff": 7,
    "l10": "4-1-0",
    "strk": "1-0-0-0",
-   "lseq": 3,
+   "lseq": 2,
    "cseq": 1,
    "dseq": 1
   },
@@ -1483,19 +1483,19 @@
    "nick": "Monsters",
    "div": "North",
    "conf": "Eastern",
-   "gp": 5,
+   "gp": 6,
    "w": 4,
-   "l": 1,
+   "l": 2,
    "otl": 0,
    "pts": 8,
    "gf": 24,
    "ga": 23,
    "diff": 1,
-   "l10": "4-1-0",
-   "strk": "4-0-0-0",
-   "lseq": 2,
-   "cseq": 2,
-   "dseq": 2
+   "l10": "4-2-0",
+   "strk": "0-1-0-0",
+   "lseq": 12,
+   "cseq": 6,
+   "dseq": 5
   },
   {
    "abbr": "ROC",
@@ -1513,9 +1513,9 @@
    "diff": 11,
    "l10": "3-1-0-1",
    "strk": "1-0-0-0",
-   "lseq": 11,
-   "cseq": 6,
-   "dseq": 5
+   "lseq": 10,
+   "cseq": 5,
+   "dseq": 4
   },
   {
    "abbr": "GR",
@@ -1533,9 +1533,29 @@
    "diff": 4,
    "l10": "3-1-1",
    "strk": "1-0-0-0",
-   "lseq": 9,
+   "lseq": 8,
    "cseq": 4,
    "dseq": 2
+  },
+  {
+   "abbr": "WBS",
+   "name": "Wilkes-Barre/Scranton Penguins",
+   "nick": "Penguins",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 6,
+   "w": 3,
+   "l": 2,
+   "otl": 1,
+   "pts": 7,
+   "gf": 25,
+   "ga": 16,
+   "diff": 9,
+   "l10": "3-2-1",
+   "strk": "1-0-0-0",
+   "lseq": 17,
+   "cseq": 8,
+   "dseq": 3
   },
   {
    "abbr": "IA",
@@ -1553,7 +1573,7 @@
    "diff": 2,
    "l10": "3-1-0-1",
    "strk": "2-0-0-0",
-   "lseq": 10,
+   "lseq": 9,
    "cseq": 5,
    "dseq": 3
   },
@@ -1593,8 +1613,8 @@
    "diff": 4,
    "l10": "3-1-0",
    "strk": "3-0-0-0",
-   "lseq": 6,
-   "cseq": 4,
+   "lseq": 5,
+   "cseq": 3,
    "dseq": 1
   },
   {
@@ -1653,9 +1673,9 @@
    "diff": 4,
    "l10": "3-1-0",
    "strk": "3-0-0-0",
-   "lseq": 8,
-   "cseq": 5,
-   "dseq": 4
+   "lseq": 7,
+   "cseq": 4,
+   "dseq": 3
   },
   {
    "abbr": "CLT",
@@ -1713,29 +1733,9 @@
    "diff": -1,
    "l10": "3-1-0",
    "strk": "2-0-0-0",
-   "lseq": 7,
+   "lseq": 6,
    "cseq": 3,
    "dseq": 2
-  },
-  {
-   "abbr": "WBS",
-   "name": "Wilkes-Barre/Scranton Penguins",
-   "nick": "Penguins",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 5,
-   "w": 2,
-   "l": 2,
-   "otl": 1,
-   "pts": 5,
-   "gf": 25,
-   "ga": 16,
-   "diff": 9,
-   "l10": "2-2-1",
-   "strk": "0-1-0-0",
-   "lseq": 20,
-   "cseq": 11,
-   "dseq": 5
   },
   {
    "abbr": "LV",
@@ -1753,9 +1753,9 @@
    "diff": -1,
    "l10": "2-2-1",
    "strk": "2-0-0-0",
-   "lseq": 18,
-   "cseq": 9,
-   "dseq": 3
+   "lseq": 19,
+   "cseq": 10,
+   "dseq": 4
   },
   {
    "abbr": "SD",
@@ -1793,9 +1793,9 @@
    "diff": -4,
    "l10": "2-2-0-1",
    "strk": "0-2-0-1",
-   "lseq": 19,
-   "cseq": 10,
-   "dseq": 4
+   "lseq": 20,
+   "cseq": 11,
+   "dseq": 5
   },
   {
    "abbr": "BEL",
@@ -1813,8 +1813,8 @@
    "diff": -4,
    "l10": "2-2-1",
    "strk": "0-1-1-0",
-   "lseq": 17,
-   "cseq": 8,
+   "lseq": 18,
+   "cseq": 9,
    "dseq": 6
   },
   {
@@ -2052,5 +2052,5 @@
    "rank": 25
   }
  },
- "updated": "2026-10-17T21:45:15Z"
+ "updated": "2026-10-17T22:00:15Z"
 }

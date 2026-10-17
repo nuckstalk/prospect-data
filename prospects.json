@@ -270,7 +270,7 @@
    "ep": 25,
    "team": "Minnesota State (Mankato)",
    "lg": "NCAA",
-   "gp": 2,
+   "gp": 3,
    "g": 0,
    "a": 0,
    "tp": 0,
@@ -342,6 +342,24 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-10-17",
+   "items": [
+    {
+     "k": "S",
+     "name": "Daimon Gardner",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 3,
+     "sg": 0,
+     "sa": 0,
+     "stp": 0
+    }
+   ]
+  },
   {
    "date": "2026-10-16",
    "items": [
@@ -631,193 +649,6 @@
      "gaa": 3.54,
      "svp": ".870",
      "sgp": 7
-    }
-   ]
-  },
-  {
-   "date": "2026-10-10",
-   "items": [
-    {
-     "k": "S",
-     "name": "Samuel Eriksson",
-     "lg": "U20",
-     "dgp": 2,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 12,
-     "sg": 1,
-     "sa": 1,
-     "stp": 2
-    },
-    {
-     "k": "S",
-     "name": "Basile Sansonnens",
-     "lg": "NL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 11,
-     "sg": 2,
-     "sa": 1,
-     "stp": 3
-    },
-    {
-     "k": "S",
-     "name": "Adam Novotný",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 7,
-     "sg": 4,
-     "sa": 5,
-     "stp": 9
-    },
-    {
-     "k": "S",
-     "name": "Brooks Rogowski",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 2,
-     "dtp": 2,
-     "sgp": 7,
-     "sg": 0,
-     "sa": 6,
-     "stp": 6
-    },
-    {
-     "k": "S",
-     "name": "Daimon Gardner",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 2,
-     "sg": 0,
-     "sa": 0,
-     "stp": 0
-    },
-    {
-     "k": "S",
-     "name": "Riley Patterson",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 4,
-     "sg": 0,
-     "sa": 3,
-     "stp": 3
-    },
-    {
-     "k": "S",
-     "name": "Braeden Cootes",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 1,
-     "da": 2,
-     "dtp": 3,
-     "sgp": 4,
-     "sg": 2,
-     "sa": 2,
-     "stp": 4
-    },
-    {
-     "k": "S",
-     "name": "Ty Mueller",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 1,
-     "da": 1,
-     "dtp": 2,
-     "sgp": 4,
-     "sg": 4,
-     "sa": 1,
-     "stp": 5
-    },
-    {
-     "k": "S",
-     "name": "Parker Alcos",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 4,
-     "sg": 1,
-     "sa": 1,
-     "stp": 2
-    },
-    {
-     "k": "S",
-     "name": "Sawyer Mynio",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 3,
-     "sg": 0,
-     "sa": 0,
-     "stp": 0
-    },
-    {
-     "k": "S",
-     "name": "Matthew Lansing",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 4,
-     "sg": 1,
-     "sa": 2,
-     "stp": 3
-    },
-    {
-     "k": "S",
-     "name": "Vilmer Alriksson",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 4,
-     "sg": 1,
-     "sa": 0,
-     "stp": 1
-    },
-    {
-     "k": "S",
-     "name": "Anri Ravinskis",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 4,
-     "sg": 0,
-     "sa": 2,
-     "stp": 2
-    },
-    {
-     "k": "S",
-     "name": "Yaroslav Bryzgalov",
-     "lg": "WHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 1,
-     "dtp": 1,
-     "sgp": 5,
-     "sg": 2,
-     "sa": 1,
-     "stp": 3
     }
    ]
   }

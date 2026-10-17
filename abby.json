@@ -1413,8 +1413,8 @@
    "diff": 15,
    "l10": "4-1-0",
    "strk": "2-0-0-0",
-   "lseq": 6,
-   "cseq": 3,
+   "lseq": 5,
+   "cseq": 2,
    "dseq": 1
   },
   {
@@ -1423,19 +1423,19 @@
    "nick": "Wranglers",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 5,
+   "gp": 6,
    "w": 4,
-   "l": 1,
+   "l": 2,
    "otl": 0,
    "pts": 8,
    "gf": 24,
    "ga": 19,
    "diff": 5,
-   "l10": "4-1-0",
-   "strk": "1-0-0-0",
-   "lseq": 2,
-   "cseq": 1,
-   "dseq": 1
+   "l10": "4-2-0",
+   "strk": "0-1-0-0",
+   "lseq": 12,
+   "cseq": 6,
+   "dseq": 3
   },
   {
    "abbr": "LAV",
@@ -1453,7 +1453,7 @@
    "diff": 10,
    "l10": "4-1-0",
    "strk": "4-0-0-0",
-   "lseq": 5,
+   "lseq": 4,
    "cseq": 3,
    "dseq": 3
   },
@@ -1473,9 +1473,9 @@
    "diff": 7,
    "l10": "4-1-0",
    "strk": "1-0-0-0",
-   "lseq": 4,
-   "cseq": 2,
-   "dseq": 2
+   "lseq": 3,
+   "cseq": 1,
+   "dseq": 1
   },
   {
    "abbr": "CLE",
@@ -1493,7 +1493,7 @@
    "diff": 4,
    "l10": "4-1-0",
    "strk": "4-0-0-0",
-   "lseq": 3,
+   "lseq": 2,
    "cseq": 2,
    "dseq": 2
   },
@@ -1513,7 +1513,7 @@
    "diff": 9,
    "l10": "3-1-0-1",
    "strk": "1-0-0-0",
-   "lseq": 12,
+   "lseq": 11,
    "cseq": 6,
    "dseq": 5
   },
@@ -1533,8 +1533,8 @@
    "diff": 4,
    "l10": "3-1-1",
    "strk": "1-0-0-0",
-   "lseq": 10,
-   "cseq": 5,
+   "lseq": 9,
+   "cseq": 4,
    "dseq": 2
   },
   {
@@ -1553,8 +1553,8 @@
    "diff": 2,
    "l10": "3-1-0-1",
    "strk": "2-0-0-0",
-   "lseq": 11,
-   "cseq": 6,
+   "lseq": 10,
+   "cseq": 5,
    "dseq": 3
   },
   {
@@ -1593,7 +1593,7 @@
    "diff": 4,
    "l10": "3-1-0",
    "strk": "3-0-0-0",
-   "lseq": 7,
+   "lseq": 6,
    "cseq": 4,
    "dseq": 1
   },
@@ -1653,7 +1653,7 @@
    "diff": 4,
    "l10": "3-1-0",
    "strk": "3-0-0-0",
-   "lseq": 9,
+   "lseq": 8,
    "cseq": 5,
    "dseq": 4
   },
@@ -1713,9 +1713,9 @@
    "diff": -1,
    "l10": "3-1-0",
    "strk": "2-0-0-0",
-   "lseq": 8,
-   "cseq": 4,
-   "dseq": 3
+   "lseq": 7,
+   "cseq": 3,
+   "dseq": 2
   },
   {
    "abbr": "WBS",
@@ -1878,6 +1878,26 @@
    "dseq": 7
   },
   {
+   "abbr": "SJ",
+   "name": "San Jose Barracuda",
+   "nick": "Barracuda",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 6,
+   "w": 2,
+   "l": 4,
+   "otl": 0,
+   "pts": 4,
+   "gf": 20,
+   "ga": 30,
+   "diff": -10,
+   "l10": "2-4-0",
+   "strk": "1-0-0-0",
+   "lseq": 26,
+   "cseq": 14,
+   "dseq": 10
+  },
+  {
    "abbr": "ABB",
    "name": "Abbotsford Canucks",
    "nick": "Canucks",
@@ -1913,7 +1933,7 @@
    "diff": -6,
    "l10": "1-3-0-1",
    "strk": "0-3-0-1",
-   "lseq": 26,
+   "lseq": 27,
    "cseq": 13,
    "dseq": 7
   },
@@ -1933,8 +1953,8 @@
    "diff": -9,
    "l10": "1-3-0-1",
    "strk": "0-3-0-1",
-   "lseq": 27,
-   "cseq": 14,
+   "lseq": 28,
+   "cseq": 15,
    "dseq": 5
   },
   {
@@ -1953,8 +1973,8 @@
    "diff": -4,
    "l10": "1-3-0",
    "strk": "0-2-0-0",
-   "lseq": 28,
-   "cseq": 15,
+   "lseq": 29,
+   "cseq": 16,
    "dseq": 6
   },
   {
@@ -1973,7 +1993,7 @@
    "diff": -10,
    "l10": "1-3-0",
    "strk": "0-3-0-0",
-   "lseq": 29,
+   "lseq": 30,
    "cseq": 14,
    "dseq": 8
   },
@@ -1993,29 +2013,9 @@
    "diff": -5,
    "l10": "1-4-0",
    "strk": "0-1-0-0",
-   "lseq": 30,
+   "lseq": 31,
    "cseq": 15,
    "dseq": 7
-  },
-  {
-   "abbr": "SJ",
-   "name": "San Jose Barracuda",
-   "nick": "Barracuda",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 5,
-   "w": 1,
-   "l": 4,
-   "otl": 0,
-   "pts": 2,
-   "gf": 20,
-   "ga": 30,
-   "diff": -10,
-   "l10": "1-4-0",
-   "strk": "0-3-0-0",
-   "lseq": 31,
-   "cseq": 16,
-   "dseq": 10
   },
   {
    "abbr": "CHI",
@@ -2045,12 +2045,12 @@
   },
   "ga": {
    "v": 3.75,
-   "rank": 24
+   "rank": 25
   },
   "pt": {
    "v": 37.5,
    "rank": 25
   }
  },
- "updated": "2026-10-17T04:45:18Z"
+ "updated": "2026-10-17T05:00:19Z"
 }

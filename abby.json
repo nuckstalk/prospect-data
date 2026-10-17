@@ -1398,6 +1398,26 @@
  ],
  "standings": [
   {
+   "abbr": "MB",
+   "name": "Manitoba Moose",
+   "nick": "Moose",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 5,
+   "w": 4,
+   "l": 1,
+   "otl": 0,
+   "pts": 8,
+   "gf": 25,
+   "ga": 10,
+   "diff": 15,
+   "l10": "4-1-0",
+   "strk": "2-0-0-0",
+   "lseq": 6,
+   "cseq": 3,
+   "dseq": 2
+  },
+  {
    "abbr": "CGY",
    "name": "Calgary Wranglers",
    "nick": "Wranglers",
@@ -1538,26 +1558,6 @@
    "dseq": 1
   },
   {
-   "abbr": "MB",
-   "name": "Manitoba Moose",
-   "nick": "Moose",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 4,
-   "w": 3,
-   "l": 1,
-   "otl": 0,
-   "pts": 6,
-   "gf": 25,
-   "ga": 10,
-   "diff": 15,
-   "l10": "3-1-0",
-   "strk": "1-0-0-0",
-   "lseq": 8,
-   "cseq": 4,
-   "dseq": 2
-  },
-  {
    "abbr": "HER",
    "name": "Hershey Bears",
    "nick": "Bears",
@@ -1573,7 +1573,7 @@
    "diff": 4,
    "l10": "3-1-0",
    "strk": "3-0-0-0",
-   "lseq": 7,
+   "lseq": 8,
    "cseq": 4,
    "dseq": 1
   },
@@ -1613,8 +1613,8 @@
    "diff": 7,
    "l10": "3-1-0",
    "strk": "0-1-0-0",
-   "lseq": 6,
-   "cseq": 3,
+   "lseq": 7,
+   "cseq": 4,
    "dseq": 2
   },
   {
@@ -1913,7 +1913,7 @@
    "diff": -6,
    "l10": "1-3-0-1",
    "strk": "0-3-0-1",
-   "lseq": 27,
+   "lseq": 26,
    "cseq": 13,
    "dseq": 7
   },
@@ -1923,17 +1923,17 @@
    "nick": "Stars",
    "div": "Central",
    "conf": "Western",
-   "gp": 4,
+   "gp": 5,
    "w": 1,
-   "l": 2,
+   "l": 3,
    "otl": 1,
    "pts": 3,
    "gf": 13,
    "ga": 22,
    "diff": -9,
-   "l10": "1-2-0-1",
-   "strk": "0-2-0-1",
-   "lseq": 26,
+   "l10": "1-3-0-1",
+   "strk": "0-3-0-1",
+   "lseq": 27,
    "cseq": 14,
    "dseq": 5
   },
@@ -2041,7 +2041,7 @@
  "team": {
   "gf": {
    "v": 2.75,
-   "rank": 23
+   "rank": 22
   },
   "ga": {
    "v": 3.75,
@@ -2052,5 +2052,5 @@
    "rank": 25
   }
  },
- "updated": "2026-10-17T02:45:16Z"
+ "updated": "2026-10-17T03:00:21Z"
 }

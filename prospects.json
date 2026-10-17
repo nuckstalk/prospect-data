@@ -150,11 +150,11 @@
    "ep": 13,
    "team": "Quinnipiac Univ.",
    "lg": "NCAA",
-   "gp": 4,
+   "gp": 5,
    "g": 1,
    "a": 1,
    "tp": 2,
-   "ppg": 0.5,
+   "ppg": 0.4,
    "pim": 0,
    "pm": 3
   },
@@ -198,13 +198,13 @@
    "ep": 18,
    "team": "Quinnipiac",
    "lg": "NCAA",
-   "gp": 4,
+   "gp": 5,
    "g": 1,
    "a": 2,
    "tp": 3,
-   "ppg": 0.75,
-   "pim": 4,
-   "pm": 4
+   "ppg": 0.6,
+   "pim": 6,
+   "pm": 3
   },
   "Wilson Björck": {
    "ep": 19,
@@ -458,6 +458,32 @@
      "sg": 0,
      "sa": 1,
      "stp": 1
+    },
+    {
+     "k": "S",
+     "name": "Parker Alcos",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 5,
+     "sg": 1,
+     "sa": 1,
+     "stp": 2
+    },
+    {
+     "k": "S",
+     "name": "Matthew Lansing",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 5,
+     "sg": 1,
+     "sa": 2,
+     "stp": 3
     }
    ]
   },

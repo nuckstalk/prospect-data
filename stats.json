@@ -2536,6 +2536,26 @@
    "lseq": 6
   },
   {
+   "abbr": "COL",
+   "name": "Colorado Avalanche",
+   "nick": "Avalanche",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 8,
+   "w": 5,
+   "l": 2,
+   "otl": 1,
+   "pts": 11,
+   "gf": 36,
+   "ga": 24,
+   "diff": 12,
+   "l10": "5-2-1",
+   "strk": "W1",
+   "dseq": 2,
+   "cseq": 4,
+   "lseq": 7
+  },
+  {
    "abbr": "MIN",
    "name": "Minnesota Wild",
    "nick": "Wild",
@@ -2551,9 +2571,9 @@
    "diff": 6,
    "l10": "5-2-1",
    "strk": "W1",
-   "dseq": 2,
-   "cseq": 4,
-   "lseq": 7
+   "dseq": 3,
+   "cseq": 5,
+   "lseq": 8
   },
   {
    "abbr": "SEA",
@@ -2572,8 +2592,8 @@
    "l10": "5-2-1",
    "strk": "OT1",
    "dseq": 3,
-   "cseq": 5,
-   "lseq": 8
+   "cseq": 6,
+   "lseq": 9
   },
   {
    "abbr": "BOS",
@@ -2593,7 +2613,7 @@
    "strk": "W3",
    "dseq": 2,
    "cseq": 4,
-   "lseq": 9
+   "lseq": 10
   },
   {
    "abbr": "TBL",
@@ -2613,7 +2633,7 @@
    "strk": "W1",
    "dseq": 3,
    "cseq": 5,
-   "lseq": 10
+   "lseq": 11
   },
   {
    "abbr": "WPG",
@@ -2631,9 +2651,9 @@
    "diff": 0,
    "l10": "4-1-2",
    "strk": "OT1",
-   "dseq": 3,
-   "cseq": 6,
-   "lseq": 11
+   "dseq": 4,
+   "cseq": 7,
+   "lseq": 12
   },
   {
    "abbr": "FLA",
@@ -2653,26 +2673,6 @@
    "strk": "W2",
    "dseq": 4,
    "cseq": 6,
-   "lseq": 12
-  },
-  {
-   "abbr": "COL",
-   "name": "Colorado Avalanche",
-   "nick": "Avalanche",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 7,
-   "w": 4,
-   "l": 2,
-   "otl": 1,
-   "pts": 9,
-   "gf": 31,
-   "ga": 22,
-   "diff": 9,
-   "l10": "4-2-1",
-   "strk": "OT1",
-   "dseq": 4,
-   "cseq": 7,
    "lseq": 13
   },
   {
@@ -2876,26 +2876,6 @@
    "lseq": 23
   },
   {
-   "abbr": "PIT",
-   "name": "Pittsburgh Penguins",
-   "nick": "Penguins",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 7,
-   "w": 3,
-   "l": 3,
-   "otl": 1,
-   "pts": 7,
-   "gf": 25,
-   "ga": 22,
-   "diff": 3,
-   "l10": "3-3-1",
-   "strk": "L1",
-   "dseq": 6,
-   "cseq": 12,
-   "lseq": 24
-  },
-  {
    "abbr": "MTL",
    "name": "Montréal Canadiens",
    "nick": "Canadiens",
@@ -2912,6 +2892,26 @@
    "l10": "3-3-1",
    "strk": "L1",
    "dseq": 7,
+   "cseq": 12,
+   "lseq": 24
+  },
+  {
+   "abbr": "PIT",
+   "name": "Pittsburgh Penguins",
+   "nick": "Penguins",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 8,
+   "w": 3,
+   "l": 4,
+   "otl": 1,
+   "pts": 7,
+   "gf": 27,
+   "ga": 27,
+   "diff": 0,
+   "l10": "3-4-1",
+   "strk": "L2",
+   "dseq": 6,
    "cseq": 13,
    "lseq": 25
   },
@@ -3090,5 +3090,5 @@
    "rank": 29
   }
  },
- "updated": "2026-10-16T14:15:16Z"
+ "updated": "2026-10-17T03:45:17Z"
 }

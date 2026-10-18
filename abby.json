@@ -169,8 +169,8 @@
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 8,
-   "shp": 25.0,
+   "sog": 9,
+   "shp": 22.2,
    "toi": null,
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/7767.jpg",
@@ -554,8 +554,8 @@
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 15,
-   "shp": 13.3,
+   "sog": 16,
+   "shp": 12.5,
    "toi": null,
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/9962.jpg",
@@ -631,7 +631,7 @@
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 4,
+   "sog": 5,
    "shp": 0.0,
    "toi": null,
    "fo": null,
@@ -1269,7 +1269,7 @@
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 10,
+   "sog": 11,
    "shp": 0.0,
    "toi": null,
    "fo": null,
@@ -1346,7 +1346,7 @@
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 4,
+   "sog": 5,
    "shp": 0.0,
    "toi": null,
    "fo": null,
@@ -1524,17 +1524,17 @@
   {
    "name": "Nikita Tolopilo",
    "id": "9983",
-   "gp": 5,
+   "gp": 4,
    "gs": null,
    "w": 2,
    "l": 1,
    "otl": 1,
-   "gaa": 2.8,
-   "svp": ".895",
+   "gaa": 2.96,
+   "svp": ".896",
    "so": 0,
-   "sa": 124,
-   "sv": 111,
-   "ga": 13,
+   "sa": 115,
+   "sv": 103,
+   "ga": 12,
    "img": "https://assets.leaguestat.com/ahl/240x240/9983.jpg",
    "log": [
     [
@@ -1820,7 +1820,7 @@
    "diff": 9,
    "l10": "3-2-1",
    "strk": "1-0-0-0",
-   "lseq": 19,
+   "lseq": 18,
    "cseq": 9,
    "dseq": 4
   },
@@ -1840,7 +1840,7 @@
    "diff": 7,
    "l10": "3-2-0-1",
    "strk": "0-1-0-0",
-   "lseq": 17,
+   "lseq": 16,
    "cseq": 8,
    "dseq": 5
   },
@@ -1860,9 +1860,9 @@
    "diff": 4,
    "l10": "3-2-1",
    "strk": "3-0-1-0",
-   "lseq": 18,
-   "cseq": 10,
-   "dseq": 6
+   "lseq": 17,
+   "cseq": 9,
+   "dseq": 5
   },
   {
    "abbr": "LV",
@@ -1880,7 +1880,7 @@
    "diff": 0,
    "l10": "3-2-1",
    "strk": "3-0-0-0",
-   "lseq": 16,
+   "lseq": 15,
    "cseq": 7,
    "dseq": 3
   },
@@ -1900,9 +1900,9 @@
    "diff": -1,
    "l10": "3-3-1",
    "strk": "1-0-0-0",
-   "lseq": 20,
-   "cseq": 11,
-   "dseq": 7
+   "lseq": 19,
+   "cseq": 10,
+   "dseq": 6
   },
   {
    "abbr": "UTC",
@@ -1990,19 +1990,19 @@
    "nick": "Firebirds",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 5,
+   "gp": 6,
    "w": 2,
-   "l": 1,
+   "l": 2,
    "otl": 2,
    "pts": 6,
    "gf": 22,
    "ga": 25,
    "diff": -3,
-   "l10": "2-1-2",
-   "strk": "0-1-1-0",
-   "lseq": 15,
-   "cseq": 9,
-   "dseq": 5
+   "l10": "2-2-2",
+   "strk": "0-2-1-0",
+   "lseq": 21,
+   "cseq": 11,
+   "dseq": 7
   },
   {
    "abbr": "ONT",
@@ -2060,9 +2060,29 @@
    "diff": -5,
    "l10": "2-2-2",
    "strk": "0-1-2-0",
-   "lseq": 21,
+   "lseq": 20,
    "cseq": 10,
    "dseq": 6
+  },
+  {
+   "abbr": "ABB",
+   "name": "Abbotsford Canucks",
+   "nick": "Canucks",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 5,
+   "w": 2,
+   "l": 2,
+   "otl": 1,
+   "pts": 5,
+   "gf": 18,
+   "ga": 18,
+   "diff": 0,
+   "l10": "2-2-0-1",
+   "strk": "2-0-0-0",
+   "lseq": 23,
+   "cseq": 12,
+   "dseq": 8
   },
   {
    "abbr": "BAK",
@@ -2123,26 +2143,6 @@
    "lseq": 27,
    "cseq": 14,
    "dseq": 10
-  },
-  {
-   "abbr": "ABB",
-   "name": "Abbotsford Canucks",
-   "nick": "Canucks",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 5,
-   "w": 2,
-   "l": 2,
-   "otl": 1,
-   "pts": 5,
-   "gf": 18,
-   "ga": 18,
-   "diff": 0,
-   "l10": "2-2-0-1",
-   "strk": "2-0-0-0",
-   "lseq": 23,
-   "cseq": 12,
-   "dseq": 8
   },
   {
    "abbr": "HAM",
@@ -2256,8 +2256,8 @@
   },
   "pt": {
    "v": 50.0,
-   "rank": 20
+   "rank": 19
   }
  },
- "updated": "2026-10-18T05:00:18Z"
+ "updated": "2026-10-18T05:15:16Z"
 }

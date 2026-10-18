@@ -66,11 +66,11 @@
    "ep": 6,
    "team": "Medicine Hat Tigers",
    "lg": "WHL",
-   "gp": 6,
+   "gp": 7,
    "g": 2,
    "a": 1,
    "tp": 3,
-   "ppg": 0.5,
+   "ppg": 0.42857142857142855,
    "pim": 12,
    "pm": 0
   },
@@ -84,7 +84,7 @@
    "tp": 7,
    "ppg": 0.7777777777777778,
    "pim": 6,
-   "pm": 1
+   "pm": 0
   },
   "Kieren Dervin": {
    "ep": 8,
@@ -144,7 +144,7 @@
    "tp": 4,
    "ppg": 0.6666666666666666,
    "pim": 4,
-   "pm": -5
+   "pm": -6
   },
   "Parker Alcos": {
    "ep": 13,
@@ -474,6 +474,19 @@
      "sg": 0,
      "sa": 1,
      "stp": 1
+    },
+    {
+     "k": "S",
+     "name": "Yaroslav Bryzgalov",
+     "lg": "WHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 7,
+     "sg": 2,
+     "sa": 1,
+     "stp": 3
     }
    ]
   },

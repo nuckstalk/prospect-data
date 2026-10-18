@@ -138,12 +138,12 @@
    "ep": 12,
    "team": "Owen Sound Attack",
    "lg": "OHL",
-   "gp": 6,
+   "gp": 7,
    "g": 0,
-   "a": 4,
-   "tp": 4,
-   "ppg": 0.6666666666666666,
-   "pim": 4,
+   "a": 5,
+   "tp": 5,
+   "ppg": 0.7142857142857143,
+   "pim": 6,
    "pm": -6
   },
   "Parker Alcos": {
@@ -342,6 +342,24 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-10-18",
+   "items": [
+    {
+     "k": "S",
+     "name": "Lucian Bernat",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 7,
+     "sg": 0,
+     "sa": 5,
+     "stp": 5
+    }
+   ]
+  },
   {
    "date": "2026-10-17",
    "items": [
@@ -826,47 +844,6 @@
      "sg": 4,
      "sa": 5,
      "stp": 9
-    }
-   ]
-  },
-  {
-   "date": "2026-10-11",
-   "items": [
-    {
-     "k": "S",
-     "name": "Connor Davis",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 2,
-     "sg": 0,
-     "sa": 0,
-     "stp": 0
-    },
-    {
-     "k": "S",
-     "name": "Anthony Romani",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 1,
-     "da": 0,
-     "dtp": 1,
-     "sgp": 2,
-     "sg": 3,
-     "sa": 1,
-     "stp": 4
-    },
-    {
-     "k": "G",
-     "name": "Dmitri Ivchenko",
-     "lg": "MHL",
-     "dgp": 1,
-     "res": "W",
-     "gaa": 3.54,
-     "svp": ".870",
-     "sgp": 7
     }
    ]
   }

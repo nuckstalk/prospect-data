@@ -270,7 +270,7 @@
    "ep": 25,
    "team": "Minnesota State (Mankato)",
    "lg": "NCAA",
-   "gp": 3,
+   "gp": 4,
    "g": 0,
    "a": 0,
    "tp": 0,
@@ -316,11 +316,11 @@
   "Aku Koskenvuo": {
    "team": "Kalamazoo Wings",
    "lg": "ECHL",
-   "gp": 0,
-   "gaa": 0,
-   "svp": ".000",
+   "gp": 1,
+   "gaa": 3.0,
+   "svp": ".917",
    "so": 0,
-   "rec": "0-0-0"
+   "rec": "-"
   },
   "Alexei Medvedev": {
    "team": "London Knights",
@@ -349,7 +349,7 @@
      "k": "S",
      "name": "Daimon Gardner",
      "lg": "NCAA",
-     "dgp": 2,
+     "dgp": 3,
      "dg": 0,
      "da": 0,
      "dtp": 0,
@@ -500,6 +500,17 @@
      "sg": 4,
      "sa": 2,
      "stp": 6
+    },
+    {
+     "k": "G",
+     "name": "Aku Koskenvuo",
+     "lg": "ECHL",
+     "dgp": 1,
+     "res": "",
+     "gaa": 3.0,
+     "svp": ".917",
+     "sgp": 1,
+     "rec0": "0-0-0"
     }
    ]
   },

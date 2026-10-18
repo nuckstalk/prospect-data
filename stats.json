@@ -2643,6 +2643,26 @@
    "lseq": 1
   },
   {
+   "abbr": "BOS",
+   "name": "Boston Bruins",
+   "nick": "Bruins",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 9,
+   "w": 7,
+   "l": 2,
+   "otl": 0,
+   "pts": 14,
+   "gf": 34,
+   "ga": 19,
+   "diff": 15,
+   "l10": "7-2-0",
+   "strk": "W5",
+   "dseq": 1,
+   "cseq": 2,
+   "lseq": 2
+  },
+  {
    "abbr": "VGK",
    "name": "Vegas Golden Knights",
    "nick": "Golden Knights",
@@ -2660,7 +2680,7 @@
    "strk": "W2",
    "dseq": 1,
    "cseq": 1,
-   "lseq": 2
+   "lseq": 3
   },
   {
    "abbr": "NYR",
@@ -2679,8 +2699,8 @@
    "l10": "6-3-1",
    "strk": "OT1",
    "dseq": 2,
-   "cseq": 2,
-   "lseq": 3
+   "cseq": 3,
+   "lseq": 4
   },
   {
    "abbr": "UTA",
@@ -2700,26 +2720,6 @@
    "strk": "W3",
    "dseq": 1,
    "cseq": 2,
-   "lseq": 4
-  },
-  {
-   "abbr": "BOS",
-   "name": "Boston Bruins",
-   "nick": "Bruins",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 8,
-   "w": 6,
-   "l": 2,
-   "otl": 0,
-   "pts": 12,
-   "gf": 30,
-   "ga": 18,
-   "diff": 12,
-   "l10": "6-2-0",
-   "strk": "W4",
-   "dseq": 1,
-   "cseq": 3,
    "lseq": 5
   },
   {
@@ -3228,16 +3228,16 @@
    "nick": "Kings",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 5,
+   "gp": 6,
    "w": 0,
-   "l": 3,
+   "l": 4,
    "otl": 2,
    "pts": 2,
-   "gf": 11,
-   "ga": 21,
-   "diff": -10,
-   "l10": "0-3-2",
-   "strk": "L1",
+   "gf": 12,
+   "ga": 25,
+   "diff": -13,
+   "l10": "0-4-2",
+   "strk": "L2",
    "dseq": 7,
    "cseq": 15,
    "lseq": 31
@@ -3297,5 +3297,5 @@
    "rank": 29
   }
  },
- "updated": "2026-10-18T02:45:15Z"
+ "updated": "2026-10-18T04:00:14Z"
 }

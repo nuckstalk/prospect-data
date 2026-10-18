@@ -270,13 +270,13 @@
    "ep": 25,
    "team": "Minnesota State (Mankato)",
    "lg": "NCAA",
-   "gp": 3,
+   "gp": 4,
    "g": 0,
    "a": 0,
    "tp": 0,
    "ppg": 0,
    "pim": 0,
-   "pm": 0
+   "pm": -1
   },
   "Anri Ravinskis": {
    "ep": 26,
@@ -349,11 +349,11 @@
      "k": "S",
      "name": "Daimon Gardner",
      "lg": "NCAA",
-     "dgp": 1,
+     "dgp": 2,
      "dg": 0,
      "da": 0,
      "dtp": 0,
-     "sgp": 3,
+     "sgp": 4,
      "sg": 0,
      "sa": 0,
      "stp": 0

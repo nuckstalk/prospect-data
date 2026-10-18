@@ -1620,9 +1620,29 @@
    "diff": 6,
    "l10": "5-2-0",
    "strk": "1-0-0-0",
-   "lseq": 9,
+   "lseq": 8,
    "cseq": 5,
    "dseq": 2
+  },
+  {
+   "abbr": "MB",
+   "name": "Manitoba Moose",
+   "nick": "Moose",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 6,
+   "w": 5,
+   "l": 1,
+   "otl": 0,
+   "pts": 10,
+   "gf": 29,
+   "ga": 13,
+   "diff": 16,
+   "l10": "5-1-0",
+   "strk": "3-0-0-0",
+   "lseq": 2,
+   "cseq": 1,
+   "dseq": 1
   },
   {
    "abbr": "LAV",
@@ -1655,12 +1675,12 @@
    "l": 1,
    "otl": 1,
    "pts": 9,
-   "gf": 22,
-   "ga": 15,
-   "diff": 7,
+   "gf": 24,
+   "ga": 16,
+   "diff": 8,
    "l10": "4-1-1",
    "strk": "2-0-0-0",
-   "lseq": 6,
+   "lseq": 5,
    "cseq": 3,
    "dseq": 2
   },
@@ -1680,28 +1700,8 @@
    "diff": 6,
    "l10": "4-1-1",
    "strk": "1-0-1-0",
-   "lseq": 5,
+   "lseq": 4,
    "cseq": 2,
-   "dseq": 1
-  },
-  {
-   "abbr": "MB",
-   "name": "Manitoba Moose",
-   "nick": "Moose",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 5,
-   "w": 4,
-   "l": 1,
-   "otl": 0,
-   "pts": 8,
-   "gf": 29,
-   "ga": 13,
-   "diff": 16,
-   "l10": "4-1-0",
-   "strk": "2-0-0-0",
-   "lseq": 3,
-   "cseq": 1,
    "dseq": 1
   },
   {
@@ -1710,19 +1710,19 @@
    "nick": "Bears",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 5,
+   "gp": 6,
    "w": 4,
-   "l": 1,
+   "l": 2,
    "otl": 0,
    "pts": 8,
    "gf": 19,
    "ga": 18,
    "diff": 1,
-   "l10": "4-1-0",
-   "strk": "4-0-0-0",
-   "lseq": 2,
-   "cseq": 2,
-   "dseq": 1
+   "l10": "4-2-0",
+   "strk": "0-1-0-0",
+   "lseq": 11,
+   "cseq": 6,
+   "dseq": 2
   },
   {
    "abbr": "CLT",
@@ -1740,9 +1740,9 @@
    "diff": 2,
    "l10": "4-2-0",
    "strk": "3-0-0-0",
-   "lseq": 10,
-   "cseq": 5,
-   "dseq": 2
+   "lseq": 9,
+   "cseq": 4,
+   "dseq": 1
   },
   {
    "abbr": "CLE",
@@ -1760,8 +1760,8 @@
    "diff": 1,
    "l10": "4-2-0",
    "strk": "0-1-0-0",
-   "lseq": 11,
-   "cseq": 6,
+   "lseq": 10,
+   "cseq": 5,
    "dseq": 4
   },
   {
@@ -1780,8 +1780,8 @@
    "diff": 4,
    "l10": "4-1-0",
    "strk": "4-0-0-0",
-   "lseq": 4,
-   "cseq": 3,
+   "lseq": 3,
+   "cseq": 2,
    "dseq": 2
   },
   {
@@ -1920,8 +1920,8 @@
    "diff": 0,
    "l10": "3-1-0",
    "strk": "0-1-0-0",
-   "lseq": 8,
-   "cseq": 4,
+   "lseq": 7,
+   "cseq": 3,
    "dseq": 3
   },
   {
@@ -2000,7 +2000,7 @@
    "diff": 3,
    "l10": "3-1-0",
    "strk": "1-0-0-0",
-   "lseq": 7,
+   "lseq": 6,
    "cseq": 4,
    "dseq": 3
   },
@@ -2125,6 +2125,26 @@
    "dseq": 9
   },
   {
+   "abbr": "PRO",
+   "name": "Providence Bruins",
+   "nick": "Bruins",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 7,
+   "w": 2,
+   "l": 5,
+   "otl": 0,
+   "pts": 4,
+   "gf": 18,
+   "ga": 20,
+   "diff": -2,
+   "l10": "2-5-0",
+   "strk": "1-0-0-0",
+   "lseq": 29,
+   "cseq": 14,
+   "dseq": 7
+  },
+  {
    "abbr": "SJ",
    "name": "San Jose Barracuda",
    "nick": "Barracuda",
@@ -2145,6 +2165,26 @@
    "dseq": 10
   },
   {
+   "abbr": "TEX",
+   "name": "Texas Stars",
+   "nick": "Stars",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 6,
+   "w": 1,
+   "l": 3,
+   "otl": 2,
+   "pts": 4,
+   "gf": 16,
+   "ga": 26,
+   "diff": -10,
+   "l10": "1-3-1-1",
+   "strk": "0-3-1-1",
+   "lseq": 28,
+   "cseq": 15,
+   "dseq": 5
+  },
+  {
    "abbr": "HAM",
    "name": "Hamilton Hammers",
    "nick": "Hammers",
@@ -2160,29 +2200,9 @@
    "diff": -7,
    "l10": "1-4-0-1",
    "strk": "0-4-0-1",
-   "lseq": 29,
-   "cseq": 14,
-   "dseq": 8
-  },
-  {
-   "abbr": "TEX",
-   "name": "Texas Stars",
-   "nick": "Stars",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 5,
-   "w": 1,
-   "l": 3,
-   "otl": 1,
-   "pts": 3,
-   "gf": 16,
-   "ga": 26,
-   "diff": -10,
-   "l10": "1-3-0-1",
-   "strk": "0-3-0-1",
-   "lseq": 28,
+   "lseq": 30,
    "cseq": 15,
-   "dseq": 5
+   "dseq": 8
   },
   {
    "abbr": "RFD",
@@ -2195,33 +2215,13 @@
    "l": 4,
    "otl": 0,
    "pts": 2,
-   "gf": 8,
-   "ga": 15,
-   "diff": -7,
+   "gf": 9,
+   "ga": 17,
+   "diff": -8,
    "l10": "1-4-0",
    "strk": "0-3-0-0",
-   "lseq": 31,
-   "cseq": 17,
-   "dseq": 7
-  },
-  {
-   "abbr": "PRO",
-   "name": "Providence Bruins",
-   "nick": "Bruins",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 6,
-   "w": 1,
-   "l": 5,
-   "otl": 0,
-   "pts": 2,
-   "gf": 18,
-   "ga": 20,
-   "diff": -2,
-   "l10": "1-5-0",
-   "strk": "0-2-0-0",
    "lseq": 32,
-   "cseq": 15,
+   "cseq": 17,
    "dseq": 7
   },
   {
@@ -2240,7 +2240,7 @@
    "diff": -14,
    "l10": "1-4-0",
    "strk": "1-0-0-0",
-   "lseq": 30,
+   "lseq": 31,
    "cseq": 16,
    "dseq": 6
   }
@@ -2248,16 +2248,16 @@
  "team": {
   "gf": {
    "v": 3.6,
-   "rank": 10
+   "rank": 9
   },
   "ga": {
    "v": 3.6,
-   "rank": 22
+   "rank": 23
   },
   "pt": {
    "v": 50.0,
    "rank": 19
   }
  },
- "updated": "2026-10-18T22:00:16Z"
+ "updated": "2026-10-18T22:15:15Z"
 }

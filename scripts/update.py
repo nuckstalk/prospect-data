@@ -135,6 +135,17 @@ if new_items:
                 if k in it: ex[k] = ex.get(k, 0) + it[k]
             ex.update({k: v for k, v in it.items() if k not in ("dgp", "dg", "da", "dtp", "rec0") and not (k == "res" and not v)})
     print("watch:", [(i["name"], i["dgp"]) for i in new_items])
+# late stat corrections: EliteProspects sometimes adds a goal/assist AFTER the game was logged (GP unchanged) - fold it into that game's watch entry
+for n, r in data["skaters"].items():
+    o = old["skaters"][n]
+    if r["gp"] == o["gp"] and (r["g"], r["a"], r["tp"]) != (o["g"], o["a"], o["tp"]):
+        for d in sorted(watch, key=lambda x: x["date"], reverse=True):
+            it = next((x for x in d["items"] if x["name"] == n and x.get("k") == "S" and x.get("sgp") == r["gp"]), None)
+            if it:
+                it["dg"] = it.get("dg", 0) + r["g"] - o["g"]; it["da"] = it.get("da", 0) + r["a"] - o["a"]; it["dtp"] = it.get("dtp", 0) + r["tp"] - o["tp"]
+                it["sg"], it["sa"], it["stp"] = r["g"], r["a"], r["tp"]
+                print("watch corrected:", n, "now", it["dg"], "G", it["da"], "A")
+                break
 # a goalie's W/L/OTL can post later than his GP: fill in any blank result once the record catches up
 for d in watch:
     for it in d["items"]:

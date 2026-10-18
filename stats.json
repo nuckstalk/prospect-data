@@ -2903,6 +2903,46 @@
    "lseq": 14
   },
   {
+   "abbr": "NYI",
+   "name": "New York Islanders",
+   "nick": "Islanders",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 8,
+   "w": 4,
+   "l": 3,
+   "otl": 1,
+   "pts": 9,
+   "gf": 24,
+   "ga": 18,
+   "diff": 6,
+   "l10": "4-3-1",
+   "strk": "W1",
+   "dseq": 4,
+   "cseq": 8,
+   "lseq": 15
+  },
+  {
+   "abbr": "DAL",
+   "name": "Dallas Stars",
+   "nick": "Stars",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 8,
+   "w": 4,
+   "l": 3,
+   "otl": 1,
+   "pts": 9,
+   "gf": 20,
+   "ga": 13,
+   "diff": 7,
+   "l10": "4-3-1",
+   "strk": "W2",
+   "dseq": 5,
+   "cseq": 8,
+   "lseq": 16
+  },
+  {
    "abbr": "BUF",
    "name": "Buffalo Sabres",
    "nick": "Sabres",
@@ -2919,8 +2959,8 @@
    "l10": "4-3-1",
    "strk": "W1",
    "dseq": 5,
-   "cseq": 8,
-   "lseq": 15
+   "cseq": 9,
+   "lseq": 17
   },
   {
    "abbr": "ANA",
@@ -2939,8 +2979,8 @@
    "l10": "4-3-0",
    "strk": "L2",
    "dseq": 4,
-   "cseq": 8,
-   "lseq": 16
+   "cseq": 9,
+   "lseq": 18
   },
   {
    "abbr": "SJS",
@@ -2959,8 +2999,8 @@
    "l10": "4-3-0",
    "strk": "W1",
    "dseq": 5,
-   "cseq": 9,
-   "lseq": 17
+   "cseq": 10,
+   "lseq": 19
   },
   {
    "abbr": "NJD",
@@ -2978,9 +3018,9 @@
    "diff": -2,
    "l10": "4-4-0",
    "strk": "L1",
-   "dseq": 4,
-   "cseq": 9,
-   "lseq": 18
+   "dseq": 5,
+   "cseq": 10,
+   "lseq": 20
   },
   {
    "abbr": "TOR",
@@ -2988,39 +3028,19 @@
    "nick": "Maple Leafs",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 8,
+   "gp": 9,
    "w": 3,
-   "l": 3,
+   "l": 4,
    "otl": 2,
    "pts": 8,
-   "gf": 28,
-   "ga": 28,
-   "diff": 0,
-   "l10": "3-3-2",
-   "strk": "OT1",
+   "gf": 29,
+   "ga": 32,
+   "diff": -3,
+   "l10": "3-4-2",
+   "strk": "L1",
    "dseq": 6,
-   "cseq": 10,
-   "lseq": 19
-  },
-  {
-   "abbr": "NYI",
-   "name": "New York Islanders",
-   "nick": "Islanders",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 7,
-   "w": 3,
-   "l": 3,
-   "otl": 1,
-   "pts": 7,
-   "gf": 20,
-   "ga": 17,
-   "diff": 3,
-   "l10": "3-3-1",
-   "strk": "OT1",
-   "dseq": 5,
    "cseq": 11,
-   "lseq": 20
+   "lseq": 21
   },
   {
    "abbr": "STL",
@@ -3038,26 +3058,6 @@
    "diff": 2,
    "l10": "3-3-1",
    "strk": "L1",
-   "dseq": 5,
-   "cseq": 10,
-   "lseq": 21
-  },
-  {
-   "abbr": "DAL",
-   "name": "Dallas Stars",
-   "nick": "Stars",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 7,
-   "w": 3,
-   "l": 3,
-   "otl": 1,
-   "pts": 7,
-   "gf": 16,
-   "ga": 13,
-   "diff": 3,
-   "l10": "3-3-1",
-   "strk": "W1",
    "dseq": 6,
    "cseq": 11,
    "lseq": 22
@@ -3148,16 +3148,16 @@
    "nick": "Blackhawks",
    "div": "Central",
    "conf": "Western",
-   "gp": 8,
+   "gp": 9,
    "w": 3,
-   "l": 5,
+   "l": 6,
    "otl": 0,
    "pts": 6,
    "gf": 21,
-   "ga": 32,
-   "diff": -11,
-   "l10": "3-5-0",
-   "strk": "W2",
+   "ga": 36,
+   "diff": -15,
+   "l10": "3-6-0",
+   "strk": "L1",
    "dseq": 8,
    "cseq": 13,
    "lseq": 27
@@ -3297,5 +3297,5 @@
    "rank": 29
   }
  },
- "updated": "2026-10-18T01:15:14Z"
+ "updated": "2026-10-18T01:45:16Z"
 }

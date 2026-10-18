@@ -182,7 +182,7 @@
      0,
      0,
      0,
-     0,
+     1,
      0,
      0
     ],
@@ -765,7 +765,7 @@
      0,
      0,
      0,
-     0,
+     2,
      0,
      0
     ],
@@ -1106,7 +1106,7 @@
      0,
      0,
      0,
-     0,
+     1,
      0,
      0
     ],
@@ -1524,12 +1524,12 @@
   {
    "name": "Nikita Tolopilo",
    "id": "9983",
-   "gp": 3,
+   "gp": 4,
    "gs": null,
    "w": 1,
    "l": 1,
    "otl": 1,
-   "gaa": 2.95,
+   "gaa": 2.92,
    "svp": ".901",
    "so": 0,
    "sa": 91,
@@ -1537,6 +1537,15 @@
    "ga": 9,
    "img": "https://assets.leaguestat.com/ahl/240x240/9983.jpg",
    "log": [
+    [
+     "2026-10-17",
+     "",
+     0,
+     0,
+     228,
+     0,
+     1
+    ],
     [
      "2026-10-10",
      "W",
@@ -1616,6 +1625,26 @@
    "dseq": 1
   },
   {
+   "abbr": "COL",
+   "name": "Colorado Eagles",
+   "nick": "Eagles",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 6,
+   "w": 4,
+   "l": 1,
+   "otl": 1,
+   "pts": 9,
+   "gf": 19,
+   "ga": 13,
+   "diff": 6,
+   "l10": "4-1-1",
+   "strk": "1-0-1-0",
+   "lseq": 5,
+   "cseq": 2,
+   "dseq": 1
+  },
+  {
    "abbr": "MB",
    "name": "Manitoba Moose",
    "nick": "Moose",
@@ -1631,8 +1660,8 @@
    "diff": 15,
    "l10": "4-1-0",
    "strk": "2-0-0-0",
-   "lseq": 4,
-   "cseq": 2,
+   "lseq": 3,
+   "cseq": 1,
    "dseq": 1
   },
   {
@@ -1651,7 +1680,7 @@
    "diff": 6,
    "l10": "4-1-0",
    "strk": "4-0-0-0",
-   "lseq": 3,
+   "lseq": 2,
    "cseq": 2,
    "dseq": 1
   },
@@ -1671,29 +1700,9 @@
    "diff": 5,
    "l10": "4-2-0",
    "strk": "0-1-0-0",
-   "lseq": 10,
-   "cseq": 6,
+   "lseq": 11,
+   "cseq": 7,
    "dseq": 3
-  },
-  {
-   "abbr": "COL",
-   "name": "Colorado Eagles",
-   "nick": "Eagles",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 5,
-   "w": 4,
-   "l": 1,
-   "otl": 0,
-   "pts": 8,
-   "gf": 19,
-   "ga": 13,
-   "diff": 6,
-   "l10": "4-1-0",
-   "strk": "1-0-0-0",
-   "lseq": 2,
-   "cseq": 1,
-   "dseq": 1
   },
   {
    "abbr": "CLT",
@@ -1711,7 +1720,7 @@
    "diff": 2,
    "l10": "4-2-0",
    "strk": "3-0-0-0",
-   "lseq": 11,
+   "lseq": 12,
    "cseq": 5,
    "dseq": 2
   },
@@ -1731,7 +1740,7 @@
    "diff": 1,
    "l10": "4-2-0",
    "strk": "0-1-0-0",
-   "lseq": 12,
+   "lseq": 13,
    "cseq": 6,
    "dseq": 4
   },
@@ -1751,7 +1760,7 @@
    "diff": 5,
    "l10": "4-1-0",
    "strk": "4-0-0-0",
-   "lseq": 5,
+   "lseq": 4,
    "cseq": 3,
    "dseq": 2
   },
@@ -1771,9 +1780,9 @@
    "diff": 7,
    "l10": "3-1-1",
    "strk": "1-0-0-0",
-   "lseq": 8,
-   "cseq": 4,
-   "dseq": 2
+   "lseq": 9,
+   "cseq": 5,
+   "dseq": 3
   },
   {
    "abbr": "WBS",
@@ -1851,9 +1860,9 @@
    "diff": 1,
    "l10": "3-1-0-1",
    "strk": "2-0-0-0",
-   "lseq": 9,
-   "cseq": 5,
-   "dseq": 3
+   "lseq": 10,
+   "cseq": 6,
+   "dseq": 4
   },
   {
    "abbr": "UTC",
@@ -1871,7 +1880,7 @@
    "diff": 0,
    "l10": "3-1-0",
    "strk": "0-1-0-0",
-   "lseq": 7,
+   "lseq": 8,
    "cseq": 4,
    "dseq": 3
   },
@@ -1887,8 +1896,8 @@
    "otl": 0,
    "pts": 6,
    "gf": 17,
-   "ga": 12,
-   "diff": 5,
+   "ga": 13,
+   "diff": 4,
    "l10": "3-2-0",
    "strk": "3-0-0-0",
    "lseq": 14,
@@ -1914,6 +1923,26 @@
    "lseq": 25,
    "cseq": 13,
    "dseq": 6
+  },
+  {
+   "abbr": "MIL",
+   "name": "Milwaukee Admirals",
+   "nick": "Admirals",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 4,
+   "w": 3,
+   "l": 1,
+   "otl": 0,
+   "pts": 6,
+   "gf": 10,
+   "ga": 7,
+   "diff": 3,
+   "l10": "3-1-0",
+   "strk": "1-0-0-0",
+   "lseq": 6,
+   "cseq": 3,
+   "dseq": 2
   },
   {
    "abbr": "CV",
@@ -1947,12 +1976,12 @@
    "otl": 0,
    "pts": 6,
    "gf": 14,
-   "ga": 15,
-   "diff": -1,
+   "ga": 17,
+   "diff": -3,
    "l10": "3-1-0",
    "strk": "2-0-0-0",
-   "lseq": 6,
-   "cseq": 3,
+   "lseq": 7,
+   "cseq": 4,
    "dseq": 2
   },
   {
@@ -2006,9 +2035,9 @@
    "l": 3,
    "otl": 1,
    "pts": 5,
-   "gf": 16,
+   "gf": 17,
    "ga": 18,
-   "diff": -2,
+   "diff": -1,
    "l10": "2-3-1",
    "strk": "0-2-0-0",
    "lseq": 23,
@@ -2016,24 +2045,24 @@
    "dseq": 8
   },
   {
-   "abbr": "MIL",
-   "name": "Milwaukee Admirals",
-   "nick": "Admirals",
-   "div": "Central",
+   "abbr": "HSK",
+   "name": "Henderson Silver Knights",
+   "nick": "Silver Knights",
+   "div": "Pacific",
    "conf": "Western",
-   "gp": 3,
+   "gp": 4,
    "w": 2,
-   "l": 1,
+   "l": 2,
    "otl": 0,
    "pts": 4,
-   "gf": 10,
-   "ga": 7,
+   "gf": 11,
+   "ga": 8,
    "diff": 3,
-   "l10": "2-1-0",
-   "strk": "0-1-0-0",
-   "lseq": 13,
-   "cseq": 7,
-   "dseq": 4
+   "l10": "2-2-0",
+   "strk": "1-0-0-0",
+   "lseq": 22,
+   "cseq": 11,
+   "dseq": 7
   },
   {
    "abbr": "BAK",
@@ -2054,26 +2083,6 @@
    "lseq": 21,
    "cseq": 10,
    "dseq": 6
-  },
-  {
-   "abbr": "HSK",
-   "name": "Henderson Silver Knights",
-   "nick": "Silver Knights",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 4,
-   "w": 2,
-   "l": 2,
-   "otl": 0,
-   "pts": 4,
-   "gf": 9,
-   "ga": 8,
-   "diff": 1,
-   "l10": "2-2-0",
-   "strk": "1-0-0-0",
-   "lseq": 22,
-   "cseq": 11,
-   "dseq": 7
   },
   {
    "abbr": "SYR",
@@ -2130,7 +2139,7 @@
    "ga": 15,
    "diff": -4,
    "l10": "1-2-0-1",
-   "strk": "1-0-0-0",
+   "strk": "1-0-0-1",
    "lseq": 26,
    "cseq": 13,
    "dseq": 9
@@ -2250,5 +2259,5 @@
    "rank": 25
   }
  },
- "updated": "2026-10-18T02:00:18Z"
+ "updated": "2026-10-18T02:15:19Z"
 }

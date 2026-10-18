@@ -2683,6 +2683,26 @@
    "lseq": 3
   },
   {
+   "abbr": "EDM",
+   "name": "Edmonton Oilers",
+   "nick": "Oilers",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 8,
+   "w": 6,
+   "l": 1,
+   "otl": 1,
+   "pts": 13,
+   "gf": 37,
+   "ga": 24,
+   "diff": 13,
+   "l10": "6-1-1",
+   "strk": "W1",
+   "dseq": 2,
+   "cseq": 2,
+   "lseq": 4
+  },
+  {
    "abbr": "NYR",
    "name": "New York Rangers",
    "nick": "Rangers",
@@ -2700,26 +2720,6 @@
    "strk": "OT1",
    "dseq": 2,
    "cseq": 3,
-   "lseq": 4
-  },
-  {
-   "abbr": "UTA",
-   "name": "Utah Mammoth",
-   "nick": "Mammoth",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 8,
-   "w": 6,
-   "l": 2,
-   "otl": 0,
-   "pts": 12,
-   "gf": 31,
-   "ga": 21,
-   "diff": 10,
-   "l10": "6-2-0",
-   "strk": "W3",
-   "dseq": 1,
-   "cseq": 2,
    "lseq": 5
   },
   {
@@ -2743,6 +2743,26 @@
    "lseq": 6
   },
   {
+   "abbr": "UTA",
+   "name": "Utah Mammoth",
+   "nick": "Mammoth",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 9,
+   "w": 6,
+   "l": 3,
+   "otl": 0,
+   "pts": 12,
+   "gf": 33,
+   "ga": 27,
+   "diff": 6,
+   "l10": "6-3-0",
+   "strk": "L1",
+   "dseq": 1,
+   "cseq": 3,
+   "lseq": 7
+  },
+  {
    "abbr": "OTT",
    "name": "Ottawa Senators",
    "nick": "Senators",
@@ -2760,7 +2780,7 @@
    "strk": "L1",
    "dseq": 3,
    "cseq": 5,
-   "lseq": 7
+   "lseq": 8
   },
   {
    "abbr": "FLA",
@@ -2780,26 +2800,6 @@
    "strk": "W3",
    "dseq": 4,
    "cseq": 6,
-   "lseq": 8
-  },
-  {
-   "abbr": "EDM",
-   "name": "Edmonton Oilers",
-   "nick": "Oilers",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 7,
-   "w": 5,
-   "l": 1,
-   "otl": 1,
-   "pts": 11,
-   "gf": 31,
-   "ga": 22,
-   "diff": 9,
-   "l10": "5-1-1",
-   "strk": "L1",
-   "dseq": 2,
-   "cseq": 3,
    "lseq": 9
   },
   {
@@ -3297,5 +3297,5 @@
    "rank": 29
   }
  },
- "updated": "2026-10-18T04:45:14Z"
+ "updated": "2026-10-18T05:00:16Z"
 }

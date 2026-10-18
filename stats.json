@@ -2763,6 +2763,26 @@
    "lseq": 7
   },
   {
+   "abbr": "FLA",
+   "name": "Florida Panthers",
+   "nick": "Panthers",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 9,
+   "w": 5,
+   "l": 2,
+   "otl": 2,
+   "pts": 12,
+   "gf": 30,
+   "ga": 25,
+   "diff": 5,
+   "l10": "5-2-2",
+   "strk": "W3",
+   "dseq": 4,
+   "cseq": 6,
+   "lseq": 8
+  },
+  {
    "abbr": "EDM",
    "name": "Edmonton Oilers",
    "nick": "Oilers",
@@ -2780,7 +2800,7 @@
    "strk": "L1",
    "dseq": 2,
    "cseq": 3,
-   "lseq": 8
+   "lseq": 9
   },
   {
    "abbr": "COL",
@@ -2800,7 +2820,7 @@
    "strk": "W1",
    "dseq": 2,
    "cseq": 4,
-   "lseq": 9
+   "lseq": 10
   },
   {
    "abbr": "MIN",
@@ -2820,7 +2840,7 @@
    "strk": "W1",
    "dseq": 3,
    "cseq": 5,
-   "lseq": 10
+   "lseq": 11
   },
   {
    "abbr": "SEA",
@@ -2828,19 +2848,19 @@
    "nick": "Kraken",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 8,
+   "gp": 9,
    "w": 5,
-   "l": 2,
+   "l": 3,
    "otl": 1,
    "pts": 11,
-   "gf": 32,
-   "ga": 23,
-   "diff": 9,
-   "l10": "5-2-1",
-   "strk": "OT1",
+   "gf": 35,
+   "ga": 31,
+   "diff": 4,
+   "l10": "5-3-1",
+   "strk": "L1",
    "dseq": 3,
    "cseq": 6,
-   "lseq": 11
+   "lseq": 12
   },
   {
    "abbr": "WSH",
@@ -2859,8 +2879,8 @@
    "l10": "5-3-0",
    "strk": "W2",
    "dseq": 3,
-   "cseq": 6,
-   "lseq": 12
+   "cseq": 7,
+   "lseq": 13
   },
   {
    "abbr": "WPG",
@@ -2878,26 +2898,6 @@
    "diff": -1,
    "l10": "4-2-2",
    "strk": "L1",
-   "dseq": 4,
-   "cseq": 7,
-   "lseq": 13
-  },
-  {
-   "abbr": "FLA",
-   "name": "Florida Panthers",
-   "nick": "Panthers",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 8,
-   "w": 4,
-   "l": 2,
-   "otl": 2,
-   "pts": 10,
-   "gf": 22,
-   "ga": 22,
-   "diff": 0,
-   "l10": "4-2-2",
-   "strk": "W2",
    "dseq": 4,
    "cseq": 7,
    "lseq": 14
@@ -3297,5 +3297,5 @@
    "rank": 29
   }
  },
- "updated": "2026-10-17T23:22:07Z"
+ "updated": "2026-10-18T01:00:20Z"
 }

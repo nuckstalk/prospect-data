@@ -182,7 +182,7 @@
      3,
      2,
      2,
-     1,
+     2,
      0,
      0
     ],
@@ -567,7 +567,7 @@
      3,
      2,
      0,
-     6,
+     7,
      0,
      0
     ],
@@ -644,7 +644,7 @@
      1,
      0,
      0,
-     1,
+     2,
      0,
      0
     ],
@@ -901,12 +901,12 @@
    "a": 2,
    "pts": 2,
    "pm": 1,
-   "pim": 4,
+   "pim": 14,
    "ppg": 0,
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 7,
+   "sog": 9,
    "shp": 0.0,
    "toi": null,
    "fo": null,
@@ -918,7 +918,7 @@
      1,
      1,
      1,
-     0,
+     10,
      3,
      0,
      0
@@ -1524,25 +1524,25 @@
   {
    "name": "Nikita Tolopilo",
    "id": "9983",
-   "gp": 4,
+   "gp": 5,
    "gs": null,
-   "w": 1,
+   "w": 2,
    "l": 1,
    "otl": 1,
-   "gaa": 2.75,
-   "svp": ".900",
+   "gaa": 2.8,
+   "svp": ".895",
    "so": 0,
-   "sa": 100,
-   "sv": 90,
-   "ga": 10,
+   "sa": 124,
+   "sv": 111,
+   "ga": 13,
    "img": "https://assets.leaguestat.com/ahl/240x240/9983.jpg",
    "log": [
     [
      "2026-10-17",
-     "",
+     "W",
      24,
      3,
-     3406,
+     3599,
      0,
      1
     ],
@@ -1604,6 +1604,26 @@
   }
  ],
  "standings": [
+  {
+   "abbr": "CGY",
+   "name": "Calgary Wranglers",
+   "nick": "Wranglers",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 7,
+   "w": 5,
+   "l": 2,
+   "otl": 0,
+   "pts": 10,
+   "gf": 28,
+   "ga": 22,
+   "diff": 6,
+   "l10": "5-2-0",
+   "strk": "1-0-0-0",
+   "lseq": 9,
+   "cseq": 5,
+   "dseq": 2
+  },
   {
    "abbr": "LAV",
    "name": "Laval Rocket",
@@ -1703,26 +1723,6 @@
    "lseq": 2,
    "cseq": 2,
    "dseq": 1
-  },
-  {
-   "abbr": "CGY",
-   "name": "Calgary Wranglers",
-   "nick": "Wranglers",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 6,
-   "w": 4,
-   "l": 2,
-   "otl": 0,
-   "pts": 8,
-   "gf": 28,
-   "ga": 22,
-   "diff": 6,
-   "l10": "4-2-0",
-   "strk": "0-1-0-0",
-   "lseq": 9,
-   "cseq": 5,
-   "dseq": 2
   },
   {
    "abbr": "CLT",
@@ -1960,7 +1960,7 @@
    "diff": -9,
    "l10": "3-5-0",
    "strk": "0-5-0-0",
-   "lseq": 25,
+   "lseq": 26,
    "cseq": 13,
    "dseq": 6
   },
@@ -2070,19 +2070,19 @@
    "nick": "Condors",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 4,
+   "gp": 5,
    "w": 2,
-   "l": 2,
+   "l": 3,
    "otl": 0,
    "pts": 4,
    "gf": 15,
    "ga": 15,
    "diff": 0,
-   "l10": "2-2-0",
-   "strk": "1-0-0-0",
-   "lseq": 23,
-   "cseq": 12,
-   "dseq": 8
+   "l10": "2-3-0",
+   "strk": "0-1-0-0",
+   "lseq": 24,
+   "cseq": 13,
+   "dseq": 9
   },
   {
    "abbr": "SYR",
@@ -2100,7 +2100,7 @@
    "diff": -8,
    "l10": "2-3-0",
    "strk": "1-0-0-0",
-   "lseq": 24,
+   "lseq": 25,
    "cseq": 12,
    "dseq": 7
   },
@@ -2130,19 +2130,19 @@
    "nick": "Canucks",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 4,
-   "w": 1,
+   "gp": 5,
+   "w": 2,
    "l": 2,
    "otl": 1,
-   "pts": 3,
+   "pts": 5,
    "gf": 18,
    "ga": 18,
    "diff": 0,
-   "l10": "1-2-0-1",
-   "strk": "1-0-0-1",
-   "lseq": 26,
-   "cseq": 13,
-   "dseq": 9
+   "l10": "2-2-0-1",
+   "strk": "2-0-0-0",
+   "lseq": 23,
+   "cseq": 12,
+   "dseq": 8
   },
   {
    "abbr": "HAM",
@@ -2247,17 +2247,17 @@
  ],
  "team": {
   "gf": {
-   "v": 4.5,
-   "rank": 3
+   "v": 3.6,
+   "rank": 8
   },
   "ga": {
-   "v": 4.5,
-   "rank": 29
+   "v": 3.6,
+   "rank": 23
   },
   "pt": {
-   "v": 37.5,
-   "rank": 25
+   "v": 50.0,
+   "rank": 20
   }
  },
- "updated": "2026-10-18T04:45:16Z"
+ "updated": "2026-10-18T05:00:18Z"
 }

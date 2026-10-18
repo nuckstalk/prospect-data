@@ -2963,6 +2963,26 @@
    "lseq": 17
   },
   {
+   "abbr": "NSH",
+   "name": "Nashville Predators",
+   "nick": "Predators",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 8,
+   "w": 3,
+   "l": 2,
+   "otl": 3,
+   "pts": 9,
+   "gf": 23,
+   "ga": 24,
+   "diff": -1,
+   "l10": "3-2-3",
+   "strk": "W1",
+   "dseq": 6,
+   "cseq": 9,
+   "lseq": 18
+  },
+  {
    "abbr": "MTL",
    "name": "Montréal Canadiens",
    "nick": "Canadiens",
@@ -2980,7 +3000,7 @@
    "strk": "W1",
    "dseq": 6,
    "cseq": 10,
-   "lseq": 18
+   "lseq": 19
   },
   {
    "abbr": "SJS",
@@ -2999,8 +3019,8 @@
    "l10": "4-3-1",
    "strk": "OT1",
    "dseq": 4,
-   "cseq": 9,
-   "lseq": 19
+   "cseq": 10,
+   "lseq": 20
   },
   {
    "abbr": "ANA",
@@ -3019,8 +3039,8 @@
    "l10": "4-3-0",
    "strk": "L2",
    "dseq": 5,
-   "cseq": 10,
-   "lseq": 20
+   "cseq": 11,
+   "lseq": 21
   },
   {
    "abbr": "NJD",
@@ -3040,7 +3060,7 @@
    "strk": "L1",
    "dseq": 5,
    "cseq": 11,
-   "lseq": 21
+   "lseq": 22
   },
   {
    "abbr": "DET",
@@ -3060,7 +3080,7 @@
    "strk": "W2",
    "dseq": 7,
    "cseq": 12,
-   "lseq": 22
+   "lseq": 23
   },
   {
    "abbr": "TOR",
@@ -3080,7 +3100,7 @@
    "strk": "L1",
    "dseq": 8,
    "cseq": 13,
-   "lseq": 23
+   "lseq": 24
   },
   {
    "abbr": "STL",
@@ -3088,36 +3108,16 @@
    "nick": "Blues",
    "div": "Central",
    "conf": "Western",
-   "gp": 7,
+   "gp": 8,
    "w": 3,
-   "l": 3,
+   "l": 4,
    "otl": 1,
    "pts": 7,
-   "gf": 25,
-   "ga": 23,
-   "diff": 2,
-   "l10": "3-3-1",
-   "strk": "L1",
-   "dseq": 6,
-   "cseq": 11,
-   "lseq": 24
-  },
-  {
-   "abbr": "NSH",
-   "name": "Nashville Predators",
-   "nick": "Predators",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 7,
-   "w": 2,
-   "l": 2,
-   "otl": 3,
-   "pts": 7,
-   "gf": 18,
-   "ga": 22,
-   "diff": -4,
-   "l10": "2-2-3",
-   "strk": "OT1",
+   "gf": 27,
+   "ga": 28,
+   "diff": -1,
+   "l10": "3-4-1",
+   "strk": "L2",
    "dseq": 7,
    "cseq": 12,
    "lseq": 25
@@ -3297,5 +3297,5 @@
    "rank": 29
   }
  },
- "updated": "2026-10-18T02:30:12Z"
+ "updated": "2026-10-18T02:45:15Z"
 }

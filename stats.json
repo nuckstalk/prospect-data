@@ -2648,16 +2648,16 @@
    "nick": "Hurricanes",
    "div": "Metropolitan",
    "conf": "Eastern",
-   "gp": 9,
+   "gp": 10,
    "w": 7,
-   "l": 1,
+   "l": 2,
    "otl": 1,
    "pts": 15,
-   "gf": 34,
-   "ga": 21,
-   "diff": 13,
-   "l10": "7-1-1",
-   "strk": "W7",
+   "gf": 36,
+   "ga": 24,
+   "diff": 12,
+   "l10": "7-2-1",
+   "strk": "L1",
    "dseq": 1,
    "cseq": 1,
    "lseq": 2
@@ -3223,6 +3223,26 @@
    "lseq": 30
   },
   {
+   "abbr": "CGY",
+   "name": "Calgary Flames",
+   "nick": "Flames",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 8,
+   "w": 2,
+   "l": 6,
+   "otl": 0,
+   "pts": 4,
+   "gf": 17,
+   "ga": 37,
+   "diff": -20,
+   "l10": "2-6-0",
+   "strk": "W1",
+   "dseq": 7,
+   "cseq": 15,
+   "lseq": 31
+  },
+  {
    "abbr": "LAK",
    "name": "Los Angeles Kings",
    "nick": "Kings",
@@ -3238,26 +3258,6 @@
    "diff": -13,
    "l10": "0-4-2",
    "strk": "L2",
-   "dseq": 7,
-   "cseq": 15,
-   "lseq": 31
-  },
-  {
-   "abbr": "CGY",
-   "name": "Calgary Flames",
-   "nick": "Flames",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 7,
-   "w": 1,
-   "l": 6,
-   "otl": 0,
-   "pts": 2,
-   "gf": 14,
-   "ga": 35,
-   "diff": -21,
-   "l10": "1-6-0",
-   "strk": "L1",
    "dseq": 8,
    "cseq": 16,
    "lseq": 32
@@ -3297,5 +3297,5 @@
    "rank": 29
   }
  },
- "updated": "2026-10-19T00:45:14Z"
+ "updated": "2026-10-19T02:45:16Z"
 }

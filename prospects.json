@@ -335,10 +335,10 @@
    "team": "Abbotsford Canucks",
    "lg": "AHL",
    "gp": 2,
-   "gaa": 3.07,
-   "svp": ".903",
+   "gaa": 3.4,
+   "svp": ".897",
    "so": 0,
-   "rec": "0-1-0"
+   "rec": "1-1-0"
   }
  },
  "watch": [
@@ -441,11 +441,10 @@
      "name": "Ty Young",
      "lg": "AHL",
      "dgp": 1,
-     "res": "",
-     "gaa": 3.07,
-     "svp": ".903",
-     "sgp": 2,
-     "rec0": "0-1-0"
+     "res": "W",
+     "gaa": 3.4,
+     "svp": ".897",
+     "sgp": 2
     }
    ]
   },

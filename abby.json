@@ -269,18 +269,18 @@
    "name": "Jimmy Schuldt",
    "id": "7767",
    "pos": "D",
-   "gp": 5,
+   "gp": 6,
    "g": 2,
    "a": 3,
    "pts": 5,
    "pm": 0,
-   "pim": 6,
+   "pim": 8,
    "ppg": 0,
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 9,
-   "shp": 22.2,
+   "sog": 10,
+   "shp": 20.0,
    "toi": null,
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/7767.jpg",
@@ -291,7 +291,7 @@
      0,
      0,
      0,
-     0,
+     2,
      1,
      0,
      0
@@ -1022,13 +1022,13 @@
    "a": 1,
    "pts": 2,
    "pm": 2,
-   "pim": 2,
+   "pim": 4,
    "ppg": 0,
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 7,
-   "shp": 14.3,
+   "sog": 9,
+   "shp": 11.1,
    "toi": null,
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/10091.jpg",
@@ -1039,7 +1039,7 @@
      0,
      1,
      1,
-     0,
+     2,
      3,
      0,
      0
@@ -1792,9 +1792,9 @@
     [
      "2026-10-18",
      "",
-     21,
+     26,
      2,
-     2137,
+     2400,
      0,
      1
     ],
@@ -2466,5 +2466,5 @@
    "rank": 20
   }
  },
- "updated": "2026-10-19T00:30:17Z"
+ "updated": "2026-10-19T00:45:16Z"
 }

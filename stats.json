@@ -2923,6 +2923,26 @@
    "lseq": 15
   },
   {
+   "abbr": "TOR",
+   "name": "Toronto Maple Leafs",
+   "nick": "Maple Leafs",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 10,
+   "w": 4,
+   "l": 4,
+   "otl": 2,
+   "pts": 10,
+   "gf": 32,
+   "ga": 33,
+   "diff": -1,
+   "l10": "4-4-2",
+   "strk": "W1",
+   "dseq": 6,
+   "cseq": 9,
+   "lseq": 16
+  },
+  {
    "abbr": "NYI",
    "name": "New York Islanders",
    "nick": "Islanders",
@@ -2939,8 +2959,8 @@
    "l10": "4-3-1",
    "strk": "W1",
    "dseq": 4,
-   "cseq": 9,
-   "lseq": 16
+   "cseq": 10,
+   "lseq": 17
   },
   {
    "abbr": "DAL",
@@ -2960,7 +2980,7 @@
    "strk": "W2",
    "dseq": 5,
    "cseq": 8,
-   "lseq": 17
+   "lseq": 18
   },
   {
    "abbr": "NSH",
@@ -2980,7 +3000,7 @@
    "strk": "W1",
    "dseq": 6,
    "cseq": 9,
-   "lseq": 18
+   "lseq": 19
   },
   {
    "abbr": "MTL",
@@ -2998,9 +3018,9 @@
    "diff": -3,
    "l10": "4-3-1",
    "strk": "W1",
-   "dseq": 6,
-   "cseq": 10,
-   "lseq": 19
+   "dseq": 7,
+   "cseq": 11,
+   "lseq": 20
   },
   {
    "abbr": "SJS",
@@ -3008,19 +3028,19 @@
    "nick": "Sharks",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 8,
+   "gp": 9,
    "w": 4,
-   "l": 3,
+   "l": 4,
    "otl": 1,
    "pts": 9,
-   "gf": 22,
-   "ga": 29,
-   "diff": -7,
-   "l10": "4-3-1",
-   "strk": "OT1",
+   "gf": 23,
+   "ga": 32,
+   "diff": -9,
+   "l10": "4-4-1",
+   "strk": "L1",
    "dseq": 4,
    "cseq": 10,
-   "lseq": 20
+   "lseq": 21
   },
   {
    "abbr": "ANA",
@@ -3040,7 +3060,7 @@
    "strk": "L3",
    "dseq": 5,
    "cseq": 11,
-   "lseq": 21
+   "lseq": 22
   },
   {
    "abbr": "NJD",
@@ -3059,8 +3079,8 @@
    "l10": "4-4-0",
    "strk": "L1",
    "dseq": 5,
-   "cseq": 11,
-   "lseq": 22
+   "cseq": 12,
+   "lseq": 23
   },
   {
    "abbr": "DET",
@@ -3078,26 +3098,6 @@
    "diff": -4,
    "l10": "3-3-2",
    "strk": "W2",
-   "dseq": 7,
-   "cseq": 12,
-   "lseq": 23
-  },
-  {
-   "abbr": "TOR",
-   "name": "Toronto Maple Leafs",
-   "nick": "Maple Leafs",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 9,
-   "w": 3,
-   "l": 4,
-   "otl": 2,
-   "pts": 8,
-   "gf": 29,
-   "ga": 32,
-   "diff": -3,
-   "l10": "3-4-2",
-   "strk": "L1",
    "dseq": 8,
    "cseq": 13,
    "lseq": 24
@@ -3274,7 +3274,7 @@
   },
   "pp": {
    "v": 20.0,
-   "rank": 18
+   "rank": 17
   },
   "pk": {
    "v": 58.1,
@@ -3286,7 +3286,7 @@
   },
   "sa": {
    "v": 32.7,
-   "rank": 31
+   "rank": 32
   },
   "fo": {
    "v": 46.6,
@@ -3294,8 +3294,8 @@
   },
   "pt": {
    "v": 25.0,
-   "rank": 29
+   "rank": 30
   }
  },
- "updated": "2026-10-20T02:15:13Z"
+ "updated": "2026-10-20T02:30:20Z"
 }

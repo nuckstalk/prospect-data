@@ -2663,6 +2663,26 @@
    "lseq": 2
   },
   {
+   "abbr": "NYR",
+   "name": "New York Rangers",
+   "nick": "Rangers",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 11,
+   "w": 7,
+   "l": 3,
+   "otl": 1,
+   "pts": 15,
+   "gf": 33,
+   "ga": 24,
+   "diff": 9,
+   "l10": "7-2-1",
+   "strk": "W1",
+   "dseq": 2,
+   "cseq": 2,
+   "lseq": 3
+  },
+  {
    "abbr": "BOS",
    "name": "Boston Bruins",
    "nick": "Bruins",
@@ -2679,8 +2699,8 @@
    "l10": "7-2-0",
    "strk": "W5",
    "dseq": 1,
-   "cseq": 2,
-   "lseq": 3
+   "cseq": 3,
+   "lseq": 4
   },
   {
    "abbr": "EDM",
@@ -2700,7 +2720,7 @@
    "strk": "W1",
    "dseq": 2,
    "cseq": 2,
-   "lseq": 4
+   "lseq": 5
   },
   {
    "abbr": "MIN",
@@ -2719,26 +2739,6 @@
    "l10": "6-2-1",
    "strk": "W2",
    "dseq": 1,
-   "cseq": 3,
-   "lseq": 5
-  },
-  {
-   "abbr": "NYR",
-   "name": "New York Rangers",
-   "nick": "Rangers",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 10,
-   "w": 6,
-   "l": 3,
-   "otl": 1,
-   "pts": 13,
-   "gf": 28,
-   "ga": 22,
-   "diff": 6,
-   "l10": "6-3-1",
-   "strk": "OT1",
-   "dseq": 2,
    "cseq": 3,
    "lseq": 6
   },
@@ -2828,16 +2828,16 @@
    "nick": "Avalanche",
    "div": "Central",
    "conf": "Western",
-   "gp": 8,
+   "gp": 9,
    "w": 5,
-   "l": 2,
+   "l": 3,
    "otl": 1,
    "pts": 11,
-   "gf": 36,
-   "ga": 24,
-   "diff": 12,
-   "l10": "5-2-1",
-   "strk": "W1",
+   "gf": 38,
+   "ga": 27,
+   "diff": 11,
+   "l10": "5-3-1",
+   "strk": "L1",
    "dseq": 3,
    "cseq": 5,
    "lseq": 11
@@ -3028,16 +3028,16 @@
    "nick": "Ducks",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 7,
+   "gp": 8,
    "w": 4,
-   "l": 3,
+   "l": 4,
    "otl": 0,
    "pts": 8,
-   "gf": 22,
-   "ga": 21,
-   "diff": 1,
-   "l10": "4-3-0",
-   "strk": "L2",
+   "gf": 24,
+   "ga": 26,
+   "diff": -2,
+   "l10": "4-4-0",
+   "strk": "L3",
    "dseq": 5,
    "cseq": 11,
    "lseq": 21
@@ -3143,6 +3143,26 @@
    "lseq": 26
   },
   {
+   "abbr": "PHI",
+   "name": "Philadelphia Flyers",
+   "nick": "Flyers",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 11,
+   "w": 2,
+   "l": 6,
+   "otl": 3,
+   "pts": 7,
+   "gf": 17,
+   "ga": 36,
+   "diff": -19,
+   "l10": "2-5-3",
+   "strk": "W2",
+   "dseq": 7,
+   "cseq": 15,
+   "lseq": 27
+  },
+  {
    "abbr": "CBJ",
    "name": "Columbus Blue Jackets",
    "nick": "Blue Jackets",
@@ -3158,9 +3178,9 @@
    "diff": -5,
    "l10": "3-4-0",
    "strk": "L1",
-   "dseq": 7,
-   "cseq": 15,
-   "lseq": 27
+   "dseq": 8,
+   "cseq": 16,
+   "lseq": 28
   },
   {
    "abbr": "CHI",
@@ -3180,7 +3200,7 @@
    "strk": "L1",
    "dseq": 8,
    "cseq": 13,
-   "lseq": 28
+   "lseq": 29
   },
   {
    "abbr": "VAN",
@@ -3200,26 +3220,6 @@
    "strk": "L1",
    "dseq": 6,
    "cseq": 14,
-   "lseq": 29
-  },
-  {
-   "abbr": "PHI",
-   "name": "Philadelphia Flyers",
-   "nick": "Flyers",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 10,
-   "w": 1,
-   "l": 6,
-   "otl": 3,
-   "pts": 5,
-   "gf": 14,
-   "ga": 34,
-   "diff": -20,
-   "l10": "1-6-3",
-   "strk": "W1",
-   "dseq": 8,
-   "cseq": 16,
    "lseq": 30
   },
   {
@@ -3297,5 +3297,5 @@
    "rank": 29
   }
  },
- "updated": "2026-10-19T03:30:16Z"
+ "updated": "2026-10-20T02:00:15Z"
 }

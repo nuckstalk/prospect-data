@@ -1837,19 +1837,19 @@
    "nick": "Wranglers",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 7,
+   "gp": 8,
    "w": 5,
-   "l": 2,
+   "l": 3,
    "otl": 0,
    "pts": 10,
    "gf": 30,
    "ga": 25,
    "diff": 5,
-   "l10": "5-2-0",
-   "strk": "1-0-0-0",
-   "lseq": 7,
-   "cseq": 5,
-   "dseq": 2
+   "l10": "5-3-0",
+   "strk": "0-1-0-0",
+   "lseq": 12,
+   "cseq": 6,
+   "dseq": 3
   },
   {
    "abbr": "MB",
@@ -1927,7 +1927,7 @@
    "diff": 1,
    "l10": "4-2-0",
    "strk": "0-1-0-0",
-   "lseq": 10,
+   "lseq": 9,
    "cseq": 5,
    "dseq": 2
   },
@@ -1947,7 +1947,7 @@
    "diff": 2,
    "l10": "4-2-0",
    "strk": "3-0-0-0",
-   "lseq": 8,
+   "lseq": 7,
    "cseq": 3,
    "dseq": 1
   },
@@ -1967,9 +1967,29 @@
    "diff": 1,
    "l10": "4-2-0",
    "strk": "0-1-0-0",
-   "lseq": 9,
+   "lseq": 8,
    "cseq": 4,
    "dseq": 3
+  },
+  {
+   "abbr": "ONT",
+   "name": "Ontario Reign",
+   "nick": "Reign",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 6,
+   "w": 4,
+   "l": 2,
+   "otl": 0,
+   "pts": 8,
+   "gf": 19,
+   "ga": 22,
+   "diff": -3,
+   "l10": "4-2-0",
+   "strk": "1-0-0-0",
+   "lseq": 10,
+   "cseq": 5,
+   "dseq": 2
   },
   {
    "abbr": "TOR",
@@ -2207,9 +2227,9 @@
    "diff": 4,
    "l10": "3-2-0",
    "strk": "2-0-0-0",
-   "lseq": 12,
-   "cseq": 6,
-   "dseq": 3
+   "lseq": 13,
+   "cseq": 7,
+   "dseq": 4
   },
   {
    "abbr": "SYR",
@@ -2270,26 +2290,6 @@
    "lseq": 5,
    "cseq": 4,
    "dseq": 3
-  },
-  {
-   "abbr": "ONT",
-   "name": "Ontario Reign",
-   "nick": "Reign",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 5,
-   "w": 3,
-   "l": 2,
-   "otl": 0,
-   "pts": 6,
-   "gf": 19,
-   "ga": 22,
-   "diff": -3,
-   "l10": "3-2-0",
-   "strk": "0-1-0-0",
-   "lseq": 13,
-   "cseq": 7,
-   "dseq": 4
   },
   {
    "abbr": "SPR",
@@ -2455,7 +2455,7 @@
  "team": {
   "gf": {
    "v": 3.83,
-   "rank": 6
+   "rank": 5
   },
   "ga": {
    "v": 3.67,
@@ -2466,5 +2466,5 @@
    "rank": 14
   }
  },
- "updated": "2026-10-21T04:30:17Z"
+ "updated": "2026-10-21T05:00:16Z"
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T22:45:18Z",
+ "updated": "2026-10-21T02:15:20Z",
  "results": [
   {
    "opp": "Tampa Bay Lightning",
@@ -31,13 +31,6 @@
  ],
  "upcoming": [
   {
-   "opp": "Carolina Hurricanes",
-   "abbr": "CAR",
-   "home": true,
-   "date": "Tue Oct 20",
-   "time": "7:00 PM PT"
-  },
-  {
    "opp": "Detroit Red Wings",
    "abbr": "DET",
    "home": true,
@@ -49,6 +42,13 @@
    "abbr": "MIN",
    "home": true,
    "date": "Sun Oct 25",
+   "time": "7:00 PM PT"
+  },
+  {
+   "opp": "Anaheim Ducks",
+   "abbr": "ANA",
+   "home": false,
+   "date": "Tue Oct 27",
    "time": "7:00 PM PT"
   }
  ]

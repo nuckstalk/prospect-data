@@ -2763,6 +2763,26 @@
    "lseq": 7
   },
   {
+   "abbr": "SEA",
+   "name": "Seattle Kraken",
+   "nick": "Kraken",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 10,
+   "w": 6,
+   "l": 3,
+   "otl": 1,
+   "pts": 13,
+   "gf": 39,
+   "ga": 34,
+   "diff": 5,
+   "l10": "6-3-1",
+   "strk": "W1",
+   "dseq": 3,
+   "cseq": 5,
+   "lseq": 8
+  },
+  {
    "abbr": "TBL",
    "name": "Tampa Bay Lightning",
    "nick": "Lightning",
@@ -2780,7 +2800,7 @@
    "strk": "W2",
    "dseq": 2,
    "cseq": 4,
-   "lseq": 8
+   "lseq": 9
   },
   {
    "abbr": "OTT",
@@ -2800,7 +2820,7 @@
    "strk": "L1",
    "dseq": 3,
    "cseq": 5,
-   "lseq": 9
+   "lseq": 10
   },
   {
    "abbr": "FLA",
@@ -2820,7 +2840,7 @@
    "strk": "W3",
    "dseq": 4,
    "cseq": 6,
-   "lseq": 10
+   "lseq": 11
   },
   {
    "abbr": "TOR",
@@ -2840,7 +2860,7 @@
    "strk": "W2",
    "dseq": 5,
    "cseq": 7,
-   "lseq": 11
+   "lseq": 12
   },
   {
    "abbr": "NYI",
@@ -2860,26 +2880,6 @@
    "strk": "W2",
    "dseq": 3,
    "cseq": 8,
-   "lseq": 12
-  },
-  {
-   "abbr": "SEA",
-   "name": "Seattle Kraken",
-   "nick": "Kraken",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 9,
-   "w": 5,
-   "l": 3,
-   "otl": 1,
-   "pts": 11,
-   "gf": 35,
-   "ga": 31,
-   "diff": 4,
-   "l10": "5-3-1",
-   "strk": "L1",
-   "dseq": 3,
-   "cseq": 5,
    "lseq": 13
   },
   {
@@ -3088,16 +3088,16 @@
    "nick": "Red Wings",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 8,
+   "gp": 9,
    "w": 3,
    "l": 3,
-   "otl": 2,
-   "pts": 8,
-   "gf": 20,
-   "ga": 24,
-   "diff": -4,
-   "l10": "3-3-2",
-   "strk": "W2",
+   "otl": 3,
+   "pts": 9,
+   "gf": 23,
+   "ga": 28,
+   "diff": -5,
+   "l10": "3-3-3",
+   "strk": "OT1",
    "dseq": 8,
    "cseq": 13,
    "lseq": 24
@@ -3297,5 +3297,5 @@
    "rank": 31
   }
  },
- "updated": "2026-10-21T04:15:15Z"
+ "updated": "2026-10-21T04:45:14Z"
 }

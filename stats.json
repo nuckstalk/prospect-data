@@ -2623,6 +2623,26 @@
  ],
  "standings": [
   {
+   "abbr": "CAR",
+   "name": "Carolina Hurricanes",
+   "nick": "Hurricanes",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 11,
+   "w": 8,
+   "l": 2,
+   "otl": 1,
+   "pts": 17,
+   "gf": 42,
+   "ga": 27,
+   "diff": 15,
+   "l10": "8-2-0",
+   "strk": "W1",
+   "dseq": 1,
+   "cseq": 1,
+   "lseq": 1
+  },
+  {
    "abbr": "VGK",
    "name": "Vegas Golden Knights",
    "nick": "Golden Knights",
@@ -2640,7 +2660,7 @@
    "strk": "W3",
    "dseq": 1,
    "cseq": 1,
-   "lseq": 1
+   "lseq": 2
   },
   {
    "abbr": "EDM",
@@ -2660,7 +2680,7 @@
    "strk": "W2",
    "dseq": 2,
    "cseq": 2,
-   "lseq": 2
+   "lseq": 3
   },
   {
    "abbr": "BOS",
@@ -2678,26 +2698,6 @@
    "diff": 14,
    "l10": "7-2-1",
    "strk": "OT1",
-   "dseq": 1,
-   "cseq": 1,
-   "lseq": 3
-  },
-  {
-   "abbr": "CAR",
-   "name": "Carolina Hurricanes",
-   "nick": "Hurricanes",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 10,
-   "w": 7,
-   "l": 2,
-   "otl": 1,
-   "pts": 15,
-   "gf": 36,
-   "ga": 24,
-   "diff": 12,
-   "l10": "7-2-1",
-   "strk": "L1",
    "dseq": 1,
    "cseq": 2,
    "lseq": 4
@@ -3208,16 +3208,16 @@
    "nick": "Canucks",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 10,
+   "gp": 11,
    "w": 2,
-   "l": 7,
+   "l": 8,
    "otl": 1,
    "pts": 5,
-   "gf": 30,
-   "ga": 45,
-   "diff": -15,
-   "l10": "2-7-1",
-   "strk": "L1",
+   "gf": 33,
+   "ga": 51,
+   "diff": -18,
+   "l10": "1-8-1",
+   "strk": "L2",
    "dseq": 6,
    "cseq": 14,
    "lseq": 30
@@ -3297,5 +3297,5 @@
    "rank": 31
   }
  },
- "updated": "2026-10-21T04:45:14Z"
+ "updated": "2026-10-21T05:00:16Z"
 }

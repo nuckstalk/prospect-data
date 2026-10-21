@@ -38,7 +38,8 @@ for g in sorted(games, key=lambda x: x["startTimeUTC"]):
         results.append(dict(base, date=d.strftime("%b ") + str(d.day), us=us, them=them, res=res))
     elif g.get("gameState") in ("FUT", "PRE"):
         upcoming.append(dict(base, date=d.strftime("%a %b ") + str(d.day),
-                             time=d.strftime("%I:%M %p").lstrip("0") + " PT"))
+                             time=d.strftime("%I:%M %p").lstrip("0") + " PT",
+                             utc=g["startTimeUTC"]))
 
 out = {"updated": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
        "results": results[-3:][::-1], "upcoming": upcoming[:3]}

@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-21T02:15:20Z",
+ "updated": "2026-10-21T04:45:18Z",
  "results": [
+  {
+   "opp": "Carolina Hurricanes",
+   "abbr": "CAR",
+   "home": true,
+   "date": "Oct 20",
+   "us": 3,
+   "them": 6,
+   "res": "L"
+  },
   {
    "opp": "Tampa Bay Lightning",
    "abbr": "TBL",
@@ -18,15 +27,6 @@
    "us": 2,
    "them": 3,
    "res": "OTL"
-  },
-  {
-   "opp": "New York Islanders",
-   "abbr": "NYI",
-   "home": false,
-   "date": "Oct 13",
-   "us": 2,
-   "them": 3,
-   "res": "L"
   }
  ],
  "upcoming": [

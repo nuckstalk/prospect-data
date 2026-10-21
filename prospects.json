@@ -311,7 +311,8 @@
    "gaa": 3.08,
    "svp": ".888",
    "so": 1,
-   "rec": "4-4-0"
+   "rec": "4-4-0",
+   "toi": 506.05
   },
   "Aku Koskenvuo": {
    "team": "Kalamazoo Wings",
@@ -320,7 +321,8 @@
    "gaa": 3.85,
    "svp": ".889",
    "so": 0,
-   "rec": "0-0-1"
+   "rec": "0-0-1",
+   "toi": 62.32
   },
   "Alexei Medvedev": {
    "team": "London Knights",
@@ -329,7 +331,8 @@
    "gaa": 2.64,
    "svp": ".919",
    "so": 0,
-   "rec": "3-1-1"
+   "rec": "3-1-1",
+   "toi": 295.73
   },
   "Ty Young": {
    "team": "Abbotsford Canucks",
@@ -338,7 +341,8 @@
    "gaa": 3.4,
    "svp": ".897",
    "so": 0,
-   "rec": "1-1-0"
+   "rec": "1-1-0",
+   "toi": 123.68
   }
  },
  "watch": [

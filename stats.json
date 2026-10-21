@@ -2855,16 +2855,16 @@
    "nick": "Golden Knights",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 10,
+   "gp": 11,
    "w": 8,
-   "l": 2,
+   "l": 3,
    "otl": 0,
    "pts": 16,
-   "gf": 42,
-   "ga": 24,
-   "diff": 18,
-   "l10": "8-2-0",
-   "strk": "W3",
+   "gf": 44,
+   "ga": 30,
+   "diff": 14,
+   "l10": "7-3-0",
+   "strk": "L1",
    "dseq": 1,
    "cseq": 1,
    "lseq": 2
@@ -2930,6 +2930,26 @@
    "lseq": 5
   },
   {
+   "abbr": "TBL",
+   "name": "Tampa Bay Lightning",
+   "nick": "Lightning",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 9,
+   "w": 7,
+   "l": 2,
+   "otl": 0,
+   "pts": 14,
+   "gf": 31,
+   "ga": 23,
+   "diff": 8,
+   "l10": "7-2-0",
+   "strk": "W3",
+   "dseq": 2,
+   "cseq": 4,
+   "lseq": 6
+  },
+  {
    "abbr": "UTA",
    "name": "Utah Mammoth",
    "nick": "Mammoth",
@@ -2947,7 +2967,7 @@
    "strk": "W1",
    "dseq": 1,
    "cseq": 3,
-   "lseq": 6
+   "lseq": 7
   },
   {
    "abbr": "MIN",
@@ -2967,7 +2987,7 @@
    "strk": "OT1",
    "dseq": 2,
    "cseq": 4,
-   "lseq": 7
+   "lseq": 8
   },
   {
    "abbr": "SEA",
@@ -2987,26 +3007,6 @@
    "strk": "W1",
    "dseq": 3,
    "cseq": 5,
-   "lseq": 8
-  },
-  {
-   "abbr": "TBL",
-   "name": "Tampa Bay Lightning",
-   "nick": "Lightning",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 8,
-   "w": 6,
-   "l": 2,
-   "otl": 0,
-   "pts": 12,
-   "gf": 25,
-   "ga": 21,
-   "diff": 4,
-   "l10": "6-2-0",
-   "strk": "W2",
-   "dseq": 2,
-   "cseq": 4,
    "lseq": 9
   },
   {
@@ -3476,33 +3476,33 @@
    "rank": 17
   },
   "ga": {
-   "v": 4.5,
-   "rank": 31
+   "v": 4.64,
+   "rank": 32
   },
   "pp": {
-   "v": 20.0,
-   "rank": 18
+   "v": 21.9,
+   "rank": 12
   },
   "pk": {
-   "v": 58.1,
+   "v": 63.9,
    "rank": 32
   },
   "sf": {
-   "v": 21.1,
+   "v": 20.73,
    "rank": 32
   },
   "sa": {
-   "v": 32.7,
+   "v": 33.73,
    "rank": 32
   },
   "fo": {
-   "v": 46.6,
+   "v": 47.2,
    "rank": 26
   },
   "pt": {
-   "v": 25.0,
-   "rank": 31
+   "v": 22.7,
+   "rank": 32
   }
  },
- "updated": "2026-10-21T05:15:14Z"
+ "updated": "2026-10-21T05:30:17Z"
 }

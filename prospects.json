@@ -307,12 +307,12 @@
   "Dmitri Ivchenko": {
    "team": "Omskie Yastreby",
    "lg": "MHL",
-   "gp": 9,
-   "gaa": 3.08,
-   "svp": ".888",
+   "gp": 10,
+   "gaa": 3.26,
+   "svp": ".882",
    "so": 1,
    "rec": "4-4-0",
-   "toi": 506.05
+   "toi": 571.05
   },
   "Aku Koskenvuo": {
    "team": "Kalamazoo Wings",
@@ -346,6 +346,23 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-10-21",
+   "items": [
+    {
+     "k": "G",
+     "name": "Dmitri Ivchenko",
+     "lg": "MHL",
+     "dgp": 1,
+     "res": "",
+     "gaa": 3.26,
+     "svp": ".882",
+     "sgp": 10,
+     "rec0": "4-4-0",
+     "ga": 5
+    }
+   ]
+  },
   {
    "date": "2026-10-20",
    "items": [
@@ -934,21 +951,6 @@
      "sg": 2,
      "sa": 1,
      "stp": 3
-    }
-   ]
-  },
-  {
-   "date": "2026-10-13",
-   "items": [
-    {
-     "k": "G",
-     "name": "Alexei Medvedev",
-     "lg": "OHL",
-     "dgp": 1,
-     "res": "W",
-     "gaa": 3.16,
-     "svp": ".915",
-     "sgp": 4
     }
    ]
   }

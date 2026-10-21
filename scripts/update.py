@@ -103,6 +103,10 @@ for table in soup.find_all("table"):
                     setv(rec, who, "svp", sv)
                     setv(rec, who, "so", to_int(v[3]))
                     setv(rec, who, "rec", v[4].replace(" ", ""))
+                    try:
+                        mm, ss = v[5].strip().split(":"); setv(rec, who, "toi", round(int(mm.replace(",", "")) + int(ss) / 60, 2))
+                    except Exception:
+                        pass
                 seen.add(key)
             elif is_skater and key in known_sk:
                 who = known_sk[key]; rec = data["skaters"][who]
@@ -154,8 +158,19 @@ for n, r in data["goalies"].items():
     if dgp > 0:
         a, b = parse_rec(o["rec"]), parse_rec(r["rec"])
         res = "W" if b[0] > a[0] else "L" if b[1] > a[1] else "OTL" if b[2] > a[2] else ""
-        new_items.append({"k": "G", "name": n, "lg": r["lg"], "dgp": dgp, "res": res, "gaa": r["gaa"],
-                          "svp": r["svp"], "sgp": r["gp"], "rec0": o["rec"]})
+        item = {"k": "G", "name": n, "lg": r["lg"], "dgp": dgp, "res": res, "gaa": r["gaa"],
+                "svp": r["svp"], "sgp": r["gp"], "rec0": o["rec"]}
+        try:   # goals against this game = season GA now minus season GA before (GAA x minutes / 60)
+            if r.get("toi") and r.get("gaa") is not None and (o["gp"] == 0 or (o.get("toi") and o.get("gaa") is not None)):
+                ga_new = round(r["gaa"] * r["toi"] / 60)
+                ga_old = round(o["gaa"] * o["toi"] / 60) if o["gp"] > 0 else 0
+                if ga_new - ga_old >= 0: item["ga"] = ga_new - ga_old
+        except Exception as e:
+            print("GA calc skipped for", n, e)
+        if r.get("so", 0) > o.get("so", 0):
+            item["so"] = r["so"] - o.get("so", 0)
+            if item["so"] == dgp: item["ga"] = 0
+        new_items.append(item)
 if new_items:
     if day is None:
         day = {"date": game_date, "items": []}; watch.append(day)
@@ -164,9 +179,9 @@ if new_items:
         if ex is None:
             day["items"].append(it)
         else:  # same player again today: add the new deltas, keep latest season totals
-            for k in ("dgp", "dg", "da", "dtp"):
+            for k in ("dgp", "dg", "da", "dtp", "ga", "so"):
                 if k in it: ex[k] = ex.get(k, 0) + it[k]
-            ex.update({k: v for k, v in it.items() if k not in ("dgp", "dg", "da", "dtp", "rec0") and not (k == "res" and not v)})
+            ex.update({k: v for k, v in it.items() if k not in ("dgp", "dg", "da", "dtp", "ga", "so", "rec0") and not (k == "res" and not v)})
     print("watch:", [(i["name"], i["dgp"]) for i in new_items])
 # late stat corrections: EliteProspects sometimes adds a goal/assist AFTER the game was logged (GP unchanged) - fold it into that game's watch entry
 for n, r in data["skaters"].items():

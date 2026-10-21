@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T04:45:18Z",
+ "updated": "2026-10-21T19:15:20Z",
  "results": [
   {
    "opp": "Carolina Hurricanes",
@@ -35,21 +35,24 @@
    "abbr": "DET",
    "home": true,
    "date": "Thu Oct 22",
-   "time": "7:00 PM PT"
+   "time": "7:00 PM PT",
+   "utc": "2026-10-23T02:00:00Z"
   },
   {
    "opp": "Minnesota Wild",
    "abbr": "MIN",
    "home": true,
    "date": "Sun Oct 25",
-   "time": "7:00 PM PT"
+   "time": "7:00 PM PT",
+   "utc": "2026-10-26T02:00:00Z"
   },
   {
    "opp": "Anaheim Ducks",
    "abbr": "ANA",
    "home": false,
    "date": "Tue Oct 27",
-   "time": "7:00 PM PT"
+   "time": "7:00 PM PT",
+   "utc": "2026-10-28T02:00:00Z"
   }
  ]
 }

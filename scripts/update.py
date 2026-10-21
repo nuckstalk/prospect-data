@@ -10,13 +10,46 @@ NOW = datetime.datetime.now(datetime.timezone.utc)
 data = json.load(open("prospects.json", encoding="utf-8"))
 old = json.loads(json.dumps(data))
 
-req = urllib.request.Request(URL + "?cb=" + NOW.strftime("%Y%m%d%H%M"),
-    headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124 Safari/537.36",
-             "Cache-Control": "no-cache"})
+
+def bail(msg):
+    """Stop without touching stats, but leave the reason in prospects.json ("status") so it can be read without logging in."""
+    print(msg)
+    st = old.get("status") or {}
+    if st.get("msg") != msg:
+        out = json.loads(json.dumps(old))
+        out["status"] = {"msg": msg, "at": NOW.strftime("%Y-%m-%dT%H:%MZ")}
+        json.dump(out, open("prospects.json", "w", encoding="utf-8"), indent=1, ensure_ascii=False)
+    sys.exit(0)
+
+def fetch(url):
+    """Plain request first; if the site answers 403 (it blocks GitHub's servers), retry as a real browser (curl_cffi)."""
+    errs = []
+    hdrs = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9", "Cache-Control": "no-cache", "Upgrade-Insecure-Requests": "1"}
+    try:
+        return urllib.request.urlopen(urllib.request.Request(url, headers=hdrs), timeout=30).read().decode("utf-8", "replace")
+    except Exception as e:
+        errs.append("urllib: " + str(e)[:60]); print("plain request failed:", e)
+    try:
+        from curl_cffi import requests as cr
+    except Exception as e:
+        errs.append("curl_cffi not installed"); cr = None
+    if cr:
+        for imp in ("chrome", "safari", "edge"):
+            try:
+                r = cr.get(url, impersonate=imp, timeout=30, headers={"Accept-Language": "en-US,en;q=0.9"})
+                if r.status_code == 200 and r.text:
+                    print("fetched OK as", imp); return r.text
+                errs.append(imp + ": HTTP " + str(r.status_code)); print(imp, "HTTP", r.status_code)
+            except Exception as e:
+                errs.append(imp + ": " + str(e)[:50]); print(imp, "failed:", e)
+    raise Exception("; ".join(errs))
+
 try:
-    html = urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "replace")
+    html = fetch(URL + "?cb=" + NOW.strftime("%Y%m%d%H%M"))
 except Exception as e:
-    print("FETCH FAILED:", e); sys.exit(0)
+    bail("FETCH FAILED: " + str(e)[:220])
 soup = BeautifulSoup(html, "html.parser")
 print("Title:", soup.title.get_text(strip=True) if soup.title else None, "| tables:", len(soup.find_all("table")))
 
@@ -87,11 +120,11 @@ print(f"parsed {len(seen)} of {len(known_sk) + len(known_g)} known players, {len
 if missing: print("not found on page:", missing)
 for c in changed: print("  ", c)
 
-if len(seen) < 20: print("too few players parsed - no commit"); sys.exit(0)
+if len(seen) < 20: bail("TOO FEW PLAYERS PARSED: " + str(len(seen)) + " (title: " + str(soup.title.get_text(strip=True) if soup.title else None)[:80] + ")")
 if not changed: print("no stat changes - refreshing the date only")
 dropped = [n for grp in ("skaters", "goalies") for n, r in data[grp].items() if r["gp"] < old[grp][n]["gp"]]
 if len(dropped) > 2:
-    print("GP DECREASED for", dropped, "- refusing to write (page looks stale)"); sys.exit(0)
+    bail("GP DECREASED for " + ", ".join(sorted(dropped)) + " - refusing to write (page looks stale)")
 for n in dropped:
     print("GP decreased for", n, "- treating it as a correction from EliteProspects and writing it")
 
@@ -160,6 +193,7 @@ watch.sort(key=lambda d: d["date"], reverse=True)
 data["watch"] = watch[:7]
 # ---------------------------------------------------------------------------------------------
 
+data.pop("status", None)
 today = NOW - datetime.timedelta(hours=8)
 data["asof"] = today.strftime("%Y-%m-%d")
 data["label"] = today.strftime("%B ") + str(today.day) + today.strftime(", %Y")

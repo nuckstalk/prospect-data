@@ -1892,6 +1892,26 @@
    "dseq": 3
   },
   {
+   "abbr": "TOR",
+   "name": "Toronto Marlies",
+   "nick": "Marlies",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 7,
+   "w": 5,
+   "l": 2,
+   "otl": 0,
+   "pts": 10,
+   "gf": 27,
+   "ga": 21,
+   "diff": 6,
+   "l10": "5-2-0",
+   "strk": "1-0-0-0",
+   "lseq": 7,
+   "cseq": 3,
+   "dseq": 3
+  },
+  {
    "abbr": "COL",
    "name": "Colorado Eagles",
    "nick": "Eagles",
@@ -1927,8 +1947,8 @@
    "diff": 1,
    "l10": "4-2-0",
    "strk": "0-1-0-0",
-   "lseq": 9,
-   "cseq": 5,
+   "lseq": 10,
+   "cseq": 6,
    "dseq": 2
   },
   {
@@ -1947,8 +1967,8 @@
    "diff": 2,
    "l10": "4-2-0",
    "strk": "3-0-0-0",
-   "lseq": 7,
-   "cseq": 3,
+   "lseq": 8,
+   "cseq": 4,
    "dseq": 1
   },
   {
@@ -1967,9 +1987,9 @@
    "diff": 1,
    "l10": "4-2-0",
    "strk": "0-1-0-0",
-   "lseq": 8,
-   "cseq": 4,
-   "dseq": 3
+   "lseq": 9,
+   "cseq": 5,
+   "dseq": 4
   },
   {
    "abbr": "ONT",
@@ -1987,29 +2007,9 @@
    "diff": -3,
    "l10": "4-2-0",
    "strk": "1-0-0-0",
-   "lseq": 10,
+   "lseq": 11,
    "cseq": 5,
    "dseq": 2
-  },
-  {
-   "abbr": "TOR",
-   "name": "Toronto Marlies",
-   "nick": "Marlies",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 6,
-   "w": 4,
-   "l": 2,
-   "otl": 0,
-   "pts": 8,
-   "gf": 27,
-   "ga": 21,
-   "diff": 6,
-   "l10": "4-2-0",
-   "strk": "0-1-0-0",
-   "lseq": 11,
-   "cseq": 6,
-   "dseq": 4
   },
   {
    "abbr": "IA",
@@ -2417,16 +2417,16 @@
    "nick": "Hammers",
    "div": "North",
    "conf": "Eastern",
-   "gp": 6,
+   "gp": 7,
    "w": 1,
-   "l": 4,
+   "l": 5,
    "otl": 1,
    "pts": 3,
    "gf": 19,
    "ga": 29,
    "diff": -10,
-   "l10": "1-4-0-1",
-   "strk": "0-4-0-1",
+   "l10": "1-5-0-1",
+   "strk": "0-5-0-1",
    "lseq": 31,
    "cseq": 15,
    "dseq": 8
@@ -2466,5 +2466,5 @@
    "rank": 14
   }
  },
- "updated": "2026-10-22T04:15:17Z"
+ "updated": "2026-10-22T04:30:17Z"
 }

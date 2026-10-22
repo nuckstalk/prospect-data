@@ -327,12 +327,12 @@
   "Alexei Medvedev": {
    "team": "London Knights",
    "lg": "OHL",
-   "gp": 5,
-   "gaa": 2.64,
-   "svp": ".919",
+   "gp": 6,
+   "gaa": 3.01,
+   "svp": ".907",
    "so": 0,
    "rec": "3-1-1",
-   "toi": 295.73
+   "toi": 338.42
   },
   "Ty Young": {
    "team": "Abbotsford Canucks",
@@ -360,6 +360,18 @@
      "sgp": 10,
      "rec0": "4-4-0",
      "ga": 5
+    },
+    {
+     "k": "G",
+     "name": "Alexei Medvedev",
+     "lg": "OHL",
+     "dgp": 1,
+     "res": "",
+     "gaa": 3.01,
+     "svp": ".907",
+     "sgp": 6,
+     "rec0": "3-1-1",
+     "ga": 4
     }
    ]
   },

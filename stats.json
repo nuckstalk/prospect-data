@@ -2990,6 +2990,26 @@
    "lseq": 8
   },
   {
+   "abbr": "OTT",
+   "name": "Ottawa Senators",
+   "nick": "Senators",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 10,
+   "w": 7,
+   "l": 3,
+   "otl": 0,
+   "pts": 14,
+   "gf": 29,
+   "ga": 24,
+   "diff": 5,
+   "l10": "7-3-0",
+   "strk": "W1",
+   "dseq": 3,
+   "cseq": 5,
+   "lseq": 9
+  },
+  {
    "abbr": "SEA",
    "name": "Seattle Kraken",
    "nick": "Kraken",
@@ -3007,26 +3027,6 @@
    "strk": "W1",
    "dseq": 3,
    "cseq": 5,
-   "lseq": 9
-  },
-  {
-   "abbr": "OTT",
-   "name": "Ottawa Senators",
-   "nick": "Senators",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 9,
-   "w": 6,
-   "l": 3,
-   "otl": 0,
-   "pts": 12,
-   "gf": 24,
-   "ga": 23,
-   "diff": 1,
-   "l10": "6-3-0",
-   "strk": "L1",
-   "dseq": 3,
-   "cseq": 5,
    "lseq": 10
   },
   {
@@ -3035,16 +3035,16 @@
    "nick": "Panthers",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 9,
+   "gp": 10,
    "w": 5,
-   "l": 2,
+   "l": 3,
    "otl": 2,
    "pts": 12,
-   "gf": 30,
-   "ga": 25,
-   "diff": 5,
-   "l10": "5-2-2",
-   "strk": "W3",
+   "gf": 31,
+   "ga": 30,
+   "diff": 1,
+   "l10": "5-3-2",
+   "strk": "L1",
    "dseq": 4,
    "cseq": 6,
    "lseq": 11
@@ -3504,5 +3504,5 @@
    "rank": 32
   }
  },
- "updated": "2026-10-22T02:15:15Z"
+ "updated": "2026-10-22T02:45:18Z"
 }

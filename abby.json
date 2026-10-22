@@ -1817,19 +1817,19 @@
    "nick": "Griffins",
    "div": "Central",
    "conf": "Western",
-   "gp": 7,
-   "w": 5,
+   "gp": 8,
+   "w": 6,
    "l": 1,
    "otl": 1,
-   "pts": 11,
+   "pts": 13,
    "gf": 30,
    "ga": 19,
    "diff": 11,
-   "l10": "5-1-1",
-   "strk": "3-0-0-0",
-   "lseq": 3,
-   "cseq": 2,
-   "dseq": 2
+   "l10": "6-1-1",
+   "strk": "4-0-0-0",
+   "lseq": 2,
+   "cseq": 1,
+   "dseq": 1
   },
   {
    "abbr": "CGY",
@@ -1852,26 +1852,6 @@
    "dseq": 3
   },
   {
-   "abbr": "MB",
-   "name": "Manitoba Moose",
-   "nick": "Moose",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 6,
-   "w": 5,
-   "l": 1,
-   "otl": 0,
-   "pts": 10,
-   "gf": 32,
-   "ga": 17,
-   "diff": 15,
-   "l10": "5-1-0",
-   "strk": "3-0-0-0",
-   "lseq": 2,
-   "cseq": 1,
-   "dseq": 1
-  },
-  {
    "abbr": "LAV",
    "name": "Laval Rocket",
    "nick": "Rocket",
@@ -1892,6 +1872,26 @@
    "dseq": 1
   },
   {
+   "abbr": "MB",
+   "name": "Manitoba Moose",
+   "nick": "Moose",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 7,
+   "w": 5,
+   "l": 2,
+   "otl": 0,
+   "pts": 10,
+   "gf": 32,
+   "ga": 17,
+   "diff": 15,
+   "l10": "5-2-0",
+   "strk": "0-1-0-0",
+   "lseq": 6,
+   "cseq": 4,
+   "dseq": 3
+  },
+  {
    "abbr": "COL",
    "name": "Colorado Eagles",
    "nick": "Eagles",
@@ -1907,8 +1907,8 @@
    "diff": 6,
    "l10": "4-1-1",
    "strk": "1-0-1-0",
-   "lseq": 4,
-   "cseq": 3,
+   "lseq": 3,
+   "cseq": 2,
    "dseq": 1
   },
   {
@@ -2002,9 +2002,9 @@
    "l": 2,
    "otl": 0,
    "pts": 8,
-   "gf": 23,
-   "ga": 20,
-   "diff": 3,
+   "gf": 27,
+   "ga": 21,
+   "diff": 6,
    "l10": "4-2-0",
    "strk": "0-1-0-0",
    "lseq": 11,
@@ -2207,7 +2207,7 @@
    "diff": 0,
    "l10": "3-1-0",
    "strk": "0-1-0-0",
-   "lseq": 6,
+   "lseq": 5,
    "cseq": 2,
    "dseq": 2
   },
@@ -2287,9 +2287,9 @@
    "diff": 3,
    "l10": "3-1-0",
    "strk": "1-0-0-0",
-   "lseq": 5,
-   "cseq": 4,
-   "dseq": 3
+   "lseq": 4,
+   "cseq": 3,
+   "dseq": 2
   },
   {
    "abbr": "SPR",
@@ -2422,9 +2422,9 @@
    "l": 4,
    "otl": 1,
    "pts": 3,
-   "gf": 18,
-   "ga": 25,
-   "diff": -7,
+   "gf": 19,
+   "ga": 29,
+   "diff": -10,
    "l10": "1-4-0-1",
    "strk": "0-4-0-1",
    "lseq": 31,
@@ -2466,5 +2466,5 @@
    "rank": 14
   }
  },
- "updated": "2026-10-22T04:00:16Z"
+ "updated": "2026-10-22T04:15:17Z"
 }

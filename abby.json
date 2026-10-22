@@ -1932,6 +1932,26 @@
    "dseq": 1
   },
   {
+   "abbr": "CV",
+   "name": "Coachella Valley Firebirds",
+   "nick": "Firebirds",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 8,
+   "w": 3,
+   "l": 2,
+   "otl": 3,
+   "pts": 9,
+   "gf": 29,
+   "ga": 32,
+   "diff": -3,
+   "l10": "3-2-2-1",
+   "strk": "1-0-0-1",
+   "lseq": 19,
+   "cseq": 10,
+   "dseq": 7
+  },
+  {
    "abbr": "UTC",
    "name": "Utica Comets",
    "nick": "Comets",
@@ -2087,8 +2107,8 @@
    "diff": -1,
    "l10": "3-3-1-1",
    "strk": "0-2-1-0",
-   "lseq": 19,
-   "cseq": 10,
+   "lseq": 20,
+   "cseq": 11,
    "dseq": 4
   },
   {
@@ -2147,7 +2167,7 @@
    "diff": 5,
    "l10": "3-3-0-1",
    "strk": "0-2-0-0",
-   "lseq": 20,
+   "lseq": 21,
    "cseq": 10,
    "dseq": 6
   },
@@ -2177,19 +2197,19 @@
    "nick": "Gulls",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 7,
+   "gp": 8,
    "w": 3,
-   "l": 3,
+   "l": 4,
    "otl": 1,
    "pts": 7,
    "gf": 21,
    "ga": 23,
    "diff": -2,
-   "l10": "3-3-1",
-   "strk": "1-0-0-0",
-   "lseq": 21,
-   "cseq": 11,
-   "dseq": 7
+   "l10": "3-4-1",
+   "strk": "0-1-0-0",
+   "lseq": 23,
+   "cseq": 12,
+   "dseq": 8
   },
   {
    "abbr": "ABB",
@@ -2210,26 +2230,6 @@
    "lseq": 14,
    "cseq": 8,
    "dseq": 5
-  },
-  {
-   "abbr": "CV",
-   "name": "Coachella Valley Firebirds",
-   "nick": "Firebirds",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 7,
-   "w": 2,
-   "l": 2,
-   "otl": 3,
-   "pts": 7,
-   "gf": 29,
-   "ga": 32,
-   "diff": -3,
-   "l10": "2-2-2-1",
-   "strk": "0-2-1-1",
-   "lseq": 22,
-   "cseq": 12,
-   "dseq": 8
   },
   {
    "abbr": "HSK",
@@ -2307,7 +2307,7 @@
    "diff": -5,
    "l10": "2-2-1-1",
    "strk": "0-2-1-1",
-   "lseq": 23,
+   "lseq": 22,
    "cseq": 11,
    "dseq": 5
   },
@@ -2455,7 +2455,7 @@
  "team": {
   "gf": {
    "v": 3.83,
-   "rank": 7
+   "rank": 6
   },
   "ga": {
    "v": 3.67,
@@ -2466,5 +2466,5 @@
    "rank": 14
   }
  },
- "updated": "2026-10-22T07:00:23Z"
+ "updated": "2026-10-22T07:30:21Z"
 }

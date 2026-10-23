@@ -294,13 +294,13 @@
    "ep": 27,
    "team": "Lausanne HC",
    "lg": "NL",
-   "gp": 15,
+   "gp": 16,
    "g": 2,
    "a": 1,
    "tp": 3,
-   "ppg": 0.2,
+   "ppg": 0.1875,
    "pim": 52,
-   "pm": -2
+   "pm": -5
   }
  },
  "goalies": {
@@ -346,6 +346,24 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-10-23",
+   "items": [
+    {
+     "k": "S",
+     "name": "Basile Sansonnens",
+     "lg": "NL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 16,
+     "sg": 2,
+     "sa": 1,
+     "stp": 3
+    }
+   ]
+  },
   {
    "date": "2026-10-22",
    "items": [
@@ -1011,35 +1029,6 @@
      "sg": 2,
      "sa": 1,
      "stp": 3
-    }
-   ]
-  },
-  {
-   "date": "2026-10-15",
-   "items": [
-    {
-     "k": "S",
-     "name": "Adam Novotný",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 2,
-     "dtp": 2,
-     "sgp": 9,
-     "sg": 4,
-     "sa": 7,
-     "stp": 11
-    },
-    {
-     "k": "G",
-     "name": "Dmitri Ivchenko",
-     "lg": "MHL",
-     "dgp": 1,
-     "res": "L",
-     "gaa": 3.5,
-     "svp": ".872",
-     "sgp": 8,
-     "rec0": "3-3-0"
     }
    ]
   }

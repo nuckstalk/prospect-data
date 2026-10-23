@@ -2875,16 +2875,16 @@
    "nick": "Golden Knights",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 11,
+   "gp": 12,
    "w": 8,
-   "l": 3,
+   "l": 4,
    "otl": 0,
    "pts": 16,
-   "gf": 44,
-   "ga": 30,
-   "diff": 14,
+   "gf": 46,
+   "ga": 36,
+   "diff": 10,
    "l10": "7-3-0",
-   "strk": "L1",
+   "strk": "L2",
    "dseq": 1,
    "cseq": 1,
    "lseq": 3
@@ -3170,6 +3170,26 @@
    "lseq": 17
   },
   {
+   "abbr": "STL",
+   "name": "St. Louis Blues",
+   "nick": "Blues",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 10,
+   "w": 5,
+   "l": 4,
+   "otl": 1,
+   "pts": 11,
+   "gf": 35,
+   "ga": 31,
+   "diff": 4,
+   "l10": "5-4-1",
+   "strk": "W2",
+   "dseq": 5,
+   "cseq": 9,
+   "lseq": 18
+  },
+  {
    "abbr": "WSH",
    "name": "Washington Capitals",
    "nick": "Capitals",
@@ -3187,7 +3207,7 @@
    "strk": "L1",
    "dseq": 5,
    "cseq": 10,
-   "lseq": 18
+   "lseq": 19
   },
   {
    "abbr": "WPG",
@@ -3205,9 +3225,9 @@
    "diff": -2,
    "l10": "4-3-2",
    "strk": "L2",
-   "dseq": 5,
-   "cseq": 9,
-   "lseq": 19
+   "dseq": 6,
+   "cseq": 10,
+   "lseq": 20
   },
   {
    "abbr": "MTL",
@@ -3227,7 +3247,7 @@
    "strk": "OT1",
    "dseq": 6,
    "cseq": 11,
-   "lseq": 20
+   "lseq": 21
   },
   {
    "abbr": "BUF",
@@ -3247,26 +3267,6 @@
    "strk": "L1",
    "dseq": 7,
    "cseq": 12,
-   "lseq": 21
-  },
-  {
-   "abbr": "STL",
-   "name": "St. Louis Blues",
-   "nick": "Blues",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 9,
-   "w": 4,
-   "l": 4,
-   "otl": 1,
-   "pts": 9,
-   "gf": 29,
-   "ga": 29,
-   "diff": 0,
-   "l10": "4-4-1",
-   "strk": "W1",
-   "dseq": 6,
-   "cseq": 10,
    "lseq": 22
   },
   {
@@ -3473,7 +3473,7 @@
  "team": {
   "gf": {
    "v": 3.0,
-   "rank": 16
+   "rank": 17
   },
   "ga": {
    "v": 4.64,
@@ -3504,5 +3504,5 @@
    "rank": 32
   }
  },
- "updated": "2026-10-23T02:30:16Z"
+ "updated": "2026-10-23T02:45:16Z"
 }

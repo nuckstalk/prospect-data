@@ -3070,6 +3070,26 @@
    "lseq": 12
   },
   {
+   "abbr": "NYI",
+   "name": "New York Islanders",
+   "nick": "Islanders",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 10,
+   "w": 5,
+   "l": 3,
+   "otl": 2,
+   "pts": 12,
+   "gf": 29,
+   "ga": 23,
+   "diff": 6,
+   "l10": "5-3-2",
+   "strk": "OT1",
+   "dseq": 3,
+   "cseq": 7,
+   "lseq": 13
+  },
+  {
    "abbr": "NJD",
    "name": "New Jersey Devils",
    "nick": "Devils",
@@ -3085,9 +3105,9 @@
    "diff": 2,
    "l10": "6-4-0",
    "strk": "W2",
-   "dseq": 3,
-   "cseq": 7,
-   "lseq": 13
+   "dseq": 4,
+   "cseq": 8,
+   "lseq": 14
   },
   {
    "abbr": "FLA",
@@ -3106,26 +3126,6 @@
    "l10": "4-4-2",
    "strk": "L2",
    "dseq": 5,
-   "cseq": 8,
-   "lseq": 14
-  },
-  {
-   "abbr": "NYI",
-   "name": "New York Islanders",
-   "nick": "Islanders",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 9,
-   "w": 5,
-   "l": 3,
-   "otl": 1,
-   "pts": 11,
-   "gf": 27,
-   "ga": 20,
-   "diff": 7,
-   "l10": "5-3-1",
-   "strk": "W2",
-   "dseq": 4,
    "cseq": 9,
    "lseq": 15
   },
@@ -3390,6 +3390,26 @@
    "lseq": 28
   },
   {
+   "abbr": "LAK",
+   "name": "Los Angeles Kings",
+   "nick": "Kings",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 8,
+   "w": 2,
+   "l": 4,
+   "otl": 2,
+   "pts": 6,
+   "gf": 20,
+   "ga": 29,
+   "diff": -9,
+   "l10": "2-4-2",
+   "strk": "W2",
+   "dseq": 6,
+   "cseq": 13,
+   "lseq": 29
+  },
+  {
    "abbr": "CHI",
    "name": "Chicago Blackhawks",
    "nick": "Blackhawks",
@@ -3406,8 +3426,8 @@
    "l10": "3-6-0",
    "strk": "L1",
    "dseq": 8,
-   "cseq": 13,
-   "lseq": 29
+   "cseq": 14,
+   "lseq": 30
   },
   {
    "abbr": "VAN",
@@ -3425,26 +3445,6 @@
    "diff": -18,
    "l10": "1-8-1",
    "strk": "L2",
-   "dseq": 6,
-   "cseq": 14,
-   "lseq": 30
-  },
-  {
-   "abbr": "LAK",
-   "name": "Los Angeles Kings",
-   "nick": "Kings",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 7,
-   "w": 1,
-   "l": 4,
-   "otl": 2,
-   "pts": 4,
-   "gf": 17,
-   "ga": 27,
-   "diff": -10,
-   "l10": "1-4-2",
-   "strk": "W1",
    "dseq": 7,
    "cseq": 15,
    "lseq": 31
@@ -3497,12 +3497,12 @@
   },
   "fo": {
    "v": 47.2,
-   "rank": 26
+   "rank": 25
   },
   "pt": {
    "v": 22.7,
    "rank": 32
   }
  },
- "updated": "2026-10-23T02:15:13Z"
+ "updated": "2026-10-23T02:30:16Z"
 }

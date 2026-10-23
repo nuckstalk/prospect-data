@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-23T02:15:18Z",
+ "updated": "2026-10-23T04:30:20Z",
  "results": [
+  {
+   "opp": "Detroit Red Wings",
+   "abbr": "DET",
+   "home": true,
+   "date": "Oct 22",
+   "us": 2,
+   "them": 5,
+   "res": "L"
+  },
   {
    "opp": "Carolina Hurricanes",
    "abbr": "CAR",
@@ -18,15 +27,6 @@
    "us": 2,
    "them": 4,
    "res": "L"
-  },
-  {
-   "opp": "Florida Panthers",
-   "abbr": "FLA",
-   "home": false,
-   "date": "Oct 15",
-   "us": 2,
-   "them": 3,
-   "res": "OTL"
   }
  ],
  "upcoming": [

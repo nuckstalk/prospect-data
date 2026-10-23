@@ -2830,6 +2830,46 @@
  ],
  "standings": [
   {
+   "abbr": "CAR",
+   "name": "Carolina Hurricanes",
+   "nick": "Hurricanes",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 12,
+   "w": 8,
+   "l": 2,
+   "otl": 2,
+   "pts": 18,
+   "gf": 47,
+   "ga": 33,
+   "diff": 14,
+   "l10": "8-1-1",
+   "strk": "OT1",
+   "dseq": 1,
+   "cseq": 1,
+   "lseq": 1
+  },
+  {
+   "abbr": "EDM",
+   "name": "Edmonton Oilers",
+   "nick": "Oilers",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 10,
+   "w": 8,
+   "l": 1,
+   "otl": 1,
+   "pts": 17,
+   "gf": 47,
+   "ga": 32,
+   "diff": 15,
+   "l10": "8-1-1",
+   "strk": "W3",
+   "dseq": 1,
+   "cseq": 1,
+   "lseq": 2
+  },
+  {
    "abbr": "BOS",
    "name": "Boston Bruins",
    "nick": "Bruins",
@@ -2846,28 +2886,8 @@
    "l10": "7-2-1",
    "strk": "W1",
    "dseq": 1,
-   "cseq": 1,
-   "lseq": 1
-  },
-  {
-   "abbr": "CAR",
-   "name": "Carolina Hurricanes",
-   "nick": "Hurricanes",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 11,
-   "w": 8,
-   "l": 2,
-   "otl": 1,
-   "pts": 17,
-   "gf": 42,
-   "ga": 27,
-   "diff": 15,
-   "l10": "8-2-0",
-   "strk": "W1",
-   "dseq": 1,
    "cseq": 2,
-   "lseq": 2
+   "lseq": 3
   },
   {
    "abbr": "VGK",
@@ -2885,26 +2905,6 @@
    "diff": 10,
    "l10": "7-3-0",
    "strk": "L2",
-   "dseq": 1,
-   "cseq": 1,
-   "lseq": 3
-  },
-  {
-   "abbr": "EDM",
-   "name": "Edmonton Oilers",
-   "nick": "Oilers",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 9,
-   "w": 7,
-   "l": 1,
-   "otl": 1,
-   "pts": 15,
-   "gf": 41,
-   "ga": 27,
-   "diff": 14,
-   "l10": "7-1-1",
-   "strk": "W2",
    "dseq": 2,
    "cseq": 2,
    "lseq": 4
@@ -3473,7 +3473,7 @@
  "team": {
   "gf": {
    "v": 3.0,
-   "rank": 17
+   "rank": 16
   },
   "ga": {
    "v": 4.64,
@@ -3481,7 +3481,7 @@
   },
   "pp": {
    "v": 21.9,
-   "rank": 12
+   "rank": 13
   },
   "pk": {
    "v": 63.9,
@@ -3504,5 +3504,5 @@
    "rank": 32
   }
  },
- "updated": "2026-10-23T03:45:13Z"
+ "updated": "2026-10-23T04:15:13Z"
 }

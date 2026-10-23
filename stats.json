@@ -3050,6 +3050,26 @@
    "lseq": 11
   },
   {
+   "abbr": "DAL",
+   "name": "Dallas Stars",
+   "nick": "Stars",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 10,
+   "w": 6,
+   "l": 3,
+   "otl": 1,
+   "pts": 13,
+   "gf": 26,
+   "ga": 17,
+   "diff": 9,
+   "l10": "6-3-1",
+   "strk": "W4",
+   "dseq": 3,
+   "cseq": 6,
+   "lseq": 12
+  },
+  {
    "abbr": "SJS",
    "name": "San Jose Sharks",
    "nick": "Sharks",
@@ -3066,8 +3086,8 @@
    "l10": "5-4-1",
    "strk": "W2",
    "dseq": 4,
-   "cseq": 6,
-   "lseq": 12
+   "cseq": 7,
+   "lseq": 13
   },
   {
    "abbr": "NYI",
@@ -3087,7 +3107,7 @@
    "strk": "OT1",
    "dseq": 3,
    "cseq": 7,
-   "lseq": 13
+   "lseq": 14
   },
   {
    "abbr": "NJD",
@@ -3107,7 +3127,7 @@
    "strk": "W2",
    "dseq": 4,
    "cseq": 8,
-   "lseq": 14
+   "lseq": 15
   },
   {
    "abbr": "FLA",
@@ -3127,26 +3147,6 @@
    "strk": "L2",
    "dseq": 5,
    "cseq": 9,
-   "lseq": 15
-  },
-  {
-   "abbr": "DAL",
-   "name": "Dallas Stars",
-   "nick": "Stars",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 9,
-   "w": 5,
-   "l": 3,
-   "otl": 1,
-   "pts": 11,
-   "gf": 23,
-   "ga": 15,
-   "diff": 8,
-   "l10": "5-3-1",
-   "strk": "W3",
-   "dseq": 3,
-   "cseq": 7,
    "lseq": 16
   },
   {
@@ -3190,6 +3190,26 @@
    "lseq": 18
   },
   {
+   "abbr": "WPG",
+   "name": "Winnipeg Jets",
+   "nick": "Jets",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 10,
+   "w": 4,
+   "l": 3,
+   "otl": 3,
+   "pts": 11,
+   "gf": 26,
+   "ga": 29,
+   "diff": -3,
+   "l10": "4-3-3",
+   "strk": "OT1",
+   "dseq": 6,
+   "cseq": 10,
+   "lseq": 19
+  },
+  {
    "abbr": "WSH",
    "name": "Washington Capitals",
    "nick": "Capitals",
@@ -3206,26 +3226,6 @@
    "l10": "5-4-0",
    "strk": "L1",
    "dseq": 5,
-   "cseq": 10,
-   "lseq": 19
-  },
-  {
-   "abbr": "WPG",
-   "name": "Winnipeg Jets",
-   "nick": "Jets",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 9,
-   "w": 4,
-   "l": 3,
-   "otl": 2,
-   "pts": 10,
-   "gf": 24,
-   "ga": 26,
-   "diff": -2,
-   "l10": "4-3-2",
-   "strk": "L2",
-   "dseq": 6,
    "cseq": 10,
    "lseq": 20
   },
@@ -3485,7 +3485,7 @@
   },
   "pk": {
    "v": 63.9,
-   "rank": 32
+   "rank": 31
   },
   "sf": {
    "v": 20.73,
@@ -3504,5 +3504,5 @@
    "rank": 32
   }
  },
- "updated": "2026-10-23T02:45:16Z"
+ "updated": "2026-10-23T03:00:18Z"
 }

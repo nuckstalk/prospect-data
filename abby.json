@@ -1817,19 +1817,19 @@
    "nick": "Rocket",
    "div": "North",
    "conf": "Eastern",
-   "gp": 8,
+   "gp": 9,
    "w": 7,
-   "l": 1,
+   "l": 2,
    "otl": 0,
    "pts": 14,
    "gf": 35,
    "ga": 16,
    "diff": 19,
-   "l10": "7-1-0",
-   "strk": "7-0-0-0",
-   "lseq": 1,
-   "cseq": 1,
-   "dseq": 1
+   "l10": "7-2-0",
+   "strk": "0-1-0-0",
+   "lseq": 4,
+   "cseq": 2,
+   "dseq": 2
   },
   {
    "abbr": "GR",
@@ -1887,7 +1887,7 @@
    "diff": 9,
    "l10": "5-1-1",
    "strk": "2-0-1-0",
-   "lseq": 4,
+   "lseq": 3,
    "cseq": 2,
    "dseq": 1
   },
@@ -1923,8 +1923,8 @@
    "otl": 0,
    "pts": 10,
    "gf": 20,
-   "ga": 17,
-   "diff": 3,
+   "ga": 18,
+   "diff": 2,
    "l10": "5-2-0",
    "strk": "4-0-0-0",
    "lseq": 7,
@@ -2067,9 +2067,9 @@
    "diff": 2,
    "l10": "4-1-0",
    "strk": "1-0-0-0",
-   "lseq": 3,
-   "cseq": 2,
-   "dseq": 2
+   "lseq": 2,
+   "cseq": 1,
+   "dseq": 1
   },
   {
    "abbr": "HER",
@@ -2127,7 +2127,7 @@
    "diff": 4,
    "l10": "4-1-0",
    "strk": "2-0-0-0",
-   "lseq": 2,
+   "lseq": 1,
    "cseq": 1,
    "dseq": 1
   },
@@ -2322,14 +2322,34 @@
    "l": 3,
    "otl": 2,
    "pts": 6,
-   "gf": 15,
+   "gf": 16,
    "ga": 21,
-   "diff": -6,
+   "diff": -5,
    "l10": "2-3-1-1",
    "strk": "0-3-1-1",
    "lseq": 26,
    "cseq": 13,
    "dseq": 6
+  },
+  {
+   "abbr": "HAM",
+   "name": "Hamilton Hammers",
+   "nick": "Hammers",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 9,
+   "w": 2,
+   "l": 6,
+   "otl": 1,
+   "pts": 5,
+   "gf": 23,
+   "ga": 34,
+   "diff": -11,
+   "l10": "2-6-0-1",
+   "strk": "1-0-0-0",
+   "lseq": 30,
+   "cseq": 14,
+   "dseq": 8
   },
   {
    "abbr": "BAK",
@@ -2367,8 +2387,8 @@
    "diff": -4,
    "l10": "2-6-0",
    "strk": "0-1-0-0",
-   "lseq": 30,
-   "cseq": 14,
+   "lseq": 31,
+   "cseq": 15,
    "dseq": 7
   },
   {
@@ -2412,26 +2432,6 @@
    "dseq": 6
   },
   {
-   "abbr": "HAM",
-   "name": "Hamilton Hammers",
-   "nick": "Hammers",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 8,
-   "w": 1,
-   "l": 6,
-   "otl": 1,
-   "pts": 3,
-   "gf": 23,
-   "ga": 34,
-   "diff": -11,
-   "l10": "1-6-0-1",
-   "strk": "0-6-0-1",
-   "lseq": 31,
-   "cseq": 15,
-   "dseq": 8
-  },
-  {
    "abbr": "RFD",
    "name": "Rockford IceHogs",
    "nick": "IceHogs",
@@ -2466,5 +2466,5 @@
    "rank": 15
   }
  },
- "updated": "2026-10-24T20:58:13Z"
+ "updated": "2026-10-24T22:15:16Z"
 }

@@ -1892,6 +1892,26 @@
    "dseq": 1
   },
   {
+   "abbr": "TOR",
+   "name": "Toronto Marlies",
+   "nick": "Marlies",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 8,
+   "w": 5,
+   "l": 2,
+   "otl": 1,
+   "pts": 11,
+   "gf": 29,
+   "ga": 24,
+   "diff": 5,
+   "l10": "5-2-1",
+   "strk": "1-0-1-0",
+   "lseq": 10,
+   "cseq": 5,
+   "dseq": 4
+  },
+  {
    "abbr": "CGY",
    "name": "Calgary Wranglers",
    "nick": "Wranglers",
@@ -1950,26 +1970,6 @@
    "lseq": 9,
    "cseq": 5,
    "dseq": 2
-  },
-  {
-   "abbr": "TOR",
-   "name": "Toronto Marlies",
-   "nick": "Marlies",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 7,
-   "w": 5,
-   "l": 2,
-   "otl": 0,
-   "pts": 10,
-   "gf": 29,
-   "ga": 24,
-   "diff": 5,
-   "l10": "5-2-0",
-   "strk": "1-0-0-0",
-   "lseq": 10,
-   "cseq": 5,
-   "dseq": 4
   },
   {
    "abbr": "BEL",
@@ -2347,7 +2347,7 @@
    "diff": -11,
    "l10": "2-6-0-1",
    "strk": "1-0-0-0",
-   "lseq": 30,
+   "lseq": 31,
    "cseq": 14,
    "dseq": 8
   },
@@ -2387,7 +2387,7 @@
    "diff": -4,
    "l10": "2-6-0",
    "strk": "0-1-0-0",
-   "lseq": 31,
+   "lseq": 32,
    "cseq": 15,
    "dseq": 7
   },
@@ -2412,6 +2412,26 @@
    "dseq": 5
   },
   {
+   "abbr": "RFD",
+   "name": "Rockford IceHogs",
+   "nick": "IceHogs",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 7,
+   "w": 2,
+   "l": 5,
+   "otl": 0,
+   "pts": 4,
+   "gf": 12,
+   "ga": 21,
+   "diff": -9,
+   "l10": "2-5-0",
+   "strk": "1-0-0-0",
+   "lseq": 29,
+   "cseq": 16,
+   "dseq": 6
+  },
+  {
    "abbr": "TEX",
    "name": "Texas Stars",
    "nick": "Stars",
@@ -2427,27 +2447,7 @@
    "diff": -12,
    "l10": "1-4-1-1",
    "strk": "0-4-1-1",
-   "lseq": 29,
-   "cseq": 16,
-   "dseq": 6
-  },
-  {
-   "abbr": "RFD",
-   "name": "Rockford IceHogs",
-   "nick": "IceHogs",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 6,
-   "w": 1,
-   "l": 5,
-   "otl": 0,
-   "pts": 2,
-   "gf": 12,
-   "ga": 21,
-   "diff": -9,
-   "l10": "1-5-0",
-   "strk": "0-4-0-0",
-   "lseq": 32,
+   "lseq": 30,
    "cseq": 17,
    "dseq": 7
   }
@@ -2455,7 +2455,7 @@
  "team": {
   "gf": {
    "v": 3.83,
-   "rank": 6
+   "rank": 5
   },
   "ga": {
    "v": 3.67,
@@ -2466,5 +2466,5 @@
    "rank": 15
   }
  },
- "updated": "2026-10-24T22:45:15Z"
+ "updated": "2026-10-24T23:00:20Z"
 }

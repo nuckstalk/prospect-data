@@ -1817,19 +1817,19 @@
    "nick": "Griffins",
    "div": "Central",
    "conf": "Western",
-   "gp": 8,
+   "gp": 9,
    "w": 6,
    "l": 1,
-   "otl": 1,
-   "pts": 13,
+   "otl": 2,
+   "pts": 14,
    "gf": 32,
-   "ga": 21,
-   "diff": 11,
-   "l10": "6-1-1",
-   "strk": "4-0-0-0",
-   "lseq": 2,
-   "cseq": 1,
-   "dseq": 1
+   "ga": 22,
+   "diff": 10,
+   "l10": "6-1-1-1",
+   "strk": "4-0-0-1",
+   "lseq": 4,
+   "cseq": 2,
+   "dseq": 2
   },
   {
    "abbr": "LAV",
@@ -1882,12 +1882,12 @@
    "l": 2,
    "otl": 0,
    "pts": 10,
-   "gf": 34,
+   "gf": 35,
    "ga": 20,
-   "diff": 14,
+   "diff": 15,
    "l10": "5-2-0",
    "strk": "0-1-0-0",
-   "lseq": 7,
+   "lseq": 8,
    "cseq": 4,
    "dseq": 3
   },
@@ -1927,9 +1927,9 @@
    "diff": 6,
    "l10": "5-2-0",
    "strk": "1-0-0-0",
-   "lseq": 8,
-   "cseq": 4,
-   "dseq": 3
+   "lseq": 9,
+   "cseq": 5,
+   "dseq": 4
   },
   {
    "abbr": "BEL",
@@ -1950,6 +1950,26 @@
    "lseq": 13,
    "cseq": 7,
    "dseq": 5
+  },
+  {
+   "abbr": "CLE",
+   "name": "Cleveland Monsters",
+   "nick": "Monsters",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 7,
+   "w": 5,
+   "l": 2,
+   "otl": 0,
+   "pts": 10,
+   "gf": 27,
+   "ga": 25,
+   "diff": 2,
+   "l10": "5-2-0",
+   "strk": "1-0-0-0",
+   "lseq": 7,
+   "cseq": 4,
+   "dseq": 3
   },
   {
    "abbr": "ROC",
@@ -1982,9 +2002,9 @@
    "l": 1,
    "otl": 1,
    "pts": 9,
-   "gf": 21,
+   "gf": 22,
    "ga": 13,
-   "diff": 8,
+   "diff": 9,
    "l10": "4-1-1",
    "strk": "1-0-1-0",
    "lseq": 5,
@@ -2027,7 +2047,7 @@
    "diff": 2,
    "l10": "4-1-0",
    "strk": "1-0-0-0",
-   "lseq": 4,
+   "lseq": 3,
    "cseq": 2,
    "dseq": 2
   },
@@ -2087,29 +2107,9 @@
    "diff": 4,
    "l10": "4-1-0",
    "strk": "2-0-0-0",
-   "lseq": 3,
-   "cseq": 2,
-   "dseq": 2
-  },
-  {
-   "abbr": "CLE",
-   "name": "Cleveland Monsters",
-   "nick": "Monsters",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 6,
-   "w": 4,
-   "l": 2,
-   "otl": 0,
-   "pts": 8,
-   "gf": 26,
-   "ga": 25,
-   "diff": 1,
-   "l10": "4-2-0",
-   "strk": "0-1-0-0",
-   "lseq": 9,
-   "cseq": 5,
-   "dseq": 4
+   "lseq": 2,
+   "cseq": 1,
+   "dseq": 1
   },
   {
    "abbr": "ONT",
@@ -2143,8 +2143,8 @@
    "otl": 2,
    "pts": 8,
    "gf": 22,
-   "ga": 22,
-   "diff": 0,
+   "ga": 23,
+   "diff": -1,
    "l10": "3-3-1-1",
    "strk": "0-2-1-0",
    "lseq": 20,
@@ -2323,8 +2323,8 @@
    "otl": 0,
    "pts": 4,
    "gf": 15,
-   "ga": 17,
-   "diff": -2,
+   "ga": 18,
+   "diff": -3,
    "l10": "2-3-0",
    "strk": "0-1-0-0",
    "lseq": 26,
@@ -2455,16 +2455,16 @@
  "team": {
   "gf": {
    "v": 3.83,
-   "rank": 7
+   "rank": 6
   },
   "ga": {
    "v": 3.67,
-   "rank": 25
+   "rank": 26
   },
   "pt": {
    "v": 58.3,
    "rank": 15
   }
  },
- "updated": "2026-10-24T02:00:15Z"
+ "updated": "2026-10-24T02:15:18Z"
 }

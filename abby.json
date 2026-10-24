@@ -1847,8 +1847,8 @@
    "diff": 10,
    "l10": "6-1-1-1",
    "strk": "4-0-0-1",
-   "lseq": 4,
-   "cseq": 2,
+   "lseq": 5,
+   "cseq": 3,
    "dseq": 2
   },
   {
@@ -1867,9 +1867,29 @@
    "diff": 16,
    "l10": "6-2-0",
    "strk": "1-0-0-0",
-   "lseq": 5,
-   "cseq": 3,
+   "lseq": 6,
+   "cseq": 4,
    "dseq": 3
+  },
+  {
+   "abbr": "COL",
+   "name": "Colorado Eagles",
+   "nick": "Eagles",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 7,
+   "w": 5,
+   "l": 1,
+   "otl": 1,
+   "pts": 11,
+   "gf": 23,
+   "ga": 14,
+   "diff": 9,
+   "l10": "5-1-1",
+   "strk": "2-0-1-0",
+   "lseq": 4,
+   "cseq": 2,
+   "dseq": 1
   },
   {
    "abbr": "CGY",
@@ -2012,26 +2032,6 @@
    "dseq": 6
   },
   {
-   "abbr": "COL",
-   "name": "Colorado Eagles",
-   "nick": "Eagles",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 6,
-   "w": 4,
-   "l": 1,
-   "otl": 1,
-   "pts": 9,
-   "gf": 23,
-   "ga": 14,
-   "diff": 9,
-   "l10": "4-1-1",
-   "strk": "1-0-1-0",
-   "lseq": 6,
-   "cseq": 4,
-   "dseq": 1
-  },
-  {
    "abbr": "CV",
    "name": "Coachella Valley Firebirds",
    "nick": "Firebirds",
@@ -2043,8 +2043,8 @@
    "otl": 3,
    "pts": 9,
    "gf": 30,
-   "ga": 36,
-   "diff": -6,
+   "ga": 37,
+   "diff": -7,
    "l10": "3-2-2-1",
    "strk": "1-0-0-1",
    "lseq": 19,
@@ -2317,16 +2317,16 @@
    "nick": "Condors",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 5,
+   "gp": 6,
    "w": 2,
-   "l": 3,
+   "l": 4,
    "otl": 0,
    "pts": 4,
    "gf": 16,
    "ga": 19,
    "diff": -3,
-   "l10": "2-3-0",
-   "strk": "0-1-0-0",
+   "l10": "2-4-0",
+   "strk": "0-2-0-0",
    "lseq": 26,
    "cseq": 13,
    "dseq": 9
@@ -2362,9 +2362,9 @@
    "l": 4,
    "otl": 0,
    "pts": 4,
-   "gf": 24,
+   "gf": 25,
    "ga": 31,
-   "diff": -7,
+   "diff": -6,
    "l10": "2-4-0",
    "strk": "1-0-0-0",
    "lseq": 28,
@@ -2459,12 +2459,12 @@
   },
   "ga": {
    "v": 3.67,
-   "rank": 26
+   "rank": 27
   },
   "pt": {
    "v": 58.3,
    "rank": 15
   }
  },
- "updated": "2026-10-24T04:00:15Z"
+ "updated": "2026-10-24T04:30:19Z"
 }

@@ -1852,6 +1852,26 @@
    "dseq": 2
   },
   {
+   "abbr": "MB",
+   "name": "Manitoba Moose",
+   "nick": "Moose",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 8,
+   "w": 6,
+   "l": 2,
+   "otl": 0,
+   "pts": 12,
+   "gf": 36,
+   "ga": 20,
+   "diff": 16,
+   "l10": "6-2-0",
+   "strk": "1-0-0-0",
+   "lseq": 5,
+   "cseq": 3,
+   "dseq": 3
+  },
+  {
    "abbr": "CGY",
    "name": "Calgary Wranglers",
    "nick": "Wranglers",
@@ -1872,26 +1892,6 @@
    "dseq": 3
   },
   {
-   "abbr": "MB",
-   "name": "Manitoba Moose",
-   "nick": "Moose",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 7,
-   "w": 5,
-   "l": 2,
-   "otl": 0,
-   "pts": 10,
-   "gf": 36,
-   "ga": 20,
-   "diff": 16,
-   "l10": "5-2-0",
-   "strk": "0-1-0-0",
-   "lseq": 8,
-   "cseq": 4,
-   "dseq": 3
-  },
-  {
    "abbr": "CLT",
    "name": "Charlotte Checkers",
    "nick": "Checkers",
@@ -1907,7 +1907,7 @@
    "diff": 3,
    "l10": "5-2-0",
    "strk": "4-0-0-0",
-   "lseq": 6,
+   "lseq": 7,
    "cseq": 3,
    "dseq": 1
   },
@@ -1967,7 +1967,7 @@
    "diff": 2,
    "l10": "5-2-0",
    "strk": "1-0-0-0",
-   "lseq": 7,
+   "lseq": 8,
    "cseq": 4,
    "dseq": 3
   },
@@ -2007,8 +2007,8 @@
    "diff": 9,
    "l10": "4-1-1",
    "strk": "1-0-1-0",
-   "lseq": 5,
-   "cseq": 3,
+   "lseq": 6,
+   "cseq": 4,
    "dseq": 1
   },
   {
@@ -2087,7 +2087,7 @@
    "diff": -7,
    "l10": "4-5-0",
    "strk": "1-0-0-0",
-   "lseq": 22,
+   "lseq": 21,
    "cseq": 11,
    "dseq": 5
   },
@@ -2122,9 +2122,9 @@
    "l": 2,
    "otl": 0,
    "pts": 8,
-   "gf": 22,
+   "gf": 24,
    "ga": 25,
-   "diff": -3,
+   "diff": -1,
    "l10": "4-2-0",
    "strk": "1-0-0-0",
    "lseq": 11,
@@ -2137,17 +2137,17 @@
    "nick": "Wild",
    "div": "Central",
    "conf": "Western",
-   "gp": 8,
+   "gp": 9,
    "w": 3,
-   "l": 3,
+   "l": 4,
    "otl": 2,
    "pts": 8,
    "gf": 22,
    "ga": 24,
    "diff": -2,
-   "l10": "3-3-1-1",
-   "strk": "0-2-1-0",
-   "lseq": 20,
+   "l10": "3-4-1-1",
+   "strk": "0-3-1-0",
+   "lseq": 22,
    "cseq": 11,
    "dseq": 4
   },
@@ -2187,7 +2187,7 @@
    "diff": 5,
    "l10": "3-3-1",
    "strk": "0-1-0-0",
-   "lseq": 21,
+   "lseq": 20,
    "cseq": 10,
    "dseq": 4
   },
@@ -2403,8 +2403,8 @@
    "otl": 2,
    "pts": 4,
    "gf": 19,
-   "ga": 29,
-   "diff": -10,
+   "ga": 31,
+   "diff": -12,
    "l10": "1-3-1-1",
    "strk": "0-3-1-1",
    "lseq": 29,
@@ -2455,7 +2455,7 @@
  "team": {
   "gf": {
    "v": 3.83,
-   "rank": 6
+   "rank": 7
   },
   "ga": {
    "v": 3.67,
@@ -2466,5 +2466,5 @@
    "rank": 15
   }
  },
- "updated": "2026-10-24T02:45:17Z"
+ "updated": "2026-10-24T03:00:18Z"
 }

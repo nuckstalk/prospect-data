@@ -1907,9 +1907,9 @@
    "diff": 5,
    "l10": "5-3-0",
    "strk": "0-1-0-0",
-   "lseq": 12,
-   "cseq": 6,
-   "dseq": 3
+   "lseq": 13,
+   "cseq": 7,
+   "dseq": 4
   },
   {
    "abbr": "CLT",
@@ -1987,7 +1987,7 @@
    "diff": 1,
    "l10": "4-2-2",
    "strk": "2-0-2-0",
-   "lseq": 13,
+   "lseq": 14,
    "cseq": 7,
    "dseq": 5
   },
@@ -2037,16 +2037,16 @@
    "nick": "Firebirds",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 8,
+   "gp": 9,
    "w": 3,
-   "l": 2,
+   "l": 3,
    "otl": 3,
    "pts": 9,
    "gf": 31,
    "ga": 37,
    "diff": -6,
-   "l10": "3-2-2-1",
-   "strk": "1-0-0-1",
+   "l10": "3-3-2-1",
+   "strk": "0-1-0-0",
    "lseq": 19,
    "cseq": 10,
    "dseq": 7
@@ -2087,7 +2087,7 @@
    "diff": 1,
    "l10": "4-2-0",
    "strk": "0-1-0-0",
-   "lseq": 11,
+   "lseq": 12,
    "cseq": 6,
    "dseq": 2
   },
@@ -2132,6 +2132,46 @@
    "dseq": 1
   },
   {
+   "abbr": "HSK",
+   "name": "Henderson Silver Knights",
+   "nick": "Silver Knights",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 6,
+   "w": 4,
+   "l": 2,
+   "otl": 0,
+   "pts": 8,
+   "gf": 16,
+   "ga": 11,
+   "diff": 5,
+   "l10": "4-2-0",
+   "strk": "3-0-0-0",
+   "lseq": 11,
+   "cseq": 6,
+   "dseq": 3
+  },
+  {
+   "abbr": "TUC",
+   "name": "Tucson Roadrunners",
+   "nick": "Roadrunners",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 7,
+   "w": 3,
+   "l": 2,
+   "otl": 2,
+   "pts": 8,
+   "gf": 20,
+   "ga": 17,
+   "diff": 3,
+   "l10": "3-2-2",
+   "strk": "3-0-2-0",
+   "lseq": 17,
+   "cseq": 9,
+   "dseq": 6
+  },
+  {
    "abbr": "IA",
    "name": "Iowa Wild",
    "nick": "Wild",
@@ -2150,26 +2190,6 @@
    "lseq": 22,
    "cseq": 11,
    "dseq": 4
-  },
-  {
-   "abbr": "TUC",
-   "name": "Tucson Roadrunners",
-   "nick": "Roadrunners",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 6,
-   "w": 3,
-   "l": 2,
-   "otl": 1,
-   "pts": 7,
-   "gf": 20,
-   "ga": 17,
-   "diff": 3,
-   "l10": "3-2-1",
-   "strk": "3-0-1-0",
-   "lseq": 17,
-   "cseq": 9,
-   "dseq": 6
   },
   {
    "abbr": "WBS",
@@ -2272,24 +2292,24 @@
    "dseq": 5
   },
   {
-   "abbr": "HSK",
-   "name": "Henderson Silver Knights",
-   "nick": "Silver Knights",
+   "abbr": "SJ",
+   "name": "San Jose Barracuda",
+   "nick": "Barracuda",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 5,
+   "gp": 7,
    "w": 3,
-   "l": 2,
+   "l": 4,
    "otl": 0,
    "pts": 6,
-   "gf": 16,
-   "ga": 11,
-   "diff": 5,
-   "l10": "3-2-0",
+   "gf": 25,
+   "ga": 32,
+   "diff": -7,
+   "l10": "3-4-0",
    "strk": "2-0-0-0",
-   "lseq": 14,
-   "cseq": 7,
-   "dseq": 4
+   "lseq": 25,
+   "cseq": 13,
+   "dseq": 9
   },
   {
    "abbr": "SPR",
@@ -2307,7 +2327,7 @@
    "diff": -6,
    "l10": "2-3-1-1",
    "strk": "0-3-1-1",
-   "lseq": 25,
+   "lseq": 26,
    "cseq": 13,
    "dseq": 6
   },
@@ -2327,9 +2347,9 @@
    "diff": -3,
    "l10": "2-4-0",
    "strk": "0-2-0-0",
-   "lseq": 26,
-   "cseq": 13,
-   "dseq": 9
+   "lseq": 27,
+   "cseq": 14,
+   "dseq": 10
   },
   {
    "abbr": "PRO",
@@ -2352,26 +2372,6 @@
    "dseq": 7
   },
   {
-   "abbr": "SJ",
-   "name": "San Jose Barracuda",
-   "nick": "Barracuda",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 6,
-   "w": 2,
-   "l": 4,
-   "otl": 0,
-   "pts": 4,
-   "gf": 25,
-   "ga": 32,
-   "diff": -7,
-   "l10": "2-4-0",
-   "strk": "1-0-0-0",
-   "lseq": 28,
-   "cseq": 15,
-   "dseq": 10
-  },
-  {
    "abbr": "CHI",
    "name": "Chicago Wolves",
    "nick": "Wolves",
@@ -2387,8 +2387,8 @@
    "diff": -15,
    "l10": "2-4-0",
    "strk": "2-0-0-0",
-   "lseq": 27,
-   "cseq": 14,
+   "lseq": 28,
+   "cseq": 15,
    "dseq": 5
   },
   {
@@ -2455,7 +2455,7 @@
  "team": {
   "gf": {
    "v": 3.83,
-   "rank": 8
+   "rank": 6
   },
   "ga": {
    "v": 3.67,
@@ -2466,5 +2466,5 @@
    "rank": 15
   }
  },
- "updated": "2026-10-24T04:45:16Z"
+ "updated": "2026-10-24T05:00:17Z"
 }

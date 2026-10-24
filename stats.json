@@ -3497,6 +3497,26 @@
    "lseq": 23
   },
   {
+   "abbr": "ANA",
+   "name": "Anaheim Ducks",
+   "nick": "Ducks",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 11,
+   "w": 5,
+   "l": 6,
+   "otl": 0,
+   "pts": 10,
+   "gf": 32,
+   "ga": 37,
+   "diff": -5,
+   "l10": "4-6-0",
+   "strk": "W1",
+   "dseq": 5,
+   "cseq": 11,
+   "lseq": 24
+  },
+  {
    "abbr": "NSH",
    "name": "Nashville Predators",
    "nick": "Predators",
@@ -3513,8 +3533,8 @@
    "l10": "3-3-3",
    "strk": "L1",
    "dseq": 7,
-   "cseq": 11,
-   "lseq": 24
+   "cseq": 12,
+   "lseq": 25
   },
   {
    "abbr": "PIT",
@@ -3534,7 +3554,7 @@
    "strk": "W1",
    "dseq": 6,
    "cseq": 14,
-   "lseq": 25
+   "lseq": 26
   },
   {
    "abbr": "PHI",
@@ -3542,38 +3562,18 @@
    "nick": "Flyers",
    "div": "Metropolitan",
    "conf": "Eastern",
-   "gp": 12,
+   "gp": 13,
    "w": 3,
-   "l": 6,
+   "l": 7,
    "otl": 3,
    "pts": 9,
-   "gf": 20,
-   "ga": 37,
-   "diff": -17,
-   "l10": "3-5-2",
-   "strk": "W3",
+   "gf": 24,
+   "ga": 42,
+   "diff": -18,
+   "l10": "3-6-1",
+   "strk": "L1",
    "dseq": 7,
    "cseq": 15,
-   "lseq": 26
-  },
-  {
-   "abbr": "ANA",
-   "name": "Anaheim Ducks",
-   "nick": "Ducks",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 10,
-   "w": 4,
-   "l": 6,
-   "otl": 0,
-   "pts": 8,
-   "gf": 27,
-   "ga": 33,
-   "diff": -6,
-   "l10": "4-6-0",
-   "strk": "L5",
-   "dseq": 5,
-   "cseq": 12,
    "lseq": 27
   },
   {
@@ -3711,5 +3711,5 @@
    "rank": 32
   }
  },
- "updated": "2026-10-24T05:15:19Z"
+ "updated": "2026-10-24T20:00:14Z"
 }

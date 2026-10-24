@@ -30,13 +30,13 @@
    "ep": 3,
    "team": "Peterborough Petes",
    "lg": "OHL",
-   "gp": 11,
+   "gp": 12,
    "g": 7,
    "a": 11,
    "tp": 18,
-   "ppg": 1.6363636363636365,
-   "pim": 2,
-   "pm": -1
+   "ppg": 1.5,
+   "pim": 4,
+   "pm": -2
   },
   "Braeden Cootes": {
    "ep": 4,
@@ -78,13 +78,13 @@
    "ep": 7,
    "team": "Oshawa Generals",
    "lg": "OHL",
-   "gp": 11,
+   "gp": 12,
    "g": 1,
    "a": 8,
    "tp": 9,
-   "ppg": 0.8181818181818182,
+   "ppg": 0.75,
    "pim": 6,
-   "pm": -4
+   "pm": -3
   },
   "Kieren Dervin": {
    "ep": 8,
@@ -361,6 +361,32 @@
      "sg": 2,
      "sa": 1,
      "stp": 3
+    },
+    {
+     "k": "S",
+     "name": "Adam Novotný",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 12,
+     "sg": 7,
+     "sa": 11,
+     "stp": 18
+    },
+    {
+     "k": "S",
+     "name": "Brooks Rogowski",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 12,
+     "sg": 1,
+     "sa": 8,
+     "stp": 9
     }
    ]
   },

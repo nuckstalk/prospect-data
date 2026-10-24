@@ -307,12 +307,12 @@
   "Dmitri Ivchenko": {
    "team": "Omskie Yastreby",
    "lg": "MHL",
-   "gp": 10,
-   "gaa": 3.26,
-   "svp": ".882",
+   "gp": 11,
+   "gaa": 3.12,
+   "svp": ".884",
    "so": 1,
    "rec": "4-4-0",
-   "toi": 571.05
+   "toi": 634.85
   },
   "Aku Koskenvuo": {
    "team": "Kalamazoo Wings",
@@ -478,6 +478,18 @@
      "sg": 1,
      "sa": 3,
      "stp": 4
+    },
+    {
+     "k": "G",
+     "name": "Dmitri Ivchenko",
+     "lg": "MHL",
+     "dgp": 1,
+     "res": "",
+     "gaa": 3.12,
+     "svp": ".884",
+     "sgp": 11,
+     "rec0": "4-4-0",
+     "ga": 2
     }
    ]
   },

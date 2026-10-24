@@ -3162,16 +3162,16 @@
    "nick": "Lightning",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 9,
+   "gp": 10,
    "w": 7,
-   "l": 2,
+   "l": 3,
    "otl": 0,
    "pts": 14,
-   "gf": 31,
-   "ga": 23,
-   "diff": 8,
-   "l10": "7-2-0",
-   "strk": "W3",
+   "gf": 34,
+   "ga": 29,
+   "diff": 5,
+   "l10": "7-3-0",
+   "strk": "L1",
    "dseq": 2,
    "cseq": 4,
    "lseq": 7
@@ -3277,6 +3277,26 @@
    "lseq": 12
   },
   {
+   "abbr": "COL",
+   "name": "Colorado Avalanche",
+   "nick": "Avalanche",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 11,
+   "w": 6,
+   "l": 4,
+   "otl": 1,
+   "pts": 13,
+   "gf": 47,
+   "ga": 34,
+   "diff": 13,
+   "l10": "5-4-1",
+   "strk": "W1",
+   "dseq": 4,
+   "cseq": 7,
+   "lseq": 13
+  },
+  {
    "abbr": "SJS",
    "name": "San Jose Sharks",
    "nick": "Sharks",
@@ -3293,8 +3313,8 @@
    "l10": "5-4-1",
    "strk": "W2",
    "dseq": 4,
-   "cseq": 7,
-   "lseq": 13
+   "cseq": 8,
+   "lseq": 14
   },
   {
    "abbr": "NYI",
@@ -3314,7 +3334,7 @@
    "strk": "OT1",
    "dseq": 3,
    "cseq": 7,
-   "lseq": 14
+   "lseq": 15
   },
   {
    "abbr": "NJD",
@@ -3334,7 +3354,7 @@
    "strk": "W2",
    "dseq": 4,
    "cseq": 8,
-   "lseq": 15
+   "lseq": 16
   },
   {
    "abbr": "MTL",
@@ -3354,7 +3374,7 @@
    "strk": "W1",
    "dseq": 5,
    "cseq": 9,
-   "lseq": 16
+   "lseq": 17
   },
   {
    "abbr": "FLA",
@@ -3374,26 +3394,6 @@
    "strk": "L2",
    "dseq": 6,
    "cseq": 10,
-   "lseq": 17
-  },
-  {
-   "abbr": "COL",
-   "name": "Colorado Avalanche",
-   "nick": "Avalanche",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 10,
-   "w": 5,
-   "l": 4,
-   "otl": 1,
-   "pts": 11,
-   "gf": 41,
-   "ga": 31,
-   "diff": 10,
-   "l10": "5-4-1",
-   "strk": "L2",
-   "dseq": 4,
-   "cseq": 8,
    "lseq": 18
   },
   {
@@ -3711,5 +3711,5 @@
    "rank": 32
   }
  },
- "updated": "2026-10-24T03:00:17Z"
+ "updated": "2026-10-24T04:15:14Z"
 }

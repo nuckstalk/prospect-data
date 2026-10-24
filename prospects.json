@@ -222,11 +222,11 @@
    "ep": 20,
    "team": "Färjestad BK U20",
    "lg": "U20",
-   "gp": 14,
+   "gp": 15,
    "g": 1,
    "a": 1,
    "tp": 2,
-   "ppg": 0.14285714285714285,
+   "ppg": 0.13333333333333333,
    "pim": 29,
    "pm": 5
   },
@@ -346,6 +346,24 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-10-24",
+   "items": [
+    {
+     "k": "S",
+     "name": "Samuel Eriksson",
+     "lg": "U20",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 15,
+     "sg": 1,
+     "sa": 1,
+     "stp": 2
+    }
+   ]
+  },
   {
    "date": "2026-10-23",
    "items": [
@@ -989,181 +1007,6 @@
      "stp": 2
     }
    ]
-  },
-  {
-   "date": "2026-10-16",
-   "items": [
-    {
-     "k": "S",
-     "name": "Samuel Eriksson",
-     "lg": "U20",
-     "dgp": 2,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 14,
-     "sg": 1,
-     "sa": 1,
-     "stp": 2
-    },
-    {
-     "k": "S",
-     "name": "Basile Sansonnens",
-     "lg": "NL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 13,
-     "sg": 2,
-     "sa": 1,
-     "stp": 3
-    },
-    {
-     "k": "S",
-     "name": "Brooks Rogowski",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 8,
-     "sg": 0,
-     "sa": 6,
-     "stp": 6
-    },
-    {
-     "k": "S",
-     "name": "Lucian Bernat",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 1,
-     "dtp": 1,
-     "sgp": 5,
-     "sg": 0,
-     "sa": 3,
-     "stp": 3
-    },
-    {
-     "k": "G",
-     "name": "Alexei Medvedev",
-     "lg": "OHL",
-     "dgp": 1,
-     "res": "W",
-     "gaa": 2.64,
-     "svp": ".919",
-     "sgp": 5
-    },
-    {
-     "k": "S",
-     "name": "Caleb Malhotra",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 3,
-     "sg": 1,
-     "sa": 0,
-     "stp": 1
-    },
-    {
-     "k": "S",
-     "name": "Niklas Aaram-Olsen",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 3,
-     "sg": 0,
-     "sa": 0,
-     "stp": 0
-    },
-    {
-     "k": "S",
-     "name": "Wilson Björck",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 3,
-     "sg": 0,
-     "sa": 1,
-     "stp": 1
-    },
-    {
-     "k": "S",
-     "name": "Aiden Celebrini",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 3,
-     "sg": 0,
-     "sa": 1,
-     "stp": 1
-    },
-    {
-     "k": "S",
-     "name": "Parker Alcos",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 5,
-     "sg": 1,
-     "sa": 1,
-     "stp": 2
-    },
-    {
-     "k": "S",
-     "name": "Matthew Lansing",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 5,
-     "sg": 1,
-     "sa": 2,
-     "stp": 3
-    },
-    {
-     "k": "S",
-     "name": "Connor Davis",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 1,
-     "da": 1,
-     "dtp": 2,
-     "sgp": 2,
-     "sg": 1,
-     "sa": 1,
-     "stp": 2
-    },
-    {
-     "k": "S",
-     "name": "Yaroslav Bryzgalov",
-     "lg": "WHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 6,
-     "sg": 2,
-     "sa": 1,
-     "stp": 3
-    }
-   ]
   }
- ],
- "status": {
-  "msg": "FETCH FAILED: urllib: HTTP Error 403: Forbidden; chrome: HTTP 403; safari: HTTP 403; edge: HTTP 403",
-  "at": "2026-10-24T16:00Z"
- }
+ ]
 }

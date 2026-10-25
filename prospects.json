@@ -18,13 +18,13 @@
    "ep": 2,
    "team": "Boston Univ.",
    "lg": "NCAA",
-   "gp": 5,
+   "gp": 6,
    "g": 1,
-   "a": 0,
-   "tp": 1,
-   "ppg": 0.2,
+   "a": 2,
+   "tp": 3,
+   "ppg": 0.5,
    "pim": 4,
-   "pm": 2
+   "pm": 3
   },
   "Adam Novotný": {
    "ep": 3,
@@ -102,13 +102,13 @@
    "ep": 9,
    "team": "Boston Univ.",
    "lg": "NCAA",
-   "gp": 5,
+   "gp": 6,
    "g": 0,
    "a": 1,
    "tp": 1,
-   "ppg": 0.2,
-   "pim": 2,
-   "pm": 1
+   "ppg": 0.16666666666666666,
+   "pim": 4,
+   "pm": 3
   },
   "Ty Mueller": {
    "ep": 10,
@@ -138,13 +138,13 @@
    "ep": 12,
    "team": "Owen Sound Attack",
    "lg": "OHL",
-   "gp": 8,
+   "gp": 9,
    "g": 1,
-   "a": 6,
-   "tp": 7,
-   "ppg": 0.875,
+   "a": 7,
+   "tp": 8,
+   "ppg": 0.8888888888888888,
    "pim": 6,
-   "pm": -4
+   "pm": -5
   },
   "Parker Alcos": {
    "ep": 13,
@@ -162,13 +162,13 @@
    "ep": 14,
    "team": "Michigan State",
    "lg": "NCAA",
-   "gp": 4,
-   "g": 4,
+   "gp": 5,
+   "g": 5,
    "a": 3,
-   "tp": 7,
-   "ppg": 1.75,
+   "tp": 8,
+   "ppg": 1.6,
    "pim": 2,
-   "pm": 2
+   "pm": 3
   },
   "Sawyer Mynio": {
    "ep": 16,
@@ -258,13 +258,13 @@
    "ep": 24,
    "team": "Boston Univ.",
    "lg": "NCAA",
-   "gp": 5,
+   "gp": 6,
    "g": 0,
-   "a": 1,
-   "tp": 1,
-   "ppg": 0.2,
+   "a": 2,
+   "tp": 2,
+   "ppg": 0.3333333333333333,
    "pim": 2,
-   "pm": 1
+   "pm": 0
   },
   "Daimon Gardner": {
    "ep": 25,
@@ -327,12 +327,12 @@
   "Alexei Medvedev": {
    "team": "London Knights",
    "lg": "OHL",
-   "gp": 6,
-   "gaa": 3.24,
-   "svp": ".901",
+   "gp": 7,
+   "gaa": 3.37,
+   "svp": ".895",
    "so": 0,
-   "rec": "3-2-1",
-   "toi": 351.53
+   "rec": "3-3-1",
+   "toi": 409.45
   },
   "Ty Young": {
    "team": "Abbotsford Canucks",
@@ -374,6 +374,83 @@
      "sg": 2,
      "sa": 1,
      "stp": 3
+    },
+    {
+     "k": "S",
+     "name": "Caleb Malhotra",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 2,
+     "dtp": 2,
+     "sgp": 6,
+     "sg": 1,
+     "sa": 2,
+     "stp": 3
+    },
+    {
+     "k": "S",
+     "name": "Niklas Aaram-Olsen",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 6,
+     "sg": 0,
+     "sa": 1,
+     "stp": 1
+    },
+    {
+     "k": "S",
+     "name": "Lucian Bernat",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 9,
+     "sg": 1,
+     "sa": 7,
+     "stp": 8
+    },
+    {
+     "k": "S",
+     "name": "Anthony Romani",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 1,
+     "da": 0,
+     "dtp": 1,
+     "sgp": 5,
+     "sg": 5,
+     "sa": 3,
+     "stp": 8
+    },
+    {
+     "k": "S",
+     "name": "Aiden Celebrini",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 6,
+     "sg": 0,
+     "sa": 2,
+     "stp": 2
+    },
+    {
+     "k": "G",
+     "name": "Alexei Medvedev",
+     "lg": "OHL",
+     "dgp": 1,
+     "res": "L",
+     "gaa": 3.37,
+     "svp": ".895",
+     "sgp": 7,
+     "rec0": "3-2-1",
+     "ga": 4
     }
    ]
   },

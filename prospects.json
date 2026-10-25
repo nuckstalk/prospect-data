@@ -222,13 +222,13 @@
    "ep": 20,
    "team": "Färjestad BK U20",
    "lg": "U20",
-   "gp": 15,
+   "gp": 16,
    "g": 1,
    "a": 1,
    "tp": 2,
-   "ppg": 0.13333333333333333,
+   "ppg": 0.125,
    "pim": 29,
-   "pm": 5
+   "pm": 4
   },
   "Vilmer Alriksson": {
    "ep": 21,
@@ -353,11 +353,11 @@
      "k": "S",
      "name": "Samuel Eriksson",
      "lg": "U20",
-     "dgp": 1,
+     "dgp": 2,
      "dg": 0,
      "da": 0,
      "dtp": 0,
-     "sgp": 15,
+     "sgp": 16,
      "sg": 1,
      "sa": 1,
      "stp": 2

@@ -139,12 +139,12 @@
    "team": "Owen Sound Attack",
    "lg": "OHL",
    "gp": 10,
-   "g": 2,
+   "g": 3,
    "a": 7,
-   "tp": 9,
-   "ppg": 0.9,
-   "pim": 6,
-   "pm": -5
+   "tp": 10,
+   "ppg": 1.0,
+   "pim": 8,
+   "pm": -4
   },
   "Parker Alcos": {
    "ep": 13,
@@ -307,22 +307,22 @@
   "Dmitri Ivchenko": {
    "team": "Omskie Yastreby",
    "lg": "MHL",
-   "gp": 11,
-   "gaa": 3.12,
+   "gp": 12,
+   "gaa": 3.17,
    "svp": ".884",
    "so": 1,
-   "rec": "4-4-0",
-   "toi": 634.85
+   "rec": "5-4-0",
+   "toi": 699.47
   },
   "Aku Koskenvuo": {
    "team": "Kalamazoo Wings",
    "lg": "ECHL",
-   "gp": 1,
-   "gaa": 3.85,
-   "svp": ".889",
+   "gp": 2,
+   "gaa": 2.54,
+   "svp": ".926",
    "so": 0,
    "rec": "0-0-1",
-   "toi": 62.32
+   "toi": 118.0
   },
   "Alexei Medvedev": {
    "team": "London Knights",
@@ -354,13 +354,37 @@
      "name": "Lucian Bernat",
      "lg": "OHL",
      "dgp": 1,
-     "dg": 1,
+     "dg": 2,
      "da": 0,
-     "dtp": 1,
+     "dtp": 2,
      "sgp": 10,
-     "sg": 2,
+     "sg": 3,
      "sa": 7,
-     "stp": 9
+     "stp": 10
+    },
+    {
+     "k": "G",
+     "name": "Dmitri Ivchenko",
+     "lg": "MHL",
+     "dgp": 1,
+     "res": "W",
+     "gaa": 3.17,
+     "svp": ".884",
+     "sgp": 12,
+     "rec0": "4-4-0",
+     "ga": 4
+    },
+    {
+     "k": "G",
+     "name": "Aku Koskenvuo",
+     "lg": "ECHL",
+     "dgp": 1,
+     "res": "",
+     "gaa": 2.54,
+     "svp": ".926",
+     "sgp": 2,
+     "rec0": "0-0-1",
+     "ga": 1
     }
    ]
   },
@@ -701,11 +725,10 @@
      "name": "Dmitri Ivchenko",
      "lg": "MHL",
      "dgp": 1,
-     "res": "",
-     "gaa": 3.12,
+     "res": "W",
+     "gaa": 3.17,
      "svp": ".884",
      "sgp": 11,
-     "rec0": "4-4-0",
      "ga": 2
     }
    ]
@@ -814,11 +837,10 @@
      "name": "Dmitri Ivchenko",
      "lg": "MHL",
      "dgp": 1,
-     "res": "",
-     "gaa": 3.26,
-     "svp": ".882",
+     "res": "W",
+     "gaa": 3.17,
+     "svp": ".884",
      "sgp": 10,
-     "rec0": "4-4-0",
      "ga": 5
     },
     {
@@ -971,9 +993,5 @@
     }
    ]
   }
- ],
- "status": {
-  "msg": "FETCH FAILED: urllib: HTTP Error 403: Forbidden; chrome: HTTP 403; safari: HTTP 403; edge: HTTP 403",
-  "at": "2026-10-25T20:45Z"
- }
+ ]
 }

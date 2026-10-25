@@ -138,11 +138,11 @@
    "ep": 12,
    "team": "Owen Sound Attack",
    "lg": "OHL",
-   "gp": 9,
-   "g": 1,
+   "gp": 10,
+   "g": 2,
    "a": 7,
-   "tp": 8,
-   "ppg": 0.8888888888888888,
+   "tp": 9,
+   "ppg": 0.9,
    "pim": 6,
    "pm": -5
   },
@@ -346,6 +346,24 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-10-25",
+   "items": [
+    {
+     "k": "S",
+     "name": "Lucian Bernat",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 1,
+     "da": 0,
+     "dtp": 1,
+     "sgp": 10,
+     "sg": 2,
+     "sa": 7,
+     "stp": 9
+    }
+   ]
+  },
   {
    "date": "2026-10-24",
    "items": [
@@ -952,246 +970,6 @@
      "sgp": 2
     }
    ]
-  },
-  {
-   "date": "2026-10-17",
-   "items": [
-    {
-     "k": "S",
-     "name": "Daimon Gardner",
-     "lg": "NCAA",
-     "dgp": 3,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 4,
-     "sg": 0,
-     "sa": 0,
-     "stp": 0
-    },
-    {
-     "k": "S",
-     "name": "Basile Sansonnens",
-     "lg": "NL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 14,
-     "sg": 2,
-     "sa": 1,
-     "stp": 3
-    },
-    {
-     "k": "S",
-     "name": "Wilson Björck",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 1,
-     "dtp": 1,
-     "sgp": 4,
-     "sg": 0,
-     "sa": 2,
-     "stp": 2
-    },
-    {
-     "k": "S",
-     "name": "Adam Novotný",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 3,
-     "da": 2,
-     "dtp": 5,
-     "sgp": 10,
-     "sg": 7,
-     "sa": 9,
-     "stp": 16
-    },
-    {
-     "k": "S",
-     "name": "Brooks Rogowski",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 9,
-     "sg": 0,
-     "sa": 6,
-     "stp": 6
-    },
-    {
-     "k": "S",
-     "name": "Lucian Bernat",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 1,
-     "dtp": 1,
-     "sgp": 6,
-     "sg": 0,
-     "sa": 4,
-     "stp": 4
-    },
-    {
-     "k": "S",
-     "name": "Caleb Malhotra",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 4,
-     "sg": 1,
-     "sa": 0,
-     "stp": 1
-    },
-    {
-     "k": "S",
-     "name": "Connor Davis",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 1,
-     "dtp": 1,
-     "sgp": 3,
-     "sg": 1,
-     "sa": 2,
-     "stp": 3
-    },
-    {
-     "k": "S",
-     "name": "Niklas Aaram-Olsen",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 4,
-     "sg": 0,
-     "sa": 0,
-     "stp": 0
-    },
-    {
-     "k": "S",
-     "name": "Aiden Celebrini",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 4,
-     "sg": 0,
-     "sa": 1,
-     "stp": 1
-    },
-    {
-     "k": "S",
-     "name": "Yaroslav Bryzgalov",
-     "lg": "WHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 7,
-     "sg": 2,
-     "sa": 1,
-     "stp": 3
-    },
-    {
-     "k": "S",
-     "name": "Anthony Romani",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 1,
-     "da": 2,
-     "dtp": 3,
-     "sgp": 3,
-     "sg": 4,
-     "sa": 3,
-     "stp": 7
-    },
-    {
-     "k": "G",
-     "name": "Aku Koskenvuo",
-     "lg": "ECHL",
-     "dgp": 1,
-     "res": "OTL",
-     "gaa": 3.85,
-     "svp": ".889",
-     "sgp": 1
-    },
-    {
-     "k": "S",
-     "name": "Riley Patterson",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 1,
-     "da": 0,
-     "dtp": 1,
-     "sgp": 5,
-     "sg": 1,
-     "sa": 3,
-     "stp": 4
-    },
-    {
-     "k": "S",
-     "name": "Braeden Cootes",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 1,
-     "da": 0,
-     "dtp": 1,
-     "sgp": 5,
-     "sg": 3,
-     "sa": 2,
-     "stp": 5
-    },
-    {
-     "k": "S",
-     "name": "Ty Mueller",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 2,
-     "dtp": 2,
-     "sgp": 5,
-     "sg": 4,
-     "sa": 3,
-     "stp": 7
-    },
-    {
-     "k": "S",
-     "name": "Sawyer Mynio",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 1,
-     "dtp": 1,
-     "sgp": 4,
-     "sg": 0,
-     "sa": 1,
-     "stp": 1
-    },
-    {
-     "k": "S",
-     "name": "Vilmer Alriksson",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 1,
-     "da": 0,
-     "dtp": 1,
-     "sgp": 5,
-     "sg": 2,
-     "sa": 0,
-     "stp": 2
-    }
-   ]
   }
- ],
- "status": {
-  "msg": "FETCH FAILED: urllib: HTTP Error 403: Forbidden; chrome: HTTP 403; safari: HTTP 403; edge: HTTP 403",
-  "at": "2026-10-25T19:15Z"
- }
+ ]
 }

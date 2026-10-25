@@ -318,11 +318,11 @@
    "team": "Kalamazoo Wings",
    "lg": "ECHL",
    "gp": 2,
-   "gaa": 2.54,
-   "svp": ".926",
+   "gaa": 2.46,
+   "svp": ".929",
    "so": 0,
-   "rec": "0-0-1",
-   "toi": 118.0
+   "rec": "1-0-1",
+   "toi": 121.82
   },
   "Alexei Medvedev": {
    "team": "London Knights",
@@ -379,11 +379,10 @@
      "name": "Aku Koskenvuo",
      "lg": "ECHL",
      "dgp": 1,
-     "res": "",
-     "gaa": 2.54,
-     "svp": ".926",
+     "res": "W",
+     "gaa": 2.46,
+     "svp": ".929",
      "sgp": 2,
-     "rec0": "0-0-1",
      "ga": 1
     }
    ]

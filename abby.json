@@ -2174,9 +2174,29 @@
    "diff": 2,
    "l10": "5-3-0",
    "strk": "0-1-0-0",
-   "lseq": 11,
+   "lseq": 10,
    "cseq": 5,
    "dseq": 2
+  },
+  {
+   "abbr": "TUC",
+   "name": "Tucson Roadrunners",
+   "nick": "Roadrunners",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 8,
+   "w": 4,
+   "l": 2,
+   "otl": 2,
+   "pts": 10,
+   "gf": 24,
+   "ga": 18,
+   "diff": 6,
+   "l10": "4-2-2",
+   "strk": "4-0-2-0",
+   "lseq": 13,
+   "cseq": 7,
+   "dseq": 4
   },
   {
    "abbr": "ONT",
@@ -2194,9 +2214,9 @@
    "diff": -4,
    "l10": "5-3-0",
    "strk": "0-1-0-0",
-   "lseq": 13,
-   "cseq": 7,
-   "dseq": 4
+   "lseq": 12,
+   "cseq": 6,
+   "dseq": 3
   },
   {
    "abbr": "BEL",
@@ -2234,7 +2254,7 @@
    "diff": -1,
    "l10": "5-3-0",
    "strk": "0-1-0-0",
-   "lseq": 12,
+   "lseq": 11,
    "cseq": 6,
    "dseq": 4
   },
@@ -2334,9 +2354,9 @@
    "diff": 3,
    "l10": "4-2-0-1",
    "strk": "4-0-0-0",
-   "lseq": 10,
-   "cseq": 6,
-   "dseq": 3
+   "lseq": 9,
+   "cseq": 5,
+   "dseq": 2
   },
   {
    "abbr": "CV",
@@ -2374,7 +2394,7 @@
    "diff": -1,
    "l10": "4-2-0",
    "strk": "0-1-0-0",
-   "lseq": 9,
+   "lseq": 8,
    "cseq": 4,
    "dseq": 3
   },
@@ -2414,8 +2434,8 @@
    "diff": 2,
    "l10": "4-2-0",
    "strk": "0-1-0-0",
-   "lseq": 8,
-   "cseq": 5,
+   "lseq": 7,
+   "cseq": 4,
    "dseq": 3
   },
   {
@@ -2424,36 +2444,16 @@
    "nick": "Silver Knights",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 6,
+   "gp": 7,
    "w": 4,
-   "l": 2,
+   "l": 3,
    "otl": 0,
    "pts": 8,
    "gf": 17,
    "ga": 15,
    "diff": 2,
-   "l10": "4-2-0",
-   "strk": "3-0-0-0",
-   "lseq": 7,
-   "cseq": 4,
-   "dseq": 2
-  },
-  {
-   "abbr": "TUC",
-   "name": "Tucson Roadrunners",
-   "nick": "Roadrunners",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 7,
-   "w": 3,
-   "l": 2,
-   "otl": 2,
-   "pts": 8,
-   "gf": 24,
-   "ga": 18,
-   "diff": 6,
-   "l10": "3-2-2",
-   "strk": "3-0-2-0",
+   "l10": "4-3-0",
+   "strk": "0-1-0-0",
    "lseq": 14,
    "cseq": 8,
    "dseq": 5
@@ -2670,8 +2670,8 @@
   },
   "pt": {
    "v": 64.3,
-   "rank": 10
+   "rank": 9
   }
  },
- "updated": "2026-10-25T04:00:17Z"
+ "updated": "2026-10-25T04:15:16Z"
 }

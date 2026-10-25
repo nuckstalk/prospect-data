@@ -2274,7 +2274,7 @@
    "diff": -7,
    "l10": "4-4-1",
    "strk": "1-0-1-0",
-   "lseq": 19,
+   "lseq": 20,
    "cseq": 10,
    "dseq": 7
   },
@@ -2297,6 +2297,26 @@
    "lseq": 15,
    "cseq": 7,
    "dseq": 5
+  },
+  {
+   "abbr": "SD",
+   "name": "San Diego Gulls",
+   "nick": "Gulls",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 9,
+   "w": 4,
+   "l": 4,
+   "otl": 1,
+   "pts": 9,
+   "gf": 25,
+   "ga": 24,
+   "diff": 1,
+   "l10": "4-4-1",
+   "strk": "1-0-0-0",
+   "lseq": 19,
+   "cseq": 10,
+   "dseq": 7
   },
   {
    "abbr": "ABB",
@@ -2334,9 +2354,9 @@
    "diff": -6,
    "l10": "3-3-2-1",
    "strk": "0-1-0-0",
-   "lseq": 20,
-   "cseq": 10,
-   "dseq": 7
+   "lseq": 21,
+   "cseq": 11,
+   "dseq": 8
   },
   {
    "abbr": "UTC",
@@ -2374,29 +2394,9 @@
    "diff": -8,
    "l10": "4-6-0",
    "strk": "0-1-0-0",
-   "lseq": 27,
+   "lseq": 26,
    "cseq": 13,
    "dseq": 6
-  },
-  {
-   "abbr": "HSK",
-   "name": "Henderson Silver Knights",
-   "nick": "Silver Knights",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 6,
-   "w": 4,
-   "l": 2,
-   "otl": 0,
-   "pts": 8,
-   "gf": 17,
-   "ga": 15,
-   "diff": 2,
-   "l10": "4-2-0",
-   "strk": "3-0-0-0",
-   "lseq": 7,
-   "cseq": 4,
-   "dseq": 2
   },
   {
    "abbr": "MIL",
@@ -2417,6 +2417,26 @@
    "lseq": 8,
    "cseq": 5,
    "dseq": 3
+  },
+  {
+   "abbr": "HSK",
+   "name": "Henderson Silver Knights",
+   "nick": "Silver Knights",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 6,
+   "w": 4,
+   "l": 2,
+   "otl": 0,
+   "pts": 8,
+   "gf": 17,
+   "ga": 15,
+   "diff": 2,
+   "l10": "4-2-0",
+   "strk": "3-0-0-0",
+   "lseq": 7,
+   "cseq": 4,
+   "dseq": 2
   },
   {
    "abbr": "TUC",
@@ -2454,7 +2474,7 @@
    "diff": -5,
    "l10": "3-3-1-1",
    "strk": "1-0-0-0",
-   "lseq": 21,
+   "lseq": 22,
    "cseq": 11,
    "dseq": 4
   },
@@ -2474,8 +2494,8 @@
    "diff": -4,
    "l10": "3-5-1-1",
    "strk": "0-4-1-0",
-   "lseq": 28,
-   "cseq": 15,
+   "lseq": 27,
+   "cseq": 14,
    "dseq": 5
   },
   {
@@ -2494,29 +2514,9 @@
    "diff": -5,
    "l10": "3-3-1",
    "strk": "0-1-0-0",
-   "lseq": 22,
+   "lseq": 23,
    "cseq": 12,
    "dseq": 5
-  },
-  {
-   "abbr": "SD",
-   "name": "San Diego Gulls",
-   "nick": "Gulls",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 8,
-   "w": 3,
-   "l": 4,
-   "otl": 1,
-   "pts": 7,
-   "gf": 25,
-   "ga": 24,
-   "diff": 1,
-   "l10": "3-4-1",
-   "strk": "0-1-0-0",
-   "lseq": 23,
-   "cseq": 11,
-   "dseq": 8
   },
   {
    "abbr": "BAK",
@@ -2559,26 +2559,6 @@
    "dseq": 7
   },
   {
-   "abbr": "SJ",
-   "name": "San Jose Barracuda",
-   "nick": "Barracuda",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 7,
-   "w": 3,
-   "l": 4,
-   "otl": 0,
-   "pts": 6,
-   "gf": 26,
-   "ga": 36,
-   "diff": -10,
-   "l10": "3-4-0",
-   "strk": "2-0-0-0",
-   "lseq": 26,
-   "cseq": 14,
-   "dseq": 10
-  },
-  {
    "abbr": "CHI",
    "name": "Chicago Wolves",
    "nick": "Wolves",
@@ -2597,6 +2577,26 @@
    "lseq": 25,
    "cseq": 13,
    "dseq": 4
+  },
+  {
+   "abbr": "SJ",
+   "name": "San Jose Barracuda",
+   "nick": "Barracuda",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 8,
+   "w": 3,
+   "l": 5,
+   "otl": 0,
+   "pts": 6,
+   "gf": 26,
+   "ga": 36,
+   "diff": -10,
+   "l10": "3-5-0",
+   "strk": "0-1-0-0",
+   "lseq": 28,
+   "cseq": 15,
+   "dseq": 10
   },
   {
    "abbr": "TEX",
@@ -2673,5 +2673,5 @@
    "rank": 10
   }
  },
- "updated": "2026-10-25T03:30:16Z"
+ "updated": "2026-10-25T04:00:17Z"
 }

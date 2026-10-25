@@ -1358,17 +1358,17 @@
    "name": "Cole Clayton",
    "id": "8916",
    "pos": "D",
-   "gp": 6,
+   "gp": 7,
    "g": 0,
    "a": 2,
    "pts": 2,
    "pm": 1,
-   "pim": 14,
+   "pim": 16,
    "ppg": 0,
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 12,
+   "sog": 14,
    "shp": 0.0,
    "toi": null,
    "fo": null,
@@ -1380,7 +1380,7 @@
      0,
      0,
      0,
-     0,
+     2,
      2,
      0,
      0
@@ -2114,8 +2114,8 @@
    "diff": 5,
    "l10": "5-2-1",
    "strk": "1-0-1-0",
-   "lseq": 10,
-   "cseq": 5,
+   "lseq": 9,
+   "cseq": 4,
    "dseq": 4
   },
   {
@@ -2134,7 +2134,7 @@
    "diff": 5,
    "l10": "5-3-0",
    "strk": "0-1-0-0",
-   "lseq": 13,
+   "lseq": 12,
    "cseq": 7,
    "dseq": 4
   },
@@ -2144,19 +2144,19 @@
    "nick": "Checkers",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 7,
+   "gp": 8,
    "w": 5,
-   "l": 2,
+   "l": 3,
    "otl": 0,
    "pts": 10,
    "gf": 21,
    "ga": 19,
    "diff": 2,
-   "l10": "5-2-0",
-   "strk": "4-0-0-0",
-   "lseq": 7,
-   "cseq": 3,
-   "dseq": 1
+   "l10": "5-3-0",
+   "strk": "0-1-0-0",
+   "lseq": 13,
+   "cseq": 6,
+   "dseq": 2
   },
   {
    "abbr": "ONT",
@@ -2174,7 +2174,7 @@
    "diff": -2,
    "l10": "5-2-0",
    "strk": "2-0-0-0",
-   "lseq": 9,
+   "lseq": 8,
    "cseq": 5,
    "dseq": 2
   },
@@ -2214,8 +2214,8 @@
    "diff": 0,
    "l10": "5-2-0",
    "strk": "1-0-0-0",
-   "lseq": 8,
-   "cseq": 4,
+   "lseq": 7,
+   "cseq": 3,
    "dseq": 3
   },
   {
@@ -2294,9 +2294,9 @@
    "diff": 0,
    "l10": "4-2-0",
    "strk": "0-1-0-0",
-   "lseq": 12,
-   "cseq": 6,
-   "dseq": 2
+   "lseq": 11,
+   "cseq": 5,
+   "dseq": 1
   },
   {
    "abbr": "HFD",
@@ -2314,9 +2314,9 @@
    "diff": -8,
    "l10": "4-5-0",
    "strk": "1-0-0-0",
-   "lseq": 21,
-   "cseq": 11,
-   "dseq": 5
+   "lseq": 22,
+   "cseq": 12,
+   "dseq": 6
   },
   {
    "abbr": "MIL",
@@ -2354,7 +2354,7 @@
    "diff": 5,
    "l10": "4-2-0",
    "strk": "3-0-0-0",
-   "lseq": 11,
+   "lseq": 10,
    "cseq": 6,
    "dseq": 3
   },
@@ -2379,6 +2379,26 @@
    "dseq": 6
   },
   {
+   "abbr": "SPR",
+   "name": "Springfield Thunderbirds",
+   "nick": "Thunderbirds",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 8,
+   "w": 3,
+   "l": 3,
+   "otl": 2,
+   "pts": 8,
+   "gf": 17,
+   "ga": 22,
+   "diff": -5,
+   "l10": "3-3-1-1",
+   "strk": "1-0-0-0",
+   "lseq": 20,
+   "cseq": 10,
+   "dseq": 4
+  },
+  {
    "abbr": "IA",
    "name": "Iowa Wild",
    "nick": "Wild",
@@ -2394,7 +2414,7 @@
    "diff": -3,
    "l10": "3-4-1-1",
    "strk": "0-3-1-0",
-   "lseq": 22,
+   "lseq": 23,
    "cseq": 11,
    "dseq": 4
   },
@@ -2414,9 +2434,9 @@
    "diff": 6,
    "l10": "3-3-1",
    "strk": "0-1-0-0",
-   "lseq": 20,
-   "cseq": 10,
-   "dseq": 4
+   "lseq": 21,
+   "cseq": 11,
+   "dseq": 5
   },
   {
    "abbr": "SYR",
@@ -2429,13 +2449,13 @@
    "l": 4,
    "otl": 1,
    "pts": 7,
-   "gf": 21,
+   "gf": 23,
    "ga": 30,
-   "diff": -9,
+   "diff": -7,
    "l10": "3-4-1",
    "strk": "0-1-1-0",
-   "lseq": 24,
-   "cseq": 12,
+   "lseq": 25,
+   "cseq": 13,
    "dseq": 7
   },
   {
@@ -2450,8 +2470,8 @@
    "otl": 1,
    "pts": 7,
    "gf": 22,
-   "ga": 25,
-   "diff": -3,
+   "ga": 27,
+   "diff": -5,
    "l10": "3-2-1",
    "strk": "3-0-0-0",
    "lseq": 16,
@@ -2474,7 +2494,7 @@
    "diff": -2,
    "l10": "3-4-1",
    "strk": "0-1-0-0",
-   "lseq": 23,
+   "lseq": 24,
    "cseq": 12,
    "dseq": 8
   },
@@ -2514,29 +2534,9 @@
    "diff": -7,
    "l10": "3-4-0",
    "strk": "2-0-0-0",
-   "lseq": 25,
-   "cseq": 13,
-   "dseq": 9
-  },
-  {
-   "abbr": "SPR",
-   "name": "Springfield Thunderbirds",
-   "nick": "Thunderbirds",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 7,
-   "w": 2,
-   "l": 3,
-   "otl": 2,
-   "pts": 6,
-   "gf": 17,
-   "ga": 22,
-   "diff": -5,
-   "l10": "2-3-1-1",
-   "strk": "0-3-1-1",
    "lseq": 26,
    "cseq": 13,
-   "dseq": 6
+   "dseq": 9
   },
   {
    "abbr": "HAM",
@@ -2673,5 +2673,5 @@
    "rank": 15
   }
  },
- "updated": "2026-10-25T00:45:18Z"
+ "updated": "2026-10-25T01:00:17Z"
 }

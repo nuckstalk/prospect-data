@@ -2054,7 +2054,7 @@
    "diff": 19,
    "l10": "7-2-0",
    "strk": "0-1-0-0",
-   "lseq": 4,
+   "lseq": 3,
    "cseq": 1,
    "dseq": 1
   },
@@ -2074,9 +2074,9 @@
    "diff": 18,
    "l10": "7-2-0",
    "strk": "2-0-0-0",
-   "lseq": 5,
-   "cseq": 4,
-   "dseq": 3
+   "lseq": 4,
+   "cseq": 3,
+   "dseq": 2
   },
   {
    "abbr": "COL",
@@ -2094,8 +2094,8 @@
    "diff": 6,
    "l10": "5-1-1",
    "strk": "2-0-1-0",
-   "lseq": 3,
-   "cseq": 3,
+   "lseq": 2,
+   "cseq": 2,
    "dseq": 1
   },
   {
@@ -2114,7 +2114,7 @@
    "diff": 5,
    "l10": "5-2-1",
    "strk": "1-0-1-0",
-   "lseq": 8,
+   "lseq": 6,
    "cseq": 3,
    "dseq": 2
   },
@@ -2134,7 +2134,7 @@
    "diff": 4,
    "l10": "5-2-0",
    "strk": "1-0-0-0",
-   "lseq": 6,
+   "lseq": 5,
    "cseq": 2,
    "dseq": 1
   },
@@ -2174,7 +2174,7 @@
    "diff": 2,
    "l10": "5-3-0",
    "strk": "0-1-0-0",
-   "lseq": 12,
+   "lseq": 11,
    "cseq": 5,
    "dseq": 2
   },
@@ -2184,19 +2184,19 @@
    "nick": "Reign",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 7,
+   "gp": 8,
    "w": 5,
-   "l": 2,
+   "l": 3,
    "otl": 0,
    "pts": 10,
    "gf": 26,
    "ga": 30,
    "diff": -4,
-   "l10": "5-2-0",
-   "strk": "2-0-0-0",
-   "lseq": 7,
-   "cseq": 5,
-   "dseq": 2
+   "l10": "5-3-0",
+   "strk": "0-1-0-0",
+   "lseq": 13,
+   "cseq": 7,
+   "dseq": 4
   },
   {
    "abbr": "BEL",
@@ -2234,7 +2234,7 @@
    "diff": -1,
    "l10": "5-3-0",
    "strk": "0-1-0-0",
-   "lseq": 13,
+   "lseq": 12,
    "cseq": 6,
    "dseq": 4
   },
@@ -2314,9 +2314,9 @@
    "diff": 3,
    "l10": "4-2-0-1",
    "strk": "4-0-0-0",
-   "lseq": 11,
-   "cseq": 7,
-   "dseq": 4
+   "lseq": 10,
+   "cseq": 6,
+   "dseq": 3
   },
   {
    "abbr": "CV",
@@ -2354,7 +2354,7 @@
    "diff": -1,
    "l10": "4-2-0",
    "strk": "0-1-0-0",
-   "lseq": 10,
+   "lseq": 9,
    "cseq": 4,
    "dseq": 3
   },
@@ -2374,29 +2374,9 @@
    "diff": -8,
    "l10": "4-6-0",
    "strk": "0-1-0-0",
-   "lseq": 25,
+   "lseq": 26,
    "cseq": 13,
    "dseq": 6
-  },
-  {
-   "abbr": "MIL",
-   "name": "Milwaukee Admirals",
-   "nick": "Admirals",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 5,
-   "w": 4,
-   "l": 1,
-   "otl": 0,
-   "pts": 8,
-   "gf": 15,
-   "ga": 13,
-   "diff": 2,
-   "l10": "4-1-0",
-   "strk": "2-0-0-0",
-   "lseq": 2,
-   "cseq": 2,
-   "dseq": 2
   },
   {
    "abbr": "HSK",
@@ -2414,8 +2394,28 @@
    "diff": 4,
    "l10": "4-2-0",
    "strk": "3-0-0-0",
-   "lseq": 9,
-   "cseq": 6,
+   "lseq": 7,
+   "cseq": 4,
+   "dseq": 2
+  },
+  {
+   "abbr": "MIL",
+   "name": "Milwaukee Admirals",
+   "nick": "Admirals",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 6,
+   "w": 4,
+   "l": 2,
+   "otl": 0,
+   "pts": 8,
+   "gf": 15,
+   "ga": 13,
+   "diff": 2,
+   "l10": "4-2-0",
+   "strk": "0-1-0-0",
+   "lseq": 8,
+   "cseq": 5,
    "dseq": 3
   },
   {
@@ -2474,9 +2474,9 @@
    "diff": -4,
    "l10": "3-5-1-1",
    "strk": "0-4-1-0",
-   "lseq": 26,
-   "cseq": 13,
-   "dseq": 4
+   "lseq": 27,
+   "cseq": 14,
+   "dseq": 5
   },
   {
    "abbr": "LV",
@@ -2534,7 +2534,7 @@
    "diff": -1,
    "l10": "3-6-0",
    "strk": "1-0-0-0",
-   "lseq": 27,
+   "lseq": 29,
    "cseq": 14,
    "dseq": 7
   },
@@ -2554,9 +2554,49 @@
    "diff": -8,
    "l10": "3-4-0",
    "strk": "2-0-0-0",
+   "lseq": 25,
+   "cseq": 13,
+   "dseq": 9
+  },
+  {
+   "abbr": "CHI",
+   "name": "Chicago Wolves",
+   "nick": "Wolves",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 7,
+   "w": 3,
+   "l": 4,
+   "otl": 0,
+   "pts": 6,
+   "gf": 14,
+   "ga": 27,
+   "diff": -13,
+   "l10": "3-4-0",
+   "strk": "3-0-0-0",
    "lseq": 24,
    "cseq": 12,
-   "dseq": 9
+   "dseq": 4
+  },
+  {
+   "abbr": "TEX",
+   "name": "Texas Stars",
+   "nick": "Stars",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 8,
+   "w": 2,
+   "l": 4,
+   "otl": 2,
+   "pts": 6,
+   "gf": 24,
+   "ga": 33,
+   "diff": -9,
+   "l10": "2-4-1-1",
+   "strk": "1-0-0-0",
+   "lseq": 28,
+   "cseq": 15,
+   "dseq": 6
   },
   {
    "abbr": "HAM",
@@ -2594,29 +2634,9 @@
    "diff": 0,
    "l10": "2-4-0",
    "strk": "0-2-0-0",
-   "lseq": 28,
-   "cseq": 14,
+   "lseq": 30,
+   "cseq": 16,
    "dseq": 10
-  },
-  {
-   "abbr": "CHI",
-   "name": "Chicago Wolves",
-   "nick": "Wolves",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 6,
-   "w": 2,
-   "l": 4,
-   "otl": 0,
-   "pts": 4,
-   "gf": 14,
-   "ga": 27,
-   "diff": -13,
-   "l10": "2-4-0",
-   "strk": "2-0-0-0",
-   "lseq": 29,
-   "cseq": 15,
-   "dseq": 5
   },
   {
    "abbr": "RFD",
@@ -2634,26 +2654,6 @@
    "diff": -9,
    "l10": "2-5-0",
    "strk": "1-0-0-0",
-   "lseq": 30,
-   "cseq": 16,
-   "dseq": 6
-  },
-  {
-   "abbr": "TEX",
-   "name": "Texas Stars",
-   "nick": "Stars",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 7,
-   "w": 1,
-   "l": 4,
-   "otl": 2,
-   "pts": 4,
-   "gf": 24,
-   "ga": 33,
-   "diff": -9,
-   "l10": "1-4-1-1",
-   "strk": "0-4-1-1",
    "lseq": 31,
    "cseq": 17,
    "dseq": 7
@@ -2670,8 +2670,8 @@
   },
   "pt": {
    "v": 64.3,
-   "rank": 11
+   "rank": 10
   }
  },
- "updated": "2026-10-25T02:45:16Z"
+ "updated": "2026-10-25T03:00:15Z"
 }

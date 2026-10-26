@@ -6,11 +6,11 @@
    "ep": 1,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 7,
+   "gp": 8,
    "g": 2,
    "a": 4,
    "tp": 6,
-   "ppg": 0.8571428571428571,
+   "ppg": 0.75,
    "pim": 4,
    "pm": 4
   },
@@ -78,12 +78,12 @@
    "ep": 7,
    "team": "Oshawa Generals",
    "lg": "OHL",
-   "gp": 12,
+   "gp": 13,
    "g": 1,
    "a": 8,
    "tp": 9,
-   "ppg": 0.75,
-   "pim": 6,
+   "ppg": 0.6923076923076923,
+   "pim": 8,
    "pm": -3
   },
   "Kieren Dervin": {
@@ -114,13 +114,13 @@
    "ep": 10,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 7,
+   "gp": 8,
    "g": 5,
    "a": 3,
    "tp": 8,
-   "ppg": 1.1428571428571428,
+   "ppg": 1.0,
    "pim": 2,
-   "pm": 0
+   "pm": -1
   },
   "Gabriel Chiarot": {
    "ep": 11,
@@ -174,13 +174,13 @@
    "ep": 16,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 6,
+   "gp": 7,
    "g": 1,
    "a": 4,
    "tp": 5,
-   "ppg": 0.8333333333333334,
-   "pim": 6,
-   "pm": 1
+   "ppg": 0.7142857142857143,
+   "pim": 8,
+   "pm": 0
   },
   "Kirill Kudryavtsev": {
    "ep": 17,
@@ -234,13 +234,13 @@
    "ep": 21,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 7,
+   "gp": 8,
    "g": 2,
    "a": 1,
    "tp": 3,
-   "ppg": 0.42857142857142855,
+   "ppg": 0.375,
    "pim": 8,
-   "pm": -2
+   "pm": -3
   },
   "Matthew Perkins": {
    "ep": 22,
@@ -282,11 +282,11 @@
    "ep": 26,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 5,
+   "gp": 6,
    "g": 0,
    "a": 3,
    "tp": 3,
-   "ppg": 0.6,
+   "ppg": 0.5,
    "pim": 4,
    "pm": 1
   },
@@ -384,6 +384,84 @@
      "svp": ".929",
      "sgp": 2,
      "ga": 1
+    },
+    {
+     "k": "S",
+     "name": "Riley Patterson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 8,
+     "sg": 2,
+     "sa": 4,
+     "stp": 6
+    },
+    {
+     "k": "S",
+     "name": "Brooks Rogowski",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 13,
+     "sg": 1,
+     "sa": 8,
+     "stp": 9
+    },
+    {
+     "k": "S",
+     "name": "Ty Mueller",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 8,
+     "sg": 5,
+     "sa": 3,
+     "stp": 8
+    },
+    {
+     "k": "S",
+     "name": "Sawyer Mynio",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 7,
+     "sg": 1,
+     "sa": 4,
+     "stp": 5
+    },
+    {
+     "k": "S",
+     "name": "Vilmer Alriksson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 8,
+     "sg": 2,
+     "sa": 1,
+     "stp": 3
+    },
+    {
+     "k": "S",
+     "name": "Anri Ravinskis",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 6,
+     "sg": 0,
+     "sa": 3,
+     "stp": 3
     }
    ]
   },
@@ -992,9 +1070,5 @@
     }
    ]
   }
- ],
- "status": {
-  "msg": "FETCH FAILED: urllib: HTTP Error 403: Forbidden; chrome: HTTP 403; safari: HTTP 403; edge: HTTP 403",
-  "at": "2026-10-26T00:00Z"
- }
+ ]
 }

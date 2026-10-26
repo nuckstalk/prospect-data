@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-26T02:15:17Z",
+ "updated": "2026-10-26T04:45:20Z",
  "results": [
+  {
+   "opp": "Minnesota Wild",
+   "abbr": "MIN",
+   "home": true,
+   "date": "Oct 25",
+   "us": 2,
+   "them": 4,
+   "res": "L"
+  },
   {
    "opp": "Detroit Red Wings",
    "abbr": "DET",
@@ -17,15 +26,6 @@
    "date": "Oct 20",
    "us": 3,
    "them": 6,
-   "res": "L"
-  },
-  {
-   "opp": "Tampa Bay Lightning",
-   "abbr": "TBL",
-   "home": false,
-   "date": "Oct 17",
-   "us": 2,
-   "them": 4,
    "res": "L"
   }
  ],

@@ -194,16 +194,28 @@ for n, r in data["skaters"].items():
                 it["sg"], it["sa"], it["stp"] = r["g"], r["a"], r["tp"]
                 print("watch corrected:", n, "now", it["dg"], "G", it["da"], "A")
                 break
-# a goalie's W/L/OTL can post later than his GP: fill in any blank result once the record catches up
+# a goalie's W/L/OTL can post later than his GP: fill in a blank result once the record catches up.
+# Only for his MOST RECENT game: if he has played since, a changed record could belong to any of those games, so leave older blanks alone.
+_last_g = {}
+for d in sorted(watch, key=lambda x: x["date"]):
+    for it in d["items"]:
+        if it.get("k") == "G": _last_g[it["name"]] = it
 for d in watch:
     for it in d["items"]:
-        if it.get("k") == "G" and not it.get("res") and it.get("rec0") and it["name"] in data["goalies"]:
+        if it.get("k") == "G" and not it.get("res") and it.get("rec0") and it["name"] in data["goalies"] and _last_g.get(it["name"]) is it:
             a, b = parse_rec(it["rec0"]), parse_rec(data["goalies"][it["name"]]["rec"])
             res = "W" if b[0] > a[0] else "L" if b[1] > a[1] else "OTL" if b[2] > a[2] else ""
             if res:
                 gg = data["goalies"][it["name"]]
                 it["res"] = res; it["svp"] = gg["svp"]; it["gaa"] = gg["gaa"]; it.pop("rec0", None)
                 print("result filled in:", it["name"], res)
+# one-off hand corrections to a goalie's logged result (confirmed from his game log): {(name, watch date): result}
+RESULT_FIXES = {("Dmitri Ivchenko", "2026-10-21"): "OTL"}   # Oct 21 was a shootout loss, wrongly stamped W
+for d in watch:
+    for it in d["items"]:
+        fx = RESULT_FIXES.get((it["name"], d["date"]))
+        if it.get("k") == "G" and fx and it.get("res") != fx:
+            it["res"] = fx; it.pop("rec0", None); print("result corrected:", it["name"], d["date"], fx)
 watch.sort(key=lambda d: d["date"], reverse=True)
 data["watch"] = watch[:7]
 # ---------------------------------------------------------------------------------------------

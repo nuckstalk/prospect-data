@@ -3217,6 +3217,26 @@
    "lseq": 9
   },
   {
+   "abbr": "DAL",
+   "name": "Dallas Stars",
+   "nick": "Stars",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 11,
+   "w": 7,
+   "l": 3,
+   "otl": 1,
+   "pts": 15,
+   "gf": 32,
+   "ga": 20,
+   "diff": 12,
+   "l10": "7-2-1",
+   "strk": "W5",
+   "dseq": 3,
+   "cseq": 5,
+   "lseq": 10
+  },
+  {
    "abbr": "SEA",
    "name": "Seattle Kraken",
    "nick": "Kraken",
@@ -3233,8 +3253,8 @@
    "l10": "6-3-1",
    "strk": "L1",
    "dseq": 3,
-   "cseq": 5,
-   "lseq": 10
+   "cseq": 6,
+   "lseq": 11
   },
   {
    "abbr": "NYR",
@@ -3254,7 +3274,7 @@
    "strk": "L2",
    "dseq": 2,
    "cseq": 6,
-   "lseq": 11
+   "lseq": 12
   },
   {
    "abbr": "NJD",
@@ -3274,7 +3294,7 @@
    "strk": "W3",
    "dseq": 3,
    "cseq": 7,
-   "lseq": 12
+   "lseq": 13
   },
   {
    "abbr": "FLA",
@@ -3294,26 +3314,6 @@
    "strk": "W1",
    "dseq": 5,
    "cseq": 8,
-   "lseq": 13
-  },
-  {
-   "abbr": "DAL",
-   "name": "Dallas Stars",
-   "nick": "Stars",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 10,
-   "w": 6,
-   "l": 3,
-   "otl": 1,
-   "pts": 13,
-   "gf": 26,
-   "ga": 17,
-   "diff": 9,
-   "l10": "6-3-1",
-   "strk": "W4",
-   "dseq": 3,
-   "cseq": 6,
    "lseq": 14
   },
   {
@@ -3377,26 +3377,6 @@
    "lseq": 17
   },
   {
-   "abbr": "NYI",
-   "name": "New York Islanders",
-   "nick": "Islanders",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 10,
-   "w": 5,
-   "l": 3,
-   "otl": 2,
-   "pts": 12,
-   "gf": 29,
-   "ga": 23,
-   "diff": 6,
-   "l10": "5-3-2",
-   "strk": "OT1",
-   "dseq": 5,
-   "cseq": 10,
-   "lseq": 18
-  },
-  {
    "abbr": "MTL",
    "name": "Montréal Canadiens",
    "nick": "Canadiens",
@@ -3413,6 +3393,26 @@
    "l10": "5-3-2",
    "strk": "W1",
    "dseq": 6,
+   "cseq": 10,
+   "lseq": 18
+  },
+  {
+   "abbr": "NYI",
+   "name": "New York Islanders",
+   "nick": "Islanders",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 11,
+   "w": 5,
+   "l": 4,
+   "otl": 2,
+   "pts": 12,
+   "gf": 32,
+   "ga": 29,
+   "diff": 3,
+   "l10": "5-3-2",
+   "strk": "L1",
+   "dseq": 5,
    "cseq": 11,
    "lseq": 19
   },
@@ -3711,5 +3711,5 @@
    "rank": 32
   }
  },
- "updated": "2026-10-25T22:00:14Z"
+ "updated": "2026-10-26T00:45:15Z"
 }

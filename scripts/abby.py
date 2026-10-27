@@ -127,6 +127,9 @@ def divname(t):
 
 
 # ---- skaters + goalies
+RAW = {}
+
+
 def players(position):
     r = ht({"feed": "statviewfeed", "view": "players", "season": sid, "season_id": sid, "team": tid, "team_id": tid,
             "position": position, "rookie": "no", "statsType": "standard", "rosterstatus": "undefined",
@@ -135,6 +138,7 @@ def players(position):
     rows = [x for x in rows_of(r) if "properties" not in x or len(x) > 1]
     mine_rows = [x for x in rows if str(x.get("team_code", "")).upper() == abb_code]
     if mine_rows: rows = mine_rows
+    for x in rows: RAW[str(g(x, "player_id", "id"))] = x
     print(position, "rows:", len(rows), "| first row keys:", sorted(rows[0].keys()) if rows else "none")
     return rows
 
@@ -190,6 +194,43 @@ try:
 except Exception:
     prev = {}
 prev_logs = {str(p.get("id")): p.get("log") for p in prev.get("skaters", []) + prev.get("goalies", []) if p.get("log")}
+
+# ---- birth dates (for the Age column). Never lets a failure break the update.
+def _bd(v):
+    m = re.match(r"^(\d{4}-\d{2}-\d{2})", str(v or ""))
+    return m.group(1) if m else None
+
+
+def find_bd(o):
+    if isinstance(o, dict):
+        for k, v in o.items():
+            if str(k).lower() in ("birthdate", "birth_date", "dob", "birthday", "date_of_birth") and _bd(v): return _bd(v)
+        for v in o.values():
+            r = find_bd(v)
+            if r: return r
+    elif isinstance(o, list):
+        for v in o:
+            r = find_bd(v)
+            if r: return r
+    return None
+
+
+try:
+    bds = {str(p.get("id")): p.get("bd") for p in prev.get("skaters", []) + prev.get("goalies", []) if p.get("bd")}
+    for p in skaters + goalies:
+        k = str(p.get("id"))
+        if k not in bds and find_bd(RAW.get(k)): bds[k] = find_bd(RAW.get(k))
+    for p in skaters + goalies:
+        k = str(p.get("id"))
+        if k not in bds and p.get("id"):
+            for at in ({"feed": "modulekit", "view": "player"}, {"feed": "statviewfeed", "view": "player"}):
+                b = find_bd(ht(dict(at, player_id=k), quick=True))
+                if b: bds[k] = b; break
+    for p in skaters + goalies:
+        if bds.get(str(p.get("id"))): p["bd"] = bds[str(p.get("id"))]
+    print("birth dates:", sum(1 for p in skaters + goalies if p.get("bd")), "of", len(skaters) + len(goalies))
+except Exception as e:
+    print("birth dates skipped:", e)
 
 
 def find_games(obj):

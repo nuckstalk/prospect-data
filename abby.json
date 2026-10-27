@@ -2295,19 +2295,19 @@
    "nick": "Moose",
    "div": "Central",
    "conf": "Western",
-   "gp": 9,
+   "gp": 10,
    "w": 7,
-   "l": 2,
+   "l": 3,
    "otl": 0,
    "pts": 14,
    "gf": 41,
    "ga": 26,
    "diff": 15,
-   "l10": "7-2-0",
-   "strk": "2-0-0-0",
-   "lseq": 3,
-   "cseq": 2,
-   "dseq": 2
+   "l10": "7-3-0",
+   "strk": "0-1-0-0",
+   "lseq": 5,
+   "cseq": 3,
+   "dseq": 3
   },
   {
    "abbr": "ABB",
@@ -2385,7 +2385,7 @@
    "diff": 4,
    "l10": "5-2-0",
    "strk": "1-0-0-0",
-   "lseq": 4,
+   "lseq": 3,
    "cseq": 2,
    "dseq": 1
   },
@@ -2485,9 +2485,9 @@
    "diff": 3,
    "l10": "5-2-0",
    "strk": "1-0-0-0",
-   "lseq": 5,
-   "cseq": 3,
-   "dseq": 3
+   "lseq": 4,
+   "cseq": 2,
+   "dseq": 2
   },
   {
    "abbr": "BEL",
@@ -2565,7 +2565,7 @@
    "diff": -7,
    "l10": "4-4-1",
    "strk": "1-0-1-0",
-   "lseq": 21,
+   "lseq": 22,
    "cseq": 11,
    "dseq": 7
   },
@@ -2625,9 +2625,29 @@
    "diff": 1,
    "l10": "4-4-1",
    "strk": "1-0-0-0",
+   "lseq": 21,
+   "cseq": 11,
+   "dseq": 7
+  },
+  {
+   "abbr": "CHI",
+   "name": "Chicago Wolves",
+   "nick": "Wolves",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 9,
+   "w": 4,
+   "l": 4,
+   "otl": 1,
+   "pts": 9,
+   "gf": 21,
+   "ga": 32,
+   "diff": -11,
+   "l10": "4-4-0-1",
+   "strk": "4-0-0-1",
    "lseq": 20,
    "cseq": 10,
-   "dseq": 7
+   "dseq": 4
   },
   {
    "abbr": "CV",
@@ -2645,8 +2665,8 @@
    "diff": -6,
    "l10": "3-3-2-1",
    "strk": "0-1-0-0",
-   "lseq": 22,
-   "cseq": 11,
+   "lseq": 23,
+   "cseq": 12,
    "dseq": 8
   },
   {
@@ -2725,7 +2745,7 @@
    "diff": -5,
    "l10": "3-3-1-1",
    "strk": "1-0-0-0",
-   "lseq": 23,
+   "lseq": 24,
    "cseq": 12,
    "dseq": 5
   },
@@ -2748,26 +2768,6 @@
    "lseq": 27,
    "cseq": 14,
    "dseq": 5
-  },
-  {
-   "abbr": "CHI",
-   "name": "Chicago Wolves",
-   "nick": "Wolves",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 8,
-   "w": 3,
-   "l": 4,
-   "otl": 1,
-   "pts": 7,
-   "gf": 21,
-   "ga": 32,
-   "diff": -11,
-   "l10": "3-4-0-1",
-   "strk": "3-0-0-1",
-   "lseq": 24,
-   "cseq": 12,
-   "dseq": 4
   },
   {
    "abbr": "BAK",
@@ -2904,5 +2904,5 @@
    "rank": 6
   }
  },
- "updated": "2026-10-27T18:45:22Z"
+ "updated": "2026-10-27T19:00:21Z"
 }

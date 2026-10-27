@@ -1,6 +1,6 @@
 """Canucks Stats Hub: pull skater, goalie, standings and team stats from the NHL's public API
 and write stats.json. Leaves the file alone if anything looks wrong."""
-import json, sys, datetime, urllib.request
+import json, re, sys, datetime, urllib.request
 
 H = {"User-Agent": "Mozilla/5.0"}
 NOW = datetime.datetime.now(datetime.timezone.utc)
@@ -67,6 +67,27 @@ try:
 except Exception:
     prev = {}
 prev_logs = {p.get("id"): p.get("log") for p in prev.get("skaters", []) + prev.get("goalies", []) if p.get("log")}
+
+# ---- birth dates (for the Age column). Never lets a failure break the update.
+def _bd(v):
+    v = str(v or "")[:10]
+    return v if re.match(r"^\d{4}-\d{2}-\d{2}$", v) else None
+
+try:
+    bds = {p.get("id"): p.get("bd") for p in prev.get("skaters", []) + prev.get("goalies", []) if p.get("bd")}
+    ro = get("https://api-web.nhle.com/v1/roster/VAN/current") or {}
+    for grp in ("forwards", "defensemen", "goalies"):
+        for x in ro.get(grp, []):
+            if x.get("id") and _bd(x.get("birthDate")): bds[x["id"]] = _bd(x["birthDate"])
+    for p in skaters + goalies:
+        if p.get("id") and p["id"] not in bds:        # traded / called-up players not on the roster list
+            lp = get("https://api-web.nhle.com/v1/player/%s/landing" % p["id"]) or {}
+            if _bd(lp.get("birthDate")): bds[p["id"]] = _bd(lp["birthDate"])
+    for p in skaters + goalies:
+        if bds.get(p.get("id")): p["bd"] = bds[p["id"]]
+    print("birth dates:", sum(1 for p in skaters + goalies if p.get("bd")), "of", len(skaters) + len(goalies))
+except Exception as e:
+    print("birth dates skipped:", e)
 
 def tsec(t):
     try:

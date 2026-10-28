@@ -2310,6 +2310,26 @@
    "dseq": 3
   },
   {
+   "abbr": "CLT",
+   "name": "Charlotte Checkers",
+   "nick": "Checkers",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 9,
+   "w": 6,
+   "l": 3,
+   "otl": 0,
+   "pts": 12,
+   "gf": 27,
+   "ga": 22,
+   "diff": 5,
+   "l10": "6-3-0",
+   "strk": "1-0-0-0",
+   "lseq": 7,
+   "cseq": 3,
+   "dseq": 2
+  },
+  {
    "abbr": "ABB",
    "name": "Abbotsford Canucks",
    "nick": "Canucks",
@@ -2335,19 +2355,19 @@
    "nick": "Eagles",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 8,
+   "gp": 9,
    "w": 5,
-   "l": 2,
+   "l": 3,
    "otl": 1,
    "pts": 11,
    "gf": 27,
    "ga": 24,
    "diff": 3,
-   "l10": "5-2-1",
-   "strk": "0-1-0-0",
-   "lseq": 7,
-   "cseq": 5,
-   "dseq": 2
+   "l10": "5-3-1",
+   "strk": "0-2-0-0",
+   "lseq": 12,
+   "cseq": 7,
+   "dseq": 4
   },
   {
    "abbr": "TOR",
@@ -2410,26 +2430,6 @@
    "dseq": 6
   },
   {
-   "abbr": "CLT",
-   "name": "Charlotte Checkers",
-   "nick": "Checkers",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 8,
-   "w": 5,
-   "l": 3,
-   "otl": 0,
-   "pts": 10,
-   "gf": 27,
-   "ga": 22,
-   "diff": 5,
-   "l10": "5-3-0",
-   "strk": "0-1-0-0",
-   "lseq": 9,
-   "cseq": 4,
-   "dseq": 2
-  },
-  {
    "abbr": "TUC",
    "name": "Tucson Roadrunners",
    "nick": "Roadrunners",
@@ -2445,9 +2445,9 @@
    "diff": 6,
    "l10": "4-2-2",
    "strk": "4-0-2-0",
-   "lseq": 12,
-   "cseq": 7,
-   "dseq": 4
+   "lseq": 11,
+   "cseq": 6,
+   "dseq": 3
   },
   {
    "abbr": "ONT",
@@ -2465,9 +2465,9 @@
    "diff": -4,
    "l10": "5-3-0",
    "strk": "0-1-0-0",
-   "lseq": 11,
-   "cseq": 6,
-   "dseq": 3
+   "lseq": 10,
+   "cseq": 5,
+   "dseq": 2
   },
   {
    "abbr": "MIL",
@@ -2525,7 +2525,7 @@
    "diff": -1,
    "l10": "5-3-0",
    "strk": "0-1-0-0",
-   "lseq": 10,
+   "lseq": 9,
    "cseq": 5,
    "dseq": 3
   },
@@ -2686,7 +2686,7 @@
    "l10": "4-2-0",
    "strk": "0-1-0-0",
    "lseq": 8,
-   "cseq": 3,
+   "cseq": 4,
    "dseq": 2
   },
   {
@@ -2904,5 +2904,5 @@
    "rank": 6
   }
  },
- "updated": "2026-10-28T04:00:22Z"
+ "updated": "2026-10-28T04:30:16Z"
 }

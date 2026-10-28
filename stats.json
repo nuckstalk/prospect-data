@@ -3768,6 +3768,26 @@
    "lseq": 25
   },
   {
+   "abbr": "CBJ",
+   "name": "Columbus Blue Jackets",
+   "nick": "Blue Jackets",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 10,
+   "w": 5,
+   "l": 5,
+   "otl": 0,
+   "pts": 10,
+   "gf": 26,
+   "ga": 33,
+   "diff": -7,
+   "l10": "5-5-0",
+   "strk": "W2",
+   "dseq": 7,
+   "cseq": 15,
+   "lseq": 26
+  },
+  {
    "abbr": "CGY",
    "name": "Calgary Flames",
    "nick": "Flames",
@@ -3785,7 +3805,7 @@
    "strk": "W4",
    "dseq": 5,
    "cseq": 12,
-   "lseq": 26
+   "lseq": 27
   },
   {
    "abbr": "ANA",
@@ -3805,7 +3825,7 @@
    "strk": "W1",
    "dseq": 6,
    "cseq": 13,
-   "lseq": 27
+   "lseq": 28
   },
   {
    "abbr": "PHI",
@@ -3813,36 +3833,16 @@
    "nick": "Flyers",
    "div": "Metropolitan",
    "conf": "Eastern",
-   "gp": 13,
+   "gp": 14,
    "w": 3,
    "l": 7,
-   "otl": 3,
-   "pts": 9,
-   "gf": 24,
-   "ga": 42,
-   "diff": -18,
-   "l10": "3-6-1",
-   "strk": "L1",
-   "dseq": 7,
-   "cseq": 15,
-   "lseq": 28
-  },
-  {
-   "abbr": "CBJ",
-   "name": "Columbus Blue Jackets",
-   "nick": "Blue Jackets",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 9,
-   "w": 4,
-   "l": 5,
-   "otl": 0,
-   "pts": 8,
-   "gf": 22,
-   "ga": 30,
-   "diff": -8,
-   "l10": "4-5-0",
-   "strk": "W1",
+   "otl": 4,
+   "pts": 10,
+   "gf": 27,
+   "ga": 46,
+   "diff": -19,
+   "l10": "3-5-2",
+   "strk": "OT1",
    "dseq": 8,
    "cseq": 16,
    "lseq": 29
@@ -3942,5 +3942,5 @@
    "rank": 32
   }
  },
- "updated": "2026-10-27T04:30:16Z"
+ "updated": "2026-10-28T01:45:17Z"
 }

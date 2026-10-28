@@ -138,11 +138,11 @@
    "ep": 12,
    "team": "Owen Sound Attack",
    "lg": "OHL",
-   "gp": 10,
+   "gp": 11,
    "g": 3,
    "a": 7,
    "tp": 10,
-   "ppg": 1.0,
+   "ppg": 0.9090909090909091,
    "pim": 8,
    "pm": -4
   },
@@ -346,6 +346,24 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-10-28",
+   "items": [
+    {
+     "k": "S",
+     "name": "Lucian Bernat",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 11,
+     "sg": 3,
+     "sa": 7,
+     "stp": 10
+    }
+   ]
+  },
   {
    "date": "2026-10-27",
    "items": [
@@ -948,37 +966,6 @@
      "svp": ".901",
      "sgp": 6,
      "ga": 4
-    }
-   ]
-  },
-  {
-   "date": "2026-10-20",
-   "items": [
-    {
-     "k": "S",
-     "name": "Basile Sansonnens",
-     "lg": "NL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 15,
-     "sg": 2,
-     "sa": 1,
-     "stp": 3
-    },
-    {
-     "k": "G",
-     "name": "Dmitri Ivchenko",
-     "lg": "MHL",
-     "dgp": 1,
-     "res": "W",
-     "gaa": 3.08,
-     "svp": ".888",
-     "sgp": 9,
-     "rec0": "3-4-0",
-     "ga": 0,
-     "so": 1
     }
    ]
   }

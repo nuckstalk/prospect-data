@@ -250,9 +250,11 @@ for d in watch:
                     it["ga"] = hit[0][3]
                     if hit[0][1]: it["res"] = hit[0][1]
                     it.pop("rec0", None)
-                    if _last_g.get(it["name"]) is it:
-                        gg = data["goalies"][it["name"]]; it["svp"] = gg["svp"]; it["gaa"] = gg["gaa"]
                     print("AHL game log applied:", it["name"], d["date"], it["res"], it["ga"], "GA")
+            if _last_g.get(it["name"]) is it:   # his latest game: keep the season SV% / GAA on the card current
+                gg = data["goalies"][it["name"]]
+                if (it.get("svp"), it.get("gaa")) != (gg["svp"], gg["gaa"]):
+                    it["svp"], it["gaa"] = gg["svp"], gg["gaa"]; print("AHL season line refreshed:", it["name"], gg["svp"], gg["gaa"])
 # one-off hand corrections to a goalie's logged result (confirmed from his game log): {(name, watch date): result}
 RESULT_FIXES = {("Dmitri Ivchenko", "2026-10-21"): "OTL"}   # Oct 21 was a shootout loss, wrongly stamped W
 for d in watch:

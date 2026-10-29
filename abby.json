@@ -2453,7 +2453,7 @@
      "",
      11,
      1,
-     1200,
+     1224,
      0,
      1
     ],
@@ -2525,18 +2525,18 @@
    "nick": "Moose",
    "div": "Central",
    "conf": "Western",
-   "gp": 10,
+   "gp": 11,
    "w": 7,
-   "l": 3,
+   "l": 4,
    "otl": 0,
    "pts": 14,
    "gf": 41,
    "ga": 29,
    "diff": 12,
-   "l10": "7-3-0",
-   "strk": "0-1-0-0",
-   "lseq": 5,
-   "cseq": 3,
+   "l10": "6-4-0",
+   "strk": "0-2-0-0",
+   "lseq": 8,
+   "cseq": 4,
    "dseq": 3
   },
   {
@@ -2571,12 +2571,32 @@
    "otl": 0,
    "pts": 12,
    "gf": 27,
-   "ga": 23,
-   "diff": 4,
+   "ga": 24,
+   "diff": 3,
    "l10": "6-3-0",
    "strk": "1-0-0-0",
-   "lseq": 7,
+   "lseq": 6,
    "cseq": 3,
+   "dseq": 2
+  },
+  {
+   "abbr": "MIL",
+   "name": "Milwaukee Admirals",
+   "nick": "Admirals",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 8,
+   "w": 6,
+   "l": 2,
+   "otl": 0,
+   "pts": 12,
+   "gf": 20,
+   "ga": 14,
+   "diff": 6,
+   "l10": "6-2-0",
+   "strk": "2-0-0-0",
+   "lseq": 4,
+   "cseq": 2,
    "dseq": 2
   },
   {
@@ -2595,8 +2615,8 @@
    "diff": 6,
    "l10": "5-2-0-1",
    "strk": "5-0-0-1",
-   "lseq": 6,
-   "cseq": 4,
+   "lseq": 5,
+   "cseq": 3,
    "dseq": 1
   },
   {
@@ -2610,9 +2630,9 @@
    "l": 3,
    "otl": 1,
    "pts": 11,
-   "gf": 28,
+   "gf": 29,
    "ga": 24,
-   "diff": 4,
+   "diff": 5,
    "l10": "5-3-1",
    "strk": "0-2-0-0",
    "lseq": 12,
@@ -2697,26 +2717,6 @@
    "strk": "0-1-0-0",
    "lseq": 10,
    "cseq": 5,
-   "dseq": 2
-  },
-  {
-   "abbr": "MIL",
-   "name": "Milwaukee Admirals",
-   "nick": "Admirals",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 7,
-   "w": 5,
-   "l": 2,
-   "otl": 0,
-   "pts": 10,
-   "gf": 20,
-   "ga": 14,
-   "diff": 6,
-   "l10": "5-2-0",
-   "strk": "1-0-0-0",
-   "lseq": 4,
-   "cseq": 2,
    "dseq": 2
   },
   {
@@ -2915,7 +2915,7 @@
    "diff": -1,
    "l10": "4-2-0",
    "strk": "0-1-0-0",
-   "lseq": 8,
+   "lseq": 7,
    "cseq": 4,
    "dseq": 2
   },
@@ -3123,7 +3123,7 @@
  "team": {
   "gf": {
    "v": 4.0,
-   "rank": 2
+   "rank": 1
   },
   "ga": {
    "v": 3.25,
@@ -3131,8 +3131,8 @@
   },
   "pt": {
    "v": 68.8,
-   "rank": 6
+   "rank": 5
   }
  },
- "updated": "2026-10-29T02:45:19Z"
+ "updated": "2026-10-29T03:00:18Z"
 }

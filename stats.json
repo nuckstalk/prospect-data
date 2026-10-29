@@ -3775,6 +3775,26 @@
    "lseq": 15
   },
   {
+   "abbr": "WSH",
+   "name": "Washington Capitals",
+   "nick": "Capitals",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 11,
+   "w": 7,
+   "l": 4,
+   "otl": 0,
+   "pts": 14,
+   "gf": 39,
+   "ga": 34,
+   "diff": 5,
+   "l10": "6-4-0",
+   "strk": "W2",
+   "dseq": 4,
+   "cseq": 10,
+   "lseq": 16
+  },
+  {
    "abbr": "NYI",
    "name": "New York Islanders",
    "nick": "Islanders",
@@ -3790,9 +3810,9 @@
    "diff": 4,
    "l10": "5-3-2",
    "strk": "W1",
-   "dseq": 4,
-   "cseq": 10,
-   "lseq": 16
+   "dseq": 5,
+   "cseq": 11,
+   "lseq": 17
   },
   {
    "abbr": "COL",
@@ -3812,7 +3832,7 @@
    "strk": "L1",
    "dseq": 4,
    "cseq": 7,
-   "lseq": 17
+   "lseq": 18
   },
   {
    "abbr": "NSH",
@@ -3832,7 +3852,7 @@
    "strk": "OT1",
    "dseq": 5,
    "cseq": 8,
-   "lseq": 18
+   "lseq": 19
   },
   {
    "abbr": "BUF",
@@ -3851,8 +3871,8 @@
    "l10": "4-3-3",
    "strk": "W1",
    "dseq": 7,
-   "cseq": 11,
-   "lseq": 19
+   "cseq": 12,
+   "lseq": 20
   },
   {
    "abbr": "DET",
@@ -3871,8 +3891,8 @@
    "l10": "5-2-3",
    "strk": "W1",
    "dseq": 8,
-   "cseq": 12,
-   "lseq": 20
+   "cseq": 13,
+   "lseq": 21
   },
   {
    "abbr": "SJS",
@@ -3892,26 +3912,6 @@
    "strk": "L2",
    "dseq": 4,
    "cseq": 9,
-   "lseq": 21
-  },
-  {
-   "abbr": "WSH",
-   "name": "Washington Capitals",
-   "nick": "Capitals",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 10,
-   "w": 6,
-   "l": 4,
-   "otl": 0,
-   "pts": 12,
-   "gf": 34,
-   "ga": 32,
-   "diff": 2,
-   "l10": "6-4-0",
-   "strk": "W1",
-   "dseq": 5,
-   "cseq": 13,
    "lseq": 22
   },
   {
@@ -4040,16 +4040,16 @@
    "nick": "Flyers",
    "div": "Metropolitan",
    "conf": "Eastern",
-   "gp": 14,
+   "gp": 15,
    "w": 3,
-   "l": 7,
+   "l": 8,
    "otl": 4,
    "pts": 10,
-   "gf": 27,
-   "ga": 46,
-   "diff": -19,
+   "gf": 29,
+   "ga": 51,
+   "diff": -22,
    "l10": "3-5-2",
-   "strk": "OT1",
+   "strk": "L1",
    "dseq": 8,
    "cseq": 16,
    "lseq": 29
@@ -4149,5 +4149,5 @@
    "rank": 32
   }
  },
- "updated": "2026-10-28T06:00:17Z"
+ "updated": "2026-10-29T02:15:15Z"
 }

@@ -2497,6 +2497,26 @@
    "dseq": 3
   },
   {
+   "abbr": "HER",
+   "name": "Hershey Bears",
+   "nick": "Bears",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 8,
+   "w": 6,
+   "l": 2,
+   "otl": 0,
+   "pts": 12,
+   "gf": 27,
+   "ga": 22,
+   "diff": 5,
+   "l10": "6-2-0",
+   "strk": "2-0-0-0",
+   "lseq": 3,
+   "cseq": 2,
+   "dseq": 1
+  },
+  {
    "abbr": "CLT",
    "name": "Charlotte Checkers",
    "nick": "Checkers",
@@ -2577,26 +2597,6 @@
    "dseq": 4
   },
   {
-   "abbr": "HER",
-   "name": "Hershey Bears",
-   "nick": "Bears",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 7,
-   "w": 5,
-   "l": 2,
-   "otl": 0,
-   "pts": 10,
-   "gf": 27,
-   "ga": 22,
-   "diff": 5,
-   "l10": "5-2-0",
-   "strk": "1-0-0-0",
-   "lseq": 3,
-   "cseq": 2,
-   "dseq": 1
-  },
-  {
    "abbr": "CGY",
    "name": "Calgary Wranglers",
    "nick": "Wranglers",
@@ -2612,7 +2612,7 @@
    "diff": 1,
    "l10": "5-5-0",
    "strk": "0-3-0-0",
-   "lseq": 18,
+   "lseq": 17,
    "cseq": 9,
    "dseq": 6
   },
@@ -2692,9 +2692,9 @@
    "diff": -4,
    "l10": "4-4-2",
    "strk": "0-2-0-0",
-   "lseq": 19,
-   "cseq": 10,
-   "dseq": 6
+   "lseq": 18,
+   "cseq": 9,
+   "dseq": 5
   },
   {
    "abbr": "CLE",
@@ -2732,8 +2732,8 @@
    "diff": 6,
    "l10": "4-3-1",
    "strk": "1-0-0-0",
-   "lseq": 17,
-   "cseq": 9,
+   "lseq": 16,
+   "cseq": 8,
    "dseq": 4
   },
   {
@@ -2757,26 +2757,6 @@
    "dseq": 7
   },
   {
-   "abbr": "ROC",
-   "name": "Rochester Americans",
-   "nick": "Americans",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 8,
-   "w": 4,
-   "l": 3,
-   "otl": 1,
-   "pts": 9,
-   "gf": 27,
-   "ga": 22,
-   "diff": 5,
-   "l10": "4-3-0-1",
-   "strk": "1-0-0-0",
-   "lseq": 16,
-   "cseq": 8,
-   "dseq": 5
-  },
-  {
    "abbr": "LV",
    "name": "Lehigh Valley Phantoms",
    "nick": "Phantoms",
@@ -2795,6 +2775,26 @@
    "lseq": 15,
    "cseq": 7,
    "dseq": 3
+  },
+  {
+   "abbr": "ROC",
+   "name": "Rochester Americans",
+   "nick": "Americans",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 9,
+   "w": 4,
+   "l": 4,
+   "otl": 1,
+   "pts": 9,
+   "gf": 27,
+   "ga": 22,
+   "diff": 5,
+   "l10": "4-4-0-1",
+   "strk": "0-1-0-0",
+   "lseq": 20,
+   "cseq": 10,
+   "dseq": 6
   },
   {
    "abbr": "SD",
@@ -2832,7 +2832,7 @@
    "diff": -11,
    "l10": "4-4-0-1",
    "strk": "4-0-0-1",
-   "lseq": 20,
+   "lseq": 19,
    "cseq": 10,
    "dseq": 4
   },
@@ -3080,16 +3080,16 @@
  "team": {
   "gf": {
    "v": 3.75,
-   "rank": 5
+   "rank": 4
   },
   "ga": {
    "v": 3.12,
-   "rank": 19
+   "rank": 20
   },
   "pt": {
    "v": 68.8,
    "rank": 6
   }
  },
- "updated": "2026-10-29T01:45:21Z"
+ "updated": "2026-10-29T02:00:19Z"
 }

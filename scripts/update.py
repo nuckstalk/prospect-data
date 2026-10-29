@@ -161,7 +161,8 @@ for n, r in data["goalies"].items():
         item = {"k": "G", "name": n, "lg": r["lg"], "dgp": dgp, "res": res, "gaa": r["gaa"],
                 "svp": r["svp"], "sgp": r["gp"], "rec0": o["rec"]}
         try:   # goals against this game = season GA now minus season GA before (GAA x minutes / 60)
-            if r.get("toi") and r.get("gaa") is not None and (o["gp"] == 0 or (o.get("toi") and o.get("gaa") is not None)):
+            # only trust it once EliteProspects has also added this game's minutes (otherwise the old minutes are reused and GA comes out as 0)
+            if r.get("toi") and r.get("gaa") is not None and (o["gp"] == 0 or (o.get("toi") and o.get("gaa") is not None and r["toi"] > o["toi"])):
                 ga_new = round(r["gaa"] * r["toi"] / 60)
                 ga_old = round(o["gaa"] * o["toi"] / 60) if o["gp"] > 0 else 0
                 if ga_new - ga_old >= 0: item["ga"] = ga_new - ga_old
@@ -210,12 +211,20 @@ for d in watch:
                 it["res"] = res; it["svp"] = gg["svp"]; it["gaa"] = gg["gaa"]; it.pop("rec0", None)
                 print("result filled in:", it["name"], res)
 # one-off hand corrections to a goalie's logged result (confirmed from his game log): {(name, watch date): result}
-RESULT_FIXES = {("Dmitri Ivchenko", "2026-10-21"): "OTL"}   # Oct 21 was a shootout loss, wrongly stamped W
+RESULT_FIXES = {("Dmitri Ivchenko", "2026-10-21"): "OTL",   # Oct 21 was a shootout loss, wrongly stamped W
+                ("Ty Young", "2026-10-28"): "W"}             # Oct 28: win, 2 GA (EliteProspects was slow to post the record)
+GA_FIXES = {("Ty Young", "2026-10-28"): 2}
 for d in watch:
     for it in d["items"]:
-        fx = RESULT_FIXES.get((it["name"], d["date"]))
-        if it.get("k") == "G" and fx and it.get("res") != fx:
+        key = (it["name"], d["date"])
+        if it.get("k") != "G": continue
+        fx = RESULT_FIXES.get(key)
+        if fx and it.get("res") != fx:
             it["res"] = fx; it.pop("rec0", None); print("result corrected:", it["name"], d["date"], fx)
+            gg = data["goalies"].get(it["name"])
+            if gg and _last_g.get(it["name"]) is it: it["svp"] = gg["svp"]; it["gaa"] = gg["gaa"]
+        if key in GA_FIXES and it.get("ga") != GA_FIXES[key]:
+            it["ga"] = GA_FIXES[key]; print("GA corrected:", it["name"], d["date"], GA_FIXES[key])
 watch.sort(key=lambda d: d["date"], reverse=True)
 data["watch"] = watch[:7]
 # ---------------------------------------------------------------------------------------------

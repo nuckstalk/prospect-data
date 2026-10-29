@@ -133,6 +133,30 @@ for n in dropped:
     print("GP decreased for", n, "- treating it as a correction from EliteProspects and writing it")
 
 
+# ---- AHL players: the AHL's own stats (abby.json, from theahl.com's feed) replace the EliteProspects numbers ----
+AHLS, AHLG = {}, {}
+try:
+    _ab = json.load(open("abby.json", encoding="utf-8"))
+    AHLS = {norm(p["name"]): p for p in _ab.get("skaters", [])}
+    AHLG = {norm(p["name"]): p for p in _ab.get("goalies", [])}
+except Exception as e:
+    print("abby.json not available, keeping EliteProspects numbers for AHL players:", e)
+for n, r in data["skaters"].items():
+    a = AHLS.get(norm(n))
+    if r.get("lg") == "AHL" and a and a.get("gp") is not None:
+        r["gp"], r["g"], r["a"], r["tp"] = a["gp"], a["g"], a["a"], a["pts"]
+        r["pim"], r["pm"] = a.get("pim", r.get("pim", 0)), a.get("pm", r.get("pm", 0))
+        r["ppg"] = (a["pts"] / a["gp"]) if a["gp"] else 0
+        if r != old["skaters"][n]: print("AHL stats used for", n, ":", a["gp"], "GP", a["g"], "G", a["a"], "A")
+for n, r in data["goalies"].items():
+    a = AHLG.get(norm(n))
+    if r.get("lg") == "AHL" and a and a.get("gp") is not None:
+        r["gp"], r["gaa"], r["svp"], r["so"] = a["gp"], a["gaa"], a["svp"], a.get("so") or 0
+        r["rec"] = "%d-%d-%d" % (a.get("w") or 0, a.get("l") or 0, a.get("otl") or 0)
+        if a.get("log"): r["toi"] = round(sum(x[4] for x in a["log"]) / 60.0, 2)
+        if r != old["goalies"][n]: print("AHL stats used for", n, ":", a["gp"], "GP", r["rec"], r["gaa"], r["svp"])
+
+
 # ---- Prospect Watch: log who played since the last run, filed under the Pacific game date ----
 def parse_rec(r):
     try:
@@ -168,6 +192,11 @@ for n, r in data["goalies"].items():
                 if ga_new - ga_old >= 0: item["ga"] = ga_new - ga_old
         except Exception as e:
             print("GA calc skipped for", n, e)
+        ag = AHLG.get(norm(n)) if r.get("lg") == "AHL" else None
+        if ag and ag.get("log"):   # AHL game log has the decision and goals against for every game
+            lastg = ag["log"][:dgp]
+            item["ga"] = sum(x[3] for x in lastg)
+            if dgp == 1 and lastg[0][1]: item["res"] = lastg[0][1]; item.pop("rec0", None)
         if r.get("so", 0) > o.get("so", 0):
             item["so"] = r["so"] - o.get("so", 0)
             if item["so"] == dgp: item["ga"] = 0
@@ -210,21 +239,27 @@ for d in watch:
                 gg = data["goalies"][it["name"]]
                 it["res"] = res; it["svp"] = gg["svp"]; it["gaa"] = gg["gaa"]; it.pop("rec0", None)
                 print("result filled in:", it["name"], res)
-# one-off hand corrections to a goalie's logged result (confirmed from his game log): {(name, watch date): result}
-RESULT_FIXES = {("Dmitri Ivchenko", "2026-10-21"): "OTL",   # Oct 21 was a shootout loss, wrongly stamped W
-                ("Ty Young", "2026-10-28"): "W"}             # Oct 28: win, 2 GA (EliteProspects was slow to post the record)
-GA_FIXES = {("Ty Young", "2026-10-28"): 2}
+# AHL goalies: make every logged game match the AHL game log (result + goals against) for that date
 for d in watch:
     for it in d["items"]:
-        key = (it["name"], d["date"])
-        if it.get("k") != "G": continue
-        fx = RESULT_FIXES.get(key)
-        if fx and it.get("res") != fx:
+        ag = AHLG.get(norm(it["name"])) if it.get("k") == "G" and it.get("lg") == "AHL" else None
+        if ag and ag.get("log") and it.get("dgp") == 1:
+            hit = [x for x in ag["log"] if x[0] == d["date"]]
+            if len(hit) == 1:
+                if it.get("ga") != hit[0][3] or (hit[0][1] and it.get("res") != hit[0][1]):
+                    it["ga"] = hit[0][3]
+                    if hit[0][1]: it["res"] = hit[0][1]
+                    it.pop("rec0", None)
+                    if _last_g.get(it["name"]) is it:
+                        gg = data["goalies"][it["name"]]; it["svp"] = gg["svp"]; it["gaa"] = gg["gaa"]
+                    print("AHL game log applied:", it["name"], d["date"], it["res"], it["ga"], "GA")
+# one-off hand corrections to a goalie's logged result (confirmed from his game log): {(name, watch date): result}
+RESULT_FIXES = {("Dmitri Ivchenko", "2026-10-21"): "OTL"}   # Oct 21 was a shootout loss, wrongly stamped W
+for d in watch:
+    for it in d["items"]:
+        fx = RESULT_FIXES.get((it["name"], d["date"]))
+        if it.get("k") == "G" and fx and it.get("res") != fx:
             it["res"] = fx; it.pop("rec0", None); print("result corrected:", it["name"], d["date"], fx)
-            gg = data["goalies"].get(it["name"])
-            if gg and _last_g.get(it["name"]) is it: it["svp"] = gg["svp"]; it["gaa"] = gg["gaa"]
-        if key in GA_FIXES and it.get("ga") != GA_FIXES[key]:
-            it["ga"] = GA_FIXES[key]; print("GA corrected:", it["name"], d["date"], GA_FIXES[key])
 watch.sort(key=lambda d: d["date"], reverse=True)
 data["watch"] = watch[:7]
 # ---------------------------------------------------------------------------------------------

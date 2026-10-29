@@ -1437,18 +1437,18 @@
    "name": "Vilmer Alriksson",
    "id": "10117",
    "pos": "LW",
-   "gp": 8,
+   "gp": 9,
    "g": 2,
    "a": 1,
    "pts": 3,
    "pm": -3,
-   "pim": 10,
+   "pim": 27,
    "ppg": 0,
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 7,
-   "shp": 28.6,
+   "sog": 9,
+   "shp": 22.2,
    "toi": null,
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/10117.jpg",
@@ -1460,7 +1460,7 @@
      0,
      0,
      0,
-     0,
+     17,
      2,
      0,
      0
@@ -2119,7 +2119,7 @@
    "a": 1,
    "pts": 1,
    "pm": -2,
-   "pim": 20,
+   "pim": 25,
    "ppg": 0,
    "shg": 0,
    "gwg": null,
@@ -2137,7 +2137,7 @@
      1,
      1,
      1,
-     0,
+     5,
      1,
      0,
      0
@@ -2451,9 +2451,9 @@
     [
      "2026-10-28",
      "",
-     17,
+     20,
      2,
-     2594,
+     3028,
      0,
      1
     ],
@@ -2536,8 +2536,28 @@
    "l10": "6-4-0",
    "strk": "0-2-0-0",
    "lseq": 8,
-   "cseq": 4,
+   "cseq": 5,
    "dseq": 3
+  },
+  {
+   "abbr": "COL",
+   "name": "Colorado Eagles",
+   "nick": "Eagles",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 10,
+   "w": 6,
+   "l": 3,
+   "otl": 1,
+   "pts": 13,
+   "gf": 30,
+   "ga": 24,
+   "diff": 6,
+   "l10": "6-3-1",
+   "strk": "1-0-0-0",
+   "lseq": 7,
+   "cseq": 4,
+   "dseq": 2
   },
   {
    "abbr": "HER",
@@ -2565,18 +2585,18 @@
    "nick": "Checkers",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 9,
+   "gp": 10,
    "w": 6,
-   "l": 3,
+   "l": 4,
    "otl": 0,
    "pts": 12,
    "gf": 27,
    "ga": 25,
    "diff": 2,
-   "l10": "6-3-0",
-   "strk": "1-0-0-0",
-   "lseq": 6,
-   "cseq": 3,
+   "l10": "6-4-0",
+   "strk": "0-1-0-0",
+   "lseq": 13,
+   "cseq": 6,
    "dseq": 2
   },
   {
@@ -2620,26 +2640,6 @@
    "dseq": 1
   },
   {
-   "abbr": "COL",
-   "name": "Colorado Eagles",
-   "nick": "Eagles",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 9,
-   "w": 5,
-   "l": 3,
-   "otl": 1,
-   "pts": 11,
-   "gf": 30,
-   "ga": 24,
-   "diff": 6,
-   "l10": "5-3-1",
-   "strk": "0-2-0-0",
-   "lseq": 12,
-   "cseq": 7,
-   "dseq": 4
-  },
-  {
    "abbr": "TOR",
    "name": "Toronto Marlies",
    "nick": "Marlies",
@@ -2655,8 +2655,8 @@
    "diff": 2,
    "l10": "5-3-1",
    "strk": "0-1-1-0",
-   "lseq": 13,
-   "cseq": 6,
+   "lseq": 12,
+   "cseq": 5,
    "dseq": 4
   },
   {
@@ -2691,13 +2691,13 @@
    "otl": 2,
    "pts": 10,
    "gf": 28,
-   "ga": 18,
-   "diff": 10,
+   "ga": 19,
+   "diff": 9,
    "l10": "4-2-2",
    "strk": "4-0-2-0",
    "lseq": 11,
-   "cseq": 6,
-   "dseq": 3
+   "cseq": 7,
+   "dseq": 4
   },
   {
    "abbr": "ONT",
@@ -2716,8 +2716,8 @@
    "l10": "5-3-0",
    "strk": "0-1-0-0",
    "lseq": 10,
-   "cseq": 5,
-   "dseq": 2
+   "cseq": 6,
+   "dseq": 3
   },
   {
    "abbr": "BEL",
@@ -2756,7 +2756,7 @@
    "l10": "5-3-0",
    "strk": "0-1-0-0",
    "lseq": 9,
-   "cseq": 5,
+   "cseq": 4,
    "dseq": 3
   },
   {
@@ -2890,9 +2890,9 @@
    "l": 3,
    "otl": 3,
    "pts": 9,
-   "gf": 31,
+   "gf": 32,
    "ga": 41,
-   "diff": -10,
+   "diff": -9,
    "l10": "3-3-2-1",
    "strk": "0-1-0-0",
    "lseq": 23,
@@ -2915,8 +2915,8 @@
    "diff": -1,
    "l10": "4-2-0",
    "strk": "0-1-0-0",
-   "lseq": 7,
-   "cseq": 4,
+   "lseq": 6,
+   "cseq": 3,
    "dseq": 2
   },
   {
@@ -3134,5 +3134,5 @@
    "rank": 5
   }
  },
- "updated": "2026-10-29T04:00:21Z"
+ "updated": "2026-10-29T04:15:21Z"
 }

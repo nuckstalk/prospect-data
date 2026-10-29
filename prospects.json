@@ -294,13 +294,13 @@
    "ep": 27,
    "team": "Lausanne HC",
    "lg": "NL",
-   "gp": 18,
+   "gp": 19,
    "g": 2,
    "a": 1,
    "tp": 3,
-   "ppg": 0.16666666666666666,
+   "ppg": 0.15789473684210525,
    "pim": 52,
-   "pm": -4
+   "pm": -5
   }
  },
  "goalies": {
@@ -346,6 +346,24 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-10-29",
+   "items": [
+    {
+     "k": "S",
+     "name": "Basile Sansonnens",
+     "lg": "NL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 19,
+     "sg": 2,
+     "sa": 1,
+     "stp": 3
+    }
+   ]
+  },
   {
    "date": "2026-10-28",
    "items": [
@@ -1054,33 +1072,6 @@
      "sg": 1,
      "sa": 2,
      "stp": 3
-    }
-   ]
-  },
-  {
-   "date": "2026-10-21",
-   "items": [
-    {
-     "k": "G",
-     "name": "Dmitri Ivchenko",
-     "lg": "MHL",
-     "dgp": 1,
-     "res": "OTL",
-     "gaa": 3.17,
-     "svp": ".884",
-     "sgp": 10,
-     "ga": 5
-    },
-    {
-     "k": "G",
-     "name": "Alexei Medvedev",
-     "lg": "OHL",
-     "dgp": 1,
-     "res": "L",
-     "gaa": 3.24,
-     "svp": ".901",
-     "sgp": 6,
-     "ga": 4
     }
    ]
   }

@@ -2505,18 +2505,18 @@
    "nick": "Rocket",
    "div": "North",
    "conf": "Eastern",
-   "gp": 9,
+   "gp": 10,
    "w": 7,
-   "l": 2,
+   "l": 3,
    "otl": 0,
    "pts": 14,
    "gf": 37,
    "ga": 20,
    "diff": 17,
-   "l10": "7-2-0",
-   "strk": "0-1-0-0",
-   "lseq": 2,
-   "cseq": 1,
+   "l10": "7-3-0",
+   "strk": "0-2-0-0",
+   "lseq": 5,
+   "cseq": 2,
    "dseq": 1
   },
   {
@@ -2555,7 +2555,7 @@
    "diff": 8,
    "l10": "6-2-0-1",
    "strk": "6-0-0-0",
-   "lseq": 5,
+   "lseq": 4,
    "cseq": 3,
    "dseq": 1
   },
@@ -2595,9 +2595,29 @@
    "diff": 5,
    "l10": "6-2-0",
    "strk": "2-0-0-0",
-   "lseq": 3,
-   "cseq": 2,
+   "lseq": 2,
+   "cseq": 1,
    "dseq": 1
+  },
+  {
+   "abbr": "CGY",
+   "name": "Calgary Wranglers",
+   "nick": "Wranglers",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 11,
+   "w": 6,
+   "l": 5,
+   "otl": 0,
+   "pts": 12,
+   "gf": 37,
+   "ga": 34,
+   "diff": 3,
+   "l10": "5-5-0",
+   "strk": "1-0-0-0",
+   "lseq": 17,
+   "cseq": 9,
+   "dseq": 6
   },
   {
    "abbr": "TUC",
@@ -2655,7 +2675,7 @@
    "diff": 6,
    "l10": "6-2-0",
    "strk": "2-0-0-0",
-   "lseq": 4,
+   "lseq": 3,
    "cseq": 2,
    "dseq": 2
   },
@@ -2678,26 +2698,6 @@
    "lseq": 12,
    "cseq": 5,
    "dseq": 4
-  },
-  {
-   "abbr": "CGY",
-   "name": "Calgary Wranglers",
-   "nick": "Wranglers",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 10,
-   "w": 5,
-   "l": 5,
-   "otl": 0,
-   "pts": 10,
-   "gf": 37,
-   "ga": 34,
-   "diff": 3,
-   "l10": "5-5-0",
-   "strk": "0-3-0-0",
-   "lseq": 17,
-   "cseq": 9,
-   "dseq": 6
   },
   {
    "abbr": "HSK",
@@ -3123,7 +3123,7 @@
  "team": {
   "gf": {
    "v": 3.89,
-   "rank": 2
+   "rank": 1
   },
   "ga": {
    "v": 3.0,
@@ -3131,8 +3131,8 @@
   },
   "pt": {
    "v": 72.2,
-   "rank": 5
+   "rank": 4
   }
  },
- "updated": "2026-10-30T03:45:17Z"
+ "updated": "2026-10-30T04:00:17Z"
 }

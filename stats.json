@@ -3855,6 +3855,26 @@
    "lseq": 19
   },
   {
+   "abbr": "SJS",
+   "name": "San Jose Sharks",
+   "nick": "Sharks",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 14,
+   "w": 7,
+   "l": 6,
+   "otl": 1,
+   "pts": 15,
+   "gf": 40,
+   "ga": 47,
+   "diff": -7,
+   "l10": "4-5-1",
+   "strk": "W1",
+   "dseq": 4,
+   "cseq": 8,
+   "lseq": 20
+  },
+  {
    "abbr": "BUF",
    "name": "Buffalo Sabres",
    "nick": "Sabres",
@@ -3872,7 +3892,7 @@
    "strk": "W1",
    "dseq": 8,
    "cseq": 13,
-   "lseq": 20
+   "lseq": 21
   },
   {
    "abbr": "STL",
@@ -3891,8 +3911,8 @@
    "l10": "5-4-1",
    "strk": "W1",
    "dseq": 5,
-   "cseq": 8,
-   "lseq": 21
+   "cseq": 9,
+   "lseq": 22
   },
   {
    "abbr": "NSH",
@@ -3911,26 +3931,6 @@
    "l10": "3-3-4",
    "strk": "L1",
    "dseq": 6,
-   "cseq": 9,
-   "lseq": 22
-  },
-  {
-   "abbr": "SJS",
-   "name": "San Jose Sharks",
-   "nick": "Sharks",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 13,
-   "w": 6,
-   "l": 6,
-   "otl": 1,
-   "pts": 13,
-   "gf": 37,
-   "ga": 45,
-   "diff": -8,
-   "l10": "4-5-1",
-   "strk": "L2",
-   "dseq": 4,
    "cseq": 10,
    "lseq": 23
   },
@@ -4100,16 +4100,16 @@
    "nick": "Canucks",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 14,
+   "gp": 15,
    "w": 3,
-   "l": 10,
+   "l": 11,
    "otl": 1,
    "pts": 7,
-   "gf": 43,
-   "ga": 65,
-   "diff": -22,
+   "gf": 45,
+   "ga": 68,
+   "diff": -23,
    "l10": "1-8-1",
-   "strk": "W1",
+   "strk": "L1",
    "dseq": 8,
    "cseq": 16,
    "lseq": 32
@@ -4149,5 +4149,5 @@
    "rank": 32
   }
  },
- "updated": "2026-10-30T03:15:15Z"
+ "updated": "2026-10-30T04:45:14Z"
 }

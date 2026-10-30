@@ -3495,6 +3495,26 @@
    "lseq": 1
   },
   {
+   "abbr": "MIN",
+   "name": "Minnesota Wild",
+   "nick": "Wild",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 15,
+   "w": 9,
+   "l": 3,
+   "otl": 3,
+   "pts": 21,
+   "gf": 47,
+   "ga": 35,
+   "diff": 12,
+   "l10": "6-2-2",
+   "strk": "OT1",
+   "dseq": 1,
+   "cseq": 1,
+   "lseq": 2
+  },
+  {
    "abbr": "EDM",
    "name": "Edmonton Oilers",
    "nick": "Oilers",
@@ -3511,26 +3531,6 @@
    "l10": "7-2-1",
    "strk": "W1",
    "dseq": 1,
-   "cseq": 1,
-   "lseq": 2
-  },
-  {
-   "abbr": "MIN",
-   "name": "Minnesota Wild",
-   "nick": "Wild",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 14,
-   "w": 9,
-   "l": 3,
-   "otl": 2,
-   "pts": 20,
-   "gf": 44,
-   "ga": 31,
-   "diff": 13,
-   "l10": "7-2-1",
-   "strk": "W3",
-   "dseq": 1,
    "cseq": 2,
    "lseq": 3
   },
@@ -3540,16 +3540,16 @@
    "nick": "Bruins",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 13,
+   "gp": 14,
    "w": 9,
-   "l": 3,
+   "l": 4,
    "otl": 1,
    "pts": 19,
-   "gf": 49,
-   "ga": 28,
-   "diff": 21,
+   "gf": 50,
+   "ga": 32,
+   "diff": 18,
    "l10": "7-2-1",
-   "strk": "L1",
+   "strk": "L2",
    "dseq": 1,
    "cseq": 2,
    "lseq": 4
@@ -3715,6 +3715,26 @@
    "lseq": 12
   },
   {
+   "abbr": "NYI",
+   "name": "New York Islanders",
+   "nick": "Islanders",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 13,
+   "w": 7,
+   "l": 4,
+   "otl": 2,
+   "pts": 16,
+   "gf": 40,
+   "ga": 35,
+   "diff": 5,
+   "l10": "6-2-2",
+   "strk": "W2",
+   "dseq": 3,
+   "cseq": 8,
+   "lseq": 13
+  },
+  {
    "abbr": "TOR",
    "name": "Toronto Maple Leafs",
    "nick": "Maple Leafs",
@@ -3731,8 +3751,8 @@
    "l10": "5-4-1",
    "strk": "L2",
    "dseq": 6,
-   "cseq": 8,
-   "lseq": 13
+   "cseq": 9,
+   "lseq": 14
   },
   {
    "abbr": "COL",
@@ -3752,7 +3772,7 @@
    "strk": "W1",
    "dseq": 3,
    "cseq": 6,
-   "lseq": 14
+   "lseq": 15
   },
   {
    "abbr": "DAL",
@@ -3772,7 +3792,7 @@
    "strk": "L2",
    "dseq": 4,
    "cseq": 7,
-   "lseq": 15
+   "lseq": 16
   },
   {
    "abbr": "DET",
@@ -3791,8 +3811,8 @@
    "l10": "5-2-3",
    "strk": "W2",
    "dseq": 7,
-   "cseq": 9,
-   "lseq": 16
+   "cseq": 10,
+   "lseq": 17
   },
   {
    "abbr": "NYR",
@@ -3810,9 +3830,9 @@
    "diff": 2,
    "l10": "4-5-1",
    "strk": "L3",
-   "dseq": 3,
-   "cseq": 10,
-   "lseq": 17
+   "dseq": 4,
+   "cseq": 11,
+   "lseq": 18
   },
   {
    "abbr": "WSH",
@@ -3830,26 +3850,6 @@
    "diff": 5,
    "l10": "6-4-0",
    "strk": "W2",
-   "dseq": 4,
-   "cseq": 11,
-   "lseq": 18
-  },
-  {
-   "abbr": "NYI",
-   "name": "New York Islanders",
-   "nick": "Islanders",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 12,
-   "w": 6,
-   "l": 4,
-   "otl": 2,
-   "pts": 14,
-   "gf": 36,
-   "ga": 32,
-   "diff": 4,
-   "l10": "5-3-2",
-   "strk": "W1",
    "dseq": 5,
    "cseq": 12,
    "lseq": 19
@@ -3895,6 +3895,26 @@
    "lseq": 21
   },
   {
+   "abbr": "STL",
+   "name": "St. Louis Blues",
+   "nick": "Blues",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 13,
+   "w": 6,
+   "l": 6,
+   "otl": 1,
+   "pts": 13,
+   "gf": 39,
+   "ga": 38,
+   "diff": 1,
+   "l10": "5-4-1",
+   "strk": "W1",
+   "dseq": 6,
+   "cseq": 9,
+   "lseq": 22
+  },
+  {
    "abbr": "SJS",
    "name": "San Jose Sharks",
    "nick": "Sharks",
@@ -3911,8 +3931,8 @@
    "l10": "4-5-1",
    "strk": "L2",
    "dseq": 4,
-   "cseq": 9,
-   "lseq": 22
+   "cseq": 10,
+   "lseq": 23
   },
   {
    "abbr": "PIT",
@@ -3932,26 +3952,6 @@
    "strk": "OT1",
    "dseq": 6,
    "cseq": 14,
-   "lseq": 23
-  },
-  {
-   "abbr": "STL",
-   "name": "St. Louis Blues",
-   "nick": "Blues",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 12,
-   "w": 5,
-   "l": 6,
-   "otl": 1,
-   "pts": 11,
-   "gf": 35,
-   "ga": 37,
-   "diff": -2,
-   "l10": "4-5-1",
-   "strk": "L2",
-   "dseq": 6,
-   "cseq": 10,
    "lseq": 24
   },
   {
@@ -4149,5 +4149,5 @@
    "rank": 32
   }
  },
- "updated": "2026-10-30T02:45:16Z"
+ "updated": "2026-10-30T02:53:49Z"
 }

@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-30T02:15:19Z",
+ "updated": "2026-10-30T04:30:20Z",
  "results": [
+  {
+   "opp": "San Jose Sharks",
+   "abbr": "SJS",
+   "home": false,
+   "date": "Oct 29",
+   "us": 2,
+   "them": 3,
+   "res": "L"
+  },
   {
    "opp": "Anaheim Ducks",
    "abbr": "ANA",
@@ -17,15 +26,6 @@
    "date": "Oct 25",
    "us": 2,
    "them": 4,
-   "res": "L"
-  },
-  {
-   "opp": "Detroit Red Wings",
-   "abbr": "DET",
-   "home": true,
-   "date": "Oct 22",
-   "us": 2,
-   "them": 5,
    "res": "L"
   }
  ],

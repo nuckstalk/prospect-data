@@ -256,6 +256,8 @@ def career_of(resp, goalie):
     out = []
     for r in rows:
         if str(g(r, "playoff", default="0")) in ("1", "True", "true"): continue
+        lg = str(g(r, "league_code", "league_name", "league", default="")).lower()
+        if lg and "ahl" not in lg and "american hockey" not in lg: continue   # AHL seasons only
         season = str(g(r, "season_name", "season", default=""))
         team = str(g(r, "team_name", "team_city", "team", "team_code", default=""))
         gp = ival(r, "games_played", "gp")

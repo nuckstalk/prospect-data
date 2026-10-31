@@ -21,6 +21,40 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/10089.jpg",
    "bd": "2003-02-26",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     10,
+     6,
+     4,
+     10
+    ],
+    [
+     "2025-26 Regular Season",
+     "Abbotsford Canucks",
+     61,
+     16,
+     21,
+     37
+    ],
+    [
+     "2024-25 Regular Season",
+     "Abbotsford Canucks",
+     64,
+     12,
+     27,
+     39
+    ],
+    [
+     "Total",
+     "",
+     135,
+     34,
+     52,
+     86
+    ]
+   ],
    "log": [
     [
      "2026-10-30",
@@ -29,7 +63,7 @@
      2,
      2,
      0,
-     1,
+     2,
      0,
      0
     ],
@@ -129,6 +163,165 @@
      -1,
      0,
      3,
+     0,
+     0
+    ]
+   ]
+  },
+  {
+   "name": "Riley Patterson",
+   "id": "11053",
+   "pos": "C",
+   "gp": 10,
+   "g": 4,
+   "a": 5,
+   "pts": 9,
+   "pm": 7,
+   "pim": 4,
+   "ppg": 1,
+   "shg": 0,
+   "gwg": null,
+   "otg": null,
+   "sog": 15,
+   "shp": 26.7,
+   "toi": null,
+   "fo": null,
+   "img": "https://assets.leaguestat.com/ahl/240x240/11053.jpg",
+   "bd": "2006-03-22",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     10,
+     4,
+     5,
+     9
+    ],
+    [
+     "2025-26 Regular Season",
+     "Abbotsford Canucks",
+     4,
+     1,
+     1,
+     2
+    ],
+    [
+     "Total",
+     "",
+     14,
+     5,
+     6,
+     11
+    ]
+   ],
+   "log": [
+    [
+     "2026-10-30",
+     1,
+     0,
+     1,
+     1,
+     0,
+     2,
+     1,
+     0
+    ],
+    [
+     "2026-10-28",
+     1,
+     1,
+     2,
+     2,
+     0,
+     2,
+     0,
+     0
+    ],
+    [
+     "2026-10-25",
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     0,
+     0
+    ],
+    [
+     "2026-10-24",
+     0,
+     1,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     "2026-10-18",
+     1,
+     0,
+     1,
+     0,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     "2026-10-17",
+     1,
+     0,
+     1,
+     1,
+     0,
+     2,
+     0,
+     0
+    ],
+    [
+     "2026-10-10",
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     "2026-10-09",
+     0,
+     2,
+     2,
+     1,
+     4,
+     1,
+     0,
+     0
+    ],
+    [
+     "2026-10-03",
+     0,
+     0,
+     0,
+     0,
+     0,
+     3,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     0,
+     1,
+     1,
+     1,
+     0,
+     2,
      0,
      0
     ]
@@ -154,139 +347,80 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/7669.jpg",
    "bd": "1999-05-26",
-   "log": [
+   "career": [
     [
-     "2026-10-30",
-     0,
-     0,
-     0,
-     1,
-     0,
-     1,
-     0,
-     0
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     10,
+     3,
+     6,
+     9
     ],
     [
-     "2026-10-28",
-     0,
-     0,
-     0,
-     -1,
-     0,
-     2,
-     0,
-     0
+     "2025-26 Regular Season",
+     "Hartford Wolf Pack",
+     72,
+     31,
+     24,
+     55
     ],
     [
-     "2026-10-25",
-     1,
-     2,
-     3,
-     3,
-     0,
-     3,
-     0,
-     0
+     "2024-25 Regular Season",
+     "Cleveland Monsters",
+     65,
+     26,
+     34,
+     60
     ],
     [
-     "2026-10-24",
-     0,
-     0,
-     0,
-     1,
-     0,
-     3,
-     0,
-     0
+     "2023-24 Regular Season",
+     "Cleveland Monsters",
+     58,
+     26,
+     34,
+     60
     ],
     [
-     "2026-10-18",
-     2,
-     0,
-     2,
-     0,
-     0,
-     3,
-     1,
-     0
+     "2022-23 Regular Season",
+     "Cleveland Monsters",
+     61,
+     29,
+     42,
+     71
     ],
     [
-     "2026-10-17",
-     0,
-     0,
-     0,
-     0,
-     0,
-     3,
-     0,
-     0
+     "2021-22 Regular Season",
+     "Cleveland Monsters",
+     53,
+     15,
+     18,
+     33
     ],
     [
-     "2026-10-10",
-     0,
-     2,
-     2,
-     3,
-     0,
+     "2020-21 Regular Season",
+     "Cleveland Monsters",
+     9,
      4,
-     0,
-     0
+     5,
+     9
     ],
     [
-     "2026-10-09",
-     0,
-     1,
-     1,
-     0,
-     0,
-     3,
-     0,
-     0
+     "2019-20 Regular Season",
+     "Cleveland Monsters",
+     43,
+     12,
+     14,
+     26
     ],
     [
-     "2026-10-03",
-     0,
-     0,
-     0,
-     -1,
-     0,
-     0,
-     0,
-     0
-    ],
-    [
-     "2026-10-02",
-     0,
-     1,
-     1,
-     0,
-     0,
-     4,
-     0,
-     0
+     "Total",
+     "",
+     371,
+     146,
+     177,
+     323
     ]
-   ]
-  },
-  {
-   "name": "Riley Patterson",
-   "id": "11053",
-   "pos": "C",
-   "gp": 10,
-   "g": 3,
-   "a": 5,
-   "pts": 8,
-   "pm": 7,
-   "pim": 4,
-   "ppg": 0,
-   "shg": 0,
-   "gwg": null,
-   "otg": null,
-   "sog": 13,
-   "shp": 23.1,
-   "toi": null,
-   "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/11053.jpg",
-   "bd": "2006-03-22",
+   ],
    "log": [
     [
      "2026-10-30",
@@ -295,16 +429,16 @@
      0,
      1,
      0,
-     1,
+     2,
      0,
      0
     ],
     [
      "2026-10-28",
-     1,
-     1,
-     2,
-     2,
+     0,
+     0,
+     0,
+     -1,
      0,
      2,
      0,
@@ -312,72 +446,39 @@
     ],
     [
      "2026-10-25",
-     0,
-     0,
-     0,
-     0,
-     0,
+     1,
      2,
+     3,
+     3,
+     0,
+     3,
      0,
      0
     ],
     [
      "2026-10-24",
      0,
-     1,
-     1,
-     1,
      0,
      0,
+     1,
+     0,
+     3,
      0,
      0
     ],
     [
      "2026-10-18",
+     2,
+     0,
+     2,
+     0,
+     0,
+     3,
      1,
-     0,
-     1,
-     0,
-     0,
-     1,
-     0,
      0
     ],
     [
      "2026-10-17",
-     1,
-     0,
-     1,
-     1,
-     0,
-     2,
-     0,
-     0
-    ],
-    [
-     "2026-10-10",
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    [
-     "2026-10-09",
-     0,
-     2,
-     2,
-     1,
-     4,
-     1,
-     0,
-     0
-    ],
-    [
-     "2026-10-03",
      0,
      0,
      0,
@@ -388,13 +489,46 @@
      0
     ],
     [
+     "2026-10-10",
+     0,
+     2,
+     2,
+     3,
+     0,
+     4,
+     0,
+     0
+    ],
+    [
+     "2026-10-09",
+     0,
+     1,
+     1,
+     0,
+     0,
+     3,
+     0,
+     0
+    ],
+    [
+     "2026-10-03",
+     0,
+     0,
+     0,
+     -1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
      "2026-10-02",
      0,
      1,
      1,
-     1,
      0,
-     2,
+     0,
+     4,
      0,
      0
     ]
@@ -420,6 +554,72 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/8916.jpg",
    "bd": "2000-02-29",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     10,
+     1,
+     7,
+     8
+    ],
+    [
+     "2025-26 Regular Season",
+     "Abbotsford Canucks",
+     32,
+     0,
+     6,
+     6
+    ],
+    [
+     "2025-26 Regular Season",
+     "San Jose Barracuda",
+     33,
+     2,
+     3,
+     5
+    ],
+    [
+     "2024-25 Regular Season",
+     "Cleveland Monsters",
+     63,
+     1,
+     14,
+     15
+    ],
+    [
+     "2023-24 Regular Season",
+     "Cleveland Monsters",
+     59,
+     5,
+     15,
+     20
+    ],
+    [
+     "2022-23 Regular Season",
+     "Cleveland Monsters",
+     47,
+     4,
+     6,
+     10
+    ],
+    [
+     "2021-22 Regular Season",
+     "Cleveland Monsters",
+     55,
+     2,
+     14,
+     16
+    ],
+    [
+     "Total",
+     "",
+     299,
+     15,
+     65,
+     80
+    ]
+   ],
    "log": [
     [
      "2026-10-30",
@@ -553,6 +753,56 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/10091.jpg",
    "bd": "2002-02-02",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     5,
+     5,
+     2,
+     7
+    ],
+    [
+     "2026-27 Regular Season",
+     "Toronto Marlies",
+     4,
+     0,
+     0,
+     0
+    ],
+    [
+     "2025-26 Regular Season",
+     "Toronto Marlies",
+     40,
+     14,
+     22,
+     36
+    ],
+    [
+     "2024-25 Regular Season",
+     "Toronto Marlies",
+     67,
+     18,
+     19,
+     37
+    ],
+    [
+     "2023-24 Regular Season",
+     "Toronto Marlies",
+     7,
+     0,
+     1,
+     1
+    ],
+    [
+     "Total",
+     "",
+     123,
+     37,
+     44,
+     81
+    ]
+   ],
    "log": [
     [
      "2026-10-28",
@@ -675,6 +925,96 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/7101.jpg",
    "bd": "1998-10-16",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     10,
+     3,
+     4,
+     7
+    ],
+    [
+     "2025-26 Regular Season",
+     "Texas Stars",
+     70,
+     11,
+     24,
+     35
+    ],
+    [
+     "2024-25 Regular Season",
+     "Texas Stars",
+     71,
+     23,
+     29,
+     52
+    ],
+    [
+     "2023-24 Regular Season",
+     "Coachella Valley Firebirds",
+     69,
+     17,
+     48,
+     65
+    ],
+    [
+     "2022-23 Regular Season",
+     "Coachella Valley Firebirds",
+     72,
+     30,
+     32,
+     62
+    ],
+    [
+     "2021-22 Regular Season",
+     "Charlotte Checkers",
+     46,
+     17,
+     18,
+     35
+    ],
+    [
+     "2020-21 Regular Season",
+     "Utica Comets",
+     8,
+     5,
+     3,
+     8
+    ],
+    [
+     "2019-20 Regular Season",
+     "Utica Comets",
+     61,
+     14,
+     30,
+     44
+    ],
+    [
+     "2018-19 Regular Season",
+     "Utica Comets",
+     51,
+     5,
+     12,
+     17
+    ],
+    [
+     "2017-18 Regular Season",
+     "Utica Comets",
+     6,
+     0,
+     1,
+     1
+    ],
+    [
+     "Total",
+     "",
+     464,
+     125,
+     201,
+     326
+    ]
+   ],
    "log": [
     [
      "2026-10-30",
@@ -808,6 +1148,24 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/11363.jpg",
    "bd": "2007-02-09",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     6,
+     3,
+     3,
+     6
+    ],
+    [
+     "Total",
+     "",
+     6,
+     3,
+     3,
+     6
+    ]
+   ],
    "log": [
     [
      "2026-10-18",
@@ -897,6 +1255,40 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/10077.jpg",
    "bd": "2005-04-30",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     9,
+     1,
+     5,
+     6
+    ],
+    [
+     "2025-26 Regular Season",
+     "Abbotsford Canucks",
+     58,
+     3,
+     18,
+     21
+    ],
+    [
+     "2023-24 Regular Season",
+     "Abbotsford Canucks",
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     "Total",
+     "",
+     68,
+     4,
+     23,
+     27
+    ]
+   ],
    "log": [
     [
      "2026-10-30",
@@ -1000,6 +1392,301 @@
    ]
   },
   {
+   "name": "Kirill Kudryavtsev",
+   "id": "10452",
+   "pos": "D",
+   "gp": 5,
+   "g": 0,
+   "a": 6,
+   "pts": 6,
+   "pm": 1,
+   "pim": 4,
+   "ppg": 0,
+   "shg": 0,
+   "gwg": null,
+   "otg": null,
+   "sog": 5,
+   "shp": 0.0,
+   "toi": null,
+   "fo": null,
+   "img": "https://assets.leaguestat.com/ahl/240x240/10452.jpg",
+   "bd": "2004-02-05",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     5,
+     0,
+     6,
+     6
+    ],
+    [
+     "2025-26 Regular Season",
+     "Abbotsford Canucks",
+     44,
+     2,
+     18,
+     20
+    ],
+    [
+     "2024-25 Regular Season",
+     "Abbotsford Canucks",
+     65,
+     5,
+     21,
+     26
+    ],
+    [
+     "Total",
+     "",
+     114,
+     7,
+     45,
+     52
+    ]
+   ],
+   "log": [
+    [
+     "2026-10-30",
+     0,
+     2,
+     2,
+     1,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     "2026-10-28",
+     0,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     "2026-10-09",
+     0,
+     1,
+     1,
+     -1,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     "2026-10-03",
+     0,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     0,
+     1,
+     1,
+     1,
+     4,
+     3,
+     0,
+     0
+    ]
+   ]
+  },
+  {
+   "name": "Gavin White",
+   "id": "9962",
+   "pos": "D",
+   "gp": 10,
+   "g": 2,
+   "a": 3,
+   "pts": 5,
+   "pm": 5,
+   "pim": 0,
+   "ppg": 0,
+   "shg": 0,
+   "gwg": null,
+   "otg": null,
+   "sog": 20,
+   "shp": 10.0,
+   "toi": null,
+   "fo": null,
+   "img": "https://assets.leaguestat.com/ahl/240x240/9962.jpg",
+   "bd": "2002-11-12",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     10,
+     2,
+     3,
+     5
+    ],
+    [
+     "2025-26 Regular Season",
+     "Calgary Wranglers",
+     28,
+     0,
+     7,
+     7
+    ],
+    [
+     "2025-26 Regular Season",
+     "Texas Stars",
+     23,
+     3,
+     2,
+     5
+    ],
+    [
+     "2024-25 Regular Season",
+     "Texas Stars",
+     46,
+     2,
+     9,
+     11
+    ],
+    [
+     "2023-24 Regular Season",
+     "Texas Stars",
+     49,
+     0,
+     11,
+     11
+    ],
+    [
+     "Total",
+     "",
+     156,
+     7,
+     32,
+     39
+    ]
+   ],
+   "log": [
+    [
+     "2026-10-30",
+     0,
+     1,
+     1,
+     3,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     "2026-10-28",
+     0,
+     1,
+     1,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     "2026-10-25",
+     0,
+     0,
+     0,
+     2,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     "2026-10-24",
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     0,
+     0
+    ],
+    [
+     "2026-10-18",
+     0,
+     0,
+     0,
+     -1,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     "2026-10-17",
+     2,
+     1,
+     3,
+     2,
+     0,
+     7,
+     0,
+     0
+    ],
+    [
+     "2026-10-10",
+     0,
+     0,
+     0,
+     -1,
+     0,
+     2,
+     0,
+     0
+    ],
+    [
+     "2026-10-09",
+     0,
+     0,
+     0,
+     1,
+     0,
+     1,
+     0,
+     0
+    ],
+    [
+     "2026-10-03",
+     0,
+     0,
+     0,
+     1,
+     0,
+     4,
+     0,
+     0
+    ],
+    [
+     "2026-10-02",
+     0,
+     0,
+     0,
+     -3,
+     0,
+     2,
+     0,
+     0
+    ]
+   ]
+  },
+  {
    "name": "Jimmy Schuldt",
    "id": "7767",
    "pos": "D",
@@ -1019,6 +1706,80 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/7767.jpg",
    "bd": "1995-05-11",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     10,
+     2,
+     3,
+     5
+    ],
+    [
+     "2025-26 Regular Season",
+     "Abbotsford Canucks",
+     70,
+     3,
+     15,
+     18
+    ],
+    [
+     "2024-25 Regular Season",
+     "San Jose Barracuda",
+     64,
+     6,
+     15,
+     21
+    ],
+    [
+     "2023-24 Regular Season",
+     "Coachella Valley Firebirds",
+     68,
+     5,
+     19,
+     24
+    ],
+    [
+     "2022-23 Regular Season",
+     "Coachella Valley Firebirds",
+     71,
+     8,
+     24,
+     32
+    ],
+    [
+     "2021-22 Regular Season",
+     "Rochester Americans",
+     61,
+     5,
+     12,
+     17
+    ],
+    [
+     "2020-21 Regular Season",
+     "Henderson Silver Knights",
+     38,
+     6,
+     8,
+     14
+    ],
+    [
+     "2019-20 Regular Season",
+     "Chicago Wolves",
+     52,
+     6,
+     15,
+     21
+    ],
+    [
+     "Total",
+     "",
+     434,
+     41,
+     111,
+     152
+    ]
+   ],
    "log": [
     [
      "2026-10-30",
@@ -1152,6 +1913,32 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/10974.jpg",
    "bd": "2003-04-15",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     6,
+     1,
+     4,
+     5
+    ],
+    [
+     "2025-26 Regular Season",
+     "Abbotsford Canucks",
+     13,
+     5,
+     6,
+     11
+    ],
+    [
+     "Total",
+     "",
+     19,
+     6,
+     10,
+     16
+    ]
+   ],
    "log": [
     [
      "2026-10-18",
@@ -1222,84 +2009,6 @@
    ]
   },
   {
-   "name": "Kirill Kudryavtsev",
-   "id": "10452",
-   "pos": "D",
-   "gp": 5,
-   "g": 0,
-   "a": 5,
-   "pts": 5,
-   "pm": 1,
-   "pim": 4,
-   "ppg": 0,
-   "shg": 0,
-   "gwg": null,
-   "otg": null,
-   "sog": 4,
-   "shp": 0.0,
-   "toi": null,
-   "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/10452.jpg",
-   "bd": "2004-02-05",
-   "log": [
-    [
-     "2026-10-30",
-     0,
-     1,
-     1,
-     1,
-     0,
-     1,
-     0,
-     0
-    ],
-    [
-     "2026-10-28",
-     0,
-     1,
-     1,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    [
-     "2026-10-09",
-     0,
-     1,
-     1,
-     -1,
-     0,
-     1,
-     0,
-     0
-    ],
-    [
-     "2026-10-03",
-     0,
-     1,
-     1,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    [
-     "2026-10-02",
-     0,
-     1,
-     1,
-     1,
-     4,
-     3,
-     0,
-     0
-    ]
-   ]
-  },
-  {
    "name": "Ben Berard",
    "id": "9674",
    "pos": "LW",
@@ -1319,6 +2028,56 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/9674.jpg",
    "bd": "1999-02-13",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     10,
+     3,
+     1,
+     4
+    ],
+    [
+     "2025-26 Regular Season",
+     "Abbotsford Canucks",
+     63,
+     20,
+     17,
+     37
+    ],
+    [
+     "2024-25 Regular Season",
+     "Abbotsford Canucks",
+     4,
+     2,
+     0,
+     2
+    ],
+    [
+     "2023-24 Regular Season",
+     "Texas Stars",
+     30,
+     1,
+     3,
+     4
+    ],
+    [
+     "2022-23 Regular Season",
+     "Texas Stars",
+     2,
+     0,
+     1,
+     1
+    ],
+    [
+     "Total",
+     "",
+     109,
+     26,
+     22,
+     48
+    ]
+   ],
    "log": [
     [
      "2026-10-30",
@@ -1433,139 +2192,6 @@
    ]
   },
   {
-   "name": "Gavin White",
-   "id": "9962",
-   "pos": "D",
-   "gp": 10,
-   "g": 2,
-   "a": 2,
-   "pts": 4,
-   "pm": 5,
-   "pim": 0,
-   "ppg": 0,
-   "shg": 0,
-   "gwg": null,
-   "otg": null,
-   "sog": 20,
-   "shp": 10.0,
-   "toi": null,
-   "fo": null,
-   "img": "https://assets.leaguestat.com/ahl/240x240/9962.jpg",
-   "bd": "2002-11-12",
-   "log": [
-    [
-     "2026-10-30",
-     0,
-     0,
-     0,
-     3,
-     0,
-     0,
-     0,
-     0
-    ],
-    [
-     "2026-10-28",
-     0,
-     1,
-     1,
-     1,
-     0,
-     0,
-     0,
-     0
-    ],
-    [
-     "2026-10-25",
-     0,
-     0,
-     0,
-     2,
-     0,
-     1,
-     0,
-     0
-    ],
-    [
-     "2026-10-24",
-     0,
-     0,
-     0,
-     0,
-     0,
-     2,
-     0,
-     0
-    ],
-    [
-     "2026-10-18",
-     0,
-     0,
-     0,
-     -1,
-     0,
-     1,
-     0,
-     0
-    ],
-    [
-     "2026-10-17",
-     2,
-     1,
-     3,
-     2,
-     0,
-     7,
-     0,
-     0
-    ],
-    [
-     "2026-10-10",
-     0,
-     0,
-     0,
-     -1,
-     0,
-     2,
-     0,
-     0
-    ],
-    [
-     "2026-10-09",
-     0,
-     0,
-     0,
-     1,
-     0,
-     1,
-     0,
-     0
-    ],
-    [
-     "2026-10-03",
-     0,
-     0,
-     0,
-     1,
-     0,
-     4,
-     0,
-     0
-    ],
-    [
-     "2026-10-02",
-     0,
-     0,
-     0,
-     -3,
-     0,
-     2,
-     0,
-     0
-    ]
-   ]
-  },
-  {
    "name": "Anri Ravinskis",
    "id": "10919",
    "pos": "LW",
@@ -1585,6 +2211,32 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/10919.jpg",
    "bd": "2003-01-02",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     8,
+     0,
+     4,
+     4
+    ],
+    [
+     "2025-26 Regular Season",
+     "Abbotsford Canucks",
+     32,
+     2,
+     2,
+     4
+    ],
+    [
+     "Total",
+     "",
+     40,
+     2,
+     6,
+     8
+    ]
+   ],
    "log": [
     [
      "2026-10-30",
@@ -1696,6 +2348,24 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/11362.jpg",
    "bd": "2001-05-30",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     10,
+     0,
+     4,
+     4
+    ],
+    [
+     "Total",
+     "",
+     10,
+     0,
+     4,
+     4
+    ]
+   ],
    "log": [
     [
      "2026-10-30",
@@ -1829,6 +2499,32 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/10117.jpg",
    "bd": "2005-02-18",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     9,
+     2,
+     1,
+     3
+    ],
+    [
+     "2025-26 Regular Season",
+     "Abbotsford Canucks",
+     43,
+     6,
+     3,
+     9
+    ],
+    [
+     "Total",
+     "",
+     52,
+     8,
+     4,
+     12
+    ]
+   ],
    "log": [
     [
      "2026-10-30",
@@ -1962,6 +2658,32 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/10616.jpg",
    "bd": "2000-10-31",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     7,
+     1,
+     2,
+     3
+    ],
+    [
+     "2025-26 Regular Season",
+     "Ontario Reign",
+     15,
+     2,
+     3,
+     5
+    ],
+    [
+     "Total",
+     "",
+     22,
+     3,
+     5,
+     8
+    ]
+   ],
    "log": [
     [
      "2026-10-30",
@@ -2062,6 +2784,40 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/10146.jpg",
    "bd": "2003-05-22",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     7,
+     0,
+     2,
+     2
+    ],
+    [
+     "2025-26 Regular Season",
+     "Abbotsford Canucks",
+     64,
+     3,
+     4,
+     7
+    ],
+    [
+     "2024-25 Regular Season",
+     "Abbotsford Canucks",
+     10,
+     1,
+     0,
+     1
+    ],
+    [
+     "Total",
+     "",
+     81,
+     4,
+     6,
+     10
+    ]
+   ],
    "log": [
     [
      "2026-10-25",
@@ -2162,6 +2918,64 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/7696.jpg",
    "bd": "2000-02-08",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     10,
+     1,
+     0,
+     1
+    ],
+    [
+     "2025-26 Regular Season",
+     "Abbotsford Canucks",
+     70,
+     11,
+     15,
+     26
+    ],
+    [
+     "2024-25 Regular Season",
+     "Abbotsford Canucks",
+     72,
+     10,
+     18,
+     28
+    ],
+    [
+     "2023-24 Regular Season",
+     "Abbotsford Canucks",
+     66,
+     9,
+     14,
+     23
+    ],
+    [
+     "2022-23 Regular Season",
+     "Abbotsford Canucks",
+     70,
+     8,
+     17,
+     25
+    ],
+    [
+     "2021-22 Regular Season",
+     "Abbotsford Canucks",
+     60,
+     5,
+     13,
+     18
+    ],
+    [
+     "Total",
+     "",
+     348,
+     44,
+     77,
+     121
+    ]
+   ],
    "log": [
     [
      "2026-10-30",
@@ -2295,6 +3109,24 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/11277.jpg",
    "bd": "2006-09-17",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     1,
+     0,
+     1,
+     1
+    ],
+    [
+     "Total",
+     "",
+     1,
+     0,
+     1,
+     1
+    ]
+   ],
    "log": [
     [
      "2026-10-30",
@@ -2340,6 +3172,32 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/10973.jpg",
    "bd": "2001-08-10",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     3,
+     0,
+     0,
+     0
+    ],
+    [
+     "2025-26 Regular Season",
+     "Abbotsford Canucks",
+     13,
+     0,
+     1,
+     1
+    ],
+    [
+     "Total",
+     "",
+     16,
+     0,
+     1,
+     1
+    ]
+   ],
    "log": [
     [
      "2026-10-30",
@@ -2407,6 +3265,48 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/9803.jpg",
    "bd": "2002-11-26",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     "2025-26 Regular Season",
+     "Rochester Americans",
+     36,
+     1,
+     5,
+     6
+    ],
+    [
+     "2024-25 Regular Season",
+     "Wilkes-Barre/Scranton Penguins",
+     22,
+     1,
+     6,
+     7
+    ],
+    [
+     "2023-24 Regular Season",
+     "Wilkes-Barre/Scranton Penguins",
+     2,
+     0,
+     0,
+     0
+    ],
+    [
+     "Total",
+     "",
+     62,
+     2,
+     11,
+     13
+    ]
+   ],
    "log": [
     [
      "2026-10-09",
@@ -2452,6 +3352,56 @@
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/9683.jpg",
    "bd": "2000-10-07",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     8,
+     0,
+     0,
+     0
+    ],
+    [
+     "2025-26 Regular Season",
+     "Colorado Eagles",
+     8,
+     2,
+     1,
+     3
+    ],
+    [
+     "2024-25 Regular Season",
+     "Colorado Eagles",
+     5,
+     1,
+     2,
+     3
+    ],
+    [
+     "2023-24 Regular Season",
+     "Colorado Eagles",
+     54,
+     5,
+     8,
+     13
+    ],
+    [
+     "2022-23 Regular Season",
+     "Colorado Eagles",
+     4,
+     0,
+     1,
+     1
+    ],
+    [
+     "Total",
+     "",
+     79,
+     8,
+     12,
+     20
+    ]
+   ],
    "log": [
     [
      "2026-10-30",
@@ -2572,13 +3522,65 @@
    "ga": 15,
    "img": "https://assets.leaguestat.com/ahl/240x240/9983.jpg",
    "bd": "2000-04-06",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     7,
+     4,
+     1,
+     2,
+     2.48,
+     ".000"
+    ],
+    [
+     "2025-26 Regular Season",
+     "Abbotsford Canucks",
+     19,
+     8,
+     8,
+     3,
+     3.07,
+     ".000"
+    ],
+    [
+     "2024-25 Regular Season",
+     "Abbotsford Canucks",
+     36,
+     20,
+     14,
+     2,
+     2.66,
+     ".000"
+    ],
+    [
+     "2023-24 Regular Season",
+     "Abbotsford Canucks",
+     35,
+     20,
+     13,
+     1,
+     2.83,
+     ".000"
+    ],
+    [
+     "Total",
+     "",
+     97,
+     52,
+     36,
+     8,
+     2.79,
+     ".000"
+    ]
+   ],
    "log": [
     [
      "2026-10-30",
      "",
      9,
      0,
-     1738,
+     2150,
      0,
      1
     ],
@@ -2654,6 +3656,48 @@
    "ga": 9,
    "img": "https://assets.leaguestat.com/ahl/240x240/10454.jpg",
    "bd": "2004-09-11",
+   "career": [
+    [
+     "2026-27 Regular Season",
+     "Abbotsford Canucks",
+     3,
+     2,
+     1,
+     0,
+     2.94,
+     ".000"
+    ],
+    [
+     "2025-26 Regular Season",
+     "Abbotsford Canucks",
+     17,
+     6,
+     10,
+     1,
+     3.36,
+     ".000"
+    ],
+    [
+     "2024-25 Regular Season",
+     "Abbotsford Canucks",
+     11,
+     8,
+     3,
+     0,
+     2.72,
+     ".000"
+    ],
+    [
+     "Total",
+     "",
+     31,
+     16,
+     14,
+     1,
+     3.08,
+     ".000"
+    ]
+   ],
    "log": [
     [
      "2026-10-28",
@@ -2777,9 +3821,9 @@
    "l": 2,
    "otl": 1,
    "pts": 13,
-   "gf": 38,
+   "gf": 39,
    "ga": 27,
-   "diff": 11,
+   "diff": 12,
    "l10": "6-2-0-1",
    "strk": "6-0-0-1",
    "lseq": 2,
@@ -2878,8 +3922,8 @@
    "otl": 2,
    "pts": 12,
    "gf": 29,
-   "ga": 20,
-   "diff": 9,
+   "ga": 21,
+   "diff": 8,
    "l10": "5-2-2",
    "strk": "5-0-2-0",
    "lseq": 9,
@@ -3018,8 +4062,8 @@
    "otl": 0,
    "pts": 10,
    "gf": 22,
-   "ga": 19,
-   "diff": 3,
+   "ga": 21,
+   "diff": 1,
    "l10": "5-3-0",
    "strk": "1-0-0-0",
    "lseq": 13,
@@ -3037,9 +4081,9 @@
    "l": 4,
    "otl": 0,
    "pts": 10,
-   "gf": 28,
+   "gf": 29,
    "ga": 34,
-   "diff": -6,
+   "diff": -5,
    "l10": "5-4-0",
    "strk": "0-2-0-0",
    "lseq": 14,
@@ -3157,9 +4201,9 @@
    "l": 4,
    "otl": 3,
    "pts": 9,
-   "gf": 35,
+   "gf": 37,
    "ga": 43,
-   "diff": -8,
+   "diff": -6,
    "l10": "3-4-2-1",
    "strk": "0-2-0-0",
    "lseq": 25,
@@ -3258,8 +4302,8 @@
    "otl": 0,
    "pts": 6,
    "gf": 20,
-   "ga": 23,
-   "diff": -3,
+   "ga": 24,
+   "diff": -4,
    "l10": "3-4-0",
    "strk": "1-0-0-0",
    "lseq": 26,
@@ -3329,7 +4373,7 @@
  ],
  "team": {
   "gf": {
-   "v": 4.22,
+   "v": 4.33,
    "rank": 1
   },
   "ga": {
@@ -3342,5 +4386,5 @@
   }
  },
  "live": false,
- "updated": "2026-10-31T03:30:16Z"
+ "updated": "2026-10-31T03:44:13Z"
 }

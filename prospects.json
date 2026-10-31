@@ -1136,5 +1136,9 @@
     }
    ]
   }
- ]
+ ],
+ "status": {
+  "msg": "GP DECREASED for Anri Ravinskis, Kirill Kudryavtsev, Sawyer Mynio, Ty Mueller - refusing to write (page looks stale)",
+  "at": "2026-10-31T03:00Z"
+ }
 }

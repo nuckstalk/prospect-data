@@ -325,12 +325,17 @@ try:
     C_BASE = "https://www.eliteprospects.com"
     C_CUR = "%d-%02d" % ((NOW.year if NOW.month >= 7 else NOW.year - 1), ((NOW.year if NOW.month >= 7 else NOW.year - 1) + 1) % 100)
     C_STALE_HOURS = 20
+    C_VER = 3   # bump to make every player refresh once with new rules
     C_BUDGET_SECONDS = 600
     C_BAD = re.compile(r"U-?1\d|\bJ1\d|HS\b|High School|Prep|Midget|AAA|Bantam|Minor|Intern|WJC|WJ-?18|Hlinka|Memorial|Olympic|World|Nat\.|Five Nations|Euro Hockey|Junior Club|Jr\. ?Nat", re.I)
+    C_BAD2 = re.compile(r"\b\d{2}U\b|\bB\d\b|Bantam|Midget|Mini|NTDP|Prep|\bU1\d\b", re.I)
+    C_BAD_LG = {"AMBHL", "AMHL", "MDHL", "NMHL", "PHC", "WC", "OG", "OGQ", "WC-Q", "NTDP", "WJ20", "WJ18"}
+    C_TEAM_BAD = re.compile(r"Projected|Olympics|National U1\d|U\.?S\.? National|Bantam|Midget|\bU1\d\b|\b1\dU\b|AAA|Prep|Academy \(", re.I)
     def c_keep(lg):
         lg = (lg or "").strip()
         if not lg or lg.endswith(" Q") or lg.lower().endswith("qualification"): return False
-        return not C_BAD.search(lg)
+        if C_BAD.search(lg) or C_BAD2.search(lg): return False
+        return lg not in C_BAD_LG
 
     def c_ti(t):
         t = str(t).replace(",", "").replace("−", "-").strip()
@@ -347,6 +352,9 @@ try:
         return m.group(0) if m else t
     def c_ctext(c):
         return c.get_text(" ", strip=True)
+    def c_season(m):
+        a, b = m.group(1), m.group(2)
+        return a + "-" + b[-2:]
     SEASON_RE = re.compile(r"^(\d{4})\s*[-/\u2013]\s*(\d{2,4})")
     def c_parse(html):
         soup2 = BeautifulSoup(html, "html.parser")
@@ -377,12 +385,12 @@ try:
                 if len(cells) != len(heads): continue
                 season = cells[iS].strip() if iS is not None else ""
                 m = SEASON_RE.match(season)
-                if m: prev = season = m.group(0).replace(" ", "")
+                if m: prev = season = c_season(m)
                 else: season = prev if not season else ""
                 if not season: continue
                 team, lg = cells[iT].strip(), cells[iL].strip()
                 gp = c_ti(cells[iGP])
-                if not gp or not c_keep(lg) or re.match(r"^[A-Za-z ]+ U-?\d\d( \(all\))?$", team) and re.match(r"^(Russia|Finland|Sweden|Canada|USA|Czech|Slovakia|Switzerland|Germany|Latvia|Norway|Denmark|Austria|Belarus|Kazakhstan)", team): continue
+                if not gp or not c_keep(lg) or C_TEAM_BAD.search(team) or re.match(r"^[A-Za-z ]+ U-?\d\d( \(all\))?$", team) and re.match(r"^(Russia|Finland|Sweden|Canada|USA|Czech|Slovakia|Switzerland|Germany|Latvia|Norway|Denmark|Austria|Belarus|Kazakhstan)", team): continue
                 if goalie:
                     w = l = t = 0
                     m2 = re.match(r"^(\d+)-(\d+)-(\d+)", cells[idx["w-l-t"]].replace(" ", "")) if idx.get("w-l-t") is not None else None
@@ -430,7 +438,7 @@ try:
     for c_name, c_isg in [(n, False) for n in data["skaters"]] + [(n, True) for n in data["goalies"]]:
         if _t.time() - c_start > C_BUDGET_SECONDS: print("career: time budget used, the rest waits for the next run"); break
         e = c_old.get(c_name)
-        if e and e.get("at") and e.get("rows") is not None and (NOW.replace(tzinfo=None) - datetime.datetime.fromisoformat(e["at"])).total_seconds() < C_STALE_HOURS * 3600: continue
+        if e and e.get("at") and e.get("rows") is not None and e.get("v") == C_VER and (NOW.replace(tzinfo=None) - datetime.datetime.fromisoformat(e["at"])).total_seconds() < C_STALE_HOURS * 3600: continue
         path = c_links.get(norm(c_name))
         if not path: print("career: no EP link for", c_name); continue
         c_tried += 1
@@ -450,7 +458,7 @@ try:
             if last_html and len(c_dbg) < 3: c_dbg.append(dict(c_diag(last_html), name=c_name))
             continue
         rows = [r for r in rows if r[0] != C_CUR]
-        c_res[c_name] = {"at": NOW.strftime("%Y-%m-%dT%H:%M:%S"), "rows": rows}; c_done += 1
+        c_res[c_name] = {"at": NOW.strftime("%Y-%m-%dT%H:%M:%S"), "rows": rows, "v": C_VER}; c_done += 1
         if c_done == 1: print("career: sample", c_name, rows[:2])
         _t.sleep(4)
     print("career: updated", c_done, "of", c_tried, "tried;", len(c_res), "players stored")

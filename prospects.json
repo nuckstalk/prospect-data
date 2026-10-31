@@ -30,13 +30,13 @@
    "ep": 3,
    "team": "Peterborough Petes",
    "lg": "OHL",
-   "gp": 13,
+   "gp": 14,
    "g": 8,
    "a": 11,
    "tp": 19,
-   "ppg": 1.4615384615384615,
-   "pim": 4,
-   "pm": -1
+   "ppg": 1.3571428571428572,
+   "pim": 6,
+   "pm": -2
   },
   "Braeden Cootes": {
    "ep": 4,
@@ -78,13 +78,13 @@
    "ep": 7,
    "team": "Oshawa Generals",
    "lg": "OHL",
-   "gp": 13,
+   "gp": 14,
    "g": 1,
-   "a": 8,
-   "tp": 9,
-   "ppg": 0.6923076923076923,
+   "a": 9,
+   "tp": 10,
+   "ppg": 0.7142857142857143,
    "pim": 8,
-   "pm": -3
+   "pm": -1
   },
   "Kieren Dervin": {
    "ep": 8,
@@ -317,17 +317,17 @@
   "Aku Koskenvuo": {
    "team": "Kalamazoo Wings",
    "lg": "ECHL",
-   "gp": 2,
-   "gaa": 2.46,
-   "svp": ".929",
+   "gp": 3,
+   "gaa": 2.32,
+   "svp": ".941",
    "so": 0,
    "rec": "1-0-1",
-   "toi": 121.82
+   "toi": 155.48
   },
   "Alexei Medvedev": {
    "team": "London Knights",
    "lg": "OHL",
-   "gp": 7,
+   "gp": 8,
    "gaa": 3.37,
    "svp": ".895",
    "so": 0,
@@ -346,6 +346,60 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-10-30",
+   "items": [
+    {
+     "k": "S",
+     "name": "Adam Novotný",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 14,
+     "sg": 8,
+     "sa": 11,
+     "stp": 19
+    },
+    {
+     "k": "S",
+     "name": "Brooks Rogowski",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 14,
+     "sg": 1,
+     "sa": 9,
+     "stp": 10
+    },
+    {
+     "k": "G",
+     "name": "Aku Koskenvuo",
+     "lg": "ECHL",
+     "dgp": 1,
+     "res": "",
+     "gaa": 2.32,
+     "svp": ".941",
+     "sgp": 3,
+     "rec0": "1-0-1",
+     "ga": 1
+    },
+    {
+     "k": "G",
+     "name": "Alexei Medvedev",
+     "lg": "OHL",
+     "dgp": 1,
+     "res": "",
+     "gaa": 3.37,
+     "svp": ".895",
+     "sgp": 8,
+     "rec0": "3-3-1"
+    }
+   ]
+  },
   {
    "date": "2026-10-29",
    "items": [
@@ -989,102 +1043,6 @@
      "svp": ".884",
      "sgp": 11,
      "ga": 2
-    }
-   ]
-  },
-  {
-   "date": "2026-10-22",
-   "items": [
-    {
-     "k": "S",
-     "name": "Adam Novotný",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 2,
-     "dtp": 2,
-     "sgp": 11,
-     "sg": 7,
-     "sa": 11,
-     "stp": 18
-    },
-    {
-     "k": "S",
-     "name": "Brooks Rogowski",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 1,
-     "da": 1,
-     "dtp": 2,
-     "sgp": 11,
-     "sg": 1,
-     "sa": 8,
-     "stp": 9
-    },
-    {
-     "k": "S",
-     "name": "Lucian Bernat",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 1,
-     "da": 1,
-     "dtp": 2,
-     "sgp": 8,
-     "sg": 1,
-     "sa": 6,
-     "stp": 7
-    },
-    {
-     "k": "S",
-     "name": "Caleb Malhotra",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 5,
-     "sg": 1,
-     "sa": 0,
-     "stp": 1
-    },
-    {
-     "k": "S",
-     "name": "Niklas Aaram-Olsen",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 1,
-     "dtp": 1,
-     "sgp": 5,
-     "sg": 0,
-     "sa": 1,
-     "stp": 1
-    },
-    {
-     "k": "S",
-     "name": "Aiden Celebrini",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 5,
-     "sg": 0,
-     "sa": 1,
-     "stp": 1
-    },
-    {
-     "k": "S",
-     "name": "Connor Davis",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 4,
-     "sg": 1,
-     "sa": 2,
-     "stp": 3
     }
    ]
   }

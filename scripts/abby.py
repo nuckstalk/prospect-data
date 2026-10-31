@@ -260,6 +260,10 @@ def career_of(resp, goalie):
         lg = str(g(r, "league_code", "league_name", "league", default="")).lower()
         if lg and "ahl" not in lg and "american hockey" not in lg: continue   # AHL seasons only
         season = str(g(r, "season_name", "season", default=""))
+        if "playoff" in season.lower(): continue
+        mm = re.search(r"\d{4}\s*-\s*\d{2,4}", season)
+        if not mm: continue                                   # drops "Total" and other non-season rows
+        season = re.sub(r"\s", "", mm.group(0))
         team = str(g(r, "team_name", "team_city", "team", "team_code", default=""))
         gp = ival(r, "games_played", "gp")
         if not season or not gp: continue

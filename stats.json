@@ -3842,6 +3842,26 @@
    "lseq": 8
   },
   {
+   "abbr": "FLA",
+   "name": "Florida Panthers",
+   "nick": "Panthers",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 14,
+   "w": 8,
+   "l": 4,
+   "otl": 2,
+   "pts": 18,
+   "gf": 44,
+   "ga": 39,
+   "diff": 5,
+   "l10": "6-4-0",
+   "strk": "W3",
+   "dseq": 3,
+   "cseq": 5,
+   "lseq": 9
+  },
+  {
    "abbr": "TBL",
    "name": "Tampa Bay Lightning",
    "nick": "Lightning",
@@ -3857,9 +3877,9 @@
    "diff": 6,
    "l10": "7-2-1",
    "strk": "W1",
-   "dseq": 3,
-   "cseq": 5,
-   "lseq": 9
+   "dseq": 4,
+   "cseq": 6,
+   "lseq": 10
   },
   {
    "abbr": "SEA",
@@ -3879,7 +3899,7 @@
    "strk": "W1",
    "dseq": 3,
    "cseq": 5,
-   "lseq": 10
+   "lseq": 11
   },
   {
    "abbr": "OTT",
@@ -3897,9 +3917,9 @@
    "diff": 0,
    "l10": "5-4-1",
    "strk": "OT1",
-   "dseq": 4,
-   "cseq": 6,
-   "lseq": 11
+   "dseq": 5,
+   "cseq": 7,
+   "lseq": 12
   },
   {
    "abbr": "WSH",
@@ -3918,26 +3938,6 @@
    "l10": "7-3-0",
    "strk": "W3",
    "dseq": 3,
-   "cseq": 7,
-   "lseq": 12
-  },
-  {
-   "abbr": "FLA",
-   "name": "Florida Panthers",
-   "nick": "Panthers",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 13,
-   "w": 7,
-   "l": 4,
-   "otl": 2,
-   "pts": 16,
-   "gf": 39,
-   "ga": 37,
-   "diff": 2,
-   "l10": "6-4-0",
-   "strk": "W2",
-   "dseq": 5,
    "cseq": 8,
    "lseq": 13
   },
@@ -4187,16 +4187,16 @@
    "nick": "Jets",
    "div": "Central",
    "conf": "Western",
-   "gp": 13,
+   "gp": 14,
    "w": 4,
-   "l": 6,
+   "l": 7,
    "otl": 3,
    "pts": 11,
-   "gf": 32,
-   "ga": 42,
-   "diff": -10,
-   "l10": "2-6-2",
-   "strk": "L3",
+   "gf": 34,
+   "ga": 47,
+   "diff": -13,
+   "l10": "1-7-2",
+   "strk": "L4",
    "dseq": 7,
    "cseq": 12,
    "lseq": 26
@@ -4356,5 +4356,5 @@
    "rank": 32
   }
  },
- "updated": "2026-10-31T00:45:17Z"
+ "updated": "2026-10-31T01:55:10Z"
 }

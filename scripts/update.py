@@ -325,11 +325,11 @@ try:
     C_BASE = "https://www.eliteprospects.com"
     C_CUR = "%d-%02d" % ((NOW.year if NOW.month >= 7 else NOW.year - 1), ((NOW.year if NOW.month >= 7 else NOW.year - 1) + 1) % 100)
     C_STALE_HOURS = 20
-    C_VER = 3   # bump to make every player refresh once with new rules
+    C_VER = 4   # bump to make every player refresh once with new rules
     C_BUDGET_SECONDS = 600
     C_BAD = re.compile(r"U-?1\d|\bJ1\d|HS\b|High School|Prep|Midget|AAA|Bantam|Minor|Intern|WJC|WJ-?18|Hlinka|Memorial|Olympic|World|Nat\.|Five Nations|Euro Hockey|Junior Club|Jr\. ?Nat", re.I)
     C_BAD2 = re.compile(r"\b\d{2}U\b|\bB\d\b|Bantam|Midget|Mini|NTDP|Prep|\bU1\d\b", re.I)
-    C_BAD_LG = {"AMBHL", "AMHL", "MDHL", "NMHL", "PHC", "WC", "OG", "OGQ", "WC-Q", "NTDP", "WJ20", "WJ18"}
+    C_BAD_LG = {"GOJHL", "SJHL", "AJHL", "BCHL", "Latvia2", "AMBHL", "AMHL", "MDHL", "NMHL", "PHC", "WC", "OG", "OGQ", "WC-Q", "NTDP", "WJ20", "WJ18"}
     C_TEAM_BAD = re.compile(r"Projected|Olympics|National U1\d|U\.?S\.? National|Bantam|Midget|\bU1\d\b|\b1\dU\b|AAA|Prep|Academy \(", re.I)
     def c_keep(lg):
         lg = (lg or "").strip()

@@ -522,7 +522,26 @@ print("standings teams:", len(standings), "| team metrics:", sorted(team.keys())
 if not skaters:
     print("no skater rows - leaving abby.json alone"); sys.exit(0)
 
-data = {"season": str(season.get("season_name", sid)), "skaters": skaters, "goalies": goalies, "standings": standings, "team": team}
+# ---- is an Abbotsford game being played right now? (stats posted mid-game must not be treated as final) ----
+live = False
+try:
+    sb = ht({"feed": "modulekit", "view": "scorebar", "numberofdaysahead": 0, "numberofdaysback": 1}, quick=True) or {}
+    games_sb = (sb.get("SiteKit") or {}).get("Scorebar") or []
+    for gm in games_sb:
+        if not isinstance(gm, dict): continue
+        if tid not in (str(gm.get("HomeID", "")), str(gm.get("VisitorID", "")), str(gm.get("home_team", "")), str(gm.get("visiting_team", ""))): continue
+        stt = str(gm.get("GameStatusString", gm.get("game_status", gm.get("status", "")))).lower()
+        started = str(gm.get("Started", "")) in ("1", "True", "true")
+        final = str(gm.get("Final", "")) in ("1", "True", "true") or "final" in stt
+        if (started and not final) or ("progress" in stt) or ("intermission" in stt):
+            live = True
+    print("Abbotsford game in progress:", live, "| scorebar games:", len(games_sb))
+    if games_sb and not LOGGED.get("sb"):
+        LOGGED["sb"] = 1; print("scorebar keys:", sorted(games_sb[0].keys())[:30])
+except Exception as e:
+    print("scorebar check skipped:", e)
+
+data = {"season": str(season.get("season_name", sid)), "skaters": skaters, "goalies": goalies, "standings": standings, "team": team, "live": live}
 try:
     old = json.load(open("abby.json", encoding="utf-8"))
 except Exception:

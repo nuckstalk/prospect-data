@@ -190,6 +190,8 @@ for n, r in data["goalies"].items():
                 ga_new = round(r["gaa"] * r["toi"] / 60)
                 ga_old = round(o["gaa"] * o["toi"] / 60) if o["gp"] > 0 else 0
                 if ga_new - ga_old >= 0: item["ga"] = ga_new - ga_old
+            if "ga" not in item and o["gp"] > 0 and o.get("toi") and o.get("gaa") is not None:
+                item["gaa0"], item["toi0"] = o["gaa"], o["toi"]     # GA can be worked out later, once EliteProspects posts this game's minutes
         except Exception as e:
             print("GA calc skipped for", n, e)
         ag = AHLG.get(norm(n)) if r.get("lg") == "AHL" else None
@@ -255,6 +257,16 @@ for d in watch:
                 gg = data["goalies"][it["name"]]
                 if (it.get("svp"), it.get("gaa")) != (gg["svp"], gg["gaa"]):
                     it["svp"], it["gaa"] = gg["svp"], gg["gaa"]; print("AHL season line refreshed:", it["name"], gg["svp"], gg["gaa"])
+# goals against that couldn't be worked out when the game was logged (minutes not posted yet): fill in once they are
+for d in watch:
+    for it in d["items"]:
+        if it.get("k") == "G" and "ga" not in it and it.get("gaa0") is not None and it.get("toi0") and it["name"] in data["goalies"] and _last_g.get(it["name"]) is it:
+            gg = data["goalies"][it["name"]]
+            if gg.get("toi") and gg.get("gaa") is not None and gg["toi"] > it["toi0"]:
+                ga = round(gg["gaa"] * gg["toi"] / 60) - round(it["gaa0"] * it["toi0"] / 60)
+                if ga >= 0:
+                    it["ga"] = ga; it["svp"] = gg["svp"]; it["gaa"] = gg["gaa"]; it.pop("gaa0", None); it.pop("toi0", None)
+                    print("GA filled in:", it["name"], ga)
 # one-off hand corrections to a goalie's logged result (confirmed from his game log): {(name, watch date): result}
 RESULT_FIXES = {("Dmitri Ivchenko", "2026-10-21"): "OTL"}   # Oct 21 was a shootout loss, wrongly stamped W
 for d in watch:

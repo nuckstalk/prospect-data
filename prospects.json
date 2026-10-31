@@ -318,21 +318,21 @@
    "team": "Kalamazoo Wings",
    "lg": "ECHL",
    "gp": 3,
-   "gaa": 2.32,
-   "svp": ".941",
+   "gaa": 2.6,
+   "svp": ".935",
    "so": 0,
-   "rec": "1-0-1",
-   "toi": 155.48
+   "rec": "1-0-2",
+   "toi": 184.28
   },
   "Alexei Medvedev": {
    "team": "London Knights",
    "lg": "OHL",
    "gp": 8,
-   "gaa": 3.33,
-   "svp": ".894",
+   "gaa": 3.43,
+   "svp": ".891",
    "so": 0,
-   "rec": "3-3-1",
-   "toi": 467.95
+   "rec": "3-3-2",
+   "toi": 472.18
   },
   "Ty Young": {
    "team": "Abbotsford Canucks",
@@ -380,11 +380,10 @@
      "name": "Aku Koskenvuo",
      "lg": "ECHL",
      "dgp": 1,
-     "res": "",
-     "gaa": 2.32,
-     "svp": ".941",
+     "res": "OTL",
+     "gaa": 2.6,
+     "svp": ".935",
      "sgp": 3,
-     "rec0": "1-0-1",
      "ga": 1
     },
     {
@@ -392,11 +391,10 @@
      "name": "Alexei Medvedev",
      "lg": "OHL",
      "dgp": 1,
-     "res": "",
-     "gaa": 3.37,
-     "svp": ".895",
-     "sgp": 8,
-     "rec0": "3-3-1"
+     "res": "OTL",
+     "gaa": 3.43,
+     "svp": ".891",
+     "sgp": 8
     },
     {
      "k": "S",

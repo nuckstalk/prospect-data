@@ -271,11 +271,11 @@
    "name": "Riley Patterson",
    "id": "11053",
    "pos": "C",
-   "gp": 9,
+   "gp": 10,
    "g": 3,
    "a": 5,
    "pts": 8,
-   "pm": 6,
+   "pm": 7,
    "pim": 4,
    "ppg": 0,
    "shg": 0,
@@ -293,7 +293,7 @@
      0,
      0,
      0,
-     0,
+     1,
      0,
      0,
      0,
@@ -1007,7 +1007,7 @@
    "g": 2,
    "a": 3,
    "pts": 5,
-   "pm": 3,
+   "pm": 4,
    "pim": 8,
    "ppg": 0,
    "shg": 0,
@@ -1025,7 +1025,7 @@
      0,
      0,
      0,
-     1,
+     2,
      0,
      0,
      0,
@@ -1440,7 +1440,7 @@
    "g": 2,
    "a": 2,
    "pts": 4,
-   "pm": 4,
+   "pm": 5,
    "pim": 0,
    "ppg": 0,
    "shg": 0,
@@ -1458,7 +1458,7 @@
      0,
      0,
      0,
-     2,
+     3,
      0,
      0,
      0,
@@ -2578,7 +2578,7 @@
      "",
      1,
      0,
-     989,
+     1200,
      0,
      1
     ],
@@ -2747,6 +2747,26 @@
    "dseq": 2
   },
   {
+   "abbr": "CLT",
+   "name": "Charlotte Checkers",
+   "nick": "Checkers",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 11,
+   "w": 7,
+   "l": 4,
+   "otl": 0,
+   "pts": 14,
+   "gf": 33,
+   "ga": 28,
+   "diff": 5,
+   "l10": "6-4-0",
+   "strk": "1-0-0-0",
+   "lseq": 12,
+   "cseq": 6,
+   "dseq": 2
+  },
+  {
    "abbr": "ABB",
    "name": "Abbotsford Canucks",
    "nick": "Canucks",
@@ -2864,26 +2884,6 @@
    "strk": "5-0-2-0",
    "lseq": 9,
    "cseq": 5,
-   "dseq": 2
-  },
-  {
-   "abbr": "CLT",
-   "name": "Charlotte Checkers",
-   "nick": "Checkers",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 10,
-   "w": 6,
-   "l": 4,
-   "otl": 0,
-   "pts": 12,
-   "gf": 33,
-   "ga": 28,
-   "diff": 5,
-   "l10": "6-4-0",
-   "strk": "0-1-0-0",
-   "lseq": 13,
-   "cseq": 6,
    "dseq": 2
   },
   {
@@ -3022,7 +3022,7 @@
    "diff": 3,
    "l10": "5-3-0",
    "strk": "1-0-0-0",
-   "lseq": 12,
+   "lseq": 13,
    "cseq": 7,
    "dseq": 4
   },
@@ -3212,19 +3212,19 @@
    "nick": "Wild",
    "div": "Central",
    "conf": "Western",
-   "gp": 10,
+   "gp": 11,
    "w": 3,
-   "l": 5,
+   "l": 6,
    "otl": 2,
    "pts": 8,
    "gf": 25,
    "ga": 32,
    "diff": -7,
-   "l10": "3-5-1-1",
-   "strk": "0-4-1-0",
-   "lseq": 28,
-   "cseq": 14,
-   "dseq": 5
+   "l10": "3-6-1",
+   "strk": "0-5-1-0",
+   "lseq": 29,
+   "cseq": 15,
+   "dseq": 6
   },
   {
    "abbr": "HAM",
@@ -3322,9 +3322,9 @@
    "diff": -9,
    "l10": "2-4-1-1",
    "strk": "1-0-0-0",
-   "lseq": 29,
-   "cseq": 15,
-   "dseq": 6
+   "lseq": 28,
+   "cseq": 14,
+   "dseq": 5
   }
  ],
  "team": {
@@ -3334,12 +3334,12 @@
   },
   "ga": {
    "v": 3.0,
-   "rank": 13
+   "rank": 14
   },
   "pt": {
    "v": 72.2,
    "rank": 2
   }
  },
- "updated": "2026-10-31T02:45:19Z"
+ "updated": "2026-10-31T03:00:18Z"
 }

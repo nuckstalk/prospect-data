@@ -5273,6 +5273,26 @@
    "lseq": 2
   },
   {
+   "abbr": "BOS",
+   "name": "Boston Bruins",
+   "nick": "Bruins",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 15,
+   "w": 10,
+   "l": 4,
+   "otl": 1,
+   "pts": 21,
+   "gf": 55,
+   "ga": 36,
+   "diff": 19,
+   "l10": "7-2-1",
+   "strk": "W1",
+   "dseq": 1,
+   "cseq": 2,
+   "lseq": 3
+  },
+  {
    "abbr": "EDM",
    "name": "Edmonton Oilers",
    "nick": "Oilers",
@@ -5288,26 +5308,6 @@
    "diff": 13,
    "l10": "7-2-1",
    "strk": "W1",
-   "dseq": 1,
-   "cseq": 2,
-   "lseq": 3
-  },
-  {
-   "abbr": "BOS",
-   "name": "Boston Bruins",
-   "nick": "Bruins",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 14,
-   "w": 9,
-   "l": 4,
-   "otl": 1,
-   "pts": 19,
-   "gf": 50,
-   "ga": 32,
-   "diff": 18,
-   "l10": "7-2-1",
-   "strk": "L2",
    "dseq": 1,
    "cseq": 2,
    "lseq": 4
@@ -5838,16 +5838,16 @@
    "nick": "Blackhawks",
    "div": "Central",
    "conf": "Western",
-   "gp": 13,
+   "gp": 14,
    "w": 4,
    "l": 9,
-   "otl": 0,
-   "pts": 8,
-   "gf": 27,
-   "ga": 48,
-   "diff": -21,
-   "l10": "4-6-0",
-   "strk": "L1",
+   "otl": 1,
+   "pts": 9,
+   "gf": 31,
+   "ga": 53,
+   "diff": -22,
+   "l10": "3-6-1",
+   "strk": "OT1",
    "dseq": 8,
    "cseq": 15,
    "lseq": 31
@@ -5907,5 +5907,5 @@
    "rank": 32
   }
  },
- "updated": "2026-10-31T19:45:17Z"
+ "updated": "2026-10-31T20:00:15Z"
 }

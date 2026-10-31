@@ -198,13 +198,13 @@
    "ep": 18,
    "team": "Quinnipiac",
    "lg": "NCAA",
-   "gp": 6,
+   "gp": 7,
    "g": 1,
    "a": 2,
    "tp": 3,
-   "ppg": 0.5,
-   "pim": 6,
-   "pm": 1
+   "ppg": 0.42857142857142855,
+   "pim": 8,
+   "pm": 0
   },
   "Wilson Björck": {
    "ep": 19,
@@ -361,6 +361,19 @@
      "sg": 1,
      "sa": 1,
      "stp": 2
+    },
+    {
+     "k": "S",
+     "name": "Matthew Lansing",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 7,
+     "sg": 1,
+     "sa": 2,
+     "stp": 3
     }
    ]
   },

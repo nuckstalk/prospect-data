@@ -174,12 +174,12 @@
    "ep": 16,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 8,
+   "gp": 9,
    "g": 1,
    "a": 5,
    "tp": 6,
-   "ppg": 0.75,
-   "pim": 10,
+   "ppg": 0.6666666666666666,
+   "pim": 12,
    "pm": 3
   },
   "Kirill Kudryavtsev": {
@@ -394,7 +394,8 @@
      "res": "OTL",
      "gaa": 3.43,
      "svp": ".891",
-     "sgp": 8
+     "sgp": 8,
+     "ga": 4
     },
     {
      "k": "S",
@@ -434,6 +435,19 @@
      "sg": 0,
      "sa": 2,
      "stp": 2
+    },
+    {
+     "k": "S",
+     "name": "Sawyer Mynio",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 9,
+     "sg": 1,
+     "sa": 5,
+     "stp": 6
     }
    ]
   },

@@ -126,7 +126,7 @@ for c in changed: print("  ", c)
 
 if len(seen) < 20: bail("TOO FEW PLAYERS PARSED: " + str(len(seen)) + " (title: " + str(soup.title.get_text(strip=True) if soup.title else None)[:80] + ")")
 if not changed: print("no stat changes - refreshing the date only")
-dropped = [n for grp in ("skaters", "goalies") for n, r in data[grp].items() if r["gp"] < old[grp][n]["gp"]]
+dropped = [n for grp in ("skaters", "goalies") for n, r in data[grp].items() if r["gp"] < old[grp][n]["gp"] and r.get("lg") != "AHL"]   # AHL numbers come from abby.json below
 if len(dropped) > 2:
     bail("GP DECREASED for " + ", ".join(sorted(dropped)) + " - refusing to write (page looks stale)")
 for n in dropped:
@@ -157,14 +157,28 @@ for n, r in data["goalies"].items():
         if r != old["goalies"][n]: print("AHL stats used for", n, ":", a["gp"], "GP", r["rec"], r["gaa"], r["svp"])
 
 
-# ---- an Abbotsford game is being played right now: hold AHL players at their last final numbers until it ends ----
+# ---- an Abbotsford game is being played right now: AHL players go back to their last FINAL numbers and tonight's AHL watch entries come out until the game ends ----
 try:
     if _ab.get("live"):
+        _gd = (NOW.astimezone(ZoneInfo("America/Vancouver")) - datetime.timedelta(hours=8)).strftime("%Y-%m-%d")
+        _day = next((d for d in data.get("watch", []) if d["date"] == _gd), None)
         for grp in ("skaters", "goalies"):
             for n in list(data[grp]):
                 if data[grp][n].get("lg") == "AHL" and n in old[grp]:
-                    data[grp][n] = dict(old[grp][n])
-        print("Abbotsford game in progress - AHL players held until it is final")
+                    rec = dict(old[grp][n])
+                    for it in (_day or {}).get("items", []):
+                        if it.get("name") == n and it.get("lg") == "AHL":
+                            rec["gp"] = rec["gp"] - it.get("dgp", 0)
+                            if it.get("k") == "S":
+                                rec["g"] -= it.get("dg", 0); rec["a"] -= it.get("da", 0); rec["tp"] -= it.get("dtp", 0)
+                                rec["ppg"] = (rec["tp"] / rec["gp"]) if rec["gp"] else 0
+                            elif it.get("rec0"):
+                                rec["rec"] = it["rec0"]
+                    data[grp][n] = rec
+        if _day:
+            _day["items"] = [it for it in _day["items"] if it.get("lg") != "AHL"]
+            if not _day["items"]: data["watch"] = [d for d in data["watch"] if d is not _day]
+        print("Abbotsford game in progress - AHL players held at their last final numbers, tonight's AHL entries removed")
 except NameError:
     pass
 

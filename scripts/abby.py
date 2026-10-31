@@ -546,6 +546,18 @@ try:
         LOGGED["sb"] = 1; print("scorebar keys:", sorted(games_sb[0].keys())[:30])
 except Exception as e:
     print("scorebar check skipped:", e)
+# backup check from the goalie game logs: a game with NO decision (W/L/OTL) for any goalie is still being played
+try:
+    dec = {}
+    for gl in goalies:
+        for row in gl.get("log") or []:
+            if row[0] not in dec or (row[1] and not dec[row[0]]): dec[row[0]] = row[1]
+    if dec:
+        newest = max(dec)
+        if not dec[newest] and newest >= (NOW - datetime.timedelta(days=1)).strftime("%Y-%m-%d"):
+            live = True; print("game", newest, "has no decision yet - treating it as in progress")
+except Exception as e:
+    print("log live check skipped:", e)
 
 data = {"season": str(season.get("season_name", sid)), "skaters": skaters, "goalies": goalies, "standings": standings, "team": team, "live": live}
 if CDBG and not any(p.get("career") for p in skaters + goalies): data["career_debug"] = CDBG

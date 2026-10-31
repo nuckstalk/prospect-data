@@ -234,6 +234,7 @@ except Exception as e:
 
 # ---- career season-by-season (AHL player profile). Never lets a failure break the update.
 CSHOWN = []
+CDBG = []
 
 def season_rows(o):
     """Find the list of per-season rows inside the player profile, whatever the feed calls it."""
@@ -277,10 +278,15 @@ try:
     for grp, isg in ((skaters, False), (goalies, True)):
         for p in grp:
             k = str(p.get("id")); rows = None
-            for at in ({"feed": "modulekit", "view": "player"}, {"feed": "statviewfeed", "view": "player"}):
-                resp = ht(dict(at, player_id=k, season_id=sid), quick=True)
+            for at in ({"feed": "modulekit", "view": "player", "category": "seasonstats"},
+                       {"feed": "modulekit", "view": "player", "category": "careerstats"},
+                       {"feed": "modulekit", "view": "player"},
+                       {"feed": "statviewfeed", "view": "player", "statsType": "standard", "site_id": "3", "league_id": "4"}):
+                resp = ht(dict(at, player_id=k), quick=True)
                 rows = career_of(resp, isg) if resp else None
                 if rows: break
+                if resp is not None and len(CDBG) < 4:
+                    CDBG.append({"try": at.get("category") or at.get("view"), "head": json.dumps(resp)[:700]})
             if rows: p["career"] = rows; got += 1
             elif prev_c.get(k): p["career"] = prev_c[k]
     print("career rows fetched for", got, "of", len(skaters) + len(goalies))
@@ -542,6 +548,7 @@ except Exception as e:
     print("scorebar check skipped:", e)
 
 data = {"season": str(season.get("season_name", sid)), "skaters": skaters, "goalies": goalies, "standings": standings, "team": team, "live": live}
+if CDBG and not any(p.get("career") for p in skaters + goalies): data["career_debug"] = CDBG
 try:
     old = json.load(open("abby.json", encoding="utf-8"))
 except Exception:

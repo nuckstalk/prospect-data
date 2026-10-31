@@ -94,6 +94,15 @@ def _season(v):
     v = str(v or "")
     return v[:4] + "-" + v[6:8] if len(v) == 8 else v
 
+def _mins(v):
+    try:
+        v = str(v or "")
+        if ":" in v:
+            a = v.split(":"); return round(int(a[0]) + int(a[1]) / 60.0, 1)
+        return round(float(v), 1) if v else 0
+    except Exception:
+        return 0
+
 def _career(lp, goalie):
     out = []
     for r in (lp or {}).get("seasonTotals", []):
@@ -102,7 +111,8 @@ def _career(lp, goalie):
         team = nm(r.get("teamName")) or str(r.get("leagueAbbrev", ""))
         if goalie:
             out.append([_season(r.get("season")), team, int(num(r.get("gamesPlayed"))), int(num(r.get("wins"))), int(num(r.get("losses"))),
-                        int(num(r.get("otLosses"))), round(num(r.get("goalsAgainstAvg")), 2), ("%.3f" % num(r.get("savePctg"))).lstrip("0")])
+                        int(num(r.get("otLosses"))), round(num(r.get("goalsAgainstAvg")), 2), ("%.3f" % num(r.get("savePctg"))).lstrip("0"),
+                        int(num(r.get("goalsAgainst"))), int(num(r.get("shotsAgainst"))), _mins(r.get("timeOnIce"))])
         else:
             out.append([_season(r.get("season")), team, int(num(r.get("gamesPlayed"))), int(num(r.get("goals"))), int(num(r.get("assists"))), int(num(r.get("points")))])
     out.sort(key=lambda x: x[0])

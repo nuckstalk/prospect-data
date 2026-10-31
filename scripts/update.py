@@ -341,27 +341,43 @@ try:
         try: return float(t)
         except Exception: return 0.0
 
+    def c_tok(t):
+        t = (t or "").strip().lower()
+        m = re.match(r"^[a-z0-9%+/\-]+", t)
+        return m.group(0) if m else t
+    def c_ctext(c):
+        return c.get_text(" ", strip=True)
+    SEASON_RE = re.compile(r"^(\d{4})\s*[-/\u2013]\s*(\d{2,4})")
     def c_parse(html):
-        soup = BeautifulSoup(html, "html.parser")
+        soup2 = BeautifulSoup(html, "html.parser")
         out = {"skater": [], "goalie": []}
-        for table in soup.find_all("table"):
-            hr = next((r for r in table.find_all("tr") if r.find("th")), None)
-            heads = [h.get_text(" ", strip=True) for h in (hr.find_all(["th", "td"]) if hr else [])]
-            if "Season" not in heads or "GP" not in heads: continue
-            first = lambda name: heads.index(name) if name in heads else None
-            iS, iT, iL, iGP = first("Season"), first("Team"), first("League"), first("GP")
-            goalie = "GAA" in heads or "SV%" in heads
-            idx = {k: first(k) for k in (("GAA", "SV%", "GA", "SV", "W-L-T", "TOI") if goalie else ("G", "A", "TP"))}
-            if iT is None or iL is None: continue
+        for table in soup2.find_all("table"):
+            trs = table.find_all("tr")
+            hr = None
+            for tr in trs:
+                toks = [c_tok(c_ctext(c)) for c in tr.find_all(["th", "td"])]
+                if "gp" in toks and ("team" in toks or "season" in toks or "league" in toks):
+                    hr = tr; break
+            if hr is None: continue
+            heads = [c_tok(c_ctext(c)) for c in hr.find_all(["th", "td"])]
+            def first(*names):
+                for n in names:
+                    if n in heads: return heads.index(n)
+                return None
+            iS, iT, iL, iGP = first("season", "year", "s"), first("team", "club"), first("league", "lg"), first("gp")
+            goalie = "gaa" in heads or "sv%" in heads
+            idx = {k: first(k) for k in (("gaa", "sv%", "ga", "sv", "w-l-t", "toi") if goalie else ("g", "a", "tp", "pts"))}
+            if iT is None or iL is None or iGP is None: continue
             prev = ""
-            for tr in table.find_all("tr"):
+            for tr in trs:
                 if tr is hr: continue
-                cells = [c.get_text(" ", strip=True) for c in tr.find_all(["td", "th"])]
-                if len(cells) == len(heads) - 1 and iS is not None:
-                    cells.insert(iS, "")
-                if len(cells) < len(heads): continue
+                cells = [c_ctext(c) for c in tr.find_all(["td", "th"])]
+                if len(cells) < 4: continue
+                if len(cells) == len(heads) - 1 and iS is not None: cells.insert(iS, "")
+                if len(cells) != len(heads): continue
                 season = cells[iS].strip() if iS is not None else ""
-                if re.match(r"^\d{4}-\d{2}", season): prev = season = re.match(r"^\d{4}-\d{2}", season).group(0)
+                m = SEASON_RE.match(season)
+                if m: prev = season = m.group(0).replace(" ", "")
                 else: season = prev if not season else ""
                 if not season: continue
                 team, lg = cells[iT].strip(), cells[iL].strip()
@@ -369,22 +385,33 @@ try:
                 if not gp or not c_keep(lg) or re.match(r"^[A-Za-z ]+ U-?\d\d( \(all\))?$", team) and re.match(r"^(Russia|Finland|Sweden|Canada|USA|Czech|Slovakia|Switzerland|Germany|Latvia|Norway|Denmark|Austria|Belarus|Kazakhstan)", team): continue
                 if goalie:
                     w = l = t = 0
-                    m = re.match(r"^(\d+)-(\d+)-(\d+)", cells[idx["W-L-T"]].replace(" ", "")) if idx.get("W-L-T") is not None else None
-                    if m: w, l, t = (int(x) for x in m.groups())
-                    ga = c_ti(cells[idx["GA"]]) if idx.get("GA") is not None else 0
-                    sv = c_ti(cells[idx["SV"]]) if idx.get("SV") is not None else 0
-                    mins = c_ti(cells[idx["TOI"]]) if idx.get("TOI") is not None else 0
-                    svp = cells[idx["SV%"]].strip() if idx.get("SV%") is not None else ""
-                    svp = svp[1:] if svp.startswith("0.") else ("" if svp in ("-", "–") else svp)
+                    m2 = re.match(r"^(\d+)-(\d+)-(\d+)", cells[idx["w-l-t"]].replace(" ", "")) if idx.get("w-l-t") is not None else None
+                    if m2: w, l, t = (int(x) for x in m2.groups())
+                    ga = c_ti(cells[idx["ga"]]) if idx.get("ga") is not None else 0
+                    sv = c_ti(cells[idx["sv"]]) if idx.get("sv") is not None else 0
+                    mins = c_ti(cells[idx["toi"]]) if idx.get("toi") is not None else 0
+                    svp = cells[idx["sv%"]].strip() if idx.get("sv%") is not None else ""
+                    svp = svp[1:] if svp.startswith("0.") else ("" if svp in ("-", "\u2013") else svp)
                     if svp == "" and sv + ga > 0: svp = ("%.3f" % (sv / (sv + ga))).lstrip("0")
-                    gaa = c_tf(cells[idx["GAA"]]) if idx.get("GAA") is not None else 0.0
+                    gaa = c_tf(cells[idx["gaa"]]) if idx.get("gaa") is not None else 0.0
                     if not gaa and ga and mins: gaa = round(ga * 60.0 / mins, 2)
                     out["goalie"].append([season, team, lg, gp, w, l, t, gaa, svp, ga, sv + ga if (sv or ga) else 0, mins])
                 else:
-                    g, a, tp = (c_ti(cells[idx[k]]) for k in ("G", "A", "TP"))
-                    out["skater"].append([season, team, lg, gp, g, a, tp])
+                    ip = idx.get("tp") if idx.get("tp") is not None else idx.get("pts")
+                    if idx.get("g") is None or idx.get("a") is None or ip is None: continue
+                    out["skater"].append([season, team, lg, gp, c_ti(cells[idx["g"]]), c_ti(cells[idx["a"]]), c_ti(cells[ip])])
             if out["goalie"] or out["skater"]: break
         return out
+    def c_diag(html):
+        try:
+            s2 = BeautifulSoup(html, "html.parser")
+            tabs = []
+            for t in s2.find_all("table")[:5]:
+                trs = t.find_all("tr")
+                tabs.append({"rows": len(trs), "first": [[c.get_text(" ", strip=True)[:22] for c in tr.find_all(["th", "td"])][:14] for tr in trs[:3]]})
+            return {"len": len(html), "title": (s2.title.get_text(strip=True) if s2.title else "")[:90], "tables": tabs, "text": s2.get_text(" ", strip=True)[:240]}
+        except Exception as ex:
+            return {"diag_error": str(ex)[:100]}
 
     c_old = {}
     try:
@@ -399,6 +426,7 @@ try:
             if k: c_links.setdefault(k, "/player/%s/%s" % (m.group(1), m.group(2)))
     print("career: player links found:", len(c_links))
     c_res, c_done, c_tried, c_start = dict(c_old), 0, 0, _t.time()
+    c_dbg = []
     for c_name, c_isg in [(n, False) for n in data["skaters"]] + [(n, True) for n in data["goalies"]]:
         if _t.time() - c_start > C_BUDGET_SECONDS: print("career: time budget used, the rest waits for the next run"); break
         e = c_old.get(c_name)
@@ -406,21 +434,28 @@ try:
         path = c_links.get(norm(c_name))
         if not path: print("career: no EP link for", c_name); continue
         c_tried += 1
-        rows = None
+        rows = None; last_html = None
         for suffix in ("", "/print"):
             try:
-                p = c_parse(fetch(C_BASE + path + suffix))
+                last_html = fetch(C_BASE + path + suffix)
+                p = c_parse(last_html)
                 rows = p["goalie" if c_isg else "skater"]
                 if rows: break
             except Exception as ex:
                 print("career: fetch failed:", c_name, suffix, str(ex)[:80])
-            _t.sleep(1.5)
-        if not rows: print("career: no rows for", c_name); continue
+                _t.sleep(8)
+            _t.sleep(3)
+        if not rows:
+            print("career: no rows for", c_name)
+            if last_html and len(c_dbg) < 3: c_dbg.append(dict(c_diag(last_html), name=c_name))
+            continue
         rows = [r for r in rows if r[0] != C_CUR]
         c_res[c_name] = {"at": NOW.strftime("%Y-%m-%dT%H:%M:%S"), "rows": rows}; c_done += 1
         if c_done == 1: print("career: sample", c_name, rows[:2])
-        _t.sleep(2)
+        _t.sleep(4)
     print("career: updated", c_done, "of", c_tried, "tried;", len(c_res), "players stored")
+    if c_dbg: c_res["_debug"] = c_dbg
+    else: c_res.pop("_debug", None)
     if c_res != c_old:
         json.dump(c_res, open("career.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 except Exception as _e:

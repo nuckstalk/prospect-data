@@ -3563,9 +3563,9 @@
    "diff": 15,
    "l10": "6-4-0",
    "strk": "1-0-0-0",
-   "lseq": 6,
-   "cseq": 4,
-   "dseq": 2
+   "lseq": 7,
+   "cseq": 5,
+   "dseq": 3
   },
   {
    "abbr": "GR",
@@ -3643,8 +3643,8 @@
    "diff": 11,
    "l10": "6-2-2",
    "strk": "6-0-2-0",
-   "lseq": 5,
-   "cseq": 3,
+   "lseq": 6,
+   "cseq": 4,
    "dseq": 2
   },
   {
@@ -3663,8 +3663,28 @@
    "diff": 5,
    "l10": "6-4-0",
    "strk": "1-0-0-0",
-   "lseq": 12,
-   "cseq": 6,
+   "lseq": 11,
+   "cseq": 5,
+   "dseq": 2
+  },
+  {
+   "abbr": "MIL",
+   "name": "Milwaukee Admirals",
+   "nick": "Admirals",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 10,
+   "w": 7,
+   "l": 3,
+   "otl": 0,
+   "pts": 14,
+   "gf": 26,
+   "ga": 20,
+   "diff": 6,
+   "l10": "7-3-0",
+   "strk": "1-0-0-0",
+   "lseq": 5,
+   "cseq": 3,
    "dseq": 2
   },
   {
@@ -3683,7 +3703,7 @@
    "diff": 6,
    "l10": "6-3-1",
    "strk": "1-0-0-0",
-   "lseq": 10,
+   "lseq": 9,
    "cseq": 6,
    "dseq": 3
   },
@@ -3703,9 +3723,9 @@
    "diff": 4,
    "l10": "6-3-1",
    "strk": "1-0-0-0",
-   "lseq": 11,
-   "cseq": 5,
-   "dseq": 4
+   "lseq": 10,
+   "cseq": 4,
+   "dseq": 3
   },
   {
    "abbr": "HER",
@@ -3724,7 +3744,7 @@
    "l10": "6-3-0",
    "strk": "0-1-0-0",
    "lseq": 8,
-   "cseq": 4,
+   "cseq": 3,
    "dseq": 1
   },
   {
@@ -3748,44 +3768,24 @@
    "dseq": 5
   },
   {
-   "abbr": "MIL",
-   "name": "Milwaukee Admirals",
-   "nick": "Admirals",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 9,
-   "w": 6,
-   "l": 3,
-   "otl": 0,
-   "pts": 12,
-   "gf": 26,
-   "ga": 20,
-   "diff": 6,
-   "l10": "6-3-0",
-   "strk": "0-1-0-0",
-   "lseq": 9,
-   "cseq": 5,
-   "dseq": 3
-  },
-  {
    "abbr": "CLE",
    "name": "Cleveland Monsters",
    "nick": "Monsters",
    "div": "North",
    "conf": "Eastern",
-   "gp": 9,
+   "gp": 10,
    "w": 6,
-   "l": 3,
+   "l": 4,
    "otl": 0,
    "pts": 12,
    "gf": 35,
    "ga": 36,
    "diff": -1,
-   "l10": "6-3-0",
-   "strk": "1-0-0-0",
-   "lseq": 7,
-   "cseq": 3,
-   "dseq": 3
+   "l10": "6-4-0",
+   "strk": "0-1-0-0",
+   "lseq": 12,
+   "cseq": 6,
+   "dseq": 4
   },
   {
    "abbr": "SYR",
@@ -4203,5 +4203,5 @@
   }
  },
  "live": false,
- "updated": "2026-10-31T20:30:16Z"
+ "updated": "2026-10-31T21:00:19Z"
 }

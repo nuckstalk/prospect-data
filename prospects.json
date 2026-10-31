@@ -66,13 +66,13 @@
    "ep": 6,
    "team": "Medicine Hat Tigers",
    "lg": "WHL",
-   "gp": 10,
+   "gp": 11,
    "g": 4,
    "a": 1,
    "tp": 5,
-   "ppg": 0.5,
+   "ppg": 0.45454545454545453,
    "pim": 14,
-   "pm": -2
+   "pm": -1
   },
   "Brooks Rogowski": {
    "ep": 7,
@@ -448,6 +448,19 @@
      "sg": 1,
      "sa": 3,
      "stp": 4
+    },
+    {
+     "k": "S",
+     "name": "Yaroslav Bryzgalov",
+     "lg": "WHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 11,
+     "sg": 4,
+     "sa": 1,
+     "stp": 5
     }
    ]
   },
@@ -1097,9 +1110,5 @@
     }
    ]
   }
- ],
- "status": {
-  "msg": "FETCH FAILED: urllib: HTTP Error 403: Forbidden; chrome: HTTP 403; safari: HTTP 403; edge: HTTP 403",
-  "at": "2026-10-31T04:30Z"
- }
+ ]
 }

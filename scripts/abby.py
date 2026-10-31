@@ -252,13 +252,12 @@ def season_rows(o):
     return best[1] if best else None
 
 def _sv_of(r):
-    """Save % for one season row: use the feed's own value under whatever name it has, else work it out from shots and saves."""
+    """Save % for one season row, worked out from shots against and goals against (the feed's own pct fields are unreliable)."""
+    sa = ival(r, "shots_against", "shots", "sa"); ga = ival(r, "goals_against", "ga"); sv = ival(r, "saves")
+    if sa > 0: return ("%.3f" % ((sa - ga) / sa)).lstrip("0")
     for k, v in r.items():
         kl = str(k).lower()
-        if ("sv" in kl or "save" in kl) and ("pct" in kl or "perc" in kl or "%" in kl) and num(v) > 0: return svp(v)
-    sa = ival(r, "shots_against", "shots", "sa"); ga = ival(r, "goals_against", "ga"); sv = ival(r, "saves")
-    if sa > 0 and sv > 0: return ("%.3f" % (sv / sa)).lstrip("0")
-    if sa > 0 and ga >= 0: return ("%.3f" % (1 - ga / sa)).lstrip("0")
+        if ("sv" in kl or "save" in kl) and ("pct" in kl or "perc" in kl or "%" in kl) and 0 < num(v) <= 1: return svp(v)
     return ""
 
 def career_of(resp, goalie):

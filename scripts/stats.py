@@ -89,6 +89,38 @@ try:
 except Exception as e:
     print("birth dates skipped:", e)
 
+# ---- career season-by-season (NHL player page). Never lets a failure break the update.
+def _season(v):
+    v = str(v or "")
+    return v[:4] + "-" + v[6:8] if len(v) == 8 else v
+
+def _career(lp, goalie):
+    out = []
+    for r in (lp or {}).get("seasonTotals", []):
+        if r.get("gameTypeId", 2) != 2: continue            # regular season only
+        team = nm(r.get("teamName")) or str(r.get("leagueAbbrev", ""))
+        if goalie:
+            out.append([_season(r.get("season")), team, int(num(r.get("gamesPlayed"))), int(num(r.get("wins"))), int(num(r.get("losses"))),
+                        int(num(r.get("otLosses"))), round(num(r.get("goalsAgainstAvg")), 2), ("%.3f" % num(r.get("savePctg"))).lstrip("0")])
+        else:
+            out.append([_season(r.get("season")), team, int(num(r.get("gamesPlayed"))), int(num(r.get("goals"))), int(num(r.get("assists"))), int(num(r.get("points")))])
+    out.sort(key=lambda x: x[0])
+    return out
+
+try:
+    prev_c = {p.get("id"): p.get("career") for p in prev.get("skaters", []) + prev.get("goalies", []) if p.get("career")}
+    got = 0
+    for grp, isg in ((skaters, False), (goalies, True)):
+        for p in grp:
+            lp = get("https://api-web.nhle.com/v1/player/%s/landing" % p["id"]) if p.get("id") else None
+            rows = _career(lp, isg) if lp else None
+            if rows: p["career"] = rows; got += 1
+            elif prev_c.get(p.get("id")): p["career"] = prev_c[p["id"]]
+            if lp and not p.get("bd") and _bd(lp.get("birthDate")): p["bd"] = _bd(lp["birthDate"])
+    print("career rows fetched for", got, "of", len(skaters) + len(goalies))
+except Exception as e:
+    print("career skipped:", e)
+
 def tsec(t):
     try:
         m, sec = str(t).split(":"); return int(m) * 60 + int(sec)

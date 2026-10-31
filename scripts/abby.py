@@ -251,6 +251,16 @@ def season_rows(o):
     walk(o)
     return best[1] if best else None
 
+def _sv_of(r):
+    """Save % for one season row: use the feed's own value under whatever name it has, else work it out from shots and saves."""
+    for k, v in r.items():
+        kl = str(k).lower()
+        if ("sv" in kl or "save" in kl) and ("pct" in kl or "perc" in kl or "%" in kl) and num(v) > 0: return svp(v)
+    sa = ival(r, "shots_against", "shots", "sa"); ga = ival(r, "goals_against", "ga"); sv = ival(r, "saves")
+    if sa > 0 and sv > 0: return ("%.3f" % (sv / sa)).lstrip("0")
+    if sa > 0 and ga >= 0: return ("%.3f" % (1 - ga / sa)).lstrip("0")
+    return ""
+
 def career_of(resp, goalie):
     rows = season_rows(resp)
     if not rows: return None
@@ -269,7 +279,8 @@ def career_of(resp, goalie):
         if not season or not gp: continue
         if goalie:
             out.append([season, team, gp, ival(r, "wins"), ival(r, "losses"), ival(r, "ot_losses", "overtime_losses") + ival(r, "shootout_losses"),
-                        round(num(g(r, "goals_against_average", "gaa")), 2), svp(g(r, "save_percentage", "sv_pct"))])
+                        round(num(g(r, "goals_against_average", "gaa")), 2), _sv_of(r),
+                        ival(r, "goals_against", "ga"), ival(r, "shots_against", "shots", "sa"), round(num(g(r, "minutes_played", "minutes", "min")), 1)])
         else:
             out.append([season, team, gp, ival(r, "goals"), ival(r, "assists"), ival(r, "points")])
     if len(CSHOWN) < 1 and rows:

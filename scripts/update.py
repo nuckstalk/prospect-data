@@ -274,6 +274,13 @@ for d in watch:
         fx = RESULT_FIXES.get((it["name"], d["date"]))
         if it.get("k") == "G" and fx and it.get("res") != fx:
             it["res"] = fx; it.pop("rec0", None); print("result corrected:", it["name"], d["date"], fx)
+# one-off hand corrections to a goalie's goals against: {(name, watch date): GA}
+GA_FIXES = {("Alexei Medvedev", "2026-10-30"): 4}   # logged before the late-GA fill-in existed
+for d in watch:
+    for it in d["items"]:
+        ga = GA_FIXES.get((it["name"], d["date"]))
+        if it.get("k") == "G" and ga is not None and it.get("ga") != ga:
+            it["ga"] = ga; it.pop("gaa0", None); it.pop("toi0", None); print("GA corrected:", it["name"], d["date"], ga)
 watch.sort(key=lambda d: d["date"], reverse=True)
 data["watch"] = watch[:7]
 # ---------------------------------------------------------------------------------------------

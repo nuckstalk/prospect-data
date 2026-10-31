@@ -6,13 +6,13 @@
    "ep": 1,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 9,
-   "g": 3,
+   "gp": 10,
+   "g": 4,
    "a": 5,
-   "tp": 8,
-   "ppg": 0.8888888888888888,
+   "tp": 9,
+   "ppg": 0.9,
    "pim": 4,
-   "pm": 6
+   "pm": 7
   },
   "Caleb Malhotra": {
    "ep": 2,
@@ -188,9 +188,9 @@
    "lg": "AHL",
    "gp": 5,
    "g": 0,
-   "a": 5,
-   "tp": 5,
-   "ppg": 1.0,
+   "a": 6,
+   "tp": 6,
+   "ppg": 1.2,
    "pim": 4,
    "pm": 1
   },
@@ -210,11 +210,11 @@
    "ep": 19,
    "team": "Colorado College",
    "lg": "NCAA",
-   "gp": 6,
+   "gp": 7,
    "g": 1,
    "a": 3,
    "tp": 4,
-   "ppg": 0.6666666666666666,
+   "ppg": 0.5714285714285714,
    "pim": 17,
    "pm": 4
   },
@@ -468,12 +468,12 @@
      "lg": "AHL",
      "dgp": 1,
      "dg": 0,
-     "da": 1,
-     "dtp": 1,
+     "da": 2,
+     "dtp": 2,
      "sgp": 5,
      "sg": 0,
-     "sa": 5,
-     "stp": 5
+     "sa": 6,
+     "stp": 6
     },
     {
      "k": "S",
@@ -486,6 +486,32 @@
      "sgp": 8,
      "sg": 0,
      "sa": 4,
+     "stp": 4
+    },
+    {
+     "k": "S",
+     "name": "Riley Patterson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 1,
+     "da": 0,
+     "dtp": 1,
+     "sgp": 10,
+     "sg": 4,
+     "sa": 5,
+     "stp": 9
+    },
+    {
+     "k": "S",
+     "name": "Wilson Björck",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 7,
+     "sg": 1,
+     "sa": 3,
      "stp": 4
     }
    ]
@@ -1136,9 +1162,5 @@
     }
    ]
   }
- ],
- "status": {
-  "msg": "GP DECREASED for Anri Ravinskis, Kirill Kudryavtsev, Sawyer Mynio, Ty Mueller - refusing to write (page looks stale)",
-  "at": "2026-10-31T03:45Z"
- }
+ ]
 }

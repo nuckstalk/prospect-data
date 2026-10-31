@@ -232,6 +232,59 @@ try:
 except Exception as e:
     print("birth dates skipped:", e)
 
+# ---- career season-by-season (AHL player profile). Never lets a failure break the update.
+CSHOWN = []
+
+def season_rows(o):
+    """Find the list of per-season rows inside the player profile, whatever the feed calls it."""
+    best = None
+    def walk(v, key=""):
+        nonlocal best
+        if isinstance(v, list) and v and all(isinstance(i, dict) for i in v) and any(("season_name" in i or "season" in i) and ("games_played" in i or "gp" in i) for i in v):
+            score = (0 if "regular" in key.lower() else 1 if "career" not in key.lower() else 2)
+            if best is None or score < best[0]: best = (score, v)
+        if isinstance(v, dict):
+            for k, c in v.items(): walk(c, str(k))
+        elif isinstance(v, list):
+            for c in v: walk(c, key)
+    walk(o)
+    return best[1] if best else None
+
+def career_of(resp, goalie):
+    rows = season_rows(resp)
+    if not rows: return None
+    out = []
+    for r in rows:
+        if str(g(r, "playoff", default="0")) in ("1", "True", "true"): continue
+        season = str(g(r, "season_name", "season", default=""))
+        team = str(g(r, "team_name", "team_city", "team", "team_code", default=""))
+        gp = ival(r, "games_played", "gp")
+        if not season or not gp: continue
+        if goalie:
+            out.append([season, team, gp, ival(r, "wins"), ival(r, "losses"), ival(r, "ot_losses", "overtime_losses") + ival(r, "shootout_losses"),
+                        round(num(g(r, "goals_against_average", "gaa")), 2), svp(g(r, "save_percentage", "sv_pct"))])
+        else:
+            out.append([season, team, gp, ival(r, "goals"), ival(r, "assists"), ival(r, "points")])
+    if len(CSHOWN) < 1 and rows:
+        CSHOWN.append(1); print("career row keys:", sorted(rows[0].keys()))
+    return out or None
+
+try:
+    prev_c = {str(p.get("id")): p.get("career") for p in prev.get("skaters", []) + prev.get("goalies", []) if p.get("career")}
+    got = 0
+    for grp, isg in ((skaters, False), (goalies, True)):
+        for p in grp:
+            k = str(p.get("id")); rows = None
+            for at in ({"feed": "modulekit", "view": "player"}, {"feed": "statviewfeed", "view": "player"}):
+                resp = ht(dict(at, player_id=k, season_id=sid), quick=True)
+                rows = career_of(resp, isg) if resp else None
+                if rows: break
+            if rows: p["career"] = rows; got += 1
+            elif prev_c.get(k): p["career"] = prev_c[k]
+    print("career rows fetched for", got, "of", len(skaters) + len(goalies))
+except Exception as e:
+    print("career skipped:", e)
+
 
 def find_games(obj):
     """The longest list of per-game dicts anywhere in a response (rows with a date and a stat)."""

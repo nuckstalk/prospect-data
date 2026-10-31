@@ -157,6 +157,17 @@ for n, r in data["goalies"].items():
         if r != old["goalies"][n]: print("AHL stats used for", n, ":", a["gp"], "GP", r["rec"], r["gaa"], r["svp"])
 
 
+# ---- an Abbotsford game is being played right now: hold AHL players at their last final numbers until it ends ----
+try:
+    if _ab.get("live"):
+        for grp in ("skaters", "goalies"):
+            for n in list(data[grp]):
+                if data[grp][n].get("lg") == "AHL" and n in old[grp]:
+                    data[grp][n] = dict(old[grp][n])
+        print("Abbotsford game in progress - AHL players held until it is final")
+except NameError:
+    pass
+
 # ---- Prospect Watch: log who played since the last run, filed under the Pacific game date ----
 def parse_rec(r):
     try:

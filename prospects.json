@@ -138,13 +138,13 @@
    "ep": 12,
    "team": "Owen Sound Attack",
    "lg": "OHL",
-   "gp": 11,
+   "gp": 12,
    "g": 3,
    "a": 7,
    "tp": 10,
-   "ppg": 0.9090909090909091,
+   "ppg": 0.8333333333333334,
    "pim": 8,
-   "pm": -4
+   "pm": -5
   },
   "Parker Alcos": {
    "ep": 13,
@@ -374,6 +374,19 @@
      "sg": 1,
      "sa": 2,
      "stp": 3
+    },
+    {
+     "k": "S",
+     "name": "Lucian Bernat",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 12,
+     "sg": 3,
+     "sa": 7,
+     "stp": 10
     }
    ]
   },

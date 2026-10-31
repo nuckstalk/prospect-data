@@ -3548,6 +3548,26 @@
  ],
  "standings": [
   {
+   "abbr": "LAV",
+   "name": "Laval Rocket",
+   "nick": "Rocket",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 11,
+   "w": 8,
+   "l": 3,
+   "otl": 0,
+   "pts": 16,
+   "gf": 39,
+   "ga": 21,
+   "diff": 18,
+   "l10": "8-2-0",
+   "strk": "1-0-0-0",
+   "lseq": 3,
+   "cseq": 1,
+   "dseq": 1
+  },
+  {
    "abbr": "MB",
    "name": "Manitoba Moose",
    "nick": "Moose",
@@ -3606,26 +3626,6 @@
    "lseq": 2,
    "cseq": 2,
    "dseq": 1
-  },
-  {
-   "abbr": "LAV",
-   "name": "Laval Rocket",
-   "nick": "Rocket",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 10,
-   "w": 7,
-   "l": 3,
-   "otl": 0,
-   "pts": 14,
-   "gf": 39,
-   "ga": 21,
-   "diff": 18,
-   "l10": "7-3-0",
-   "strk": "0-2-0-0",
-   "lseq": 4,
-   "cseq": 2,
-   "dseq": 2
   },
   {
    "abbr": "TUC",
@@ -3753,16 +3753,16 @@
    "nick": "Wranglers",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 11,
+   "gp": 12,
    "w": 6,
-   "l": 5,
+   "l": 6,
    "otl": 0,
    "pts": 12,
    "gf": 38,
    "ga": 36,
    "diff": 2,
-   "l10": "5-5-0",
-   "strk": "1-0-0-0",
+   "l10": "4-6-0",
+   "strk": "0-1-0-0",
    "lseq": 16,
    "cseq": 8,
    "dseq": 5
@@ -3883,9 +3883,9 @@
    "diff": 0,
    "l10": "5-2-0",
    "strk": "1-0-0-0",
-   "lseq": 3,
-   "cseq": 1,
-   "dseq": 1
+   "lseq": 4,
+   "cseq": 2,
+   "dseq": 2
   },
   {
    "abbr": "HSK",
@@ -4203,5 +4203,5 @@
   }
  },
  "live": false,
- "updated": "2026-10-31T21:00:19Z"
+ "updated": "2026-10-31T22:00:17Z"
 }

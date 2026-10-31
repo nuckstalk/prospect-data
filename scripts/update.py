@@ -316,3 +316,112 @@ data["asof"] = today.strftime("%Y-%m-%d")
 data["label"] = today.strftime("%B ") + str(today.day) + today.strftime(", %Y")
 json.dump(data, open("prospects.json", "w", encoding="utf-8"), indent=1, ensure_ascii=False)
 print("prospects.json updated:", data["label"])
+
+# =============================================================================================
+# ---- Career history (once a day): season-by-season stats for the Prospect Portal -> career.json ----
+# Runs AFTER prospects.json is saved, and can never stop the normal update: any problem here is just printed.
+try:
+    import time as _t
+    C_BASE = "https://www.eliteprospects.com"
+    C_CUR = "%d-%02d" % ((NOW.year if NOW.month >= 7 else NOW.year - 1), ((NOW.year if NOW.month >= 7 else NOW.year - 1) + 1) % 100)
+    C_STALE_HOURS = 20
+    C_BUDGET_SECONDS = 600
+    C_BAD = re.compile(r"U-?1\d|\bJ1\d|HS\b|High School|Prep|Midget|AAA|Bantam|Minor|Intern|WJC|WJ-?18|Hlinka|Memorial|Olympic|World|Nat\.|Five Nations|Euro Hockey|Junior Club|Jr\. ?Nat", re.I)
+    def c_keep(lg):
+        lg = (lg or "").strip()
+        if not lg or lg.endswith(" Q") or lg.lower().endswith("qualification"): return False
+        return not C_BAD.search(lg)
+
+    def c_ti(t):
+        t = str(t).replace(",", "").replace("−", "-").strip()
+        try: return int(float(t))
+        except Exception: return 0
+    def c_tf(t):
+        t = str(t).replace(",", "").strip()
+        try: return float(t)
+        except Exception: return 0.0
+
+    def c_parse(html):
+        soup = BeautifulSoup(html, "html.parser")
+        out = {"skater": [], "goalie": []}
+        for table in soup.find_all("table"):
+            hr = next((r for r in table.find_all("tr") if r.find("th")), None)
+            heads = [h.get_text(" ", strip=True) for h in (hr.find_all(["th", "td"]) if hr else [])]
+            if "Season" not in heads or "GP" not in heads: continue
+            first = lambda name: heads.index(name) if name in heads else None
+            iS, iT, iL, iGP = first("Season"), first("Team"), first("League"), first("GP")
+            goalie = "GAA" in heads or "SV%" in heads
+            idx = {k: first(k) for k in (("GAA", "SV%", "GA", "SV", "W-L-T", "TOI") if goalie else ("G", "A", "TP"))}
+            if iT is None or iL is None: continue
+            prev = ""
+            for tr in table.find_all("tr"):
+                if tr is hr: continue
+                cells = [c.get_text(" ", strip=True) for c in tr.find_all(["td", "th"])]
+                if len(cells) == len(heads) - 1 and iS is not None:
+                    cells.insert(iS, "")
+                if len(cells) < len(heads): continue
+                season = cells[iS].strip() if iS is not None else ""
+                if re.match(r"^\d{4}-\d{2}", season): prev = season = re.match(r"^\d{4}-\d{2}", season).group(0)
+                else: season = prev if not season else ""
+                if not season: continue
+                team, lg = cells[iT].strip(), cells[iL].strip()
+                gp = c_ti(cells[iGP])
+                if not gp or not c_keep(lg) or re.match(r"^[A-Za-z ]+ U-?\d\d( \(all\))?$", team) and re.match(r"^(Russia|Finland|Sweden|Canada|USA|Czech|Slovakia|Switzerland|Germany|Latvia|Norway|Denmark|Austria|Belarus|Kazakhstan)", team): continue
+                if goalie:
+                    w = l = t = 0
+                    m = re.match(r"^(\d+)-(\d+)-(\d+)", cells[idx["W-L-T"]].replace(" ", "")) if idx.get("W-L-T") is not None else None
+                    if m: w, l, t = (int(x) for x in m.groups())
+                    ga = c_ti(cells[idx["GA"]]) if idx.get("GA") is not None else 0
+                    sv = c_ti(cells[idx["SV"]]) if idx.get("SV") is not None else 0
+                    mins = c_ti(cells[idx["TOI"]]) if idx.get("TOI") is not None else 0
+                    svp = cells[idx["SV%"]].strip() if idx.get("SV%") is not None else ""
+                    svp = svp[1:] if svp.startswith("0.") else ("" if svp in ("-", "–") else svp)
+                    if svp == "" and sv + ga > 0: svp = ("%.3f" % (sv / (sv + ga))).lstrip("0")
+                    gaa = c_tf(cells[idx["GAA"]]) if idx.get("GAA") is not None else 0.0
+                    if not gaa and ga and mins: gaa = round(ga * 60.0 / mins, 2)
+                    out["goalie"].append([season, team, lg, gp, w, l, t, gaa, svp, ga, sv + ga if (sv or ga) else 0, mins])
+                else:
+                    g, a, tp = (c_ti(cells[idx[k]]) for k in ("G", "A", "TP"))
+                    out["skater"].append([season, team, lg, gp, g, a, tp])
+            if out["goalie"] or out["skater"]: break
+        return out
+
+    c_old = {}
+    try:
+        c_old = json.load(open("career.json", encoding="utf-8"))
+    except Exception:
+        c_old = {}
+    c_links = {}
+    for a in soup.find_all("a", href=True):
+        m = re.search(r"/player/(\d+)/([^/?#]+)", a["href"])
+        if m:
+            k = norm(re.sub(r"\([^)]*\)", "", a.get_text(" ", strip=True)))
+            if k: c_links.setdefault(k, "/player/%s/%s" % (m.group(1), m.group(2)))
+    print("career: player links found:", len(c_links))
+    c_res, c_done, c_tried, c_start = dict(c_old), 0, 0, _t.time()
+    for c_name, c_isg in [(n, False) for n in data["skaters"]] + [(n, True) for n in data["goalies"]]:
+        if _t.time() - c_start > C_BUDGET_SECONDS: print("career: time budget used, the rest waits for the next run"); break
+        e = c_old.get(c_name)
+        if e and e.get("at") and e.get("rows") is not None and (NOW.replace(tzinfo=None) - datetime.datetime.fromisoformat(e["at"])).total_seconds() < C_STALE_HOURS * 3600: continue
+        path = c_links.get(norm(c_name))
+        if not path: print("career: no EP link for", c_name); continue
+        c_tried += 1
+        rows = None
+        for suffix in ("", "/print"):
+            try:
+                p = c_parse(fetch(C_BASE + path + suffix))
+                rows = p["goalie" if c_isg else "skater"]
+                if rows: break
+            except Exception as ex:
+                print("career: fetch failed:", c_name, suffix, str(ex)[:80])
+            _t.sleep(1.5)
+        if not rows: print("career: no rows for", c_name); continue
+        rows = [r for r in rows if r[0] != C_CUR]
+        c_res[c_name] = {"at": NOW.strftime("%Y-%m-%dT%H:%M:%S"), "rows": rows}; c_done += 1
+        if c_done == 1: print("career: sample", c_name, rows[:2])
+        _t.sleep(2)
+    print("career: updated", c_done, "of", c_tried, "tried;", len(c_res), "players stored")
+    if c_res != c_old:
+        json.dump(c_res, open("career.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+except Exception as _e:
+    print("career skipped:", str(_e)[:200])

@@ -126,11 +126,11 @@
    "ep": 11,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 1,
+   "gp": 2,
    "g": 0,
    "a": 1,
    "tp": 1,
-   "ppg": 1.0,
+   "ppg": 0.5,
    "pim": 0,
    "pm": 2
   },
@@ -539,6 +539,19 @@
      "sg": 0,
      "sa": 5,
      "stp": 5
+    },
+    {
+     "k": "S",
+     "name": "Gabriel Chiarot",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 2,
+     "sg": 0,
+     "sa": 1,
+     "stp": 1
     }
    ]
   },

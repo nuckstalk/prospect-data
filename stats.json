@@ -5333,6 +5333,26 @@
    "lseq": 5
   },
   {
+   "abbr": "TBL",
+   "name": "Tampa Bay Lightning",
+   "nick": "Lightning",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 13,
+   "w": 8,
+   "l": 3,
+   "otl": 2,
+   "pts": 18,
+   "gf": 48,
+   "ga": 43,
+   "diff": 5,
+   "l10": "6-2-2",
+   "strk": "OT1",
+   "dseq": 2,
+   "cseq": 3,
+   "lseq": 6
+  },
+  {
    "abbr": "MTL",
    "name": "Montréal Canadiens",
    "nick": "Canadiens",
@@ -5348,9 +5368,9 @@
    "diff": 5,
    "l10": "7-2-1",
    "strk": "W4",
-   "dseq": 2,
-   "cseq": 3,
-   "lseq": 6
+   "dseq": 3,
+   "cseq": 4,
+   "lseq": 7
   },
   {
    "abbr": "NJD",
@@ -5369,8 +5389,8 @@
    "l10": "7-3-0",
    "strk": "W1",
    "dseq": 2,
-   "cseq": 4,
-   "lseq": 7
+   "cseq": 5,
+   "lseq": 8
   },
   {
    "abbr": "UTA",
@@ -5390,7 +5410,7 @@
    "strk": "W1",
    "dseq": 2,
    "cseq": 4,
-   "lseq": 8
+   "lseq": 9
   },
   {
    "abbr": "FLA",
@@ -5408,26 +5428,6 @@
    "diff": 5,
    "l10": "6-4-0",
    "strk": "W3",
-   "dseq": 3,
-   "cseq": 5,
-   "lseq": 9
-  },
-  {
-   "abbr": "TBL",
-   "name": "Tampa Bay Lightning",
-   "nick": "Lightning",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 12,
-   "w": 8,
-   "l": 3,
-   "otl": 1,
-   "pts": 17,
-   "gf": 44,
-   "ga": 38,
-   "diff": 6,
-   "l10": "7-2-1",
-   "strk": "W1",
    "dseq": 4,
    "cseq": 6,
    "lseq": 10
@@ -5653,6 +5653,26 @@
    "lseq": 21
   },
   {
+   "abbr": "NSH",
+   "name": "Nashville Predators",
+   "nick": "Predators",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 14,
+   "w": 5,
+   "l": 4,
+   "otl": 5,
+   "pts": 15,
+   "gf": 42,
+   "ga": 47,
+   "diff": -5,
+   "l10": "3-3-4",
+   "strk": "W1",
+   "dseq": 6,
+   "cseq": 9,
+   "lseq": 22
+  },
+  {
    "abbr": "SJS",
    "name": "San Jose Sharks",
    "nick": "Sharks",
@@ -5669,26 +5689,6 @@
    "l10": "4-5-1",
    "strk": "W1",
    "dseq": 4,
-   "cseq": 9,
-   "lseq": 22
-  },
-  {
-   "abbr": "NSH",
-   "name": "Nashville Predators",
-   "nick": "Predators",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 13,
-   "w": 4,
-   "l": 4,
-   "otl": 5,
-   "pts": 13,
-   "gf": 37,
-   "ga": 43,
-   "diff": -6,
-   "l10": "3-3-4",
-   "strk": "L1",
-   "dseq": 6,
    "cseq": 10,
    "lseq": 23
   },
@@ -5907,5 +5907,5 @@
    "rank": 32
   }
  },
- "updated": "2026-10-31T20:45:16Z"
+ "updated": "2026-10-31T21:00:16Z"
 }

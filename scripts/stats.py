@@ -98,7 +98,7 @@ def _career(lp, goalie):
     out = []
     for r in (lp or {}).get("seasonTotals", []):
         if r.get("gameTypeId", 2) != 2: continue            # regular season only
-        if str(r.get("leagueAbbrev", "")).upper() not in ("NHL", "AHL"): continue   # NHL and AHL seasons only
+        if str(r.get("leagueAbbrev", "")).upper() != "NHL": continue   # NHL seasons only (Canucks tab)
         team = nm(r.get("teamName")) or str(r.get("leagueAbbrev", ""))
         if goalie:
             out.append([_season(r.get("season")), team, int(num(r.get("gamesPlayed"))), int(num(r.get("wins"))), int(num(r.get("losses"))),

@@ -31,10 +31,10 @@
    "team": "Peterborough Petes",
    "lg": "OHL",
    "gp": 15,
-   "g": 8,
+   "g": 9,
    "a": 12,
-   "tp": 20,
-   "ppg": 1.3333333333333333,
+   "tp": 21,
+   "ppg": 1.4,
    "pim": 6,
    "pm": -3
   },
@@ -354,13 +354,13 @@
      "name": "Adam Novotný",
      "lg": "OHL",
      "dgp": 1,
-     "dg": 0,
+     "dg": 1,
      "da": 1,
-     "dtp": 1,
+     "dtp": 2,
      "sgp": 15,
-     "sg": 8,
+     "sg": 9,
      "sa": 12,
-     "stp": 20
+     "stp": 21
     }
    ]
   },

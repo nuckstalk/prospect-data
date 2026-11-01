@@ -1,6 +1,15 @@
 {
- "updated": "2026-10-31T23:15:30Z",
+ "updated": "2026-11-01T01:45:21Z",
  "results": [
+  {
+   "opp": "Toronto Maple Leafs",
+   "abbr": "TOR",
+   "home": true,
+   "date": "Oct 31",
+   "us": 2,
+   "them": 4,
+   "res": "L"
+  },
   {
    "opp": "San Jose Sharks",
    "abbr": "SJS",
@@ -18,15 +27,6 @@
    "us": 6,
    "them": 5,
    "res": "W"
-  },
-  {
-   "opp": "Minnesota Wild",
-   "abbr": "MIN",
-   "home": true,
-   "date": "Oct 25",
-   "us": 2,
-   "them": 4,
-   "res": "L"
   }
  ],
  "upcoming": [

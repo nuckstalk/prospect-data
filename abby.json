@@ -3768,6 +3768,26 @@
    "dseq": 5
   },
   {
+   "abbr": "HSK",
+   "name": "Henderson Silver Knights",
+   "nick": "Silver Knights",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 10,
+   "w": 6,
+   "l": 4,
+   "otl": 0,
+   "pts": 12,
+   "gf": 25,
+   "ga": 23,
+   "diff": 2,
+   "l10": "6-4-0",
+   "strk": "1-0-0-0",
+   "lseq": 13,
+   "cseq": 7,
+   "dseq": 4
+  },
+  {
    "abbr": "CLE",
    "name": "Cleveland Monsters",
    "nick": "Monsters",
@@ -3908,26 +3928,6 @@
    "dseq": 2
   },
   {
-   "abbr": "HSK",
-   "name": "Henderson Silver Knights",
-   "nick": "Silver Knights",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 9,
-   "w": 5,
-   "l": 4,
-   "otl": 0,
-   "pts": 10,
-   "gf": 25,
-   "ga": 23,
-   "diff": 2,
-   "l10": "5-4-0",
-   "strk": "0-1-0-0",
-   "lseq": 13,
-   "cseq": 7,
-   "dseq": 4
-  },
-  {
    "abbr": "ONT",
    "name": "Ontario Reign",
    "nick": "Reign",
@@ -3946,6 +3946,26 @@
    "lseq": 24,
    "cseq": 12,
    "dseq": 8
+  },
+  {
+   "abbr": "SD",
+   "name": "San Diego Gulls",
+   "nick": "Gulls",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 10,
+   "w": 4,
+   "l": 4,
+   "otl": 2,
+   "pts": 10,
+   "gf": 27,
+   "ga": 27,
+   "diff": 0,
+   "l10": "4-4-2",
+   "strk": "1-0-1-0",
+   "lseq": 19,
+   "cseq": 11,
+   "dseq": 7
   },
   {
    "abbr": "BEL",
@@ -3988,26 +4008,6 @@
    "dseq": 4
   },
   {
-   "abbr": "SD",
-   "name": "San Diego Gulls",
-   "nick": "Gulls",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 9,
-   "w": 4,
-   "l": 4,
-   "otl": 1,
-   "pts": 9,
-   "gf": 27,
-   "ga": 27,
-   "diff": 0,
-   "l10": "4-4-1",
-   "strk": "1-0-0-0",
-   "lseq": 20,
-   "cseq": 11,
-   "dseq": 7
-  },
-  {
    "abbr": "LV",
    "name": "Lehigh Valley Phantoms",
    "nick": "Phantoms",
@@ -4023,7 +4023,7 @@
    "diff": -6,
    "l10": "4-4-1",
    "strk": "0-1-0-0",
-   "lseq": 19,
+   "lseq": 20,
    "cseq": 9,
    "dseq": 3
   },
@@ -4195,7 +4195,7 @@
   },
   "ga": {
    "v": 2.8,
-   "rank": 11
+   "rank": 12
   },
   "pt": {
    "v": 75.0,
@@ -4203,5 +4203,5 @@
   }
  },
  "live": false,
- "updated": "2026-11-01T04:00:22Z"
+ "updated": "2026-11-01T04:15:18Z"
 }

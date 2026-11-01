@@ -3763,8 +3763,8 @@
    "diff": 2,
    "l10": "4-6-0",
    "strk": "0-1-0-0",
-   "lseq": 16,
-   "cseq": 8,
+   "lseq": 17,
+   "cseq": 9,
    "dseq": 5
   },
   {
@@ -3803,7 +3803,7 @@
    "diff": 0,
    "l10": "5-4-1",
    "strk": "2-0-1-0",
-   "lseq": 15,
+   "lseq": 16,
    "cseq": 8,
    "dseq": 6
   },
@@ -3843,9 +3843,29 @@
    "diff": 8,
    "l10": "5-4-0-1",
    "strk": "1-0-0-0",
-   "lseq": 14,
+   "lseq": 15,
    "cseq": 7,
    "dseq": 5
+  },
+  {
+   "abbr": "CHI",
+   "name": "Chicago Wolves",
+   "nick": "Wolves",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 10,
+   "w": 5,
+   "l": 4,
+   "otl": 1,
+   "pts": 11,
+   "gf": 27,
+   "ga": 35,
+   "diff": -8,
+   "l10": "5-4-0-1",
+   "strk": "5-0-0-1",
+   "lseq": 14,
+   "cseq": 8,
+   "dseq": 4
   },
   {
    "abbr": "CV",
@@ -3863,8 +3883,8 @@
    "diff": -6,
    "l10": "4-4-1-1",
    "strk": "1-0-0-0",
-   "lseq": 17,
-   "cseq": 9,
+   "lseq": 18,
+   "cseq": 10,
    "dseq": 6
   },
   {
@@ -4008,26 +4028,6 @@
    "dseq": 3
   },
   {
-   "abbr": "CHI",
-   "name": "Chicago Wolves",
-   "nick": "Wolves",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 9,
-   "w": 4,
-   "l": 4,
-   "otl": 1,
-   "pts": 9,
-   "gf": 27,
-   "ga": 35,
-   "diff": -8,
-   "l10": "4-4-0-1",
-   "strk": "4-0-0-1",
-   "lseq": 18,
-   "cseq": 10,
-   "dseq": 4
-  },
-  {
    "abbr": "SPR",
    "name": "Springfield Thunderbirds",
    "nick": "Thunderbirds",
@@ -4083,9 +4083,9 @@
    "diff": -7,
    "l10": "3-6-1",
    "strk": "0-5-1-0",
-   "lseq": 29,
-   "cseq": 15,
-   "dseq": 6
+   "lseq": 28,
+   "cseq": 14,
+   "dseq": 5
   },
   {
    "abbr": "HAM",
@@ -4143,9 +4143,9 @@
    "diff": -9,
    "l10": "3-6-0",
    "strk": "0-1-0-0",
-   "lseq": 30,
-   "cseq": 16,
-   "dseq": 7
+   "lseq": 29,
+   "cseq": 15,
+   "dseq": 6
   },
   {
    "abbr": "SJ",
@@ -4163,8 +4163,8 @@
    "diff": -13,
    "l10": "3-6-0",
    "strk": "0-2-0-0",
-   "lseq": 31,
-   "cseq": 17,
+   "lseq": 30,
+   "cseq": 16,
    "dseq": 10
   },
   {
@@ -4173,19 +4173,19 @@
    "nick": "Stars",
    "div": "Central",
    "conf": "Western",
-   "gp": 8,
+   "gp": 9,
    "w": 2,
-   "l": 4,
+   "l": 5,
    "otl": 2,
    "pts": 6,
    "gf": 27,
    "ga": 39,
    "diff": -12,
-   "l10": "2-4-1-1",
-   "strk": "1-0-0-0",
-   "lseq": 28,
-   "cseq": 14,
-   "dseq": 5
+   "l10": "2-5-1-1",
+   "strk": "0-1-0-0",
+   "lseq": 31,
+   "cseq": 17,
+   "dseq": 7
   }
  ],
  "team": {
@@ -4203,5 +4203,5 @@
   }
  },
  "live": false,
- "updated": "2026-11-01T03:00:17Z"
+ "updated": "2026-11-01T03:15:20Z"
 }

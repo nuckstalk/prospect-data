@@ -5494,16 +5494,16 @@
    "nick": "Hurricanes",
    "div": "Metropolitan",
    "conf": "Eastern",
-   "gp": 15,
-   "w": 11,
+   "gp": 16,
+   "w": 12,
    "l": 2,
    "otl": 2,
-   "pts": 24,
-   "gf": 56,
+   "pts": 26,
+   "gf": 63,
    "ga": 36,
-   "diff": 20,
+   "diff": 27,
    "l10": "8-1-1",
-   "strk": "W3",
+   "strk": "W4",
    "dseq": 1,
    "cseq": 1,
    "lseq": 1
@@ -6014,16 +6014,16 @@
    "nick": "Jets",
    "div": "Central",
    "conf": "Western",
-   "gp": 14,
+   "gp": 15,
    "w": 4,
-   "l": 7,
+   "l": 8,
    "otl": 3,
    "pts": 11,
    "gf": 34,
-   "ga": 47,
-   "diff": -13,
+   "ga": 54,
+   "diff": -20,
    "l10": "1-7-2",
-   "strk": "L4",
+   "strk": "L5",
    "dseq": 7,
    "cseq": 13,
    "lseq": 27
@@ -6163,5 +6163,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-01T06:15:14Z"
+ "updated": "2026-11-01T20:45:15Z"
 }

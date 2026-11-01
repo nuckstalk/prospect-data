@@ -18,12 +18,12 @@
    "ep": 2,
    "team": "Boston Univ.",
    "lg": "NCAA",
-   "gp": 7,
-   "g": 1,
+   "gp": 8,
+   "g": 2,
    "a": 3,
-   "tp": 4,
-   "ppg": 0.5714285714285714,
-   "pim": 4,
+   "tp": 5,
+   "ppg": 0.625,
+   "pim": 8,
    "pm": 4
   },
   "Adam Novotný": {
@@ -102,12 +102,12 @@
    "ep": 9,
    "team": "Boston Univ.",
    "lg": "NCAA",
-   "gp": 7,
+   "gp": 8,
    "g": 1,
    "a": 2,
    "tp": 3,
-   "ppg": 0.42857142857142855,
-   "pim": 4,
+   "ppg": 0.375,
+   "pim": 6,
    "pm": 5
   },
   "Ty Mueller": {
@@ -258,13 +258,13 @@
    "ep": 24,
    "team": "Boston Univ.",
    "lg": "NCAA",
-   "gp": 7,
+   "gp": 8,
    "g": 0,
    "a": 2,
    "tp": 2,
-   "ppg": 0.2857142857142857,
-   "pim": 2,
-   "pm": 0
+   "ppg": 0.25,
+   "pim": 4,
+   "pm": -1
   },
   "Daimon Gardner": {
    "ep": 25,
@@ -400,6 +400,45 @@
      "sg": 0,
      "sa": 0,
      "stp": 0
+    },
+    {
+     "k": "S",
+     "name": "Caleb Malhotra",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 1,
+     "da": 0,
+     "dtp": 1,
+     "sgp": 8,
+     "sg": 2,
+     "sa": 3,
+     "stp": 5
+    },
+    {
+     "k": "S",
+     "name": "Niklas Aaram-Olsen",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 8,
+     "sg": 1,
+     "sa": 2,
+     "stp": 3
+    },
+    {
+     "k": "S",
+     "name": "Aiden Celebrini",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 8,
+     "sg": 0,
+     "sa": 2,
+     "stp": 2
     }
    ]
   },

@@ -3663,8 +3663,8 @@
    "diff": 5,
    "l10": "6-4-0",
    "strk": "1-0-0-0",
-   "lseq": 11,
-   "cseq": 5,
+   "lseq": 10,
+   "cseq": 4,
    "dseq": 2
   },
   {
@@ -3713,19 +3713,19 @@
    "nick": "Marlies",
    "div": "North",
    "conf": "Eastern",
-   "gp": 10,
+   "gp": 11,
    "w": 6,
-   "l": 3,
+   "l": 4,
    "otl": 1,
    "pts": 13,
    "gf": 35,
    "ga": 34,
    "diff": 1,
    "l10": "6-3-1",
-   "strk": "1-0-0-0",
-   "lseq": 10,
-   "cseq": 4,
-   "dseq": 3
+   "strk": "0-1-0-0",
+   "lseq": 13,
+   "cseq": 6,
+   "dseq": 4
   },
   {
    "abbr": "HER",
@@ -3783,9 +3783,29 @@
    "diff": 2,
    "l10": "6-4-0",
    "strk": "1-0-0-0",
-   "lseq": 13,
+   "lseq": 12,
    "cseq": 7,
    "dseq": 4
+  },
+  {
+   "abbr": "BEL",
+   "name": "Belleville Senators",
+   "nick": "Senators",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 12,
+   "w": 5,
+   "l": 5,
+   "otl": 2,
+   "pts": 12,
+   "gf": 36,
+   "ga": 40,
+   "diff": -4,
+   "l10": "4-4-2",
+   "strk": "1-0-0-0",
+   "lseq": 18,
+   "cseq": 9,
+   "dseq": 7
   },
   {
    "abbr": "CLE",
@@ -3803,9 +3823,9 @@
    "diff": -1,
    "l10": "6-4-0",
    "strk": "0-1-0-0",
-   "lseq": 12,
-   "cseq": 6,
-   "dseq": 4
+   "lseq": 11,
+   "cseq": 5,
+   "dseq": 3
   },
   {
    "abbr": "SYR",
@@ -3843,8 +3863,8 @@
    "diff": -6,
    "l10": "3-6-1",
    "strk": "1-0-1-0",
-   "lseq": 23,
-   "cseq": 12,
+   "lseq": 24,
+   "cseq": 13,
    "dseq": 6
   },
   {
@@ -3903,7 +3923,7 @@
    "diff": -6,
    "l10": "4-4-1-1",
    "strk": "1-0-0-0",
-   "lseq": 18,
+   "lseq": 19,
    "cseq": 10,
    "dseq": 6
   },
@@ -3943,7 +3963,7 @@
    "diff": -9,
    "l10": "4-6-0",
    "strk": "0-4-0-0",
-   "lseq": 24,
+   "lseq": 25,
    "cseq": 12,
    "dseq": 8
   },
@@ -3963,28 +3983,8 @@
    "diff": 0,
    "l10": "4-4-2",
    "strk": "1-0-1-0",
-   "lseq": 19,
+   "lseq": 20,
    "cseq": 11,
-   "dseq": 7
-  },
-  {
-   "abbr": "BEL",
-   "name": "Belleville Senators",
-   "nick": "Senators",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 11,
-   "w": 4,
-   "l": 5,
-   "otl": 2,
-   "pts": 10,
-   "gf": 36,
-   "ga": 40,
-   "diff": -4,
-   "l10": "4-4-2",
-   "strk": "0-3-0-0",
-   "lseq": 25,
-   "cseq": 13,
    "dseq": 7
   },
   {
@@ -4003,8 +4003,8 @@
    "diff": 5,
    "l10": "4-4-1",
    "strk": "0-1-0-0",
-   "lseq": 21,
-   "cseq": 10,
+   "lseq": 22,
+   "cseq": 11,
    "dseq": 4
   },
   {
@@ -4019,12 +4019,12 @@
    "otl": 1,
    "pts": 9,
    "gf": 28,
-   "ga": 34,
-   "diff": -6,
+   "ga": 36,
+   "diff": -8,
    "l10": "4-4-1",
    "strk": "0-1-0-0",
-   "lseq": 20,
-   "cseq": 9,
+   "lseq": 21,
+   "cseq": 10,
    "dseq": 3
   },
   {
@@ -4043,8 +4043,8 @@
    "diff": -6,
    "l10": "3-3-2-1",
    "strk": "1-0-1-0",
-   "lseq": 22,
-   "cseq": 11,
+   "lseq": 23,
+   "cseq": 12,
    "dseq": 5
   },
   {
@@ -4058,9 +4058,9 @@
    "l": 6,
    "otl": 0,
    "pts": 8,
-   "gf": 30,
+   "gf": 32,
    "ga": 30,
-   "diff": 0,
+   "diff": 2,
    "l10": "4-6-0",
    "strk": "2-0-0-0",
    "lseq": 26,
@@ -4203,5 +4203,5 @@
   }
  },
  "live": false,
- "updated": "2026-11-01T20:30:21Z"
+ "updated": "2026-11-01T20:45:18Z"
 }

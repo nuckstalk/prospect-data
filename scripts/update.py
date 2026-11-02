@@ -314,38 +314,54 @@ def run_next():
         except Exception as e:
             print("next games: Eriksson schedule failed:", str(e)[:100])
 
-        # ---- Ivchenko (Omskie Yastreby, MHL): read the league's own calendar page ----
+        # ---- Ivchenko (Omskie Yastreby, MHL): schedule copied from EliteProspects (Pacific times, as shown there) ----
         try:
-            from bs4 import BeautifulSoup as _BS
+            OM = """2026-11-06 07:00|A|MHK Molot Perm
+2026-11-13 05:30|H|Mamonty Yugry
+2026-11-18 04:30|A|Krasnoyarskie Rysi
+2026-11-24 05:30|H|MHK Spartak Moskva
+2026-11-26 05:30|H|Krasnaya Armiya Moskva
+2026-11-29 12:00|H|Reaktor Nizhnekamsk
+2026-12-02 05:30|H|Sputnik Almetievsk
+2026-12-07 08:30|A|Loko-76 Yaroslavl
+2026-12-08 08:30|A|Loko-76 Yaroslavl
+2026-12-12 23:00|A|Sibirskie Snaipery Novosibirsk
+2026-12-20 12:00|H|Krasnoyarskie Rysi
+2026-12-22 05:30|H|MHK Molot Perm
+2026-12-28 05:30|H|Loko Yaroslavl
+2027-01-09 01:00|A|Tolpar Ufa
+2027-01-10 01:00|A|Tolpar Ufa
+2027-01-13 06:30|A|Stalnye Lisy Magnitogorsk
+2027-01-14 06:30|A|Stalnye Lisy Magnitogorsk
+2027-01-20 09:00|A|AKM-Yunior Tula Region
+2027-01-26 05:30|H|Snezhnye Barsy Astana
+2027-01-31 00:00|H|Loko-76 Yaroslavl
+2027-02-01 05:30|H|Loko-76 Yaroslavl
+2027-02-07 03:00|A|Irbis Kazan
+2027-02-08 08:30|A|Irbis Kazan
+2027-02-11 08:30|A|Chaika Nizhny Novgorod
+2027-02-12 08:30|A|Chaika Nizhny Novgorod
+2027-02-17 08:30|A|Reaktor Nizhnekamsk
+2027-02-19 08:30|A|Sputnik Almetievsk
+2027-02-23 00:00|H|Belye Medvedi Chelyabinsk
+2027-02-24 05:30|H|Belye Medvedi Chelyabinsk
+2027-02-27 00:00|H|Avto Yekaterinburg
+2027-02-28 00:00|H|Avto Yekaterinburg
+2027-03-06 00:00|H|Sibirskie Snaipery Novosibirsk
+2027-03-10 08:30|A|MHK Spartak Moskva
+2027-03-12 08:30|A|Loko Yaroslavl
+2027-03-15 07:00|A|Krasnaya Armiya Moskva
+2027-03-21 01:00|A|Mamonty Yugry"""
             for nm, tm in (nx_by.get("MHL") or []):
-                url = "https://engmhl.khl.ru/calendar/1440/0/15585/"
-                req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36", "Accept-Language": "en"})
-                html = urllib.request.urlopen(req, timeout=40).read().decode("utf-8", "replace")
-                soup = _BS(html, "html.parser")
-                trs = soup.find_all("tr")
-                print("next games: MHL page rows:", len(trs), "| first rows:", [re.sub(r"\s+", " ", t.get_text(" ")).strip()[:90] for t in trs[:3]])
-                found = []
-                MSK = datetime.timezone(datetime.timedelta(hours=3))
-                for t in trs:
-                    tx = re.sub(r"\s+", " ", t.get_text(" ")).strip()
-                    if not re.search(r"Omsk|Yastreb|Omsky|Omskie", tx, re.I): continue
-                    m = re.search(r"(\d{4})-(\d{2})-(\d{2})|(\d{2})\.(\d{2})\.(\d{4})", tx); tmm = re.search(r"\b(\d{1,2}):(\d{2})\b", tx)
-                    if not m: continue
-                    y, mo, d = (m.group(1), m.group(2), m.group(3)) if m.group(1) else (m.group(6), m.group(5), m.group(4))
-                    when = datetime.datetime(int(y), int(mo), int(d), int(tmm.group(1)) if tmm else 12, int(tmm.group(2)) if tmm else 0, tzinfo=MSK)
-                    if when < NOW - datetime.timedelta(hours=4) or re.search(r"\b\d+\s*:\s*\d+\b.*(FT|final)", tx, re.I): continue
-                    cells = [re.sub(r"\s+", " ", c.get_text(" ")).strip() for c in t.find_all(["td", "th"])]
-                    found.append((when, tx, cells))
-                found.sort(key=lambda x: x[0])
-                print("next games: MHL Omsk rows ahead:", len(found), "|", [x[1][:110] for x in found[:3]])
-                if found:
-                    when, tx, cells = found[0]
-                    teams = [c for c in cells if c and not re.search(r"\d{2}[.:-]\d{2}", c) and len(c) > 3]
-                    hm = next((i for i, c in enumerate(teams) if re.search(r"Omsk|Yastreb", c, re.I)), 0)
-                    opp = next((c for i, c in enumerate(teams) if i != hm and re.search(r"[A-Za-z]", c)), "TBD")
-                    n_put(nm, "MHL", when, teams[hm] if hm == 0 else opp, opp if hm == 0 else teams[hm], hm == 0, False)
+                if "mskie" not in tm and "Omsk" not in tm: continue
+                for ln in OM.splitlines():
+                    dt, ha, opp = ln.split("|")
+                    when = datetime.datetime.strptime(dt, "%Y-%m-%d %H:%M").replace(tzinfo=PT)
+                    if when < NOW - datetime.timedelta(hours=4): continue
+                    n_put(nm, "MHL", when, "Omskie Yastreby" if ha == "H" else opp, opp if ha == "H" else "Omskie Yastreby", ha == "H", False)
+                    break
         except Exception as e:
-            print("next games: MHL failed:", str(e)[:120])
+            print("next games: Ivchenko schedule failed:", str(e)[:100])
 
         # keep earlier entries (still in the future) for anyone a source missed this time
         try:

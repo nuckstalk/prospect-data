@@ -37,12 +37,12 @@ def run_next():
 
         def n_try(code, key, ref):
             last = None
-            for ahead in (14, 7, 3):
+            for ahead, back in ((14, 0), (7, 1), (3, 0), (0, 1), (2, 1)):
                 for host in ("https://lscluster.hockeytech.com/feed/index.php", "https://lscluster.hockeytech.com/feed/"):
                     for hd in ({"User-Agent": "Mozilla/5.0", "Referer": ref, "Origin": ref.rstrip("/")},
                                {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
                                 "Accept": "application/json, text/javascript, */*; q=0.01", "Referer": ref.replace("https://", "https://www.") if "www." not in ref else ref, "Origin": ref.rstrip("/")}):
-                        q = {"feed": "modulekit", "view": "scorebar", "numberofdaysahead": ahead, "numberofdaysback": 0,
+                        q = {"feed": "modulekit", "view": "scorebar", "numberofdaysahead": ahead, "numberofdaysback": back,
                              "key": key, "client_code": code, "fmt": "json", "lang": "en"}
                         try:
                             req = urllib.request.Request(host + "?" + _up.urlencode(q), headers=hd)
@@ -52,7 +52,7 @@ def run_next():
                             return json.loads(raw2)
                         except Exception as e:
                             last = str(e)[:80]
-                            try: print("next games:", code, "try ahead", ahead, host[-6:], "->", last, "|", raw[:100].replace("\n", " ") if 'raw' in dir() else "")
+                            try: print("next games:", code, "try ahead", ahead, "back", back, host[-6:], "->", last, "|", raw[:100].replace("\n", " ") if 'raw' in dir() else "")
                             except Exception: pass
             raise Exception("all tries failed: " + str(last))
 
@@ -89,6 +89,40 @@ def run_next():
                 except Exception: pass
             raise Exception("no working key for " + code)
 
+        def n_ht(code, key, ref, params):
+            q = dict(params, key=key, client_code=code, fmt="json", lang="en")
+            for host in ("https://lscluster.hockeytech.com/feed/index.php",):
+                try:
+                    req = urllib.request.Request(host + "?" + _up.urlencode(q), headers={"User-Agent": "Mozilla/5.0", "Referer": ref, "Origin": ref.rstrip("/")})
+                    raw = urllib.request.urlopen(req, timeout=40).read().decode("utf-8", "replace").strip()
+                    raw = re.sub(r"^[\w.$]*\(", "", raw); raw = re.sub(r"\)\s*;?\s*$", "", raw)
+                    return json.loads(raw)
+                except Exception as e:
+                    print("next games:", code, params.get("view"), "failed:", str(e)[:70])
+            return None
+
+        def n_schedule(code, key, ref, teams):
+            """Fallback: season -> team ids -> each team's schedule. Returns raw game rows."""
+            ss = ((n_ht(code, key, ref, {"feed": "modulekit", "view": "seasons"}) or {}).get("SiteKit") or {}).get("Seasons") or []
+            reg = [x for x in ss if str(x.get("playoff")) == "0" and "regular" in str(x.get("season_name", "")).lower()]
+            lim = (NOW + datetime.timedelta(days=10)).strftime("%Y-%m-%d")
+            st = [x for x in reg if str(x.get("start_date", "9999")) <= lim] or reg
+            st.sort(key=lambda x: (str(x.get("start_date", "")), str(x.get("season_id", ""))))
+            print("next games:", code, "seasons:", len(ss), "regular:", len(reg))
+            if not st: return []
+            sid = str(st[-1]["season_id"])
+            tb = ((n_ht(code, key, ref, {"feed": "modulekit", "view": "teamsbyseason", "season_id": sid}) or {}).get("SiteKit") or {}).get("Teamsbyseason") or []
+            print("next games:", code, "season", sid, "teams:", len(tb))
+            rows = []
+            for t in tb:
+                tn = str(t.get("name", "")) + " " + str(t.get("city", "")) + " " + str(t.get("nickname", ""))
+                if not any(n_match(tm, tn) or n_match(tm, str(t.get("name", ""))) for tm in teams): continue
+                sc = (n_ht(code, key, ref, {"feed": "modulekit", "view": "schedule", "season_id": sid, "team_id": t.get("id")}) or {}).get("SiteKit") or {}
+                got = sc.get("Schedule") or []
+                print("next games:", code, "schedule for", t.get("name"), "->", len(got), "rows", ("| keys: " + str(sorted(got[0].keys())[:30])) if got else "")
+                rows += got
+            return rows
+
         def n_games(obj):
             found = []
             def walk(o):
@@ -103,6 +137,9 @@ def run_next():
         def n_name(g, side):
             for k in (side + "LongName", side + "_long_name"):
                 if g.get(k): return str(g[k]).strip()
+            sn = "home" if side == "Home" else "visiting"
+            if g.get(sn + "_team_city") or g.get(sn + "_team_name"):
+                return (str(g.get(sn + "_team_city", "")) + " " + str(g.get(sn + "_team_nickname", g.get(sn + "_team_name", "")))).strip()
             return (str(g.get(side + "City", "")) + " " + str(g.get(side + "Nickname", ""))).strip()
 
         def n_when(g):
@@ -115,7 +152,9 @@ def run_next():
             return None
 
         def n_match(team, full):
-            a, b = norm(team), norm(full)
+            def _nn(x):
+                return re.sub(r"[^a-z]", "", unicodedata.normalize("NFKD", str(x)).encode("ascii", "ignore").decode().lower())
+            a, b = _nn(team), _nn(full)
             return bool(a and b and (a == b or a in b or b in a))
 
         nx_res = {}
@@ -127,14 +166,18 @@ def run_next():
             code, key, ref = N_FEEDS[lg]
             try:
                 sb = n_fetch(code, key, ref)
+                gl = n_games(sb)
             except Exception as e:
-                print("next games:", lg, "feed failed:", str(e)[:150]); continue
-            gl = n_games(sb)
+                print("next games:", lg, "scorebar failed:", str(e)[:100], "- trying team schedules")
+                gl = []
+                try: gl = n_schedule(code, key, ref, [tm for _, tm in plist])
+                except Exception as e2: print("next games:", lg, "schedule failed:", str(e2)[:120])
+                if not gl: continue
             print("next games:", lg, "feed games:", len(gl), "| sample keys:", sorted(gl[0].keys())[:24] if gl else "none")
             sched = []
             for g in gl:
                 gs = (str(g.get("GameStatusString", "")) + " " + str(g.get("GameStatusStringLong", ""))).lower()
-                fin = str(g.get("Final", g.get("final", "0"))) == "1" or "final" in gs
+                fin = str(g.get("Final", g.get("final", "0"))) == "1" or "final" in gs or str(g.get("game_status", "")).lower().startswith("final")
                 if fin: continue
                 when = n_when(g)
                 if not when: continue

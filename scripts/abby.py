@@ -573,7 +573,40 @@ try:
 except Exception as e:
     print("log live check skipped:", e)
 
+# ---- Abbotsford's next game (used by the Prospect Portal "next game") ----
+nxt = None
+try:
+    from zoneinfo import ZoneInfo
+    sch = ((ht({"feed": "modulekit", "view": "schedule", "season_id": sid, "team_id": tid}) or {}).get("SiteKit") or {}).get("Schedule") or []
+    print("schedule rows:", len(sch), "| keys:", sorted(sch[0].keys())[:30] if sch else "none")
+    def _tn(r, side):
+        c, n = str(r.get(side + "_team_city", "")).strip(), str(r.get(side + "_team_nickname", "")).strip()
+        return (c + " " + n).strip() or str(r.get(side + "_team_name", "")).strip() or str(r.get(side + "_team", "")).strip()
+    cand = []
+    for r in sch:
+        if not isinstance(r, dict): continue
+        iso = r.get("GameDateISO8601") or r.get("game_date_iso_8601")
+        if not iso: continue
+        try:
+            dt = datetime.datetime.fromisoformat(str(iso).replace("Z", "+00:00"))
+            if not dt.tzinfo: continue
+        except Exception: continue
+        stt = (str(r.get("game_status", "")) + " " + str(r.get("status", ""))).lower()
+        if str(r.get("final", "0")) == "1" or "final" in stt: continue
+        if dt < NOW - datetime.timedelta(hours=4): continue
+        cand.append((dt, r))
+    cand.sort(key=lambda x: x[0])
+    if cand:
+        dt, r = cand[0]; pt = dt.astimezone(ZoneInfo("America/Vancouver"))
+        ish = str(r.get("home_team", "")) == tid or "abbotsford" in _tn(r, "home").lower()
+        nxt = {"iso": pt.isoformat(), "date": pt.strftime("%a %b ") + str(pt.day), "time": pt.strftime("%-I:%M %p") + " PT",
+               "opp": _tn(r, "visiting" if ish else "home"), "home": ish, "live": str(r.get("started", "0")) == "1"}
+    print("Abbotsford next game:", nxt)
+except Exception as e:
+    print("next game skipped:", str(e)[:150])
+
 data = {"season": str(season.get("season_name", sid)), "skaters": skaters, "goalies": goalies, "standings": standings, "team": team, "live": live}
+if nxt: data["next"] = nxt
 if CDBG and not any(p.get("career") for p in skaters + goalies): data["career_debug"] = CDBG
 try:
     old = json.load(open("abby.json", encoding="utf-8"))

@@ -480,14 +480,25 @@ try:
     PT = ZoneInfo("America/Vancouver")
 
     def n_fetch(code, key, ref):
-        q = {"feed": "modulekit", "view": "scorebar", "numberofdaysahead": 14, "numberofdaysback": 0,
-             "key": key, "client_code": code, "fmt": "json", "lang": "en"}
-        url = "https://lscluster.hockeytech.com/feed/index.php?" + _up.urlencode(q)
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0", "Referer": ref, "Origin": ref.rstrip("/")})
-        with urllib.request.urlopen(req, timeout=40) as r:
-            raw = r.read().decode("utf-8", "replace").strip()
-        raw = re.sub(r"^[\w.$]*\(", "", raw); raw = re.sub(r"\)\s*;?\s*$", "", raw)
-        return json.loads(raw)
+        last = None
+        for ahead in (14, 7, 3):
+            for host in ("https://lscluster.hockeytech.com/feed/index.php", "https://lscluster.hockeytech.com/feed/"):
+                for hd in ({"User-Agent": "Mozilla/5.0", "Referer": ref, "Origin": ref.rstrip("/")},
+                           {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+                            "Accept": "application/json, text/javascript, */*; q=0.01", "Referer": ref.replace("https://", "https://www.") if "www." not in ref else ref, "Origin": ref.rstrip("/")}):
+                    q = {"feed": "modulekit", "view": "scorebar", "numberofdaysahead": ahead, "numberofdaysback": 0,
+                         "key": key, "client_code": code, "fmt": "json", "lang": "en"}
+                    try:
+                        req = urllib.request.Request(host + "?" + _up.urlencode(q), headers=hd)
+                        with urllib.request.urlopen(req, timeout=40) as r:
+                            raw = r.read().decode("utf-8", "replace").strip()
+                        raw2 = re.sub(r"^[\w.$]*\(", "", raw); raw2 = re.sub(r"\)\s*;?\s*$", "", raw2)
+                        return json.loads(raw2)
+                    except Exception as e:
+                        last = str(e)[:80]
+                        try: print("next games:", code, "try ahead", ahead, host[-6:], "->", last, "|", raw[:100].replace("\n", " ") if 'raw' in dir() else "")
+                        except Exception: pass
+        raise Exception("all tries failed: " + str(last))
 
     def n_games(obj):
         found = []
@@ -533,10 +544,12 @@ try:
         print("next games:", lg, "feed games:", len(gl), "| sample keys:", sorted(gl[0].keys())[:24] if gl else "none")
         sched = []
         for g in gl:
-            fin = str(g.get("Final", g.get("final", "0"))) == "1"
+            gs = (str(g.get("GameStatusString", "")) + " " + str(g.get("GameStatusStringLong", ""))).lower()
+            fin = str(g.get("Final", g.get("final", "0"))) == "1" or "final" in gs
             if fin: continue
             when = n_when(g)
             if not when: continue
+            if when < NOW - datetime.timedelta(hours=4): continue
             sched.append((when, n_name(g, "Home"), n_name(g, "Visitor"), str(g.get("Started", g.get("started", "0"))) == "1"))
         sched.sort(key=lambda x: x[0])
         for nm, team in plist:

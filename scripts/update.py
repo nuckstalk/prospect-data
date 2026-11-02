@@ -32,9 +32,10 @@ def run_next():
         N_FEEDS = {"AHL": ("ahl", "ccb91f29d6744675", "https://theahl.com/"),
                    "OHL": ("ohl", "2976319eb44abe94", "https://ontariohockeyleague.com/"),
                    "WHL": ("whl", "41b145a848f4bd67", "https://chl.ca/whl/")}
+        N_EXTRA = {"ahl": ["https://theahl.com/schedule", "https://theahl.com/stats"], "whl": ["https://whl.ca/", "https://chl.ca/whl/schedule/"]}
         PT = ZoneInfo("America/Vancouver")
 
-        def n_fetch(code, key, ref):
+        def n_try(code, key, ref):
             last = None
             for ahead in (14, 7, 3):
                 for host in ("https://lscluster.hockeytech.com/feed/index.php", "https://lscluster.hockeytech.com/feed/"):
@@ -54,6 +55,39 @@ def run_next():
                             try: print("next games:", code, "try ahead", ahead, host[-6:], "->", last, "|", raw[:100].replace("\n", " ") if 'raw' in dir() else "")
                             except Exception: pass
             raise Exception("all tries failed: " + str(last))
+
+        def n_keys(refs):
+            pat = re.compile(r"""["']?(?:key|apiKey|api_key|hockeytech[a-z_]*)["']?\s*[:=]\s*["']([0-9a-f]{16})["']""", re.I)
+            out = []
+            for u in refs:
+                try:
+                    hd = {"User-Agent": "Mozilla/5.0"}
+                    home = urllib.request.urlopen(urllib.request.Request(u, headers=hd), timeout=30).read().decode("utf-8", "replace")
+                    texts = [home]
+                    for src in re.findall(r'src=["\']([^"\']+\.js[^"\']*)["\']', home)[:14]:
+                        try: texts.append(urllib.request.urlopen(urllib.request.Request(_up.urljoin(u, src), headers=hd), timeout=30).read().decode("utf-8", "replace"))
+                        except Exception: pass
+                    for t in texts:
+                        for m in pat.finditer(t):
+                            if m.group(1) not in out: out.append(m.group(1))
+                except Exception as e:
+                    print("next games: key search failed on", u, str(e)[:60])
+            return out
+
+        def n_fetch(code, key, ref):
+            try:
+                return n_try(code, key, ref)
+            except Exception as e:
+                print("next games:", code, "built-in key failed, searching site for the live key")
+            for k in n_keys([ref, ref.replace("https://", "https://www.")] + N_EXTRA.get(code, []))[:4]:
+                if k == key: continue
+                print("next games:", code, "trying key found on site:", k)
+                try:
+                    r = n_try(code, k, ref)
+                    print("next games:", code, "working key:", k)
+                    return r
+                except Exception: pass
+            raise Exception("no working key for " + code)
 
         def n_games(obj):
             found = []

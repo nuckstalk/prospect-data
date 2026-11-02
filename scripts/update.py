@@ -14,12 +14,115 @@ old = json.loads(json.dumps(data))
 def bail(msg):
     """Stop without touching stats, but leave the reason in prospects.json ("status") so it can be read without logging in."""
     print(msg)
+    run_next()
     st = old.get("status") or {}
     if st.get("msg") != msg:
         out = json.loads(json.dumps(old))
         out["status"] = {"msg": msg, "at": NOW.strftime("%Y-%m-%dT%H:%MZ")}
         json.dump(out, open("prospects.json", "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     sys.exit(0)
+
+def run_next():
+    global data
+    # =============================================================================================
+    # ---- Next game for each prospect (AHL / OHL / WHL for now) -> next.json ----
+    # Runs AFTER everything else and can never stop the normal update: any problem here is just printed.
+    try:
+        import urllib.parse as _up
+        N_FEEDS = {"AHL": ("ahl", "ccb91f29d6744675", "https://theahl.com/"),
+                   "OHL": ("ohl", "2976319eb44abe94", "https://ontariohockeyleague.com/"),
+                   "WHL": ("whl", "41b145a848f4bd67", "https://chl.ca/whl/")}
+        PT = ZoneInfo("America/Vancouver")
+
+        def n_fetch(code, key, ref):
+            last = None
+            for ahead in (14, 7, 3):
+                for host in ("https://lscluster.hockeytech.com/feed/index.php", "https://lscluster.hockeytech.com/feed/"):
+                    for hd in ({"User-Agent": "Mozilla/5.0", "Referer": ref, "Origin": ref.rstrip("/")},
+                               {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+                                "Accept": "application/json, text/javascript, */*; q=0.01", "Referer": ref.replace("https://", "https://www.") if "www." not in ref else ref, "Origin": ref.rstrip("/")}):
+                        q = {"feed": "modulekit", "view": "scorebar", "numberofdaysahead": ahead, "numberofdaysback": 0,
+                             "key": key, "client_code": code, "fmt": "json", "lang": "en"}
+                        try:
+                            req = urllib.request.Request(host + "?" + _up.urlencode(q), headers=hd)
+                            with urllib.request.urlopen(req, timeout=40) as r:
+                                raw = r.read().decode("utf-8", "replace").strip()
+                            raw2 = re.sub(r"^[\w.$]*\(", "", raw); raw2 = re.sub(r"\)\s*;?\s*$", "", raw2)
+                            return json.loads(raw2)
+                        except Exception as e:
+                            last = str(e)[:80]
+                            try: print("next games:", code, "try ahead", ahead, host[-6:], "->", last, "|", raw[:100].replace("\n", " ") if 'raw' in dir() else "")
+                            except Exception: pass
+            raise Exception("all tries failed: " + str(last))
+
+        def n_games(obj):
+            found = []
+            def walk(o):
+                if isinstance(o, dict):
+                    if any(k in o for k in ("HomeLongName", "HomeCity", "home_team_city")) : found.append(o)
+                    else:
+                        for v in o.values(): walk(v)
+                elif isinstance(o, list):
+                    for v in o: walk(v)
+            walk(obj); return found
+
+        def n_name(g, side):
+            for k in (side + "LongName", side + "_long_name"):
+                if g.get(k): return str(g[k]).strip()
+            return (str(g.get(side + "City", "")) + " " + str(g.get(side + "Nickname", ""))).strip()
+
+        def n_when(g):
+            iso = g.get("GameDateISO8601") or g.get("game_date_iso_8601")
+            if iso:
+                try:
+                    dt = datetime.datetime.fromisoformat(str(iso).replace("Z", "+00:00"))
+                    if dt.tzinfo: return dt.astimezone(PT)
+                except Exception: pass
+            return None
+
+        def n_match(team, full):
+            a, b = norm(team), norm(full)
+            return bool(a and b and (a == b or a in b or b in a))
+
+        nx_res = {}
+        nx_by = {}
+        for grp in ("skaters", "goalies"):
+            for nm, rec in (data.get(grp) or {}).items():
+                if rec.get("lg") in N_FEEDS: nx_by.setdefault(rec["lg"], []).append((nm, rec.get("team", "")))
+        for lg, plist in nx_by.items():
+            code, key, ref = N_FEEDS[lg]
+            try:
+                sb = n_fetch(code, key, ref)
+            except Exception as e:
+                print("next games:", lg, "feed failed:", str(e)[:150]); continue
+            gl = n_games(sb)
+            print("next games:", lg, "feed games:", len(gl), "| sample keys:", sorted(gl[0].keys())[:24] if gl else "none")
+            sched = []
+            for g in gl:
+                gs = (str(g.get("GameStatusString", "")) + " " + str(g.get("GameStatusStringLong", ""))).lower()
+                fin = str(g.get("Final", g.get("final", "0"))) == "1" or "final" in gs
+                if fin: continue
+                when = n_when(g)
+                if not when: continue
+                if when < NOW - datetime.timedelta(hours=4): continue
+                sched.append((when, n_name(g, "Home"), n_name(g, "Visitor"), str(g.get("Started", g.get("started", "0"))) == "1"))
+            sched.sort(key=lambda x: x[0])
+            for nm, team in plist:
+                for when, home, away, live in sched:
+                    if n_match(team, home) or n_match(team, away):
+                        ish = n_match(team, home)
+                        nx_res[nm] = {"lg": lg, "iso": when.isoformat(), "date": when.strftime("%a %b ") + str(when.day),
+                                      "time": when.strftime("%-I:%M %p") + " PT", "opp": away if ish else home, "home": ish, "live": live}
+                        break
+        print("next games:", len(nx_res), "players with a scheduled game")
+        if nx_res:
+            out = {"asof": NOW.strftime("%Y-%m-%dT%H:%M:%SZ"), "games": nx_res}
+            try: prev = json.load(open("next.json", encoding="utf-8")).get("games")
+            except Exception: prev = None
+            if prev != nx_res:
+                json.dump(out, open("next.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+    except Exception as _e:
+        print("next games skipped:", str(_e)[:200])
 
 def fetch(url):
     """Plain request first; if the site answers 403 (it blocks GitHub's servers), retry as a real browser (curl_cffi)."""
@@ -469,102 +572,4 @@ try:
 except Exception as _e:
     print("career skipped:", str(_e)[:200])
 
-# =============================================================================================
-# ---- Next game for each prospect (AHL / OHL / WHL for now) -> next.json ----
-# Runs AFTER everything else and can never stop the normal update: any problem here is just printed.
-try:
-    import urllib.parse as _up
-    N_FEEDS = {"AHL": ("ahl", "ccb91f29d6744675", "https://theahl.com/"),
-               "OHL": ("ohl", "2976319eb44abe94", "https://ontariohockeyleague.com/"),
-               "WHL": ("whl", "41b145a848f4bd67", "https://chl.ca/whl/")}
-    PT = ZoneInfo("America/Vancouver")
-
-    def n_fetch(code, key, ref):
-        last = None
-        for ahead in (14, 7, 3):
-            for host in ("https://lscluster.hockeytech.com/feed/index.php", "https://lscluster.hockeytech.com/feed/"):
-                for hd in ({"User-Agent": "Mozilla/5.0", "Referer": ref, "Origin": ref.rstrip("/")},
-                           {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
-                            "Accept": "application/json, text/javascript, */*; q=0.01", "Referer": ref.replace("https://", "https://www.") if "www." not in ref else ref, "Origin": ref.rstrip("/")}):
-                    q = {"feed": "modulekit", "view": "scorebar", "numberofdaysahead": ahead, "numberofdaysback": 0,
-                         "key": key, "client_code": code, "fmt": "json", "lang": "en"}
-                    try:
-                        req = urllib.request.Request(host + "?" + _up.urlencode(q), headers=hd)
-                        with urllib.request.urlopen(req, timeout=40) as r:
-                            raw = r.read().decode("utf-8", "replace").strip()
-                        raw2 = re.sub(r"^[\w.$]*\(", "", raw); raw2 = re.sub(r"\)\s*;?\s*$", "", raw2)
-                        return json.loads(raw2)
-                    except Exception as e:
-                        last = str(e)[:80]
-                        try: print("next games:", code, "try ahead", ahead, host[-6:], "->", last, "|", raw[:100].replace("\n", " ") if 'raw' in dir() else "")
-                        except Exception: pass
-        raise Exception("all tries failed: " + str(last))
-
-    def n_games(obj):
-        found = []
-        def walk(o):
-            if isinstance(o, dict):
-                if any(k in o for k in ("HomeLongName", "HomeCity", "home_team_city")) : found.append(o)
-                else:
-                    for v in o.values(): walk(v)
-            elif isinstance(o, list):
-                for v in o: walk(v)
-        walk(obj); return found
-
-    def n_name(g, side):
-        for k in (side + "LongName", side + "_long_name"):
-            if g.get(k): return str(g[k]).strip()
-        return (str(g.get(side + "City", "")) + " " + str(g.get(side + "Nickname", ""))).strip()
-
-    def n_when(g):
-        iso = g.get("GameDateISO8601") or g.get("game_date_iso_8601")
-        if iso:
-            try:
-                dt = datetime.datetime.fromisoformat(str(iso).replace("Z", "+00:00"))
-                if dt.tzinfo: return dt.astimezone(PT)
-            except Exception: pass
-        return None
-
-    def n_match(team, full):
-        a, b = norm(team), norm(full)
-        return bool(a and b and (a == b or a in b or b in a))
-
-    nx_res = {}
-    nx_by = {}
-    for grp in ("skaters", "goalies"):
-        for nm, rec in (data.get(grp) or {}).items():
-            if rec.get("lg") in N_FEEDS: nx_by.setdefault(rec["lg"], []).append((nm, rec.get("team", "")))
-    for lg, plist in nx_by.items():
-        code, key, ref = N_FEEDS[lg]
-        try:
-            sb = n_fetch(code, key, ref)
-        except Exception as e:
-            print("next games:", lg, "feed failed:", str(e)[:150]); continue
-        gl = n_games(sb)
-        print("next games:", lg, "feed games:", len(gl), "| sample keys:", sorted(gl[0].keys())[:24] if gl else "none")
-        sched = []
-        for g in gl:
-            gs = (str(g.get("GameStatusString", "")) + " " + str(g.get("GameStatusStringLong", ""))).lower()
-            fin = str(g.get("Final", g.get("final", "0"))) == "1" or "final" in gs
-            if fin: continue
-            when = n_when(g)
-            if not when: continue
-            if when < NOW - datetime.timedelta(hours=4): continue
-            sched.append((when, n_name(g, "Home"), n_name(g, "Visitor"), str(g.get("Started", g.get("started", "0"))) == "1"))
-        sched.sort(key=lambda x: x[0])
-        for nm, team in plist:
-            for when, home, away, live in sched:
-                if n_match(team, home) or n_match(team, away):
-                    ish = n_match(team, home)
-                    nx_res[nm] = {"lg": lg, "iso": when.isoformat(), "date": when.strftime("%a %b ") + str(when.day),
-                                  "time": when.strftime("%-I:%M %p") + " PT", "opp": away if ish else home, "home": ish, "live": live}
-                    break
-    print("next games:", len(nx_res), "players with a scheduled game")
-    if nx_res:
-        out = {"asof": NOW.strftime("%Y-%m-%dT%H:%M:%SZ"), "games": nx_res}
-        try: prev = json.load(open("next.json", encoding="utf-8")).get("games")
-        except Exception: prev = None
-        if prev != nx_res:
-            json.dump(out, open("next.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
-except Exception as _e:
-    print("next games skipped:", str(_e)[:200])
+run_next()

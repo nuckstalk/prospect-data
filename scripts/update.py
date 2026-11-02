@@ -275,6 +275,78 @@ def run_next():
         except Exception as e:
             print("next games: other leagues failed:", str(e)[:120])
 
+        # ---- Eriksson (Färjestad U20): schedule copied from EliteProspects (times are Pacific, as shown there) ----
+        try:
+            EK = """2026-11-14 06:00|H|HV71 U20
+2026-11-15 04:00|H|Frölunda HC U20
+2026-11-21 07:45|H|Rögle BK U20
+2026-11-22 04:45|H|Rögle BK U20
+2026-11-26 11:00|A|Västerås IK U20
+2026-11-28 04:00|A|Örebro HK U20
+2026-12-05 07:00|A|Södertälje SK U20
+2026-12-06 04:00|A|Linköping HC U20
+2026-12-12 08:00|H|Tingsryds AIF U20
+2026-12-13 04:45|H|Växjö Lakers HC U20
+2027-01-06 05:00|H|BIK Karlskoga U20
+2027-01-09 06:00|H|Frölunda HC U20
+2027-01-10 04:00|H|HV71 U20
+2027-01-13 11:00|A|BIK Karlskoga U20
+2027-01-16 07:45|A|Malmö Redhawks U20
+2027-01-17 04:00|A|Rögle BK U20
+2027-01-22 11:15|H|Örebro HK U20
+2027-01-24 05:00|H|Västerås IK U20
+2027-01-30 07:00|H|Södertälje SK U20
+2027-01-31 04:15|H|Linköping HC U20
+2027-02-06 08:00|A|Tingsryds AIF U20
+2027-02-07 04:00|A|Växjö Lakers HC U20
+2027-02-20 04:00|A|BIK Karlskoga U20
+2027-02-21 04:00|H|BIK Karlskoga U20
+2027-02-26 11:00|A|Frölunda HC U20
+2027-02-27 04:00|A|HV71 U20"""
+            for nm, tm in (nx_by.get("U20") or []):
+                if "rjestad" not in tm: continue
+                for ln in EK.splitlines():
+                    dt, ha, opp = ln.split("|")
+                    when = datetime.datetime.strptime(dt, "%Y-%m-%d %H:%M").replace(tzinfo=PT)
+                    if when < NOW - datetime.timedelta(hours=4): continue
+                    n_put(nm, "U20", when, "Färjestad BK U20" if ha == "H" else opp, opp if ha == "H" else "Färjestad BK U20", ha == "H", False)
+                    break
+        except Exception as e:
+            print("next games: Eriksson schedule failed:", str(e)[:100])
+
+        # ---- Ivchenko (Omskie Yastreby, MHL): read the league's own calendar page ----
+        try:
+            from bs4 import BeautifulSoup as _BS
+            for nm, tm in (nx_by.get("MHL") or []):
+                url = "https://engmhl.khl.ru/calendar/1440/0/15585/"
+                req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36", "Accept-Language": "en"})
+                html = urllib.request.urlopen(req, timeout=40).read().decode("utf-8", "replace")
+                soup = _BS(html, "html.parser")
+                trs = soup.find_all("tr")
+                print("next games: MHL page rows:", len(trs), "| first rows:", [re.sub(r"\s+", " ", t.get_text(" ")).strip()[:90] for t in trs[:3]])
+                found = []
+                MSK = datetime.timezone(datetime.timedelta(hours=3))
+                for t in trs:
+                    tx = re.sub(r"\s+", " ", t.get_text(" ")).strip()
+                    if not re.search(r"Omsk|Yastreb|Omsky|Omskie", tx, re.I): continue
+                    m = re.search(r"(\d{4})-(\d{2})-(\d{2})|(\d{2})\.(\d{2})\.(\d{4})", tx); tmm = re.search(r"\b(\d{1,2}):(\d{2})\b", tx)
+                    if not m: continue
+                    y, mo, d = (m.group(1), m.group(2), m.group(3)) if m.group(1) else (m.group(6), m.group(5), m.group(4))
+                    when = datetime.datetime(int(y), int(mo), int(d), int(tmm.group(1)) if tmm else 12, int(tmm.group(2)) if tmm else 0, tzinfo=MSK)
+                    if when < NOW - datetime.timedelta(hours=4) or re.search(r"\b\d+\s*:\s*\d+\b.*(FT|final)", tx, re.I): continue
+                    cells = [re.sub(r"\s+", " ", c.get_text(" ")).strip() for c in t.find_all(["td", "th"])]
+                    found.append((when, tx, cells))
+                found.sort(key=lambda x: x[0])
+                print("next games: MHL Omsk rows ahead:", len(found), "|", [x[1][:110] for x in found[:3]])
+                if found:
+                    when, tx, cells = found[0]
+                    teams = [c for c in cells if c and not re.search(r"\d{2}[.:-]\d{2}", c) and len(c) > 3]
+                    hm = next((i for i, c in enumerate(teams) if re.search(r"Omsk|Yastreb", c, re.I)), 0)
+                    opp = next((c for i, c in enumerate(teams) if i != hm and re.search(r"[A-Za-z]", c)), "TBD")
+                    n_put(nm, "MHL", when, teams[hm] if hm == 0 else opp, opp if hm == 0 else teams[hm], hm == 0, False)
+        except Exception as e:
+            print("next games: MHL failed:", str(e)[:120])
+
         # keep earlier entries (still in the future) for anyone a source missed this time
         try:
             for nm, g in (json.load(open("next.json", encoding="utf-8")).get("games") or {}).items():

@@ -5509,6 +5509,26 @@
    "lseq": 1
   },
   {
+   "abbr": "EDM",
+   "name": "Edmonton Oilers",
+   "nick": "Oilers",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 15,
+   "w": 11,
+   "l": 2,
+   "otl": 2,
+   "pts": 24,
+   "gf": 64,
+   "ga": 44,
+   "diff": 20,
+   "l10": "7-2-1",
+   "strk": "W3",
+   "dseq": 1,
+   "cseq": 1,
+   "lseq": 2
+  },
+  {
    "abbr": "MIN",
    "name": "Minnesota Wild",
    "nick": "Wild",
@@ -5524,26 +5544,6 @@
    "diff": 16,
    "l10": "6-2-2",
    "strk": "W1",
-   "dseq": 1,
-   "cseq": 1,
-   "lseq": 2
-  },
-  {
-   "abbr": "EDM",
-   "name": "Edmonton Oilers",
-   "nick": "Oilers",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 14,
-   "w": 10,
-   "l": 2,
-   "otl": 2,
-   "pts": 22,
-   "gf": 60,
-   "ga": 43,
-   "diff": 17,
-   "l10": "7-2-1",
-   "strk": "W2",
    "dseq": 1,
    "cseq": 2,
    "lseq": 3
@@ -5849,26 +5849,6 @@
    "lseq": 18
   },
   {
-   "abbr": "NYR",
-   "name": "New York Rangers",
-   "nick": "Rangers",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 14,
-   "w": 7,
-   "l": 6,
-   "otl": 1,
-   "pts": 15,
-   "gf": 44,
-   "ga": 42,
-   "diff": 2,
-   "l10": "4-5-1",
-   "strk": "L3",
-   "dseq": 5,
-   "cseq": 12,
-   "lseq": 19
-  },
-  {
    "abbr": "STL",
    "name": "St. Louis Blues",
    "nick": "Blues",
@@ -5886,7 +5866,7 @@
    "strk": "W2",
    "dseq": 5,
    "cseq": 8,
-   "lseq": 20
+   "lseq": 19
   },
   {
    "abbr": "DET",
@@ -5905,8 +5885,8 @@
    "l10": "5-2-3",
    "strk": "L1",
    "dseq": 8,
-   "cseq": 13,
-   "lseq": 21
+   "cseq": 12,
+   "lseq": 20
   },
   {
    "abbr": "NSH",
@@ -5926,6 +5906,26 @@
    "strk": "W1",
    "dseq": 6,
    "cseq": 9,
+   "lseq": 21
+  },
+  {
+   "abbr": "NYR",
+   "name": "New York Rangers",
+   "nick": "Rangers",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 15,
+   "w": 7,
+   "l": 7,
+   "otl": 1,
+   "pts": 15,
+   "gf": 45,
+   "ga": 46,
+   "diff": -1,
+   "l10": "3-6-1",
+   "strk": "L4",
+   "dseq": 5,
+   "cseq": 13,
    "lseq": 22
   },
   {
@@ -6163,5 +6163,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-01T23:45:15Z"
+ "updated": "2026-11-02T01:45:15Z"
 }

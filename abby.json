@@ -3688,6 +3688,26 @@
    "dseq": 2
   },
   {
+   "abbr": "COL",
+   "name": "Colorado Eagles",
+   "nick": "Eagles",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 11,
+   "w": 6,
+   "l": 3,
+   "otl": 2,
+   "pts": 14,
+   "gf": 32,
+   "ga": 27,
+   "diff": 5,
+   "l10": "5-3-1-1",
+   "strk": "1-0-0-1",
+   "lseq": 9,
+   "cseq": 6,
+   "dseq": 3
+  },
+  {
    "abbr": "HFD",
    "name": "Hartford Wolf Pack",
    "nick": "Wolf Pack",
@@ -3703,29 +3723,9 @@
    "diff": -4,
    "l10": "3-6-1",
    "strk": "2-0-1-0",
-   "lseq": 17,
+   "lseq": 18,
    "cseq": 10,
    "dseq": 4
-  },
-  {
-   "abbr": "COL",
-   "name": "Colorado Eagles",
-   "nick": "Eagles",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 10,
-   "w": 6,
-   "l": 3,
-   "otl": 1,
-   "pts": 13,
-   "gf": 32,
-   "ga": 27,
-   "diff": 5,
-   "l10": "6-3-1",
-   "strk": "1-0-0-0",
-   "lseq": 9,
-   "cseq": 6,
-   "dseq": 3
   },
   {
    "abbr": "TOR",
@@ -3783,9 +3783,9 @@
    "diff": 2,
    "l10": "4-6-0",
    "strk": "0-1-0-0",
-   "lseq": 18,
-   "cseq": 8,
-   "dseq": 5
+   "lseq": 19,
+   "cseq": 9,
+   "dseq": 6
   },
   {
    "abbr": "UTC",
@@ -3843,7 +3843,7 @@
    "diff": -4,
    "l10": "4-4-2",
    "strk": "1-0-0-0",
-   "lseq": 19,
+   "lseq": 20,
    "cseq": 11,
    "dseq": 7
   },
@@ -3866,6 +3866,26 @@
    "lseq": 10,
    "cseq": 4,
    "dseq": 3
+  },
+  {
+   "abbr": "SD",
+   "name": "San Diego Gulls",
+   "nick": "Gulls",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 11,
+   "w": 5,
+   "l": 4,
+   "otl": 2,
+   "pts": 12,
+   "gf": 30,
+   "ga": 29,
+   "diff": 1,
+   "l10": "4-4-2",
+   "strk": "2-0-1-0",
+   "lseq": 17,
+   "cseq": 8,
+   "dseq": 5
   },
   {
    "abbr": "WBS",
@@ -3943,8 +3963,8 @@
    "diff": -12,
    "l10": "5-4-0-1",
    "strk": "0-1-0-0",
-   "lseq": 20,
-   "cseq": 9,
+   "lseq": 21,
+   "cseq": 10,
    "dseq": 4
   },
   {
@@ -3963,9 +3983,9 @@
    "diff": -6,
    "l10": "4-4-1-1",
    "strk": "1-0-0-0",
-   "lseq": 21,
-   "cseq": 10,
-   "dseq": 6
+   "lseq": 22,
+   "cseq": 11,
+   "dseq": 7
   },
   {
    "abbr": "PRO",
@@ -4006,26 +4026,6 @@
    "lseq": 23,
    "cseq": 12,
    "dseq": 8
-  },
-  {
-   "abbr": "SD",
-   "name": "San Diego Gulls",
-   "nick": "Gulls",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 10,
-   "w": 4,
-   "l": 4,
-   "otl": 2,
-   "pts": 10,
-   "gf": 30,
-   "ga": 29,
-   "diff": 1,
-   "l10": "4-4-2",
-   "strk": "1-0-1-0",
-   "lseq": 22,
-   "cseq": 11,
-   "dseq": 7
   },
   {
    "abbr": "LV",
@@ -4195,7 +4195,7 @@
   },
   "ga": {
    "v": 2.8,
-   "rank": 12
+   "rank": 13
   },
   "pt": {
    "v": 75.0,
@@ -4211,5 +4211,5 @@
   "home": true,
   "live": false
  },
- "updated": "2026-11-02T04:00:15Z"
+ "updated": "2026-11-02T04:15:15Z"
 }

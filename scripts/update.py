@@ -165,12 +165,24 @@ def run_next():
                 if rec.get("lg") in N_FEEDS: nx_by.setdefault(rec["lg"], []).append((nm, rec.get("team", "")))
         for lg, plist in nx_by.items():
             code, key, ref = N_FEEDS[lg]
+            if lg == "WHL":
+                print("next games: WHL skipped (feed not working yet)"); continue
             try:
+                if lg == "AHL": raise Exception("AHL comes from abby.json")
                 sb = n_fetch(code, key, ref)
                 gl = n_games(sb)
             except Exception as e:
                 print("next games:", lg, "scorebar failed:", str(e)[:100], "- trying team schedules")
                 gl = []
+                if lg == "AHL":
+                    try:
+                        _nx = json.load(open("abby.json", encoding="utf-8")).get("next")
+                        if _nx:
+                            for nm, tm in plist:
+                                if "abbotsford" in tm.lower(): nx_res[nm] = dict(_nx, lg="AHL")
+                            print("next games: AHL from abby.json:", _nx.get("date"), _nx.get("opp"))
+                    except Exception as e3: print("next games: abby.json next unavailable:", str(e3)[:80])
+                    continue
                 try: gl = n_schedule(code, key, ref, [tm for _, tm in plist])
                 except Exception as e2: print("next games:", lg, "schedule failed:", str(e2)[:120])
                 if not gl: continue

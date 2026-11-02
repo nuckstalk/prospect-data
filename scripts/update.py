@@ -217,8 +217,14 @@ def run_next():
                 return re.sub(r"[^a-z]", "", unicodedata.normalize("NFKD", x).encode("ascii", "ignore").decode())
             nc = nx_by.get("NCAA") or []
             if nc:
-                d1 = NOW.strftime("%Y%m%d"); d2 = (NOW + datetime.timedelta(days=21)).strftime("%Y%m%d")
-                ev = n_get("https://site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard?limit=500&dates=" + d1 + "-" + d2).get("events") or []
+                ev = []
+                for _i in range(0, 15):
+                    _d = (NOW + datetime.timedelta(days=_i)).strftime("%Y%m%d")
+                    try:
+                        ev += n_get("https://site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard?limit=300&dates=" + _d).get("events") or []
+                    except Exception as _e:
+                        print("next games: NCAA day", _d, "failed:", str(_e)[:80])
+                        if _i == 0 and "400" in str(_e): break
                 print("next games: NCAA events:", len(ev), "| sample:", (ev[0].get("name") if ev else "none"))
                 rows = []
                 for e in ev:

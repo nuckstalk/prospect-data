@@ -31,14 +31,15 @@ def run_next():
         import urllib.parse as _up
         N_FEEDS = {"AHL": ("ahl", "ccb91f29d6744675", "https://theahl.com/"),
                    "OHL": ("ohl", "2976319eb44abe94", "https://ontariohockeyleague.com/"),
-                   "WHL": ("whl", "41b145a848f4bd67", "https://chl.ca/whl/")}
+                   "WHL": ("whl", ["41b145a848f4bd67", "f1aa699db3d81487", "2976319eb44abe94"], "https://chl.ca/whl/"),
+                   "ECHL": ("echl", ["2c2b89ea7345cae8", "ccb91f29d6744675", "50c2cd9b5e18e390"], "https://echl.com/")}
         N_EXTRA = {"ahl": ["https://theahl.com/schedule", "https://theahl.com/stats"], "whl": ["https://whl.ca/", "https://chl.ca/whl/schedule/"]}
         PT = ZoneInfo("America/Vancouver")
 
-        def n_try(code, key, ref):
+        def n_try(code, key, ref, quick=False):
             last = None
-            for ahead, back in ((14, 0), (7, 1), (3, 0), (0, 1), (2, 1)):
-                for host in ("https://lscluster.hockeytech.com/feed/index.php", "https://lscluster.hockeytech.com/feed/"):
+            for ahead, back in (((14, 0),) if quick else ((14, 0), (7, 1), (3, 0), (0, 1), (2, 1))):
+                for host in (("https://lscluster.hockeytech.com/feed/index.php",) if quick else ("https://lscluster.hockeytech.com/feed/index.php", "https://lscluster.hockeytech.com/feed/")):
                     for hd in ({"User-Agent": "Mozilla/5.0", "Referer": ref, "Origin": ref.rstrip("/")},
                                {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
                                 "Accept": "application/json, text/javascript, */*; q=0.01", "Referer": ref.replace("https://", "https://www.") if "www." not in ref else ref, "Origin": ref.rstrip("/")}):
@@ -76,19 +77,15 @@ def run_next():
             return out
 
         def n_fetch(code, key, ref):
-            try:
-                return n_try(code, key, ref)
-            except Exception as e:
-                print("next games:", code, "built-in key failed, searching site for the live key")
-            for k in n_keys([ref, ref.replace("https://", "https://www.")] + N_EXTRA.get(code, []))[:4]:
-                if k == key: continue
-                print("next games:", code, "trying key found on site:", k)
+            last = None
+            for k in (key if isinstance(key, list) else [key]):
                 try:
-                    r = n_try(code, k, ref)
-                    print("next games:", code, "working key:", k)
+                    r = n_try(code, k, ref, quick=True)
+                    print("next games:", code, "key worked:", k)
                     return r
-                except Exception: pass
-            raise Exception("no working key for " + code)
+                except Exception as e:
+                    last = str(e)[:80]
+            raise Exception("no working key for " + code + " (" + str(last) + ")")
 
         def n_ht(code, key, ref, params):
             q = dict(params, key=key, client_code=code, fmt="json", lang="en")
@@ -162,11 +159,10 @@ def run_next():
         nx_by = {}
         for grp in ("skaters", "goalies"):
             for nm, rec in (data.get(grp) or {}).items():
-                if rec.get("lg") in N_FEEDS: nx_by.setdefault(rec["lg"], []).append((nm, rec.get("team", "")))
+                nx_by.setdefault(rec.get("lg"), []).append((nm, rec.get("team", "")))
         for lg, plist in nx_by.items():
+            if lg not in N_FEEDS: continue
             code, key, ref = N_FEEDS[lg]
-            if lg == "WHL":
-                print("next games: WHL skipped (feed not working yet)"); continue
             try:
                 if lg == "AHL": raise Exception("AHL comes from abby.json")
                 sb = n_fetch(code, key, ref)
@@ -183,7 +179,7 @@ def run_next():
                             print("next games: AHL from abby.json:", _nx.get("date"), _nx.get("opp"))
                     except Exception as e3: print("next games: abby.json next unavailable:", str(e3)[:80])
                     continue
-                try: gl = n_schedule(code, key, ref, [tm for _, tm in plist])
+                try: gl = n_schedule(code, (key[0] if isinstance(key, list) else key), ref, [tm for _, tm in plist])
                 except Exception as e2: print("next games:", lg, "schedule failed:", str(e2)[:120])
                 if not gl: continue
             print("next games:", lg, "feed games:", len(gl), "| sample keys:", sorted(gl[0].keys())[:24] if gl else "none")
@@ -204,6 +200,81 @@ def run_next():
                         nx_res[nm] = {"lg": lg, "iso": when.isoformat(), "date": when.strftime("%a %b ") + str(when.day),
                                       "time": when.strftime("%-I:%M %p") + " PT", "opp": away if ish else home, "home": ish, "live": live}
                         break
+        def n_put(nm, lg, when, home, away, ish, live):
+            when = when.astimezone(PT)
+            nx_res[nm] = {"lg": lg, "iso": when.isoformat(), "date": when.strftime("%a %b ") + str(when.day),
+                          "time": when.strftime("%-I:%M %p") + " PT", "opp": away if ish else home, "home": ish, "live": live}
+
+        def n_get(url):
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            return json.loads(urllib.request.urlopen(req, timeout=40).read().decode("utf-8", "replace"))
+
+        # ---- NCAA via ESPN's public scoreboard ----
+        try:
+            def _cl(x):
+                x = re.sub(r"\(.*?\)", "", str(x)).lower()
+                x = re.sub(r"\b(univ|university|of|the)\b\.?", "", x)
+                return re.sub(r"[^a-z]", "", unicodedata.normalize("NFKD", x).encode("ascii", "ignore").decode())
+            nc = nx_by.get("NCAA") or []
+            if nc:
+                d1 = NOW.strftime("%Y%m%d"); d2 = (NOW + datetime.timedelta(days=21)).strftime("%Y%m%d")
+                ev = n_get("https://site.api.espn.com/apis/site/v2/sports/hockey/mens-college-hockey/scoreboard?limit=500&dates=" + d1 + "-" + d2).get("events") or []
+                print("next games: NCAA events:", len(ev), "| sample:", (ev[0].get("name") if ev else "none"))
+                rows = []
+                for e in ev:
+                    try:
+                        ty = (e.get("status") or {}).get("type") or {}
+                        if ty.get("completed"): continue
+                        when = datetime.datetime.fromisoformat(str(e["date"]).replace("Z", "+00:00"))
+                        if when < NOW - datetime.timedelta(hours=4): continue
+                        cs = e["competitions"][0]["competitors"]
+                        h = next(c for c in cs if c.get("homeAway") == "home")["team"]; a = next(c for c in cs if c.get("homeAway") == "away")["team"]
+                        rows.append((when, h, a, ty.get("state") == "in"))
+                    except Exception: continue
+                rows.sort(key=lambda x: x[0])
+                for nm, tm in nc:
+                    k = _cl(tm)
+                    for when, h, a, live in rows:
+                        hl, al = _cl(h.get("location", h.get("displayName", ""))), _cl(a.get("location", a.get("displayName", "")))
+                        if k and (k == hl or k == al):
+                            ish = (k == hl)
+                            n_put(nm, "NCAA", when, h.get("displayName", ""), a.get("displayName", ""), ish, live)
+                            break
+        except Exception as e:
+            print("next games: NCAA failed:", str(e)[:120])
+
+        # ---- everything else (Europe, MHL, U20, ...) via TheSportsDB, when we have no game yet ----
+        try:
+            for lg, plist in nx_by.items():
+                if lg in ("AHL", "OHL", "NCAA"): continue
+                for nm, tm in plist:
+                    if nm in nx_res: continue
+                    try:
+                        q = n_get("https://www.thesportsdb.com/api/v1/json/123/searchteams.php?t=" + _up.quote(tm))
+                        teams = q.get("teams") or []
+                        print("next games:", lg, nm, "| teams found for", tm, ":", [t.get("strTeam") for t in teams][:3])
+                        teams = [t for t in teams if n_match(tm, t.get("strTeam", "")) or n_match(re.sub(r"\b(U20|J20|U-20)\b", "", tm).strip(), t.get("strTeam", ""))]
+                        if not teams: continue
+                        tid = teams[0].get("idTeam")
+                        evs = (n_get("https://www.thesportsdb.com/api/v1/json/123/eventsnext.php?id=" + str(tid)).get("events") or [])
+                        for e in evs:
+                            ts = e.get("strTimestamp") or ((e.get("dateEvent") or "") + "T" + (e.get("strTime") or "00:00:00"))
+                            when = datetime.datetime.fromisoformat(str(ts).replace("Z", "")).replace(tzinfo=datetime.timezone.utc)
+                            if when < NOW - datetime.timedelta(hours=4): continue
+                            hm, aw = str(e.get("strHomeTeam", "")), str(e.get("strAwayTeam", ""))
+                            n_put(nm, lg, when, hm, aw, n_match(tm, hm), False)
+                            break
+                    except Exception as e:
+                        print("next games:", lg, nm, "lookup failed:", str(e)[:80])
+        except Exception as e:
+            print("next games: other leagues failed:", str(e)[:120])
+
+        # keep earlier entries (still in the future) for anyone a source missed this time
+        try:
+            for nm, g in (json.load(open("next.json", encoding="utf-8")).get("games") or {}).items():
+                if nm not in nx_res and datetime.datetime.fromisoformat(g["iso"]) > NOW - datetime.timedelta(hours=4): nx_res[nm] = g
+        except Exception: pass
+
         print("next games:", len(nx_res), "players with a scheduled game")
         if nx_res:
             out = {"asof": NOW.strftime("%Y-%m-%dT%H:%M:%SZ"), "games": nx_res}

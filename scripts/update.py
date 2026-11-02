@@ -61,7 +61,8 @@ def run_next():
             out = []
             for u in refs:
                 try:
-                    hd = {"User-Agent": "Mozilla/5.0"}
+                    _o = "/".join(u.split("/")[:3])
+                    hd = {"User-Agent": "Mozilla/5.0", "Referer": _o + "/", "Origin": _o}
                     home = urllib.request.urlopen(urllib.request.Request(u, headers=hd), timeout=30).read().decode("utf-8", "replace")
                     texts = [home]
                     for src in re.findall(r'src=["\']([^"\']+\.js[^"\']*)["\']', home)[:14]:

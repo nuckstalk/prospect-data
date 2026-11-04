@@ -1,3 +1,5 @@
 [
-  {"week": "Oct 26 - Nov 1", "name": "Brooks Rogowski", "lg": "OHL", "gp": 2, "g": 1, "a": 4, "pts": 5}
+  {"week": "Oct 26 - Nov 1", "name": "Brooks Rogowski", "lg": "OHL", "gp": 2, "g": 1, "a": 4, "pts": 5},
+  {"week": "Oct 19 - 25", "name": "Lucian Bernat", "lg": "OHL", "gp": 3, "g": 3, "a": 2, "pts": 5},
+  {"week": "Oct 12 - 18", "name": "Adam Novotný", "lg": "OHL", "gp": 3, "g": 3, "a": 4, "pts": 7}
 ]

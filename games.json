@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T01:45:21Z",
+ "updated": "2026-11-04T02:15:19Z",
  "results": [
   {
    "opp": "Toronto Maple Leafs",
@@ -31,14 +31,6 @@
  ],
  "upcoming": [
   {
-   "opp": "Anaheim Ducks",
-   "abbr": "ANA",
-   "home": true,
-   "date": "Tue Nov 3",
-   "time": "7:00 PM PT",
-   "utc": "2026-11-04T02:00:00Z"
-  },
-  {
    "opp": "Winnipeg Jets",
    "abbr": "WPG",
    "home": false,
@@ -53,6 +45,14 @@
    "date": "Sat Nov 7",
    "time": "8:00 PM PT",
    "utc": "2026-11-08T03:00:00Z"
+  },
+  {
+   "opp": "Philadelphia Flyers",
+   "abbr": "PHI",
+   "home": true,
+   "date": "Mon Nov 9",
+   "time": "7:30 PM PT",
+   "utc": "2026-11-10T02:30:00Z"
   }
  ]
 }

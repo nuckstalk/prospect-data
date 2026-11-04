@@ -5494,16 +5494,16 @@
    "nick": "Hurricanes",
    "div": "Metropolitan",
    "conf": "Eastern",
-   "gp": 16,
+   "gp": 17,
    "w": 12,
-   "l": 2,
+   "l": 3,
    "otl": 2,
    "pts": 26,
-   "gf": 63,
-   "ga": 36,
-   "diff": 27,
-   "l10": "8-1-1",
-   "strk": "W4",
+   "gf": 64,
+   "ga": 40,
+   "diff": 24,
+   "l10": "7-2-1",
+   "strk": "L1",
    "dseq": 1,
    "cseq": 1,
    "lseq": 1
@@ -5809,6 +5809,26 @@
    "lseq": 16
   },
   {
+   "abbr": "NSH",
+   "name": "Nashville Predators",
+   "nick": "Predators",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 15,
+   "w": 6,
+   "l": 4,
+   "otl": 5,
+   "pts": 17,
+   "gf": 46,
+   "ga": 48,
+   "diff": -2,
+   "l10": "4-3-3",
+   "strk": "W2",
+   "dseq": 5,
+   "cseq": 8,
+   "lseq": 17
+  },
+  {
    "abbr": "NYR",
    "name": "New York Rangers",
    "nick": "Rangers",
@@ -5826,7 +5846,7 @@
    "strk": "W1",
    "dseq": 3,
    "cseq": 10,
-   "lseq": 17
+   "lseq": 18
   },
   {
    "abbr": "DET",
@@ -5846,7 +5866,7 @@
    "strk": "L1",
    "dseq": 8,
    "cseq": 11,
-   "lseq": 18
+   "lseq": 19
   },
   {
    "abbr": "WSH",
@@ -5866,7 +5886,7 @@
    "strk": "L2",
    "dseq": 4,
    "cseq": 12,
-   "lseq": 19
+   "lseq": 20
   },
   {
    "abbr": "NYI",
@@ -5886,26 +5906,6 @@
    "strk": "L1",
    "dseq": 5,
    "cseq": 13,
-   "lseq": 20
-  },
-  {
-   "abbr": "NSH",
-   "name": "Nashville Predators",
-   "nick": "Predators",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 14,
-   "w": 5,
-   "l": 4,
-   "otl": 5,
-   "pts": 15,
-   "gf": 42,
-   "ga": 47,
-   "diff": -5,
-   "l10": "3-3-4",
-   "strk": "W1",
-   "dseq": 5,
-   "cseq": 8,
    "lseq": 21
   },
   {
@@ -6163,5 +6163,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-04T03:45:17Z"
+ "updated": "2026-11-04T04:00:18Z"
 }

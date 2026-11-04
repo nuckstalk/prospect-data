@@ -5929,6 +5929,26 @@
    "lseq": 22
   },
   {
+   "abbr": "ANA",
+   "name": "Anaheim Ducks",
+   "nick": "Ducks",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 15,
+   "w": 7,
+   "l": 7,
+   "otl": 1,
+   "pts": 15,
+   "gf": 54,
+   "ga": 57,
+   "diff": -3,
+   "l10": "3-6-1",
+   "strk": "W2",
+   "dseq": 4,
+   "cseq": 10,
+   "lseq": 23
+  },
+  {
    "abbr": "SJS",
    "name": "San Jose Sharks",
    "nick": "Sharks",
@@ -5944,9 +5964,9 @@
    "diff": -12,
    "l10": "4-5-1",
    "strk": "L2",
-   "dseq": 4,
-   "cseq": 10,
-   "lseq": 23
+   "dseq": 5,
+   "cseq": 11,
+   "lseq": 24
   },
   {
    "abbr": "CGY",
@@ -5963,26 +5983,6 @@
    "ga": 53,
    "diff": -15,
    "l10": "7-3-0",
-   "strk": "W1",
-   "dseq": 5,
-   "cseq": 11,
-   "lseq": 24
-  },
-  {
-   "abbr": "ANA",
-   "name": "Anaheim Ducks",
-   "nick": "Ducks",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 14,
-   "w": 6,
-   "l": 7,
-   "otl": 1,
-   "pts": 13,
-   "gf": 49,
-   "ga": 53,
-   "diff": -4,
-   "l10": "3-6-1",
    "strk": "W1",
    "dseq": 6,
    "cseq": 12,
@@ -6114,16 +6114,16 @@
    "nick": "Canucks",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 16,
+   "gp": 17,
    "w": 3,
-   "l": 12,
+   "l": 13,
    "otl": 1,
    "pts": 7,
-   "gf": 47,
-   "ga": 72,
-   "diff": -25,
+   "gf": 51,
+   "ga": 77,
+   "diff": -26,
    "l10": "1-8-1",
-   "strk": "L2",
+   "strk": "L3",
    "dseq": 8,
    "cseq": 16,
    "lseq": 32
@@ -6163,5 +6163,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-04T04:15:13Z"
+ "updated": "2026-11-04T05:00:20Z"
 }

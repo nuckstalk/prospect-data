@@ -138,13 +138,13 @@
    "ep": 12,
    "team": "Owen Sound Attack",
    "lg": "OHL",
-   "gp": 12,
+   "gp": 13,
    "g": 3,
    "a": 7,
    "tp": 10,
-   "ppg": 0.8333333333333334,
-   "pim": 8,
-   "pm": -5
+   "ppg": 0.7692307692307693,
+   "pim": 10,
+   "pm": -6
   },
   "Parker Alcos": {
    "ep": 13,
@@ -317,12 +317,12 @@
   "Aku Koskenvuo": {
    "team": "Kalamazoo Wings",
    "lg": "ECHL",
-   "gp": 3,
-   "gaa": 2.6,
-   "svp": ".935",
+   "gp": 4,
+   "gaa": 2.71,
+   "svp": ".932",
    "so": 0,
    "rec": "1-0-2",
-   "toi": 184.28
+   "toi": 243.27
   },
   "Alexei Medvedev": {
    "team": "London Knights",
@@ -346,6 +346,36 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-11-04",
+   "items": [
+    {
+     "k": "S",
+     "name": "Lucian Bernat",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 13,
+     "sg": 3,
+     "sa": 7,
+     "stp": 10
+    },
+    {
+     "k": "G",
+     "name": "Aku Koskenvuo",
+     "lg": "ECHL",
+     "dgp": 1,
+     "res": "",
+     "gaa": 2.71,
+     "svp": ".932",
+     "sgp": 4,
+     "rec0": "1-0-2",
+     "ga": 3
+    }
+   ]
+  },
   {
    "date": "2026-11-01",
    "items": [
@@ -953,129 +983,6 @@
      "stp": 3
     }
    ]
-  },
-  {
-   "date": "2026-10-25",
-   "items": [
-    {
-     "k": "S",
-     "name": "Lucian Bernat",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 2,
-     "da": 0,
-     "dtp": 2,
-     "sgp": 10,
-     "sg": 3,
-     "sa": 7,
-     "stp": 10
-    },
-    {
-     "k": "G",
-     "name": "Dmitri Ivchenko",
-     "lg": "MHL",
-     "dgp": 1,
-     "res": "W",
-     "gaa": 3.17,
-     "svp": ".884",
-     "sgp": 12,
-     "rec0": "4-4-0",
-     "ga": 4
-    },
-    {
-     "k": "G",
-     "name": "Aku Koskenvuo",
-     "lg": "ECHL",
-     "dgp": 1,
-     "res": "W",
-     "gaa": 2.46,
-     "svp": ".929",
-     "sgp": 2,
-     "ga": 1
-    },
-    {
-     "k": "S",
-     "name": "Riley Patterson",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 8,
-     "sg": 2,
-     "sa": 4,
-     "stp": 6
-    },
-    {
-     "k": "S",
-     "name": "Brooks Rogowski",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 13,
-     "sg": 1,
-     "sa": 8,
-     "stp": 9
-    },
-    {
-     "k": "S",
-     "name": "Ty Mueller",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 8,
-     "sg": 5,
-     "sa": 3,
-     "stp": 8
-    },
-    {
-     "k": "S",
-     "name": "Sawyer Mynio",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 7,
-     "sg": 1,
-     "sa": 4,
-     "stp": 5
-    },
-    {
-     "k": "S",
-     "name": "Vilmer Alriksson",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 8,
-     "sg": 2,
-     "sa": 1,
-     "stp": 3
-    },
-    {
-     "k": "S",
-     "name": "Anri Ravinskis",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 6,
-     "sg": 0,
-     "sa": 3,
-     "stp": 3
-    }
-   ]
   }
- ],
- "status": {
-  "msg": "FETCH FAILED: urllib: HTTP Error 403: Forbidden; chrome: HTTP 403; safari: HTTP 403; edge: HTTP 403",
-  "at": "2026-11-05T02:15Z"
- }
+ ]
 }

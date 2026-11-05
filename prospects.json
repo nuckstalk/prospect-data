@@ -66,11 +66,11 @@
    "ep": 6,
    "team": "Medicine Hat Tigers",
    "lg": "WHL",
-   "gp": 12,
+   "gp": 13,
    "g": 4,
    "a": 2,
    "tp": 6,
-   "ppg": 0.5,
+   "ppg": 0.46153846153846156,
    "pim": 16,
    "pm": 0
   },
@@ -372,6 +372,19 @@
      "svp": ".932",
      "sgp": 4,
      "ga": 3
+    },
+    {
+     "k": "S",
+     "name": "Yaroslav Bryzgalov",
+     "lg": "WHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 13,
+     "sg": 4,
+     "sa": 2,
+     "stp": 6
     }
    ]
   },

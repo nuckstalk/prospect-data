@@ -5816,6 +5816,26 @@
    "lseq": 6
   },
   {
+   "abbr": "OTT",
+   "name": "Ottawa Senators",
+   "nick": "Senators",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 17,
+   "w": 10,
+   "l": 6,
+   "otl": 1,
+   "pts": 21,
+   "gf": 54,
+   "ga": 52,
+   "diff": 2,
+   "l10": "5-4-1",
+   "strk": "W1",
+   "dseq": 3,
+   "cseq": 4,
+   "lseq": 7
+  },
+  {
    "abbr": "TBL",
    "name": "Tampa Bay Lightning",
    "nick": "Lightning",
@@ -5831,9 +5851,9 @@
    "diff": 7,
    "l10": "6-2-2",
    "strk": "W1",
-   "dseq": 3,
-   "cseq": 4,
-   "lseq": 7
+   "dseq": 4,
+   "cseq": 5,
+   "lseq": 8
   },
   {
    "abbr": "NJD",
@@ -5852,8 +5872,8 @@
    "l10": "8-2-0",
    "strk": "W2",
    "dseq": 2,
-   "cseq": 5,
-   "lseq": 8
+   "cseq": 6,
+   "lseq": 9
   },
   {
    "abbr": "UTA",
@@ -5873,7 +5893,27 @@
    "strk": "W1",
    "dseq": 2,
    "cseq": 4,
-   "lseq": 9
+   "lseq": 10
+  },
+  {
+   "abbr": "FLA",
+   "name": "Florida Panthers",
+   "nick": "Panthers",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 16,
+   "w": 9,
+   "l": 5,
+   "otl": 2,
+   "pts": 20,
+   "gf": 52,
+   "ga": 47,
+   "diff": 5,
+   "l10": "7-3-0",
+   "strk": "W1",
+   "dseq": 5,
+   "cseq": 7,
+   "lseq": 11
   },
   {
    "abbr": "DAL",
@@ -5893,7 +5933,7 @@
    "strk": "W2",
    "dseq": 3,
    "cseq": 5,
-   "lseq": 10
+   "lseq": 12
   },
   {
    "abbr": "COL",
@@ -5913,46 +5953,6 @@
    "strk": "L1",
    "dseq": 4,
    "cseq": 6,
-   "lseq": 11
-  },
-  {
-   "abbr": "OTT",
-   "name": "Ottawa Senators",
-   "nick": "Senators",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 16,
-   "w": 9,
-   "l": 6,
-   "otl": 1,
-   "pts": 19,
-   "gf": 52,
-   "ga": 51,
-   "diff": 1,
-   "l10": "4-5-1",
-   "strk": "L1",
-   "dseq": 4,
-   "cseq": 6,
-   "lseq": 12
-  },
-  {
-   "abbr": "FLA",
-   "name": "Florida Panthers",
-   "nick": "Panthers",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 15,
-   "w": 8,
-   "l": 5,
-   "otl": 2,
-   "pts": 18,
-   "gf": 47,
-   "ga": 44,
-   "diff": 3,
-   "l10": "6-4-0",
-   "strk": "L1",
-   "dseq": 5,
-   "cseq": 7,
    "lseq": 13
   },
   {
@@ -6001,16 +6001,16 @@
    "nick": "Sabres",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 14,
+   "gp": 15,
    "w": 7,
-   "l": 4,
+   "l": 5,
    "otl": 3,
    "pts": 17,
-   "gf": 43,
-   "ga": 49,
-   "diff": -6,
+   "gf": 44,
+   "ga": 51,
+   "diff": -7,
    "l10": "5-2-3",
-   "strk": "W3",
+   "strk": "L1",
    "dseq": 7,
    "cseq": 9,
    "lseq": 16
@@ -6301,16 +6301,16 @@
    "nick": "Blackhawks",
    "div": "Central",
    "conf": "Western",
-   "gp": 15,
+   "gp": 16,
    "w": 4,
-   "l": 10,
+   "l": 11,
    "otl": 1,
    "pts": 9,
-   "gf": 33,
-   "ga": 58,
-   "diff": -25,
+   "gf": 36,
+   "ga": 63,
+   "diff": -27,
    "l10": "3-6-1",
-   "strk": "L1",
+   "strk": "L2",
    "dseq": 8,
    "cseq": 15,
    "lseq": 31
@@ -6370,5 +6370,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-04T05:45:17Z"
+ "updated": "2026-11-05T03:30:15Z"
 }

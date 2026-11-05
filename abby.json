@@ -4008,6 +4008,26 @@
    "dseq": 4
   },
   {
+   "abbr": "ONT",
+   "name": "Ontario Reign",
+   "nick": "Reign",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 12,
+   "w": 5,
+   "l": 6,
+   "otl": 1,
+   "pts": 11,
+   "gf": 35,
+   "ga": 45,
+   "diff": -10,
+   "l10": "4-5-1",
+   "strk": "0-4-1-0",
+   "lseq": 24,
+   "cseq": 12,
+   "dseq": 8
+  },
+  {
    "abbr": "PRO",
    "name": "Providence Bruins",
    "nick": "Bruins",
@@ -4028,9 +4048,9 @@
    "dseq": 6
   },
   {
-   "abbr": "ONT",
-   "name": "Ontario Reign",
-   "nick": "Reign",
+   "abbr": "SJ",
+   "name": "San Jose Barracuda",
+   "nick": "Barracuda",
    "div": "Pacific",
    "conf": "Western",
    "gp": 11,
@@ -4038,14 +4058,14 @@
    "l": 6,
    "otl": 0,
    "pts": 10,
-   "gf": 35,
+   "gf": 34,
    "ga": 45,
-   "diff": -10,
-   "l10": "4-6-0",
-   "strk": "0-4-0-0",
-   "lseq": 24,
-   "cseq": 12,
-   "dseq": 8
+   "diff": -11,
+   "l10": "5-5-0",
+   "strk": "2-0-0-0",
+   "lseq": 26,
+   "cseq": 13,
+   "dseq": 9
   },
   {
    "abbr": "SPR",
@@ -4063,7 +4083,7 @@
    "diff": -8,
    "l10": "3-4-2-1",
    "strk": "0-1-1-0",
-   "lseq": 26,
+   "lseq": 27,
    "cseq": 14,
    "dseq": 7
   },
@@ -4103,29 +4123,9 @@
    "diff": -8,
    "l10": "4-6-0",
    "strk": "1-0-0-0",
-   "lseq": 27,
-   "cseq": 13,
-   "dseq": 5
-  },
-  {
-   "abbr": "SJ",
-   "name": "San Jose Barracuda",
-   "nick": "Barracuda",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 10,
-   "w": 4,
-   "l": 6,
-   "otl": 0,
-   "pts": 8,
-   "gf": 34,
-   "ga": 45,
-   "diff": -11,
-   "l10": "4-6-0",
-   "strk": "1-0-0-0",
    "lseq": 28,
    "cseq": 14,
-   "dseq": 9
+   "dseq": 5
   },
   {
    "abbr": "HAM",
@@ -4211,5 +4211,5 @@
   "home": true,
   "live": false
  },
- "updated": "2026-11-05T06:00:19Z"
+ "updated": "2026-11-05T06:15:17Z"
 }

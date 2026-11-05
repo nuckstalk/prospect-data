@@ -4028,6 +4028,26 @@
    "dseq": 8
   },
   {
+   "abbr": "IA",
+   "name": "Iowa Wild",
+   "nick": "Wild",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 13,
+   "w": 4,
+   "l": 6,
+   "otl": 3,
+   "pts": 11,
+   "gf": 33,
+   "ga": 40,
+   "diff": -7,
+   "l10": "3-5-2",
+   "strk": "1-0-1-0",
+   "lseq": 28,
+   "cseq": 14,
+   "dseq": 5
+  },
+  {
    "abbr": "PRO",
    "name": "Providence Bruins",
    "nick": "Bruins",
@@ -4068,6 +4088,26 @@
    "dseq": 9
   },
   {
+   "abbr": "RFD",
+   "name": "Rockford IceHogs",
+   "nick": "IceHogs",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 11,
+   "w": 4,
+   "l": 6,
+   "otl": 1,
+   "pts": 9,
+   "gf": 25,
+   "ga": 34,
+   "diff": -9,
+   "l10": "4-5-0-1",
+   "strk": "1-0-0-1",
+   "lseq": 29,
+   "cseq": 15,
+   "dseq": 6
+  },
+  {
    "abbr": "SPR",
    "name": "Springfield Thunderbirds",
    "nick": "Thunderbirds",
@@ -4086,46 +4126,6 @@
    "lseq": 27,
    "cseq": 14,
    "dseq": 7
-  },
-  {
-   "abbr": "IA",
-   "name": "Iowa Wild",
-   "nick": "Wild",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 12,
-   "w": 3,
-   "l": 6,
-   "otl": 3,
-   "pts": 9,
-   "gf": 32,
-   "ga": 40,
-   "diff": -8,
-   "l10": "2-6-2",
-   "strk": "0-5-2-0",
-   "lseq": 30,
-   "cseq": 16,
-   "dseq": 6
-  },
-  {
-   "abbr": "RFD",
-   "name": "Rockford IceHogs",
-   "nick": "IceHogs",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 10,
-   "w": 4,
-   "l": 6,
-   "otl": 0,
-   "pts": 8,
-   "gf": 25,
-   "ga": 33,
-   "diff": -8,
-   "l10": "4-6-0",
-   "strk": "1-0-0-0",
-   "lseq": 28,
-   "cseq": 14,
-   "dseq": 5
   },
   {
    "abbr": "HAM",
@@ -4163,8 +4163,8 @@
    "diff": -5,
    "l10": "3-5-1",
    "strk": "0-1-1-0",
-   "lseq": 29,
-   "cseq": 15,
+   "lseq": 30,
+   "cseq": 16,
    "dseq": 10
   },
   {
@@ -4211,5 +4211,5 @@
   "home": true,
   "live": false
  },
- "updated": "2026-11-05T18:45:20Z"
+ "updated": "2026-11-05T19:45:19Z"
 }

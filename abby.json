@@ -3668,6 +3668,26 @@
    "dseq": 1
   },
   {
+   "abbr": "TOR",
+   "name": "Toronto Marlies",
+   "nick": "Marlies",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 12,
+   "w": 7,
+   "l": 4,
+   "otl": 1,
+   "pts": 15,
+   "gf": 40,
+   "ga": 35,
+   "diff": 5,
+   "l10": "6-3-1",
+   "strk": "1-0-0-0",
+   "lseq": 10,
+   "cseq": 4,
+   "dseq": 3
+  },
+  {
    "abbr": "MIL",
    "name": "Milwaukee Admirals",
    "nick": "Admirals",
@@ -3728,26 +3748,6 @@
    "dseq": 4
   },
   {
-   "abbr": "TOR",
-   "name": "Toronto Marlies",
-   "nick": "Marlies",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 11,
-   "w": 6,
-   "l": 4,
-   "otl": 1,
-   "pts": 13,
-   "gf": 40,
-   "ga": 35,
-   "diff": 5,
-   "l10": "6-3-1",
-   "strk": "0-1-0-0",
-   "lseq": 13,
-   "cseq": 6,
-   "dseq": 4
-  },
-  {
    "abbr": "HER",
    "name": "Hershey Bears",
    "nick": "Bears",
@@ -3763,8 +3763,8 @@
    "diff": 1,
    "l10": "6-4-0",
    "strk": "0-2-0-0",
-   "lseq": 12,
-   "cseq": 5,
+   "lseq": 13,
+   "cseq": 6,
    "dseq": 2
   },
   {
@@ -3823,7 +3823,7 @@
    "diff": 2,
    "l10": "6-4-0",
    "strk": "1-0-0-0",
-   "lseq": 11,
+   "lseq": 12,
    "cseq": 7,
    "dseq": 4
   },
@@ -3863,9 +3863,9 @@
    "diff": -4,
    "l10": "6-4-0",
    "strk": "0-1-0-0",
-   "lseq": 10,
-   "cseq": 4,
-   "dseq": 3
+   "lseq": 11,
+   "cseq": 5,
+   "dseq": 4
   },
   {
    "abbr": "SD",
@@ -4133,16 +4133,16 @@
    "nick": "Hammers",
    "div": "North",
    "conf": "Eastern",
-   "gp": 12,
+   "gp": 13,
    "w": 3,
-   "l": 7,
+   "l": 8,
    "otl": 2,
    "pts": 8,
    "gf": 31,
    "ga": 53,
    "diff": -22,
-   "l10": "2-6-0-2",
-   "strk": "0-1-0-1",
+   "l10": "2-7-0-1",
+   "strk": "0-2-0-1",
    "lseq": 31,
    "cseq": 15,
    "dseq": 8
@@ -4211,5 +4211,5 @@
   "home": true,
   "live": false
  },
- "updated": "2026-11-05T02:34:39Z"
+ "updated": "2026-11-05T02:45:16Z"
 }

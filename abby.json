@@ -3553,16 +3553,16 @@
    "nick": "Griffins",
    "div": "Central",
    "conf": "Western",
-   "gp": 11,
-   "w": 8,
+   "gp": 12,
+   "w": 9,
    "l": 1,
    "otl": 2,
-   "pts": 18,
+   "pts": 20,
    "gf": 48,
    "ga": 27,
    "diff": 21,
-   "l10": "7-1-1-1",
-   "strk": "6-0-0-1",
+   "l10": "8-1-0-1",
+   "strk": "7-0-0-1",
    "lseq": 1,
    "cseq": 1,
    "dseq": 1
@@ -3768,6 +3768,26 @@
    "dseq": 5
   },
   {
+   "abbr": "ROC",
+   "name": "Rochester Americans",
+   "nick": "Americans",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 11,
+   "w": 6,
+   "l": 4,
+   "otl": 1,
+   "pts": 13,
+   "gf": 37,
+   "ga": 26,
+   "diff": 11,
+   "l10": "5-4-0-1",
+   "strk": "2-0-0-0",
+   "lseq": 13,
+   "cseq": 6,
+   "dseq": 4
+  },
+  {
    "abbr": "CGY",
    "name": "Calgary Wranglers",
    "nick": "Wranglers",
@@ -3823,7 +3843,7 @@
    "diff": 2,
    "l10": "6-4-0",
    "strk": "1-0-0-0",
-   "lseq": 13,
+   "lseq": 12,
    "cseq": 7,
    "dseq": 4
   },
@@ -3853,19 +3873,19 @@
    "nick": "Monsters",
    "div": "North",
    "conf": "Eastern",
-   "gp": 10,
+   "gp": 11,
    "w": 6,
-   "l": 4,
+   "l": 5,
    "otl": 0,
    "pts": 12,
    "gf": 36,
    "ga": 40,
    "diff": -4,
    "l10": "6-4-0",
-   "strk": "0-1-0-0",
-   "lseq": 12,
-   "cseq": 6,
-   "dseq": 4
+   "strk": "0-2-0-0",
+   "lseq": 16,
+   "cseq": 9,
+   "dseq": 6
   },
   {
    "abbr": "SD",
@@ -3903,8 +3923,8 @@
    "diff": 10,
    "l10": "5-4-1",
    "strk": "1-0-0-0",
-   "lseq": 16,
-   "cseq": 9,
+   "lseq": 15,
+   "cseq": 8,
    "dseq": 3
   },
   {
@@ -3923,26 +3943,6 @@
    "diff": 0,
    "l10": "5-4-1",
    "strk": "2-0-1-0",
-   "lseq": 15,
-   "cseq": 8,
-   "dseq": 6
-  },
-  {
-   "abbr": "ROC",
-   "name": "Rochester Americans",
-   "nick": "Americans",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 10,
-   "w": 5,
-   "l": 4,
-   "otl": 1,
-   "pts": 11,
-   "gf": 37,
-   "ga": 26,
-   "diff": 11,
-   "l10": "5-4-0-1",
-   "strk": "1-0-0-0",
    "lseq": 14,
    "cseq": 7,
    "dseq": 5
@@ -4173,16 +4173,16 @@
    "nick": "Stars",
    "div": "Central",
    "conf": "Western",
-   "gp": 10,
+   "gp": 11,
    "w": 2,
-   "l": 6,
+   "l": 7,
    "otl": 2,
    "pts": 6,
    "gf": 32,
    "ga": 49,
    "diff": -17,
-   "l10": "2-6-1-1",
-   "strk": "0-2-0-0",
+   "l10": "1-7-1-1",
+   "strk": "0-3-0-0",
    "lseq": 32,
    "cseq": 17,
    "dseq": 7
@@ -4191,7 +4191,7 @@
  "team": {
   "gf": {
    "v": 4.0,
-   "rank": 2
+   "rank": 1
   },
   "ga": {
    "v": 2.8,
@@ -4211,5 +4211,5 @@
   "home": true,
   "live": false
  },
- "updated": "2026-11-05T03:00:18Z"
+ "updated": "2026-11-05T03:15:17Z"
 }

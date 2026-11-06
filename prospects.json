@@ -31,12 +31,12 @@
    "team": "Peterborough Petes",
    "lg": "OHL",
    "gp": 16,
-   "g": 9,
+   "g": 10,
    "a": 12,
-   "tp": 21,
-   "ppg": 1.3125,
+   "tp": 22,
+   "ppg": 1.375,
    "pim": 8,
-   "pm": -3
+   "pm": -2
   },
   "Braeden Cootes": {
    "ep": 4,
@@ -354,13 +354,13 @@
      "name": "Adam Novotný",
      "lg": "OHL",
      "dgp": 1,
-     "dg": 0,
+     "dg": 1,
      "da": 0,
-     "dtp": 0,
+     "dtp": 1,
      "sgp": 16,
-     "sg": 9,
+     "sg": 10,
      "sa": 12,
-     "stp": 21
+     "stp": 22
     }
    ]
   },

@@ -5796,6 +5796,26 @@
    "lseq": 5
   },
   {
+   "abbr": "MTL",
+   "name": "Montréal Canadiens",
+   "nick": "Canadiens",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 16,
+   "w": 10,
+   "l": 3,
+   "otl": 3,
+   "pts": 23,
+   "gf": 57,
+   "ga": 51,
+   "diff": 6,
+   "l10": "7-1-2",
+   "strk": "W1",
+   "dseq": 2,
+   "cseq": 3,
+   "lseq": 6
+  },
+  {
    "abbr": "TBL",
    "name": "Tampa Bay Lightning",
    "nick": "Lightning",
@@ -5811,9 +5831,9 @@
    "diff": 10,
    "l10": "6-2-2",
    "strk": "W2",
-   "dseq": 2,
-   "cseq": 3,
-   "lseq": 6
+   "dseq": 3,
+   "cseq": 4,
+   "lseq": 7
   },
   {
    "abbr": "NJD",
@@ -5832,28 +5852,28 @@
    "l10": "8-2-0",
    "strk": "W3",
    "dseq": 2,
-   "cseq": 4,
-   "lseq": 7
-  },
-  {
-   "abbr": "MTL",
-   "name": "Montréal Canadiens",
-   "nick": "Canadiens",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 15,
-   "w": 9,
-   "l": 3,
-   "otl": 3,
-   "pts": 21,
-   "gf": 52,
-   "ga": 47,
-   "diff": 5,
-   "l10": "7-1-2",
-   "strk": "OT1",
-   "dseq": 3,
    "cseq": 5,
    "lseq": 8
+  },
+  {
+   "abbr": "UTA",
+   "name": "Utah Mammoth",
+   "nick": "Mammoth",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 17,
+   "w": 10,
+   "l": 6,
+   "otl": 1,
+   "pts": 21,
+   "gf": 61,
+   "ga": 59,
+   "diff": 2,
+   "l10": "5-4-1",
+   "strk": "OT1",
+   "dseq": 2,
+   "cseq": 4,
+   "lseq": 9
   },
   {
    "abbr": "OTT",
@@ -5873,26 +5893,6 @@
    "strk": "W1",
    "dseq": 4,
    "cseq": 6,
-   "lseq": 9
-  },
-  {
-   "abbr": "UTA",
-   "name": "Utah Mammoth",
-   "nick": "Mammoth",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 16,
-   "w": 10,
-   "l": 6,
-   "otl": 0,
-   "pts": 20,
-   "gf": 57,
-   "ga": 54,
-   "diff": 3,
-   "l10": "6-4-0",
-   "strk": "W1",
-   "dseq": 2,
-   "cseq": 4,
    "lseq": 10
   },
   {
@@ -6370,5 +6370,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-06T03:00:19Z"
+ "updated": "2026-11-06T03:15:14Z"
 }

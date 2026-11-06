@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-06T00:15:20Z",
+ "updated": "2026-11-06T02:45:18Z",
  "results": [
+  {
+   "opp": "Winnipeg Jets",
+   "abbr": "WPG",
+   "home": false,
+   "date": "Nov 5",
+   "us": 2,
+   "them": 6,
+   "res": "L"
+  },
   {
    "opp": "Anaheim Ducks",
    "abbr": "ANA",
@@ -17,15 +26,6 @@
    "date": "Oct 31",
    "us": 2,
    "them": 4,
-   "res": "L"
-  },
-  {
-   "opp": "San Jose Sharks",
-   "abbr": "SJS",
-   "home": false,
-   "date": "Oct 29",
-   "us": 2,
-   "them": 3,
    "res": "L"
   }
  ],

@@ -307,12 +307,12 @@
   "Dmitri Ivchenko": {
    "team": "Omskie Yastreby",
    "lg": "MHL",
-   "gp": 13,
-   "gaa": 3.0,
+   "gp": 14,
+   "gaa": 2.93,
    "svp": ".894",
    "so": 1,
-   "rec": "6-4-0",
-   "toi": 759.47
+   "rec": "7-4-0",
+   "toi": 819.47
   },
   "Aku Koskenvuo": {
    "team": "Kalamazoo Wings",
@@ -346,6 +346,23 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-11-06",
+   "items": [
+    {
+     "k": "G",
+     "name": "Dmitri Ivchenko",
+     "lg": "MHL",
+     "dgp": 1,
+     "res": "W",
+     "gaa": 2.93,
+     "svp": ".894",
+     "sgp": 14,
+     "rec0": "6-4-0",
+     "ga": 2
+    }
+   ]
+  },
   {
    "date": "2026-11-05",
    "items": [
@@ -860,139 +877,6 @@
      "sg": 8,
      "sa": 11,
      "stp": 19
-    }
-   ]
-  },
-  {
-   "date": "2026-10-28",
-   "items": [
-    {
-     "k": "S",
-     "name": "Lucian Bernat",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 11,
-     "sg": 3,
-     "sa": 7,
-     "stp": 10
-    },
-    {
-     "k": "S",
-     "name": "Yaroslav Bryzgalov",
-     "lg": "WHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 10,
-     "sg": 4,
-     "sa": 1,
-     "stp": 5
-    },
-    {
-     "k": "S",
-     "name": "Riley Patterson",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 1,
-     "da": 1,
-     "dtp": 2,
-     "sgp": 9,
-     "sg": 3,
-     "sa": 5,
-     "stp": 8
-    },
-    {
-     "k": "S",
-     "name": "Ty Mueller",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 9,
-     "sg": 5,
-     "sa": 3,
-     "stp": 8
-    },
-    {
-     "k": "S",
-     "name": "Gabriel Chiarot",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 1,
-     "dtp": 1,
-     "sgp": 1,
-     "sg": 0,
-     "sa": 1,
-     "stp": 1
-    },
-    {
-     "k": "S",
-     "name": "Sawyer Mynio",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 1,
-     "dtp": 1,
-     "sgp": 8,
-     "sg": 1,
-     "sa": 5,
-     "stp": 6
-    },
-    {
-     "k": "S",
-     "name": "Kirill Kudryavtsev",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 1,
-     "dtp": 1,
-     "sgp": 4,
-     "sg": 0,
-     "sa": 4,
-     "stp": 4
-    },
-    {
-     "k": "S",
-     "name": "Vilmer Alriksson",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 9,
-     "sg": 2,
-     "sa": 1,
-     "stp": 3
-    },
-    {
-     "k": "S",
-     "name": "Anri Ravinskis",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 1,
-     "dtp": 1,
-     "sgp": 7,
-     "sg": 0,
-     "sa": 4,
-     "stp": 4
-    },
-    {
-     "k": "G",
-     "name": "Ty Young",
-     "lg": "AHL",
-     "dgp": 1,
-     "res": "W",
-     "gaa": 2.94,
-     "svp": ".904",
-     "sgp": 3,
-     "ga": 2
     }
    ]
   }

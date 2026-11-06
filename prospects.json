@@ -30,12 +30,12 @@
    "ep": 3,
    "team": "Peterborough Petes",
    "lg": "OHL",
-   "gp": 15,
+   "gp": 16,
    "g": 9,
    "a": 12,
    "tp": 21,
-   "ppg": 1.4,
-   "pim": 6,
+   "ppg": 1.3125,
+   "pim": 8,
    "pm": -3
   },
   "Braeden Cootes": {
@@ -346,6 +346,24 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-11-05",
+   "items": [
+    {
+     "k": "S",
+     "name": "Adam Novotný",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 16,
+     "sg": 9,
+     "sa": 12,
+     "stp": 21
+    }
+   ]
+  },
   {
    "date": "2026-11-04",
    "items": [
@@ -975,24 +993,6 @@
      "svp": ".904",
      "sgp": 3,
      "ga": 2
-    }
-   ]
-  },
-  {
-   "date": "2026-10-27",
-   "items": [
-    {
-     "k": "S",
-     "name": "Basile Sansonnens",
-     "lg": "NL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 18,
-     "sg": 2,
-     "sa": 1,
-     "stp": 3
     }
    ]
   }

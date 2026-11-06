@@ -6143,6 +6143,26 @@
    "lseq": 12
   },
   {
+   "abbr": "COL",
+   "name": "Colorado Avalanche",
+   "nick": "Avalanche",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 17,
+   "w": 9,
+   "l": 6,
+   "otl": 2,
+   "pts": 20,
+   "gf": 68,
+   "ga": 56,
+   "diff": 12,
+   "l10": "5-4-1",
+   "strk": "OT1",
+   "dseq": 4,
+   "cseq": 6,
+   "lseq": 13
+  },
+  {
    "abbr": "SEA",
    "name": "Seattle Kraken",
    "nick": "Kraken",
@@ -6159,28 +6179,28 @@
    "l10": "6-3-1",
    "strk": "W1",
    "dseq": 3,
-   "cseq": 6,
-   "lseq": 13
+   "cseq": 7,
+   "lseq": 14
   },
   {
-   "abbr": "COL",
-   "name": "Colorado Avalanche",
-   "nick": "Avalanche",
+   "abbr": "NSH",
+   "name": "Nashville Predators",
+   "nick": "Predators",
    "div": "Central",
    "conf": "Western",
    "gp": 16,
-   "w": 9,
-   "l": 6,
-   "otl": 1,
+   "w": 7,
+   "l": 4,
+   "otl": 5,
    "pts": 19,
-   "gf": 66,
-   "ga": 53,
-   "diff": 13,
-   "l10": "5-4-1",
-   "strk": "L1",
-   "dseq": 4,
-   "cseq": 7,
-   "lseq": 14
+   "gf": 49,
+   "ga": 50,
+   "diff": -1,
+   "l10": "5-2-3",
+   "strk": "W3",
+   "dseq": 5,
+   "cseq": 8,
+   "lseq": 15
   },
   {
    "abbr": "NYR",
@@ -6200,7 +6220,7 @@
    "strk": "W2",
    "dseq": 3,
    "cseq": 8,
-   "lseq": 15
+   "lseq": 16
   },
   {
    "abbr": "TOR",
@@ -6220,7 +6240,7 @@
    "strk": "L1",
    "dseq": 6,
    "cseq": 9,
-   "lseq": 16
+   "lseq": 17
   },
   {
    "abbr": "BUF",
@@ -6240,26 +6260,6 @@
    "strk": "L1",
    "dseq": 7,
    "cseq": 10,
-   "lseq": 17
-  },
-  {
-   "abbr": "NSH",
-   "name": "Nashville Predators",
-   "nick": "Predators",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 15,
-   "w": 6,
-   "l": 4,
-   "otl": 5,
-   "pts": 17,
-   "gf": 46,
-   "ga": 48,
-   "diff": -2,
-   "l10": "4-3-3",
-   "strk": "W2",
-   "dseq": 5,
-   "cseq": 8,
    "lseq": 18
   },
   {
@@ -6577,5 +6577,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-06T05:00:15Z"
+ "updated": "2026-11-06T05:30:15Z"
 }

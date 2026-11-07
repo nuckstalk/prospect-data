@@ -6,13 +6,13 @@
    "ep": 1,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 10,
+   "gp": 11,
    "g": 4,
    "a": 5,
    "tp": 9,
-   "ppg": 0.9,
+   "ppg": 0.8181818181818182,
    "pim": 4,
-   "pm": 7
+   "pm": 8
   },
   "Caleb Malhotra": {
    "ep": 2,
@@ -42,13 +42,13 @@
    "ep": 4,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 6,
+   "gp": 7,
    "g": 3,
-   "a": 3,
-   "tp": 6,
+   "a": 4,
+   "tp": 7,
    "ppg": 1.0,
    "pim": 0,
-   "pm": -1
+   "pm": 0
   },
   "Connor Davis": {
    "ep": 5,
@@ -114,13 +114,13 @@
    "ep": 10,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 10,
-   "g": 6,
+   "gp": 11,
+   "g": 7,
    "a": 4,
-   "tp": 10,
+   "tp": 11,
    "ppg": 1.0,
    "pim": 2,
-   "pm": 2
+   "pm": 3
   },
   "Gabriel Chiarot": {
    "ep": 11,
@@ -174,11 +174,11 @@
    "ep": 16,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 9,
+   "gp": 10,
    "g": 1,
-   "a": 5,
-   "tp": 6,
-   "ppg": 0.6666666666666666,
+   "a": 6,
+   "tp": 7,
+   "ppg": 0.7,
    "pim": 12,
    "pm": 2
   },
@@ -282,12 +282,12 @@
    "ep": 26,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 8,
+   "gp": 9,
    "g": 0,
    "a": 5,
    "tp": 5,
-   "ppg": 0.625,
-   "pim": 4,
+   "ppg": 0.5555555555555556,
+   "pim": 6,
    "pm": 5
   },
   "Basile Sansonnens": {
@@ -464,6 +464,71 @@
      "sg": 1,
      "sa": 3,
      "stp": 4
+    },
+    {
+     "k": "S",
+     "name": "Riley Patterson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 11,
+     "sg": 4,
+     "sa": 5,
+     "stp": 9
+    },
+    {
+     "k": "S",
+     "name": "Braeden Cootes",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 7,
+     "sg": 3,
+     "sa": 4,
+     "stp": 7
+    },
+    {
+     "k": "S",
+     "name": "Ty Mueller",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 1,
+     "da": 0,
+     "dtp": 1,
+     "sgp": 11,
+     "sg": 7,
+     "sa": 4,
+     "stp": 11
+    },
+    {
+     "k": "S",
+     "name": "Sawyer Mynio",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 10,
+     "sg": 1,
+     "sa": 6,
+     "stp": 7
+    },
+    {
+     "k": "S",
+     "name": "Anri Ravinskis",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 9,
+     "sg": 0,
+     "sa": 5,
+     "stp": 5
     }
    ]
   },

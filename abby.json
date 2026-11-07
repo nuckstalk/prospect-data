@@ -1408,12 +1408,12 @@
    "name": "Gavin White",
    "id": "9962",
    "pos": "D",
-   "gp": 10,
+   "gp": 11,
    "g": 2,
    "a": 4,
    "pts": 6,
    "pm": 6,
-   "pim": 0,
+   "pim": 2,
    "ppg": 0,
    "shg": 0,
    "gwg": null,
@@ -1428,7 +1428,7 @@
     [
      "2026-27",
      "Abbotsford Canucks",
-     10,
+     11,
      2,
      4,
      6
@@ -1473,7 +1473,7 @@
      0,
      0,
      0,
-     0,
+     2,
      0,
      0,
      0
@@ -2394,7 +2394,7 @@
      0,
      0,
      0,
-     0,
+     1,
      0,
      0
     ],
@@ -2548,7 +2548,7 @@
      0,
      0,
      0,
-     1,
+     2,
      0,
      0
     ],
@@ -3402,7 +3402,7 @@
      0,
      0,
      0,
-     0,
+     1,
      0,
      0
     ],
@@ -3520,8 +3520,8 @@
    "gaa": 2.16,
    "svp": ".912",
    "so": 0,
-   "sa": 181,
-   "sv": 165,
+   "sa": 182,
+   "sv": 166,
    "ga": 16,
    "img": "https://assets.leaguestat.com/ahl/240x240/9983.jpg",
    "bd": "2000-04-06",
@@ -3536,8 +3536,8 @@
      2.16,
      ".912",
      16,
-     181,
-     444.0
+     182,
+     445.0
     ],
     [
      "2025-26",
@@ -3583,9 +3583,9 @@
     [
      "2026-11-06",
      "",
-     5,
+     9,
      0,
-     1278,
+     1751,
      0,
      1
     ],
@@ -3789,19 +3789,39 @@
    "nick": "Moose",
    "div": "Central",
    "conf": "Western",
-   "gp": 12,
-   "w": 8,
+   "gp": 13,
+   "w": 9,
    "l": 4,
    "otl": 0,
-   "pts": 16,
+   "pts": 18,
    "gf": 49,
    "ga": 33,
    "diff": 16,
-   "l10": "6-4-0",
-   "strk": "1-0-0-0",
-   "lseq": 7,
+   "l10": "7-3-0",
+   "strk": "2-0-0-0",
+   "lseq": 6,
    "cseq": 4,
    "dseq": 2
+  },
+  {
+   "abbr": "CLT",
+   "name": "Charlotte Checkers",
+   "nick": "Checkers",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 13,
+   "w": 8,
+   "l": 4,
+   "otl": 1,
+   "pts": 17,
+   "gf": 41,
+   "ga": 36,
+   "diff": 5,
+   "l10": "7-2-1",
+   "strk": "2-0-1-0",
+   "lseq": 7,
+   "cseq": 3,
+   "dseq": 1
   },
   {
    "abbr": "TUC",
@@ -3824,24 +3844,24 @@
    "dseq": 2
   },
   {
-   "abbr": "CLT",
-   "name": "Charlotte Checkers",
-   "nick": "Checkers",
-   "div": "Atlantic",
+   "abbr": "TOR",
+   "name": "Toronto Marlies",
+   "nick": "Marlies",
+   "div": "North",
    "conf": "Eastern",
-   "gp": 12,
-   "w": 8,
+   "gp": 13,
+   "w": 7,
    "l": 4,
-   "otl": 0,
+   "otl": 2,
    "pts": 16,
    "gf": 41,
-   "ga": 36,
-   "diff": 5,
-   "l10": "7-3-0",
-   "strk": "2-0-0-0",
-   "lseq": 6,
-   "cseq": 3,
-   "dseq": 1
+   "ga": 37,
+   "diff": 4,
+   "l10": "5-3-2",
+   "strk": "1-0-1-0",
+   "lseq": 10,
+   "cseq": 5,
+   "dseq": 4
   },
   {
    "abbr": "ROC",
@@ -3884,26 +3904,6 @@
    "dseq": 1
   },
   {
-   "abbr": "TOR",
-   "name": "Toronto Marlies",
-   "nick": "Marlies",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 12,
-   "w": 7,
-   "l": 4,
-   "otl": 1,
-   "pts": 15,
-   "gf": 41,
-   "ga": 37,
-   "diff": 4,
-   "l10": "6-3-1",
-   "strk": "1-0-0-0",
-   "lseq": 10,
-   "cseq": 5,
-   "dseq": 4
-  },
-  {
    "abbr": "HER",
    "name": "Hershey Bears",
    "nick": "Bears",
@@ -3919,9 +3919,9 @@
    "diff": -1,
    "l10": "6-4-0",
    "strk": "0-1-0-0",
-   "lseq": 12,
-   "cseq": 6,
-   "dseq": 2
+   "lseq": 13,
+   "cseq": 7,
+   "dseq": 3
   },
   {
    "abbr": "UTC",
@@ -3979,9 +3979,29 @@
    "diff": 3,
    "l10": "4-4-1-1",
    "strk": "0-1-0-1",
-   "lseq": 13,
+   "lseq": 14,
    "cseq": 7,
    "dseq": 4
+  },
+  {
+   "abbr": "BEL",
+   "name": "Belleville Senators",
+   "nick": "Senators",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 13,
+   "w": 6,
+   "l": 5,
+   "otl": 2,
+   "pts": 14,
+   "gf": 39,
+   "ga": 41,
+   "diff": -2,
+   "l10": "4-4-2",
+   "strk": "2-0-0-0",
+   "lseq": 17,
+   "cseq": 8,
+   "dseq": 5
   },
   {
    "abbr": "HFD",
@@ -4002,6 +4022,26 @@
    "lseq": 27,
    "cseq": 14,
    "dseq": 7
+  },
+  {
+   "abbr": "WBS",
+   "name": "Wilkes-Barre/Scranton Penguins",
+   "nick": "Penguins",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 11,
+   "w": 6,
+   "l": 4,
+   "otl": 1,
+   "pts": 13,
+   "gf": 43,
+   "ga": 32,
+   "diff": 11,
+   "l10": "6-4-0",
+   "strk": "2-0-0-0",
+   "lseq": 12,
+   "cseq": 6,
+   "dseq": 2
   },
   {
    "abbr": "CV",
@@ -4039,7 +4079,7 @@
    "diff": 3,
    "l10": "4-6-0",
    "strk": "0-1-0-0",
-   "lseq": 17,
+   "lseq": 18,
    "cseq": 10,
    "dseq": 7
   },
@@ -4059,8 +4099,8 @@
    "diff": 9,
    "l10": "6-4-0",
    "strk": "4-0-0-0",
-   "lseq": 19,
-   "cseq": 9,
+   "lseq": 20,
+   "cseq": 10,
    "dseq": 4
   },
   {
@@ -4084,26 +4124,6 @@
    "dseq": 3
   },
   {
-   "abbr": "BEL",
-   "name": "Belleville Senators",
-   "nick": "Senators",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 12,
-   "w": 5,
-   "l": 5,
-   "otl": 2,
-   "pts": 12,
-   "gf": 39,
-   "ga": 41,
-   "diff": -2,
-   "l10": "4-4-2",
-   "strk": "1-0-0-0",
-   "lseq": 20,
-   "cseq": 10,
-   "dseq": 6
-  },
-  {
    "abbr": "CLE",
    "name": "Cleveland Monsters",
    "nick": "Monsters",
@@ -4119,9 +4139,9 @@
    "diff": -8,
    "l10": "5-5-0",
    "strk": "0-3-0-0",
-   "lseq": 18,
-   "cseq": 8,
-   "dseq": 5
+   "lseq": 19,
+   "cseq": 9,
+   "dseq": 6
   },
   {
    "abbr": "SD",
@@ -4144,26 +4164,6 @@
    "dseq": 5
   },
   {
-   "abbr": "WBS",
-   "name": "Wilkes-Barre/Scranton Penguins",
-   "nick": "Penguins",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 10,
-   "w": 5,
-   "l": 4,
-   "otl": 1,
-   "pts": 11,
-   "gf": 43,
-   "ga": 32,
-   "diff": 11,
-   "l10": "5-4-1",
-   "strk": "1-0-0-0",
-   "lseq": 14,
-   "cseq": 7,
-   "dseq": 3
-  },
-  {
    "abbr": "SYR",
    "name": "Syracuse Crunch",
    "nick": "Crunch",
@@ -4179,8 +4179,8 @@
    "diff": -3,
    "l10": "4-5-1",
    "strk": "0-1-0-0",
-   "lseq": 23,
-   "cseq": 12,
+   "lseq": 22,
+   "cseq": 11,
    "dseq": 7
   },
   {
@@ -4194,34 +4194,14 @@
    "l": 5,
    "otl": 1,
    "pts": 11,
-   "gf": 30,
+   "gf": 31,
    "ga": 44,
-   "diff": -14,
+   "diff": -13,
    "l10": "5-4-0-1",
    "strk": "0-1-0-0",
    "lseq": 21,
    "cseq": 11,
    "dseq": 4
-  },
-  {
-   "abbr": "LV",
-   "name": "Lehigh Valley Phantoms",
-   "nick": "Phantoms",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 11,
-   "w": 5,
-   "l": 5,
-   "otl": 1,
-   "pts": 11,
-   "gf": 34,
-   "ga": 49,
-   "diff": -15,
-   "l10": "5-4-1",
-   "strk": "1-0-0-0",
-   "lseq": 22,
-   "cseq": 11,
-   "dseq": 5
   },
   {
    "abbr": "ONT",
@@ -4244,6 +4224,26 @@
    "dseq": 8
   },
   {
+   "abbr": "LV",
+   "name": "Lehigh Valley Phantoms",
+   "nick": "Phantoms",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 12,
+   "w": 5,
+   "l": 6,
+   "otl": 1,
+   "pts": 11,
+   "gf": 34,
+   "ga": 49,
+   "diff": -15,
+   "l10": "5-5-0",
+   "strk": "0-1-0-0",
+   "lseq": 24,
+   "cseq": 13,
+   "dseq": 6
+  },
+  {
    "abbr": "SPR",
    "name": "Springfield Thunderbirds",
    "nick": "Thunderbirds",
@@ -4259,9 +4259,9 @@
    "diff": -6,
    "l10": "3-4-2-1",
    "strk": "1-0-0-0",
-   "lseq": 24,
-   "cseq": 13,
-   "dseq": 6
+   "lseq": 23,
+   "cseq": 12,
+   "dseq": 5
   },
   {
    "abbr": "IA",
@@ -4295,8 +4295,8 @@
    "otl": 0,
    "pts": 10,
    "gf": 34,
-   "ga": 45,
-   "diff": -11,
+   "ga": 46,
+   "diff": -12,
    "l10": "5-5-0",
    "strk": "2-0-0-0",
    "lseq": 26,
@@ -4354,9 +4354,9 @@
    "l": 5,
    "otl": 1,
    "pts": 7,
-   "gf": 23,
+   "gf": 24,
    "ga": 28,
-   "diff": -5,
+   "diff": -4,
    "l10": "3-5-1",
    "strk": "0-1-1-0",
    "lseq": 30,
@@ -4375,8 +4375,8 @@
    "otl": 2,
    "pts": 6,
    "gf": 36,
-   "ga": 51,
-   "diff": -15,
+   "ga": 52,
+   "diff": -16,
    "l10": "1-7-1-1",
    "strk": "0-3-0-0",
    "lseq": 32,
@@ -4387,11 +4387,11 @@
  "team": {
   "gf": {
    "v": 4.1,
-   "rank": 2
+   "rank": 1
   },
   "ga": {
    "v": 2.8,
-   "rank": 11
+   "rank": 12
   },
   "pt": {
    "v": 75.0,
@@ -4407,5 +4407,5 @@
   "home": true,
   "live": true
  },
- "updated": "2026-11-07T03:00:18Z"
+ "updated": "2026-11-07T03:15:17Z"
 }

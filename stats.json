@@ -6103,6 +6103,26 @@
    "lseq": 10
   },
   {
+   "abbr": "NSH",
+   "name": "Nashville Predators",
+   "nick": "Predators",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 17,
+   "w": 8,
+   "l": 4,
+   "otl": 5,
+   "pts": 21,
+   "gf": 52,
+   "ga": 51,
+   "diff": 1,
+   "l10": "6-2-2",
+   "strk": "W4",
+   "dseq": 3,
+   "cseq": 5,
+   "lseq": 11
+  },
+  {
    "abbr": "DAL",
    "name": "Dallas Stars",
    "nick": "Stars",
@@ -6118,9 +6138,9 @@
    "diff": 7,
    "l10": "7-2-1",
    "strk": "OT1",
-   "dseq": 3,
-   "cseq": 5,
-   "lseq": 11
+   "dseq": 4,
+   "cseq": 6,
+   "lseq": 12
   },
   {
    "abbr": "COL",
@@ -6138,9 +6158,9 @@
    "diff": 12,
    "l10": "5-4-1",
    "strk": "OT1",
-   "dseq": 4,
-   "cseq": 6,
-   "lseq": 12
+   "dseq": 5,
+   "cseq": 7,
+   "lseq": 13
   },
   {
    "abbr": "FLA",
@@ -6160,7 +6180,7 @@
    "strk": "L1",
    "dseq": 5,
    "cseq": 7,
-   "lseq": 13
+   "lseq": 14
   },
   {
    "abbr": "SEA",
@@ -6179,8 +6199,8 @@
    "l10": "6-3-1",
    "strk": "W1",
    "dseq": 3,
-   "cseq": 7,
-   "lseq": 14
+   "cseq": 8,
+   "lseq": 15
   },
   {
    "abbr": "BUF",
@@ -6199,26 +6219,6 @@
    "l10": "5-2-3",
    "strk": "W1",
    "dseq": 6,
-   "cseq": 8,
-   "lseq": 15
-  },
-  {
-   "abbr": "NSH",
-   "name": "Nashville Predators",
-   "nick": "Predators",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 16,
-   "w": 7,
-   "l": 4,
-   "otl": 5,
-   "pts": 19,
-   "gf": 49,
-   "ga": 50,
-   "diff": -1,
-   "l10": "5-2-3",
-   "strk": "W3",
-   "dseq": 5,
    "cseq": 8,
    "lseq": 16
   },
@@ -6348,16 +6348,16 @@
    "nick": "Blues",
    "div": "Central",
    "conf": "Western",
-   "gp": 16,
+   "gp": 17,
    "w": 7,
-   "l": 7,
+   "l": 8,
    "otl": 2,
    "pts": 16,
-   "gf": 49,
-   "ga": 50,
-   "diff": -1,
+   "gf": 50,
+   "ga": 53,
+   "diff": -3,
    "l10": "4-5-1",
-   "strk": "OT1",
+   "strk": "L1",
    "dseq": 6,
    "cseq": 10,
    "lseq": 23
@@ -6554,7 +6554,7 @@
   },
   "pp": {
    "v": 21.4,
-   "rank": 17
+   "rank": 16
   },
   "pk": {
    "v": 63.3,
@@ -6577,5 +6577,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-07T20:30:15Z"
+ "updated": "2026-11-07T20:45:14Z"
 }

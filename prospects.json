@@ -78,13 +78,13 @@
    "ep": 7,
    "team": "Oshawa Generals",
    "lg": "OHL",
-   "gp": 15,
+   "gp": 16,
    "g": 2,
-   "a": 12,
-   "tp": 14,
-   "ppg": 0.9333333333333333,
+   "a": 14,
+   "tp": 16,
+   "ppg": 1.0,
    "pim": 8,
-   "pm": -1
+   "pm": 0
   },
   "Kieren Dervin": {
    "ep": 8,
@@ -360,6 +360,19 @@
      "sgp": 14,
      "rec0": "6-4-0",
      "ga": 2
+    },
+    {
+     "k": "S",
+     "name": "Brooks Rogowski",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 2,
+     "dtp": 2,
+     "sgp": 16,
+     "sg": 2,
+     "sa": 14,
+     "stp": 16
     }
    ]
   },

@@ -3979,7 +3979,7 @@
    "diff": 4,
    "l10": "5-3-2",
    "strk": "1-0-1-0",
-   "lseq": 10,
+   "lseq": 11,
    "cseq": 5,
    "dseq": 4
   },
@@ -3999,7 +3999,7 @@
    "diff": 13,
    "l10": "6-4-0",
    "strk": "3-0-0-0",
-   "lseq": 9,
+   "lseq": 10,
    "cseq": 4,
    "dseq": 3
   },
@@ -4039,9 +4039,9 @@
    "diff": 3,
    "l10": "4-6-0",
    "strk": "1-0-0-0",
-   "lseq": 15,
-   "cseq": 8,
-   "dseq": 5
+   "lseq": 14,
+   "cseq": 7,
+   "dseq": 4
   },
   {
    "abbr": "UTC",
@@ -4064,6 +4064,26 @@
    "dseq": 1
   },
   {
+   "abbr": "HSK",
+   "name": "Henderson Silver Knights",
+   "nick": "Silver Knights",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 11,
+   "w": 7,
+   "l": 4,
+   "otl": 0,
+   "pts": 14,
+   "gf": 26,
+   "ga": 23,
+   "diff": 3,
+   "l10": "6-4-0",
+   "strk": "2-0-0-0",
+   "lseq": 8,
+   "cseq": 5,
+   "dseq": 3
+  },
+  {
    "abbr": "MIL",
    "name": "Milwaukee Admirals",
    "nick": "Admirals",
@@ -4079,8 +4099,8 @@
    "diff": 4,
    "l10": "6-4-0",
    "strk": "0-1-0-0",
-   "lseq": 8,
-   "cseq": 5,
+   "lseq": 9,
+   "cseq": 6,
    "dseq": 3
   },
   {
@@ -4099,9 +4119,9 @@
    "diff": 3,
    "l10": "3-5-1-1",
    "strk": "0-2-0-1",
-   "lseq": 17,
-   "cseq": 9,
-   "dseq": 6
+   "lseq": 16,
+   "cseq": 8,
+   "dseq": 5
   },
   {
    "abbr": "BEL",
@@ -4119,7 +4139,7 @@
    "diff": -2,
    "l10": "4-4-2",
    "strk": "2-0-0-0",
-   "lseq": 16,
+   "lseq": 15,
    "cseq": 8,
    "dseq": 5
   },
@@ -4179,9 +4199,9 @@
    "diff": -7,
    "l10": "3-5-1-1",
    "strk": "0-1-0-0",
-   "lseq": 18,
-   "cseq": 10,
-   "dseq": 7
+   "lseq": 17,
+   "cseq": 9,
+   "dseq": 6
   },
   {
    "abbr": "PRO",
@@ -4199,29 +4219,9 @@
    "diff": 9,
    "l10": "6-4-0",
    "strk": "4-0-0-0",
-   "lseq": 20,
+   "lseq": 19,
    "cseq": 10,
    "dseq": 4
-  },
-  {
-   "abbr": "HSK",
-   "name": "Henderson Silver Knights",
-   "nick": "Silver Knights",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 10,
-   "w": 6,
-   "l": 4,
-   "otl": 0,
-   "pts": 12,
-   "gf": 26,
-   "ga": 23,
-   "diff": 3,
-   "l10": "6-4-0",
-   "strk": "1-0-0-0",
-   "lseq": 11,
-   "cseq": 6,
-   "dseq": 3
   },
   {
    "abbr": "CLE",
@@ -4239,7 +4239,7 @@
    "diff": -8,
    "l10": "5-5-0",
    "strk": "0-3-0-0",
-   "lseq": 19,
+   "lseq": 18,
    "cseq": 9,
    "dseq": 6
   },
@@ -4249,19 +4249,19 @@
    "nick": "Gulls",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 11,
+   "gp": 12,
    "w": 5,
-   "l": 4,
+   "l": 5,
    "otl": 2,
    "pts": 12,
    "gf": 30,
    "ga": 30,
    "diff": 0,
-   "l10": "4-4-2",
-   "strk": "2-0-1-0",
-   "lseq": 14,
-   "cseq": 7,
-   "dseq": 4
+   "l10": "4-5-1",
+   "strk": "0-1-0-0",
+   "lseq": 20,
+   "cseq": 10,
+   "dseq": 7
   },
   {
    "abbr": "SYR",
@@ -4389,16 +4389,36 @@
    "nick": "Barracuda",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 11,
+   "gp": 12,
    "w": 5,
-   "l": 6,
+   "l": 7,
    "otl": 0,
    "pts": 10,
    "gf": 36,
    "ga": 48,
    "diff": -12,
-   "l10": "5-5-0",
-   "strk": "2-0-0-0",
+   "l10": "4-6-0",
+   "strk": "0-1-0-0",
+   "lseq": 29,
+   "cseq": 15,
+   "dseq": 10
+  },
+  {
+   "abbr": "BAK",
+   "name": "Bakersfield Condors",
+   "nick": "Condors",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 10,
+   "w": 4,
+   "l": 5,
+   "otl": 1,
+   "pts": 9,
+   "gf": 26,
+   "ga": 30,
+   "diff": -4,
+   "l10": "4-5-1",
+   "strk": "1-0-1-0",
    "lseq": 25,
    "cseq": 12,
    "dseq": 8
@@ -4419,8 +4439,8 @@
    "diff": -9,
    "l10": "4-5-0-1",
    "strk": "1-0-0-1",
-   "lseq": 29,
-   "cseq": 15,
+   "lseq": 30,
+   "cseq": 16,
    "dseq": 6
   },
   {
@@ -4462,26 +4482,6 @@
    "lseq": 31,
    "cseq": 17,
    "dseq": 7
-  },
-  {
-   "abbr": "BAK",
-   "name": "Bakersfield Condors",
-   "nick": "Condors",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 9,
-   "w": 3,
-   "l": 5,
-   "otl": 1,
-   "pts": 7,
-   "gf": 26,
-   "ga": 30,
-   "diff": -4,
-   "l10": "3-5-1",
-   "strk": "0-1-1-0",
-   "lseq": 30,
-   "cseq": 16,
-   "dseq": 10
   }
  ],
  "team": {
@@ -4491,7 +4491,7 @@
   },
   "ga": {
    "v": 2.64,
-   "rank": 10
+   "rank": 11
   },
   "pt": {
    "v": 77.3,
@@ -4507,5 +4507,5 @@
   "home": true,
   "live": false
  },
- "updated": "2026-11-07T05:15:17Z"
+ "updated": "2026-11-07T05:45:17Z"
 }

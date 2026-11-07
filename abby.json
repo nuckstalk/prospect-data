@@ -4024,6 +4024,26 @@
    "dseq": 3
   },
   {
+   "abbr": "CGY",
+   "name": "Calgary Wranglers",
+   "nick": "Wranglers",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 13,
+   "w": 7,
+   "l": 6,
+   "otl": 0,
+   "pts": 14,
+   "gf": 40,
+   "ga": 37,
+   "diff": 3,
+   "l10": "4-6-0",
+   "strk": "1-0-0-0",
+   "lseq": 15,
+   "cseq": 8,
+   "dseq": 5
+  },
+  {
    "abbr": "UTC",
    "name": "Utica Comets",
    "nick": "Comets",
@@ -4069,19 +4089,19 @@
    "nick": "Eagles",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 12,
+   "gp": 13,
    "w": 6,
-   "l": 4,
+   "l": 5,
    "otl": 2,
    "pts": 14,
    "gf": 34,
    "ga": 31,
    "diff": 3,
-   "l10": "4-4-1-1",
-   "strk": "0-1-0-1",
-   "lseq": 14,
-   "cseq": 7,
-   "dseq": 4
+   "l10": "3-5-1-1",
+   "strk": "0-2-0-1",
+   "lseq": 17,
+   "cseq": 9,
+   "dseq": 6
   },
   {
    "abbr": "BEL",
@@ -4158,26 +4178,6 @@
    "ga": 47,
    "diff": -7,
    "l10": "3-5-1-1",
-   "strk": "0-1-0-0",
-   "lseq": 17,
-   "cseq": 9,
-   "dseq": 6
-  },
-  {
-   "abbr": "CGY",
-   "name": "Calgary Wranglers",
-   "nick": "Wranglers",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 12,
-   "w": 6,
-   "l": 6,
-   "otl": 0,
-   "pts": 12,
-   "gf": 40,
-   "ga": 37,
-   "diff": 3,
-   "l10": "4-6-0",
    "strk": "0-1-0-0",
    "lseq": 18,
    "cseq": 10,
@@ -4259,9 +4259,9 @@
    "diff": 0,
    "l10": "4-4-2",
    "strk": "2-0-1-0",
-   "lseq": 15,
-   "cseq": 8,
-   "dseq": 5
+   "lseq": 14,
+   "cseq": 7,
+   "dseq": 4
   },
   {
    "abbr": "SYR",
@@ -4507,5 +4507,5 @@
   "home": true,
   "live": false
  },
- "updated": "2026-11-07T04:45:21Z"
+ "updated": "2026-11-07T05:15:17Z"
 }

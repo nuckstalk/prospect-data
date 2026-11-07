@@ -18,13 +18,13 @@
    "ep": 2,
    "team": "Boston Univ.",
    "lg": "NCAA",
-   "gp": 8,
-   "g": 2,
-   "a": 3,
-   "tp": 5,
-   "ppg": 0.625,
+   "gp": 9,
+   "g": 3,
+   "a": 4,
+   "tp": 7,
+   "ppg": 0.7777777777777778,
    "pim": 8,
-   "pm": 4
+   "pm": 6
   },
   "Adam Novotný": {
    "ep": 3,
@@ -102,11 +102,11 @@
    "ep": 9,
    "team": "Boston Univ.",
    "lg": "NCAA",
-   "gp": 8,
+   "gp": 9,
    "g": 1,
-   "a": 2,
-   "tp": 3,
-   "ppg": 0.375,
+   "a": 3,
+   "tp": 4,
+   "ppg": 0.4444444444444444,
    "pim": 6,
    "pm": 5
   },
@@ -138,11 +138,11 @@
    "ep": 12,
    "team": "Owen Sound Attack",
    "lg": "OHL",
-   "gp": 13,
+   "gp": 14,
    "g": 4,
    "a": 7,
    "tp": 11,
-   "ppg": 0.8461538461538461,
+   "ppg": 0.7857142857142857,
    "pim": 10,
    "pm": -5
   },
@@ -162,13 +162,13 @@
    "ep": 14,
    "team": "Michigan State",
    "lg": "NCAA",
-   "gp": 6,
+   "gp": 7,
    "g": 7,
-   "a": 3,
-   "tp": 10,
-   "ppg": 1.6666666666666667,
+   "a": 4,
+   "tp": 11,
+   "ppg": 1.5714285714285714,
    "pim": 2,
-   "pm": 4
+   "pm": 2
   },
   "Sawyer Mynio": {
    "ep": 16,
@@ -198,13 +198,13 @@
    "ep": 18,
    "team": "Quinnipiac",
    "lg": "NCAA",
-   "gp": 7,
+   "gp": 8,
    "g": 1,
    "a": 2,
    "tp": 3,
-   "ppg": 0.42857142857142855,
+   "ppg": 0.375,
    "pim": 8,
-   "pm": 0
+   "pm": 1
   },
   "Wilson Björck": {
    "ep": 19,
@@ -258,13 +258,13 @@
    "ep": 24,
    "team": "Boston Univ.",
    "lg": "NCAA",
-   "gp": 8,
+   "gp": 9,
    "g": 0,
    "a": 2,
    "tp": 2,
-   "ppg": 0.25,
+   "ppg": 0.2222222222222222,
    "pim": 4,
-   "pm": -1
+   "pm": 0
   },
   "Daimon Gardner": {
    "ep": 25,
@@ -373,6 +373,84 @@
      "sg": 2,
      "sa": 14,
      "stp": 16
+    },
+    {
+     "k": "S",
+     "name": "Caleb Malhotra",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 1,
+     "da": 1,
+     "dtp": 2,
+     "sgp": 9,
+     "sg": 3,
+     "sa": 4,
+     "stp": 7
+    },
+    {
+     "k": "S",
+     "name": "Niklas Aaram-Olsen",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 9,
+     "sg": 1,
+     "sa": 3,
+     "stp": 4
+    },
+    {
+     "k": "S",
+     "name": "Lucian Bernat",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 14,
+     "sg": 4,
+     "sa": 7,
+     "stp": 11
+    },
+    {
+     "k": "S",
+     "name": "Anthony Romani",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 7,
+     "sg": 7,
+     "sa": 4,
+     "stp": 11
+    },
+    {
+     "k": "S",
+     "name": "Matthew Lansing",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 8,
+     "sg": 1,
+     "sa": 2,
+     "stp": 3
+    },
+    {
+     "k": "S",
+     "name": "Aiden Celebrini",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 9,
+     "sg": 0,
+     "sa": 2,
+     "stp": 2
     }
    ]
   },
@@ -893,9 +971,5 @@
     }
    ]
   }
- ],
- "status": {
-  "msg": "FETCH FAILED: urllib: HTTP Error 403: Forbidden; chrome: HTTP 403; safari: HTTP 403; edge: HTTP 403",
-  "at": "2026-11-07T02:45Z"
- }
+ ]
 }

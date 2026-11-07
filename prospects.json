@@ -186,11 +186,11 @@
    "ep": 17,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 5,
+   "gp": 6,
    "g": 0,
    "a": 6,
    "tp": 6,
-   "ppg": 1.2,
+   "ppg": 1.0,
    "pim": 4,
    "pm": 1
   },
@@ -210,13 +210,13 @@
    "ep": 19,
    "team": "Colorado College",
    "lg": "NCAA",
-   "gp": 8,
+   "gp": 9,
    "g": 1,
-   "a": 3,
-   "tp": 4,
-   "ppg": 0.5,
+   "a": 7,
+   "tp": 8,
+   "ppg": 0.8888888888888888,
    "pim": 17,
-   "pm": 4
+   "pm": 6
   },
   "Samuel Eriksson": {
    "ep": 20,
@@ -234,11 +234,11 @@
    "ep": 21,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 10,
+   "gp": 11,
    "g": 3,
    "a": 1,
    "tp": 4,
-   "ppg": 0.4,
+   "ppg": 0.36363636363636365,
    "pim": 27,
    "pm": -3
   },
@@ -529,6 +529,45 @@
      "sg": 0,
      "sa": 5,
      "stp": 5
+    },
+    {
+     "k": "S",
+     "name": "Kirill Kudryavtsev",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 6,
+     "sg": 0,
+     "sa": 6,
+     "stp": 6
+    },
+    {
+     "k": "S",
+     "name": "Wilson Björck",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 4,
+     "dtp": 4,
+     "sgp": 9,
+     "sg": 1,
+     "sa": 7,
+     "stp": 8
+    },
+    {
+     "k": "S",
+     "name": "Vilmer Alriksson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 11,
+     "sg": 3,
+     "sa": 1,
+     "stp": 4
     }
    ]
   },

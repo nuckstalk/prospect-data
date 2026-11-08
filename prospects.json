@@ -66,11 +66,11 @@
    "ep": 6,
    "team": "Medicine Hat Tigers",
    "lg": "WHL",
-   "gp": 14,
+   "gp": 15,
    "g": 4,
-   "a": 4,
-   "tp": 8,
-   "ppg": 0.5714285714285714,
+   "a": 5,
+   "tp": 9,
+   "ppg": 0.6,
    "pim": 16,
    "pm": 2
   },
@@ -578,6 +578,19 @@
      "sg": 1,
      "sa": 2,
      "stp": 3
+    },
+    {
+     "k": "S",
+     "name": "Yaroslav Bryzgalov",
+     "lg": "WHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 15,
+     "sg": 4,
+     "sa": 5,
+     "stp": 9
     }
    ]
   },
@@ -1305,9 +1318,5 @@
     }
    ]
   }
- ],
- "status": {
-  "msg": "FETCH FAILED: urllib: HTTP Error 403: Forbidden; chrome: HTTP 403; safari: HTTP 403; edge: HTTP 403",
-  "at": "2026-11-08T04:30Z"
- }
+ ]
 }

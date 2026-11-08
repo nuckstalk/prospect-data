@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-08T03:15:19Z",
+ "updated": "2026-11-08T05:45:17Z",
  "results": [
+  {
+   "opp": "Edmonton Oilers",
+   "abbr": "EDM",
+   "home": false,
+   "date": "Nov 7",
+   "us": 2,
+   "them": 4,
+   "res": "L"
+  },
   {
    "opp": "Winnipeg Jets",
    "abbr": "WPG",
@@ -17,15 +26,6 @@
    "date": "Nov 3",
    "us": 4,
    "them": 5,
-   "res": "L"
-  },
-  {
-   "opp": "Toronto Maple Leafs",
-   "abbr": "TOR",
-   "home": true,
-   "date": "Oct 31",
-   "us": 2,
-   "them": 4,
    "res": "L"
   }
  ],

@@ -18,11 +18,11 @@
    "ep": 2,
    "team": "Boston Univ.",
    "lg": "NCAA",
-   "gp": 9,
+   "gp": 10,
    "g": 3,
    "a": 4,
    "tp": 7,
-   "ppg": 0.7777777777777778,
+   "ppg": 0.7,
    "pim": 8,
    "pm": 6
   },
@@ -102,13 +102,13 @@
    "ep": 9,
    "team": "Boston Univ.",
    "lg": "NCAA",
-   "gp": 9,
+   "gp": 10,
    "g": 1,
    "a": 3,
    "tp": 4,
-   "ppg": 0.4444444444444444,
+   "ppg": 0.4,
    "pim": 6,
-   "pm": 5
+   "pm": 4
   },
   "Ty Mueller": {
    "ep": 10,
@@ -162,13 +162,13 @@
    "ep": 14,
    "team": "Michigan State",
    "lg": "NCAA",
-   "gp": 7,
+   "gp": 8,
    "g": 7,
-   "a": 4,
-   "tp": 11,
-   "ppg": 1.5714285714285714,
-   "pim": 2,
-   "pm": 2
+   "a": 5,
+   "tp": 12,
+   "ppg": 1.5,
+   "pim": 12,
+   "pm": 3
   },
   "Sawyer Mynio": {
    "ep": 16,
@@ -346,6 +346,50 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-11-07",
+   "items": [
+    {
+     "k": "S",
+     "name": "Caleb Malhotra",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 10,
+     "sg": 3,
+     "sa": 4,
+     "stp": 7
+    },
+    {
+     "k": "S",
+     "name": "Niklas Aaram-Olsen",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 10,
+     "sg": 1,
+     "sa": 3,
+     "stp": 4
+    },
+    {
+     "k": "S",
+     "name": "Anthony Romani",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 8,
+     "sg": 7,
+     "sa": 5,
+     "stp": 12
+    }
+   ]
+  },
   {
    "date": "2026-11-06",
    "items": [
@@ -1067,37 +1111,6 @@
      "sgp": 13,
      "rec0": "5-4-0",
      "ga": 1
-    }
-   ]
-  },
-  {
-   "date": "2026-10-29",
-   "items": [
-    {
-     "k": "S",
-     "name": "Basile Sansonnens",
-     "lg": "NL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 19,
-     "sg": 2,
-     "sa": 1,
-     "stp": 3
-    },
-    {
-     "k": "S",
-     "name": "Adam Novotný",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 1,
-     "da": 0,
-     "dtp": 1,
-     "sgp": 13,
-     "sg": 8,
-     "sa": 11,
-     "stp": 19
     }
    ]
   }

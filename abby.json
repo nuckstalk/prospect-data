@@ -4086,9 +4086,29 @@
    "diff": 23,
    "l10": "7-2-1",
    "strk": "3-0-1-0",
-   "lseq": 3,
+   "lseq": 4,
    "cseq": 2,
    "dseq": 2
+  },
+  {
+   "abbr": "TUC",
+   "name": "Tucson Roadrunners",
+   "nick": "Roadrunners",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 13,
+   "w": 9,
+   "l": 2,
+   "otl": 2,
+   "pts": 20,
+   "gf": 43,
+   "ga": 28,
+   "diff": 15,
+   "l10": "8-0-2",
+   "strk": "9-0-2-0",
+   "lseq": 3,
+   "cseq": 2,
+   "dseq": 1
   },
   {
    "abbr": "MB",
@@ -4109,26 +4129,6 @@
    "lseq": 5,
    "cseq": 3,
    "dseq": 2
-  },
-  {
-   "abbr": "TUC",
-   "name": "Tucson Roadrunners",
-   "nick": "Roadrunners",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 12,
-   "w": 8,
-   "l": 2,
-   "otl": 2,
-   "pts": 18,
-   "gf": 43,
-   "ga": 28,
-   "diff": 15,
-   "l10": "8-0-2",
-   "strk": "8-0-2-0",
-   "lseq": 4,
-   "cseq": 2,
-   "dseq": 1
   },
   {
    "abbr": "ABB",
@@ -4271,6 +4271,26 @@
    "dseq": 5
   },
   {
+   "abbr": "HSK",
+   "name": "Henderson Silver Knights",
+   "nick": "Silver Knights",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 12,
+   "w": 8,
+   "l": 4,
+   "otl": 0,
+   "pts": 16,
+   "gf": 28,
+   "ga": 24,
+   "diff": 4,
+   "l10": "7-3-0",
+   "strk": "3-0-0-0",
+   "lseq": 7,
+   "cseq": 5,
+   "dseq": 3
+  },
+  {
    "abbr": "WBS",
    "name": "Wilkes-Barre/Scranton Penguins",
    "nick": "Penguins",
@@ -4351,26 +4371,6 @@
    "dseq": 5
   },
   {
-   "abbr": "HSK",
-   "name": "Henderson Silver Knights",
-   "nick": "Silver Knights",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 11,
-   "w": 7,
-   "l": 4,
-   "otl": 0,
-   "pts": 14,
-   "gf": 28,
-   "ga": 24,
-   "diff": 4,
-   "l10": "6-4-0",
-   "strk": "2-0-0-0",
-   "lseq": 7,
-   "cseq": 5,
-   "dseq": 3
-  },
-  {
    "abbr": "MIL",
    "name": "Milwaukee Admirals",
    "nick": "Admirals",
@@ -4391,6 +4391,26 @@
    "dseq": 3
   },
   {
+   "abbr": "CV",
+   "name": "Coachella Valley Firebirds",
+   "nick": "Firebirds",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 14,
+   "w": 5,
+   "l": 5,
+   "otl": 4,
+   "pts": 14,
+   "gf": 42,
+   "ga": 50,
+   "diff": -8,
+   "l10": "3-5-1-1",
+   "strk": "0-1-1-0",
+   "lseq": 17,
+   "cseq": 9,
+   "dseq": 6
+  },
+  {
    "abbr": "CHI",
    "name": "Chicago Wolves",
    "nick": "Wolves",
@@ -4406,29 +4426,9 @@
    "diff": -10,
    "l10": "6-3-0-1",
    "strk": "1-0-0-0",
-   "lseq": 17,
-   "cseq": 9,
-   "dseq": 4
-  },
-  {
-   "abbr": "CV",
-   "name": "Coachella Valley Firebirds",
-   "nick": "Firebirds",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 13,
-   "w": 5,
-   "l": 5,
-   "otl": 3,
-   "pts": 13,
-   "gf": 42,
-   "ga": 50,
-   "diff": -8,
-   "l10": "3-5-1-1",
-   "strk": "0-1-0-0",
    "lseq": 18,
    "cseq": 10,
-   "dseq": 6
+   "dseq": 4
   },
   {
    "abbr": "ONT",
@@ -4449,6 +4449,26 @@
    "lseq": 22,
    "cseq": 12,
    "dseq": 8
+  },
+  {
+   "abbr": "SD",
+   "name": "San Diego Gulls",
+   "nick": "Gulls",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 13,
+   "w": 5,
+   "l": 5,
+   "otl": 3,
+   "pts": 13,
+   "gf": 31,
+   "ga": 32,
+   "diff": -1,
+   "l10": "4-4-2",
+   "strk": "0-1-1-0",
+   "lseq": 19,
+   "cseq": 11,
+   "dseq": 7
   },
   {
    "abbr": "IA",
@@ -4547,26 +4567,6 @@
    "l10": "4-6-0",
    "strk": "0-4-0-0",
    "lseq": 24,
-   "cseq": 11,
-   "dseq": 7
-  },
-  {
-   "abbr": "SD",
-   "name": "San Diego Gulls",
-   "nick": "Gulls",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 12,
-   "w": 5,
-   "l": 5,
-   "otl": 2,
-   "pts": 12,
-   "gf": 31,
-   "ga": 32,
-   "diff": -1,
-   "l10": "4-5-1",
-   "strk": "0-1-0-0",
-   "lseq": 19,
    "cseq": 11,
    "dseq": 7
   },
@@ -4694,11 +4694,11 @@
  "team": {
   "gf": {
    "v": 3.5,
-   "rank": 6
+   "rank": 5
   },
   "ga": {
    "v": 2.67,
-   "rank": 10
+   "rank": 11
   },
   "pt": {
    "v": 70.8,
@@ -4714,5 +4714,5 @@
   "home": true,
   "live": false
  },
- "updated": "2026-11-08T04:45:17Z"
+ "updated": "2026-11-08T05:00:20Z"
 }

@@ -198,11 +198,11 @@
    "ep": 18,
    "team": "Quinnipiac",
    "lg": "NCAA",
-   "gp": 8,
+   "gp": 9,
    "g": 1,
    "a": 2,
    "tp": 3,
-   "ppg": 0.375,
+   "ppg": 0.3333333333333333,
    "pim": 8,
    "pm": 1
   },
@@ -565,6 +565,19 @@
      "svp": ".908",
      "sgp": 4,
      "ga": 2
+    },
+    {
+     "k": "S",
+     "name": "Matthew Lansing",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 9,
+     "sg": 1,
+     "sa": 2,
+     "stp": 3
     }
    ]
   },

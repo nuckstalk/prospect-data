@@ -31,12 +31,12 @@
    "team": "Peterborough Petes",
    "lg": "OHL",
    "gp": 17,
-   "g": 10,
+   "g": 11,
    "a": 12,
-   "tp": 22,
-   "ppg": 1.2941176470588236,
+   "tp": 23,
+   "ppg": 1.3529411764705883,
    "pim": 10,
-   "pm": -2
+   "pm": -1
   },
   "Braeden Cootes": {
    "ep": 4,
@@ -328,11 +328,11 @@
    "team": "London Knights",
    "lg": "OHL",
    "gp": 9,
-   "gaa": 3.29,
-   "svp": ".893",
+   "gaa": 3.26,
+   "svp": ".894",
    "so": 0,
-   "rec": "3-3-2",
-   "toi": 529.25
+   "rec": "4-3-2",
+   "toi": 533.77
   },
   "Ty Young": {
    "team": "Abbotsford Canucks",
@@ -354,24 +354,23 @@
      "name": "Adam Novotný",
      "lg": "OHL",
      "dgp": 1,
-     "dg": 0,
+     "dg": 1,
      "da": 0,
-     "dtp": 0,
+     "dtp": 1,
      "sgp": 17,
-     "sg": 10,
+     "sg": 11,
      "sa": 12,
-     "stp": 22
+     "stp": 23
     },
     {
      "k": "G",
      "name": "Alexei Medvedev",
      "lg": "OHL",
      "dgp": 1,
-     "res": "",
-     "gaa": 3.28,
+     "res": "W",
+     "gaa": 3.26,
      "svp": ".894",
      "sgp": 9,
-     "rec0": "3-3-2",
      "ga": 1
     }
    ]

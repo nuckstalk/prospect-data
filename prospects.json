@@ -30,12 +30,12 @@
    "ep": 3,
    "team": "Peterborough Petes",
    "lg": "OHL",
-   "gp": 16,
+   "gp": 17,
    "g": 10,
    "a": 12,
    "tp": 22,
-   "ppg": 1.375,
-   "pim": 8,
+   "ppg": 1.2941176470588236,
+   "pim": 10,
    "pm": -2
   },
   "Braeden Cootes": {
@@ -327,12 +327,12 @@
   "Alexei Medvedev": {
    "team": "London Knights",
    "lg": "OHL",
-   "gp": 8,
-   "gaa": 3.43,
-   "svp": ".891",
+   "gp": 9,
+   "gaa": 3.28,
+   "svp": ".894",
    "so": 0,
    "rec": "3-3-2",
-   "toi": 472.18
+   "toi": 512.12
   },
   "Ty Young": {
    "team": "Abbotsford Canucks",
@@ -346,6 +346,36 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-11-08",
+   "items": [
+    {
+     "k": "S",
+     "name": "Adam Novotný",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 17,
+     "sg": 10,
+     "sa": 12,
+     "stp": 22
+    },
+    {
+     "k": "G",
+     "name": "Alexei Medvedev",
+     "lg": "OHL",
+     "dgp": 1,
+     "res": "",
+     "gaa": 3.28,
+     "svp": ".894",
+     "sgp": 9,
+     "rec0": "3-3-2",
+     "ga": 1
+    }
+   ]
+  },
   {
    "date": "2026-11-07",
    "items": [
@@ -1094,227 +1124,6 @@
      "sg": 1,
      "sa": 3,
      "stp": 4
-    }
-   ]
-  },
-  {
-   "date": "2026-10-30",
-   "items": [
-    {
-     "k": "S",
-     "name": "Adam Novotný",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 14,
-     "sg": 8,
-     "sa": 11,
-     "stp": 19
-    },
-    {
-     "k": "S",
-     "name": "Brooks Rogowski",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 3,
-     "dtp": 3,
-     "sgp": 14,
-     "sg": 1,
-     "sa": 11,
-     "stp": 12
-    },
-    {
-     "k": "G",
-     "name": "Aku Koskenvuo",
-     "lg": "ECHL",
-     "dgp": 1,
-     "res": "OTL",
-     "gaa": 2.6,
-     "svp": ".935",
-     "sgp": 3,
-     "ga": 1
-    },
-    {
-     "k": "G",
-     "name": "Alexei Medvedev",
-     "lg": "OHL",
-     "dgp": 1,
-     "res": "OTL",
-     "gaa": 3.43,
-     "svp": ".891",
-     "sgp": 8,
-     "ga": 4
-    },
-    {
-     "k": "S",
-     "name": "Caleb Malhotra",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 1,
-     "dtp": 1,
-     "sgp": 7,
-     "sg": 1,
-     "sa": 3,
-     "stp": 4
-    },
-    {
-     "k": "S",
-     "name": "Niklas Aaram-Olsen",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 1,
-     "da": 1,
-     "dtp": 2,
-     "sgp": 7,
-     "sg": 1,
-     "sa": 2,
-     "stp": 3
-    },
-    {
-     "k": "S",
-     "name": "Aiden Celebrini",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 7,
-     "sg": 0,
-     "sa": 2,
-     "stp": 2
-    },
-    {
-     "k": "S",
-     "name": "Wilson Björck",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 7,
-     "sg": 1,
-     "sa": 3,
-     "stp": 4
-    },
-    {
-     "k": "S",
-     "name": "Yaroslav Bryzgalov",
-     "lg": "WHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 11,
-     "sg": 4,
-     "sa": 1,
-     "stp": 5
-    },
-    {
-     "k": "S",
-     "name": "Riley Patterson",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 1,
-     "da": 0,
-     "dtp": 1,
-     "sgp": 10,
-     "sg": 4,
-     "sa": 5,
-     "stp": 9
-    },
-    {
-     "k": "S",
-     "name": "Ty Mueller",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 1,
-     "da": 1,
-     "dtp": 2,
-     "sgp": 10,
-     "sg": 6,
-     "sa": 4,
-     "stp": 10
-    },
-    {
-     "k": "S",
-     "name": "Sawyer Mynio",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 9,
-     "sg": 1,
-     "sa": 5,
-     "stp": 6
-    },
-    {
-     "k": "S",
-     "name": "Kirill Kudryavtsev",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 2,
-     "dtp": 2,
-     "sgp": 5,
-     "sg": 0,
-     "sa": 6,
-     "stp": 6
-    },
-    {
-     "k": "S",
-     "name": "Vilmer Alriksson",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 1,
-     "da": 0,
-     "dtp": 1,
-     "sgp": 10,
-     "sg": 3,
-     "sa": 1,
-     "stp": 4
-    },
-    {
-     "k": "S",
-     "name": "Anri Ravinskis",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 1,
-     "dtp": 1,
-     "sgp": 8,
-     "sg": 0,
-     "sa": 5,
-     "stp": 5
-    },
-    {
-     "k": "S",
-     "name": "Gabriel Chiarot",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 2,
-     "sg": 0,
-     "sa": 1,
-     "stp": 1
-    },
-    {
-     "k": "G",
-     "name": "Dmitri Ivchenko",
-     "lg": "MHL",
-     "dgp": 1,
-     "res": "W",
-     "gaa": 3.0,
-     "svp": ".894",
-     "sgp": 13,
-     "rec0": "5-4-0",
-     "ga": 1
     }
    ]
   }

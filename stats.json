@@ -6003,6 +6003,26 @@
    "lseq": 5
   },
   {
+   "abbr": "NJD",
+   "name": "New Jersey Devils",
+   "nick": "Devils",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 17,
+   "w": 12,
+   "l": 5,
+   "otl": 0,
+   "pts": 24,
+   "gf": 62,
+   "ga": 51,
+   "diff": 11,
+   "l10": "8-2-0",
+   "strk": "W4",
+   "dseq": 2,
+   "cseq": 4,
+   "lseq": 6
+  },
+  {
    "abbr": "VGK",
    "name": "Vegas Golden Knights",
    "nick": "Golden Knights",
@@ -6020,7 +6040,7 @@
    "strk": "W2",
    "dseq": 2,
    "cseq": 3,
-   "lseq": 6
+   "lseq": 7
   },
   {
    "abbr": "OTT",
@@ -6039,8 +6059,8 @@
    "l10": "5-4-1",
    "strk": "W2",
    "dseq": 3,
-   "cseq": 4,
-   "lseq": 7
+   "cseq": 5,
+   "lseq": 8
   },
   {
    "abbr": "TBL",
@@ -6059,26 +6079,6 @@
    "l10": "6-2-2",
    "strk": "W2",
    "dseq": 4,
-   "cseq": 5,
-   "lseq": 8
-  },
-  {
-   "abbr": "NJD",
-   "name": "New Jersey Devils",
-   "nick": "Devils",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 16,
-   "w": 11,
-   "l": 5,
-   "otl": 0,
-   "pts": 22,
-   "gf": 57,
-   "ga": 47,
-   "diff": 10,
-   "l10": "8-2-0",
-   "strk": "W3",
-   "dseq": 2,
    "cseq": 6,
    "lseq": 9
   },
@@ -6303,6 +6303,26 @@
    "lseq": 20
   },
   {
+   "abbr": "NYI",
+   "name": "New York Islanders",
+   "nick": "Islanders",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 16,
+   "w": 7,
+   "l": 6,
+   "otl": 3,
+   "pts": 17,
+   "gf": 47,
+   "ga": 49,
+   "diff": -2,
+   "l10": "4-3-3",
+   "strk": "OT1",
+   "dseq": 5,
+   "cseq": 12,
+   "lseq": 21
+  },
+  {
    "abbr": "DET",
    "name": "Detroit Red Wings",
    "nick": "Red Wings",
@@ -6319,26 +6339,6 @@
    "l10": "5-4-1",
    "strk": "L2",
    "dseq": 8,
-   "cseq": 12,
-   "lseq": 21
-  },
-  {
-   "abbr": "NYI",
-   "name": "New York Islanders",
-   "nick": "Islanders",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 15,
-   "w": 7,
-   "l": 6,
-   "otl": 2,
-   "pts": 16,
-   "gf": 43,
-   "ga": 44,
-   "diff": -1,
-   "l10": "5-3-2",
-   "strk": "L2",
-   "dseq": 5,
    "cseq": 13,
    "lseq": 22
   },
@@ -6577,5 +6577,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-08T03:00:17Z"
+ "updated": "2026-11-08T03:15:16Z"
 }

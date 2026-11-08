@@ -4211,6 +4211,26 @@
    "dseq": 3
   },
   {
+   "abbr": "HFD",
+   "name": "Hartford Wolf Pack",
+   "nick": "Wolf Pack",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 16,
+   "w": 7,
+   "l": 8,
+   "otl": 1,
+   "pts": 15,
+   "gf": 39,
+   "ga": 47,
+   "diff": -8,
+   "l10": "4-5-1",
+   "strk": "1-0-0-0",
+   "lseq": 22,
+   "cseq": 12,
+   "dseq": 6
+  },
+  {
    "abbr": "HER",
    "name": "Hershey Bears",
    "nick": "Bears",
@@ -4351,26 +4371,6 @@
    "dseq": 5
   },
   {
-   "abbr": "HFD",
-   "name": "Hartford Wolf Pack",
-   "nick": "Wolf Pack",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 15,
-   "w": 6,
-   "l": 8,
-   "otl": 1,
-   "pts": 13,
-   "gf": 39,
-   "ga": 47,
-   "diff": -8,
-   "l10": "3-6-1",
-   "strk": "0-2-0-0",
-   "lseq": 26,
-   "cseq": 14,
-   "dseq": 7
-  },
-  {
    "abbr": "WBS",
    "name": "Wilkes-Barre/Scranton Penguins",
    "nick": "Penguins",
@@ -4431,6 +4431,26 @@
    "dseq": 4
   },
   {
+   "abbr": "SYR",
+   "name": "Syracuse Crunch",
+   "nick": "Crunch",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 12,
+   "w": 5,
+   "l": 5,
+   "otl": 2,
+   "pts": 12,
+   "gf": 35,
+   "ga": 39,
+   "diff": -4,
+   "l10": "4-4-2",
+   "strk": "0-1-1-0",
+   "lseq": 20,
+   "cseq": 10,
+   "dseq": 6
+  },
+  {
    "abbr": "CLE",
    "name": "Cleveland Monsters",
    "nick": "Monsters",
@@ -4446,8 +4466,8 @@
    "diff": -10,
    "l10": "4-6-0",
    "strk": "0-4-0-0",
-   "lseq": 22,
-   "cseq": 12,
+   "lseq": 23,
+   "cseq": 13,
    "dseq": 7
   },
   {
@@ -4471,26 +4491,6 @@
    "dseq": 7
   },
   {
-   "abbr": "SYR",
-   "name": "Syracuse Crunch",
-   "nick": "Crunch",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 11,
-   "w": 5,
-   "l": 5,
-   "otl": 1,
-   "pts": 11,
-   "gf": 35,
-   "ga": 39,
-   "diff": -4,
-   "l10": "4-5-1",
-   "strk": "0-1-0-0",
-   "lseq": 20,
-   "cseq": 10,
-   "dseq": 6
-  },
-  {
    "abbr": "CHI",
    "name": "Chicago Wolves",
    "nick": "Wolves",
@@ -4506,7 +4506,7 @@
    "diff": -13,
    "l10": "5-4-0-1",
    "strk": "0-2-0-0",
-   "lseq": 23,
+   "lseq": 24,
    "cseq": 11,
    "dseq": 4
   },
@@ -4526,9 +4526,9 @@
    "diff": -16,
    "l10": "5-5-0",
    "strk": "0-1-0-0",
-   "lseq": 24,
-   "cseq": 13,
-   "dseq": 6
+   "lseq": 25,
+   "cseq": 14,
+   "dseq": 7
   },
   {
    "abbr": "ONT",
@@ -4626,7 +4626,7 @@
    "diff": -4,
    "l10": "4-5-1",
    "strk": "1-0-1-0",
-   "lseq": 25,
+   "lseq": 26,
    "cseq": 12,
    "dseq": 8
   },
@@ -4714,5 +4714,5 @@
   "home": true,
   "live": true
  },
- "updated": "2026-11-08T00:45:19Z"
+ "updated": "2026-11-08T01:00:19Z"
 }

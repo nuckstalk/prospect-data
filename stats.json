@@ -6443,43 +6443,43 @@
    "lseq": 27
   },
   {
-   "abbr": "LAK",
-   "name": "Los Angeles Kings",
-   "nick": "Kings",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 14,
-   "w": 5,
-   "l": 7,
-   "otl": 2,
-   "pts": 12,
-   "gf": 43,
-   "ga": 47,
-   "diff": -4,
-   "l10": "5-5-0",
-   "strk": "W1",
-   "dseq": 7,
-   "cseq": 14,
-   "lseq": 28
-  },
-  {
    "abbr": "PIT",
    "name": "Pittsburgh Penguins",
    "nick": "Penguins",
    "div": "Metropolitan",
    "conf": "Eastern",
-   "gp": 16,
-   "w": 5,
+   "gp": 17,
+   "w": 6,
    "l": 9,
    "otl": 2,
-   "pts": 12,
-   "gf": 51,
-   "ga": 58,
-   "diff": -7,
-   "l10": "2-7-1",
-   "strk": "L3",
+   "pts": 14,
+   "gf": 56,
+   "ga": 60,
+   "diff": -4,
+   "l10": "3-6-1",
+   "strk": "W1",
    "dseq": 7,
    "cseq": 15,
+   "lseq": 28
+  },
+  {
+   "abbr": "LAK",
+   "name": "Los Angeles Kings",
+   "nick": "Kings",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 15,
+   "w": 5,
+   "l": 8,
+   "otl": 2,
+   "pts": 12,
+   "gf": 45,
+   "ga": 52,
+   "diff": -7,
+   "l10": "5-5-0",
+   "strk": "L1",
+   "dseq": 7,
+   "cseq": 14,
    "lseq": 29
   },
   {
@@ -6577,5 +6577,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-08T04:45:14Z"
+ "updated": "2026-11-08T05:00:17Z"
 }

@@ -6150,6 +6150,26 @@
    "lseq": 2
   },
   {
+   "abbr": "BOS",
+   "name": "Boston Bruins",
+   "nick": "Bruins",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 18,
+   "w": 13,
+   "l": 4,
+   "otl": 1,
+   "pts": 27,
+   "gf": 68,
+   "ga": 41,
+   "diff": 27,
+   "l10": "7-2-1",
+   "strk": "W4",
+   "dseq": 1,
+   "cseq": 2,
+   "lseq": 3
+  },
+  {
    "abbr": "EDM",
    "name": "Edmonton Oilers",
    "nick": "Oilers",
@@ -6165,26 +6185,6 @@
    "diff": 20,
    "l10": "6-2-2",
    "strk": "W1",
-   "dseq": 1,
-   "cseq": 2,
-   "lseq": 3
-  },
-  {
-   "abbr": "BOS",
-   "name": "Boston Bruins",
-   "nick": "Bruins",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 17,
-   "w": 12,
-   "l": 4,
-   "otl": 1,
-   "pts": 25,
-   "gf": 64,
-   "ga": 40,
-   "diff": 24,
-   "l10": "7-2-1",
-   "strk": "W3",
    "dseq": 1,
    "cseq": 2,
    "lseq": 4
@@ -6395,16 +6395,16 @@
    "nick": "Panthers",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 17,
+   "gp": 18,
    "w": 9,
-   "l": 6,
+   "l": 7,
    "otl": 2,
    "pts": 20,
-   "gf": 55,
-   "ga": 51,
-   "diff": 4,
-   "l10": "6-4-0",
-   "strk": "L1",
+   "gf": 56,
+   "ga": 55,
+   "diff": 1,
+   "l10": "5-5-0",
+   "strk": "L2",
    "dseq": 5,
    "cseq": 8,
    "lseq": 15
@@ -6784,5 +6784,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-08T06:30:19Z"
+ "updated": "2026-11-08T21:15:18Z"
 }

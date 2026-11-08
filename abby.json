@@ -4056,17 +4056,17 @@
    "nick": "Griffins",
    "div": "Central",
    "conf": "Western",
-   "gp": 13,
+   "gp": 14,
    "w": 10,
-   "l": 1,
+   "l": 2,
    "otl": 2,
    "pts": 22,
    "gf": 56,
    "ga": 35,
    "diff": 21,
    "l10": "8-1-0-1",
-   "strk": "8-0-0-1",
-   "lseq": 1,
+   "strk": "0-1-0-0",
+   "lseq": 2,
    "cseq": 1,
    "dseq": 1
   },
@@ -4226,7 +4226,7 @@
    "diff": 7,
    "l10": "8-2-0",
    "strk": "4-0-0-0",
-   "lseq": 2,
+   "lseq": 1,
    "cseq": 1,
    "dseq": 1
   },
@@ -4551,6 +4551,26 @@
    "dseq": 7
   },
   {
+   "abbr": "RFD",
+   "name": "Rockford IceHogs",
+   "nick": "IceHogs",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 12,
+   "w": 5,
+   "l": 6,
+   "otl": 1,
+   "pts": 11,
+   "gf": 31,
+   "ga": 38,
+   "diff": -7,
+   "l10": "4-5-0-1",
+   "strk": "2-0-0-1",
+   "lseq": 26,
+   "cseq": 14,
+   "dseq": 6
+  },
+  {
    "abbr": "LV",
    "name": "Lehigh Valley Phantoms",
    "nick": "Phantoms",
@@ -4566,7 +4586,7 @@
    "diff": -18,
    "l10": "5-5-0",
    "strk": "0-2-0-0",
-   "lseq": 28,
+   "lseq": 29,
    "cseq": 14,
    "dseq": 7
   },
@@ -4586,7 +4606,7 @@
    "diff": -11,
    "l10": "2-5-2-1",
    "strk": "0-1-0-0",
-   "lseq": 26,
+   "lseq": 27,
    "cseq": 13,
    "dseq": 6
   },
@@ -4626,8 +4646,8 @@
    "diff": -11,
    "l10": "4-6-0",
    "strk": "0-1-0-0",
-   "lseq": 29,
-   "cseq": 15,
+   "lseq": 30,
+   "cseq": 16,
    "dseq": 10
   },
   {
@@ -4646,29 +4666,9 @@
    "diff": -5,
    "l10": "4-5-1",
    "strk": "1-0-1-0",
-   "lseq": 27,
-   "cseq": 14,
+   "lseq": 28,
+   "cseq": 15,
    "dseq": 9
-  },
-  {
-   "abbr": "RFD",
-   "name": "Rockford IceHogs",
-   "nick": "IceHogs",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 11,
-   "w": 4,
-   "l": 6,
-   "otl": 1,
-   "pts": 9,
-   "gf": 31,
-   "ga": 38,
-   "diff": -7,
-   "l10": "4-5-0-1",
-   "strk": "1-0-0-1",
-   "lseq": 30,
-   "cseq": 16,
-   "dseq": 6
   },
   {
    "abbr": "TEX",
@@ -4698,7 +4698,7 @@
   },
   "ga": {
    "v": 2.67,
-   "rank": 9
+   "rank": 10
   },
   "pt": {
    "v": 70.8,
@@ -4714,5 +4714,5 @@
   "home": true,
   "live": false
  },
- "updated": "2026-11-08T04:00:16Z"
+ "updated": "2026-11-08T04:15:18Z"
 }

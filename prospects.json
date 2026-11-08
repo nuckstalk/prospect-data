@@ -138,11 +138,11 @@
    "ep": 12,
    "team": "Owen Sound Attack",
    "lg": "OHL",
-   "gp": 14,
+   "gp": 15,
    "g": 4,
-   "a": 7,
-   "tp": 11,
-   "ppg": 0.7857142857142857,
+   "a": 8,
+   "tp": 12,
+   "ppg": 0.8,
    "pim": 10,
    "pm": -5
   },
@@ -317,12 +317,12 @@
   "Aku Koskenvuo": {
    "team": "Kalamazoo Wings",
    "lg": "ECHL",
-   "gp": 4,
-   "gaa": 2.71,
-   "svp": ".932",
+   "gp": 5,
+   "gaa": 2.51,
+   "svp": ".934",
    "so": 0,
    "rec": "1-1-2",
-   "toi": 243.35
+   "toi": 263.35
   },
   "Alexei Medvedev": {
    "team": "London Knights",
@@ -387,6 +387,31 @@
      "sg": 7,
      "sa": 5,
      "stp": 12
+    },
+    {
+     "k": "S",
+     "name": "Lucian Bernat",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 15,
+     "sg": 4,
+     "sa": 8,
+     "stp": 12
+    },
+    {
+     "k": "G",
+     "name": "Aku Koskenvuo",
+     "lg": "ECHL",
+     "dgp": 1,
+     "res": "",
+     "gaa": 2.51,
+     "svp": ".934",
+     "sgp": 5,
+     "rec0": "1-1-2",
+     "ga": 0
     }
    ]
   },

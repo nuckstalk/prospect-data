@@ -4122,8 +4122,8 @@
    "otl": 2,
    "pts": 18,
    "gf": 42,
-   "ga": 27,
-   "diff": 15,
+   "ga": 28,
+   "diff": 14,
    "l10": "8-0-2",
    "strk": "8-0-2-0",
    "lseq": 4,
@@ -4231,6 +4231,26 @@
    "dseq": 1
   },
   {
+   "abbr": "COL",
+   "name": "Colorado Eagles",
+   "nick": "Eagles",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 14,
+   "w": 7,
+   "l": 5,
+   "otl": 2,
+   "pts": 16,
+   "gf": 40,
+   "ga": 35,
+   "diff": 5,
+   "l10": "4-4-1-1",
+   "strk": "1-0-0-0",
+   "lseq": 15,
+   "cseq": 7,
+   "dseq": 4
+  },
+  {
    "abbr": "BEL",
    "name": "Belleville Senators",
    "nick": "Senators",
@@ -4316,19 +4336,19 @@
    "nick": "Wranglers",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 13,
+   "gp": 14,
    "w": 7,
-   "l": 6,
+   "l": 7,
    "otl": 0,
    "pts": 14,
    "gf": 44,
    "ga": 43,
    "diff": 1,
    "l10": "4-6-0",
-   "strk": "1-0-0-0",
-   "lseq": 15,
-   "cseq": 7,
-   "dseq": 4
+   "strk": "0-1-0-0",
+   "lseq": 16,
+   "cseq": 8,
+   "dseq": 5
   },
   {
    "abbr": "HSK",
@@ -4371,26 +4391,6 @@
    "dseq": 3
   },
   {
-   "abbr": "COL",
-   "name": "Colorado Eagles",
-   "nick": "Eagles",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 13,
-   "w": 6,
-   "l": 5,
-   "otl": 2,
-   "pts": 14,
-   "gf": 40,
-   "ga": 35,
-   "diff": 5,
-   "l10": "3-5-1-1",
-   "strk": "0-2-0-1",
-   "lseq": 16,
-   "cseq": 8,
-   "dseq": 5
-  },
-  {
    "abbr": "CHI",
    "name": "Chicago Wolves",
    "nick": "Wolves",
@@ -4421,9 +4421,9 @@
    "l": 5,
    "otl": 3,
    "pts": 13,
-   "gf": 41,
+   "gf": 42,
    "ga": 49,
-   "diff": -8,
+   "diff": -7,
    "l10": "3-5-1-1",
    "strk": "0-1-0-0",
    "lseq": 18,
@@ -4698,7 +4698,7 @@
   },
   "ga": {
    "v": 2.67,
-   "rank": 10
+   "rank": 11
   },
   "pt": {
    "v": 70.8,
@@ -4714,5 +4714,5 @@
   "home": true,
   "live": false
  },
- "updated": "2026-11-08T04:15:18Z"
+ "updated": "2026-11-08T04:30:15Z"
 }

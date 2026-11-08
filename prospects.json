@@ -6,13 +6,13 @@
    "ep": 1,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 11,
+   "gp": 12,
    "g": 4,
    "a": 5,
    "tp": 9,
-   "ppg": 0.8181818181818182,
+   "ppg": 0.75,
    "pim": 4,
-   "pm": 8
+   "pm": 7
   },
   "Caleb Malhotra": {
    "ep": 2,
@@ -42,25 +42,25 @@
    "ep": 4,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 7,
+   "gp": 8,
    "g": 3,
    "a": 4,
    "tp": 7,
-   "ppg": 1.0,
+   "ppg": 0.875,
    "pim": 0,
-   "pm": 0
+   "pm": -1
   },
   "Connor Davis": {
    "ep": 5,
    "team": "Univ. of North Dakota",
    "lg": "NCAA",
-   "gp": 7,
+   "gp": 8,
    "g": 1,
    "a": 3,
    "tp": 4,
-   "ppg": 0.5714285714285714,
-   "pim": 0,
-   "pm": -1
+   "ppg": 0.5,
+   "pim": 2,
+   "pm": 0
   },
   "Yaroslav Bryzgalov": {
    "ep": 6,
@@ -114,13 +114,13 @@
    "ep": 10,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 11,
+   "gp": 12,
    "g": 7,
    "a": 4,
    "tp": 11,
-   "ppg": 1.0,
+   "ppg": 0.9166666666666666,
    "pim": 2,
-   "pm": 3
+   "pm": 1
   },
   "Gabriel Chiarot": {
    "ep": 11,
@@ -144,7 +144,7 @@
    "tp": 12,
    "ppg": 0.8,
    "pim": 10,
-   "pm": -5
+   "pm": -6
   },
   "Parker Alcos": {
    "ep": 13,
@@ -174,25 +174,25 @@
    "ep": 16,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 10,
+   "gp": 11,
    "g": 1,
    "a": 6,
    "tp": 7,
-   "ppg": 0.7,
-   "pim": 12,
-   "pm": 2
+   "ppg": 0.6363636363636364,
+   "pim": 16,
+   "pm": 1
   },
   "Kirill Kudryavtsev": {
    "ep": 17,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 6,
+   "gp": 7,
    "g": 0,
    "a": 6,
    "tp": 6,
-   "ppg": 1.0,
-   "pim": 4,
-   "pm": 1
+   "ppg": 0.8571428571428571,
+   "pim": 6,
+   "pm": 0
   },
   "Matthew Lansing": {
    "ep": 18,
@@ -210,11 +210,11 @@
    "ep": 19,
    "team": "Colorado College",
    "lg": "NCAA",
-   "gp": 9,
+   "gp": 10,
    "g": 1,
-   "a": 7,
-   "tp": 8,
-   "ppg": 0.8888888888888888,
+   "a": 8,
+   "tp": 9,
+   "ppg": 0.9,
    "pim": 17,
    "pm": 6
   },
@@ -234,11 +234,11 @@
    "ep": 21,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 11,
+   "gp": 12,
    "g": 3,
    "a": 1,
    "tp": 4,
-   "ppg": 0.36363636363636365,
+   "ppg": 0.3333333333333333,
    "pim": 27,
    "pm": -3
   },
@@ -246,13 +246,13 @@
    "ep": 22,
    "team": "Northeastern",
    "lg": "NCAA",
-   "gp": 0,
+   "gp": 1,
    "g": 0,
-   "a": 0,
-   "tp": 0,
-   "ppg": 0,
+   "a": 1,
+   "tp": 1,
+   "ppg": 1.0,
    "pim": 0,
-   "pm": 0
+   "pm": 1
   },
   "Aiden Celebrini": {
    "ep": 24,
@@ -270,7 +270,7 @@
    "ep": 25,
    "team": "Minnesota State (Mankato)",
    "lg": "NCAA",
-   "gp": 6,
+   "gp": 7,
    "g": 0,
    "a": 0,
    "tp": 0,
@@ -282,11 +282,11 @@
    "ep": 26,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 9,
+   "gp": 10,
    "g": 0,
    "a": 5,
    "tp": 5,
-   "ppg": 0.5555555555555556,
+   "ppg": 0.5,
    "pim": 6,
    "pm": 5
   },
@@ -318,11 +318,11 @@
    "team": "Kalamazoo Wings",
    "lg": "ECHL",
    "gp": 5,
-   "gaa": 2.51,
-   "svp": ".934",
+   "gaa": 2.57,
+   "svp": ".929",
    "so": 0,
-   "rec": "1-1-2",
-   "toi": 263.35
+   "rec": "2-1-2",
+   "toi": 303.82
   },
   "Alexei Medvedev": {
    "team": "London Knights",
@@ -337,12 +337,12 @@
   "Ty Young": {
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 3,
-   "gaa": 2.94,
-   "svp": ".904",
+   "gp": 4,
+   "gaa": 2.72,
+   "svp": ".908",
    "so": 0,
-   "rec": "2-1-0",
-   "toi": 183.68
+   "rec": "2-2-0",
+   "toi": 242.3
   }
  },
  "watch": [
@@ -406,12 +406,165 @@
      "name": "Aku Koskenvuo",
      "lg": "ECHL",
      "dgp": 1,
-     "res": "",
-     "gaa": 2.51,
-     "svp": ".934",
+     "res": "W",
+     "gaa": 2.57,
+     "svp": ".929",
      "sgp": 5,
-     "rec0": "1-1-2",
      "ga": 0
+    },
+    {
+     "k": "S",
+     "name": "Riley Patterson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 12,
+     "sg": 4,
+     "sa": 5,
+     "stp": 9
+    },
+    {
+     "k": "S",
+     "name": "Braeden Cootes",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 8,
+     "sg": 3,
+     "sa": 4,
+     "stp": 7
+    },
+    {
+     "k": "S",
+     "name": "Connor Davis",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 8,
+     "sg": 1,
+     "sa": 3,
+     "stp": 4
+    },
+    {
+     "k": "S",
+     "name": "Ty Mueller",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 12,
+     "sg": 7,
+     "sa": 4,
+     "stp": 11
+    },
+    {
+     "k": "S",
+     "name": "Sawyer Mynio",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 11,
+     "sg": 1,
+     "sa": 6,
+     "stp": 7
+    },
+    {
+     "k": "S",
+     "name": "Kirill Kudryavtsev",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 7,
+     "sg": 0,
+     "sa": 6,
+     "stp": 6
+    },
+    {
+     "k": "S",
+     "name": "Wilson Björck",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 10,
+     "sg": 1,
+     "sa": 8,
+     "stp": 9
+    },
+    {
+     "k": "S",
+     "name": "Vilmer Alriksson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 12,
+     "sg": 3,
+     "sa": 1,
+     "stp": 4
+    },
+    {
+     "k": "S",
+     "name": "Matthew Perkins",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 1,
+     "sg": 0,
+     "sa": 1,
+     "stp": 1
+    },
+    {
+     "k": "S",
+     "name": "Daimon Gardner",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 7,
+     "sg": 0,
+     "sa": 0,
+     "stp": 0
+    },
+    {
+     "k": "S",
+     "name": "Anri Ravinskis",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 10,
+     "sg": 0,
+     "sa": 5,
+     "stp": 5
+    },
+    {
+     "k": "G",
+     "name": "Ty Young",
+     "lg": "AHL",
+     "dgp": 1,
+     "res": "L",
+     "gaa": 2.72,
+     "svp": ".908",
+     "sgp": 4,
+     "ga": 2
     }
    ]
   },
@@ -1139,9 +1292,5 @@
     }
    ]
   }
- ],
- "status": {
-  "msg": "FETCH FAILED: urllib: HTTP Error 403: Forbidden; chrome: HTTP 403; safari: HTTP 403; edge: HTTP 403",
-  "at": "2026-11-08T02:45Z"
- }
+ ]
 }

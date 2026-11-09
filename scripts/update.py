@@ -87,13 +87,17 @@ for table in soup.find_all("table"):
     for tr in table.find_all("tr"):
         cells = [td.get_text(" ", strip=True) for td in tr.find_all("td")]
         if cur_multi:
-            print("  row after totals:", cells, "| player link:", bool(tr.find("a", href=re.compile(r"/player/"))))
+            print("  row after totals:", cells, "| player link:", bool(tr.find("a", href=re.compile(r"/player/"))), "| text:", list(tr.stripped_strings)[:4])
         _txt = [cells[1] if len(cells) > 1 else ""] + [x.get_text(" ", strip=True) for x in tr.find_all(["th", "a"])]
         _named = any(norm(re.sub(r"\([^)]*\)", "", t_)) in known_sk or norm(re.sub(r"\([^)]*\)", "", t_)) in known_g for t_ in _txt)
-        _nameless = not _named and not tr.find("a", href=re.compile(r"/player/")) and not tr.find("th", string=re.compile(r"\w"))
+        _nameless = not _named and not tr.find("a", href=re.compile(r"/player/"))
         if cur_multi and len(cells) >= tail + 2 and _nameless:
             try:
                 _t, _l, _v = cells[-(tail + 2)], cells[-(tail + 1)], cells[-tail:]
+                if not _t.strip():   # the team name sits outside the <td>s on these rows: take it from the row's other text
+                    _skip = set(cells)
+                    _t = next((x for x in [y.get_text(" ", strip=True) for y in tr.find_all(["th", "a", "span"])] + list(tr.stripped_strings) if x and x not in _skip), "")
+                    print("  team name found outside the cells:", repr(_t))
                 if _t and _l and "totals" not in (_t.lower(), _l.lower()):
                     if is_goalie:
                         _sv = _v[2].strip(); _sv = _sv[1:] if _sv.startswith("0.") else _sv

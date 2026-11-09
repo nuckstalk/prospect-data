@@ -78,10 +78,10 @@
    "ep": 7,
    "team": "Oshawa Generals",
    "lg": "OHL",
-   "gp": 16,
-   "g": 2,
+   "gp": 17,
+   "g": 3,
    "a": 14,
-   "tp": 16,
+   "tp": 17,
    "ppg": 1.0,
    "pim": 8,
    "pm": 0
@@ -372,6 +372,19 @@
      "svp": ".894",
      "sgp": 9,
      "ga": 1
+    },
+    {
+     "k": "S",
+     "name": "Brooks Rogowski",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 1,
+     "da": 0,
+     "dtp": 1,
+     "sgp": 17,
+     "sg": 3,
+     "sa": 14,
+     "stp": 17
     }
    ]
   },

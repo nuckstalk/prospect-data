@@ -88,11 +88,13 @@ for table in soup.find_all("table"):
         cells = [td.get_text(" ", strip=True) for td in tr.find_all("td")]
         if cur_multi:
             print("  row after totals:", cells, "| player link:", bool(tr.find("a", href=re.compile(r"/player/"))))
-        _nameless = (not tr.find("a", href=re.compile(r"/player/"))) or (len(cells) > 1 and not cells[1].strip())
+        _txt = [cells[1] if len(cells) > 1 else ""] + [x.get_text(" ", strip=True) for x in tr.find_all(["th", "a"])]
+        _named = any(norm(re.sub(r"\([^)]*\)", "", t_)) in known_sk or norm(re.sub(r"\([^)]*\)", "", t_)) in known_g for t_ in _txt)
+        _nameless = not _named and not tr.find("a", href=re.compile(r"/player/")) and not tr.find("th", string=re.compile(r"\w"))
         if cur_multi and len(cells) >= tail + 2 and _nameless:
             try:
                 _t, _l, _v = cells[-(tail + 2)], cells[-(tail + 1)], cells[-tail:]
-                if _t and _l and _t.lower() != "totals":
+                if _t and _l and "totals" not in (_t.lower(), _l.lower()):
                     if is_goalie:
                         _sv = _v[2].strip(); _sv = _sv[1:] if _sv.startswith("0.") else _sv
                         _sp = {"team": _t, "lg": _l, "gp": to_int(_v[0]), "gaa": to_float(_v[1]), "svp": _sv, "so": to_int(_v[3]), "rec": _v[4].replace(" ", "")}
@@ -116,7 +118,7 @@ for table in soup.find_all("table"):
         if key is None: continue
         team, lg = cells[-(tail + 2)], cells[-(tail + 1)]
         v = cells[-tail:]
-        if team.strip().lower() == "totals":
+        if "totals" in (team.strip().lower(), lg.strip().lower()):
             cur_multi = (key, "goalies" if is_goalie else "skaters"); totals_seen.add(cur_multi)
             print("totals row for", cells[:3], "- reading the team rows below it")
         try:
@@ -148,6 +150,7 @@ for table in soup.find_all("table"):
 
 # players with two or more teams this season (traded / loaned): keep each team's line and show the CURRENT team (the last row)
 for (_k, _grp), _rows in multi_rows.items():
+    _rows = [x for x in _rows if x.get("gp", 0) > 0]   # a team with 0 games (e.g. a listed-only KHL club) is not a split
     _who = (known_g if _grp == "goalies" else known_sk).get(_k)
     if _who and len(_rows) >= 2:
         _rec = data[_grp][_who]
@@ -156,7 +159,8 @@ for (_k, _grp), _rows in multi_rows.items():
         setv(_rec, _who, "lg", _rows[-1]["lg"])
 for _grp in ("skaters", "goalies"):
     for _who, _rec in data[_grp].items():
-        if "splits" in _rec and (norm(_who), _grp) not in multi_rows and (norm(_who), _grp) not in totals_seen:
+        _real = [x for x in multi_rows.get((norm(_who), _grp), []) if x.get("gp", 0) > 0]
+        if "splits" in _rec and len(_real) < 2 and (norm(_who), _grp) not in totals_seen:
             changed.append((_who, "splits", "removed", None)); del _rec["splits"]
 
 missing = [n for k, n in {**known_sk, **known_g}.items() if k not in seen]

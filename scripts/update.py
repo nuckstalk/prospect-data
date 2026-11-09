@@ -69,6 +69,7 @@ known_sk = {norm(n): n for n in data["skaters"]}
 known_g = {norm(n): n for n in data["goalies"]}
 seen, changed = set(), []
 multi_rows = {}
+totals_seen = set()
 
 def setv(rec, who, k, v):
     if rec.get(k) != v:
@@ -85,7 +86,10 @@ for table in soup.find_all("table"):
     cur_multi = None   # player on a "totals" row: the nameless rows right below it are his per-team lines
     for tr in table.find_all("tr"):
         cells = [td.get_text(" ", strip=True) for td in tr.find_all("td")]
-        if cur_multi and len(cells) >= tail + 2 and not tr.find("a", href=re.compile(r"/player/")):
+        if cur_multi:
+            print("  row after totals:", cells, "| player link:", bool(tr.find("a", href=re.compile(r"/player/"))))
+        _nameless = (not tr.find("a", href=re.compile(r"/player/"))) or (len(cells) > 1 and not cells[1].strip())
+        if cur_multi and len(cells) >= tail + 2 and _nameless:
             try:
                 _t, _l, _v = cells[-(tail + 2)], cells[-(tail + 1)], cells[-tail:]
                 if _t and _l and _t.lower() != "totals":
@@ -112,7 +116,9 @@ for table in soup.find_all("table"):
         if key is None: continue
         team, lg = cells[-(tail + 2)], cells[-(tail + 1)]
         v = cells[-tail:]
-        if team.strip().lower() == "totals": cur_multi = (key, "goalies" if is_goalie else "skaters")
+        if team.strip().lower() == "totals":
+            cur_multi = (key, "goalies" if is_goalie else "skaters"); totals_seen.add(cur_multi)
+            print("totals row for", cells[:3], "- reading the team rows below it")
         try:
             if is_goalie and key in known_g:
                 who = known_g[key]; rec = data["goalies"][who]
@@ -150,7 +156,7 @@ for (_k, _grp), _rows in multi_rows.items():
         setv(_rec, _who, "lg", _rows[-1]["lg"])
 for _grp in ("skaters", "goalies"):
     for _who, _rec in data[_grp].items():
-        if "splits" in _rec and (norm(_who), _grp) not in multi_rows:
+        if "splits" in _rec and (norm(_who), _grp) not in multi_rows and (norm(_who), _grp) not in totals_seen:
             changed.append((_who, "splits", "removed", None)); del _rec["splits"]
 
 missing = [n for k, n in {**known_sk, **known_g}.items() if k not in seen]

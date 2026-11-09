@@ -332,7 +332,29 @@
    "svp": ".894",
    "so": 0,
    "rec": "4-3-2",
-   "toi": 533.77
+   "toi": 533.77,
+   "splits": [
+    {
+     "team": "London Knights",
+     "lg": "OHL",
+     "gp": 8,
+     "gaa": 3.43,
+     "svp": ".891",
+     "so": 0,
+     "rec": "3-3-2",
+     "toi": 472.18
+    },
+    {
+     "team": "Peterborough Petes",
+     "lg": "OHL",
+     "gp": 1,
+     "gaa": 1.95,
+     "svp": ".926",
+     "so": 0,
+     "rec": "1-0-0",
+     "toi": 61.58
+    }
+   ]
   },
   "Ty Young": {
    "team": "Abbotsford Canucks",

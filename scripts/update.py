@@ -164,7 +164,7 @@ for (_k, _grp), _rows in multi_rows.items():
 for _grp in ("skaters", "goalies"):
     for _who, _rec in data[_grp].items():
         _real = [x for x in multi_rows.get((norm(_who), _grp), []) if x.get("gp", 0) > 0]
-        if "splits" in _rec and len(_real) < 2 and (norm(_who), _grp) not in totals_seen:
+        if "splits" in _rec and len(_real) < 2 and (norm(_who), _grp) not in totals_seen and not any(x.get("keep") for x in _rec["splits"]):
             changed.append((_who, "splits", "removed", None)); del _rec["splits"]
 
 missing = [n for k, n in {**known_sk, **known_g}.items() if k not in seen]

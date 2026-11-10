@@ -4186,7 +4186,7 @@
    "diff": 2,
    "l10": "6-3-1",
    "strk": "0-1-1-0",
-   "lseq": 10,
+   "lseq": 11,
    "cseq": 5,
    "dseq": 3
   },
@@ -4206,7 +4206,7 @@
    "diff": 3,
    "l10": "4-3-3",
    "strk": "1-0-2-0",
-   "lseq": 11,
+   "lseq": 12,
    "cseq": 6,
    "dseq": 3
   },
@@ -4249,6 +4249,26 @@
    "lseq": 1,
    "cseq": 1,
    "dseq": 1
+  },
+  {
+   "abbr": "MIL",
+   "name": "Milwaukee Admirals",
+   "nick": "Admirals",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 13,
+   "w": 8,
+   "l": 5,
+   "otl": 0,
+   "pts": 16,
+   "gf": 33,
+   "ga": 28,
+   "diff": 5,
+   "l10": "6-4-0",
+   "strk": "1-0-0-0",
+   "lseq": 10,
+   "cseq": 6,
+   "dseq": 3
   },
   {
    "abbr": "COL",
@@ -4356,19 +4376,19 @@
    "nick": "Wild",
    "div": "Central",
    "conf": "Western",
-   "gp": 15,
+   "gp": 16,
    "w": 6,
-   "l": 6,
+   "l": 7,
    "otl": 3,
    "pts": 15,
    "gf": 42,
    "ga": 47,
    "diff": -5,
-   "l10": "3-5-2",
-   "strk": "3-0-1-0",
-   "lseq": 17,
-   "cseq": 8,
-   "dseq": 4
+   "l10": "3-6-1",
+   "strk": "0-1-0-0",
+   "lseq": 22,
+   "cseq": 12,
+   "dseq": 5
   },
   {
    "abbr": "CGY",
@@ -4386,29 +4406,9 @@
    "diff": 1,
    "l10": "4-6-0",
    "strk": "0-1-0-0",
-   "lseq": 18,
-   "cseq": 9,
+   "lseq": 17,
+   "cseq": 8,
    "dseq": 5
-  },
-  {
-   "abbr": "MIL",
-   "name": "Milwaukee Admirals",
-   "nick": "Admirals",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 12,
-   "w": 7,
-   "l": 5,
-   "otl": 0,
-   "pts": 14,
-   "gf": 33,
-   "ga": 28,
-   "diff": 5,
-   "l10": "5-5-0",
-   "strk": "0-2-0-0",
-   "lseq": 12,
-   "cseq": 6,
-   "dseq": 3
   },
   {
    "abbr": "CV",
@@ -4426,8 +4426,8 @@
    "diff": -8,
    "l10": "3-5-1-1",
    "strk": "0-1-1-0",
-   "lseq": 19,
-   "cseq": 10,
+   "lseq": 18,
+   "cseq": 9,
    "dseq": 6
   },
   {
@@ -4446,9 +4446,9 @@
    "diff": -10,
    "l10": "6-3-0-1",
    "strk": "1-0-0-0",
-   "lseq": 20,
-   "cseq": 11,
-   "dseq": 5
+   "lseq": 19,
+   "cseq": 10,
+   "dseq": 4
   },
   {
    "abbr": "ONT",
@@ -4486,8 +4486,8 @@
    "diff": -1,
    "l10": "4-4-2",
    "strk": "0-1-1-0",
-   "lseq": 21,
-   "cseq": 12,
+   "lseq": 20,
+   "cseq": 11,
    "dseq": 7
   },
   {
@@ -4526,7 +4526,7 @@
    "diff": -4,
    "l10": "4-4-2",
    "strk": "0-1-1-0",
-   "lseq": 22,
+   "lseq": 21,
    "cseq": 10,
    "dseq": 6
   },
@@ -4714,5 +4714,5 @@
   "home": true,
   "live": false
  },
- "updated": "2026-11-10T19:15:16Z"
+ "updated": "2026-11-10T19:30:18Z"
 }

@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-10T02:45:21Z",
+ "updated": "2026-11-10T05:15:22Z",
  "results": [
+  {
+   "opp": "Philadelphia Flyers",
+   "abbr": "PHI",
+   "home": true,
+   "date": "Nov 9",
+   "us": 1,
+   "them": 3,
+   "res": "L"
+  },
   {
    "opp": "Edmonton Oilers",
    "abbr": "EDM",
@@ -17,15 +26,6 @@
    "date": "Nov 5",
    "us": 2,
    "them": 6,
-   "res": "L"
-  },
-  {
-   "opp": "Anaheim Ducks",
-   "abbr": "ANA",
-   "home": true,
-   "date": "Nov 3",
-   "us": 4,
-   "them": 5,
    "res": "L"
   }
  ],

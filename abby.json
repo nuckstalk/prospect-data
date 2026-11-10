@@ -4131,6 +4131,26 @@
    "dseq": 2
   },
   {
+   "abbr": "HFD",
+   "name": "Hartford Wolf Pack",
+   "nick": "Wolf Pack",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 17,
+   "w": 8,
+   "l": 8,
+   "otl": 1,
+   "pts": 17,
+   "gf": 44,
+   "ga": 49,
+   "diff": -5,
+   "l10": "5-4-1",
+   "strk": "2-0-0-0",
+   "lseq": 16,
+   "cseq": 9,
+   "dseq": 4
+  },
+  {
    "abbr": "ABB",
    "name": "Abbotsford Canucks",
    "nick": "Canucks",
@@ -4331,26 +4351,6 @@
    "dseq": 4
   },
   {
-   "abbr": "HFD",
-   "name": "Hartford Wolf Pack",
-   "nick": "Wolf Pack",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 16,
-   "w": 7,
-   "l": 8,
-   "otl": 1,
-   "pts": 15,
-   "gf": 44,
-   "ga": 49,
-   "diff": -5,
-   "l10": "4-5-1",
-   "strk": "1-0-0-0",
-   "lseq": 22,
-   "cseq": 10,
-   "dseq": 4
-  },
-  {
    "abbr": "IA",
    "name": "Iowa Wild",
    "nick": "Wild",
@@ -4362,11 +4362,11 @@
    "otl": 3,
    "pts": 15,
    "gf": 41,
-   "ga": 45,
-   "diff": -4,
+   "ga": 46,
+   "diff": -5,
    "l10": "3-5-2",
    "strk": "3-0-1-0",
-   "lseq": 16,
+   "lseq": 17,
    "cseq": 8,
    "dseq": 4
   },
@@ -4386,7 +4386,7 @@
    "diff": 1,
    "l10": "4-6-0",
    "strk": "0-1-0-0",
-   "lseq": 17,
+   "lseq": 18,
    "cseq": 9,
    "dseq": 5
   },
@@ -4401,9 +4401,9 @@
    "l": 5,
    "otl": 0,
    "pts": 14,
-   "gf": 31,
+   "gf": 32,
    "ga": 27,
-   "diff": 4,
+   "diff": 5,
    "l10": "5-5-0",
    "strk": "0-2-0-0",
    "lseq": 12,
@@ -4426,7 +4426,7 @@
    "diff": -8,
    "l10": "3-5-1-1",
    "strk": "0-1-1-0",
-   "lseq": 18,
+   "lseq": 19,
    "cseq": 10,
    "dseq": 6
   },
@@ -4446,7 +4446,7 @@
    "diff": -10,
    "l10": "6-3-0-1",
    "strk": "1-0-0-0",
-   "lseq": 19,
+   "lseq": 20,
    "cseq": 11,
    "dseq": 5
   },
@@ -4486,7 +4486,7 @@
    "diff": -1,
    "l10": "4-4-2",
    "strk": "0-1-1-0",
-   "lseq": 20,
+   "lseq": 21,
    "cseq": 12,
    "dseq": 7
   },
@@ -4526,8 +4526,8 @@
    "diff": -4,
    "l10": "4-4-2",
    "strk": "0-1-1-0",
-   "lseq": 21,
-   "cseq": 9,
+   "lseq": 22,
+   "cseq": 10,
    "dseq": 6
   },
   {
@@ -4586,7 +4586,7 @@
    "diff": -10,
    "l10": "4-5-0-1",
    "strk": "0-1-0-0",
-   "lseq": 29,
+   "lseq": 28,
    "cseq": 15,
    "dseq": 6
   },
@@ -4606,9 +4606,9 @@
    "diff": -18,
    "l10": "5-5-0",
    "strk": "0-2-0-0",
-   "lseq": 28,
-   "cseq": 14,
-   "dseq": 7
+   "lseq": 27,
+   "cseq": 13,
+   "dseq": 6
   },
   {
    "abbr": "SPR",
@@ -4616,19 +4616,19 @@
    "nick": "Thunderbirds",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 12,
+   "gp": 13,
    "w": 4,
-   "l": 5,
+   "l": 6,
    "otl": 3,
    "pts": 11,
    "gf": 32,
    "ga": 46,
    "diff": -14,
    "l10": "2-5-2-1",
-   "strk": "0-1-0-0",
-   "lseq": 27,
-   "cseq": 13,
-   "dseq": 6
+   "strk": "0-2-0-0",
+   "lseq": 29,
+   "cseq": 14,
+   "dseq": 7
   },
   {
    "abbr": "HAM",
@@ -4714,5 +4714,5 @@
   "home": true,
   "live": false
  },
- "updated": "2026-11-10T18:30:21Z"
+ "updated": "2026-11-10T18:45:17Z"
 }

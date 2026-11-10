@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T05:45:17Z",
+ "updated": "2026-11-10T02:45:21Z",
  "results": [
   {
    "opp": "Edmonton Oilers",
@@ -31,14 +31,6 @@
  ],
  "upcoming": [
   {
-   "opp": "Philadelphia Flyers",
-   "abbr": "PHI",
-   "home": true,
-   "date": "Mon Nov 9",
-   "time": "7:30 PM PT",
-   "utc": "2026-11-10T02:30:00Z"
-  },
-  {
    "opp": "New York Rangers",
    "abbr": "NYR",
    "home": true,
@@ -53,6 +45,14 @@
    "date": "Sun Nov 15",
    "time": "7:00 PM PT",
    "utc": "2026-11-16T02:00:00Z"
+  },
+  {
+   "opp": "Utah Mammoth",
+   "abbr": "UTA",
+   "home": false,
+   "date": "Mon Nov 16",
+   "time": "7:30 PM PT",
+   "utc": "2026-11-17T02:30:00Z"
   }
  ]
 }

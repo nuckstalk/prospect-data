@@ -120,7 +120,7 @@
    "tp": 11,
    "ppg": 0.8461538461538461,
    "pim": 2,
-   "pm": 1
+   "pm": 2
   },
   "Gabriel Chiarot": {
    "ep": 11,
@@ -1133,9 +1133,5 @@
     }
    ]
   }
- ],
- "status": {
-  "msg": "FETCH FAILED: urllib: HTTP Error 403: Forbidden; chrome: HTTP 403; safari: HTTP 403; edge: HTTP 403",
-  "at": "2026-11-11T15:00Z"
- }
+ ]
 }

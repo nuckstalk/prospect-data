@@ -6537,6 +6537,26 @@
    "lseq": 11
   },
   {
+   "abbr": "FLA",
+   "name": "Florida Panthers",
+   "nick": "Panthers",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 19,
+   "w": 10,
+   "l": 7,
+   "otl": 2,
+   "pts": 22,
+   "gf": 60,
+   "ga": 56,
+   "diff": 4,
+   "l10": "5-5-0",
+   "strk": "W1",
+   "dseq": 5,
+   "cseq": 7,
+   "lseq": 12
+  },
+  {
    "abbr": "NSH",
    "name": "Nashville Predators",
    "nick": "Predators",
@@ -6554,7 +6574,7 @@
    "strk": "W4",
    "dseq": 4,
    "cseq": 6,
-   "lseq": 12
+   "lseq": 13
   },
   {
    "abbr": "ANA",
@@ -6574,7 +6594,7 @@
    "strk": "W5",
    "dseq": 3,
    "cseq": 7,
-   "lseq": 13
+   "lseq": 14
   },
   {
    "abbr": "UTA",
@@ -6594,7 +6614,7 @@
    "strk": "L1",
    "dseq": 5,
    "cseq": 8,
-   "lseq": 14
+   "lseq": 15
   },
   {
    "abbr": "NYR",
@@ -6613,8 +6633,8 @@
    "l10": "4-5-1",
    "strk": "L1",
    "dseq": 3,
-   "cseq": 7,
-   "lseq": 15
+   "cseq": 8,
+   "lseq": 16
   },
   {
    "abbr": "WSH",
@@ -6633,26 +6653,6 @@
    "l10": "7-3-0",
    "strk": "W2",
    "dseq": 4,
-   "cseq": 8,
-   "lseq": 16
-  },
-  {
-   "abbr": "FLA",
-   "name": "Florida Panthers",
-   "nick": "Panthers",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 18,
-   "w": 9,
-   "l": 7,
-   "otl": 2,
-   "pts": 20,
-   "gf": 56,
-   "ga": 55,
-   "diff": 1,
-   "l10": "5-5-0",
-   "strk": "L2",
-   "dseq": 5,
    "cseq": 9,
    "lseq": 17
   },
@@ -6862,16 +6862,16 @@
    "nick": "Blue Jackets",
    "div": "Metropolitan",
    "conf": "Eastern",
-   "gp": 15,
+   "gp": 16,
    "w": 7,
-   "l": 8,
+   "l": 9,
    "otl": 0,
    "pts": 14,
-   "gf": 40,
-   "ga": 47,
-   "diff": -7,
-   "l10": "5-5-0",
-   "strk": "L1",
+   "gf": 41,
+   "ga": 51,
+   "diff": -10,
+   "l10": "4-6-0",
+   "strk": "L2",
    "dseq": 7,
    "cseq": 15,
    "lseq": 28
@@ -6991,5 +6991,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-11T03:15:19Z"
+ "updated": "2026-11-11T03:30:15Z"
 }

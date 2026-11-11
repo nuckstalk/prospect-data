@@ -575,6 +575,7 @@ except Exception as e:
 
 # ---- Abbotsford's next game (used by the Prospect Portal "next game") ----
 nxt = None
+sched = []
 try:
     from zoneinfo import ZoneInfo
     sch = ((ht({"feed": "modulekit", "view": "schedule", "season_id": sid, "team_id": tid}) or {}).get("SiteKit") or {}).get("Schedule") or []
@@ -601,12 +602,20 @@ try:
         ish = str(r.get("home_team", "")) == tid or "abbotsford" in _tn(r, "home").lower()
         nxt = {"iso": pt.isoformat(), "date": pt.strftime("%a %b ") + str(pt.day), "time": pt.strftime("%-I:%M %p") + " PT",
                "opp": _tn(r, "visiting" if ish else "home"), "home": ish, "live": str(r.get("started", "0")) == "1"}
-    print("Abbotsford next game:", nxt)
+    sched = []
+    for dt, r in cand:
+        if dt > NOW + datetime.timedelta(days=7): break
+        pt = dt.astimezone(ZoneInfo("America/Vancouver"))
+        ish = str(r.get("home_team", "")) == tid or "abbotsford" in _tn(r, "home").lower()
+        sched.append({"iso": pt.isoformat(), "date": pt.strftime("%a %b ") + str(pt.day), "time": pt.strftime("%-I:%M %p") + " PT",
+                      "opp": _tn(r, "visiting" if ish else "home"), "home": ish, "live": str(r.get("started", "0")) == "1"})
+    print("Abbotsford next game:", nxt, "| games in the next 7 days:", len(sched))
 except Exception as e:
     print("next game skipped:", str(e)[:150])
 
 data = {"season": str(season.get("season_name", sid)), "skaters": skaters, "goalies": goalies, "standings": standings, "team": team, "live": live}
 if nxt: data["next"] = nxt
+if sched: data["sched"] = sched
 if CDBG and not any(p.get("career") for p in skaters + goalies): data["career_debug"] = CDBG
 try:
     old = json.load(open("abby.json", encoding="utf-8"))

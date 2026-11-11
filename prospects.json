@@ -42,13 +42,13 @@
    "ep": 4,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 8,
+   "gp": 9,
    "g": 3,
    "a": 4,
    "tp": 7,
-   "ppg": 0.875,
+   "ppg": 0.7777777777777778,
    "pim": 0,
-   "pm": -1
+   "pm": 0
   },
   "Connor Davis": {
    "ep": 5,
@@ -185,25 +185,25 @@
    "ep": 16,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 11,
+   "gp": 12,
    "g": 1,
    "a": 6,
    "tp": 7,
-   "ppg": 0.6363636363636364,
-   "pim": 16,
-   "pm": 1
+   "ppg": 0.5833333333333334,
+   "pim": 18,
+   "pm": -1
   },
   "Kirill Kudryavtsev": {
    "ep": 17,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 7,
+   "gp": 8,
    "g": 0,
-   "a": 6,
-   "tp": 6,
-   "ppg": 0.8571428571428571,
+   "a": 7,
+   "tp": 7,
+   "ppg": 0.875,
    "pim": 6,
-   "pm": 0
+   "pm": 2
   },
   "Matthew Lansing": {
    "ep": 18,
@@ -245,11 +245,11 @@
    "ep": 21,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 12,
+   "gp": 13,
    "g": 3,
-   "a": 1,
-   "tp": 4,
-   "ppg": 0.3333333333333333,
+   "a": 2,
+   "tp": 5,
+   "ppg": 0.38461538461538464,
    "pim": 27,
    "pm": -3
   },
@@ -293,13 +293,13 @@
    "ep": 26,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 10,
+   "gp": 11,
    "g": 0,
    "a": 5,
    "tp": 5,
-   "ppg": 0.5,
+   "ppg": 0.45454545454545453,
    "pim": 6,
-   "pm": 5
+   "pm": 4
   },
   "Basile Sansonnens": {
    "ep": 27,
@@ -407,6 +407,71 @@
      "sg": 1,
      "sa": 3,
      "stp": 4
+    },
+    {
+     "k": "S",
+     "name": "Braeden Cootes",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 9,
+     "sg": 3,
+     "sa": 4,
+     "stp": 7
+    },
+    {
+     "k": "S",
+     "name": "Sawyer Mynio",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 12,
+     "sg": 1,
+     "sa": 6,
+     "stp": 7
+    },
+    {
+     "k": "S",
+     "name": "Kirill Kudryavtsev",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 8,
+     "sg": 0,
+     "sa": 7,
+     "stp": 7
+    },
+    {
+     "k": "S",
+     "name": "Vilmer Alriksson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 13,
+     "sg": 3,
+     "sa": 2,
+     "stp": 5
+    },
+    {
+     "k": "S",
+     "name": "Anri Ravinskis",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 11,
+     "sg": 0,
+     "sa": 5,
+     "stp": 5
     }
    ]
   },
@@ -1042,9 +1107,5 @@
     }
    ]
   }
- ],
- "status": {
-  "msg": "FETCH FAILED: urllib: HTTP Error 403: Forbidden; chrome: HTTP 403; safari: HTTP 403; edge: HTTP 403",
-  "at": "2026-11-11T04:45Z"
- }
+ ]
 }

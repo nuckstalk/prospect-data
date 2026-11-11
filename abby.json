@@ -4962,5 +4962,31 @@
   "home": true,
   "live": false
  },
- "updated": "2026-11-11T05:15:16Z"
+ "sched": [
+  {
+   "iso": "2026-11-11T17:00:00-07:00",
+   "date": "Wed Nov 11",
+   "time": "5:00 PM PT",
+   "opp": "Colorado Eagles",
+   "home": true,
+   "live": false
+  },
+  {
+   "iso": "2026-11-14T19:00:00-07:00",
+   "date": "Sat Nov 14",
+   "time": "7:00 PM PT",
+   "opp": "Ontario Reign",
+   "home": false,
+   "live": false
+  },
+  {
+   "iso": "2026-11-15T16:00:00-07:00",
+   "date": "Sun Nov 15",
+   "time": "4:00 PM PT",
+   "opp": "Coachella Valley Firebirds",
+   "home": false,
+   "live": false
+  }
+ ],
+ "updated": "2026-11-11T05:16:34Z"
 }

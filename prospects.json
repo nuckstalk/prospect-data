@@ -6,11 +6,11 @@
    "ep": 1,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 12,
+   "gp": 13,
    "g": 4,
    "a": 5,
    "tp": 9,
-   "ppg": 0.75,
+   "ppg": 0.6923076923076923,
    "pim": 4,
    "pm": 7
   },
@@ -114,11 +114,11 @@
    "ep": 10,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 12,
+   "gp": 13,
    "g": 7,
    "a": 4,
    "tp": 11,
-   "ppg": 0.9166666666666666,
+   "ppg": 0.8461538461538461,
    "pim": 2,
    "pm": 1
   },
@@ -472,6 +472,32 @@
      "sg": 0,
      "sa": 5,
      "stp": 5
+    },
+    {
+     "k": "S",
+     "name": "Riley Patterson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 13,
+     "sg": 4,
+     "sa": 5,
+     "stp": 9
+    },
+    {
+     "k": "S",
+     "name": "Ty Mueller",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 13,
+     "sg": 7,
+     "sa": 4,
+     "stp": 11
     }
    ]
   },

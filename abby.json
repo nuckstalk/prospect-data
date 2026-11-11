@@ -4120,9 +4120,9 @@
     [
      "2026-11-10",
      "",
-     3,
+     8,
      1,
-     369,
+     981,
      0,
      1
     ],
@@ -4379,6 +4379,26 @@
    "dseq": 2
   },
   {
+   "abbr": "UTC",
+   "name": "Utica Comets",
+   "nick": "Comets",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 11,
+   "w": 9,
+   "l": 2,
+   "otl": 0,
+   "pts": 18,
+   "gf": 35,
+   "ga": 24,
+   "diff": 11,
+   "l10": "8-2-0",
+   "strk": "5-0-0-0",
+   "lseq": 1,
+   "cseq": 1,
+   "dseq": 1
+  },
+  {
    "abbr": "HFD",
    "name": "Hartford Wolf Pack",
    "nick": "Wolf Pack",
@@ -4434,9 +4454,9 @@
    "diff": 4,
    "l10": "6-3-1",
    "strk": "0-1-1-0",
-   "lseq": 11,
-   "cseq": 5,
-   "dseq": 3
+   "lseq": 10,
+   "cseq": 4,
+   "dseq": 2
   },
   {
    "abbr": "TOR",
@@ -4454,8 +4474,8 @@
    "diff": 3,
    "l10": "4-3-3",
    "strk": "1-0-2-0",
-   "lseq": 12,
-   "cseq": 6,
+   "lseq": 11,
+   "cseq": 5,
    "dseq": 3
   },
   {
@@ -4474,28 +4494,8 @@
    "diff": 4,
    "l10": "6-4-0",
    "strk": "1-0-0-0",
-   "lseq": 9,
-   "cseq": 4,
-   "dseq": 2
-  },
-  {
-   "abbr": "UTC",
-   "name": "Utica Comets",
-   "nick": "Comets",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 10,
-   "w": 8,
-   "l": 2,
-   "otl": 0,
-   "pts": 16,
-   "gf": 35,
-   "ga": 24,
-   "diff": 11,
-   "l10": "8-2-0",
-   "strk": "4-0-0-0",
-   "lseq": 1,
-   "cseq": 1,
+   "lseq": 8,
+   "cseq": 3,
    "dseq": 1
   },
   {
@@ -4514,7 +4514,7 @@
    "diff": 5,
    "l10": "6-4-0",
    "strk": "1-0-0-0",
-   "lseq": 10,
+   "lseq": 9,
    "cseq": 6,
    "dseq": 3
   },
@@ -4579,26 +4579,6 @@
    "dseq": 3
   },
   {
-   "abbr": "WBS",
-   "name": "Wilkes-Barre/Scranton Penguins",
-   "nick": "Penguins",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 12,
-   "w": 7,
-   "l": 4,
-   "otl": 1,
-   "pts": 15,
-   "gf": 47,
-   "ga": 37,
-   "diff": 10,
-   "l10": "7-3-0",
-   "strk": "3-0-0-0",
-   "lseq": 8,
-   "cseq": 3,
-   "dseq": 1
-  },
-  {
    "abbr": "ROC",
    "name": "Rochester Americans",
    "nick": "Americans",
@@ -4614,9 +4594,29 @@
    "diff": 10,
    "l10": "5-5-0",
    "strk": "0-1-0-0",
+   "lseq": 12,
+   "cseq": 6,
+   "dseq": 4
+  },
+  {
+   "abbr": "WBS",
+   "name": "Wilkes-Barre/Scranton Penguins",
+   "nick": "Penguins",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 13,
+   "w": 7,
+   "l": 5,
+   "otl": 1,
+   "pts": 15,
+   "gf": 47,
+   "ga": 37,
+   "diff": 10,
+   "l10": "6-4-0",
+   "strk": "0-1-0-0",
    "lseq": 13,
    "cseq": 7,
-   "dseq": 4
+   "dseq": 3
   },
   {
    "abbr": "IA",
@@ -4962,5 +4962,5 @@
   "home": true,
   "live": true
  },
- "updated": "2026-11-11T02:15:16Z"
+ "updated": "2026-11-11T02:30:17Z"
 }

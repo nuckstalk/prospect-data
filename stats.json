@@ -6517,6 +6517,26 @@
    "lseq": 10
   },
   {
+   "abbr": "NSH",
+   "name": "Nashville Predators",
+   "nick": "Predators",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 18,
+   "w": 9,
+   "l": 4,
+   "otl": 5,
+   "pts": 23,
+   "gf": 55,
+   "ga": 51,
+   "diff": 4,
+   "l10": "6-2-2",
+   "strk": "W5",
+   "dseq": 3,
+   "cseq": 5,
+   "lseq": 11
+  },
+  {
    "abbr": "DAL",
    "name": "Dallas Stars",
    "nick": "Stars",
@@ -6532,9 +6552,9 @@
    "diff": 8,
    "l10": "7-2-1",
    "strk": "W1",
-   "dseq": 3,
-   "cseq": 5,
-   "lseq": 11
+   "dseq": 4,
+   "cseq": 6,
+   "lseq": 12
   },
   {
    "abbr": "FLA",
@@ -6554,26 +6574,6 @@
    "strk": "W1",
    "dseq": 5,
    "cseq": 7,
-   "lseq": 12
-  },
-  {
-   "abbr": "NSH",
-   "name": "Nashville Predators",
-   "nick": "Predators",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 17,
-   "w": 8,
-   "l": 4,
-   "otl": 5,
-   "pts": 21,
-   "gf": 52,
-   "ga": 51,
-   "diff": 1,
-   "l10": "6-2-2",
-   "strk": "W4",
-   "dseq": 4,
-   "cseq": 6,
    "lseq": 13
   },
   {
@@ -6902,16 +6902,16 @@
    "nick": "Kings",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 15,
+   "gp": 16,
    "w": 5,
-   "l": 8,
+   "l": 9,
    "otl": 2,
    "pts": 12,
    "gf": 45,
-   "ga": 52,
-   "diff": -7,
+   "ga": 55,
+   "diff": -10,
    "l10": "5-5-0",
-   "strk": "L1",
+   "strk": "L2",
    "dseq": 7,
    "cseq": 14,
    "lseq": 30
@@ -6991,5 +6991,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-11T04:00:14Z"
+ "updated": "2026-11-11T06:00:16Z"
 }

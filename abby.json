@@ -4474,7 +4474,7 @@
    "diff": -5,
    "l10": "5-4-1",
    "strk": "2-0-0-0",
-   "lseq": 16,
+   "lseq": 17,
    "cseq": 9,
    "dseq": 4
   },
@@ -4517,6 +4517,26 @@
    "lseq": 9,
    "cseq": 4,
    "dseq": 2
+  },
+  {
+   "abbr": "CGY",
+   "name": "Calgary Wranglers",
+   "nick": "Wranglers",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 15,
+   "w": 8,
+   "l": 7,
+   "otl": 0,
+   "pts": 16,
+   "gf": 48,
+   "ga": 45,
+   "diff": 3,
+   "l10": "4-6-0",
+   "strk": "1-0-0-0",
+   "lseq": 16,
+   "cseq": 8,
+   "dseq": 5
   },
   {
    "abbr": "MIL",
@@ -4636,26 +4656,6 @@
    "strk": "0-1-0-0",
    "lseq": 22,
    "cseq": 12,
-   "dseq": 5
-  },
-  {
-   "abbr": "CGY",
-   "name": "Calgary Wranglers",
-   "nick": "Wranglers",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 14,
-   "w": 7,
-   "l": 7,
-   "otl": 0,
-   "pts": 14,
-   "gf": 48,
-   "ga": 45,
-   "diff": 3,
-   "l10": "4-6-0",
-   "strk": "0-1-0-0",
-   "lseq": 17,
-   "cseq": 8,
    "dseq": 5
   },
   {
@@ -4904,16 +4904,16 @@
    "nick": "Condors",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 11,
+   "gp": 12,
    "w": 4,
-   "l": 6,
+   "l": 7,
    "otl": 1,
    "pts": 9,
    "gf": 28,
    "ga": 35,
    "diff": -7,
-   "l10": "4-5-1",
-   "strk": "0-1-0-0",
+   "l10": "3-6-1",
+   "strk": "0-2-0-0",
    "lseq": 30,
    "cseq": 16,
    "dseq": 10
@@ -4988,5 +4988,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-11T05:16:34Z"
+ "updated": "2026-11-11T05:30:20Z"
 }

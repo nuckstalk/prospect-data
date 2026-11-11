@@ -1035,8 +1035,8 @@
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 23,
-   "shp": 13.0,
+   "sog": 24,
+   "shp": 12.5,
    "toi": null,
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/11363.jpg",
@@ -1223,7 +1223,7 @@
      1,
      1,
      0,
-     1,
+     2,
      0,
      0
     ],
@@ -1860,7 +1860,7 @@
      0,
      1,
      0,
-     1,
+     2,
      0,
      0
     ],
@@ -4122,7 +4122,7 @@
      "",
      9,
      2,
-     1200,
+     1294,
      0,
      1
     ],
@@ -4379,6 +4379,26 @@
    "dseq": 2
   },
   {
+   "abbr": "CLT",
+   "name": "Charlotte Checkers",
+   "nick": "Checkers",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 15,
+   "w": 9,
+   "l": 5,
+   "otl": 1,
+   "pts": 19,
+   "gf": 46,
+   "ga": 42,
+   "diff": 4,
+   "l10": "6-3-1",
+   "strk": "1-0-0-0",
+   "lseq": 8,
+   "cseq": 3,
+   "dseq": 1
+  },
+  {
    "abbr": "UTC",
    "name": "Utica Comets",
    "nick": "Comets",
@@ -4439,26 +4459,6 @@
    "dseq": 2
   },
   {
-   "abbr": "CLT",
-   "name": "Charlotte Checkers",
-   "nick": "Checkers",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 14,
-   "w": 8,
-   "l": 5,
-   "otl": 1,
-   "pts": 17,
-   "gf": 46,
-   "ga": 42,
-   "diff": 4,
-   "l10": "6-3-1",
-   "strk": "0-1-1-0",
-   "lseq": 10,
-   "cseq": 4,
-   "dseq": 2
-  },
-  {
    "abbr": "TOR",
    "name": "Toronto Marlies",
    "nick": "Marlies",
@@ -4494,9 +4494,9 @@
    "diff": 4,
    "l10": "6-4-0",
    "strk": "1-0-0-0",
-   "lseq": 8,
-   "cseq": 3,
-   "dseq": 1
+   "lseq": 9,
+   "cseq": 4,
+   "dseq": 2
   },
   {
    "abbr": "MIL",
@@ -4514,7 +4514,7 @@
    "diff": 5,
    "l10": "6-4-0",
    "strk": "1-0-0-0",
-   "lseq": 9,
+   "lseq": 10,
    "cseq": 6,
    "dseq": 3
   },
@@ -4649,9 +4649,9 @@
    "l": 7,
    "otl": 0,
    "pts": 14,
-   "gf": 44,
+   "gf": 45,
    "ga": 43,
-   "diff": 1,
+   "diff": 2,
    "l10": "4-6-0",
    "strk": "0-1-0-0",
    "lseq": 17,
@@ -4744,17 +4744,17 @@
    "nick": "Bruins",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 13,
+   "gp": 14,
    "w": 6,
-   "l": 7,
+   "l": 8,
    "otl": 0,
    "pts": 12,
    "gf": 47,
    "ga": 43,
    "diff": 4,
-   "l10": "6-4-0",
-   "strk": "0-1-0-0",
-   "lseq": 25,
+   "l10": "5-5-0",
+   "strk": "0-2-0-0",
+   "lseq": 26,
    "cseq": 12,
    "dseq": 5
   },
@@ -4794,7 +4794,7 @@
    "diff": -11,
    "l10": "5-5-0",
    "strk": "1-0-0-0",
-   "lseq": 26,
+   "lseq": 25,
    "cseq": 14,
    "dseq": 9
   },
@@ -4910,8 +4910,8 @@
    "otl": 1,
    "pts": 9,
    "gf": 26,
-   "ga": 31,
-   "diff": -5,
+   "ga": 32,
+   "diff": -6,
    "l10": "4-5-1",
    "strk": "0-1-0-0",
    "lseq": 30,
@@ -4942,7 +4942,7 @@
  "team": {
   "gf": {
    "v": 3.58,
-   "rank": 6
+   "rank": 5
   },
   "ga": {
    "v": 2.83,
@@ -4962,5 +4962,5 @@
   "home": true,
   "live": true
  },
- "updated": "2026-11-11T02:45:16Z"
+ "updated": "2026-11-11T03:00:18Z"
 }

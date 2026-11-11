@@ -159,9 +159,9 @@ def run_next():
         nx_all = {}
         nx_by = {}
         def n_add(nm, lg, when, home, away, ish, live):
-            """Every game in the next 15 days (for the Schedule tab)."""
+            """Every game in the next 7 days (for the Schedule tab)."""
             when = when.astimezone(PT)
-            if when < NOW - datetime.timedelta(hours=4) or when > NOW + datetime.timedelta(days=15): return
+            if when < NOW - datetime.timedelta(hours=4) or when > NOW + datetime.timedelta(days=7): return
             rec = {"lg": lg, "iso": when.isoformat(), "date": when.strftime("%a %b ") + str(when.day),
                    "time": when.strftime("%-I:%M %p") + " PT", "opp": away if ish else home, "home": ish, "live": live}
             lst = nx_all.setdefault(nm, [])
@@ -181,13 +181,16 @@ def run_next():
                 gl = []
                 if lg == "AHL":
                     try:
-                        _nx = json.load(open("abby.json", encoding="utf-8")).get("next")
+                        _ab2 = json.load(open("abby.json", encoding="utf-8"))
+                        _nx = _ab2.get("next")
+                        _sc = _ab2.get("sched") or ([_nx] if _nx else [])
                         if _nx:
                             for nm, tm in plist:
                                 if "abbotsford" in tm.lower():
                                     nx_res[nm] = dict(_nx, lg="AHL")
-                                    if not any(x.get("iso") == _nx.get("iso") for x in nx_all.setdefault(nm, [])): nx_all[nm].append(dict(_nx, lg="AHL"))
-                            print("next games: AHL from abby.json:", _nx.get("date"), _nx.get("opp"))
+                                    for _g in _sc:
+                                        if not any(x.get("iso") == _g.get("iso") for x in nx_all.setdefault(nm, [])): nx_all[nm].append(dict(_g, lg="AHL"))
+                            print("next games: AHL from abby.json:", _nx.get("date"), _nx.get("opp"), "| games:", len(_sc))
                     except Exception as e3: print("next games: abby.json next unavailable:", str(e3)[:80])
                     continue
                 try: gl = n_schedule(code, (key[0] if isinstance(key, list) else key), ref, [tm for _, tm in plist])
@@ -408,7 +411,7 @@ def run_next():
         except Exception: pass
 
         print("next games:", len(nx_res), "players with a scheduled game")
-        # schedule for the Schedule tab: every game in the next 15 days, per player
+        # schedule for the Schedule tab: every game in the next 7 days, per player
         try:
             for nm, lst in (json.load(open("next.json", encoding="utf-8")).get("sched") or {}).items():
                 if nm in nx_all: continue
@@ -416,7 +419,7 @@ def run_next():
                     if datetime.datetime.fromisoformat(g["iso"]) > NOW - datetime.timedelta(hours=4): nx_all.setdefault(nm, []).append(g)
         except Exception: pass
         for _l in nx_all.values(): _l.sort(key=lambda x: x["iso"])
-        print("next games: schedule for", len(nx_all), "players,", sum(len(v) for v in nx_all.values()), "games in 15 days")
+        print("next games: schedule for", len(nx_all), "players,", sum(len(v) for v in nx_all.values()), "games in 7 days")
         if nx_res:
             out = {"asof": NOW.strftime("%Y-%m-%dT%H:%M:%SZ"), "games": nx_res, "sched": nx_all}
             try:

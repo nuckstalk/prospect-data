@@ -4746,7 +4746,7 @@
    "diff": -5,
    "l10": "5-4-1",
    "strk": "2-0-0-0",
-   "lseq": 17,
+   "lseq": 18,
    "cseq": 9,
    "dseq": 4
   },
@@ -4806,9 +4806,9 @@
    "diff": 3,
    "l10": "4-6-0",
    "strk": "1-0-0-0",
-   "lseq": 15,
-   "cseq": 8,
-   "dseq": 5
+   "lseq": 16,
+   "cseq": 9,
+   "dseq": 6
   },
   {
    "abbr": "MIL",
@@ -4846,7 +4846,7 @@
    "diff": 0,
    "l10": "5-4-1",
    "strk": "0-1-0-0",
-   "lseq": 16,
+   "lseq": 17,
    "cseq": 8,
    "dseq": 5
   },
@@ -4911,6 +4911,26 @@
    "dseq": 2
   },
   {
+   "abbr": "SD",
+   "name": "San Diego Gulls",
+   "nick": "Gulls",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 14,
+   "w": 6,
+   "l": 5,
+   "otl": 3,
+   "pts": 15,
+   "gf": 35,
+   "ga": 33,
+   "diff": 2,
+   "l10": "4-4-2",
+   "strk": "1-0-1-0",
+   "lseq": 15,
+   "cseq": 8,
+   "dseq": 5
+  },
+  {
    "abbr": "IA",
    "name": "Iowa Wild",
    "nick": "Wild",
@@ -4966,9 +4986,9 @@
    "diff": -8,
    "l10": "3-5-1-1",
    "strk": "0-1-1-0",
-   "lseq": 18,
-   "cseq": 9,
-   "dseq": 6
+   "lseq": 19,
+   "cseq": 10,
+   "dseq": 7
   },
   {
    "abbr": "CHI",
@@ -4986,8 +5006,8 @@
    "diff": -10,
    "l10": "6-3-0-1",
    "strk": "1-0-0-0",
-   "lseq": 19,
-   "cseq": 10,
+   "lseq": 20,
+   "cseq": 11,
    "dseq": 4
   },
   {
@@ -5011,26 +5031,6 @@
    "dseq": 8
   },
   {
-   "abbr": "SD",
-   "name": "San Diego Gulls",
-   "nick": "Gulls",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 13,
-   "w": 5,
-   "l": 5,
-   "otl": 3,
-   "pts": 13,
-   "gf": 35,
-   "ga": 33,
-   "diff": 2,
-   "l10": "4-4-2",
-   "strk": "0-1-1-0",
-   "lseq": 20,
-   "cseq": 11,
-   "dseq": 7
-  },
-  {
    "abbr": "SYR",
    "name": "Syracuse Crunch",
    "nick": "Crunch",
@@ -5046,7 +5046,7 @@
    "diff": -9,
    "l10": "4-4-2",
    "strk": "0-2-1-0",
-   "lseq": 26,
+   "lseq": 25,
    "cseq": 12,
    "dseq": 7
   },
@@ -5076,17 +5076,17 @@
    "nick": "Barracuda",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 13,
+   "gp": 14,
    "w": 6,
-   "l": 7,
+   "l": 8,
    "otl": 0,
    "pts": 12,
    "gf": 38,
    "ga": 52,
    "diff": -14,
    "l10": "5-5-0",
-   "strk": "1-0-0-0",
-   "lseq": 25,
+   "strk": "0-1-0-0",
+   "lseq": 26,
    "cseq": 14,
    "dseq": 9
   },
@@ -5260,5 +5260,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-12T05:30:16Z"
+ "updated": "2026-11-12T05:45:16Z"
 }

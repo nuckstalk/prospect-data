@@ -15,8 +15,8 @@
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 27,
-   "shp": 25.9,
+   "sog": 29,
+   "shp": 24.1,
    "toi": null,
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/10089.jpg",
@@ -1117,7 +1117,7 @@
    "g": 1,
    "a": 7,
    "pts": 8,
-   "pm": 5,
+   "pm": 4,
    "pim": 18,
    "ppg": 0,
    "shg": 0,
@@ -2248,8 +2248,8 @@
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 28,
-   "shp": 10.7,
+   "sog": 29,
+   "shp": 10.3,
    "toi": null,
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/9674.jpg",
@@ -4027,7 +4027,7 @@
    "name": "Matthew Stienburg",
    "id": "9683",
    "pos": "RW",
-   "gp": 12,
+   "gp": 13,
    "g": 0,
    "a": 0,
    "pts": 0,
@@ -4037,7 +4037,7 @@
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 13,
+   "sog": 14,
    "shp": 0.0,
    "toi": null,
    "fo": null,
@@ -4047,7 +4047,7 @@
     [
      "2026-27",
      "Abbotsford Canucks",
-     12,
+     13,
      0,
      0,
      0
@@ -4312,17 +4312,17 @@
   {
    "name": "Nikita Tolopilo",
    "id": "9983",
-   "gp": 11,
+   "gp": 10,
    "gs": null,
    "w": 7,
    "l": 1,
    "otl": 2,
-   "gaa": 2.35,
-   "svp": ".898",
+   "gaa": 2.28,
+   "svp": ".905",
    "so": 0,
-   "sa": 256,
-   "sv": 230,
-   "ga": 26,
+   "sa": 241,
+   "sv": 218,
+   "ga": 23,
    "img": "https://assets.leaguestat.com/ahl/240x240/9983.jpg",
    "bd": "2000-04-06",
    "career": [
@@ -4330,14 +4330,14 @@
      "2026-27",
      "Abbotsford Canucks",
      10,
-     6,
+     7,
      1,
      4,
      2.28,
      ".905",
      23,
      241,
-     605.0
+     606.0
     ],
     [
      "2025-26",
@@ -4671,26 +4671,6 @@
    "dseq": 1
   },
   {
-   "abbr": "CLT",
-   "name": "Charlotte Checkers",
-   "nick": "Checkers",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 15,
-   "w": 9,
-   "l": 5,
-   "otl": 1,
-   "pts": 19,
-   "gf": 48,
-   "ga": 46,
-   "diff": 2,
-   "l10": "6-3-1",
-   "strk": "1-0-0-0",
-   "lseq": 8,
-   "cseq": 3,
-   "dseq": 1
-  },
-  {
    "abbr": "ABB",
    "name": "Abbotsford Canucks",
    "nick": "Canucks",
@@ -4704,11 +4684,31 @@
    "gf": 49,
    "ga": 39,
    "diff": 10,
-   "l10": "9-1-0-1",
+   "l10": "8-1-0-1",
    "strk": "1-0-0-0",
    "lseq": 6,
    "cseq": 4,
    "dseq": 2
+  },
+  {
+   "abbr": "CLT",
+   "name": "Charlotte Checkers",
+   "nick": "Checkers",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 16,
+   "w": 9,
+   "l": 6,
+   "otl": 1,
+   "pts": 19,
+   "gf": 48,
+   "ga": 46,
+   "diff": 2,
+   "l10": "5-4-1",
+   "strk": "0-1-0-0",
+   "lseq": 10,
+   "cseq": 4,
+   "dseq": 1
   },
   {
    "abbr": "COL",
@@ -4716,17 +4716,17 @@
    "nick": "Eagles",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 15,
+   "gp": 16,
    "w": 8,
-   "l": 5,
+   "l": 6,
    "otl": 2,
    "pts": 18,
    "gf": 47,
    "ga": 42,
    "diff": 5,
-   "l10": "4-4-1-1",
-   "strk": "2-0-0-0",
-   "lseq": 11,
+   "l10": "4-5-0-1",
+   "strk": "0-1-0-0",
+   "lseq": 14,
    "cseq": 7,
    "dseq": 4
   },
@@ -4766,8 +4766,8 @@
    "diff": 3,
    "l10": "4-3-3",
    "strk": "1-0-2-0",
-   "lseq": 10,
-   "cseq": 4,
+   "lseq": 9,
+   "cseq": 3,
    "dseq": 3
   },
   {
@@ -4786,7 +4786,7 @@
    "diff": 1,
    "l10": "5-5-0",
    "strk": "0-1-0-0",
-   "lseq": 14,
+   "lseq": 13,
    "cseq": 7,
    "dseq": 3
   },
@@ -4826,7 +4826,7 @@
    "diff": 5,
    "l10": "6-4-0",
    "strk": "1-0-0-0",
-   "lseq": 9,
+   "lseq": 8,
    "cseq": 6,
    "dseq": 3
   },
@@ -4886,7 +4886,7 @@
    "diff": 10,
    "l10": "5-5-0",
    "strk": "0-1-0-0",
-   "lseq": 12,
+   "lseq": 11,
    "cseq": 5,
    "dseq": 4
   },
@@ -4906,7 +4906,7 @@
    "diff": 10,
    "l10": "6-4-0",
    "strk": "0-1-0-0",
-   "lseq": 13,
+   "lseq": 12,
    "cseq": 6,
    "dseq": 2
   },
@@ -4928,6 +4928,26 @@
    "strk": "0-1-0-0",
    "lseq": 21,
    "cseq": 12,
+   "dseq": 5
+  },
+  {
+   "abbr": "PRO",
+   "name": "Providence Bruins",
+   "nick": "Bruins",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 15,
+   "w": 7,
+   "l": 8,
+   "otl": 0,
+   "pts": 14,
+   "gf": 51,
+   "ga": 45,
+   "diff": 6,
+   "l10": "6-4-0",
+   "strk": "1-0-0-0",
+   "lseq": 22,
+   "cseq": 10,
    "dseq": 5
   },
   {
@@ -4986,7 +5006,7 @@
    "diff": -8,
    "l10": "3-6-1",
    "strk": "1-0-0-0",
-   "lseq": 22,
+   "lseq": 23,
    "cseq": 13,
    "dseq": 8
   },
@@ -5011,26 +5031,6 @@
    "dseq": 7
   },
   {
-   "abbr": "PRO",
-   "name": "Providence Bruins",
-   "nick": "Bruins",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 14,
-   "w": 6,
-   "l": 8,
-   "otl": 0,
-   "pts": 12,
-   "gf": 51,
-   "ga": 45,
-   "diff": 6,
-   "l10": "5-5-0",
-   "strk": "0-2-0-0",
-   "lseq": 26,
-   "cseq": 12,
-   "dseq": 5
-  },
-  {
    "abbr": "SYR",
    "name": "Syracuse Crunch",
    "nick": "Crunch",
@@ -5046,8 +5046,8 @@
    "diff": -9,
    "l10": "4-4-2",
    "strk": "0-2-1-0",
-   "lseq": 25,
-   "cseq": 11,
+   "lseq": 26,
+   "cseq": 12,
    "dseq": 7
   },
   {
@@ -5086,7 +5086,7 @@
    "diff": -11,
    "l10": "5-5-0",
    "strk": "1-0-0-0",
-   "lseq": 24,
+   "lseq": 25,
    "cseq": 14,
    "dseq": 9
   },
@@ -5106,8 +5106,8 @@
    "diff": -10,
    "l10": "4-6-0",
    "strk": "0-4-0-0",
-   "lseq": 23,
-   "cseq": 10,
+   "lseq": 24,
+   "cseq": 11,
    "dseq": 6
   },
   {
@@ -5214,11 +5214,11 @@
  "team": {
   "gf": {
    "v": 3.5,
-   "rank": 6
+   "rank": 5
   },
   "ga": {
    "v": 2.79,
-   "rank": 10
+   "rank": 11
   },
   "pt": {
    "v": 71.4,
@@ -5260,5 +5260,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-12T03:00:20Z"
+ "updated": "2026-11-12T03:10:00Z"
 }

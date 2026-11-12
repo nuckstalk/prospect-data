@@ -6377,6 +6377,26 @@
    "lseq": 3
   },
   {
+   "abbr": "VGK",
+   "name": "Vegas Golden Knights",
+   "nick": "Golden Knights",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 20,
+   "w": 13,
+   "l": 5,
+   "otl": 2,
+   "pts": 28,
+   "gf": 69,
+   "ga": 54,
+   "diff": 15,
+   "l10": "5-3-2",
+   "strk": "W4",
+   "dseq": 2,
+   "cseq": 3,
+   "lseq": 4
+  },
+  {
    "abbr": "BOS",
    "name": "Boston Bruins",
    "nick": "Bruins",
@@ -6394,7 +6414,7 @@
    "strk": "W4",
    "dseq": 1,
    "cseq": 2,
-   "lseq": 4
+   "lseq": 5
   },
   {
    "abbr": "TBL",
@@ -6414,7 +6434,7 @@
    "strk": "W1",
    "dseq": 2,
    "cseq": 3,
-   "lseq": 5
+   "lseq": 6
   },
   {
    "abbr": "MTL",
@@ -6434,26 +6454,6 @@
    "strk": "OT1",
    "dseq": 3,
    "cseq": 4,
-   "lseq": 6
-  },
-  {
-   "abbr": "VGK",
-   "name": "Vegas Golden Knights",
-   "nick": "Golden Knights",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 19,
-   "w": 12,
-   "l": 5,
-   "otl": 2,
-   "pts": 26,
-   "gf": 64,
-   "ga": 51,
-   "diff": 13,
-   "l10": "5-3-2",
-   "strk": "W3",
-   "dseq": 2,
-   "cseq": 3,
    "lseq": 7
   },
   {
@@ -6622,16 +6622,16 @@
    "nick": "Mammoth",
    "div": "Central",
    "conf": "Western",
-   "gp": 18,
+   "gp": 19,
    "w": 10,
-   "l": 7,
+   "l": 8,
    "otl": 1,
    "pts": 21,
-   "gf": 63,
-   "ga": 63,
-   "diff": 0,
+   "gf": 66,
+   "ga": 68,
+   "diff": -2,
    "l10": "4-5-1",
-   "strk": "L1",
+   "strk": "L2",
    "dseq": 5,
    "cseq": 8,
    "lseq": 16
@@ -6991,5 +6991,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-12T05:00:15Z"
+ "updated": "2026-11-12T05:30:15Z"
 }

@@ -6477,6 +6477,26 @@
    "lseq": 8
   },
   {
+   "abbr": "NSH",
+   "name": "Nashville Predators",
+   "nick": "Predators",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 19,
+   "w": 10,
+   "l": 4,
+   "otl": 5,
+   "pts": 25,
+   "gf": 59,
+   "ga": 53,
+   "diff": 6,
+   "l10": "7-1-2",
+   "strk": "W6",
+   "dseq": 2,
+   "cseq": 4,
+   "lseq": 9
+  },
+  {
    "abbr": "COL",
    "name": "Colorado Avalanche",
    "nick": "Avalanche",
@@ -6492,9 +6512,9 @@
    "diff": 19,
    "l10": "6-3-1",
    "strk": "W2",
-   "dseq": 2,
-   "cseq": 4,
-   "lseq": 9
+   "dseq": 3,
+   "cseq": 5,
+   "lseq": 10
   },
   {
    "abbr": "OTT",
@@ -6514,26 +6534,6 @@
    "strk": "OT1",
    "dseq": 4,
    "cseq": 6,
-   "lseq": 10
-  },
-  {
-   "abbr": "NSH",
-   "name": "Nashville Predators",
-   "nick": "Predators",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 18,
-   "w": 9,
-   "l": 4,
-   "otl": 5,
-   "pts": 23,
-   "gf": 55,
-   "ga": 51,
-   "diff": 4,
-   "l10": "6-2-2",
-   "strk": "W5",
-   "dseq": 3,
-   "cseq": 5,
    "lseq": 11
   },
   {
@@ -6602,16 +6602,16 @@
    "nick": "Ducks",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 18,
+   "gp": 19,
    "w": 10,
-   "l": 7,
+   "l": 8,
    "otl": 1,
    "pts": 21,
-   "gf": 69,
-   "ga": 66,
-   "diff": 3,
+   "gf": 71,
+   "ga": 70,
+   "diff": 1,
    "l10": "6-3-1",
-   "strk": "W5",
+   "strk": "L1",
    "dseq": 3,
    "cseq": 7,
    "lseq": 15
@@ -6991,5 +6991,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-12T05:30:15Z"
+ "updated": "2026-11-12T06:00:18Z"
 }

@@ -6,13 +6,13 @@
    "ep": 1,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 13,
-   "g": 4,
+   "gp": 14,
+   "g": 6,
    "a": 5,
-   "tp": 9,
-   "ppg": 0.6923076923076923,
+   "tp": 11,
+   "ppg": 0.7857142857142857,
    "pim": 4,
-   "pm": 7
+   "pm": 8
   },
   "Caleb Malhotra": {
    "ep": 2,
@@ -42,13 +42,13 @@
    "ep": 4,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 9,
+   "gp": 10,
    "g": 3,
    "a": 4,
    "tp": 7,
-   "ppg": 0.7777777777777778,
+   "ppg": 0.7,
    "pim": 0,
-   "pm": 0
+   "pm": -2
   },
   "Connor Davis": {
    "ep": 5,
@@ -114,13 +114,13 @@
    "ep": 10,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 13,
+   "gp": 14,
    "g": 7,
-   "a": 4,
-   "tp": 11,
-   "ppg": 0.8461538461538461,
+   "a": 5,
+   "tp": 12,
+   "ppg": 0.8571428571428571,
    "pim": 2,
-   "pm": 2
+   "pm": 3
   },
   "Gabriel Chiarot": {
    "ep": 11,
@@ -149,13 +149,13 @@
    "ep": 12,
    "team": "Owen Sound Attack",
    "lg": "OHL",
-   "gp": 15,
+   "gp": 16,
    "g": 4,
    "a": 8,
    "tp": 12,
-   "ppg": 0.8,
+   "ppg": 0.75,
    "pim": 10,
-   "pm": -6
+   "pm": -7
   },
   "Parker Alcos": {
    "ep": 13,
@@ -185,25 +185,25 @@
    "ep": 16,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 12,
+   "gp": 13,
    "g": 1,
-   "a": 6,
-   "tp": 7,
-   "ppg": 0.5833333333333334,
+   "a": 7,
+   "tp": 8,
+   "ppg": 0.6153846153846154,
    "pim": 18,
-   "pm": -1
+   "pm": -3
   },
   "Kirill Kudryavtsev": {
    "ep": 17,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 8,
+   "gp": 9,
    "g": 0,
    "a": 7,
    "tp": 7,
-   "ppg": 0.875,
+   "ppg": 0.7777777777777778,
    "pim": 6,
-   "pm": 2
+   "pm": 4
   },
   "Matthew Lansing": {
    "ep": 18,
@@ -245,13 +245,13 @@
    "ep": 21,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 13,
+   "gp": 14,
    "g": 3,
    "a": 2,
    "tp": 5,
-   "ppg": 0.38461538461538464,
+   "ppg": 0.35714285714285715,
    "pim": 27,
-   "pm": -3
+   "pm": -4
   },
   "Matthew Perkins": {
    "ep": 22,
@@ -293,12 +293,12 @@
    "ep": 26,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 11,
+   "gp": 12,
    "g": 0,
    "a": 5,
    "tp": 5,
-   "ppg": 0.45454545454545453,
-   "pim": 6,
+   "ppg": 0.4166666666666667,
+   "pim": 10,
    "pm": 4
   },
   "Basile Sansonnens": {
@@ -379,6 +379,115 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-11-11",
+   "items": [
+    {
+     "k": "S",
+     "name": "Riley Patterson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 2,
+     "da": 0,
+     "dtp": 2,
+     "sgp": 14,
+     "sg": 6,
+     "sa": 5,
+     "stp": 11
+    },
+    {
+     "k": "S",
+     "name": "Braeden Cootes",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 10,
+     "sg": 3,
+     "sa": 4,
+     "stp": 7
+    },
+    {
+     "k": "S",
+     "name": "Ty Mueller",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 14,
+     "sg": 7,
+     "sa": 5,
+     "stp": 12
+    },
+    {
+     "k": "S",
+     "name": "Lucian Bernat",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 16,
+     "sg": 4,
+     "sa": 8,
+     "stp": 12
+    },
+    {
+     "k": "S",
+     "name": "Sawyer Mynio",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 13,
+     "sg": 1,
+     "sa": 7,
+     "stp": 8
+    },
+    {
+     "k": "S",
+     "name": "Kirill Kudryavtsev",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 9,
+     "sg": 0,
+     "sa": 7,
+     "stp": 7
+    },
+    {
+     "k": "S",
+     "name": "Vilmer Alriksson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 14,
+     "sg": 3,
+     "sa": 2,
+     "stp": 5
+    },
+    {
+     "k": "S",
+     "name": "Anri Ravinskis",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 12,
+     "sg": 0,
+     "sa": 5,
+     "stp": 5
+    }
+   ]
+  },
   {
    "date": "2026-11-10",
    "items": [
@@ -1086,50 +1195,6 @@
      "sg": 4,
      "sa": 2,
      "stp": 6
-    }
-   ]
-  },
-  {
-   "date": "2026-11-01",
-   "items": [
-    {
-     "k": "S",
-     "name": "Adam Novotný",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 1,
-     "da": 1,
-     "dtp": 2,
-     "sgp": 15,
-     "sg": 9,
-     "sa": 12,
-     "stp": 21
-    },
-    {
-     "k": "S",
-     "name": "Brooks Rogowski",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 1,
-     "da": 1,
-     "dtp": 2,
-     "sgp": 15,
-     "sg": 2,
-     "sa": 12,
-     "stp": 14
-    },
-    {
-     "k": "S",
-     "name": "Kieren Dervin",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 2,
-     "sg": 0,
-     "sa": 0,
-     "stp": 0
     }
    ]
   }

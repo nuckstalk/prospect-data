@@ -4616,18 +4616,18 @@
    "nick": "Moose",
    "div": "Central",
    "conf": "Western",
-   "gp": 15,
+   "gp": 16,
    "w": 11,
-   "l": 4,
+   "l": 5,
    "otl": 0,
    "pts": 22,
    "gf": 57,
    "ga": 40,
    "diff": 17,
-   "l10": "7-3-0",
-   "strk": "4-0-0-0",
-   "lseq": 5,
-   "cseq": 3,
+   "l10": "6-4-0",
+   "strk": "0-1-0-0",
+   "lseq": 6,
+   "cseq": 4,
    "dseq": 2
   },
   {
@@ -4686,8 +4686,8 @@
    "diff": 10,
    "l10": "8-1-0-1",
    "strk": "1-0-0-0",
-   "lseq": 6,
-   "cseq": 4,
+   "lseq": 5,
+   "cseq": 3,
    "dseq": 2
   },
   {
@@ -5171,6 +5171,26 @@
    "dseq": 7
   },
   {
+   "abbr": "TEX",
+   "name": "Texas Stars",
+   "nick": "Stars",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 15,
+   "w": 4,
+   "l": 8,
+   "otl": 3,
+   "pts": 11,
+   "gf": 42,
+   "ga": 61,
+   "diff": -19,
+   "l10": "3-5-1-1",
+   "strk": "1-0-0-1",
+   "lseq": 32,
+   "cseq": 17,
+   "dseq": 7
+  },
+  {
    "abbr": "BAK",
    "name": "Bakersfield Condors",
    "nick": "Condors",
@@ -5189,26 +5209,6 @@
    "lseq": 31,
    "cseq": 16,
    "dseq": 10
-  },
-  {
-   "abbr": "TEX",
-   "name": "Texas Stars",
-   "nick": "Stars",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 14,
-   "w": 3,
-   "l": 8,
-   "otl": 3,
-   "pts": 9,
-   "gf": 42,
-   "ga": 61,
-   "diff": -19,
-   "l10": "2-6-1-1",
-   "strk": "0-1-0-1",
-   "lseq": 32,
-   "cseq": 17,
-   "dseq": 7
   }
  ],
  "team": {
@@ -5222,7 +5222,7 @@
   },
   "pt": {
    "v": 71.4,
-   "rank": 6
+   "rank": 5
   }
  },
  "live": false,
@@ -5260,5 +5260,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-12T03:45:19Z"
+ "updated": "2026-11-12T04:00:20Z"
 }

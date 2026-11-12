@@ -126,11 +126,11 @@
    "ep": 11,
    "team": "Kitchener Rangers",
    "lg": "OHL",
-   "gp": 2,
+   "gp": 3,
    "g": 0,
    "a": 1,
    "tp": 1,
-   "ppg": 0.5,
+   "ppg": 0.3333333333333333,
    "pim": 0,
    "pm": 2,
    "splits": [
@@ -140,8 +140,15 @@
      "gp": 2,
      "g": 0,
      "a": 1,
-     "tp": 1,
-     "keep": true
+     "tp": 1
+    },
+    {
+     "team": "Kitchener Rangers",
+     "lg": "OHL",
+     "gp": 1,
+     "g": 0,
+     "a": 0,
+     "tp": 0
     }
    ]
   },
@@ -379,6 +386,24 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-11-12",
+   "items": [
+    {
+     "k": "S",
+     "name": "Gabriel Chiarot",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 3,
+     "sg": 0,
+     "sa": 1,
+     "stp": 1
+    }
+   ]
+  },
   {
    "date": "2026-11-11",
    "items": [
@@ -1153,48 +1178,6 @@
      "sg": 10,
      "sa": 12,
      "stp": 22
-    }
-   ]
-  },
-  {
-   "date": "2026-11-04",
-   "items": [
-    {
-     "k": "S",
-     "name": "Lucian Bernat",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 1,
-     "da": 0,
-     "dtp": 1,
-     "sgp": 13,
-     "sg": 4,
-     "sa": 7,
-     "stp": 11
-    },
-    {
-     "k": "G",
-     "name": "Aku Koskenvuo",
-     "lg": "ECHL",
-     "dgp": 1,
-     "res": "L",
-     "gaa": 2.71,
-     "svp": ".932",
-     "sgp": 4,
-     "ga": 3
-    },
-    {
-     "k": "S",
-     "name": "Yaroslav Bryzgalov",
-     "lg": "WHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 13,
-     "sg": 4,
-     "sa": 2,
-     "stp": 6
     }
    ]
   }

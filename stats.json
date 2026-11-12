@@ -6317,6 +6317,26 @@
  ],
  "standings": [
   {
+   "abbr": "CAR",
+   "name": "Carolina Hurricanes",
+   "nick": "Hurricanes",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 20,
+   "w": 15,
+   "l": 3,
+   "otl": 2,
+   "pts": 32,
+   "gf": 82,
+   "ga": 46,
+   "diff": 36,
+   "l10": "8-1-1",
+   "strk": "W3",
+   "dseq": 1,
+   "cseq": 1,
+   "lseq": 1
+  },
+  {
    "abbr": "EDM",
    "name": "Edmonton Oilers",
    "nick": "Oilers",
@@ -6332,26 +6352,6 @@
    "diff": 23,
    "l10": "6-2-2",
    "strk": "W3",
-   "dseq": 1,
-   "cseq": 1,
-   "lseq": 1
-  },
-  {
-   "abbr": "CAR",
-   "name": "Carolina Hurricanes",
-   "nick": "Hurricanes",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 19,
-   "w": 14,
-   "l": 3,
-   "otl": 2,
-   "pts": 30,
-   "gf": 78,
-   "ga": 45,
-   "diff": 33,
-   "l10": "7-2-1",
-   "strk": "W2",
    "dseq": 1,
    "cseq": 1,
    "lseq": 2
@@ -6662,16 +6662,16 @@
    "nick": "Kraken",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 16,
+   "gp": 17,
    "w": 9,
-   "l": 6,
+   "l": 7,
    "otl": 1,
    "pts": 19,
-   "gf": 57,
-   "ga": 57,
-   "diff": 0,
-   "l10": "5-4-1",
-   "strk": "L1",
+   "gf": 58,
+   "ga": 61,
+   "diff": -3,
+   "l10": "4-5-1",
+   "strk": "L2",
    "dseq": 4,
    "cseq": 9,
    "lseq": 18
@@ -6991,5 +6991,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-12T17:15:19Z"
+ "updated": "2026-11-12T20:00:17Z"
 }

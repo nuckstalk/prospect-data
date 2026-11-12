@@ -1193,7 +1193,7 @@
      0,
      1,
      1,
-     1,
+     0,
      0,
      1,
      0,
@@ -2461,7 +2461,7 @@
    "g": 3,
    "a": 2,
    "pts": 5,
-   "pm": -4,
+   "pm": -2,
    "pim": 27,
    "ppg": 0,
    "shg": 0,
@@ -2497,7 +2497,7 @@
      0,
      0,
      0,
-     -1,
+     1,
      0,
      1,
      0,
@@ -2763,7 +2763,7 @@
    "g": 0,
    "a": 5,
    "pts": 5,
-   "pm": 4,
+   "pm": 3,
    "pim": 10,
    "ppg": 0,
    "shg": 0,
@@ -2799,7 +2799,7 @@
      0,
      0,
      0,
-     0,
+     -1,
      4,
      4,
      0,
@@ -4726,7 +4726,7 @@
    "diff": 5,
    "l10": "4-4-1-1",
    "strk": "2-0-0-0",
-   "lseq": 12,
+   "lseq": 11,
    "cseq": 7,
    "dseq": 4
   },
@@ -4766,8 +4766,8 @@
    "diff": 3,
    "l10": "4-3-3",
    "strk": "1-0-2-0",
-   "lseq": 11,
-   "cseq": 5,
+   "lseq": 10,
+   "cseq": 4,
    "dseq": 3
   },
   {
@@ -4776,19 +4776,19 @@
    "nick": "Bears",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 13,
+   "gp": 14,
    "w": 8,
-   "l": 5,
+   "l": 6,
    "otl": 0,
    "pts": 16,
    "gf": 43,
    "ga": 42,
    "diff": 1,
-   "l10": "6-4-0",
-   "strk": "1-0-0-0",
-   "lseq": 9,
-   "cseq": 4,
-   "dseq": 2
+   "l10": "5-5-0",
+   "strk": "0-1-0-0",
+   "lseq": 14,
+   "cseq": 7,
+   "dseq": 3
   },
   {
    "abbr": "CGY",
@@ -4826,7 +4826,7 @@
    "diff": 5,
    "l10": "6-4-0",
    "strk": "1-0-0-0",
-   "lseq": 10,
+   "lseq": 9,
    "cseq": 6,
    "dseq": 3
   },
@@ -4886,8 +4886,8 @@
    "diff": 10,
    "l10": "5-5-0",
    "strk": "0-1-0-0",
-   "lseq": 13,
-   "cseq": 6,
+   "lseq": 12,
+   "cseq": 5,
    "dseq": 4
   },
   {
@@ -4906,9 +4906,9 @@
    "diff": 10,
    "l10": "6-4-0",
    "strk": "0-1-0-0",
-   "lseq": 14,
-   "cseq": 7,
-   "dseq": 3
+   "lseq": 13,
+   "cseq": 6,
+   "dseq": 2
   },
   {
    "abbr": "IA",
@@ -5051,6 +5051,26 @@
    "dseq": 7
   },
   {
+   "abbr": "HAM",
+   "name": "Hamilton Hammers",
+   "nick": "Hammers",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 16,
+   "w": 5,
+   "l": 9,
+   "otl": 2,
+   "pts": 12,
+   "gf": 45,
+   "ga": 62,
+   "diff": -17,
+   "l10": "4-5-0-1",
+   "strk": "2-0-0-0",
+   "lseq": 30,
+   "cseq": 15,
+   "dseq": 8
+  },
+  {
    "abbr": "SJ",
    "name": "San Jose Barracuda",
    "nick": "Barracuda",
@@ -5151,26 +5171,6 @@
    "dseq": 7
   },
   {
-   "abbr": "HAM",
-   "name": "Hamilton Hammers",
-   "nick": "Hammers",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 15,
-   "w": 4,
-   "l": 9,
-   "otl": 2,
-   "pts": 10,
-   "gf": 45,
-   "ga": 62,
-   "diff": -17,
-   "l10": "3-6-0-1",
-   "strk": "1-0-0-0",
-   "lseq": 31,
-   "cseq": 15,
-   "dseq": 8
-  },
-  {
    "abbr": "BAK",
    "name": "Bakersfield Condors",
    "nick": "Condors",
@@ -5186,7 +5186,7 @@
    "diff": -7,
    "l10": "3-6-1",
    "strk": "0-2-0-0",
-   "lseq": 30,
+   "lseq": 31,
    "cseq": 16,
    "dseq": 10
   },
@@ -5250,7 +5250,15 @@
    "opp": "Coachella Valley Firebirds",
    "home": false,
    "live": false
+  },
+  {
+   "iso": "2026-11-18T20:00:00-07:00",
+   "date": "Wed Nov 18",
+   "time": "8:00 PM PT",
+   "opp": "Ontario Reign",
+   "home": false,
+   "live": false
   }
  ],
- "updated": "2026-11-12T02:45:17Z"
+ "updated": "2026-11-12T03:00:20Z"
 }

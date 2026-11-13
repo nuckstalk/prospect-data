@@ -6377,6 +6377,26 @@
    "lseq": 3
   },
   {
+   "abbr": "TBL",
+   "name": "Tampa Bay Lightning",
+   "nick": "Lightning",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 19,
+   "w": 13,
+   "l": 4,
+   "otl": 2,
+   "pts": 28,
+   "gf": 74,
+   "ga": 57,
+   "diff": 17,
+   "l10": "6-2-2",
+   "strk": "W2",
+   "dseq": 1,
+   "cseq": 2,
+   "lseq": 4
+  },
+  {
    "abbr": "MTL",
    "name": "Montréal Canadiens",
    "nick": "Canadiens",
@@ -6392,9 +6412,9 @@
    "diff": 10,
    "l10": "8-0-2",
    "strk": "W1",
-   "dseq": 1,
-   "cseq": 2,
-   "lseq": 4
+   "dseq": 2,
+   "cseq": 3,
+   "lseq": 5
   },
   {
    "abbr": "VGK",
@@ -6414,7 +6434,7 @@
    "strk": "W4",
    "dseq": 2,
    "cseq": 3,
-   "lseq": 5
+   "lseq": 6
   },
   {
    "abbr": "NJD",
@@ -6433,8 +6453,8 @@
    "l10": "8-2-0",
    "strk": "W1",
    "dseq": 2,
-   "cseq": 3,
-   "lseq": 6
+   "cseq": 4,
+   "lseq": 7
   },
   {
    "abbr": "BOS",
@@ -6452,29 +6472,29 @@
    "diff": 24,
    "l10": "6-3-1",
    "strk": "L1",
-   "dseq": 2,
-   "cseq": 4,
-   "lseq": 7
-  },
-  {
-   "abbr": "TBL",
-   "name": "Tampa Bay Lightning",
-   "nick": "Lightning",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 18,
-   "w": 12,
-   "l": 4,
-   "otl": 2,
-   "pts": 26,
-   "gf": 71,
-   "ga": 56,
-   "diff": 15,
-   "l10": "6-2-2",
-   "strk": "W1",
    "dseq": 3,
    "cseq": 5,
    "lseq": 8
+  },
+  {
+   "abbr": "OTT",
+   "name": "Ottawa Senators",
+   "nick": "Senators",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 20,
+   "w": 12,
+   "l": 6,
+   "otl": 2,
+   "pts": 26,
+   "gf": 64,
+   "ga": 60,
+   "diff": 4,
+   "l10": "5-3-2",
+   "strk": "W1",
+   "dseq": 4,
+   "cseq": 6,
+   "lseq": 9
   },
   {
    "abbr": "NSH",
@@ -6494,7 +6514,7 @@
    "strk": "W6",
    "dseq": 2,
    "cseq": 4,
-   "lseq": 9
+   "lseq": 10
   },
   {
    "abbr": "COL",
@@ -6502,38 +6522,18 @@
    "nick": "Avalanche",
    "div": "Central",
    "conf": "Western",
-   "gp": 19,
+   "gp": 20,
    "w": 11,
    "l": 6,
-   "otl": 2,
-   "pts": 24,
-   "gf": 78,
-   "ga": 59,
-   "diff": 19,
-   "l10": "6-3-1",
-   "strk": "W2",
+   "otl": 3,
+   "pts": 25,
+   "gf": 81,
+   "ga": 63,
+   "diff": 18,
+   "l10": "6-2-2",
+   "strk": "OT1",
    "dseq": 3,
    "cseq": 5,
-   "lseq": 10
-  },
-  {
-   "abbr": "OTT",
-   "name": "Ottawa Senators",
-   "nick": "Senators",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 19,
-   "w": 11,
-   "l": 6,
-   "otl": 2,
-   "pts": 24,
-   "gf": 60,
-   "ga": 57,
-   "diff": 3,
-   "l10": "5-3-2",
-   "strk": "OT1",
-   "dseq": 4,
-   "cseq": 6,
    "lseq": 11
   },
   {
@@ -6882,16 +6882,16 @@
    "nick": "Blue Jackets",
    "div": "Metropolitan",
    "conf": "Eastern",
-   "gp": 16,
+   "gp": 17,
    "w": 7,
-   "l": 9,
+   "l": 10,
    "otl": 0,
    "pts": 14,
-   "gf": 41,
-   "ga": 51,
-   "diff": -10,
+   "gf": 42,
+   "ga": 54,
+   "diff": -12,
    "l10": "4-6-0",
-   "strk": "L2",
+   "strk": "L3",
    "dseq": 8,
    "cseq": 16,
    "lseq": 29
@@ -6991,5 +6991,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-13T02:45:23Z"
+ "updated": "2026-11-13T02:52:50Z"
 }

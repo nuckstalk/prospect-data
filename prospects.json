@@ -180,13 +180,13 @@
    "ep": 14,
    "team": "Michigan State",
    "lg": "NCAA",
-   "gp": 8,
+   "gp": 9,
    "g": 7,
    "a": 5,
    "tp": 12,
-   "ppg": 1.5,
+   "ppg": 1.3333333333333333,
    "pim": 12,
-   "pm": 3
+   "pm": 2
   },
   "Sawyer Mynio": {
    "ep": 16,
@@ -346,11 +346,11 @@
    "team": "Peterborough Petes",
    "lg": "OHL",
    "gp": 10,
-   "gaa": 3.26,
-   "svp": ".894",
+   "gaa": 3.13,
+   "svp": ".899",
    "so": 0,
    "rec": "4-3-2",
-   "toi": 533.77,
+   "toi": 593.77,
    "splits": [
     {
      "team": "London Knights",
@@ -366,11 +366,11 @@
      "team": "Peterborough Petes",
      "lg": "OHL",
      "gp": 2,
-     "gaa": 1.95,
-     "svp": ".926",
+     "gaa": 1.97,
+     "svp": ".934",
      "so": 0,
      "rec": "1-0-0",
-     "toi": 61.58
+     "toi": 121.58
     }
    ]
   },
@@ -421,12 +421,24 @@
      "lg": "OHL",
      "dgp": 1,
      "res": "",
-     "gaa": 3.26,
-     "svp": ".894",
+     "gaa": 3.13,
+     "svp": ".899",
      "sgp": 10,
      "rec0": "4-3-2",
-     "gaa0": 3.26,
-     "toi0": 533.77
+     "ga": 2
+    },
+    {
+     "k": "S",
+     "name": "Anthony Romani",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 9,
+     "sg": 7,
+     "sa": 5,
+     "stp": 12
     }
    ]
   },

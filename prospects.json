@@ -325,12 +325,12 @@
   "Dmitri Ivchenko": {
    "team": "Omskie Yastreby",
    "lg": "MHL",
-   "gp": 14,
-   "gaa": 2.93,
-   "svp": ".894",
+   "gp": 15,
+   "gaa": 2.85,
+   "svp": ".899",
    "so": 1,
    "rec": "7-4-0",
-   "toi": 819.47
+   "toi": 884.47
   },
   "Aku Koskenvuo": {
    "team": "Kalamazoo Wings",
@@ -386,6 +386,23 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-11-13",
+   "items": [
+    {
+     "k": "G",
+     "name": "Dmitri Ivchenko",
+     "lg": "MHL",
+     "dgp": 1,
+     "res": "",
+     "gaa": 2.85,
+     "svp": ".899",
+     "sgp": 15,
+     "rec0": "7-4-0",
+     "ga": 2
+    }
+   ]
+  },
   {
    "date": "2026-11-12",
    "items": [
@@ -1199,28 +1216,6 @@
      "stp": 8
     }
    ]
-  },
-  {
-   "date": "2026-11-05",
-   "items": [
-    {
-     "k": "S",
-     "name": "Adam Novotný",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 1,
-     "da": 0,
-     "dtp": 1,
-     "sgp": 16,
-     "sg": 10,
-     "sa": 12,
-     "stp": 22
-    }
-   ]
   }
- ],
- "status": {
-  "msg": "FETCH FAILED: urllib: HTTP Error 403: Forbidden; chrome: HTTP 403; safari: HTTP 403; edge: HTTP 403",
-  "at": "2026-11-13T15:45Z"
- }
+ ]
 }

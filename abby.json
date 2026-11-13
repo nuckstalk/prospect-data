@@ -4711,6 +4711,26 @@
    "dseq": 1
   },
   {
+   "abbr": "CGY",
+   "name": "Calgary Wranglers",
+   "nick": "Wranglers",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 16,
+   "w": 9,
+   "l": 7,
+   "otl": 0,
+   "pts": 18,
+   "gf": 51,
+   "ga": 47,
+   "diff": 4,
+   "l10": "5-5-0",
+   "strk": "2-0-0-0",
+   "lseq": 14,
+   "cseq": 7,
+   "dseq": 4
+  },
+  {
    "abbr": "COL",
    "name": "Colorado Eagles",
    "nick": "Eagles",
@@ -4726,9 +4746,9 @@
    "diff": 5,
    "l10": "4-5-0-1",
    "strk": "0-1-0-0",
-   "lseq": 14,
-   "cseq": 7,
-   "dseq": 4
+   "lseq": 15,
+   "cseq": 8,
+   "dseq": 5
   },
   {
    "abbr": "HFD",
@@ -4746,7 +4766,7 @@
    "diff": -5,
    "l10": "5-4-1",
    "strk": "2-0-0-0",
-   "lseq": 18,
+   "lseq": 19,
    "cseq": 9,
    "dseq": 4
   },
@@ -4791,26 +4811,6 @@
    "dseq": 3
   },
   {
-   "abbr": "CGY",
-   "name": "Calgary Wranglers",
-   "nick": "Wranglers",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 15,
-   "w": 8,
-   "l": 7,
-   "otl": 0,
-   "pts": 16,
-   "gf": 51,
-   "ga": 47,
-   "diff": 4,
-   "l10": "4-6-0",
-   "strk": "1-0-0-0",
-   "lseq": 16,
-   "cseq": 9,
-   "dseq": 6
-  },
-  {
    "abbr": "MIL",
    "name": "Milwaukee Admirals",
    "nick": "Admirals",
@@ -4851,44 +4851,44 @@
    "dseq": 5
   },
   {
+   "abbr": "CV",
+   "name": "Coachella Valley Firebirds",
+   "nick": "Firebirds",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 15,
+   "w": 6,
+   "l": 5,
+   "otl": 4,
+   "pts": 16,
+   "gf": 44,
+   "ga": 51,
+   "diff": -7,
+   "l10": "4-4-1-1",
+   "strk": "1-0-1-0",
+   "lseq": 18,
+   "cseq": 10,
+   "dseq": 7
+  },
+  {
    "abbr": "HSK",
    "name": "Henderson Silver Knights",
    "nick": "Silver Knights",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 12,
+   "gp": 13,
    "w": 8,
-   "l": 4,
+   "l": 5,
    "otl": 0,
    "pts": 16,
    "gf": 30,
    "ga": 27,
    "diff": 3,
    "l10": "7-3-0",
-   "strk": "3-0-0-0",
+   "strk": "0-1-0-0",
    "lseq": 7,
    "cseq": 5,
    "dseq": 3
-  },
-  {
-   "abbr": "ROC",
-   "name": "Rochester Americans",
-   "nick": "Americans",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 13,
-   "w": 7,
-   "l": 5,
-   "otl": 1,
-   "pts": 15,
-   "gf": 42,
-   "ga": 32,
-   "diff": 10,
-   "l10": "5-5-0",
-   "strk": "0-1-0-0",
-   "lseq": 11,
-   "cseq": 5,
-   "dseq": 4
   },
   {
    "abbr": "WBS",
@@ -4911,6 +4911,26 @@
    "dseq": 2
   },
   {
+   "abbr": "ROC",
+   "name": "Rochester Americans",
+   "nick": "Americans",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 13,
+   "w": 7,
+   "l": 5,
+   "otl": 1,
+   "pts": 15,
+   "gf": 42,
+   "ga": 32,
+   "diff": 10,
+   "l10": "5-5-0",
+   "strk": "0-1-0-0",
+   "lseq": 11,
+   "cseq": 5,
+   "dseq": 4
+  },
+  {
    "abbr": "SD",
    "name": "San Diego Gulls",
    "nick": "Gulls",
@@ -4926,9 +4946,9 @@
    "diff": 2,
    "l10": "4-4-2",
    "strk": "1-0-1-0",
-   "lseq": 15,
-   "cseq": 8,
-   "dseq": 5
+   "lseq": 16,
+   "cseq": 9,
+   "dseq": 6
   },
   {
    "abbr": "IA",
@@ -4969,26 +4989,6 @@
    "lseq": 22,
    "cseq": 10,
    "dseq": 5
-  },
-  {
-   "abbr": "CV",
-   "name": "Coachella Valley Firebirds",
-   "nick": "Firebirds",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 14,
-   "w": 5,
-   "l": 5,
-   "otl": 4,
-   "pts": 14,
-   "gf": 44,
-   "ga": 51,
-   "diff": -7,
-   "l10": "3-5-1-1",
-   "strk": "0-1-1-0",
-   "lseq": 19,
-   "cseq": 10,
-   "dseq": 7
   },
   {
    "abbr": "CHI",
@@ -5076,17 +5076,17 @@
    "nick": "Barracuda",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 14,
+   "gp": 15,
    "w": 6,
-   "l": 8,
+   "l": 9,
    "otl": 0,
    "pts": 12,
    "gf": 39,
    "ga": 54,
    "diff": -15,
    "l10": "5-5-0",
-   "strk": "0-1-0-0",
-   "lseq": 26,
+   "strk": "0-2-0-0",
+   "lseq": 28,
    "cseq": 14,
    "dseq": 9
   },
@@ -5146,7 +5146,7 @@
    "diff": -18,
    "l10": "5-5-0",
    "strk": "0-2-0-0",
-   "lseq": 27,
+   "lseq": 26,
    "cseq": 13,
    "dseq": 6
   },
@@ -5166,7 +5166,7 @@
    "diff": -14,
    "l10": "2-5-2-1",
    "strk": "0-2-0-0",
-   "lseq": 28,
+   "lseq": 27,
    "cseq": 14,
    "dseq": 7
   },
@@ -5260,5 +5260,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-13T05:30:22Z"
+ "updated": "2026-11-13T06:00:18Z"
 }

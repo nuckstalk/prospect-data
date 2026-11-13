@@ -6537,6 +6537,26 @@
    "lseq": 11
   },
   {
+   "abbr": "FLA",
+   "name": "Florida Panthers",
+   "nick": "Panthers",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 20,
+   "w": 11,
+   "l": 7,
+   "otl": 2,
+   "pts": 24,
+   "gf": 65,
+   "ga": 60,
+   "diff": 5,
+   "l10": "6-4-0",
+   "strk": "W2",
+   "dseq": 5,
+   "cseq": 7,
+   "lseq": 12
+  },
+  {
    "abbr": "NYR",
    "name": "New York Rangers",
    "nick": "Rangers",
@@ -6553,8 +6573,8 @@
    "l10": "5-5-0",
    "strk": "W1",
    "dseq": 3,
-   "cseq": 7,
-   "lseq": 12
+   "cseq": 8,
+   "lseq": 13
   },
   {
    "abbr": "DAL",
@@ -6574,26 +6594,6 @@
    "strk": "W1",
    "dseq": 4,
    "cseq": 6,
-   "lseq": 13
-  },
-  {
-   "abbr": "FLA",
-   "name": "Florida Panthers",
-   "nick": "Panthers",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 19,
-   "w": 10,
-   "l": 7,
-   "otl": 2,
-   "pts": 22,
-   "gf": 60,
-   "ga": 56,
-   "diff": 4,
-   "l10": "5-5-0",
-   "strk": "W1",
-   "dseq": 5,
-   "cseq": 8,
    "lseq": 14
   },
   {
@@ -6822,16 +6822,16 @@
    "nick": "Red Wings",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 19,
+   "gp": 20,
    "w": 7,
-   "l": 9,
+   "l": 10,
    "otl": 3,
    "pts": 17,
-   "gf": 51,
-   "ga": 59,
-   "diff": -8,
-   "l10": "4-6-0",
-   "strk": "L4",
+   "gf": 55,
+   "ga": 64,
+   "diff": -9,
+   "l10": "3-7-0",
+   "strk": "L5",
    "dseq": 8,
    "cseq": 13,
    "lseq": 26
@@ -6991,5 +6991,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-13T02:52:50Z"
+ "updated": "2026-11-13T03:15:19Z"
 }

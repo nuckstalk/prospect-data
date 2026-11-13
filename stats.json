@@ -6677,6 +6677,26 @@
    "lseq": 18
   },
   {
+   "abbr": "NYI",
+   "name": "New York Islanders",
+   "nick": "Islanders",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 18,
+   "w": 8,
+   "l": 6,
+   "otl": 4,
+   "pts": 20,
+   "gf": 54,
+   "ga": 54,
+   "diff": 0,
+   "l10": "4-3-3",
+   "strk": "W1",
+   "dseq": 5,
+   "cseq": 10,
+   "lseq": 19
+  },
+  {
    "abbr": "STL",
    "name": "St. Louis Blues",
    "nick": "Blues",
@@ -6694,7 +6714,7 @@
    "strk": "W2",
    "dseq": 7,
    "cseq": 10,
-   "lseq": 19
+   "lseq": 20
   },
   {
    "abbr": "BUF",
@@ -6713,8 +6733,8 @@
    "l10": "4-4-2",
    "strk": "OT1",
    "dseq": 6,
-   "cseq": 10,
-   "lseq": 20
+   "cseq": 11,
+   "lseq": 21
   },
   {
    "abbr": "SEA",
@@ -6733,26 +6753,6 @@
    "l10": "4-5-1",
    "strk": "L2",
    "dseq": 4,
-   "cseq": 11,
-   "lseq": 21
-  },
-  {
-   "abbr": "NYI",
-   "name": "New York Islanders",
-   "nick": "Islanders",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 17,
-   "w": 7,
-   "l": 6,
-   "otl": 4,
-   "pts": 18,
-   "gf": 49,
-   "ga": 52,
-   "diff": -3,
-   "l10": "4-3-3",
-   "strk": "OT2",
-   "dseq": 5,
    "cseq": 11,
    "lseq": 22
   },
@@ -6902,16 +6902,16 @@
    "nick": "Kings",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 16,
+   "gp": 17,
    "w": 5,
-   "l": 9,
+   "l": 10,
    "otl": 2,
    "pts": 12,
-   "gf": 45,
-   "ga": 55,
-   "diff": -10,
-   "l10": "5-5-0",
-   "strk": "L2",
+   "gf": 47,
+   "ga": 60,
+   "diff": -13,
+   "l10": "4-6-0",
+   "strk": "L3",
    "dseq": 7,
    "cseq": 14,
    "lseq": 30
@@ -6960,7 +6960,7 @@
  "team": {
   "gf": {
    "v": 2.8,
-   "rank": 26
+   "rank": 25
   },
   "ga": {
    "v": 4.5,
@@ -6968,7 +6968,7 @@
   },
   "pp": {
    "v": 20.6,
-   "rank": 19
+   "rank": 18
   },
   "pk": {
    "v": 63.1,
@@ -6991,5 +6991,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-13T05:30:20Z"
+ "updated": "2026-11-13T06:15:15Z"
 }

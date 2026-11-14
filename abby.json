@@ -4851,6 +4851,26 @@
    "dseq": 3
   },
   {
+   "abbr": "PRO",
+   "name": "Providence Bruins",
+   "nick": "Bruins",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 16,
+   "w": 8,
+   "l": 8,
+   "otl": 0,
+   "pts": 16,
+   "gf": 54,
+   "ga": 47,
+   "diff": 7,
+   "l10": "7-3-0",
+   "strk": "2-0-0-0",
+   "lseq": 20,
+   "cseq": 10,
+   "dseq": 5
+  },
+  {
    "abbr": "BEL",
    "name": "Belleville Senators",
    "nick": "Senators",
@@ -4966,28 +4986,8 @@
    "diff": -7,
    "l10": "3-6-1",
    "strk": "0-1-0-0",
-   "lseq": 21,
-   "cseq": 12,
-   "dseq": 5
-  },
-  {
-   "abbr": "PRO",
-   "name": "Providence Bruins",
-   "nick": "Bruins",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 15,
-   "w": 7,
-   "l": 8,
-   "otl": 0,
-   "pts": 14,
-   "gf": 53,
-   "ga": 47,
-   "diff": 6,
-   "l10": "6-4-0",
-   "strk": "1-0-0-0",
    "lseq": 22,
-   "cseq": 10,
+   "cseq": 12,
    "dseq": 5
   },
   {
@@ -5006,7 +5006,7 @@
    "diff": -10,
    "l10": "6-3-0-1",
    "strk": "1-0-0-0",
-   "lseq": 20,
+   "lseq": 21,
    "cseq": 11,
    "dseq": 4
   },
@@ -5131,6 +5131,26 @@
    "dseq": 7
   },
   {
+   "abbr": "SPR",
+   "name": "Springfield Thunderbirds",
+   "nick": "Thunderbirds",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 14,
+   "w": 4,
+   "l": 6,
+   "otl": 4,
+   "pts": 12,
+   "gf": 34,
+   "ga": 49,
+   "diff": -15,
+   "l10": "2-5-2-1",
+   "strk": "0-2-0-1",
+   "lseq": 27,
+   "cseq": 14,
+   "dseq": 7
+  },
+  {
    "abbr": "RFD",
    "name": "Rockford IceHogs",
    "nick": "IceHogs",
@@ -5149,26 +5169,6 @@
    "lseq": 29,
    "cseq": 15,
    "dseq": 6
-  },
-  {
-   "abbr": "SPR",
-   "name": "Springfield Thunderbirds",
-   "nick": "Thunderbirds",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 13,
-   "w": 4,
-   "l": 6,
-   "otl": 3,
-   "pts": 11,
-   "gf": 34,
-   "ga": 48,
-   "diff": -14,
-   "l10": "2-5-2-1",
-   "strk": "0-2-0-0",
-   "lseq": 27,
-   "cseq": 14,
-   "dseq": 7
   },
   {
    "abbr": "TEX",
@@ -5214,7 +5214,7 @@
  "team": {
   "gf": {
    "v": 3.5,
-   "rank": 6
+   "rank": 5
   },
   "ga": {
    "v": 2.79,
@@ -5268,5 +5268,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-14T03:00:18Z"
+ "updated": "2026-11-14T03:15:21Z"
 }

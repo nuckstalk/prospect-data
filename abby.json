@@ -4602,8 +4602,8 @@
    "otl": 1,
    "pts": 25,
    "gf": 63,
-   "ga": 33,
-   "diff": 30,
+   "ga": 34,
+   "diff": 29,
    "l10": "7-2-1",
    "strk": "5-0-1-0",
    "lseq": 3,
@@ -4806,8 +4806,8 @@
    "diff": -5,
    "l10": "5-4-1",
    "strk": "2-0-0-0",
-   "lseq": 19,
-   "cseq": 9,
+   "lseq": 18,
+   "cseq": 8,
    "dseq": 4
   },
   {
@@ -4886,28 +4886,8 @@
    "diff": 7,
    "l10": "7-3-0",
    "strk": "2-0-0-0",
-   "lseq": 20,
-   "cseq": 10,
-   "dseq": 5
-  },
-  {
-   "abbr": "BEL",
-   "name": "Belleville Senators",
-   "nick": "Senators",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 15,
-   "w": 7,
-   "l": 6,
-   "otl": 2,
-   "pts": 16,
-   "gf": 45,
-   "ga": 47,
-   "diff": -2,
-   "l10": "5-4-1",
-   "strk": "0-1-0-0",
-   "lseq": 17,
-   "cseq": 8,
+   "lseq": 19,
+   "cseq": 9,
    "dseq": 5
   },
   {
@@ -4926,9 +4906,29 @@
    "diff": -7,
    "l10": "4-4-1-1",
    "strk": "1-0-1-0",
-   "lseq": 18,
+   "lseq": 17,
    "cseq": 10,
    "dseq": 7
+  },
+  {
+   "abbr": "BEL",
+   "name": "Belleville Senators",
+   "nick": "Senators",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 16,
+   "w": 7,
+   "l": 7,
+   "otl": 2,
+   "pts": 16,
+   "gf": 45,
+   "ga": 47,
+   "diff": -2,
+   "l10": "5-5-0",
+   "strk": "0-2-0-0",
+   "lseq": 20,
+   "cseq": 10,
+   "dseq": 5
   },
   {
    "abbr": "HSK",
@@ -4961,9 +4961,9 @@
    "l": 6,
    "otl": 1,
    "pts": 15,
-   "gf": 45,
+   "gf": 46,
    "ga": 37,
-   "diff": 8,
+   "diff": 9,
    "l10": "5-5-0",
    "strk": "0-2-0-0",
    "lseq": 16,
@@ -4991,6 +4991,26 @@
    "dseq": 5
   },
   {
+   "abbr": "CLE",
+   "name": "Cleveland Monsters",
+   "nick": "Monsters",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 14,
+   "w": 7,
+   "l": 7,
+   "otl": 0,
+   "pts": 14,
+   "gf": 43,
+   "ga": 51,
+   "diff": -8,
+   "l10": "4-6-0",
+   "strk": "1-0-0-0",
+   "lseq": 21,
+   "cseq": 11,
+   "dseq": 6
+  },
+  {
    "abbr": "CHI",
    "name": "Chicago Wolves",
    "nick": "Wolves",
@@ -5006,7 +5026,7 @@
    "diff": -10,
    "l10": "6-3-0-1",
    "strk": "1-0-0-0",
-   "lseq": 21,
+   "lseq": 22,
    "cseq": 11,
    "dseq": 4
   },
@@ -5026,9 +5046,9 @@
    "diff": -10,
    "l10": "4-3-3",
    "strk": "0-2-2-0",
-   "lseq": 24,
-   "cseq": 12,
-   "dseq": 6
+   "lseq": 25,
+   "cseq": 13,
+   "dseq": 7
   },
   {
    "abbr": "ONT",
@@ -5046,7 +5066,7 @@
    "diff": -8,
    "l10": "3-6-1",
    "strk": "1-0-0-0",
-   "lseq": 23,
+   "lseq": 24,
    "cseq": 12,
    "dseq": 8
   },
@@ -5066,8 +5086,8 @@
    "diff": -15,
    "l10": "5-5-0",
    "strk": "1-0-0-0",
-   "lseq": 22,
-   "cseq": 11,
+   "lseq": 23,
+   "cseq": 12,
    "dseq": 6
   },
   {
@@ -5129,26 +5149,6 @@
    "lseq": 29,
    "cseq": 15,
    "dseq": 9
-  },
-  {
-   "abbr": "CLE",
-   "name": "Cleveland Monsters",
-   "nick": "Monsters",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 13,
-   "w": 6,
-   "l": 7,
-   "otl": 0,
-   "pts": 12,
-   "gf": 43,
-   "ga": 51,
-   "diff": -8,
-   "l10": "4-6-0",
-   "strk": "0-4-0-0",
-   "lseq": 25,
-   "cseq": 13,
-   "dseq": 7
   },
   {
    "abbr": "SPR",
@@ -5268,5 +5268,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-14T23:30:19Z"
+ "updated": "2026-11-14T23:45:20Z"
 }

@@ -54,11 +54,11 @@
    "ep": 5,
    "team": "Univ. of North Dakota",
    "lg": "NCAA",
-   "gp": 8,
+   "gp": 9,
    "g": 1,
    "a": 3,
    "tp": 4,
-   "ppg": 0.5,
+   "ppg": 0.4444444444444444,
    "pim": 2,
    "pm": 0
   },
@@ -541,6 +541,19 @@
      "sg": 0,
      "sa": 0,
      "stp": 0
+    },
+    {
+     "k": "S",
+     "name": "Connor Davis",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 9,
+     "sg": 1,
+     "sa": 3,
+     "stp": 4
     }
    ]
   },

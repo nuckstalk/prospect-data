@@ -6682,6 +6682,26 @@
    "lseq": 3
   },
   {
+   "abbr": "VGK",
+   "name": "Vegas Golden Knights",
+   "nick": "Golden Knights",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 21,
+   "w": 13,
+   "l": 5,
+   "otl": 3,
+   "pts": 29,
+   "gf": 71,
+   "ga": 57,
+   "diff": 14,
+   "l10": "5-2-3",
+   "strk": "OT1",
+   "dseq": 2,
+   "cseq": 3,
+   "lseq": 4
+  },
+  {
    "abbr": "TBL",
    "name": "Tampa Bay Lightning",
    "nick": "Lightning",
@@ -6699,7 +6719,7 @@
    "strk": "W2",
    "dseq": 1,
    "cseq": 2,
-   "lseq": 4
+   "lseq": 5
   },
   {
    "abbr": "MTL",
@@ -6717,26 +6737,6 @@
    "diff": 10,
    "l10": "8-0-2",
    "strk": "W1",
-   "dseq": 2,
-   "cseq": 3,
-   "lseq": 5
-  },
-  {
-   "abbr": "VGK",
-   "name": "Vegas Golden Knights",
-   "nick": "Golden Knights",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 20,
-   "w": 13,
-   "l": 5,
-   "otl": 2,
-   "pts": 28,
-   "gf": 69,
-   "ga": 54,
-   "diff": 15,
-   "l10": "5-3-2",
-   "strk": "W4",
    "dseq": 2,
    "cseq": 3,
    "lseq": 6
@@ -6782,6 +6782,26 @@
    "lseq": 8
   },
   {
+   "abbr": "NSH",
+   "name": "Nashville Predators",
+   "nick": "Predators",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 20,
+   "w": 11,
+   "l": 4,
+   "otl": 5,
+   "pts": 27,
+   "gf": 62,
+   "ga": 55,
+   "diff": 7,
+   "l10": "8-1-1",
+   "strk": "W7",
+   "dseq": 2,
+   "cseq": 4,
+   "lseq": 9
+  },
+  {
    "abbr": "OTT",
    "name": "Ottawa Senators",
    "nick": "Senators",
@@ -6799,26 +6819,6 @@
    "strk": "W1",
    "dseq": 4,
    "cseq": 6,
-   "lseq": 9
-  },
-  {
-   "abbr": "NSH",
-   "name": "Nashville Predators",
-   "nick": "Predators",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 19,
-   "w": 10,
-   "l": 4,
-   "otl": 5,
-   "pts": 25,
-   "gf": 59,
-   "ga": 53,
-   "diff": 6,
-   "l10": "7-1-2",
-   "strk": "W6",
-   "dseq": 2,
-   "cseq": 4,
    "lseq": 10
   },
   {
@@ -7296,5 +7296,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-14T05:15:15Z"
+ "updated": "2026-11-14T06:08:08Z"
 }

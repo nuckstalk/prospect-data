@@ -4571,6 +4571,26 @@
  ],
  "standings": [
   {
+   "abbr": "GR",
+   "name": "Grand Rapids Griffins",
+   "nick": "Griffins",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 16,
+   "w": 12,
+   "l": 2,
+   "otl": 2,
+   "pts": 26,
+   "gf": 65,
+   "ga": 38,
+   "diff": 27,
+   "l10": "8-1-0-1",
+   "strk": "2-0-0-0",
+   "lseq": 2,
+   "cseq": 1,
+   "dseq": 1
+  },
+  {
    "abbr": "LAV",
    "name": "Laval Rocket",
    "nick": "Rocket",
@@ -4589,26 +4609,6 @@
    "lseq": 3,
    "cseq": 2,
    "dseq": 2
-  },
-  {
-   "abbr": "GR",
-   "name": "Grand Rapids Griffins",
-   "nick": "Griffins",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 15,
-   "w": 11,
-   "l": 2,
-   "otl": 2,
-   "pts": 24,
-   "gf": 65,
-   "ga": 38,
-   "diff": 27,
-   "l10": "8-1-0-1",
-   "strk": "1-0-0-0",
-   "lseq": 2,
-   "cseq": 1,
-   "dseq": 1
   },
   {
    "abbr": "MB",
@@ -4976,18 +4976,18 @@
    "nick": "Wild",
    "div": "Central",
    "conf": "Western",
-   "gp": 16,
+   "gp": 17,
    "w": 6,
-   "l": 7,
+   "l": 8,
    "otl": 3,
    "pts": 15,
    "gf": 42,
    "ga": 50,
    "diff": -8,
    "l10": "3-6-1",
-   "strk": "0-1-0-0",
-   "lseq": 22,
-   "cseq": 12,
+   "strk": "0-2-0-0",
+   "lseq": 26,
+   "cseq": 13,
    "dseq": 5
   },
   {
@@ -5026,7 +5026,7 @@
    "diff": -10,
    "l10": "4-3-3",
    "strk": "0-2-2-0",
-   "lseq": 25,
+   "lseq": 24,
    "cseq": 12,
    "dseq": 6
   },
@@ -5046,8 +5046,8 @@
    "diff": -8,
    "l10": "3-6-1",
    "strk": "1-0-0-0",
-   "lseq": 24,
-   "cseq": 13,
+   "lseq": 23,
+   "cseq": 12,
    "dseq": 8
   },
   {
@@ -5066,7 +5066,7 @@
    "diff": -15,
    "l10": "5-5-0",
    "strk": "1-0-0-0",
-   "lseq": 23,
+   "lseq": 22,
    "cseq": 11,
    "dseq": 6
   },
@@ -5146,7 +5146,7 @@
    "diff": -10,
    "l10": "4-6-0",
    "strk": "0-4-0-0",
-   "lseq": 26,
+   "lseq": 25,
    "cseq": 13,
    "dseq": 7
   },
@@ -5268,5 +5268,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-14T03:45:27Z"
+ "updated": "2026-11-14T04:00:16Z"
 }

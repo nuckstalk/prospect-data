@@ -4706,9 +4706,9 @@
    "diff": 2,
    "l10": "5-4-1",
    "strk": "0-1-0-0",
-   "lseq": 10,
-   "cseq": 4,
-   "dseq": 1
+   "lseq": 11,
+   "cseq": 5,
+   "dseq": 2
   },
   {
    "abbr": "TOR",
@@ -4751,6 +4751,26 @@
    "dseq": 4
   },
   {
+   "abbr": "HER",
+   "name": "Hershey Bears",
+   "nick": "Bears",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 15,
+   "w": 9,
+   "l": 6,
+   "otl": 0,
+   "pts": 18,
+   "gf": 47,
+   "ga": 45,
+   "diff": 2,
+   "l10": "5-5-0",
+   "strk": "1-0-0-0",
+   "lseq": 10,
+   "cseq": 4,
+   "dseq": 1
+  },
+  {
    "abbr": "COL",
    "name": "Colorado Eagles",
    "nick": "Eagles",
@@ -4791,26 +4811,6 @@
    "dseq": 4
   },
   {
-   "abbr": "HER",
-   "name": "Hershey Bears",
-   "nick": "Bears",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 14,
-   "w": 8,
-   "l": 6,
-   "otl": 0,
-   "pts": 16,
-   "gf": 47,
-   "ga": 45,
-   "diff": 2,
-   "l10": "5-5-0",
-   "strk": "0-1-0-0",
-   "lseq": 13,
-   "cseq": 7,
-   "dseq": 3
-  },
-  {
    "abbr": "MIL",
    "name": "Milwaukee Admirals",
    "nick": "Admirals",
@@ -4828,6 +4828,26 @@
    "strk": "1-0-0-0",
    "lseq": 9,
    "cseq": 6,
+   "dseq": 3
+  },
+  {
+   "abbr": "WBS",
+   "name": "Wilkes-Barre/Scranton Penguins",
+   "nick": "Penguins",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 14,
+   "w": 7,
+   "l": 5,
+   "otl": 2,
+   "pts": 16,
+   "gf": 50,
+   "ga": 41,
+   "diff": 9,
+   "l10": "5-4-1",
+   "strk": "0-1-1-0",
+   "lseq": 13,
+   "cseq": 7,
    "dseq": 3
   },
   {
@@ -4891,26 +4911,6 @@
    "dseq": 3
   },
   {
-   "abbr": "WBS",
-   "name": "Wilkes-Barre/Scranton Penguins",
-   "nick": "Penguins",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 13,
-   "w": 7,
-   "l": 5,
-   "otl": 1,
-   "pts": 15,
-   "gf": 50,
-   "ga": 41,
-   "diff": 9,
-   "l10": "6-4-0",
-   "strk": "0-1-0-0",
-   "lseq": 12,
-   "cseq": 6,
-   "dseq": 2
-  },
-  {
    "abbr": "ROC",
    "name": "Rochester Americans",
    "nick": "Americans",
@@ -4926,8 +4926,8 @@
    "diff": 8,
    "l10": "5-5-0",
    "strk": "0-1-0-0",
-   "lseq": 11,
-   "cseq": 5,
+   "lseq": 12,
+   "cseq": 6,
    "dseq": 4
   },
   {
@@ -5268,5 +5268,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-14T02:45:17Z"
+ "updated": "2026-11-14T03:00:18Z"
 }

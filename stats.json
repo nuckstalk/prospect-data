@@ -6537,6 +6537,26 @@
    "lseq": 11
   },
   {
+   "abbr": "NYR",
+   "name": "New York Rangers",
+   "nick": "Rangers",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 21,
+   "w": 12,
+   "l": 8,
+   "otl": 1,
+   "pts": 25,
+   "gf": 64,
+   "ga": 57,
+   "diff": 7,
+   "l10": "5-5-0",
+   "strk": "W2",
+   "dseq": 3,
+   "cseq": 7,
+   "lseq": 12
+  },
+  {
    "abbr": "FLA",
    "name": "Florida Panthers",
    "nick": "Panthers",
@@ -6553,26 +6573,6 @@
    "l10": "6-4-0",
    "strk": "W2",
    "dseq": 5,
-   "cseq": 7,
-   "lseq": 12
-  },
-  {
-   "abbr": "NYR",
-   "name": "New York Rangers",
-   "nick": "Rangers",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 20,
-   "w": 11,
-   "l": 8,
-   "otl": 1,
-   "pts": 23,
-   "gf": 59,
-   "ga": 56,
-   "diff": 3,
-   "l10": "5-5-0",
-   "strk": "W1",
-   "dseq": 3,
    "cseq": 8,
    "lseq": 13
   },
@@ -6942,16 +6942,16 @@
    "nick": "Canucks",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 20,
+   "gp": 21,
    "w": 3,
-   "l": 16,
+   "l": 17,
    "otl": 1,
    "pts": 7,
-   "gf": 56,
-   "ga": 90,
-   "diff": -34,
+   "gf": 57,
+   "ga": 95,
+   "diff": -38,
    "l10": "1-9-0",
-   "strk": "L6",
+   "strk": "L7",
    "dseq": 8,
    "cseq": 16,
    "lseq": 32
@@ -6991,5 +6991,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-13T06:30:14Z"
+ "updated": "2026-11-14T04:45:13Z"
 }

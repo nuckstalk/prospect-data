@@ -132,7 +132,7 @@
    "tp": 2,
    "ppg": 0.5,
    "pim": 4,
-   "pm": 3,
+   "pm": 2,
    "splits": [
     {
      "team": "Abbotsford Canucks",
@@ -180,11 +180,11 @@
    "ep": 14,
    "team": "Michigan State",
    "lg": "NCAA",
-   "gp": 9,
+   "gp": 10,
    "g": 7,
    "a": 5,
    "tp": 12,
-   "ppg": 1.3333333333333333,
+   "ppg": 1.2,
    "pim": 12,
    "pm": 2
   },
@@ -476,6 +476,19 @@
      "sg": 0,
      "sa": 1,
      "stp": 1
+    },
+    {
+     "k": "S",
+     "name": "Anthony Romani",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 10,
+     "sg": 7,
+     "sa": 5,
+     "stp": 12
     }
    ]
   },

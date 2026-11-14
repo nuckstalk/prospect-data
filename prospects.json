@@ -132,7 +132,7 @@
    "tp": 1,
    "ppg": 0.25,
    "pim": 2,
-   "pm": 1,
+   "pm": 2,
    "splits": [
     {
      "team": "Abbotsford Canucks",
@@ -336,11 +336,11 @@
    "team": "Kalamazoo Wings",
    "lg": "ECHL",
    "gp": 6,
-   "gaa": 2.57,
-   "svp": ".929",
+   "gaa": 2.49,
+   "svp": ".930",
    "so": 0,
    "rec": "2-1-2",
-   "toi": 303.82
+   "toi": 361.85
   },
   "Alexei Medvedev": {
    "team": "Peterborough Petes",
@@ -446,12 +446,11 @@
      "lg": "ECHL",
      "dgp": 1,
      "res": "",
-     "gaa": 2.57,
-     "svp": ".929",
+     "gaa": 2.49,
+     "svp": ".930",
      "sgp": 6,
      "rec0": "2-1-2",
-     "gaa0": 2.57,
-     "toi0": 303.82
+     "ga": 2
     }
    ]
   },

@@ -4746,9 +4746,9 @@
    "diff": 4,
    "l10": "5-5-0",
    "strk": "2-0-0-0",
-   "lseq": 13,
-   "cseq": 7,
-   "dseq": 4
+   "lseq": 14,
+   "cseq": 8,
+   "dseq": 5
   },
   {
    "abbr": "HER",
@@ -4786,9 +4786,9 @@
    "diff": 5,
    "l10": "4-5-0-1",
    "strk": "0-1-0-0",
-   "lseq": 14,
-   "cseq": 8,
-   "dseq": 5
+   "lseq": 15,
+   "cseq": 9,
+   "dseq": 6
   },
   {
    "abbr": "HFD",
@@ -4829,6 +4829,26 @@
    "lseq": 9,
    "cseq": 6,
    "dseq": 3
+  },
+  {
+   "abbr": "SD",
+   "name": "San Diego Gulls",
+   "nick": "Gulls",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 15,
+   "w": 7,
+   "l": 5,
+   "otl": 3,
+   "pts": 17,
+   "gf": 38,
+   "ga": 35,
+   "diff": 3,
+   "l10": "5-3-2",
+   "strk": "2-0-1-0",
+   "lseq": 13,
+   "cseq": 7,
+   "dseq": 4
   },
   {
    "abbr": "WBS",
@@ -4946,29 +4966,9 @@
    "diff": 8,
    "l10": "5-5-0",
    "strk": "0-2-0-0",
-   "lseq": 15,
+   "lseq": 16,
    "cseq": 7,
    "dseq": 4
-  },
-  {
-   "abbr": "SD",
-   "name": "San Diego Gulls",
-   "nick": "Gulls",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 14,
-   "w": 6,
-   "l": 5,
-   "otl": 3,
-   "pts": 15,
-   "gf": 37,
-   "ga": 35,
-   "diff": 2,
-   "l10": "4-4-2",
-   "strk": "1-0-1-0",
-   "lseq": 16,
-   "cseq": 9,
-   "dseq": 6
   },
   {
    "abbr": "IA",
@@ -5196,16 +5196,16 @@
    "nick": "Condors",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 12,
+   "gp": 13,
    "w": 4,
    "l": 7,
-   "otl": 1,
-   "pts": 9,
+   "otl": 2,
+   "pts": 10,
    "gf": 30,
-   "ga": 37,
-   "diff": -7,
-   "l10": "3-6-1",
-   "strk": "0-2-0-0",
+   "ga": 38,
+   "diff": -8,
+   "l10": "3-5-1-1",
+   "strk": "0-2-0-1",
    "lseq": 30,
    "cseq": 16,
    "dseq": 10
@@ -5268,5 +5268,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-14T05:30:22Z"
+ "updated": "2026-11-14T06:15:25Z"
 }

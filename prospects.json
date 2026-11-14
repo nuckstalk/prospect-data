@@ -66,11 +66,11 @@
    "ep": 6,
    "team": "Medicine Hat Tigers",
    "lg": "WHL",
-   "gp": 15,
-   "g": 4,
+   "gp": 16,
+   "g": 5,
    "a": 5,
-   "tp": 9,
-   "ppg": 0.6,
+   "tp": 10,
+   "ppg": 0.625,
    "pim": 16,
    "pm": 2
   },
@@ -216,25 +216,25 @@
    "ep": 18,
    "team": "Quinnipiac",
    "lg": "NCAA",
-   "gp": 9,
+   "gp": 10,
    "g": 1,
    "a": 2,
    "tp": 3,
-   "ppg": 0.3333333333333333,
+   "ppg": 0.3,
    "pim": 8,
-   "pm": 1
+   "pm": 0
   },
   "Wilson Björck": {
    "ep": 19,
    "team": "Colorado College",
    "lg": "NCAA",
-   "gp": 10,
+   "gp": 11,
    "g": 1,
    "a": 8,
    "tp": 9,
-   "ppg": 0.9,
+   "ppg": 0.8181818181818182,
    "pim": 17,
-   "pm": 6
+   "pm": 5
   },
   "Samuel Eriksson": {
    "ep": 20,
@@ -489,6 +489,45 @@
      "sg": 7,
      "sa": 5,
      "stp": 12
+    },
+    {
+     "k": "S",
+     "name": "Yaroslav Bryzgalov",
+     "lg": "WHL",
+     "dgp": 1,
+     "dg": 1,
+     "da": 0,
+     "dtp": 1,
+     "sgp": 16,
+     "sg": 5,
+     "sa": 5,
+     "stp": 10
+    },
+    {
+     "k": "S",
+     "name": "Matthew Lansing",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 10,
+     "sg": 1,
+     "sa": 2,
+     "stp": 3
+    },
+    {
+     "k": "S",
+     "name": "Wilson Björck",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 11,
+     "sg": 1,
+     "sa": 8,
+     "stp": 9
     }
    ]
   },

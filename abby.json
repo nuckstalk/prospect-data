@@ -5172,8 +5172,8 @@
    "diff": 3,
    "l10": "6-4-0",
    "strk": "2-0-0-0",
-   "lseq": 10,
-   "cseq": 4,
+   "lseq": 9,
+   "cseq": 3,
    "dseq": 1
   },
   {
@@ -5252,9 +5252,9 @@
    "diff": -4,
    "l10": "6-3-1",
    "strk": "3-0-0-0",
-   "lseq": 19,
-   "cseq": 9,
-   "dseq": 4
+   "lseq": 20,
+   "cseq": 10,
+   "dseq": 5
   },
   {
    "abbr": "TOR",
@@ -5262,18 +5262,18 @@
    "nick": "Marlies",
    "div": "North",
    "conf": "Eastern",
-   "gp": 15,
+   "gp": 16,
    "w": 8,
-   "l": 4,
+   "l": 5,
    "otl": 3,
    "pts": 19,
    "gf": 50,
    "ga": 47,
    "diff": 3,
    "l10": "4-3-3",
-   "strk": "2-0-2-0",
-   "lseq": 9,
-   "cseq": 3,
+   "strk": "0-1-0-0",
+   "lseq": 10,
+   "cseq": 4,
    "dseq": 3
   },
   {
@@ -5297,6 +5297,26 @@
    "dseq": 6
   },
   {
+   "abbr": "PRO",
+   "name": "Providence Bruins",
+   "nick": "Bruins",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 17,
+   "w": 9,
+   "l": 8,
+   "otl": 0,
+   "pts": 18,
+   "gf": 58,
+   "ga": 50,
+   "diff": 8,
+   "l10": "7-3-0",
+   "strk": "3-0-0-0",
+   "lseq": 17,
+   "cseq": 8,
+   "dseq": 4
+  },
+  {
    "abbr": "BEL",
    "name": "Belleville Senators",
    "nick": "Senators",
@@ -5312,8 +5332,8 @@
    "diff": 0,
    "l10": "5-5-0",
    "strk": "1-0-0-0",
-   "lseq": 17,
-   "cseq": 8,
+   "lseq": 18,
+   "cseq": 9,
    "dseq": 5
   },
   {
@@ -5352,7 +5372,7 @@
    "diff": 4,
    "l10": "3-6-0-1",
    "strk": "0-2-0-0",
-   "lseq": 18,
+   "lseq": 19,
    "cseq": 10,
    "dseq": 7
   },
@@ -5414,26 +5434,6 @@
    "strk": "0-1-0-0",
    "lseq": 15,
    "cseq": 8,
-   "dseq": 5
-  },
-  {
-   "abbr": "PRO",
-   "name": "Providence Bruins",
-   "nick": "Bruins",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 16,
-   "w": 8,
-   "l": 8,
-   "otl": 0,
-   "pts": 16,
-   "gf": 58,
-   "ga": 50,
-   "diff": 8,
-   "l10": "7-3-0",
-   "strk": "2-0-0-0",
-   "lseq": 20,
-   "cseq": 10,
    "dseq": 5
   },
   {
@@ -5754,5 +5754,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-15T22:45:17Z"
+ "updated": "2026-11-15T23:00:15Z"
 }

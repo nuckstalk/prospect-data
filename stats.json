@@ -6902,6 +6902,26 @@
    "lseq": 14
   },
   {
+   "abbr": "UTA",
+   "name": "Utah Mammoth",
+   "nick": "Mammoth",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 21,
+   "w": 10,
+   "l": 8,
+   "otl": 3,
+   "pts": 23,
+   "gf": 71,
+   "ga": 75,
+   "diff": -4,
+   "l10": "3-4-3",
+   "strk": "OT2",
+   "dseq": 5,
+   "cseq": 7,
+   "lseq": 15
+  },
+  {
    "abbr": "WPG",
    "name": "Winnipeg Jets",
    "nick": "Jets",
@@ -6917,26 +6937,6 @@
    "diff": -6,
    "l10": "6-4-0",
    "strk": "W6",
-   "dseq": 5,
-   "cseq": 7,
-   "lseq": 15
-  },
-  {
-   "abbr": "UTA",
-   "name": "Utah Mammoth",
-   "nick": "Mammoth",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 20,
-   "w": 10,
-   "l": 8,
-   "otl": 2,
-   "pts": 22,
-   "gf": 66,
-   "ga": 69,
-   "diff": -3,
-   "l10": "3-5-2",
-   "strk": "OT1",
    "dseq": 6,
    "cseq": 8,
    "lseq": 16
@@ -7042,6 +7042,26 @@
    "lseq": 21
   },
   {
+   "abbr": "SJS",
+   "name": "San Jose Sharks",
+   "nick": "Sharks",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 22,
+   "w": 9,
+   "l": 11,
+   "otl": 2,
+   "pts": 20,
+   "gf": 59,
+   "ga": 79,
+   "diff": -20,
+   "l10": "3-6-1",
+   "strk": "W1",
+   "dseq": 4,
+   "cseq": 11,
+   "lseq": 22
+  },
+  {
    "abbr": "SEA",
    "name": "Seattle Kraken",
    "nick": "Kraken",
@@ -7057,9 +7077,9 @@
    "diff": -7,
    "l10": "4-6-0",
    "strk": "L3",
-   "dseq": 4,
-   "cseq": 11,
-   "lseq": 22
+   "dseq": 5,
+   "cseq": 12,
+   "lseq": 23
   },
   {
    "abbr": "DET",
@@ -7078,26 +7098,6 @@
    "l10": "4-6-0",
    "strk": "W1",
    "dseq": 7,
-   "cseq": 12,
-   "lseq": 23
-  },
-  {
-   "abbr": "SJS",
-   "name": "San Jose Sharks",
-   "nick": "Sharks",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 21,
-   "w": 8,
-   "l": 11,
-   "otl": 2,
-   "pts": 18,
-   "gf": 53,
-   "ga": 74,
-   "diff": -21,
-   "l10": "2-7-1",
-   "strk": "OT1",
-   "dseq": 5,
    "cseq": 12,
    "lseq": 24
   },
@@ -7296,5 +7296,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-15T04:00:19Z"
+ "updated": "2026-11-15T05:15:25Z"
 }

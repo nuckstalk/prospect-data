@@ -8,9 +8,9 @@
    "lg": "AHL",
    "gp": 15,
    "g": 6,
-   "a": 6,
-   "tp": 12,
-   "ppg": 0.8,
+   "a": 5,
+   "tp": 11,
+   "ppg": 0.7333333333333333,
    "pim": 4,
    "pm": 5
   },
@@ -30,13 +30,13 @@
    "ep": 3,
    "team": "Peterborough Petes",
    "lg": "OHL",
-   "gp": 19,
-   "g": 11,
+   "gp": 20,
+   "g": 13,
    "a": 14,
-   "tp": 25,
-   "ppg": 1.3157894736842106,
+   "tp": 27,
+   "ppg": 1.35,
    "pim": 10,
-   "pm": 1
+   "pm": 4
   },
   "Braeden Cootes": {
    "ep": 4,
@@ -78,13 +78,13 @@
    "ep": 7,
    "team": "Oshawa Generals",
    "lg": "OHL",
-   "gp": 18,
-   "g": 3,
+   "gp": 19,
+   "g": 4,
    "a": 14,
-   "tp": 17,
-   "ppg": 0.9444444444444444,
+   "tp": 18,
+   "ppg": 0.9473684210526315,
    "pim": 13,
-   "pm": -1
+   "pm": 1
   },
   "Kieren Dervin": {
    "ep": 8,
@@ -126,13 +126,13 @@
    "ep": 11,
    "team": "Kitchener Rangers",
    "lg": "OHL",
-   "gp": 4,
-   "g": 0,
+   "gp": 5,
+   "g": 1,
    "a": 2,
-   "tp": 2,
-   "ppg": 0.5,
-   "pim": 4,
-   "pm": 2,
+   "tp": 3,
+   "ppg": 0.6,
+   "pim": 6,
+   "pm": 5,
    "splits": [
     {
      "team": "Abbotsford Canucks",
@@ -145,10 +145,10 @@
     {
      "team": "Kitchener Rangers",
      "lg": "OHL",
-     "gp": 2,
-     "g": 0,
+     "gp": 3,
+     "g": 1,
      "a": 1,
-     "tp": 1
+     "tp": 2
     }
    ]
   },
@@ -206,9 +206,9 @@
    "lg": "AHL",
    "gp": 10,
    "g": 0,
-   "a": 8,
-   "tp": 8,
-   "ppg": 0.8,
+   "a": 9,
+   "tp": 9,
+   "ppg": 0.9,
    "pim": 6,
    "pm": 4
   },
@@ -345,12 +345,12 @@
   "Alexei Medvedev": {
    "team": "Peterborough Petes",
    "lg": "OHL",
-   "gp": 10,
-   "gaa": 3.13,
-   "svp": ".899",
+   "gp": 11,
+   "gaa": 3.03,
+   "svp": ".901",
    "so": 0,
    "rec": "5-3-2",
-   "toi": 593.77,
+   "toi": 633.77,
    "splits": [
     {
      "team": "London Knights",
@@ -365,12 +365,12 @@
     {
      "team": "Peterborough Petes",
      "lg": "OHL",
-     "gp": 2,
-     "gaa": 1.97,
+     "gp": 3,
+     "gaa": 1.86,
      "svp": ".934",
      "so": 0,
      "rec": "2-0-0",
-     "toi": 121.58
+     "toi": 161.58
     }
    ]
   },
@@ -401,6 +401,57 @@
      "sg": 2,
      "sa": 1,
      "stp": 3
+    },
+    {
+     "k": "S",
+     "name": "Adam Novotný",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 2,
+     "da": 0,
+     "dtp": 2,
+     "sgp": 20,
+     "sg": 13,
+     "sa": 14,
+     "stp": 27
+    },
+    {
+     "k": "S",
+     "name": "Brooks Rogowski",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 1,
+     "da": 0,
+     "dtp": 1,
+     "sgp": 19,
+     "sg": 4,
+     "sa": 14,
+     "stp": 18
+    },
+    {
+     "k": "S",
+     "name": "Gabriel Chiarot",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 1,
+     "da": 0,
+     "dtp": 1,
+     "sgp": 5,
+     "sg": 1,
+     "sa": 2,
+     "stp": 3
+    },
+    {
+     "k": "G",
+     "name": "Alexei Medvedev",
+     "lg": "OHL",
+     "dgp": 1,
+     "res": "",
+     "gaa": 3.03,
+     "svp": ".901",
+     "sgp": 11,
+     "rec0": "5-3-2",
+     "ga": 1
     }
    ]
   },
@@ -530,12 +581,12 @@
      "lg": "AHL",
      "dgp": 1,
      "dg": 0,
-     "da": 1,
-     "dtp": 1,
+     "da": 0,
+     "dtp": 0,
      "sgp": 15,
      "sg": 6,
-     "sa": 6,
-     "stp": 12
+     "sa": 5,
+     "stp": 11
     },
     {
      "k": "S",
@@ -582,12 +633,12 @@
      "lg": "AHL",
      "dgp": 1,
      "dg": 0,
-     "da": 1,
-     "dtp": 1,
+     "da": 2,
+     "dtp": 2,
      "sgp": 10,
      "sg": 0,
-     "sa": 8,
-     "stp": 8
+     "sa": 9,
+     "stp": 9
     },
     {
      "k": "S",

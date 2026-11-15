@@ -312,11 +312,11 @@
    "ep": 27,
    "team": "Lausanne HC",
    "lg": "NL",
-   "gp": 19,
+   "gp": 20,
    "g": 2,
    "a": 1,
    "tp": 3,
-   "ppg": 0.15789473684210525,
+   "ppg": 0.15,
    "pim": 52,
    "pm": -5
   }
@@ -386,6 +386,24 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-11-15",
+   "items": [
+    {
+     "k": "S",
+     "name": "Basile Sansonnens",
+     "lg": "NL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 20,
+     "sg": 2,
+     "sa": 1,
+     "stp": 3
+    }
+   ]
+  },
   {
    "date": "2026-11-14",
    "items": [
@@ -1095,254 +1113,6 @@
      "sg": 3,
      "sa": 14,
      "stp": 17
-    }
-   ]
-  },
-  {
-   "date": "2026-11-07",
-   "items": [
-    {
-     "k": "S",
-     "name": "Caleb Malhotra",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 10,
-     "sg": 3,
-     "sa": 4,
-     "stp": 7
-    },
-    {
-     "k": "S",
-     "name": "Niklas Aaram-Olsen",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 10,
-     "sg": 1,
-     "sa": 3,
-     "stp": 4
-    },
-    {
-     "k": "S",
-     "name": "Anthony Romani",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 1,
-     "dtp": 1,
-     "sgp": 8,
-     "sg": 7,
-     "sa": 5,
-     "stp": 12
-    },
-    {
-     "k": "S",
-     "name": "Lucian Bernat",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 1,
-     "dtp": 1,
-     "sgp": 15,
-     "sg": 4,
-     "sa": 8,
-     "stp": 12
-    },
-    {
-     "k": "G",
-     "name": "Aku Koskenvuo",
-     "lg": "ECHL",
-     "dgp": 1,
-     "res": "W",
-     "gaa": 2.57,
-     "svp": ".929",
-     "sgp": 5,
-     "ga": 0
-    },
-    {
-     "k": "S",
-     "name": "Riley Patterson",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 12,
-     "sg": 4,
-     "sa": 5,
-     "stp": 9
-    },
-    {
-     "k": "S",
-     "name": "Braeden Cootes",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 8,
-     "sg": 3,
-     "sa": 4,
-     "stp": 7
-    },
-    {
-     "k": "S",
-     "name": "Connor Davis",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 8,
-     "sg": 1,
-     "sa": 3,
-     "stp": 4
-    },
-    {
-     "k": "S",
-     "name": "Ty Mueller",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 12,
-     "sg": 7,
-     "sa": 4,
-     "stp": 11
-    },
-    {
-     "k": "S",
-     "name": "Sawyer Mynio",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 11,
-     "sg": 1,
-     "sa": 6,
-     "stp": 7
-    },
-    {
-     "k": "S",
-     "name": "Kirill Kudryavtsev",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 7,
-     "sg": 0,
-     "sa": 6,
-     "stp": 6
-    },
-    {
-     "k": "S",
-     "name": "Wilson Björck",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 1,
-     "dtp": 1,
-     "sgp": 10,
-     "sg": 1,
-     "sa": 8,
-     "stp": 9
-    },
-    {
-     "k": "S",
-     "name": "Vilmer Alriksson",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 12,
-     "sg": 3,
-     "sa": 1,
-     "stp": 4
-    },
-    {
-     "k": "S",
-     "name": "Matthew Perkins",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 1,
-     "dtp": 1,
-     "sgp": 1,
-     "sg": 0,
-     "sa": 1,
-     "stp": 1
-    },
-    {
-     "k": "S",
-     "name": "Daimon Gardner",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 7,
-     "sg": 0,
-     "sa": 0,
-     "stp": 0
-    },
-    {
-     "k": "S",
-     "name": "Anri Ravinskis",
-     "lg": "AHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 10,
-     "sg": 0,
-     "sa": 5,
-     "stp": 5
-    },
-    {
-     "k": "G",
-     "name": "Ty Young",
-     "lg": "AHL",
-     "dgp": 1,
-     "res": "L",
-     "gaa": 2.72,
-     "svp": ".908",
-     "sgp": 4,
-     "ga": 2
-    },
-    {
-     "k": "S",
-     "name": "Matthew Lansing",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 9,
-     "sg": 1,
-     "sa": 2,
-     "stp": 3
-    },
-    {
-     "k": "S",
-     "name": "Yaroslav Bryzgalov",
-     "lg": "WHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 1,
-     "dtp": 1,
-     "sgp": 15,
-     "sg": 4,
-     "sa": 5,
-     "stp": 9
     }
    ]
   }

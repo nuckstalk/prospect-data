@@ -66,13 +66,13 @@
    "ep": 6,
    "team": "Medicine Hat Tigers",
    "lg": "WHL",
-   "gp": 16,
-   "g": 5,
-   "a": 5,
-   "tp": 10,
-   "ppg": 0.625,
-   "pim": 16,
-   "pm": 2
+   "gp": 17,
+   "g": 6,
+   "a": 6,
+   "tp": 12,
+   "ppg": 0.7058823529411765,
+   "pim": 20,
+   "pm": 4
   },
   "Brooks Rogowski": {
    "ep": 7,
@@ -156,11 +156,11 @@
    "ep": 12,
    "team": "Owen Sound Attack",
    "lg": "OHL",
-   "gp": 16,
+   "gp": 17,
    "g": 4,
    "a": 8,
    "tp": 12,
-   "ppg": 0.75,
+   "ppg": 0.7058823529411765,
    "pim": 10,
    "pm": -7
   },
@@ -216,12 +216,12 @@
    "ep": 18,
    "team": "Quinnipiac",
    "lg": "NCAA",
-   "gp": 10,
+   "gp": 11,
    "g": 1,
    "a": 2,
    "tp": 3,
-   "ppg": 0.3,
-   "pim": 8,
+   "ppg": 0.2727272727272727,
+   "pim": 12,
    "pm": 0
   },
   "Wilson Björck": {
@@ -453,6 +453,45 @@
      "sg": 0,
      "sa": 0,
      "stp": 0
+    },
+    {
+     "k": "S",
+     "name": "Yaroslav Bryzgalov",
+     "lg": "WHL",
+     "dgp": 1,
+     "dg": 1,
+     "da": 1,
+     "dtp": 2,
+     "sgp": 17,
+     "sg": 6,
+     "sa": 6,
+     "stp": 12
+    },
+    {
+     "k": "S",
+     "name": "Lucian Bernat",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 17,
+     "sg": 4,
+     "sa": 8,
+     "stp": 12
+    },
+    {
+     "k": "S",
+     "name": "Matthew Lansing",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 11,
+     "sg": 1,
+     "sa": 2,
+     "stp": 3
     }
    ]
   },

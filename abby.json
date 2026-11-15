@@ -5034,8 +5034,8 @@
    "diff": -4,
    "l10": "6-3-1",
    "strk": "3-0-0-0",
-   "lseq": 18,
-   "cseq": 8,
+   "lseq": 19,
+   "cseq": 9,
    "dseq": 4
   },
   {
@@ -5099,6 +5099,26 @@
    "dseq": 2
   },
   {
+   "abbr": "BEL",
+   "name": "Belleville Senators",
+   "nick": "Senators",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 17,
+   "w": 8,
+   "l": 7,
+   "otl": 2,
+   "pts": 18,
+   "gf": 48,
+   "ga": 48,
+   "diff": 0,
+   "l10": "5-5-0",
+   "strk": "1-0-0-0",
+   "lseq": 17,
+   "cseq": 8,
+   "dseq": 5
+  },
+  {
    "abbr": "HSK",
    "name": "Henderson Silver Knights",
    "nick": "Silver Knights",
@@ -5134,7 +5154,7 @@
    "diff": 4,
    "l10": "3-6-0-1",
    "strk": "0-2-0-0",
-   "lseq": 17,
+   "lseq": 18,
    "cseq": 10,
    "dseq": 7
   },
@@ -5214,8 +5234,8 @@
    "diff": 8,
    "l10": "7-3-0",
    "strk": "2-0-0-0",
-   "lseq": 19,
-   "cseq": 9,
+   "lseq": 20,
+   "cseq": 10,
    "dseq": 5
   },
   {
@@ -5237,26 +5257,6 @@
    "lseq": 14,
    "cseq": 7,
    "dseq": 4
-  },
-  {
-   "abbr": "BEL",
-   "name": "Belleville Senators",
-   "nick": "Senators",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 16,
-   "w": 7,
-   "l": 7,
-   "otl": 2,
-   "pts": 16,
-   "gf": 48,
-   "ga": 48,
-   "diff": 0,
-   "l10": "5-5-0",
-   "strk": "0-2-0-0",
-   "lseq": 20,
-   "cseq": 10,
-   "dseq": 5
   },
   {
    "abbr": "SYR",
@@ -5314,7 +5314,7 @@
    "diff": -10,
    "l10": "6-3-0-1",
    "strk": "2-0-0-0",
-   "lseq": 24,
+   "lseq": 23,
    "cseq": 12,
    "dseq": 4
   },
@@ -5364,17 +5364,17 @@
    "nick": "Monsters",
    "div": "North",
    "conf": "Eastern",
-   "gp": 14,
+   "gp": 15,
    "w": 7,
-   "l": 7,
+   "l": 8,
    "otl": 0,
    "pts": 14,
    "gf": 44,
    "ga": 54,
    "diff": -10,
-   "l10": "4-6-0",
-   "strk": "1-0-0-0",
-   "lseq": 23,
+   "l10": "3-7-0",
+   "strk": "0-1-0-0",
+   "lseq": 24,
    "cseq": 12,
    "dseq": 7
   },
@@ -5506,7 +5506,7 @@
   },
   "ga": {
    "v": 2.93,
-   "rank": 15
+   "rank": 16
   },
   "pt": {
    "v": 66.7,
@@ -5556,5 +5556,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-15T20:26:03Z"
+ "updated": "2026-11-15T21:00:17Z"
 }

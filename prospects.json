@@ -346,11 +346,11 @@
    "team": "Peterborough Petes",
    "lg": "OHL",
    "gp": 11,
-   "gaa": 3.03,
-   "svp": ".901",
+   "gaa": 2.94,
+   "svp": ".904",
    "so": 0,
-   "rec": "5-3-2",
-   "toi": 633.77,
+   "rec": "6-3-2",
+   "toi": 653.77,
    "splits": [
     {
      "team": "London Knights",
@@ -366,11 +366,11 @@
      "team": "Peterborough Petes",
      "lg": "OHL",
      "gp": 3,
-     "gaa": 1.86,
-     "svp": ".934",
+     "gaa": 1.65,
+     "svp": ".943",
      "so": 0,
-     "rec": "2-0-0",
-     "toi": 161.58
+     "rec": "3-0-0",
+     "toi": 181.58
     }
    ]
   },
@@ -446,11 +446,10 @@
      "name": "Alexei Medvedev",
      "lg": "OHL",
      "dgp": 1,
-     "res": "",
-     "gaa": 3.03,
-     "svp": ".901",
+     "res": "W",
+     "gaa": 2.94,
+     "svp": ".904",
      "sgp": 11,
-     "rec0": "5-3-2",
      "ga": 1
     }
    ]

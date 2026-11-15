@@ -6942,24 +6942,44 @@
    "lseq": 16
   },
   {
+   "abbr": "NYI",
+   "name": "New York Islanders",
+   "nick": "Islanders",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 19,
+   "w": 9,
+   "l": 6,
+   "otl": 4,
+   "pts": 22,
+   "gf": 60,
+   "ga": 56,
+   "diff": 4,
+   "l10": "4-3-3",
+   "strk": "W2",
+   "dseq": 4,
+   "cseq": 9,
+   "lseq": 17
+  },
+  {
    "abbr": "ANA",
    "name": "Anaheim Ducks",
    "nick": "Ducks",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 19,
+   "gp": 20,
    "w": 10,
-   "l": 8,
+   "l": 9,
    "otl": 1,
    "pts": 21,
-   "gf": 71,
-   "ga": 70,
-   "diff": 1,
+   "gf": 73,
+   "ga": 76,
+   "diff": -3,
    "l10": "6-3-1",
-   "strk": "L1",
+   "strk": "L2",
    "dseq": 3,
    "cseq": 9,
-   "lseq": 17
+   "lseq": 18
   },
   {
    "abbr": "WSH",
@@ -6977,26 +6997,6 @@
    "diff": -3,
    "l10": "5-5-0",
    "strk": "L2",
-   "dseq": 4,
-   "cseq": 9,
-   "lseq": 18
-  },
-  {
-   "abbr": "NYI",
-   "name": "New York Islanders",
-   "nick": "Islanders",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 18,
-   "w": 8,
-   "l": 6,
-   "otl": 4,
-   "pts": 20,
-   "gf": 54,
-   "ga": 54,
-   "diff": 0,
-   "l10": "4-3-3",
-   "strk": "W1",
    "dseq": 5,
    "cseq": 10,
    "lseq": 19
@@ -7273,7 +7273,7 @@
   },
   "pp": {
    "v": 19.4,
-   "rank": 23
+   "rank": 24
   },
   "pk": {
    "v": 62.7,
@@ -7296,5 +7296,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-15T05:15:25Z"
+ "updated": "2026-11-15T05:45:14Z"
 }

@@ -6722,26 +6722,6 @@
    "lseq": 5
   },
   {
-   "abbr": "MTL",
-   "name": "Montréal Canadiens",
-   "nick": "Canadiens",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 19,
-   "w": 12,
-   "l": 3,
-   "otl": 4,
-   "pts": 28,
-   "gf": 67,
-   "ga": 57,
-   "diff": 10,
-   "l10": "8-0-2",
-   "strk": "W1",
-   "dseq": 1,
-   "cseq": 3,
-   "lseq": 6
-  },
-  {
    "abbr": "TBL",
    "name": "Tampa Bay Lightning",
    "nick": "Lightning",
@@ -6757,9 +6737,49 @@
    "diff": 15,
    "l10": "6-2-2",
    "strk": "L1",
+   "dseq": 1,
+   "cseq": 3,
+   "lseq": 6
+  },
+  {
+   "abbr": "MTL",
+   "name": "Montréal Canadiens",
+   "nick": "Canadiens",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 20,
+   "w": 12,
+   "l": 4,
+   "otl": 4,
+   "pts": 28,
+   "gf": 68,
+   "ga": 61,
+   "diff": 7,
+   "l10": "7-1-2",
+   "strk": "L1",
    "dseq": 2,
    "cseq": 4,
    "lseq": 7
+  },
+  {
+   "abbr": "OTT",
+   "name": "Ottawa Senators",
+   "nick": "Senators",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 21,
+   "w": 13,
+   "l": 6,
+   "otl": 2,
+   "pts": 28,
+   "gf": 68,
+   "ga": 61,
+   "diff": 7,
+   "l10": "6-2-2",
+   "strk": "W2",
+   "dseq": 3,
+   "cseq": 5,
+   "lseq": 8
   },
   {
    "abbr": "BOS",
@@ -6777,9 +6797,9 @@
    "diff": 20,
    "l10": "6-4-0",
    "strk": "L2",
-   "dseq": 3,
-   "cseq": 5,
-   "lseq": 8
+   "dseq": 4,
+   "cseq": 6,
+   "lseq": 9
   },
   {
    "abbr": "NSH",
@@ -6799,27 +6819,27 @@
    "strk": "W7",
    "dseq": 2,
    "cseq": 4,
-   "lseq": 9
+   "lseq": 10
   },
   {
-   "abbr": "OTT",
-   "name": "Ottawa Senators",
-   "nick": "Senators",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 20,
+   "abbr": "COL",
+   "name": "Colorado Avalanche",
+   "nick": "Avalanche",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 21,
    "w": 12,
    "l": 6,
-   "otl": 2,
-   "pts": 26,
-   "gf": 64,
-   "ga": 60,
-   "diff": 4,
-   "l10": "5-3-2",
+   "otl": 3,
+   "pts": 27,
+   "gf": 85,
+   "ga": 64,
+   "diff": 21,
+   "l10": "6-2-2",
    "strk": "W1",
-   "dseq": 4,
-   "cseq": 6,
-   "lseq": 10
+   "dseq": 3,
+   "cseq": 5,
+   "lseq": 11
   },
   {
    "abbr": "FLA",
@@ -6839,26 +6859,6 @@
    "strk": "W3",
    "dseq": 5,
    "cseq": 7,
-   "lseq": 11
-  },
-  {
-   "abbr": "COL",
-   "name": "Colorado Avalanche",
-   "nick": "Avalanche",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 20,
-   "w": 11,
-   "l": 6,
-   "otl": 3,
-   "pts": 25,
-   "gf": 81,
-   "ga": 63,
-   "diff": 18,
-   "l10": "6-2-2",
-   "strk": "OT1",
-   "dseq": 3,
-   "cseq": 5,
    "lseq": 12
   },
   {
@@ -7167,16 +7167,16 @@
    "nick": "Penguins",
    "div": "Metropolitan",
    "conf": "Eastern",
-   "gp": 19,
+   "gp": 20,
    "w": 7,
-   "l": 10,
+   "l": 11,
    "otl": 2,
    "pts": 16,
-   "gf": 61,
-   "ga": 67,
-   "diff": -6,
+   "gf": 62,
+   "ga": 71,
+   "diff": -9,
    "l10": "4-5-1",
-   "strk": "W1",
+   "strk": "L1",
    "dseq": 7,
    "cseq": 15,
    "lseq": 28
@@ -7265,7 +7265,7 @@
  "team": {
   "gf": {
    "v": 2.71,
-   "rank": 26
+   "rank": 25
   },
   "ga": {
    "v": 4.52,
@@ -7296,5 +7296,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-15T03:00:16Z"
+ "updated": "2026-11-15T03:15:14Z"
 }

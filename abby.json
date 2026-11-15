@@ -4570,9 +4570,9 @@
     [
      "2026-11-14",
      "",
-     8,
+     10,
      3,
-     1031,
+     1200,
      0,
      1
     ],
@@ -4842,7 +4842,7 @@
    "diff": 4,
    "l10": "5-4-1",
    "strk": "1-0-0-0",
-   "lseq": 8,
+   "lseq": 9,
    "cseq": 4,
    "dseq": 1
   },
@@ -4907,6 +4907,26 @@
    "dseq": 2
   },
   {
+   "abbr": "MIL",
+   "name": "Milwaukee Admirals",
+   "nick": "Admirals",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 15,
+   "w": 9,
+   "l": 5,
+   "otl": 1,
+   "pts": 19,
+   "gf": 38,
+   "ga": 33,
+   "diff": 5,
+   "l10": "5-4-1",
+   "strk": "2-0-1-0",
+   "lseq": 7,
+   "cseq": 5,
+   "dseq": 3
+  },
+  {
    "abbr": "TOR",
    "name": "Toronto Marlies",
    "nick": "Marlies",
@@ -4922,7 +4942,7 @@
    "diff": 4,
    "l10": "4-3-3",
    "strk": "2-0-2-0",
-   "lseq": 7,
+   "lseq": 8,
    "cseq": 3,
    "dseq": 3
   },
@@ -5025,26 +5045,6 @@
    "lseq": 12,
    "cseq": 6,
    "dseq": 4
-  },
-  {
-   "abbr": "MIL",
-   "name": "Milwaukee Admirals",
-   "nick": "Admirals",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 14,
-   "w": 8,
-   "l": 5,
-   "otl": 1,
-   "pts": 17,
-   "gf": 38,
-   "ga": 33,
-   "diff": 5,
-   "l10": "5-4-1",
-   "strk": "1-0-1-0",
-   "lseq": 10,
-   "cseq": 6,
-   "dseq": 3
   },
   {
    "abbr": "WBS",
@@ -5162,8 +5162,8 @@
    "diff": 2,
    "l10": "7-3-0",
    "strk": "0-1-0-0",
-   "lseq": 9,
-   "cseq": 5,
+   "lseq": 10,
+   "cseq": 6,
    "dseq": 3
   },
   {
@@ -5252,16 +5252,16 @@
    "nick": "Wolves",
    "div": "Central",
    "conf": "Western",
-   "gp": 13,
+   "gp": 14,
    "w": 6,
-   "l": 6,
+   "l": 7,
    "otl": 1,
    "pts": 13,
    "gf": 38,
    "ga": 49,
    "diff": -11,
    "l10": "6-3-0-1",
-   "strk": "1-0-0-0",
+   "strk": "0-1-0-0",
    "lseq": 23,
    "cseq": 11,
    "dseq": 4
@@ -5472,5 +5472,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-15T02:45:16Z"
+ "updated": "2026-11-15T03:00:18Z"
 }

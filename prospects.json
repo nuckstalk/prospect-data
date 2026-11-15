@@ -240,12 +240,12 @@
    "ep": 20,
    "team": "Färjestad BK U20",
    "lg": "U20",
-   "gp": 19,
+   "gp": 20,
    "g": 1,
    "a": 1,
    "tp": 2,
-   "ppg": 0.10526315789473684,
-   "pim": 31,
+   "ppg": 0.1,
+   "pim": 33,
    "pm": 6
   },
   "Vilmer Alriksson": {
@@ -393,11 +393,11 @@
      "k": "S",
      "name": "Samuel Eriksson",
      "lg": "U20",
-     "dgp": 1,
+     "dgp": 2,
      "dg": 0,
      "da": 0,
      "dtp": 0,
-     "sgp": 19,
+     "sgp": 20,
      "sg": 1,
      "sa": 1,
      "stp": 2
@@ -1346,9 +1346,5 @@
     }
    ]
   }
- ],
- "status": {
-  "msg": "FETCH FAILED: urllib: HTTP Error 403: Forbidden; chrome: HTTP 403; safari: HTTP 403; edge: HTTP 403",
-  "at": "2026-11-15T13:45Z"
- }
+ ]
 }

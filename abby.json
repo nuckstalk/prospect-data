@@ -5266,7 +5266,15 @@
    "opp": "Tucson Roadrunners",
    "home": true,
    "live": false
+  },
+  {
+   "iso": "2026-11-21T17:00:00-07:00",
+   "date": "Sat Nov 21",
+   "time": "5:00 PM PT",
+   "opp": "Tucson Roadrunners",
+   "home": true,
+   "live": false
   }
  ],
- "updated": "2026-11-14T23:45:20Z"
+ "updated": "2026-11-15T00:00:16Z"
 }

@@ -5074,9 +5074,9 @@
    "diff": 3,
    "l10": "4-6-0",
    "strk": "0-1-0-0",
-   "lseq": 17,
-   "cseq": 10,
-   "dseq": 7
+   "lseq": 16,
+   "cseq": 9,
+   "dseq": 6
   },
   {
    "abbr": "HER",
@@ -5124,19 +5124,19 @@
    "nick": "Eagles",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 16,
+   "gp": 17,
    "w": 8,
-   "l": 6,
+   "l": 7,
    "otl": 2,
    "pts": 18,
    "gf": 50,
    "ga": 46,
    "diff": 4,
-   "l10": "4-5-0-1",
-   "strk": "0-1-0-0",
-   "lseq": 14,
-   "cseq": 7,
-   "dseq": 4
+   "l10": "3-6-0-1",
+   "strk": "0-2-0-0",
+   "lseq": 17,
+   "cseq": 10,
+   "dseq": 7
   },
   {
    "abbr": "ROC",
@@ -5194,9 +5194,9 @@
    "diff": 2,
    "l10": "5-3-2",
    "strk": "0-1-0-0",
-   "lseq": 16,
-   "cseq": 9,
-   "dseq": 6
+   "lseq": 15,
+   "cseq": 8,
+   "dseq": 5
   },
   {
    "abbr": "PRO",
@@ -5234,9 +5234,9 @@
    "diff": -7,
    "l10": "4-4-1-1",
    "strk": "1-0-1-0",
-   "lseq": 15,
-   "cseq": 8,
-   "dseq": 5
+   "lseq": 14,
+   "cseq": 7,
+   "dseq": 4
   },
   {
    "abbr": "BEL",
@@ -5334,8 +5334,8 @@
    "diff": -9,
    "l10": "3-6-1",
    "strk": "0-3-0-0",
-   "lseq": 29,
-   "cseq": 15,
+   "lseq": 30,
+   "cseq": 16,
    "dseq": 6
   },
   {
@@ -5394,7 +5394,7 @@
    "diff": -19,
    "l10": "5-4-0-1",
    "strk": "1-0-0-0",
-   "lseq": 30,
+   "lseq": 31,
    "cseq": 15,
    "dseq": 8
   },
@@ -5459,6 +5459,26 @@
    "dseq": 7
   },
   {
+   "abbr": "BAK",
+   "name": "Bakersfield Condors",
+   "nick": "Condors",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 14,
+   "w": 5,
+   "l": 7,
+   "otl": 2,
+   "pts": 12,
+   "gf": 34,
+   "ga": 41,
+   "diff": -7,
+   "l10": "3-5-1-1",
+   "strk": "1-0-0-1",
+   "lseq": 29,
+   "cseq": 15,
+   "dseq": 10
+  },
+  {
    "abbr": "TEX",
    "name": "Texas Stars",
    "nick": "Stars",
@@ -5477,26 +5497,6 @@
    "lseq": 32,
    "cseq": 17,
    "dseq": 7
-  },
-  {
-   "abbr": "BAK",
-   "name": "Bakersfield Condors",
-   "nick": "Condors",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 13,
-   "w": 4,
-   "l": 7,
-   "otl": 2,
-   "pts": 10,
-   "gf": 34,
-   "ga": 41,
-   "diff": -7,
-   "l10": "3-5-1-1",
-   "strk": "0-2-0-1",
-   "lseq": 31,
-   "cseq": 16,
-   "dseq": 10
   }
  ],
  "team": {
@@ -5506,7 +5506,7 @@
   },
   "ga": {
    "v": 2.93,
-   "rank": 15
+   "rank": 16
   },
   "pt": {
    "v": 66.7,
@@ -5556,5 +5556,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-15T05:45:17Z"
+ "updated": "2026-11-15T06:00:20Z"
 }

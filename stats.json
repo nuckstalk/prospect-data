@@ -6902,6 +6902,26 @@
    "lseq": 14
   },
   {
+   "abbr": "ANA",
+   "name": "Anaheim Ducks",
+   "nick": "Ducks",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 21,
+   "w": 11,
+   "l": 9,
+   "otl": 1,
+   "pts": 23,
+   "gf": 79,
+   "ga": 77,
+   "diff": 2,
+   "l10": "6-3-1",
+   "strk": "W1",
+   "dseq": 3,
+   "cseq": 7,
+   "lseq": 15
+  },
+  {
    "abbr": "UTA",
    "name": "Utah Mammoth",
    "nick": "Mammoth",
@@ -6918,8 +6938,8 @@
    "l10": "3-4-3",
    "strk": "OT2",
    "dseq": 5,
-   "cseq": 7,
-   "lseq": 15
+   "cseq": 8,
+   "lseq": 16
   },
   {
    "abbr": "WPG",
@@ -6938,8 +6958,8 @@
    "l10": "6-4-0",
    "strk": "W6",
    "dseq": 6,
-   "cseq": 8,
-   "lseq": 16
+   "cseq": 9,
+   "lseq": 17
   },
   {
    "abbr": "NYI",
@@ -6958,26 +6978,6 @@
    "l10": "4-3-3",
    "strk": "W2",
    "dseq": 4,
-   "cseq": 9,
-   "lseq": 17
-  },
-  {
-   "abbr": "ANA",
-   "name": "Anaheim Ducks",
-   "nick": "Ducks",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 20,
-   "w": 10,
-   "l": 9,
-   "otl": 1,
-   "pts": 21,
-   "gf": 73,
-   "ga": 76,
-   "diff": -3,
-   "l10": "6-3-1",
-   "strk": "L2",
-   "dseq": 3,
    "cseq": 9,
    "lseq": 18
   },
@@ -7087,16 +7087,16 @@
    "nick": "Flames",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 20,
+   "gp": 21,
    "w": 9,
-   "l": 10,
+   "l": 11,
    "otl": 1,
    "pts": 19,
-   "gf": 50,
-   "ga": 68,
-   "diff": -18,
-   "l10": "5-4-1",
-   "strk": "W1",
+   "gf": 51,
+   "ga": 74,
+   "diff": -23,
+   "l10": "4-5-1",
+   "strk": "L1",
    "dseq": 6,
    "cseq": 13,
    "lseq": 24
@@ -7296,5 +7296,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-16T03:30:19Z"
+ "updated": "2026-11-16T03:45:16Z"
 }

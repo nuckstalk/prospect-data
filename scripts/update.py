@@ -640,6 +640,15 @@ except NameError:
     pass
 
 # ---- Prospect Watch: log who played since the last run, filed under the Pacific game date ----
+def ahl_res(row):
+    # AHL logs shootout losses as OTL. A goalie who plays the full 65:00 (60 + 5 OT) lost it in the shootout: SOL
+    r = row[1]
+    try:
+        if r == "OTL" and float(row[4]) >= 3900: return "SOL"
+    except Exception:
+        pass
+    return r
+
 def parse_rec(r):
     try:
         a = [int(x) for x in str(r).split("-")]
@@ -680,7 +689,7 @@ for n, r in data["goalies"].items():
         if ag and ag.get("log"):   # AHL game log has the decision and goals against for every game
             lastg = ag["log"][:dgp]
             item["ga"] = sum(x[3] for x in lastg)
-            if dgp == 1 and lastg[0][1]: item["res"] = lastg[0][1]; item.pop("rec0", None)
+            if dgp == 1 and lastg[0][1]: item["res"] = ahl_res(lastg[0]); item.pop("rec0", None)
         if r.get("so", 0) > o.get("so", 0):
             item["so"] = r["so"] - o.get("so", 0)
             if item["so"] == dgp: item["ga"] = 0
@@ -736,9 +745,9 @@ for d in watch:
         if ag and ag.get("log") and it.get("dgp") == 1:
             hit = [x for x in ag["log"] if x[0] == d["date"]]
             if len(hit) == 1:
-                if it.get("ga") != hit[0][3] or (hit[0][1] and it.get("res") != hit[0][1]):
+                if it.get("ga") != hit[0][3] or (hit[0][1] and it.get("res") != ahl_res(hit[0])):
                     it["ga"] = hit[0][3]
-                    if hit[0][1]: it["res"] = hit[0][1]
+                    if hit[0][1]: it["res"] = ahl_res(hit[0])
                     it.pop("rec0", None)
                     print("AHL game log applied:", it["name"], d["date"], it["res"], it["ga"], "GA")
             if _last_g.get(it["name"]) is it:   # his latest game: keep the season SV% / GAA on the card current

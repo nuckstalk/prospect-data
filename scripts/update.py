@@ -727,6 +727,12 @@ for d in watch:
 for d in watch:
     for it in d["items"]:
         ag = AHLG.get(norm(it["name"])) if it.get("k") == "G" and it.get("lg") == "AHL" else None
+        if ag and ag.get("log") and it.get("dgp", 1) > 1:   # EliteProspects sometimes counts an extra game: if the AHL log shows ONE game that date, trust the AHL
+            _h1 = [x for x in ag["log"] if x[0] == d["date"]]
+            if len(_h1) == 1:
+                it["dgp"] = 1
+                if _last_g.get(it["name"]) is it and ag.get("gp"): it["sgp"] = ag["gp"]
+                print("AHL games played corrected:", it["name"], d["date"], "-> 1 GP")
         if ag and ag.get("log") and it.get("dgp") == 1:
             hit = [x for x in ag["log"] if x[0] == d["date"]]
             if len(hit) == 1:

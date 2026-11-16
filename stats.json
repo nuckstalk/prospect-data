@@ -6847,19 +6847,39 @@
    "nick": "Panthers",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 21,
+   "gp": 22,
    "w": 12,
    "l": 7,
-   "otl": 2,
-   "pts": 26,
-   "gf": 69,
-   "ga": 61,
-   "diff": 8,
-   "l10": "7-3-0",
-   "strk": "W3",
+   "otl": 3,
+   "pts": 27,
+   "gf": 70,
+   "ga": 63,
+   "diff": 7,
+   "l10": "6-3-1",
+   "strk": "OT1",
    "dseq": 5,
    "cseq": 7,
    "lseq": 12
+  },
+  {
+   "abbr": "DAL",
+   "name": "Dallas Stars",
+   "nick": "Stars",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 20,
+   "w": 12,
+   "l": 6,
+   "otl": 2,
+   "pts": 26,
+   "gf": 56,
+   "ga": 50,
+   "diff": 6,
+   "l10": "6-3-1",
+   "strk": "W2",
+   "dseq": 4,
+   "cseq": 6,
+   "lseq": 13
   },
   {
    "abbr": "NYR",
@@ -6879,26 +6899,6 @@
    "strk": "W2",
    "dseq": 3,
    "cseq": 8,
-   "lseq": 13
-  },
-  {
-   "abbr": "DAL",
-   "name": "Dallas Stars",
-   "nick": "Stars",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 19,
-   "w": 11,
-   "l": 6,
-   "otl": 2,
-   "pts": 24,
-   "gf": 54,
-   "ga": 49,
-   "diff": 5,
-   "l10": "6-3-1",
-   "strk": "W1",
-   "dseq": 4,
-   "cseq": 6,
    "lseq": 14
   },
   {
@@ -7296,5 +7296,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-16T03:45:16Z"
+ "updated": "2026-11-16T04:00:16Z"
 }

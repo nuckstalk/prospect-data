@@ -4961,17 +4961,17 @@
   {
    "name": "Ty Young",
    "id": "10454",
-   "gp": 5,
+   "gp": 6,
    "gs": null,
    "w": 2,
    "l": 2,
-   "otl": 0,
-   "gaa": 2.72,
-   "svp": ".908",
+   "otl": 1,
+   "gaa": 2.34,
+   "svp": ".920",
    "so": 0,
-   "sa": 119,
-   "sv": 108,
-   "ga": 11,
+   "sa": 150,
+   "sv": 138,
+   "ga": 12,
    "img": "https://assets.leaguestat.com/ahl/240x240/10454.jpg",
    "bd": "2004-09-11",
    "career": [
@@ -5018,7 +5018,7 @@
    "log": [
     [
      "2026-11-15",
-     "",
+     "OTL",
      31,
      1,
      3900,
@@ -5161,9 +5161,9 @@
    "diff": 3,
    "l10": "5-4-1",
    "strk": "0-1-0-0",
-   "lseq": 11,
-   "cseq": 5,
-   "dseq": 2
+   "lseq": 12,
+   "cseq": 6,
+   "dseq": 3
   },
   {
    "abbr": "HER",
@@ -5211,16 +5211,16 @@
    "nick": "Canucks",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 15,
+   "gp": 16,
    "w": 9,
    "l": 4,
-   "otl": 2,
-   "pts": 20,
+   "otl": 3,
+   "pts": 21,
    "gf": 52,
    "ga": 45,
    "diff": 7,
-   "l10": "7-2-0-1",
-   "strk": "0-1-0-0",
+   "l10": "7-2-1-1",
+   "strk": "0-0-1-0",
    "lseq": 6,
    "cseq": 4,
    "dseq": 2
@@ -5244,6 +5244,26 @@
    "lseq": 8,
    "cseq": 6,
    "dseq": 3
+  },
+  {
+   "abbr": "WBS",
+   "name": "Wilkes-Barre/Scranton Penguins",
+   "nick": "Penguins",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 16,
+   "w": 8,
+   "l": 5,
+   "otl": 3,
+   "pts": 19,
+   "gf": 57,
+   "ga": 46,
+   "diff": 11,
+   "l10": "5-3-2",
+   "strk": "1-0-2-0",
+   "lseq": 11,
+   "cseq": 5,
+   "dseq": 2
   },
   {
    "abbr": "HFD",
@@ -5401,29 +5421,9 @@
    "diff": 9,
    "l10": "5-5-0",
    "strk": "1-0-0-0",
-   "lseq": 12,
-   "cseq": 6,
-   "dseq": 4
-  },
-  {
-   "abbr": "WBS",
-   "name": "Wilkes-Barre/Scranton Penguins",
-   "nick": "Penguins",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 15,
-   "w": 7,
-   "l": 5,
-   "otl": 3,
-   "pts": 17,
-   "gf": 57,
-   "ga": 46,
-   "diff": 11,
-   "l10": "5-3-2",
-   "strk": "0-1-2-0",
    "lseq": 13,
    "cseq": 7,
-   "dseq": 3
+   "dseq": 4
   },
   {
    "abbr": "SD",
@@ -5541,7 +5541,7 @@
    "diff": -9,
    "l10": "3-6-1",
    "strk": "0-3-0-0",
-   "lseq": 30,
+   "lseq": 29,
    "cseq": 16,
    "dseq": 6
   },
@@ -5621,7 +5621,7 @@
    "diff": -19,
    "l10": "4-4-1-1",
    "strk": "2-0-1-1",
-   "lseq": 31,
+   "lseq": 30,
    "cseq": 17,
    "dseq": 7
   },
@@ -5651,19 +5651,19 @@
    "nick": "Phantoms",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 15,
+   "gp": 16,
    "w": 6,
-   "l": 8,
+   "l": 9,
    "otl": 1,
    "pts": 13,
    "gf": 43,
    "ga": 63,
    "diff": -20,
-   "l10": "4-6-0",
-   "strk": "0-1-0-0",
-   "lseq": 27,
-   "cseq": 13,
-   "dseq": 6
+   "l10": "3-7-0",
+   "strk": "0-2-0-0",
+   "lseq": 31,
+   "cseq": 14,
+   "dseq": 7
   },
   {
    "abbr": "SPR",
@@ -5681,9 +5681,9 @@
    "diff": -16,
    "l10": "2-4-2-2",
    "strk": "0-2-0-2",
-   "lseq": 28,
-   "cseq": 14,
-   "dseq": 7
+   "lseq": 27,
+   "cseq": 13,
+   "dseq": 6
   },
   {
    "abbr": "BAK",
@@ -5701,43 +5701,35 @@
    "diff": -7,
    "l10": "3-5-1-1",
    "strk": "1-0-0-1",
-   "lseq": 29,
+   "lseq": 28,
    "cseq": 15,
    "dseq": 10
   }
  ],
  "team": {
   "gf": {
-   "v": 3.47,
-   "rank": 5
+   "v": 3.25,
+   "rank": 6
   },
   "ga": {
-   "v": 3.0,
-   "rank": 19
+   "v": 2.81,
+   "rank": 11
   },
   "pt": {
-   "v": 66.7,
-   "rank": 5
+   "v": 65.6,
+   "rank": 6
   }
  },
- "live": true,
+ "live": false,
  "next": {
-  "iso": "2026-11-15T16:00:00-07:00",
-  "date": "Sun Nov 15",
-  "time": "4:00 PM PT",
-  "opp": "Coachella Valley Firebirds",
+  "iso": "2026-11-18T20:00:00-07:00",
+  "date": "Wed Nov 18",
+  "time": "8:00 PM PT",
+  "opp": "Ontario Reign",
   "home": false,
-  "live": true
+  "live": false
  },
  "sched": [
-  {
-   "iso": "2026-11-15T16:00:00-07:00",
-   "date": "Sun Nov 15",
-   "time": "4:00 PM PT",
-   "opp": "Coachella Valley Firebirds",
-   "home": false,
-   "live": true
-  },
   {
    "iso": "2026-11-18T20:00:00-07:00",
    "date": "Wed Nov 18",
@@ -5763,5 +5755,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-16T01:45:17Z"
+ "updated": "2026-11-16T02:00:17Z"
 }

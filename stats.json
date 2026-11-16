@@ -6622,6 +6622,26 @@
  ],
  "standings": [
   {
+   "abbr": "EDM",
+   "name": "Edmonton Oilers",
+   "nick": "Oilers",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 22,
+   "w": 16,
+   "l": 3,
+   "otl": 3,
+   "pts": 35,
+   "gf": 87,
+   "ga": 60,
+   "diff": 27,
+   "l10": "8-1-1",
+   "strk": "W5",
+   "dseq": 1,
+   "cseq": 1,
+   "lseq": 1
+  },
+  {
    "abbr": "CAR",
    "name": "Carolina Hurricanes",
    "nick": "Hurricanes",
@@ -6639,7 +6659,7 @@
    "strk": "W4",
    "dseq": 1,
    "cseq": 1,
-   "lseq": 1
+   "lseq": 2
   },
   {
    "abbr": "MIN",
@@ -6657,26 +6677,6 @@
    "diff": 28,
    "l10": "8-0-2",
    "strk": "W3",
-   "dseq": 1,
-   "cseq": 1,
-   "lseq": 2
-  },
-  {
-   "abbr": "EDM",
-   "name": "Edmonton Oilers",
-   "nick": "Oilers",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 21,
-   "w": 15,
-   "l": 3,
-   "otl": 3,
-   "pts": 33,
-   "gf": 82,
-   "ga": 58,
-   "diff": 24,
-   "l10": "7-1-2",
-   "strk": "W4",
    "dseq": 1,
    "cseq": 2,
    "lseq": 3
@@ -7147,16 +7147,16 @@
    "nick": "Flyers",
    "div": "Metropolitan",
    "conf": "Eastern",
-   "gp": 22,
+   "gp": 23,
    "w": 6,
-   "l": 10,
+   "l": 11,
    "otl": 6,
    "pts": 18,
-   "gf": 51,
-   "ga": 72,
-   "diff": -21,
+   "gf": 53,
+   "ga": 77,
+   "diff": -24,
    "l10": "3-4-3",
-   "strk": "W1",
+   "strk": "L1",
    "dseq": 6,
    "cseq": 14,
    "lseq": 27
@@ -7296,5 +7296,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-15T06:15:15Z"
+ "updated": "2026-11-16T03:30:19Z"
 }

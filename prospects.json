@@ -6,11 +6,11 @@
    "ep": 1,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 15,
+   "gp": 16,
    "g": 6,
    "a": 5,
    "tp": 11,
-   "ppg": 0.7333333333333333,
+   "ppg": 0.6875,
    "pim": 4,
    "pm": 5
   },
@@ -258,7 +258,7 @@
    "tp": 6,
    "ppg": 0.375,
    "pim": 27,
-   "pm": -1
+   "pm": -2
   },
   "Matthew Perkins": {
    "ep": 22,
@@ -377,7 +377,7 @@
   "Ty Young": {
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 6,
+   "gp": 5,
    "gaa": 2.34,
    "svp": ".920",
    "so": 0,
@@ -528,6 +528,19 @@
      "sgp": 6,
      "rec0": "2-2-0",
      "ga": 3
+    },
+    {
+     "k": "S",
+     "name": "Riley Patterson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 16,
+     "sg": 6,
+     "sa": 5,
+     "stp": 11
     }
    ]
   },

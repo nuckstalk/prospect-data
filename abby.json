@@ -5321,9 +5321,9 @@
    "diff": 3,
    "l10": "4-6-0",
    "strk": "0-1-0-0",
-   "lseq": 16,
-   "cseq": 9,
-   "dseq": 6
+   "lseq": 17,
+   "cseq": 10,
+   "dseq": 7
   },
   {
    "abbr": "PRO",
@@ -5341,7 +5341,7 @@
    "diff": 8,
    "l10": "7-3-0",
    "strk": "3-0-0-0",
-   "lseq": 17,
+   "lseq": 18,
    "cseq": 8,
    "dseq": 4
   },
@@ -5361,7 +5361,7 @@
    "diff": 0,
    "l10": "5-5-0",
    "strk": "1-0-0-0",
-   "lseq": 18,
+   "lseq": 19,
    "cseq": 9,
    "dseq": 5
   },
@@ -5411,19 +5411,19 @@
    "nick": "Eagles",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 17,
+   "gp": 18,
    "w": 8,
-   "l": 7,
+   "l": 8,
    "otl": 2,
    "pts": 18,
    "gf": 52,
    "ga": 50,
    "diff": 2,
    "l10": "3-6-0-1",
-   "strk": "0-2-0-0",
-   "lseq": 19,
-   "cseq": 10,
-   "dseq": 7
+   "strk": "0-3-0-0",
+   "lseq": 21,
+   "cseq": 11,
+   "dseq": 8
   },
   {
    "abbr": "ROC",
@@ -5446,6 +5446,26 @@
    "dseq": 4
   },
   {
+   "abbr": "ONT",
+   "name": "Ontario Reign",
+   "nick": "Reign",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 16,
+   "w": 8,
+   "l": 7,
+   "otl": 1,
+   "pts": 17,
+   "gf": 48,
+   "ga": 51,
+   "diff": -3,
+   "l10": "4-5-1",
+   "strk": "3-0-0-0",
+   "lseq": 15,
+   "cseq": 8,
+   "dseq": 5
+  },
+  {
    "abbr": "SD",
    "name": "San Diego Gulls",
    "nick": "Gulls",
@@ -5461,9 +5481,9 @@
    "diff": 2,
    "l10": "5-3-2",
    "strk": "0-1-0-0",
-   "lseq": 15,
-   "cseq": 8,
-   "dseq": 5
+   "lseq": 16,
+   "cseq": 9,
+   "dseq": 6
   },
   {
    "abbr": "SYR",
@@ -5484,26 +5504,6 @@
    "lseq": 22,
    "cseq": 11,
    "dseq": 6
-  },
-  {
-   "abbr": "ONT",
-   "name": "Ontario Reign",
-   "nick": "Reign",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 15,
-   "w": 7,
-   "l": 7,
-   "otl": 1,
-   "pts": 15,
-   "gf": 48,
-   "ga": 51,
-   "diff": -3,
-   "l10": "4-5-1",
-   "strk": "2-0-0-0",
-   "lseq": 21,
-   "cseq": 11,
-   "dseq": 8
   },
   {
    "abbr": "RFD",
@@ -5713,7 +5713,7 @@
   },
   "ga": {
    "v": 2.88,
-   "rank": 14
+   "rank": 15
   },
   "pt": {
    "v": 65.6,
@@ -5755,5 +5755,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-16T03:45:16Z"
+ "updated": "2026-11-16T04:00:16Z"
 }

@@ -6802,26 +6802,6 @@
    "lseq": 9
   },
   {
-   "abbr": "NSH",
-   "name": "Nashville Predators",
-   "nick": "Predators",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 20,
-   "w": 11,
-   "l": 4,
-   "otl": 5,
-   "pts": 27,
-   "gf": 62,
-   "ga": 55,
-   "diff": 7,
-   "l10": "8-1-1",
-   "strk": "W7",
-   "dseq": 2,
-   "cseq": 4,
-   "lseq": 10
-  },
-  {
    "abbr": "COL",
    "name": "Colorado Avalanche",
    "nick": "Avalanche",
@@ -6837,6 +6817,26 @@
    "diff": 21,
    "l10": "6-2-2",
    "strk": "W1",
+   "dseq": 2,
+   "cseq": 4,
+   "lseq": 10
+  },
+  {
+   "abbr": "NSH",
+   "name": "Nashville Predators",
+   "nick": "Predators",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 21,
+   "w": 11,
+   "l": 5,
+   "otl": 5,
+   "pts": 27,
+   "gf": 64,
+   "ga": 59,
+   "diff": 5,
+   "l10": "7-2-1",
+   "strk": "L1",
    "dseq": 3,
    "cseq": 5,
    "lseq": 11
@@ -6982,6 +6982,26 @@
    "lseq": 18
   },
   {
+   "abbr": "SJS",
+   "name": "San Jose Sharks",
+   "nick": "Sharks",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 23,
+   "w": 10,
+   "l": 11,
+   "otl": 2,
+   "pts": 22,
+   "gf": 63,
+   "ga": 81,
+   "diff": -18,
+   "l10": "4-5-1",
+   "strk": "W2",
+   "dseq": 4,
+   "cseq": 10,
+   "lseq": 19
+  },
+  {
    "abbr": "WSH",
    "name": "Washington Capitals",
    "nick": "Capitals",
@@ -6999,7 +7019,7 @@
    "strk": "L2",
    "dseq": 5,
    "cseq": 10,
-   "lseq": 19
+   "lseq": 20
   },
   {
    "abbr": "STL",
@@ -7018,8 +7038,8 @@
    "l10": "4-5-1",
    "strk": "L1",
    "dseq": 7,
-   "cseq": 10,
-   "lseq": 20
+   "cseq": 11,
+   "lseq": 21
   },
   {
    "abbr": "BUF",
@@ -7038,26 +7058,6 @@
    "l10": "4-4-2",
    "strk": "L1",
    "dseq": 6,
-   "cseq": 11,
-   "lseq": 21
-  },
-  {
-   "abbr": "SJS",
-   "name": "San Jose Sharks",
-   "nick": "Sharks",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 22,
-   "w": 9,
-   "l": 11,
-   "otl": 2,
-   "pts": 20,
-   "gf": 59,
-   "ga": 79,
-   "diff": -20,
-   "l10": "3-6-1",
-   "strk": "W1",
-   "dseq": 4,
    "cseq": 11,
    "lseq": 22
   },
@@ -7296,5 +7296,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-16T04:00:16Z"
+ "updated": "2026-11-16T04:45:20Z"
 }

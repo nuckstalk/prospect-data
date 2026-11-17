@@ -5246,6 +5246,26 @@
    "dseq": 1
   },
   {
+   "abbr": "COL",
+   "name": "Colorado Eagles",
+   "nick": "Eagles",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 19,
+   "w": 9,
+   "l": 8,
+   "otl": 2,
+   "pts": 20,
+   "gf": 56,
+   "ga": 53,
+   "diff": 3,
+   "l10": "4-5-0-1",
+   "strk": "1-0-0-0",
+   "lseq": 21,
+   "cseq": 11,
+   "dseq": 8
+  },
+  {
    "abbr": "MIL",
    "name": "Milwaukee Admirals",
    "nick": "Admirals",
@@ -5404,26 +5424,6 @@
    "lseq": 13,
    "cseq": 7,
    "dseq": 4
-  },
-  {
-   "abbr": "COL",
-   "name": "Colorado Eagles",
-   "nick": "Eagles",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 18,
-   "w": 8,
-   "l": 8,
-   "otl": 2,
-   "pts": 18,
-   "gf": 55,
-   "ga": 53,
-   "diff": 2,
-   "l10": "3-6-0-1",
-   "strk": "0-3-0-0",
-   "lseq": 21,
-   "cseq": 11,
-   "dseq": 8
   },
   {
    "abbr": "ROC",
@@ -5646,6 +5646,26 @@
    "dseq": 5
   },
   {
+   "abbr": "BAK",
+   "name": "Bakersfield Condors",
+   "nick": "Condors",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 15,
+   "w": 5,
+   "l": 7,
+   "otl": 3,
+   "pts": 13,
+   "gf": 37,
+   "ga": 45,
+   "diff": -8,
+   "l10": "3-4-1-2",
+   "strk": "1-0-0-2",
+   "lseq": 27,
+   "cseq": 15,
+   "dseq": 10
+  },
+  {
    "abbr": "LV",
    "name": "Lehigh Valley Phantoms",
    "nick": "Phantoms",
@@ -5681,29 +5701,9 @@
    "diff": -16,
    "l10": "2-4-2-2",
    "strk": "0-2-0-2",
-   "lseq": 27,
+   "lseq": 28,
    "cseq": 13,
    "dseq": 6
-  },
-  {
-   "abbr": "BAK",
-   "name": "Bakersfield Condors",
-   "nick": "Condors",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 14,
-   "w": 5,
-   "l": 7,
-   "otl": 2,
-   "pts": 12,
-   "gf": 37,
-   "ga": 44,
-   "diff": -7,
-   "l10": "3-5-1-1",
-   "strk": "1-0-0-1",
-   "lseq": 28,
-   "cseq": 15,
-   "dseq": 10
   }
  ],
  "team": {
@@ -5713,7 +5713,7 @@
   },
   "ga": {
    "v": 2.88,
-   "rank": 13
+   "rank": 14
   },
   "pt": {
    "v": 65.6,
@@ -5755,5 +5755,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-17T21:00:20Z"
+ "updated": "2026-11-17T21:30:19Z"
 }

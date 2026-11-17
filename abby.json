@@ -5151,19 +5151,39 @@
    "nick": "Checkers",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 18,
+   "gp": 19,
    "w": 10,
-   "l": 7,
+   "l": 8,
    "otl": 1,
    "pts": 21,
    "gf": 55,
    "ga": 56,
    "diff": -1,
-   "l10": "5-4-1",
-   "strk": "0-1-0-0",
-   "lseq": 12,
-   "cseq": 6,
+   "l10": "4-5-1",
+   "strk": "0-2-0-0",
+   "lseq": 14,
+   "cseq": 7,
    "dseq": 3
+  },
+  {
+   "abbr": "HFD",
+   "name": "Hartford Wolf Pack",
+   "nick": "Wolf Pack",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 19,
+   "w": 10,
+   "l": 8,
+   "otl": 1,
+   "pts": 21,
+   "gf": 52,
+   "ga": 52,
+   "diff": 0,
+   "l10": "6-3-1",
+   "strk": "4-0-0-0",
+   "lseq": 15,
+   "cseq": 8,
+   "dseq": 4
   },
   {
    "abbr": "ABB",
@@ -5266,26 +5286,6 @@
    "dseq": 2
   },
   {
-   "abbr": "HFD",
-   "name": "Hartford Wolf Pack",
-   "nick": "Wolf Pack",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 18,
-   "w": 9,
-   "l": 8,
-   "otl": 1,
-   "pts": 19,
-   "gf": 52,
-   "ga": 52,
-   "diff": 0,
-   "l10": "6-3-1",
-   "strk": "3-0-0-0",
-   "lseq": 20,
-   "cseq": 10,
-   "dseq": 5
-  },
-  {
    "abbr": "TOR",
    "name": "Toronto Marlies",
    "nick": "Marlies",
@@ -5321,7 +5321,7 @@
    "diff": 3,
    "l10": "4-6-0",
    "strk": "0-1-0-0",
-   "lseq": 17,
+   "lseq": 18,
    "cseq": 10,
    "dseq": 7
   },
@@ -5341,9 +5341,9 @@
    "diff": 8,
    "l10": "7-3-0",
    "strk": "3-0-0-0",
-   "lseq": 18,
-   "cseq": 8,
-   "dseq": 4
+   "lseq": 19,
+   "cseq": 9,
+   "dseq": 5
   },
   {
    "abbr": "BEL",
@@ -5361,8 +5361,8 @@
    "diff": 0,
    "l10": "5-5-0",
    "strk": "1-0-0-0",
-   "lseq": 19,
-   "cseq": 9,
+   "lseq": 20,
+   "cseq": 10,
    "dseq": 5
   },
   {
@@ -5401,7 +5401,7 @@
    "diff": -6,
    "l10": "5-3-1-1",
    "strk": "2-0-1-0",
-   "lseq": 14,
+   "lseq": 13,
    "cseq": 7,
    "dseq": 4
   },
@@ -5441,8 +5441,8 @@
    "diff": 9,
    "l10": "5-5-0",
    "strk": "1-0-0-0",
-   "lseq": 13,
-   "cseq": 7,
+   "lseq": 12,
+   "cseq": 6,
    "dseq": 4
   },
   {
@@ -5461,7 +5461,7 @@
    "diff": -3,
    "l10": "4-5-1",
    "strk": "3-0-0-0",
-   "lseq": 15,
+   "lseq": 16,
    "cseq": 8,
    "dseq": 5
   },
@@ -5481,7 +5481,7 @@
    "diff": 2,
    "l10": "5-3-2",
    "strk": "0-1-0-0",
-   "lseq": 16,
+   "lseq": 17,
    "cseq": 9,
    "dseq": 6
   },
@@ -5713,7 +5713,7 @@
   },
   "ga": {
    "v": 2.88,
-   "rank": 13
+   "rank": 14
   },
   "pt": {
    "v": 65.6,
@@ -5755,5 +5755,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-17T18:40:11Z"
+ "updated": "2026-11-17T19:00:20Z"
 }

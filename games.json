@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T05:00:20Z",
+ "updated": "2026-11-17T02:45:18Z",
  "results": [
   {
    "opp": "Vegas Golden Knights",
@@ -31,14 +31,6 @@
  ],
  "upcoming": [
   {
-   "opp": "Utah Mammoth",
-   "abbr": "UTA",
-   "home": false,
-   "date": "Mon Nov 16",
-   "time": "7:30 PM PT",
-   "utc": "2026-11-17T02:30:00Z"
-  },
-  {
    "opp": "Seattle Kraken",
    "abbr": "SEA",
    "home": false,
@@ -53,6 +45,14 @@
    "date": "Sat Nov 21",
    "time": "8:00 PM PT",
    "utc": "2026-11-22T03:00:00Z"
+  },
+  {
+   "opp": "Chicago Blackhawks",
+   "abbr": "CHI",
+   "home": true,
+   "date": "Sun Nov 22",
+   "time": "6:00 PM PT",
+   "utc": "2026-11-23T01:00:00Z"
   }
  ]
 }

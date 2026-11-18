@@ -66,12 +66,12 @@
    "ep": 6,
    "team": "Medicine Hat Tigers",
    "lg": "WHL",
-   "gp": 17,
+   "gp": 18,
    "g": 6,
-   "a": 6,
-   "tp": 12,
-   "ppg": 0.7058823529411765,
-   "pim": 20,
+   "a": 7,
+   "tp": 13,
+   "ppg": 0.7222222222222222,
+   "pim": 22,
    "pm": 4
   },
   "Brooks Rogowski": {
@@ -386,6 +386,24 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-11-17",
+   "items": [
+    {
+     "k": "S",
+     "name": "Yaroslav Bryzgalov",
+     "lg": "WHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 18,
+     "sg": 6,
+     "sa": 7,
+     "stp": 13
+    }
+   ]
+  },
   {
    "date": "2026-11-15",
    "items": [
@@ -1210,48 +1228,6 @@
      "sg": 7,
      "sa": 4,
      "stp": 11
-    }
-   ]
-  },
-  {
-   "date": "2026-11-08",
-   "items": [
-    {
-     "k": "S",
-     "name": "Adam Novotný",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 1,
-     "da": 0,
-     "dtp": 1,
-     "sgp": 17,
-     "sg": 11,
-     "sa": 12,
-     "stp": 23
-    },
-    {
-     "k": "G",
-     "name": "Alexei Medvedev",
-     "lg": "OHL",
-     "dgp": 1,
-     "res": "W",
-     "gaa": 3.26,
-     "svp": ".894",
-     "sgp": 9,
-     "ga": 1
-    },
-    {
-     "k": "S",
-     "name": "Brooks Rogowski",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 1,
-     "da": 0,
-     "dtp": 1,
-     "sgp": 17,
-     "sg": 3,
-     "sa": 14,
-     "stp": 17
     }
    ]
   }

@@ -7221,19 +7221,39 @@
    "nick": "Golden Knights",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 22,
+   "gp": 23,
    "w": 13,
    "l": 6,
-   "otl": 3,
-   "pts": 29,
-   "gf": 74,
-   "ga": 63,
-   "diff": 11,
+   "otl": 4,
+   "pts": 30,
+   "gf": 77,
+   "ga": 67,
+   "diff": 10,
    "l10": "5-2-3",
-   "strk": "L1",
+   "strk": "OT1",
    "dseq": 2,
    "cseq": 3,
    "lseq": 7
+  },
+  {
+   "abbr": "DAL",
+   "name": "Dallas Stars",
+   "nick": "Stars",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 21,
+   "w": 13,
+   "l": 6,
+   "otl": 2,
+   "pts": 28,
+   "gf": 60,
+   "ga": 53,
+   "diff": 7,
+   "l10": "6-3-1",
+   "strk": "W3",
+   "dseq": 2,
+   "cseq": 4,
+   "lseq": 8
   },
   {
    "abbr": "MTL",
@@ -7253,7 +7273,7 @@
    "strk": "L2",
    "dseq": 3,
    "cseq": 5,
-   "lseq": 8
+   "lseq": 9
   },
   {
    "abbr": "COL",
@@ -7271,9 +7291,9 @@
    "diff": 21,
    "l10": "6-2-2",
    "strk": "W1",
-   "dseq": 2,
-   "cseq": 4,
-   "lseq": 9
+   "dseq": 3,
+   "cseq": 5,
+   "lseq": 10
   },
   {
    "abbr": "BOS",
@@ -7293,7 +7313,7 @@
    "strk": "L3",
    "dseq": 4,
    "cseq": 6,
-   "lseq": 10
+   "lseq": 11
   },
   {
    "abbr": "NYR",
@@ -7313,7 +7333,7 @@
    "strk": "W3",
    "dseq": 3,
    "cseq": 7,
-   "lseq": 11
+   "lseq": 12
   },
   {
    "abbr": "NSH",
@@ -7331,9 +7351,9 @@
    "diff": 1,
    "l10": "7-3-0",
    "strk": "L2",
-   "dseq": 3,
-   "cseq": 5,
-   "lseq": 12
+   "dseq": 4,
+   "cseq": 6,
+   "lseq": 13
   },
   {
    "abbr": "FLA",
@@ -7353,26 +7373,6 @@
    "strk": "L1",
    "dseq": 5,
    "cseq": 8,
-   "lseq": 13
-  },
-  {
-   "abbr": "DAL",
-   "name": "Dallas Stars",
-   "nick": "Stars",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 20,
-   "w": 12,
-   "l": 6,
-   "otl": 2,
-   "pts": 26,
-   "gf": 56,
-   "ga": 50,
-   "diff": 6,
-   "l10": "6-3-1",
-   "strk": "W2",
-   "dseq": 4,
-   "cseq": 6,
    "lseq": 14
   },
   {
@@ -7770,5 +7770,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-18T05:45:17Z"
+ "updated": "2026-11-18T06:00:18Z"
 }

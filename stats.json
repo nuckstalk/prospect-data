@@ -7156,6 +7156,26 @@
    "lseq": 3
   },
   {
+   "abbr": "TBL",
+   "name": "Tampa Bay Lightning",
+   "nick": "Lightning",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 21,
+   "w": 14,
+   "l": 5,
+   "otl": 2,
+   "pts": 30,
+   "gf": 79,
+   "ga": 61,
+   "diff": 18,
+   "l10": "7-2-1",
+   "strk": "W1",
+   "dseq": 1,
+   "cseq": 2,
+   "lseq": 4
+  },
+  {
    "abbr": "NJD",
    "name": "New Jersey Devils",
    "nick": "Devils",
@@ -7172,8 +7192,8 @@
    "l10": "8-2-0",
    "strk": "W2",
    "dseq": 2,
-   "cseq": 2,
-   "lseq": 4
+   "cseq": 3,
+   "lseq": 5
   },
   {
    "abbr": "OTT",
@@ -7191,9 +7211,9 @@
    "diff": 8,
    "l10": "6-2-2",
    "strk": "W3",
-   "dseq": 1,
-   "cseq": 3,
-   "lseq": 5
+   "dseq": 2,
+   "cseq": 4,
+   "lseq": 6
   },
   {
    "abbr": "VGK",
@@ -7213,26 +7233,6 @@
    "strk": "L1",
    "dseq": 2,
    "cseq": 3,
-   "lseq": 6
-  },
-  {
-   "abbr": "TBL",
-   "name": "Tampa Bay Lightning",
-   "nick": "Lightning",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 20,
-   "w": 13,
-   "l": 5,
-   "otl": 2,
-   "pts": 28,
-   "gf": 74,
-   "ga": 59,
-   "diff": 15,
-   "l10": "6-2-2",
-   "strk": "L1",
-   "dseq": 2,
-   "cseq": 4,
    "lseq": 7
   },
   {
@@ -7481,16 +7481,16 @@
    "nick": "Capitals",
    "div": "Metropolitan",
    "conf": "Eastern",
-   "gp": 18,
+   "gp": 19,
    "w": 10,
-   "l": 8,
+   "l": 9,
    "otl": 0,
    "pts": 20,
-   "gf": 62,
-   "ga": 65,
-   "diff": -3,
+   "gf": 64,
+   "ga": 70,
+   "diff": -6,
    "l10": "5-5-0",
-   "strk": "L2",
+   "strk": "L3",
    "dseq": 5,
    "cseq": 10,
    "lseq": 20
@@ -7770,5 +7770,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-18T03:00:23Z"
+ "updated": "2026-11-18T03:15:15Z"
 }

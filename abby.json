@@ -5506,6 +5506,26 @@
    "dseq": 6
   },
   {
+   "abbr": "CHI",
+   "name": "Chicago Wolves",
+   "nick": "Wolves",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 16,
+   "w": 7,
+   "l": 8,
+   "otl": 1,
+   "pts": 15,
+   "gf": 45,
+   "ga": 57,
+   "diff": -12,
+   "l10": "5-4-0-1",
+   "strk": "1-0-0-0",
+   "lseq": 24,
+   "cseq": 12,
+   "dseq": 4
+  },
+  {
    "abbr": "SYR",
    "name": "Syracuse Crunch",
    "nick": "Crunch",
@@ -5531,19 +5551,19 @@
    "nick": "IceHogs",
    "div": "Central",
    "conf": "Western",
-   "gp": 16,
+   "gp": 17,
    "w": 7,
-   "l": 8,
+   "l": 9,
    "otl": 1,
    "pts": 15,
    "gf": 43,
-   "ga": 54,
-   "diff": -11,
-   "l10": "6-3-0-1",
-   "strk": "2-0-0-0",
-   "lseq": 24,
-   "cseq": 12,
-   "dseq": 4
+   "ga": 55,
+   "diff": -12,
+   "l10": "5-4-0-1",
+   "strk": "0-1-0-0",
+   "lseq": 25,
+   "cseq": 13,
+   "dseq": 5
   },
   {
    "abbr": "IA",
@@ -5581,8 +5601,8 @@
    "diff": -14,
    "l10": "5-5-0",
    "strk": "1-0-0-0",
-   "lseq": 25,
-   "cseq": 13,
+   "lseq": 26,
+   "cseq": 14,
    "dseq": 9
   },
   {
@@ -5624,26 +5644,6 @@
    "lseq": 30,
    "cseq": 17,
    "dseq": 7
-  },
-  {
-   "abbr": "CHI",
-   "name": "Chicago Wolves",
-   "nick": "Wolves",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 15,
-   "w": 6,
-   "l": 8,
-   "otl": 1,
-   "pts": 13,
-   "gf": 44,
-   "ga": 57,
-   "diff": -13,
-   "l10": "5-4-0-1",
-   "strk": "0-2-0-0",
-   "lseq": 26,
-   "cseq": 14,
-   "dseq": 5
   },
   {
    "abbr": "BAK",
@@ -5755,5 +5755,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-18T03:30:20Z"
+ "updated": "2026-11-18T03:45:17Z"
 }

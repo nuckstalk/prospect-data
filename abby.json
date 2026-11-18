@@ -5246,6 +5246,26 @@
    "dseq": 1
   },
   {
+   "abbr": "CV",
+   "name": "Coachella Valley Firebirds",
+   "nick": "Firebirds",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 17,
+   "w": 8,
+   "l": 5,
+   "otl": 4,
+   "pts": 20,
+   "gf": 49,
+   "ga": 54,
+   "diff": -5,
+   "l10": "6-3-1",
+   "strk": "3-0-1-0",
+   "lseq": 12,
+   "cseq": 7,
+   "dseq": 4
+  },
+  {
    "abbr": "COL",
    "name": "Colorado Eagles",
    "nick": "Eagles",
@@ -5264,6 +5284,26 @@
    "lseq": 21,
    "cseq": 11,
    "dseq": 8
+  },
+  {
+   "abbr": "CGY",
+   "name": "Calgary Wranglers",
+   "nick": "Wranglers",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 18,
+   "w": 9,
+   "l": 8,
+   "otl": 1,
+   "pts": 19,
+   "gf": 55,
+   "ga": 53,
+   "diff": 2,
+   "l10": "4-5-1",
+   "strk": "0-1-1-0",
+   "lseq": 20,
+   "cseq": 10,
+   "dseq": 7
   },
   {
    "abbr": "MIL",
@@ -5326,26 +5366,6 @@
    "dseq": 3
   },
   {
-   "abbr": "CGY",
-   "name": "Calgary Wranglers",
-   "nick": "Wranglers",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 17,
-   "w": 9,
-   "l": 8,
-   "otl": 0,
-   "pts": 18,
-   "gf": 55,
-   "ga": 53,
-   "diff": 2,
-   "l10": "4-6-0",
-   "strk": "0-1-0-0",
-   "lseq": 18,
-   "cseq": 10,
-   "dseq": 7
-  },
-  {
    "abbr": "PRO",
    "name": "Providence Bruins",
    "nick": "Bruins",
@@ -5361,7 +5381,7 @@
    "diff": 8,
    "l10": "7-3-0",
    "strk": "3-0-0-0",
-   "lseq": 19,
+   "lseq": 18,
    "cseq": 9,
    "dseq": 5
   },
@@ -5381,7 +5401,7 @@
    "diff": 0,
    "l10": "5-5-0",
    "strk": "1-0-0-0",
-   "lseq": 20,
+   "lseq": 19,
    "cseq": 10,
    "dseq": 5
   },
@@ -5406,26 +5426,6 @@
    "dseq": 3
   },
   {
-   "abbr": "CV",
-   "name": "Coachella Valley Firebirds",
-   "nick": "Firebirds",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 16,
-   "w": 7,
-   "l": 5,
-   "otl": 4,
-   "pts": 18,
-   "gf": 49,
-   "ga": 54,
-   "diff": -5,
-   "l10": "5-3-1-1",
-   "strk": "2-0-1-0",
-   "lseq": 13,
-   "cseq": 7,
-   "dseq": 4
-  },
-  {
    "abbr": "ROC",
    "name": "Rochester Americans",
    "nick": "Americans",
@@ -5441,7 +5441,7 @@
    "diff": 9,
    "l10": "5-5-0",
    "strk": "1-0-0-0",
-   "lseq": 12,
+   "lseq": 13,
    "cseq": 6,
    "dseq": 4
   },
@@ -5755,5 +5755,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-18T03:45:17Z"
+ "updated": "2026-11-18T04:00:20Z"
 }

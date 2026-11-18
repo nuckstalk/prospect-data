@@ -5486,6 +5486,26 @@
    "dseq": 6
   },
   {
+   "abbr": "CLE",
+   "name": "Cleveland Monsters",
+   "nick": "Monsters",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 16,
+   "w": 8,
+   "l": 8,
+   "otl": 0,
+   "pts": 16,
+   "gf": 49,
+   "ga": 56,
+   "diff": -7,
+   "l10": "4-6-0",
+   "strk": "1-0-0-0",
+   "lseq": 22,
+   "cseq": 11,
+   "dseq": 6
+  },
+  {
    "abbr": "SYR",
    "name": "Syracuse Crunch",
    "nick": "Crunch",
@@ -5501,9 +5521,9 @@
    "diff": -9,
    "l10": "4-3-3",
    "strk": "1-0-1-0",
-   "lseq": 22,
-   "cseq": 11,
-   "dseq": 6
+   "lseq": 23,
+   "cseq": 12,
+   "dseq": 7
   },
   {
    "abbr": "RFD",
@@ -5521,7 +5541,7 @@
    "diff": -10,
    "l10": "6-3-0-1",
    "strk": "2-0-0-0",
-   "lseq": 23,
+   "lseq": 24,
    "cseq": 12,
    "dseq": 4
   },
@@ -5566,41 +5586,21 @@
    "dseq": 9
   },
   {
-   "abbr": "CLE",
-   "name": "Cleveland Monsters",
-   "nick": "Monsters",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 15,
-   "w": 7,
-   "l": 8,
-   "otl": 0,
-   "pts": 14,
-   "gf": 49,
-   "ga": 56,
-   "diff": -7,
-   "l10": "3-7-0",
-   "strk": "0-1-0-0",
-   "lseq": 24,
-   "cseq": 12,
-   "dseq": 7
-  },
-  {
    "abbr": "HAM",
    "name": "Hamilton Hammers",
    "nick": "Hammers",
    "div": "North",
    "conf": "Eastern",
-   "gp": 18,
+   "gp": 19,
    "w": 6,
-   "l": 10,
+   "l": 11,
    "otl": 2,
    "pts": 14,
    "gf": 50,
    "ga": 72,
    "diff": -22,
-   "l10": "5-4-0-1",
-   "strk": "1-0-0-0",
+   "l10": "4-5-0-1",
+   "strk": "0-1-0-0",
    "lseq": 32,
    "cseq": 15,
    "dseq": 8
@@ -5709,7 +5709,7 @@
  "team": {
   "gf": {
    "v": 3.25,
-   "rank": 7
+   "rank": 6
   },
   "ga": {
    "v": 2.88,
@@ -5755,5 +5755,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-18T02:30:16Z"
+ "updated": "2026-11-18T02:45:16Z"
 }

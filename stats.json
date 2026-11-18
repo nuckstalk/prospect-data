@@ -7256,26 +7256,6 @@
    "lseq": 8
   },
   {
-   "abbr": "BOS",
-   "name": "Boston Bruins",
-   "nick": "Bruins",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 20,
-   "w": 13,
-   "l": 6,
-   "otl": 1,
-   "pts": 27,
-   "gf": 72,
-   "ga": 52,
-   "diff": 20,
-   "l10": "6-4-0",
-   "strk": "L2",
-   "dseq": 4,
-   "cseq": 6,
-   "lseq": 9
-  },
-  {
    "abbr": "COL",
    "name": "Colorado Avalanche",
    "nick": "Avalanche",
@@ -7293,6 +7273,26 @@
    "strk": "W1",
    "dseq": 2,
    "cseq": 4,
+   "lseq": 9
+  },
+  {
+   "abbr": "BOS",
+   "name": "Boston Bruins",
+   "nick": "Bruins",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 21,
+   "w": 13,
+   "l": 7,
+   "otl": 1,
+   "pts": 27,
+   "gf": 72,
+   "ga": 55,
+   "diff": 17,
+   "l10": "5-5-0",
+   "strk": "L3",
+   "dseq": 4,
+   "cseq": 6,
    "lseq": 10
   },
   {
@@ -7656,6 +7656,26 @@
    "lseq": 28
   },
   {
+   "abbr": "LAK",
+   "name": "Los Angeles Kings",
+   "nick": "Kings",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 19,
+   "w": 6,
+   "l": 11,
+   "otl": 2,
+   "pts": 14,
+   "gf": 52,
+   "ga": 63,
+   "diff": -11,
+   "l10": "4-6-0",
+   "strk": "W1",
+   "dseq": 7,
+   "cseq": 14,
+   "lseq": 29
+  },
+  {
    "abbr": "CBJ",
    "name": "Columbus Blue Jackets",
    "nick": "Blue Jackets",
@@ -7673,26 +7693,6 @@
    "strk": "L5",
    "dseq": 8,
    "cseq": 16,
-   "lseq": 29
-  },
-  {
-   "abbr": "LAK",
-   "name": "Los Angeles Kings",
-   "nick": "Kings",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 18,
-   "w": 5,
-   "l": 11,
-   "otl": 2,
-   "pts": 12,
-   "gf": 49,
-   "ga": 63,
-   "diff": -14,
-   "l10": "3-7-0",
-   "strk": "L4",
-   "dseq": 7,
-   "cseq": 14,
    "lseq": 30
   },
   {
@@ -7737,5 +7737,5 @@
   }
  ],
  "team": {},
- "updated": "2026-11-18T02:45:15Z"
+ "updated": "2026-11-18T02:51:21Z"
 }

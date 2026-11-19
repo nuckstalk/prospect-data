@@ -6,13 +6,13 @@
    "ep": 1,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 16,
+   "gp": 17,
    "g": 6,
    "a": 5,
    "tp": 11,
-   "ppg": 0.6875,
+   "ppg": 0.6470588235294118,
    "pim": 4,
-   "pm": 5
+   "pm": 3
   },
   "Caleb Malhotra": {
    "ep": 2,
@@ -114,13 +114,13 @@
    "ep": 10,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 16,
+   "gp": 17,
    "g": 7,
    "a": 5,
    "tp": 12,
-   "ppg": 0.75,
+   "ppg": 0.7058823529411765,
    "pim": 2,
-   "pm": 0
+   "pm": -2
   },
   "Gabriel Chiarot": {
    "ep": 11,
@@ -192,24 +192,24 @@
    "ep": 16,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 15,
+   "gp": 16,
    "g": 1,
    "a": 7,
    "tp": 8,
-   "ppg": 0.5333333333333333,
-   "pim": 18,
-   "pm": -7
+   "ppg": 0.5,
+   "pim": 20,
+   "pm": -9
   },
   "Kirill Kudryavtsev": {
    "ep": 17,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 11,
+   "gp": 12,
    "g": 0,
    "a": 9,
    "tp": 9,
-   "ppg": 0.8181818181818182,
-   "pim": 8,
+   "ppg": 0.75,
+   "pim": 10,
    "pm": 4
   },
   "Matthew Lansing": {
@@ -252,12 +252,12 @@
    "ep": 21,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 16,
+   "gp": 17,
    "g": 3,
    "a": 3,
    "tp": 6,
-   "ppg": 0.375,
-   "pim": 27,
+   "ppg": 0.35294117647058826,
+   "pim": 29,
    "pm": -2
   },
   "Matthew Perkins": {
@@ -300,11 +300,11 @@
    "ep": 26,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 13,
-   "g": 0,
+   "gp": 14,
+   "g": 1,
    "a": 5,
-   "tp": 5,
-   "ppg": 0.38461538461538464,
+   "tp": 6,
+   "ppg": 0.42857142857142855,
    "pim": 12,
    "pm": 3
   },
@@ -377,12 +377,12 @@
   "Ty Young": {
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 5,
-   "gaa": 2.34,
-   "svp": ".920",
+   "gp": 7,
+   "gaa": 2.55,
+   "svp": ".917",
    "so": 0,
-   "rec": "2-2-1",
-   "toi": 307.3
+   "rec": "2-3-1",
+   "toi": 366.28
   }
  },
  "watch": [
@@ -502,6 +502,95 @@
      "sg": 0,
      "sa": 2,
      "stp": 2
+    },
+    {
+     "k": "S",
+     "name": "Riley Patterson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 17,
+     "sg": 6,
+     "sa": 5,
+     "stp": 11
+    },
+    {
+     "k": "S",
+     "name": "Ty Mueller",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 17,
+     "sg": 7,
+     "sa": 5,
+     "stp": 12
+    },
+    {
+     "k": "S",
+     "name": "Sawyer Mynio",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 16,
+     "sg": 1,
+     "sa": 7,
+     "stp": 8
+    },
+    {
+     "k": "S",
+     "name": "Kirill Kudryavtsev",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 12,
+     "sg": 0,
+     "sa": 9,
+     "stp": 9
+    },
+    {
+     "k": "S",
+     "name": "Vilmer Alriksson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 17,
+     "sg": 3,
+     "sa": 3,
+     "stp": 6
+    },
+    {
+     "k": "S",
+     "name": "Anri Ravinskis",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 1,
+     "da": 0,
+     "dtp": 1,
+     "sgp": 14,
+     "sg": 1,
+     "sa": 5,
+     "stp": 6
+    },
+    {
+     "k": "G",
+     "name": "Ty Young",
+     "lg": "AHL",
+     "dgp": 1,
+     "res": "L",
+     "gaa": 2.55,
+     "svp": ".917",
+     "sgp": 7,
+     "ga": 3
     }
    ]
   },

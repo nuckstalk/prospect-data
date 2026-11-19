@@ -30,13 +30,13 @@
    "ep": 3,
    "team": "Peterborough Petes",
    "lg": "OHL",
-   "gp": 20,
-   "g": 13,
+   "gp": 21,
+   "g": 14,
    "a": 14,
-   "tp": 27,
-   "ppg": 1.35,
+   "tp": 28,
+   "ppg": 1.3333333333333333,
    "pim": 10,
-   "pm": 4
+   "pm": 5
   },
   "Braeden Cootes": {
    "ep": 4,
@@ -126,13 +126,13 @@
    "ep": 11,
    "team": "Kitchener Rangers",
    "lg": "OHL",
-   "gp": 5,
+   "gp": 6,
    "g": 1,
    "a": 2,
    "tp": 3,
-   "ppg": 0.6,
+   "ppg": 0.5,
    "pim": 6,
-   "pm": 5,
+   "pm": 4,
    "splits": [
     {
      "team": "Abbotsford Canucks",
@@ -145,7 +145,7 @@
     {
      "team": "Kitchener Rangers",
      "lg": "OHL",
-     "gp": 3,
+     "gp": 4,
      "g": 1,
      "a": 1,
      "tp": 2
@@ -345,12 +345,12 @@
   "Alexei Medvedev": {
    "team": "Peterborough Petes",
    "lg": "OHL",
-   "gp": 11,
-   "gaa": 2.94,
-   "svp": ".904",
+   "gp": 12,
+   "gaa": 2.83,
+   "svp": ".907",
    "so": 0,
    "rec": "6-3-2",
-   "toi": 653.77,
+   "toi": 678.42,
    "splits": [
     {
      "team": "London Knights",
@@ -365,12 +365,12 @@
     {
      "team": "Peterborough Petes",
      "lg": "OHL",
-     "gp": 3,
-     "gaa": 1.65,
-     "svp": ".943",
+     "gp": 4,
+     "gaa": 1.45,
+     "svp": ".948",
      "so": 0,
      "rec": "3-0-0",
-     "toi": 181.58
+     "toi": 206.23
     }
    ]
   },
@@ -400,6 +400,44 @@
      "sgp": 16,
      "rec0": "7-4-0",
      "ga": 1
+    },
+    {
+     "k": "S",
+     "name": "Adam Novotný",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 1,
+     "da": 0,
+     "dtp": 1,
+     "sgp": 21,
+     "sg": 14,
+     "sa": 14,
+     "stp": 28
+    },
+    {
+     "k": "S",
+     "name": "Gabriel Chiarot",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 6,
+     "sg": 1,
+     "sa": 2,
+     "stp": 3
+    },
+    {
+     "k": "G",
+     "name": "Alexei Medvedev",
+     "lg": "OHL",
+     "dgp": 1,
+     "res": "",
+     "gaa": 2.83,
+     "svp": ".907",
+     "sgp": 12,
+     "rec0": "6-3-2",
+     "ga": 0
     }
    ]
   },

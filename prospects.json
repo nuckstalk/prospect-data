@@ -156,11 +156,11 @@
    "ep": 12,
    "team": "Owen Sound Attack",
    "lg": "OHL",
-   "gp": 17,
+   "gp": 18,
    "g": 4,
    "a": 8,
    "tp": 12,
-   "ppg": 0.7058823529411765,
+   "ppg": 0.6666666666666666,
    "pim": 10,
    "pm": -7
   },
@@ -346,11 +346,11 @@
    "team": "Peterborough Petes",
    "lg": "OHL",
    "gp": 12,
-   "gaa": 2.83,
-   "svp": ".907",
+   "gaa": 2.69,
+   "svp": ".911",
    "so": 0,
    "rec": "6-3-2",
-   "toi": 678.42,
+   "toi": 713.77,
    "splits": [
     {
      "team": "London Knights",
@@ -366,11 +366,11 @@
      "team": "Peterborough Petes",
      "lg": "OHL",
      "gp": 4,
-     "gaa": 1.45,
-     "svp": ".948",
+     "gaa": 1.24,
+     "svp": ".956",
      "so": 0,
      "rec": "3-0-0",
-     "toi": 206.23
+     "toi": 241.58
     }
    ]
   },
@@ -438,6 +438,19 @@
      "sgp": 12,
      "rec0": "6-3-2",
      "ga": 0
+    },
+    {
+     "k": "S",
+     "name": "Lucian Bernat",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 18,
+     "sg": 4,
+     "sa": 8,
+     "stp": 12
     }
    ]
   },

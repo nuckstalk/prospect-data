@@ -614,6 +614,41 @@ for n, r in data["goalies"].items():
         if r != old["goalies"][n]: print("AHL stats used for", n, ":", a["gp"], "GP", r["rec"], r["gaa"], r["svp"])
 
 
+# ---- HockeyDB: EliteProspects does not track OT losses in some leagues (MHL). For these goalies the W-L-OTL record comes from HockeyDB ("T" column) ----
+# add a goalie by name: the number is the pid in his HockeyDB URL (hockeydb.com/ihdb/stats/pdisplay.php?pid=NUMBER)
+HDB_GOALIES = {"Dmitri Ivchenko": 291647}
+
+def hdb_rec(pid, lg):
+    soup2 = BeautifulSoup(fetch("https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=%d" % pid), "html.parser")
+    y = NOW.year if NOW.month >= 7 else NOW.year - 1
+    season = "%d-%02d" % (y, (y + 1) % 100)
+    for table in soup2.find_all("table"):
+        idx = None
+        for tr in table.find_all("tr"):
+            heads = [h.get_text(" ", strip=True) for h in tr.find_all("th")]
+            if "Season" in heads and "GP" in heads and "T" in heads:
+                idx = {h: i for i, h in enumerate(heads)}; continue
+            if not idx: continue
+            c = [td.get_text(" ", strip=True) for td in tr.find_all("td")]
+            if len(c) <= idx["T"] or c[idx["Season"]] != season or not c[idx["Lge"]].endswith(lg): continue
+            if not c[idx["GP"]].strip(): continue
+            return int(c[idx["W"]]), int(c[idx["L"]]), int(c[idx["T"]]), int(c[idx["GP"]])
+    return None
+
+for _n, _pid in HDB_GOALIES.items():
+    _g = data["goalies"].get(_n)
+    if not _g: continue
+    try:
+        _h = hdb_rec(_pid, _g.get("lg", "MHL"))
+        if not _h: print("HockeyDB: no", _g.get("lg"), "row found for", _n, "- keeping EliteProspects record"); continue
+        if _h[0] + _h[1] + _h[2] > _h[3]: print("HockeyDB record looks wrong for", _n, _h, "- keeping EliteProspects record"); continue
+        _new = "%d-%d-%d" % _h[:3]
+        if _g.get("rec") != _new: print("HockeyDB record used for", _n, ":", _g.get("rec"), "->", _new, "(HockeyDB shows %d GP, EliteProspects %s GP)" % (_h[3], _g.get("gp")))
+        _g["rec"] = _new
+    except Exception as e:
+        print("HockeyDB skipped for", _n, "-", str(e)[:200], "- keeping EliteProspects record")
+
+
 # ---- an Abbotsford game is being played right now: AHL players go back to their last FINAL numbers and tonight's AHL watch entries come out until the game ends ----
 try:
     if _ab.get("live"):

@@ -377,9 +377,9 @@
   "Ty Young": {
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 7,
-   "gaa": 2.55,
-   "svp": ".917",
+   "gp": 6,
+   "gaa": 2.46,
+   "svp": ".918",
    "so": 0,
    "rec": "2-3-1",
    "toi": 366.28
@@ -587,8 +587,8 @@
      "lg": "AHL",
      "dgp": 1,
      "res": "L",
-     "gaa": 2.55,
-     "svp": ".917",
+     "gaa": 2.46,
+     "svp": ".918",
      "sgp": 7,
      "ga": 3
     }

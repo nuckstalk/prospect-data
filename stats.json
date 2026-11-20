@@ -7216,6 +7216,26 @@
    "lseq": 6
   },
   {
+   "abbr": "VGK",
+   "name": "Vegas Golden Knights",
+   "nick": "Golden Knights",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 24,
+   "w": 13,
+   "l": 6,
+   "otl": 5,
+   "pts": 31,
+   "gf": 80,
+   "ga": 71,
+   "diff": 9,
+   "l10": "4-2-4",
+   "strk": "OT2",
+   "dseq": 2,
+   "cseq": 3,
+   "lseq": 7
+  },
+  {
    "abbr": "NJD",
    "name": "New Jersey Devils",
    "nick": "Devils",
@@ -7233,27 +7253,27 @@
    "strk": "L1",
    "dseq": 2,
    "cseq": 5,
-   "lseq": 7
+   "lseq": 8
   },
   {
-   "abbr": "VGK",
-   "name": "Vegas Golden Knights",
-   "nick": "Golden Knights",
-   "div": "Pacific",
+   "abbr": "DAL",
+   "name": "Dallas Stars",
+   "nick": "Stars",
+   "div": "Central",
    "conf": "Western",
-   "gp": 23,
-   "w": 13,
+   "gp": 22,
+   "w": 14,
    "l": 6,
-   "otl": 4,
+   "otl": 2,
    "pts": 30,
-   "gf": 77,
-   "ga": 67,
-   "diff": 10,
-   "l10": "5-2-3",
-   "strk": "OT1",
+   "gf": 64,
+   "ga": 56,
+   "diff": 8,
+   "l10": "7-2-1",
+   "strk": "W4",
    "dseq": 2,
-   "cseq": 3,
-   "lseq": 8
+   "cseq": 4,
+   "lseq": 9
   },
   {
    "abbr": "BOS",
@@ -7273,7 +7293,7 @@
    "strk": "W1",
    "dseq": 4,
    "cseq": 6,
-   "lseq": 9
+   "lseq": 10
   },
   {
    "abbr": "COL",
@@ -7291,26 +7311,6 @@
    "diff": 22,
    "l10": "6-2-2",
    "strk": "W1",
-   "dseq": 2,
-   "cseq": 4,
-   "lseq": 10
-  },
-  {
-   "abbr": "DAL",
-   "name": "Dallas Stars",
-   "nick": "Stars",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 21,
-   "w": 13,
-   "l": 6,
-   "otl": 2,
-   "pts": 28,
-   "gf": 60,
-   "ga": 53,
-   "diff": 7,
-   "l10": "6-3-1",
-   "strk": "W3",
    "dseq": 3,
    "cseq": 5,
    "lseq": 11
@@ -7770,5 +7770,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-20T05:45:15Z"
+ "updated": "2026-11-20T06:00:20Z"
 }

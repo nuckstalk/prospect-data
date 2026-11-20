@@ -7096,6 +7096,26 @@
  ],
  "standings": [
   {
+   "abbr": "MIN",
+   "name": "Minnesota Wild",
+   "nick": "Wild",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 24,
+   "w": 17,
+   "l": 3,
+   "otl": 4,
+   "pts": 38,
+   "gf": 87,
+   "ga": 52,
+   "diff": 35,
+   "l10": "8-0-2",
+   "strk": "W5",
+   "dseq": 1,
+   "cseq": 1,
+   "lseq": 1
+  },
+  {
    "abbr": "EDM",
    "name": "Edmonton Oilers",
    "nick": "Oilers",
@@ -7111,26 +7131,6 @@
    "diff": 28,
    "l10": "7-2-1",
    "strk": "L1",
-   "dseq": 1,
-   "cseq": 1,
-   "lseq": 1
-  },
-  {
-   "abbr": "MIN",
-   "name": "Minnesota Wild",
-   "nick": "Wild",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 23,
-   "w": 16,
-   "l": 3,
-   "otl": 4,
-   "pts": 36,
-   "gf": 83,
-   "ga": 51,
-   "diff": 32,
-   "l10": "8-0-2",
-   "strk": "W4",
    "dseq": 1,
    "cseq": 2,
    "lseq": 2
@@ -7541,16 +7541,16 @@
    "nick": "Flames",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 22,
+   "gp": 23,
    "w": 10,
-   "l": 11,
+   "l": 12,
    "otl": 1,
    "pts": 21,
-   "gf": 56,
-   "ga": 76,
-   "diff": -20,
-   "l10": "5-4-1",
-   "strk": "W1",
+   "gf": 57,
+   "ga": 80,
+   "diff": -23,
+   "l10": "4-5-1",
+   "strk": "L1",
    "dseq": 5,
    "cseq": 12,
    "lseq": 23
@@ -7739,7 +7739,7 @@
  "team": {
   "gf": {
    "v": 2.87,
-   "rank": 23
+   "rank": 24
   },
   "ga": {
    "v": 4.35,
@@ -7770,5 +7770,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-20T03:45:18Z"
+ "updated": "2026-11-20T04:00:23Z"
 }

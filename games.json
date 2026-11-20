@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-20T02:45:18Z",
+ "updated": "2026-11-20T05:30:21Z",
  "results": [
+  {
+   "opp": "Seattle Kraken",
+   "abbr": "SEA",
+   "home": false,
+   "date": "Nov 19",
+   "us": 1,
+   "them": 5,
+   "res": "L"
+  },
   {
    "opp": "Utah Mammoth",
    "abbr": "UTA",
@@ -18,15 +27,6 @@
    "us": 6,
    "them": 3,
    "res": "W"
-  },
-  {
-   "opp": "New York Rangers",
-   "abbr": "NYR",
-   "home": true,
-   "date": "Nov 13",
-   "us": 1,
-   "them": 5,
-   "res": "L"
   }
  ],
  "upcoming": [

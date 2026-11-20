@@ -7376,6 +7376,26 @@
    "lseq": 14
   },
   {
+   "abbr": "NYI",
+   "name": "New York Islanders",
+   "nick": "Islanders",
+   "div": "Metropolitan",
+   "conf": "Eastern",
+   "gp": 21,
+   "w": 10,
+   "l": 6,
+   "otl": 5,
+   "pts": 25,
+   "gf": 68,
+   "ga": 61,
+   "diff": 7,
+   "l10": "5-2-3",
+   "strk": "OT1",
+   "dseq": 4,
+   "cseq": 9,
+   "lseq": 15
+  },
+  {
    "abbr": "UTA",
    "name": "Utah Mammoth",
    "nick": "Mammoth",
@@ -7393,27 +7413,27 @@
    "strk": "W1",
    "dseq": 5,
    "cseq": 7,
-   "lseq": 15
+   "lseq": 16
   },
   {
-   "abbr": "NYI",
-   "name": "New York Islanders",
-   "nick": "Islanders",
-   "div": "Metropolitan",
-   "conf": "Eastern",
-   "gp": 20,
-   "w": 10,
-   "l": 6,
-   "otl": 4,
-   "pts": 24,
-   "gf": 65,
-   "ga": 57,
-   "diff": 8,
-   "l10": "5-3-2",
-   "strk": "W3",
-   "dseq": 4,
-   "cseq": 9,
-   "lseq": 16
+   "abbr": "WPG",
+   "name": "Winnipeg Jets",
+   "nick": "Jets",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 23,
+   "w": 11,
+   "l": 9,
+   "otl": 3,
+   "pts": 25,
+   "gf": 71,
+   "ga": 77,
+   "diff": -6,
+   "l10": "7-3-0",
+   "strk": "W1",
+   "dseq": 6,
+   "cseq": 8,
+   "lseq": 17
   },
   {
    "abbr": "ANA",
@@ -7432,26 +7452,6 @@
    "l10": "6-4-0",
    "strk": "L1",
    "dseq": 3,
-   "cseq": 8,
-   "lseq": 17
-  },
-  {
-   "abbr": "WPG",
-   "name": "Winnipeg Jets",
-   "nick": "Jets",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 22,
-   "w": 10,
-   "l": 9,
-   "otl": 3,
-   "pts": 23,
-   "gf": 67,
-   "ga": 74,
-   "diff": -7,
-   "l10": "6-4-0",
-   "strk": "L1",
-   "dseq": 6,
    "cseq": 9,
    "lseq": 18
   },
@@ -7770,5 +7770,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-19T06:15:18Z"
+ "updated": "2026-11-20T02:45:14Z"
 }

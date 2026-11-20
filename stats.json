@@ -7276,6 +7276,26 @@
    "lseq": 9
   },
   {
+   "abbr": "COL",
+   "name": "Colorado Avalanche",
+   "nick": "Avalanche",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 23,
+   "w": 13,
+   "l": 7,
+   "otl": 3,
+   "pts": 29,
+   "gf": 90,
+   "ga": 68,
+   "diff": 22,
+   "l10": "6-2-2",
+   "strk": "W1",
+   "dseq": 2,
+   "cseq": 4,
+   "lseq": 10
+  },
+  {
    "abbr": "DAL",
    "name": "Dallas Stars",
    "nick": "Stars",
@@ -7291,9 +7311,9 @@
    "diff": 7,
    "l10": "6-3-1",
    "strk": "W3",
-   "dseq": 2,
-   "cseq": 4,
-   "lseq": 10
+   "dseq": 3,
+   "cseq": 5,
+   "lseq": 11
   },
   {
    "abbr": "NYR",
@@ -7313,26 +7333,6 @@
    "strk": "W3",
    "dseq": 3,
    "cseq": 7,
-   "lseq": 11
-  },
-  {
-   "abbr": "COL",
-   "name": "Colorado Avalanche",
-   "nick": "Avalanche",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 22,
-   "w": 12,
-   "l": 7,
-   "otl": 3,
-   "pts": 27,
-   "gf": 86,
-   "ga": 68,
-   "diff": 18,
-   "l10": "6-2-2",
-   "strk": "L1",
-   "dseq": 3,
-   "cseq": 5,
    "lseq": 12
   },
   {
@@ -7461,16 +7461,16 @@
    "nick": "Ducks",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 22,
+   "gp": 23,
    "w": 11,
-   "l": 10,
+   "l": 11,
    "otl": 1,
    "pts": 23,
    "gf": 85,
-   "ga": 85,
-   "diff": 0,
+   "ga": 89,
+   "diff": -4,
    "l10": "6-4-0",
-   "strk": "L1",
+   "strk": "L2",
    "dseq": 3,
    "cseq": 10,
    "lseq": 19
@@ -7770,5 +7770,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-20T04:30:16Z"
+ "updated": "2026-11-20T04:45:13Z"
 }

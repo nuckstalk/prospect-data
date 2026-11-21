@@ -5258,7 +5258,7 @@
      "",
      18,
      3,
-     2400,
+     2651,
      0,
      1
     ],
@@ -5900,6 +5900,26 @@
    "dseq": 5
   },
   {
+   "abbr": "SJ",
+   "name": "San Jose Barracuda",
+   "nick": "Barracuda",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 18,
+   "w": 8,
+   "l": 10,
+   "otl": 0,
+   "pts": 16,
+   "gf": 50,
+   "ga": 65,
+   "diff": -15,
+   "l10": "5-5-0",
+   "strk": "1-0-0-0",
+   "lseq": 25,
+   "cseq": 13,
+   "dseq": 9
+  },
+  {
    "abbr": "CLE",
    "name": "Cleveland Monsters",
    "nick": "Monsters",
@@ -5975,8 +5995,8 @@
    "diff": -13,
    "l10": "4-5-0-1",
    "strk": "0-2-0-0",
-   "lseq": 25,
-   "cseq": 13,
+   "lseq": 26,
+   "cseq": 14,
    "dseq": 5
   },
   {
@@ -5995,29 +6015,9 @@
    "diff": -9,
    "l10": "3-6-1",
    "strk": "0-3-0-0",
-   "lseq": 26,
-   "cseq": 14,
-   "dseq": 6
-  },
-  {
-   "abbr": "SJ",
-   "name": "San Jose Barracuda",
-   "nick": "Barracuda",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 17,
-   "w": 7,
-   "l": 10,
-   "otl": 0,
-   "pts": 14,
-   "gf": 50,
-   "ga": 65,
-   "diff": -15,
-   "l10": "4-6-0",
-   "strk": "0-1-0-0",
    "lseq": 27,
    "cseq": 15,
-   "dseq": 9
+   "dseq": 6
   },
   {
    "abbr": "HAM",
@@ -6045,18 +6045,18 @@
    "nick": "Stars",
    "div": "Central",
    "conf": "Western",
-   "gp": 17,
+   "gp": 18,
    "w": 5,
-   "l": 8,
+   "l": 9,
    "otl": 4,
    "pts": 14,
    "gf": 48,
    "ga": 69,
    "diff": -21,
-   "l10": "4-4-1-1",
-   "strk": "2-0-1-1",
-   "lseq": 28,
-   "cseq": 16,
+   "l10": "3-5-1-1",
+   "strk": "0-1-0-0",
+   "lseq": 30,
+   "cseq": 17,
    "dseq": 7
   },
   {
@@ -6075,8 +6075,8 @@
    "diff": -14,
    "l10": "3-4-1-2",
    "strk": "0-1-0-1",
-   "lseq": 29,
-   "cseq": 17,
+   "lseq": 28,
+   "cseq": 16,
    "dseq": 10
   },
   {
@@ -6115,7 +6115,7 @@
    "diff": -19,
    "l10": "2-5-1-2",
    "strk": "0-3-0-2",
-   "lseq": 30,
+   "lseq": 29,
    "cseq": 13,
    "dseq": 6
   }
@@ -6177,5 +6177,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-21T03:45:23Z"
+ "updated": "2026-11-21T04:00:21Z"
 }

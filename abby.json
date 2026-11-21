@@ -5505,19 +5505,19 @@
    "nick": "Rocket",
    "div": "North",
    "conf": "Eastern",
-   "gp": 18,
+   "gp": 19,
    "w": 13,
-   "l": 3,
+   "l": 4,
    "otl": 2,
    "pts": 28,
    "gf": 75,
    "ga": 44,
    "diff": 31,
    "l10": "6-2-2",
-   "strk": "6-0-2-0",
-   "lseq": 2,
-   "cseq": 1,
-   "dseq": 1
+   "strk": "0-1-0-0",
+   "lseq": 4,
+   "cseq": 2,
+   "dseq": 2
   },
   {
    "abbr": "MB",
@@ -5555,9 +5555,29 @@
    "diff": 17,
    "l10": "8-1-1",
    "strk": "1-0-0-0",
-   "lseq": 4,
+   "lseq": 3,
    "cseq": 2,
    "dseq": 1
+  },
+  {
+   "abbr": "CGY",
+   "name": "Calgary Wranglers",
+   "nick": "Wranglers",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 20,
+   "w": 11,
+   "l": 8,
+   "otl": 1,
+   "pts": 23,
+   "gf": 63,
+   "ga": 58,
+   "diff": 5,
+   "l10": "6-3-1",
+   "strk": "2-0-1-0",
+   "lseq": 14,
+   "cseq": 8,
+   "dseq": 5
   },
   {
    "abbr": "CLT",
@@ -5575,29 +5595,9 @@
    "diff": 2,
    "l10": "5-4-1",
    "strk": "1-0-0-0",
-   "lseq": 14,
+   "lseq": 15,
    "cseq": 7,
    "dseq": 3
-  },
-  {
-   "abbr": "CGY",
-   "name": "Calgary Wranglers",
-   "nick": "Wranglers",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 19,
-   "w": 10,
-   "l": 8,
-   "otl": 1,
-   "pts": 21,
-   "gf": 63,
-   "ga": 58,
-   "diff": 5,
-   "l10": "5-4-1",
-   "strk": "1-0-1-0",
-   "lseq": 17,
-   "cseq": 10,
-   "dseq": 7
   },
   {
    "abbr": "ROC",
@@ -5775,9 +5775,9 @@
    "diff": 11,
    "l10": "7-3-0",
    "strk": "0-1-0-0",
-   "lseq": 3,
-   "cseq": 2,
-   "dseq": 2
+   "lseq": 2,
+   "cseq": 1,
+   "dseq": 1
   },
   {
    "abbr": "BEL",
@@ -5835,9 +5835,9 @@
    "diff": -6,
    "l10": "5-4-1",
    "strk": "0-1-0-0",
-   "lseq": 16,
-   "cseq": 9,
-   "dseq": 6
+   "lseq": 17,
+   "cseq": 10,
+   "dseq": 7
   },
   {
    "abbr": "TOR",
@@ -5875,9 +5875,9 @@
    "diff": 0,
    "l10": "4-5-1",
    "strk": "4-0-0-0",
-   "lseq": 15,
-   "cseq": 8,
-   "dseq": 5
+   "lseq": 16,
+   "cseq": 9,
+   "dseq": 6
   },
   {
    "abbr": "PRO",
@@ -6169,5 +6169,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-21T22:45:16Z"
+ "updated": "2026-11-21T23:00:22Z"
 }

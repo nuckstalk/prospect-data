@@ -18,13 +18,13 @@
    "ep": 2,
    "team": "Boston Univ.",
    "lg": "NCAA",
-   "gp": 12,
-   "g": 3,
-   "a": 6,
-   "tp": 9,
-   "ppg": 0.75,
+   "gp": 13,
+   "g": 5,
+   "a": 7,
+   "tp": 12,
+   "ppg": 0.9230769230769231,
    "pim": 8,
-   "pm": 7
+   "pm": 5
   },
   "Adam Novotný": {
    "ep": 3,
@@ -102,13 +102,13 @@
    "ep": 9,
    "team": "Boston Univ.",
    "lg": "NCAA",
-   "gp": 12,
+   "gp": 13,
    "g": 1,
    "a": 3,
    "tp": 4,
-   "ppg": 0.3333333333333333,
+   "ppg": 0.3076923076923077,
    "pim": 6,
-   "pm": 4
+   "pm": 1
   },
   "Ty Mueller": {
    "ep": 10,
@@ -180,13 +180,13 @@
    "ep": 14,
    "team": "Michigan State",
    "lg": "NCAA",
-   "gp": 10,
+   "gp": 11,
    "g": 7,
    "a": 5,
    "tp": 12,
-   "ppg": 1.2,
+   "ppg": 1.0909090909090908,
    "pim": 12,
-   "pm": 2
+   "pm": 1
   },
   "Sawyer Mynio": {
    "ep": 16,
@@ -276,13 +276,13 @@
    "ep": 24,
    "team": "Boston Univ.",
    "lg": "NCAA",
-   "gp": 10,
+   "gp": 11,
    "g": 0,
    "a": 2,
    "tp": 2,
-   "ppg": 0.2,
+   "ppg": 0.18181818181818182,
    "pim": 4,
-   "pm": -1
+   "pm": -2
   },
   "Daimon Gardner": {
    "ep": 25,
@@ -440,6 +440,58 @@
      "sg": 0,
      "sa": 1,
      "stp": 1
+    },
+    {
+     "k": "S",
+     "name": "Caleb Malhotra",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 2,
+     "da": 1,
+     "dtp": 3,
+     "sgp": 13,
+     "sg": 5,
+     "sa": 7,
+     "stp": 12
+    },
+    {
+     "k": "S",
+     "name": "Niklas Aaram-Olsen",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 13,
+     "sg": 1,
+     "sa": 3,
+     "stp": 4
+    },
+    {
+     "k": "S",
+     "name": "Anthony Romani",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 11,
+     "sg": 7,
+     "sa": 5,
+     "stp": 12
+    },
+    {
+     "k": "S",
+     "name": "Aiden Celebrini",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 11,
+     "sg": 0,
+     "sa": 2,
+     "stp": 2
     }
    ]
   },

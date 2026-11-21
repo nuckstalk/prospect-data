@@ -528,12 +528,12 @@
    "name": "Riley Patterson",
    "id": "11053",
    "pos": "C",
-   "gp": 17,
+   "gp": 18,
    "g": 6,
    "a": 5,
    "pts": 11,
    "pm": 3,
-   "pim": 4,
+   "pim": 6,
    "ppg": 2,
    "shg": 0,
    "gwg": null,
@@ -548,7 +548,7 @@
     [
      "2026-27",
      "Abbotsford Canucks",
-     17,
+     18,
      6,
      5,
      11
@@ -569,7 +569,7 @@
      0,
      0,
      0,
-     0,
+     2,
      0,
      0,
      0
@@ -1120,7 +1120,7 @@
      0,
      0,
      0,
-     0,
+     1,
      0,
      0
     ],
@@ -2700,7 +2700,7 @@
      0,
      0,
      0,
-     0,
+     1,
      0,
      0
     ],
@@ -5130,7 +5130,7 @@
      0,
      0,
      0,
-     0,
+     1,
      0,
      0
     ],
@@ -5256,9 +5256,9 @@
     [
      "2026-11-20",
      "",
-     5,
+     8,
      0,
-     819,
+     1200,
      0,
      1
     ],
@@ -5540,6 +5540,26 @@
    "dseq": 3
   },
   {
+   "abbr": "CLT",
+   "name": "Charlotte Checkers",
+   "nick": "Checkers",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 20,
+   "w": 11,
+   "l": 8,
+   "otl": 1,
+   "pts": 23,
+   "gf": 60,
+   "ga": 58,
+   "diff": 2,
+   "l10": "5-4-1",
+   "strk": "1-0-0-0",
+   "lseq": 12,
+   "cseq": 6,
+   "dseq": 2
+  },
+  {
    "abbr": "TUC",
    "name": "Tucson Roadrunners",
    "nick": "Roadrunners",
@@ -5575,7 +5595,7 @@
    "diff": 3,
    "l10": "5-4-1",
    "strk": "1-0-1-0",
-   "lseq": 16,
+   "lseq": 17,
    "cseq": 10,
    "dseq": 7
   },
@@ -5598,26 +5618,6 @@
    "lseq": 6,
    "cseq": 4,
    "dseq": 2
-  },
-  {
-   "abbr": "CLT",
-   "name": "Charlotte Checkers",
-   "nick": "Checkers",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 19,
-   "w": 10,
-   "l": 8,
-   "otl": 1,
-   "pts": 21,
-   "gf": 58,
-   "ga": 58,
-   "diff": 0,
-   "l10": "4-5-1",
-   "strk": "0-2-0-0",
-   "lseq": 17,
-   "cseq": 7,
-   "dseq": 3
   },
   {
    "abbr": "HFD",
@@ -5700,6 +5700,26 @@
    "dseq": 2
   },
   {
+   "abbr": "BEL",
+   "name": "Belleville Senators",
+   "nick": "Senators",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 19,
+   "w": 9,
+   "l": 8,
+   "otl": 2,
+   "pts": 20,
+   "gf": 54,
+   "ga": 56,
+   "diff": -2,
+   "l10": "5-5-0",
+   "strk": "1-0-0-0",
+   "lseq": 20,
+   "cseq": 10,
+   "dseq": 5
+  },
+  {
    "abbr": "HSK",
    "name": "Henderson Silver Knights",
    "nick": "Silver Knights",
@@ -5735,7 +5755,7 @@
    "diff": -6,
    "l10": "5-4-1",
    "strk": "0-1-0-0",
-   "lseq": 15,
+   "lseq": 16,
    "cseq": 9,
    "dseq": 6
   },
@@ -5755,7 +5775,7 @@
    "diff": 3,
    "l10": "4-5-0-1",
    "strk": "1-0-0-0",
-   "lseq": 20,
+   "lseq": 21,
    "cseq": 11,
    "dseq": 8
   },
@@ -5795,7 +5815,7 @@
    "diff": 0,
    "l10": "4-5-1",
    "strk": "4-0-0-0",
-   "lseq": 12,
+   "lseq": 13,
    "cseq": 7,
    "dseq": 4
   },
@@ -5810,14 +5830,14 @@
    "l": 6,
    "otl": 3,
    "pts": 19,
-   "gf": 61,
+   "gf": 62,
    "ga": 50,
-   "diff": 11,
+   "diff": 12,
    "l10": "5-3-2",
    "strk": "0-1-0-0",
-   "lseq": 14,
-   "cseq": 6,
-   "dseq": 2
+   "lseq": 15,
+   "cseq": 7,
+   "dseq": 3
   },
   {
    "abbr": "TOR",
@@ -5855,7 +5875,7 @@
    "diff": 8,
    "l10": "5-3-2",
    "strk": "1-0-0-0",
-   "lseq": 13,
+   "lseq": 14,
    "cseq": 8,
    "dseq": 5
   },
@@ -5877,26 +5897,6 @@
    "strk": "3-0-0-0",
    "lseq": 19,
    "cseq": 9,
-   "dseq": 5
-  },
-  {
-   "abbr": "BEL",
-   "name": "Belleville Senators",
-   "nick": "Senators",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 18,
-   "w": 8,
-   "l": 8,
-   "otl": 2,
-   "pts": 18,
-   "gf": 54,
-   "ga": 56,
-   "diff": -2,
-   "l10": "4-6-0",
-   "strk": "0-1-0-0",
-   "lseq": 21,
-   "cseq": 10,
    "dseq": 5
   },
   {
@@ -5995,7 +5995,7 @@
    "diff": -9,
    "l10": "3-6-1",
    "strk": "0-3-0-0",
-   "lseq": 27,
+   "lseq": 26,
    "cseq": 14,
    "dseq": 6
   },
@@ -6015,7 +6015,7 @@
    "diff": -17,
    "l10": "4-6-0",
    "strk": "0-1-0-0",
-   "lseq": 28,
+   "lseq": 27,
    "cseq": 15,
    "dseq": 9
   },
@@ -6025,16 +6025,16 @@
    "nick": "Hammers",
    "div": "North",
    "conf": "Eastern",
-   "gp": 19,
+   "gp": 20,
    "w": 6,
-   "l": 11,
+   "l": 12,
    "otl": 2,
    "pts": 14,
    "gf": 50,
    "ga": 74,
    "diff": -24,
-   "l10": "4-5-0-1",
-   "strk": "0-1-0-0",
+   "l10": "3-6-0-1",
+   "strk": "0-2-0-0",
    "lseq": 32,
    "cseq": 15,
    "dseq": 8
@@ -6055,7 +6055,7 @@
    "diff": -19,
    "l10": "4-4-1-1",
    "strk": "2-0-1-1",
-   "lseq": 29,
+   "lseq": 28,
    "cseq": 16,
    "dseq": 7
   },
@@ -6075,7 +6075,7 @@
    "diff": -14,
    "l10": "3-4-1-2",
    "strk": "0-1-0-1",
-   "lseq": 31,
+   "lseq": 30,
    "cseq": 17,
    "dseq": 10
   },
@@ -6091,13 +6091,13 @@
    "otl": 1,
    "pts": 13,
    "gf": 45,
-   "ga": 66,
-   "diff": -21,
+   "ga": 67,
+   "diff": -22,
    "l10": "3-7-0",
    "strk": "0-2-0-0",
-   "lseq": 30,
-   "cseq": 14,
-   "dseq": 7
+   "lseq": 29,
+   "cseq": 13,
+   "dseq": 6
   },
   {
    "abbr": "SPR",
@@ -6105,19 +6105,19 @@
    "nick": "Thunderbirds",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 15,
+   "gp": 16,
    "w": 4,
-   "l": 6,
+   "l": 7,
    "otl": 5,
    "pts": 13,
    "gf": 38,
-   "ga": 55,
-   "diff": -17,
-   "l10": "2-4-2-2",
-   "strk": "0-2-0-2",
-   "lseq": 26,
-   "cseq": 13,
-   "dseq": 6
+   "ga": 57,
+   "diff": -19,
+   "l10": "2-5-1-2",
+   "strk": "0-3-0-2",
+   "lseq": 31,
+   "cseq": 14,
+   "dseq": 7
   }
  ],
  "team": {
@@ -6127,7 +6127,7 @@
   },
   "ga": {
    "v": 2.94,
-   "rank": 14
+   "rank": 15
   },
   "pt": {
    "v": 61.8,
@@ -6177,5 +6177,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-21T02:30:20Z"
+ "updated": "2026-11-21T02:45:19Z"
 }

@@ -3136,7 +3136,7 @@
    "name": "Anri Ravinskis",
    "id": "10919",
    "pos": "LW",
-   "gp": 14,
+   "gp": 15,
    "g": 1,
    "a": 5,
    "pts": 6,
@@ -3146,8 +3146,8 @@
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 20,
-   "shp": 5.0,
+   "sog": 21,
+   "shp": 4.8,
    "toi": null,
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/10919.jpg",
@@ -3156,7 +3156,7 @@
     [
      "2026-27",
      "Abbotsford Canucks",
-     14,
+     15,
      1,
      5,
      6
@@ -4401,7 +4401,7 @@
    "name": "Austin Brimmer",
    "id": "10973",
    "pos": "RW",
-   "gp": 11,
+   "gp": 12,
    "g": 1,
    "a": 1,
    "pts": 2,
@@ -4411,8 +4411,8 @@
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 5,
-   "shp": 20.0,
+   "sog": 6,
+   "shp": 16.7,
    "toi": null,
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/10973.jpg",
@@ -4421,7 +4421,7 @@
     [
      "2026-27",
      "Abbotsford Canucks",
-     11,
+     12,
      1,
      1,
      2
@@ -4834,7 +4834,7 @@
    "name": "Matthew Stienburg",
    "id": "9683",
    "pos": "RW",
-   "gp": 14,
+   "gp": 15,
    "g": 0,
    "a": 0,
    "pts": 0,
@@ -4854,7 +4854,7 @@
     [
      "2026-27",
      "Abbotsford Canucks",
-     14,
+     15,
      0,
      0,
      0
@@ -5185,17 +5185,17 @@
   {
    "name": "Nikita Tolopilo",
    "id": "9983",
-   "gp": 13,
+   "gp": 12,
    "gs": null,
    "w": 7,
    "l": 3,
    "otl": 2,
-   "gaa": 2.92,
-   "svp": ".883",
+   "gaa": 2.74,
+   "svp": ".889",
    "so": 0,
-   "sa": 325,
-   "sv": 287,
-   "ga": 38,
+   "sa": 298,
+   "sv": 265,
+   "ga": 33,
    "img": "https://assets.leaguestat.com/ahl/240x240/9983.jpg",
    "bd": "2000-04-06",
    "career": [
@@ -5204,7 +5204,7 @@
      "Abbotsford Canucks",
      12,
      7,
-     2,
+     3,
      4,
      2.74,
      ".889",
@@ -5540,6 +5540,26 @@
    "dseq": 3
   },
   {
+   "abbr": "TUC",
+   "name": "Tucson Roadrunners",
+   "nick": "Roadrunners",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 16,
+   "w": 11,
+   "l": 3,
+   "otl": 2,
+   "pts": 24,
+   "gf": 52,
+   "ga": 35,
+   "diff": 17,
+   "l10": "8-1-1",
+   "strk": "1-0-0-0",
+   "lseq": 4,
+   "cseq": 2,
+   "dseq": 1
+  },
+  {
    "abbr": "CLT",
    "name": "Charlotte Checkers",
    "nick": "Checkers",
@@ -5558,26 +5578,6 @@
    "lseq": 13,
    "cseq": 7,
    "dseq": 3
-  },
-  {
-   "abbr": "TUC",
-   "name": "Tucson Roadrunners",
-   "nick": "Roadrunners",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 15,
-   "w": 10,
-   "l": 3,
-   "otl": 2,
-   "pts": 22,
-   "gf": 52,
-   "ga": 35,
-   "diff": 17,
-   "l10": "7-1-2",
-   "strk": "0-1-0-0",
-   "lseq": 4,
-   "cseq": 2,
-   "dseq": 1
   },
   {
    "abbr": "CGY",
@@ -5693,7 +5693,7 @@
    "gf": 56,
    "ga": 55,
    "diff": 1,
-   "l10": "5-4-0-2",
+   "l10": "4-4-0-2",
    "strk": "0-2-0-0",
    "lseq": 11,
    "cseq": 6,
@@ -6169,5 +6169,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-21T04:45:22Z"
+ "updated": "2026-11-21T05:00:18Z"
 }

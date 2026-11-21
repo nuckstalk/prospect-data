@@ -234,7 +234,7 @@
    "tp": 10,
    "ppg": 0.7692307692307693,
    "pim": 22,
-   "pm": 4
+   "pm": 3
   },
   "Samuel Eriksson": {
    "ep": 20,
@@ -300,11 +300,11 @@
    "ep": 26,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 14,
+   "gp": 15,
    "g": 1,
    "a": 5,
    "tp": 6,
-   "ppg": 0.42857142857142855,
+   "ppg": 0.4,
    "pim": 12,
    "pm": 3
   },
@@ -582,6 +582,19 @@
      "sgp": 18,
      "sg": 3,
      "sa": 3,
+     "stp": 6
+    },
+    {
+     "k": "S",
+     "name": "Anri Ravinskis",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 15,
+     "sg": 1,
+     "sa": 5,
      "stp": 6
     }
    ]

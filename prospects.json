@@ -288,7 +288,7 @@
    "ep": 25,
    "team": "Minnesota State (Mankato)",
    "lg": "NCAA",
-   "gp": 9,
+   "gp": 10,
    "g": 0,
    "a": 0,
    "tp": 0,
@@ -492,6 +492,19 @@
      "sg": 0,
      "sa": 2,
      "stp": 2
+    },
+    {
+     "k": "S",
+     "name": "Daimon Gardner",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 10,
+     "sg": 0,
+     "sa": 0,
+     "stp": 0
     }
    ]
   },

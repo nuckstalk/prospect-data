@@ -5575,7 +5575,7 @@
    "diff": 2,
    "l10": "5-4-1",
    "strk": "1-0-0-0",
-   "lseq": 13,
+   "lseq": 14,
    "cseq": 7,
    "dseq": 3
   },
@@ -5655,7 +5655,7 @@
    "diff": 12,
    "l10": "5-3-2",
    "strk": "1-0-0-0",
-   "lseq": 12,
+   "lseq": 13,
    "cseq": 6,
    "dseq": 2
   },
@@ -5698,6 +5698,26 @@
    "lseq": 11,
    "cseq": 6,
    "dseq": 3
+  },
+  {
+   "abbr": "SD",
+   "name": "San Diego Gulls",
+   "nick": "Gulls",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 18,
+   "w": 9,
+   "l": 6,
+   "otl": 3,
+   "pts": 21,
+   "gf": 53,
+   "ga": 42,
+   "diff": 11,
+   "l10": "6-2-2",
+   "strk": "2-0-0-0",
+   "lseq": 12,
+   "cseq": 7,
+   "dseq": 4
   },
   {
    "abbr": "COL",
@@ -5835,9 +5855,9 @@
    "diff": 0,
    "l10": "4-5-1",
    "strk": "4-0-0-0",
-   "lseq": 14,
-   "cseq": 7,
-   "dseq": 4
+   "lseq": 15,
+   "cseq": 8,
+   "dseq": 5
   },
   {
    "abbr": "TOR",
@@ -5858,26 +5878,6 @@
    "lseq": 9,
    "cseq": 4,
    "dseq": 4
-  },
-  {
-   "abbr": "SD",
-   "name": "San Diego Gulls",
-   "nick": "Gulls",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 17,
-   "w": 8,
-   "l": 6,
-   "otl": 3,
-   "pts": 19,
-   "gf": 52,
-   "ga": 42,
-   "diff": 10,
-   "l10": "5-3-2",
-   "strk": "1-0-0-0",
-   "lseq": 15,
-   "cseq": 8,
-   "dseq": 5
   },
   {
    "abbr": "PRO",
@@ -6005,18 +6005,18 @@
    "nick": "Wild",
    "div": "Central",
    "conf": "Western",
-   "gp": 18,
+   "gp": 19,
    "w": 6,
-   "l": 9,
+   "l": 10,
    "otl": 3,
    "pts": 15,
    "gf": 43,
-   "ga": 54,
-   "diff": -11,
+   "ga": 55,
+   "diff": -12,
    "l10": "3-6-1",
-   "strk": "0-3-0-0",
-   "lseq": 27,
-   "cseq": 15,
+   "strk": "0-4-0-0",
+   "lseq": 29,
+   "cseq": 16,
    "dseq": 6
   },
   {
@@ -6075,8 +6075,8 @@
    "diff": -14,
    "l10": "3-4-1-2",
    "strk": "0-1-0-1",
-   "lseq": 28,
-   "cseq": 16,
+   "lseq": 27,
+   "cseq": 15,
    "dseq": 10
   },
   {
@@ -6115,7 +6115,7 @@
    "diff": -19,
    "l10": "2-5-1-2",
    "strk": "0-3-0-2",
-   "lseq": 29,
+   "lseq": 28,
    "cseq": 13,
    "dseq": 6
   }
@@ -6169,5 +6169,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-21T05:30:19Z"
+ "updated": "2026-11-21T05:45:18Z"
 }

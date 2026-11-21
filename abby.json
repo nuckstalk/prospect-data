@@ -530,8 +530,8 @@
    "pos": "C",
    "gp": 18,
    "g": 6,
-   "a": 6,
-   "pts": 12,
+   "a": 5,
+   "pts": 11,
    "pm": 4,
    "pim": 6,
    "ppg": 2,
@@ -550,8 +550,8 @@
      "Abbotsford Canucks",
      18,
      6,
-     6,
-     12
+     5,
+     11
     ],
     [
      "2025-26",
@@ -566,8 +566,8 @@
     [
      "2026-11-20",
      0,
-     1,
-     1,
+     0,
+     0,
      1,
      2,
      2,
@@ -3897,8 +3897,8 @@
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 27,
-   "shp": 7.4,
+   "sog": 28,
+   "shp": 7.1,
    "toi": null,
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/7696.jpg",
@@ -3961,7 +3961,7 @@
      0,
      -2,
      0,
-     1,
+     2,
      0,
      0
     ],
@@ -5185,17 +5185,17 @@
   {
    "name": "Nikita Tolopilo",
    "id": "9983",
-   "gp": 12,
+   "gp": 13,
    "gs": null,
    "w": 7,
-   "l": 2,
+   "l": 3,
    "otl": 2,
-   "gaa": 2.74,
-   "svp": ".889",
+   "gaa": 2.92,
+   "svp": ".883",
    "so": 0,
-   "sa": 298,
-   "sv": 265,
-   "ga": 33,
+   "sa": 325,
+   "sv": 287,
+   "ga": 38,
    "img": "https://assets.leaguestat.com/ahl/240x240/9983.jpg",
    "bd": "2000-04-06",
    "career": [
@@ -5255,7 +5255,7 @@
    "log": [
     [
      "2026-11-20",
-     "",
+     "L",
      27,
      5,
      3416,
@@ -5490,9 +5490,9 @@
    "l": 2,
    "otl": 2,
    "pts": 30,
-   "gf": 75,
+   "gf": 76,
    "ga": 44,
-   "diff": 31,
+   "diff": 32,
    "l10": "8-1-0-1",
    "strk": "4-0-0-0",
    "lseq": 1,
@@ -5685,17 +5685,17 @@
    "nick": "Canucks",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 17,
+   "gp": 18,
    "w": 9,
-   "l": 5,
+   "l": 6,
    "otl": 3,
    "pts": 21,
    "gf": 56,
    "ga": 55,
    "diff": 1,
-   "l10": "5-3-0-2",
-   "strk": "0-2-0-1",
-   "lseq": 9,
+   "l10": "5-4-0-2",
+   "strk": "0-2-0-0",
+   "lseq": 11,
    "cseq": 6,
    "dseq": 3
   },
@@ -5715,7 +5715,7 @@
    "diff": 2,
    "l10": "5-5-0",
    "strk": "0-1-0-0",
-   "lseq": 11,
+   "lseq": 10,
    "cseq": 5,
    "dseq": 1
   },
@@ -5811,8 +5811,8 @@
    "otl": 2,
    "pts": 20,
    "gf": 59,
-   "ga": 56,
-   "diff": 3,
+   "ga": 57,
+   "diff": 2,
    "l10": "4-5-0-1",
    "strk": "1-0-0-0",
    "lseq": 21,
@@ -5855,7 +5855,7 @@
    "diff": 3,
    "l10": "4-3-3",
    "strk": "0-1-0-0",
-   "lseq": 10,
+   "lseq": 9,
    "cseq": 4,
    "dseq": 4
   },
@@ -6122,36 +6122,28 @@
  ],
  "team": {
   "gf": {
-   "v": 3.29,
-   "rank": 7
+   "v": 3.11,
+   "rank": 10
   },
   "ga": {
-   "v": 3.24,
-   "rank": 24
+   "v": 3.06,
+   "rank": 19
   },
   "pt": {
-   "v": 61.8,
-   "rank": 8
+   "v": 58.3,
+   "rank": 11
   }
  },
- "live": true,
+ "live": false,
  "next": {
-  "iso": "2026-11-20T19:00:00-07:00",
-  "date": "Fri Nov 20",
-  "time": "7:00 PM PT",
+  "iso": "2026-11-21T17:00:00-07:00",
+  "date": "Sat Nov 21",
+  "time": "5:00 PM PT",
   "opp": "Tucson Roadrunners",
   "home": true,
-  "live": true
+  "live": false
  },
  "sched": [
-  {
-   "iso": "2026-11-20T19:00:00-07:00",
-   "date": "Fri Nov 20",
-   "time": "7:00 PM PT",
-   "opp": "Tucson Roadrunners",
-   "home": true,
-   "live": true
-  },
   {
    "iso": "2026-11-21T17:00:00-07:00",
    "date": "Sat Nov 21",
@@ -6177,5 +6169,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-21T04:30:15Z"
+ "updated": "2026-11-21T04:45:22Z"
 }

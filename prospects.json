@@ -78,13 +78,13 @@
    "ep": 7,
    "team": "Oshawa Generals",
    "lg": "OHL",
-   "gp": 19,
-   "g": 4,
-   "a": 14,
-   "tp": 18,
-   "ppg": 0.9473684210526315,
+   "gp": 20,
+   "g": 5,
+   "a": 16,
+   "tp": 21,
+   "ppg": 1.05,
    "pim": 13,
-   "pm": 1
+   "pm": 3
   },
   "Kieren Dervin": {
    "ep": 8,
@@ -126,13 +126,13 @@
    "ep": 11,
    "team": "Kitchener Rangers",
    "lg": "OHL",
-   "gp": 6,
+   "gp": 7,
    "g": 1,
    "a": 2,
    "tp": 3,
-   "ppg": 0.5,
-   "pim": 6,
-   "pm": 4,
+   "ppg": 0.42857142857142855,
+   "pim": 8,
+   "pm": 3,
    "splits": [
     {
      "team": "Abbotsford Canucks",
@@ -145,7 +145,7 @@
     {
      "team": "Kitchener Rangers",
      "lg": "OHL",
-     "gp": 4,
+     "gp": 5,
      "g": 1,
      "a": 1,
      "tp": 2
@@ -156,12 +156,12 @@
    "ep": 12,
    "team": "Owen Sound Attack",
    "lg": "OHL",
-   "gp": 18,
+   "gp": 19,
    "g": 4,
    "a": 8,
    "tp": 12,
-   "ppg": 0.6666666666666666,
-   "pim": 10,
+   "ppg": 0.631578947368421,
+   "pim": 12,
    "pm": -7
   },
   "Parker Alcos": {
@@ -386,6 +386,50 @@
   }
  },
  "watch": [
+  {
+   "date": "2026-11-20",
+   "items": [
+    {
+     "k": "S",
+     "name": "Brooks Rogowski",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 1,
+     "da": 2,
+     "dtp": 3,
+     "sgp": 20,
+     "sg": 5,
+     "sa": 16,
+     "stp": 21
+    },
+    {
+     "k": "S",
+     "name": "Gabriel Chiarot",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 7,
+     "sg": 1,
+     "sa": 2,
+     "stp": 3
+    },
+    {
+     "k": "S",
+     "name": "Lucian Bernat",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 19,
+     "sg": 4,
+     "sa": 8,
+     "stp": 12
+    }
+   ]
+  },
   {
    "date": "2026-11-19",
    "items": [
@@ -1181,61 +1225,6 @@
      "sg": 1,
      "sa": 3,
      "stp": 4
-    }
-   ]
-  },
-  {
-   "date": "2026-11-12",
-   "items": [
-    {
-     "k": "S",
-     "name": "Gabriel Chiarot",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 3,
-     "sg": 0,
-     "sa": 1,
-     "stp": 1
-    },
-    {
-     "k": "S",
-     "name": "Adam Novotný",
-     "lg": "OHL",
-     "dgp": 1,
-     "dg": 0,
-     "da": 2,
-     "dtp": 2,
-     "sgp": 18,
-     "sg": 11,
-     "sa": 14,
-     "stp": 25
-    },
-    {
-     "k": "G",
-     "name": "Alexei Medvedev",
-     "lg": "OHL",
-     "dgp": 1,
-     "res": "W",
-     "gaa": 3.13,
-     "svp": ".899",
-     "sgp": 10,
-     "ga": 2
-    },
-    {
-     "k": "S",
-     "name": "Anthony Romani",
-     "lg": "NCAA",
-     "dgp": 1,
-     "dg": 0,
-     "da": 0,
-     "dtp": 0,
-     "sgp": 9,
-     "sg": 7,
-     "sa": 5,
-     "stp": 12
     }
    ]
   }

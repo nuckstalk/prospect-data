@@ -35,7 +35,7 @@
    "a": 14,
    "tp": 29,
    "ppg": 1.3181818181818181,
-   "pim": 10,
+   "pim": 14,
    "pm": 4
   },
   "Braeden Cootes": {
@@ -346,11 +346,11 @@
    "team": "Peterborough Petes",
    "lg": "OHL",
    "gp": 13,
-   "gaa": 2.62,
-   "svp": ".911",
+   "gaa": 2.88,
+   "svp": ".905",
    "so": 1,
    "rec": "7-3-2",
-   "toi": 733.77,
+   "toi": 770.13,
    "splits": [
     {
      "team": "London Knights",
@@ -366,11 +366,11 @@
      "team": "Peterborough Petes",
      "lg": "OHL",
      "gp": 5,
-     "gaa": 1.15,
-     "svp": ".956",
+     "gaa": 2.01,
+     "svp": ".929",
      "so": 1,
      "rec": "4-0-0",
-     "toi": 261.58
+     "toi": 297.95
     }
    ]
   },

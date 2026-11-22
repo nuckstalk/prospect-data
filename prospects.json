@@ -66,13 +66,13 @@
    "ep": 6,
    "team": "Medicine Hat Tigers",
    "lg": "WHL",
-   "gp": 18,
+   "gp": 19,
    "g": 6,
-   "a": 7,
-   "tp": 13,
-   "ppg": 0.7222222222222222,
+   "a": 8,
+   "tp": 14,
+   "ppg": 0.7368421052631579,
    "pim": 22,
-   "pm": 4
+   "pm": 5
   },
   "Brooks Rogowski": {
    "ep": 7,
@@ -631,6 +631,19 @@
      "svp": ".909",
      "sgp": 7,
      "ga": 5
+    },
+    {
+     "k": "S",
+     "name": "Yaroslav Bryzgalov",
+     "lg": "WHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 19,
+     "sg": 6,
+     "sa": 8,
+     "stp": 14
     }
    ]
   },

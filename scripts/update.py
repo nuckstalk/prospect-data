@@ -752,6 +752,28 @@ for n, r in data["skaters"].items():
                 it["sg"], it["sa"], it["stp"] = r["g"], r["a"], r["tp"]
                 print("watch corrected:", n, "now", it["dg"], "G", it["da"], "A")
                 break
+# AHL skaters: cross-check Prospect Watch against the AHL's own game-by-game log (abby.json) and add any game that is missing
+# (EliteProspects/AHL totals can move before games-played does, which makes the delta-based entry above miss a player who had a point)
+try:
+    _live = bool(_ab.get("live"))
+    _gd_now = (NOW.astimezone(PT) - datetime.timedelta(hours=8)).strftime("%Y-%m-%d")
+    _cut = (NOW.astimezone(PT) - datetime.timedelta(days=7)).strftime("%Y-%m-%d")
+    for n, r in data["skaters"].items():
+        a = AHLS.get(norm(n))
+        if r.get("lg") != "AHL" or not a or not a.get("log"): continue
+        rows = sorted([x for x in a["log"] if x and x[0] >= _cut and not (_live and x[0] >= _gd_now)], key=lambda x: x[0])
+        for x in rows:
+            d = next((dd for dd in watch if dd["date"] == x[0]), None)
+            if d is not None and any(it["name"] == n and it.get("k") == "S" for it in d["items"]): continue
+            later = [y for y in a["log"] if y[0] > x[0]]
+            sgp = r["gp"] - len(later); sg = r["g"] - sum(y[1] for y in later); sa = r["a"] - sum(y[2] for y in later)
+            if d is None:
+                d = {"date": x[0], "items": []}; watch.append(d)
+            d["items"].append({"k": "S", "name": n, "lg": "AHL", "dgp": 1, "dg": x[1], "da": x[2], "dtp": x[1] + x[2],
+                               "sgp": sgp, "sg": sg, "sa": sa, "stp": sg + sa})
+            print("watch added from AHL game log:", n, x[0], x[1], "G", x[2], "A")
+except Exception as e:
+    print("AHL game-log cross-check skipped:", e)
 # a goalie's W/L/OTL can post later than his GP: fill in a blank result once the record catches up.
 # Only for his MOST RECENT game: if he has played since, a changed record could belong to any of those games, so leave older blanks alone.
 _last_g = {}
@@ -807,7 +829,7 @@ for d in watch:
         if it.get("k") == "G" and fx and it.get("res") != fx:
             it["res"] = fx; it.pop("rec0", None); print("result corrected:", it["name"], d["date"], fx)
 # one-off hand corrections to a goalie's goals against: {(name, watch date): GA}
-GA_FIXES = {("Alexei Medvedev", "2026-10-30"): 4}   # logged before the late-GA fill-in existed
+GA_FIXES = {("Alexei Medvedev", "2026-10-30"): 4, ("Alexei Medvedev", "2026-11-21"): 5}   # Oct 30: logged before the late-GA fill-in existed; Nov 21: showed 0, he allowed 5
 for d in watch:
     for it in d["items"]:
         ga = GA_FIXES.get((it["name"], d["date"]))

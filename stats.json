@@ -7603,6 +7603,26 @@
    "lseq": 15
   },
   {
+   "abbr": "UTA",
+   "name": "Utah Mammoth",
+   "nick": "Mammoth",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 24,
+   "w": 12,
+   "l": 9,
+   "otl": 3,
+   "pts": 27,
+   "gf": 80,
+   "ga": 81,
+   "diff": -1,
+   "l10": "3-4-3",
+   "strk": "W2",
+   "dseq": 5,
+   "cseq": 7,
+   "lseq": 16
+  },
+  {
    "abbr": "STL",
    "name": "St. Louis Blues",
    "nick": "Blues",
@@ -7618,9 +7638,9 @@
    "diff": 4,
    "l10": "6-3-1",
    "strk": "W3",
-   "dseq": 5,
-   "cseq": 7,
-   "lseq": 16
+   "dseq": 6,
+   "cseq": 8,
+   "lseq": 17
   },
   {
    "abbr": "WPG",
@@ -7638,26 +7658,6 @@
    "diff": -7,
    "l10": "7-2-1",
    "strk": "OT1",
-   "dseq": 6,
-   "cseq": 8,
-   "lseq": 17
-  },
-  {
-   "abbr": "UTA",
-   "name": "Utah Mammoth",
-   "nick": "Mammoth",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 23,
-   "w": 11,
-   "l": 9,
-   "otl": 3,
-   "pts": 25,
-   "gf": 77,
-   "ga": 79,
-   "diff": -2,
-   "l10": "3-4-3",
-   "strk": "W1",
    "dseq": 7,
    "cseq": 9,
    "lseq": 18
@@ -7688,16 +7688,16 @@
    "nick": "Ducks",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 23,
+   "gp": 24,
    "w": 11,
-   "l": 11,
+   "l": 12,
    "otl": 1,
    "pts": 23,
-   "gf": 85,
-   "ga": 89,
-   "diff": -4,
-   "l10": "6-4-0",
-   "strk": "L2",
+   "gf": 87,
+   "ga": 92,
+   "diff": -5,
+   "l10": "5-5-0",
+   "strk": "L3",
    "dseq": 3,
    "cseq": 10,
    "lseq": 20
@@ -7977,5 +7977,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-22T03:45:15Z"
+ "updated": "2026-11-22T04:45:14Z"
 }

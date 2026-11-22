@@ -228,13 +228,13 @@
    "ep": 19,
    "team": "Colorado College",
    "lg": "NCAA",
-   "gp": 13,
+   "gp": 14,
    "g": 1,
    "a": 9,
    "tp": 10,
-   "ppg": 0.7692307692307693,
+   "ppg": 0.7142857142857143,
    "pim": 22,
-   "pm": 3
+   "pm": 2
   },
   "Samuel Eriksson": {
    "ep": 20,
@@ -644,6 +644,19 @@
      "sg": 6,
      "sa": 8,
      "stp": 14
+    },
+    {
+     "k": "S",
+     "name": "Wilson Björck",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 14,
+     "sg": 1,
+     "sa": 9,
+     "stp": 10
     }
    ]
   },

@@ -1,6 +1,6 @@
 {
- "asof": "2026-11-21",
- "label": "November 21, 2026",
+ "asof": "2026-11-22",
+ "label": "November 22, 2026",
  "skaters": {
   "Riley Patterson": {
    "ep": 1,
@@ -1513,9 +1513,5 @@
     }
    ]
   }
- ],
- "status": {
-  "msg": "FETCH FAILED: urllib: HTTP Error 403: Forbidden; chrome: HTTP 403; safari: HTTP 403; edge: HTTP 403",
-  "at": "2026-11-22T07:45Z"
- }
+ ]
 }

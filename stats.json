@@ -7663,6 +7663,26 @@
    "lseq": 18
   },
   {
+   "abbr": "SJS",
+   "name": "San Jose Sharks",
+   "nick": "Sharks",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 25,
+   "w": 11,
+   "l": 12,
+   "otl": 2,
+   "pts": 24,
+   "gf": 69,
+   "ga": 89,
+   "diff": -20,
+   "l10": "4-5-1",
+   "strk": "W1",
+   "dseq": 3,
+   "cseq": 10,
+   "lseq": 19
+  },
+  {
    "abbr": "PHI",
    "name": "Philadelphia Flyers",
    "nick": "Flyers",
@@ -7680,7 +7700,7 @@
    "strk": "W3",
    "dseq": 5,
    "cseq": 10,
-   "lseq": 19
+   "lseq": 20
   },
   {
    "abbr": "ANA",
@@ -7698,9 +7718,9 @@
    "diff": -5,
    "l10": "5-5-0",
    "strk": "L3",
-   "dseq": 3,
-   "cseq": 10,
-   "lseq": 20
+   "dseq": 4,
+   "cseq": 11,
+   "lseq": 21
   },
   {
    "abbr": "BUF",
@@ -7720,7 +7740,7 @@
    "strk": "L1",
    "dseq": 6,
    "cseq": 11,
-   "lseq": 21
+   "lseq": 22
   },
   {
    "abbr": "CGY",
@@ -7738,26 +7758,6 @@
    "diff": -24,
    "l10": "4-4-2",
    "strk": "OT1",
-   "dseq": 4,
-   "cseq": 11,
-   "lseq": 22
-  },
-  {
-   "abbr": "SJS",
-   "name": "San Jose Sharks",
-   "nick": "Sharks",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 24,
-   "w": 10,
-   "l": 12,
-   "otl": 2,
-   "pts": 22,
-   "gf": 65,
-   "ga": 86,
-   "diff": -21,
-   "l10": "3-6-1",
-   "strk": "L1",
    "dseq": 5,
    "cseq": 12,
    "lseq": 23
@@ -7768,16 +7768,16 @@
    "nick": "Kraken",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 19,
+   "gp": 20,
    "w": 10,
-   "l": 8,
+   "l": 9,
    "otl": 1,
    "pts": 21,
-   "gf": 64,
-   "ga": 67,
-   "diff": -3,
-   "l10": "5-5-0",
-   "strk": "W1",
+   "gf": 67,
+   "ga": 71,
+   "diff": -4,
+   "l10": "4-6-0",
+   "strk": "L1",
    "dseq": 6,
    "cseq": 13,
    "lseq": 24
@@ -7977,5 +7977,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-22T05:15:13Z"
+ "updated": "2026-11-22T06:00:16Z"
 }

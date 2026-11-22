@@ -543,7 +543,7 @@
    "g": 6,
    "a": 5,
    "pts": 11,
-   "pm": 3,
+   "pm": 2,
    "pim": 6,
    "ppg": 2,
    "shg": 0,
@@ -579,7 +579,7 @@
      0,
      0,
      0,
-     -1,
+     -2,
      0,
      3,
      0,
@@ -1847,7 +1847,7 @@
    "g": 3,
    "a": 5,
    "pts": 8,
-   "pm": -9,
+   "pm": -10,
    "pim": 4,
    "ppg": 0,
    "shg": 0,
@@ -1907,7 +1907,7 @@
      0,
      0,
      0,
-     -1,
+     -2,
      0,
      4,
      0,
@@ -3456,7 +3456,7 @@
    "g": 3,
    "a": 2,
    "pts": 5,
-   "pm": -1,
+   "pm": -2,
    "pim": 0,
    "ppg": 1,
    "shg": 0,
@@ -3540,7 +3540,7 @@
      0,
      1,
      1,
-     -2,
+     -3,
      0,
      1,
      0,
@@ -4029,18 +4029,18 @@
    "name": "Brandon Buhr",
    "id": "10992",
    "pos": "RW",
-   "gp": 5,
+   "gp": 6,
    "g": 1,
    "a": 3,
    "pts": 4,
-   "pm": -1,
+   "pm": -2,
    "pim": 0,
    "ppg": 0,
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 6,
-   "shp": 16.7,
+   "sog": 7,
+   "shp": 14.3,
    "toi": null,
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/10992.jpg",
@@ -4049,7 +4049,7 @@
     [
      "2026-27",
      "Abbotsford Canucks",
-     5,
+     6,
      1,
      3,
      4
@@ -4069,7 +4069,7 @@
      0,
      0,
      0,
-     0,
+     -1,
      0,
      1,
      0,
@@ -4739,11 +4739,11 @@
    "name": "Joe Arntsen",
    "id": "10146",
    "pos": "D",
-   "gp": 7,
+   "gp": 8,
    "g": 0,
    "a": 2,
    "pts": 2,
-   "pm": 2,
+   "pm": 1,
    "pim": 20,
    "ppg": 0,
    "shg": 0,
@@ -4759,7 +4759,7 @@
     [
      "2026-27",
      "Abbotsford Canucks",
-     7,
+     8,
      0,
      2,
      2
@@ -4787,7 +4787,7 @@
      0,
      0,
      0,
-     0,
+     -1,
      0,
      0,
      0,
@@ -5564,17 +5564,17 @@
   {
    "name": "Ty Young",
    "id": "10454",
-   "gp": 7,
+   "gp": 8,
    "gs": null,
    "w": 2,
-   "l": 3,
+   "l": 4,
    "otl": 1,
-   "gaa": 2.58,
-   "svp": ".915",
+   "gaa": 2.9,
+   "svp": ".907",
    "so": 0,
-   "sa": 199,
-   "sv": 182,
-   "ga": 17,
+   "sa": 236,
+   "sv": 214,
+   "ga": 22,
    "img": "https://assets.leaguestat.com/ahl/240x240/10454.jpg",
    "bd": "2004-09-11",
    "career": [
@@ -5621,10 +5621,10 @@
    "log": [
     [
      "2026-11-21",
-     "",
-     29,
-     4,
-     3285,
+     "L",
+     37,
+     5,
+     3571,
      0,
      1
     ],
@@ -5757,9 +5757,9 @@
    "l": 3,
    "otl": 2,
    "pts": 24,
-   "gf": 56,
+   "gf": 57,
    "ga": 36,
-   "diff": 20,
+   "diff": 21,
    "l10": "8-1-1",
    "strk": "1-0-0-0",
    "lseq": 3,
@@ -5782,9 +5782,9 @@
    "diff": 5,
    "l10": "6-3-1",
    "strk": "2-0-1-0",
-   "lseq": 13,
-   "cseq": 8,
-   "dseq": 5
+   "lseq": 12,
+   "cseq": 7,
+   "dseq": 4
   },
   {
    "abbr": "ROC",
@@ -5822,7 +5822,7 @@
    "diff": 0,
    "l10": "5-4-1",
    "strk": "1-0-0-0",
-   "lseq": 14,
+   "lseq": 13,
    "cseq": 6,
    "dseq": 2
   },
@@ -5842,7 +5842,7 @@
    "diff": 3,
    "l10": "7-2-1",
    "strk": "5-0-0-0",
-   "lseq": 15,
+   "lseq": 14,
    "cseq": 7,
    "dseq": 3
   },
@@ -5892,19 +5892,19 @@
    "nick": "Canucks",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 18,
+   "gp": 19,
    "w": 9,
-   "l": 6,
+   "l": 7,
    "otl": 3,
    "pts": 21,
    "gf": 57,
-   "ga": 59,
-   "diff": -2,
-   "l10": "4-4-0-2",
-   "strk": "0-3-0-1",
-   "lseq": 11,
-   "cseq": 6,
-   "dseq": 3
+   "ga": 60,
+   "diff": -3,
+   "l10": "4-5-0-2",
+   "strk": "0-3-0-0",
+   "lseq": 17,
+   "cseq": 10,
+   "dseq": 7
   },
   {
    "abbr": "SD",
@@ -5922,9 +5922,9 @@
    "diff": 11,
    "l10": "6-2-2",
    "strk": "2-0-0-0",
-   "lseq": 12,
-   "cseq": 7,
-   "dseq": 4
+   "lseq": 11,
+   "cseq": 6,
+   "dseq": 3
   },
   {
    "abbr": "COL",
@@ -5942,7 +5942,7 @@
    "diff": 5,
    "l10": "3-5-1-1",
    "strk": "1-0-1-0",
-   "lseq": 21,
+   "lseq": 20,
    "cseq": 11,
    "dseq": 8
   },
@@ -5992,17 +5992,17 @@
    "nick": "Senators",
    "div": "North",
    "conf": "Eastern",
-   "gp": 19,
+   "gp": 20,
    "w": 9,
-   "l": 8,
+   "l": 9,
    "otl": 2,
    "pts": 20,
    "gf": 56,
    "ga": 60,
    "diff": -4,
    "l10": "5-5-0",
-   "strk": "1-0-0-0",
-   "lseq": 20,
+   "strk": "0-1-0-0",
+   "lseq": 21,
    "cseq": 10,
    "dseq": 5
   },
@@ -6037,14 +6037,14 @@
    "l": 6,
    "otl": 4,
    "pts": 20,
-   "gf": 52,
+   "gf": 53,
    "ga": 58,
-   "diff": -6,
+   "diff": -5,
    "l10": "5-4-1",
    "strk": "0-1-0-0",
-   "lseq": 17,
-   "cseq": 10,
-   "dseq": 7
+   "lseq": 16,
+   "cseq": 9,
+   "dseq": 6
   },
   {
    "abbr": "TOR",
@@ -6078,13 +6078,13 @@
    "otl": 1,
    "pts": 19,
    "gf": 52,
-   "ga": 52,
-   "diff": 0,
+   "ga": 53,
+   "diff": -1,
    "l10": "4-5-1",
    "strk": "4-0-0-0",
-   "lseq": 16,
-   "cseq": 9,
-   "dseq": 6
+   "lseq": 15,
+   "cseq": 8,
+   "dseq": 5
   },
   {
    "abbr": "PRO",
@@ -6105,6 +6105,26 @@
    "lseq": 19,
    "cseq": 9,
    "dseq": 5
+  },
+  {
+   "abbr": "SYR",
+   "name": "Syracuse Crunch",
+   "nick": "Crunch",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 17,
+   "w": 7,
+   "l": 7,
+   "otl": 3,
+   "pts": 17,
+   "gf": 45,
+   "ga": 53,
+   "diff": -8,
+   "l10": "4-3-3",
+   "strk": "1-0-0-0",
+   "lseq": 23,
+   "cseq": 11,
+   "dseq": 6
   },
   {
    "abbr": "CHI",
@@ -6162,26 +6182,6 @@
    "diff": -8,
    "l10": "4-6-0",
    "strk": "1-0-0-0",
-   "lseq": 23,
-   "cseq": 11,
-   "dseq": 6
-  },
-  {
-   "abbr": "SYR",
-   "name": "Syracuse Crunch",
-   "nick": "Crunch",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 16,
-   "w": 6,
-   "l": 7,
-   "otl": 3,
-   "pts": 15,
-   "gf": 45,
-   "ga": 53,
-   "diff": -8,
-   "l10": "3-4-3",
-   "strk": "0-1-0-0",
    "lseq": 24,
    "cseq": 12,
    "dseq": 7
@@ -6329,36 +6329,28 @@
  ],
  "team": {
   "gf": {
-   "v": 3.17,
-   "rank": 9
+   "v": 3.0,
+   "rank": 14
   },
   "ga": {
-   "v": 3.28,
-   "rank": 24
+   "v": 3.16,
+   "rank": 22
   },
   "pt": {
-   "v": 58.3,
-   "rank": 11
+   "v": 55.3,
+   "rank": 17
   }
  },
- "live": true,
+ "live": false,
  "next": {
-  "iso": "2026-11-21T17:00:00-07:00",
-  "date": "Sat Nov 21",
-  "time": "5:00 PM PT",
-  "opp": "Tucson Roadrunners",
-  "home": true,
-  "live": true
+  "iso": "2026-11-25T20:00:00-07:00",
+  "date": "Wed Nov 25",
+  "time": "8:00 PM PT",
+  "opp": "Henderson Silver Knights",
+  "home": false,
+  "live": false
  },
  "sched": [
-  {
-   "iso": "2026-11-21T17:00:00-07:00",
-   "date": "Sat Nov 21",
-   "time": "5:00 PM PT",
-   "opp": "Tucson Roadrunners",
-   "home": true,
-   "live": true
-  },
   {
    "iso": "2026-11-25T20:00:00-07:00",
    "date": "Wed Nov 25",
@@ -6376,5 +6368,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-22T02:30:16Z"
+ "updated": "2026-11-22T02:45:17Z"
 }

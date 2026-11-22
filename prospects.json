@@ -515,7 +515,7 @@
      "gaa": 2.88,
      "svp": ".905",
      "sgp": 13,
-     "ga": 0
+     "ga": 5
     },
     {
      "k": "S",
@@ -1500,9 +1500,5 @@
     }
    ]
   }
- ],
- "status": {
-  "msg": "FETCH FAILED: urllib: HTTP Error 403: Forbidden; chrome: HTTP 403; safari: HTTP 403; edge: HTTP 403",
-  "at": "2026-11-22T06:08Z"
- }
+ ]
 }

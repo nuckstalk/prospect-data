@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-22T03:15:19Z",
+ "updated": "2026-11-22T06:00:25Z",
  "results": [
+  {
+   "opp": "Minnesota Wild",
+   "abbr": "MIN",
+   "home": true,
+   "date": "Nov 21",
+   "us": 4,
+   "them": 3,
+   "res": "W"
+  },
   {
    "opp": "Seattle Kraken",
    "abbr": "SEA",
@@ -17,15 +26,6 @@
    "date": "Nov 16",
    "us": 3,
    "them": 2,
-   "res": "W"
-  },
-  {
-   "opp": "Vegas Golden Knights",
-   "abbr": "VGK",
-   "home": false,
-   "date": "Nov 15",
-   "us": 6,
-   "them": 3,
    "res": "W"
   }
  ],

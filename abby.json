@@ -95,7 +95,7 @@
      1,
      0,
      0,
-     2,
+     3,
      0,
      0
     ],
@@ -1355,7 +1355,7 @@
    "a": 8,
    "pts": 9,
    "pm": -1,
-   "pim": 20,
+   "pim": 22,
    "ppg": 0,
    "shg": 0,
    "gwg": null,
@@ -1431,7 +1431,7 @@
      0,
      0,
      0,
-     0,
+     2,
      0,
      0,
      0
@@ -1690,7 +1690,7 @@
      0,
      -1,
      0,
-     0,
+     2,
      0,
      0
     ],
@@ -1853,8 +1853,8 @@
    "shg": 0,
    "gwg": null,
    "otg": null,
-   "sog": 43,
-   "shp": 7.0,
+   "sog": 44,
+   "shp": 6.8,
    "toi": null,
    "fo": null,
    "img": "https://assets.leaguestat.com/ahl/240x240/9674.jpg",
@@ -2591,7 +2591,7 @@
      0,
      0,
      2,
-     2,
+     3,
      0,
      0
     ],
@@ -5622,9 +5622,9 @@
     [
      "2026-11-21",
      "",
-     19,
+     21,
      2,
-     1948,
+     2370,
      0,
      1
     ],
@@ -5698,8 +5698,8 @@
    "otl": 2,
    "pts": 32,
    "gf": 76,
-   "ga": 45,
-   "diff": 31,
+   "ga": 46,
+   "diff": 30,
    "l10": "9-1-0",
    "strk": "5-0-0-0",
    "lseq": 1,
@@ -5742,9 +5742,9 @@
    "diff": 16,
    "l10": "6-4-0",
    "strk": "1-0-0-0",
-   "lseq": 7,
-   "cseq": 5,
-   "dseq": 3
+   "lseq": 6,
+   "cseq": 4,
+   "dseq": 2
   },
   {
    "abbr": "TUC",
@@ -5807,6 +5807,26 @@
    "dseq": 3
   },
   {
+   "abbr": "HFD",
+   "name": "Hartford Wolf Pack",
+   "nick": "Wolf Pack",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 20,
+   "w": 11,
+   "l": 8,
+   "otl": 1,
+   "pts": 23,
+   "gf": 57,
+   "ga": 54,
+   "diff": 3,
+   "l10": "7-2-1",
+   "strk": "5-0-0-0",
+   "lseq": 16,
+   "cseq": 8,
+   "dseq": 4
+  },
+  {
    "abbr": "ROC",
    "name": "Rochester Americans",
    "nick": "Americans",
@@ -5832,19 +5852,19 @@
    "nick": "Admirals",
    "div": "Central",
    "conf": "Western",
-   "gp": 16,
+   "gp": 17,
    "w": 10,
-   "l": 5,
+   "l": 6,
    "otl": 1,
    "pts": 21,
    "gf": 42,
    "ga": 39,
    "diff": 3,
-   "l10": "6-3-1",
-   "strk": "3-0-1-0",
-   "lseq": 6,
-   "cseq": 4,
-   "dseq": 2
+   "l10": "5-4-1",
+   "strk": "0-1-0-0",
+   "lseq": 7,
+   "cseq": 5,
+   "dseq": 3
   },
   {
    "abbr": "WBS",
@@ -5865,26 +5885,6 @@
    "lseq": 13,
    "cseq": 6,
    "dseq": 2
-  },
-  {
-   "abbr": "HFD",
-   "name": "Hartford Wolf Pack",
-   "nick": "Wolf Pack",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 19,
-   "w": 10,
-   "l": 8,
-   "otl": 1,
-   "pts": 21,
-   "gf": 57,
-   "ga": 54,
-   "diff": 3,
-   "l10": "6-3-1",
-   "strk": "4-0-0-0",
-   "lseq": 18,
-   "cseq": 8,
-   "dseq": 4
   },
   {
    "abbr": "ABB",
@@ -5937,9 +5937,9 @@
    "l": 8,
    "otl": 3,
    "pts": 21,
-   "gf": 60,
+   "gf": 61,
    "ga": 57,
-   "diff": 3,
+   "diff": 4,
    "l10": "3-5-1-1",
    "strk": "1-0-1-0",
    "lseq": 21,
@@ -6042,7 +6042,7 @@
    "diff": -6,
    "l10": "5-4-1",
    "strk": "0-1-0-0",
-   "lseq": 17,
+   "lseq": 18,
    "cseq": 10,
    "dseq": 7
   },
@@ -6082,7 +6082,7 @@
    "diff": 0,
    "l10": "4-5-1",
    "strk": "4-0-0-0",
-   "lseq": 16,
+   "lseq": 17,
    "cseq": 9,
    "dseq": 6
   },
@@ -6376,5 +6376,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-22T01:30:15Z"
+ "updated": "2026-11-22T01:45:17Z"
 }

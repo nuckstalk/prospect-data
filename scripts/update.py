@@ -774,6 +774,25 @@ try:
             print("watch added from AHL game log:", n, x[0], x[1], "G", x[2], "A")
 except Exception as e:
     print("AHL game-log cross-check skipped:", e)
+# prospects who play an NHL game (call-ups): Prospect Watch only follows their AHL/junior games, so add NHL games from stats.json's game logs
+try:
+    _nhl = json.load(open("stats.json", encoding="utf-8"))
+    _cutn = (NOW.astimezone(PT) - datetime.timedelta(days=7)).strftime("%Y-%m-%d")
+    for _p in _nhl.get("skaters", []):
+        n = next((k for k in data["skaters"] if norm(k) == norm(_p.get("name", ""))), None)
+        if not n or not _p.get("log"): continue
+        for x in sorted([y for y in _p["log"] if y and y[0] >= _cutn], key=lambda y: y[0]):
+            d = next((dd for dd in watch if dd["date"] == x[0]), None)
+            if d is not None and any(it["name"] == n and it.get("k") == "S" and it.get("lg") == "NHL" for it in d["items"]): continue
+            later = [y for y in _p["log"] if y[0] > x[0]]
+            sgp = _p["gp"] - len(later); sg = _p["g"] - sum(y[1] for y in later); sa = _p["a"] - sum(y[2] for y in later)
+            if d is None:
+                d = {"date": x[0], "items": []}; watch.append(d)
+            d["items"].append({"k": "S", "name": n, "lg": "NHL", "dgp": 1, "dg": x[1], "da": x[2], "dtp": x[1] + x[2],
+                               "sgp": sgp, "sg": sg, "sa": sa, "stp": sg + sa})
+            print("watch added from NHL game log:", n, x[0], x[1], "G", x[2], "A")
+except Exception as e:
+    print("NHL game-log cross-check skipped:", e)
 # a goalie's W/L/OTL can post later than his GP: fill in a blank result once the record catches up.
 # Only for his MOST RECENT game: if he has played since, a changed record could belong to any of those games, so leave older blanks alone.
 _last_g = {}

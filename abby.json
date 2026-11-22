@@ -5718,13 +5718,13 @@
    "otl": 2,
    "pts": 28,
    "gf": 76,
-   "ga": 46,
-   "diff": 30,
+   "ga": 47,
+   "diff": 29,
    "l10": "6-2-2",
    "strk": "0-1-0-0",
-   "lseq": 4,
-   "cseq": 2,
-   "dseq": 2
+   "lseq": 3,
+   "cseq": 1,
+   "dseq": 1
   },
   {
    "abbr": "MB",
@@ -5762,7 +5762,7 @@
    "diff": 21,
    "l10": "9-1-0",
    "strk": "2-0-0-0",
-   "lseq": 3,
+   "lseq": 2,
    "cseq": 2,
    "dseq": 1
   },
@@ -5777,9 +5777,9 @@
    "l": 8,
    "otl": 1,
    "pts": 23,
-   "gf": 65,
+   "gf": 66,
    "ga": 59,
-   "diff": 6,
+   "diff": 7,
    "l10": "6-3-1",
    "strk": "2-0-1-0",
    "lseq": 14,
@@ -5872,19 +5872,19 @@
    "nick": "Comets",
    "div": "North",
    "conf": "Eastern",
-   "gp": 14,
+   "gp": 15,
    "w": 11,
-   "l": 3,
+   "l": 4,
    "otl": 0,
    "pts": 22,
-   "gf": 42,
+   "gf": 43,
    "ga": 36,
-   "diff": 6,
-   "l10": "8-2-0",
-   "strk": "1-0-0-0",
-   "lseq": 2,
-   "cseq": 1,
-   "dseq": 1
+   "diff": 7,
+   "l10": "7-3-0",
+   "strk": "0-1-0-0",
+   "lseq": 4,
+   "cseq": 2,
+   "dseq": 2
   },
   {
    "abbr": "PRO",
@@ -6107,6 +6107,26 @@
    "dseq": 7
   },
   {
+   "abbr": "CLE",
+   "name": "Cleveland Monsters",
+   "nick": "Monsters",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 18,
+   "w": 9,
+   "l": 9,
+   "otl": 0,
+   "pts": 18,
+   "gf": 58,
+   "ga": 61,
+   "diff": -3,
+   "l10": "4-6-0",
+   "strk": "1-0-0-0",
+   "lseq": 22,
+   "cseq": 11,
+   "dseq": 6
+  },
+  {
    "abbr": "SYR",
    "name": "Syracuse Crunch",
    "nick": "Crunch",
@@ -6122,9 +6142,9 @@
    "diff": -8,
    "l10": "4-3-3",
    "strk": "1-0-0-0",
-   "lseq": 23,
-   "cseq": 11,
-   "dseq": 6
+   "lseq": 24,
+   "cseq": 12,
+   "dseq": 7
   },
   {
    "abbr": "CHI",
@@ -6142,7 +6162,7 @@
    "diff": -17,
    "l10": "5-4-0-1",
    "strk": "2-0-0-0",
-   "lseq": 22,
+   "lseq": 23,
    "cseq": 12,
    "dseq": 4
   },
@@ -6185,26 +6205,6 @@
    "lseq": 27,
    "cseq": 14,
    "dseq": 9
-  },
-  {
-   "abbr": "CLE",
-   "name": "Cleveland Monsters",
-   "nick": "Monsters",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 17,
-   "w": 8,
-   "l": 9,
-   "otl": 0,
-   "pts": 16,
-   "gf": 58,
-   "ga": 60,
-   "diff": -2,
-   "l10": "3-7-0",
-   "strk": "0-1-0-0",
-   "lseq": 24,
-   "cseq": 12,
-   "dseq": 7
   },
   {
    "abbr": "TEX",
@@ -6376,5 +6376,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-22T22:45:14Z"
+ "updated": "2026-11-22T23:00:14Z"
 }

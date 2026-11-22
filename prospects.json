@@ -30,13 +30,13 @@
    "ep": 3,
    "team": "Peterborough Petes",
    "lg": "OHL",
-   "gp": 21,
-   "g": 14,
+   "gp": 22,
+   "g": 15,
    "a": 14,
-   "tp": 28,
-   "ppg": 1.3333333333333333,
+   "tp": 29,
+   "ppg": 1.3181818181818181,
    "pim": 10,
-   "pm": 5
+   "pm": 4
   },
   "Braeden Cootes": {
    "ep": 4,
@@ -345,12 +345,12 @@
   "Alexei Medvedev": {
    "team": "Peterborough Petes",
    "lg": "OHL",
-   "gp": 12,
-   "gaa": 2.69,
+   "gp": 13,
+   "gaa": 2.62,
    "svp": ".911",
    "so": 1,
    "rec": "7-3-2",
-   "toi": 713.77,
+   "toi": 733.77,
    "splits": [
     {
      "team": "London Knights",
@@ -365,12 +365,12 @@
     {
      "team": "Peterborough Petes",
      "lg": "OHL",
-     "gp": 4,
-     "gaa": 1.24,
+     "gp": 5,
+     "gaa": 1.15,
      "svp": ".956",
      "so": 1,
      "rec": "4-0-0",
-     "toi": 241.58
+     "toi": 261.58
     }
    ]
   },
@@ -492,6 +492,31 @@
      "sg": 0,
      "sa": 2,
      "stp": 2
+    },
+    {
+     "k": "S",
+     "name": "Adam Novotný",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 1,
+     "da": 0,
+     "dtp": 1,
+     "sgp": 22,
+     "sg": 15,
+     "sa": 14,
+     "stp": 29
+    },
+    {
+     "k": "G",
+     "name": "Alexei Medvedev",
+     "lg": "OHL",
+     "dgp": 1,
+     "res": "",
+     "gaa": 2.62,
+     "svp": ".911",
+     "sgp": 13,
+     "rec0": "7-3-2",
+     "ga": 0
     }
    ]
   },

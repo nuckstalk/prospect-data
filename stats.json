@@ -7383,6 +7383,26 @@
    "lseq": 4
   },
   {
+   "abbr": "VGK",
+   "name": "Vegas Golden Knights",
+   "nick": "Golden Knights",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 25,
+   "w": 14,
+   "l": 6,
+   "otl": 5,
+   "pts": 33,
+   "gf": 85,
+   "ga": 75,
+   "diff": 10,
+   "l10": "5-1-4",
+   "strk": "W1",
+   "dseq": 2,
+   "cseq": 3,
+   "lseq": 5
+  },
+  {
    "abbr": "TBL",
    "name": "Tampa Bay Lightning",
    "nick": "Lightning",
@@ -7400,7 +7420,7 @@
    "strk": "W2",
    "dseq": 2,
    "cseq": 3,
-   "lseq": 5
+   "lseq": 6
   },
   {
    "abbr": "MTL",
@@ -7420,7 +7440,7 @@
    "strk": "L1",
    "dseq": 3,
    "cseq": 4,
-   "lseq": 6
+   "lseq": 7
   },
   {
    "abbr": "BOS",
@@ -7440,26 +7460,6 @@
    "strk": "W2",
    "dseq": 4,
    "cseq": 5,
-   "lseq": 7
-  },
-  {
-   "abbr": "VGK",
-   "name": "Vegas Golden Knights",
-   "nick": "Golden Knights",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 24,
-   "w": 13,
-   "l": 6,
-   "otl": 5,
-   "pts": 31,
-   "gf": 80,
-   "ga": 71,
-   "diff": 9,
-   "l10": "4-2-4",
-   "strk": "OT2",
-   "dseq": 2,
-   "cseq": 3,
    "lseq": 8
   },
   {
@@ -7623,6 +7623,26 @@
    "lseq": 16
   },
   {
+   "abbr": "WPG",
+   "name": "Winnipeg Jets",
+   "nick": "Jets",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 24,
+   "w": 11,
+   "l": 9,
+   "otl": 4,
+   "pts": 26,
+   "gf": 75,
+   "ga": 82,
+   "diff": -7,
+   "l10": "7-2-1",
+   "strk": "OT1",
+   "dseq": 6,
+   "cseq": 8,
+   "lseq": 17
+  },
+  {
    "abbr": "UTA",
    "name": "Utah Mammoth",
    "nick": "Mammoth",
@@ -7637,26 +7657,6 @@
    "ga": 79,
    "diff": -2,
    "l10": "3-4-3",
-   "strk": "W1",
-   "dseq": 6,
-   "cseq": 8,
-   "lseq": 17
-  },
-  {
-   "abbr": "WPG",
-   "name": "Winnipeg Jets",
-   "nick": "Jets",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 23,
-   "w": 11,
-   "l": 9,
-   "otl": 3,
-   "pts": 25,
-   "gf": 71,
-   "ga": 77,
-   "diff": -6,
-   "l10": "7-3-0",
    "strk": "W1",
    "dseq": 7,
    "cseq": 9,
@@ -7977,5 +7977,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-22T03:00:17Z"
+ "updated": "2026-11-22T03:15:19Z"
 }

@@ -5782,6 +5782,26 @@
    "diff": 7,
    "l10": "6-3-1",
    "strk": "3-0-1-0",
+   "lseq": 11,
+   "cseq": 6,
+   "dseq": 4
+  },
+  {
+   "abbr": "CV",
+   "name": "Coachella Valley Firebirds",
+   "nick": "Firebirds",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 20,
+   "w": 10,
+   "l": 6,
+   "otl": 4,
+   "pts": 24,
+   "gf": 62,
+   "ga": 63,
+   "diff": -1,
+   "l10": "7-2-1",
+   "strk": "2-0-0-0",
    "lseq": 10,
    "cseq": 5,
    "dseq": 3
@@ -5922,29 +5942,9 @@
    "diff": 13,
    "l10": "8-2-0",
    "strk": "5-0-0-0",
-   "lseq": 12,
+   "lseq": 13,
    "cseq": 6,
    "dseq": 2
-  },
-  {
-   "abbr": "CV",
-   "name": "Coachella Valley Firebirds",
-   "nick": "Firebirds",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 19,
-   "w": 9,
-   "l": 6,
-   "otl": 4,
-   "pts": 22,
-   "gf": 62,
-   "ga": 63,
-   "diff": -1,
-   "l10": "6-3-1",
-   "strk": "1-0-0-0",
-   "lseq": 13,
-   "cseq": 7,
-   "dseq": 4
   },
   {
    "abbr": "TOR",
@@ -6022,8 +6022,8 @@
    "diff": 0,
    "l10": "4-5-1",
    "strk": "0-2-0-0",
-   "lseq": 11,
-   "cseq": 6,
+   "lseq": 12,
+   "cseq": 7,
    "dseq": 3
   },
   {
@@ -6292,17 +6292,17 @@
    "nick": "Condors",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 17,
+   "gp": 18,
    "w": 5,
-   "l": 9,
+   "l": 10,
    "otl": 3,
    "pts": 13,
    "gf": 40,
    "ga": 61,
    "diff": -21,
    "l10": "2-5-1-2",
-   "strk": "0-2-0-1",
-   "lseq": 30,
+   "strk": "0-3-0-1",
+   "lseq": 31,
    "cseq": 17,
    "dseq": 10
   },
@@ -6322,7 +6322,7 @@
    "diff": -24,
    "l10": "2-8-0",
    "strk": "0-4-0-0",
-   "lseq": 31,
+   "lseq": 30,
    "cseq": 14,
    "dseq": 7
   }
@@ -6334,7 +6334,7 @@
   },
   "ga": {
    "v": 3.16,
-   "rank": 23
+   "rank": 24
   },
   "pt": {
    "v": 55.3,
@@ -6376,5 +6376,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-23T03:45:19Z"
+ "updated": "2026-11-23T04:00:19Z"
 }

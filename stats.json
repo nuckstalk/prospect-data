@@ -7623,16 +7623,16 @@
    "nick": "Oilers",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 25,
+   "gp": 26,
    "w": 17,
    "l": 5,
-   "otl": 3,
-   "pts": 37,
-   "gf": 97,
-   "ga": 72,
-   "diff": 25,
+   "otl": 4,
+   "pts": 38,
+   "gf": 101,
+   "ga": 77,
+   "diff": 24,
    "l10": "6-3-1",
-   "strk": "L2",
+   "strk": "OT1",
    "dseq": 1,
    "cseq": 2,
    "lseq": 3
@@ -7838,6 +7838,26 @@
    "lseq": 13
   },
   {
+   "abbr": "STL",
+   "name": "St. Louis Blues",
+   "nick": "Blues",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 24,
+   "w": 13,
+   "l": 9,
+   "otl": 2,
+   "pts": 28,
+   "gf": 82,
+   "ga": 77,
+   "diff": 5,
+   "l10": "6-3-1",
+   "strk": "W4",
+   "dseq": 5,
+   "cseq": 7,
+   "lseq": 14
+  },
+  {
    "abbr": "NYI",
    "name": "New York Islanders",
    "nick": "Islanders",
@@ -7855,7 +7875,7 @@
    "strk": "W1",
    "dseq": 3,
    "cseq": 8,
-   "lseq": 14
+   "lseq": 15
   },
   {
    "abbr": "NYR",
@@ -7875,7 +7895,7 @@
    "strk": "L1",
    "dseq": 4,
    "cseq": 9,
-   "lseq": 15
+   "lseq": 16
   },
   {
    "abbr": "UTA",
@@ -7893,26 +7913,6 @@
    "diff": -1,
    "l10": "3-4-3",
    "strk": "W2",
-   "dseq": 5,
-   "cseq": 7,
-   "lseq": 16
-  },
-  {
-   "abbr": "STL",
-   "name": "St. Louis Blues",
-   "nick": "Blues",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 23,
-   "w": 12,
-   "l": 9,
-   "otl": 2,
-   "pts": 26,
-   "gf": 77,
-   "ga": 73,
-   "diff": 4,
-   "l10": "6-3-1",
-   "strk": "W3",
    "dseq": 6,
    "cseq": 8,
    "lseq": 17
@@ -8221,7 +8221,7 @@
  "team": {
   "gf": {
    "v": 2.8,
-   "rank": 25
+   "rank": 24
   },
   "ga": {
    "v": 4.32,
@@ -8252,5 +8252,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-23T02:45:17Z"
+ "updated": "2026-11-23T03:15:15Z"
 }

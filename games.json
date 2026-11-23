@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T06:00:25Z",
+ "updated": "2026-11-23T01:15:16Z",
  "results": [
   {
    "opp": "Minnesota Wild",
@@ -31,14 +31,6 @@
  ],
  "upcoming": [
   {
-   "opp": "Chicago Blackhawks",
-   "abbr": "CHI",
-   "home": true,
-   "date": "Sun Nov 22",
-   "time": "6:00 PM PT",
-   "utc": "2026-11-23T01:00:00Z"
-  },
-  {
    "opp": "Detroit Red Wings",
    "abbr": "DET",
    "home": false,
@@ -53,6 +45,14 @@
    "date": "Fri Nov 27",
    "time": "1:00 PM PT",
    "utc": "2026-11-27T20:00:00Z"
+  },
+  {
+   "opp": "Boston Bruins",
+   "abbr": "BOS",
+   "home": false,
+   "date": "Sun Nov 29",
+   "time": "3:00 PM PT",
+   "utc": "2026-11-29T22:00:00Z"
   }
  ]
 }

@@ -5782,7 +5782,7 @@
    "diff": 7,
    "l10": "6-3-1",
    "strk": "3-0-1-0",
-   "lseq": 9,
+   "lseq": 10,
    "cseq": 5,
    "dseq": 3
   },
@@ -5947,6 +5947,26 @@
    "dseq": 4
   },
   {
+   "abbr": "TOR",
+   "name": "Toronto Marlies",
+   "nick": "Marlies",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 18,
+   "w": 9,
+   "l": 5,
+   "otl": 4,
+   "pts": 22,
+   "gf": 59,
+   "ga": 50,
+   "diff": 9,
+   "l10": "4-3-2-1",
+   "strk": "1-0-0-1",
+   "lseq": 9,
+   "cseq": 5,
+   "dseq": 4
+  },
+  {
    "abbr": "SD",
    "name": "San Diego Gulls",
    "nick": "Gulls",
@@ -6067,26 +6087,6 @@
    "dseq": 5
   },
   {
-   "abbr": "TOR",
-   "name": "Toronto Marlies",
-   "nick": "Marlies",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 17,
-   "w": 8,
-   "l": 5,
-   "otl": 4,
-   "pts": 20,
-   "gf": 59,
-   "ga": 50,
-   "diff": 9,
-   "l10": "3-3-3-1",
-   "strk": "0-1-0-1",
-   "lseq": 10,
-   "cseq": 5,
-   "dseq": 4
-  },
-  {
    "abbr": "ONT",
    "name": "Ontario Reign",
    "nick": "Reign",
@@ -6142,7 +6142,7 @@
    "diff": -8,
    "l10": "4-3-3",
    "strk": "1-0-0-0",
-   "lseq": 24,
+   "lseq": 23,
    "cseq": 12,
    "dseq": 7
   },
@@ -6152,17 +6152,17 @@
    "nick": "Wolves",
    "div": "Central",
    "conf": "Western",
-   "gp": 17,
+   "gp": 18,
    "w": 8,
-   "l": 8,
+   "l": 9,
    "otl": 1,
    "pts": 17,
    "gf": 48,
    "ga": 66,
    "diff": -18,
-   "l10": "5-4-0-1",
-   "strk": "2-0-0-0",
-   "lseq": 23,
+   "l10": "5-5-0",
+   "strk": "0-1-0-0",
+   "lseq": 24,
    "cseq": 12,
    "dseq": 4
   },
@@ -6376,5 +6376,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-22T23:30:18Z"
+ "updated": "2026-11-23T00:00:18Z"
 }

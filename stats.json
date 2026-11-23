@@ -7683,16 +7683,16 @@
    "nick": "Lightning",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 22,
+   "gp": 23,
    "w": 15,
-   "l": 5,
+   "l": 6,
    "otl": 2,
    "pts": 32,
-   "gf": 82,
-   "ga": 62,
-   "diff": 20,
-   "l10": "7-2-1",
-   "strk": "W2",
+   "gf": 84,
+   "ga": 68,
+   "diff": 16,
+   "l10": "7-3-0",
+   "strk": "L1",
    "dseq": 2,
    "cseq": 3,
    "lseq": 6
@@ -7938,6 +7938,26 @@
    "lseq": 18
   },
   {
+   "abbr": "BUF",
+   "name": "Buffalo Sabres",
+   "nick": "Sabres",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 24,
+   "w": 10,
+   "l": 10,
+   "otl": 4,
+   "pts": 24,
+   "gf": 73,
+   "ga": 83,
+   "diff": -10,
+   "l10": "3-6-1",
+   "strk": "W1",
+   "dseq": 6,
+   "cseq": 10,
+   "lseq": 19
+  },
+  {
    "abbr": "SJS",
    "name": "San Jose Sharks",
    "nick": "Sharks",
@@ -7955,7 +7975,7 @@
    "strk": "W1",
    "dseq": 3,
    "cseq": 10,
-   "lseq": 19
+   "lseq": 20
   },
   {
    "abbr": "PHI",
@@ -7974,8 +7994,8 @@
    "l10": "5-3-2",
    "strk": "W3",
    "dseq": 5,
-   "cseq": 10,
-   "lseq": 20
+   "cseq": 11,
+   "lseq": 21
   },
   {
    "abbr": "ANA",
@@ -7994,26 +8014,6 @@
    "l10": "5-5-0",
    "strk": "L3",
    "dseq": 4,
-   "cseq": 11,
-   "lseq": 21
-  },
-  {
-   "abbr": "BUF",
-   "name": "Buffalo Sabres",
-   "nick": "Sabres",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 23,
-   "w": 9,
-   "l": 10,
-   "otl": 4,
-   "pts": 22,
-   "gf": 67,
-   "ga": 81,
-   "diff": -14,
-   "l10": "3-6-1",
-   "strk": "L1",
-   "dseq": 6,
    "cseq": 11,
    "lseq": 22
   },
@@ -8252,5 +8252,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-22T20:45:17Z"
+ "updated": "2026-11-23T00:45:23Z"
 }

@@ -329,7 +329,7 @@
    "gaa": 2.72,
    "svp": ".902",
    "so": 1,
-   "rec": "7-5-0",
+   "rec": "7-5-3",
    "toi": 948.22
   },
   "Aku Koskenvuo": {
@@ -440,6 +440,19 @@
      "sg": 5,
      "sa": 16,
      "stp": 21
+    },
+    {
+     "k": "S",
+     "name": "Ty Mueller",
+     "lg": "NHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 2,
+     "sg": 0,
+     "sa": 0,
+     "stp": 0
     }
    ]
   },
@@ -1357,9 +1370,5 @@
     }
    ]
   }
- ],
- "status": {
-  "msg": "FETCH FAILED: urllib: HTTP Error 403: Forbidden; chrome: HTTP 403; safari: HTTP 403; edge: HTTP 403",
-  "at": "2026-11-23T04:30Z"
- }
+ ]
 }

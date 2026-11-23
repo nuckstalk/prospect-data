@@ -614,39 +614,57 @@ for n, r in data["goalies"].items():
         if r != old["goalies"][n]: print("AHL stats used for", n, ":", a["gp"], "GP", r["rec"], r["gaa"], r["svp"])
 
 
-# ---- HockeyDB: EliteProspects does not track OT losses in some leagues (MHL). For these goalies the W-L-OTL record comes from HockeyDB ("T" column) ----
-# add a goalie by name: the number is the pid in his HockeyDB URL (hockeydb.com/ihdb/stats/pdisplay.php?pid=NUMBER)
-HDB_GOALIES = {"Dmitri Ivchenko": 291647}
+# ---- MHL: EliteProspects does not track OT/shootout losses in the MHL. For these goalies the record (and each game's result) comes from the MHL's own game list ----
+# add a goalie by name: the number is the id in his MHL URL (engmhl.khl.ru/players/NUMBER/games/)
+MHL_GOALIES = {"Dmitri Ivchenko": 44425}
+MHL_STYLE = "mhl"   # "nhl" = W-L-OTL like every other goalie (shootout wins count as W); "mhl" = the MHL's own W-L-SOP columns
+MHL_GAMES = {}      # name -> {"YYYY-MM-DD": {"res": "W"/"L"/"OTL"/"", "ga": n}}
 
-def hdb_rec(pid, lg):
-    soup2 = BeautifulSoup(fetch("https://www.hockeydb.com/ihdb/stats/pdisplay.php?pid=%d" % pid), "html.parser")
+def mhl_games(pid, team):
+    soup2 = BeautifulSoup(fetch("https://engmhl.khl.ru/players/%d/games/" % pid), "html.parser")
     y = NOW.year if NOW.month >= 7 else NOW.year - 1
-    season = "%d-%02d" % (y, (y + 1) % 100)
+    want = "%02d/%02d | Regular Season" % (y % 100, (y + 1) % 100)
     for table in soup2.find_all("table"):
-        idx = None
+        heads = [(th.get("title") or th.get_text(" ", strip=True)) for th in table.find_all("th")]
+        if "Shootouts played" not in heads or "Wins" not in heads: continue
+        ix = {h: i for i, h in enumerate(heads)}
+        out, on = [], False
         for tr in table.find_all("tr"):
-            heads = [h.get_text(" ", strip=True) for h in tr.find_all("th")]
-            if "Season" in heads and "GP" in heads and "T" in heads:
-                idx = {h: i for i, h in enumerate(heads)}; continue
-            if not idx: continue
-            c = [td.get_text(" ", strip=True) for td in tr.find_all("td")]
-            if len(c) <= idx["T"] or c[idx["Season"]] != season or not c[idx["Lge"]].endswith(lg): continue
-            if not c[idx["GP"]].strip(): continue
-            return int(c[idx["W"]]), int(c[idx["L"]]), int(c[idx["T"]]), int(c[idx["GP"]])
-    return None
+            tds = tr.find_all("td")
+            if len(tds) == 1:   # season heading row, e.g. "26/27 | Regular Season"
+                on = tds[0].get_text(" ", strip=True) == want; continue
+            if not on or len(tds) < len(heads): continue
+            c = [td.get_text(" ", strip=True) for td in tds]
+            try:
+                if to_int(c[ix["Games played"]]) < 1: continue
+                d, m, yy = c[0].split(".")
+                bold = [b_.get_text(" ", strip=True) for b_ in tds[1].find_all("b")]
+                won = any(norm(team) == norm(x) or norm(team) in norm(x) for x in bold)
+                w, l, sop = to_int(c[ix["Wins"]]), to_int(c[ix["Losses"]]), to_int(c[ix["Shootouts played"]])
+                ot = bool(re.search(r"\bOT\b", c[2]))
+                res = "W" if w else ("OTL" if ot else "L") if l else ("W" if won else "OTL") if sop else ""
+                out.append({"date": "%s-%s-%s" % (yy, m, d), "res": res, "w": w, "l": l, "sop": sop, "ga": to_int(c[ix["Goals allowed"]])})
+            except Exception as e:
+                print("MHL row skipped:", c[:3], e)
+        if out: return out
+    return []
 
-for _n, _pid in HDB_GOALIES.items():
+for _n, _pid in MHL_GOALIES.items():
     _g = data["goalies"].get(_n)
     if not _g: continue
     try:
-        _h = hdb_rec(_pid, _g.get("lg", "MHL"))
-        if not _h: print("HockeyDB: no", _g.get("lg"), "row found for", _n, "- keeping EliteProspects record"); continue
-        if _h[0] + _h[1] + _h[2] > _h[3]: print("HockeyDB record looks wrong for", _n, _h, "- keeping EliteProspects record"); continue
-        _new = "%d-%d-%d" % _h[:3]
-        if _g.get("rec") != _new: print("HockeyDB record used for", _n, ":", _g.get("rec"), "->", _new, "(HockeyDB shows %d GP, EliteProspects %s GP)" % (_h[3], _g.get("gp")))
+        _gm = mhl_games(_pid, _g.get("team", ""))
+        if not _gm: print("MHL: no", _n, "games found - keeping EliteProspects record"); continue
+        if len(_gm) < _g.get("gp", 0) - 1: print("MHL: only", len(_gm), "games for", _n, "vs", _g.get("gp"), "on EliteProspects - keeping EliteProspects record"); continue
+        if MHL_STYLE == "mhl":
+            _new = "%d-%d-%d" % (sum(x["w"] for x in _gm), sum(x["l"] for x in _gm), sum(x["sop"] for x in _gm))
+        else:
+            _new = "%d-%d-%d" % tuple(sum(1 for x in _gm if x["res"] == r_) for r_ in ("W", "L", "OTL"))
+        if _g.get("rec") != _new: print("MHL record used for", _n, ":", _g.get("rec"), "->", _new, "(%d MHL games)" % len(_gm))
         _g["rec"] = _new
+        MHL_GAMES[_n] = {x["date"]: x for x in _gm}
     except Exception as e:
-        print("HockeyDB skipped for", _n, "-", str(e)[:200], "- keeping EliteProspects record")
+        print("MHL skipped for", _n, "-", str(e)[:200], "- keeping EliteProspects record")
 
 
 # ---- an Abbotsford game is being played right now: AHL players go back to their last FINAL numbers and tonight's AHL watch entries come out until the game ends ----
@@ -854,6 +872,16 @@ for d in watch:
         ga = GA_FIXES.get((it["name"], d["date"]))
         if it.get("k") == "G" and ga is not None and it.get("ga") != ga:
             it["ga"] = ga; it.pop("gaa0", None); it.pop("toi0", None); print("GA corrected:", it["name"], d["date"], ga)
+# MHL goalies: every logged game gets its result and goals against from the MHL game list (same date, or the day before: MHL dates are Moscow time)
+for d in watch:
+    for it in d["items"]:
+        gm = MHL_GAMES.get(it["name"]) if it.get("k") == "G" else None
+        if not gm or it.get("dgp") != 1: continue
+        _dt = datetime.date.fromisoformat(d["date"])
+        x = gm.get(d["date"]) or gm.get((_dt + datetime.timedelta(days=1)).isoformat())
+        if x and (it.get("res") != x["res"] or it.get("ga") != x["ga"]):
+            it["res"], it["ga"] = x["res"], x["ga"]; it.pop("rec0", None); it.pop("gaa0", None); it.pop("toi0", None)
+            print("MHL game list applied:", it["name"], d["date"], x["res"], x["ga"], "GA")
 watch.sort(key=lambda d: d["date"], reverse=True)
 data["watch"] = watch[:7]
 # ---------------------------------------------------------------------------------------------

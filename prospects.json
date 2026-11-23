@@ -329,7 +329,7 @@
    "gaa": 2.72,
    "svp": ".902",
    "so": 1,
-   "rec": "7-5-0",
+   "rec": "7-5-3",
    "toi": 948.22
   },
   "Aku Koskenvuo": {
@@ -995,11 +995,10 @@
      "name": "Dmitri Ivchenko",
      "lg": "MHL",
      "dgp": 1,
-     "res": "L",
+     "res": "OTL",
      "gaa": 2.72,
      "svp": ".902",
      "sgp": 16,
-     "rec0": "7-4-0",
      "ga": 1
     },
     {

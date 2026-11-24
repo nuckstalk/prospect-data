@@ -7978,16 +7978,16 @@
    "nick": "Canadiens",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 24,
+   "gp": 25,
    "w": 14,
-   "l": 6,
+   "l": 7,
    "otl": 4,
    "pts": 32,
-   "gf": 77,
-   "ga": 71,
-   "diff": 6,
-   "l10": "5-3-2",
-   "strk": "L1",
+   "gf": 78,
+   "ga": 73,
+   "diff": 5,
+   "l10": "5-4-1",
+   "strk": "L2",
    "dseq": 3,
    "cseq": 5,
    "lseq": 9
@@ -8353,6 +8353,26 @@
    "lseq": 27
   },
   {
+   "abbr": "LAK",
+   "name": "Los Angeles Kings",
+   "nick": "Kings",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 22,
+   "w": 8,
+   "l": 12,
+   "otl": 2,
+   "pts": 18,
+   "gf": 60,
+   "ga": 71,
+   "diff": -11,
+   "l10": "4-6-0",
+   "strk": "W1",
+   "dseq": 7,
+   "cseq": 14,
+   "lseq": 28
+  },
+  {
    "abbr": "CBJ",
    "name": "Columbus Blue Jackets",
    "nick": "Blue Jackets",
@@ -8370,7 +8390,7 @@
    "strk": "L1",
    "dseq": 7,
    "cseq": 15,
-   "lseq": 28
+   "lseq": 29
   },
   {
    "abbr": "CHI",
@@ -8389,26 +8409,6 @@
    "l10": "4-5-1",
    "strk": "W2",
    "dseq": 8,
-   "cseq": 14,
-   "lseq": 29
-  },
-  {
-   "abbr": "LAK",
-   "name": "Los Angeles Kings",
-   "nick": "Kings",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 21,
-   "w": 7,
-   "l": 12,
-   "otl": 2,
-   "pts": 16,
-   "gf": 58,
-   "ga": 70,
-   "diff": -12,
-   "l10": "4-6-0",
-   "strk": "L1",
-   "dseq": 7,
    "cseq": 15,
    "lseq": 30
   },
@@ -8487,5 +8487,5 @@
    "rank": 32
   }
  },
- "updated": "2026-11-24T03:30:17Z"
+ "updated": "2026-11-24T03:45:15Z"
 }

@@ -5692,19 +5692,39 @@
    "nick": "Griffins",
    "div": "Central",
    "conf": "Western",
-   "gp": 20,
-   "w": 16,
+   "gp": 21,
+   "w": 17,
    "l": 2,
    "otl": 2,
-   "pts": 34,
+   "pts": 36,
    "gf": 84,
    "ga": 50,
    "diff": 34,
    "l10": "9-1-0",
-   "strk": "6-0-0-0",
+   "strk": "7-0-0-0",
    "lseq": 1,
    "cseq": 1,
    "dseq": 1
+  },
+  {
+   "abbr": "MB",
+   "name": "Manitoba Moose",
+   "nick": "Moose",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 22,
+   "w": 14,
+   "l": 7,
+   "otl": 1,
+   "pts": 29,
+   "gf": 72,
+   "ga": 55,
+   "diff": 17,
+   "l10": "6-3-1",
+   "strk": "2-0-1-0",
+   "lseq": 6,
+   "cseq": 4,
+   "dseq": 2
   },
   {
    "abbr": "LAV",
@@ -5724,26 +5744,6 @@
    "strk": "0-2-0-0",
    "lseq": 4,
    "cseq": 2,
-   "dseq": 2
-  },
-  {
-   "abbr": "MB",
-   "name": "Manitoba Moose",
-   "nick": "Moose",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 21,
-   "w": 14,
-   "l": 7,
-   "otl": 0,
-   "pts": 28,
-   "gf": 72,
-   "ga": 55,
-   "diff": 17,
-   "l10": "7-3-0",
-   "strk": "2-0-0-0",
-   "lseq": 6,
-   "cseq": 4,
    "dseq": 2
   },
   {
@@ -6376,5 +6376,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-24T18:15:18Z"
+ "updated": "2026-11-24T18:23:33Z"
 }

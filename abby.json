@@ -5887,6 +5887,26 @@
    "dseq": 2
   },
   {
+   "abbr": "ONT",
+   "name": "Ontario Reign",
+   "nick": "Reign",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 20,
+   "w": 11,
+   "l": 8,
+   "otl": 1,
+   "pts": 23,
+   "gf": 62,
+   "ga": 62,
+   "diff": 0,
+   "l10": "6-3-1",
+   "strk": "2-0-0-0",
+   "lseq": 14,
+   "cseq": 8,
+   "dseq": 5
+  },
+  {
    "abbr": "HER",
    "name": "Hershey Bears",
    "nick": "Bears",
@@ -5972,19 +5992,19 @@
    "nick": "Gulls",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 19,
+   "gp": 20,
    "w": 9,
-   "l": 6,
+   "l": 7,
    "otl": 4,
    "pts": 22,
    "gf": 59,
    "ga": 50,
    "diff": 9,
-   "l10": "5-2-3",
-   "strk": "2-0-1-0",
-   "lseq": 14,
-   "cseq": 8,
-   "dseq": 5
+   "l10": "5-3-2",
+   "strk": "0-1-1-0",
+   "lseq": 17,
+   "cseq": 10,
+   "dseq": 7
   },
   {
    "abbr": "COL",
@@ -6042,7 +6062,7 @@
    "diff": 5,
    "l10": "5-3-2",
    "strk": "0-1-0-0",
-   "lseq": 17,
+   "lseq": 16,
    "cseq": 7,
    "dseq": 3
   },
@@ -6062,26 +6082,6 @@
    "diff": -3,
    "l10": "3-5-0-2",
    "strk": "0-3-0-0",
-   "lseq": 16,
-   "cseq": 10,
-   "dseq": 7
-  },
-  {
-   "abbr": "ONT",
-   "name": "Ontario Reign",
-   "nick": "Reign",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 19,
-   "w": 10,
-   "l": 8,
-   "otl": 1,
-   "pts": 21,
-   "gf": 62,
-   "ga": 62,
-   "diff": 0,
-   "l10": "5-4-1",
-   "strk": "1-0-0-0",
    "lseq": 15,
    "cseq": 9,
    "dseq": 6
@@ -6330,11 +6330,11 @@
  "team": {
   "gf": {
    "v": 3.0,
-   "rank": 15
+   "rank": 14
   },
   "ga": {
    "v": 3.16,
-   "rank": 23
+   "rank": 24
   },
   "pt": {
    "v": 55.3,
@@ -6376,5 +6376,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-25T05:30:20Z"
+ "updated": "2026-11-25T06:15:18Z"
 }

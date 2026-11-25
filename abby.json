@@ -5752,16 +5752,16 @@
    "nick": "Roadrunners",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 17,
+   "gp": 18,
    "w": 12,
    "l": 3,
-   "otl": 2,
-   "pts": 26,
+   "otl": 3,
+   "pts": 27,
    "gf": 60,
    "ga": 40,
    "diff": 20,
-   "l10": "9-1-0",
-   "strk": "2-0-0-0",
+   "l10": "8-1-1",
+   "strk": "2-0-1-0",
    "lseq": 2,
    "cseq": 2,
    "dseq": 1
@@ -6127,6 +6127,26 @@
    "dseq": 6
   },
   {
+   "abbr": "TEX",
+   "name": "Texas Stars",
+   "nick": "Stars",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 20,
+   "w": 7,
+   "l": 9,
+   "otl": 4,
+   "pts": 18,
+   "gf": 54,
+   "ga": 73,
+   "diff": -19,
+   "l10": "5-3-1-1",
+   "strk": "2-0-0-0",
+   "lseq": 25,
+   "cseq": 13,
+   "dseq": 5
+  },
+  {
    "abbr": "SYR",
    "name": "Syracuse Crunch",
    "nick": "Crunch",
@@ -6182,9 +6202,9 @@
    "diff": -11,
    "l10": "4-5-1",
    "strk": "1-0-0-0",
-   "lseq": 26,
-   "cseq": 13,
-   "dseq": 5
+   "lseq": 27,
+   "cseq": 14,
+   "dseq": 6
   },
   {
    "abbr": "SJ",
@@ -6202,29 +6222,9 @@
    "diff": -16,
    "l10": "5-5-0",
    "strk": "0-1-0-0",
-   "lseq": 27,
-   "cseq": 14,
-   "dseq": 9
-  },
-  {
-   "abbr": "TEX",
-   "name": "Texas Stars",
-   "nick": "Stars",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 19,
-   "w": 6,
-   "l": 9,
-   "otl": 4,
-   "pts": 16,
-   "gf": 54,
-   "ga": 73,
-   "diff": -19,
-   "l10": "4-4-1-1",
-   "strk": "1-0-0-0",
    "lseq": 28,
    "cseq": 15,
-   "dseq": 6
+   "dseq": 9
   },
   {
    "abbr": "RFD",
@@ -6262,7 +6262,7 @@
    "diff": -18,
    "l10": "3-4-1-2",
    "strk": "1-0-0-0",
-   "lseq": 25,
+   "lseq": 26,
    "cseq": 13,
    "dseq": 6
   },
@@ -6376,5 +6376,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-25T03:45:19Z"
+ "updated": "2026-11-25T04:00:18Z"
 }

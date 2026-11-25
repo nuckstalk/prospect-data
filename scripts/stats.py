@@ -206,6 +206,25 @@ if season:
     else:
         print("no team rows")
 
+        # every team's PP / PK / shots / faceoffs / points % on its standings row (for the home page matchup). Never breaks the update.
+        try:
+            import unicodedata
+            def _k(x):
+                return re.sub(r"[^a-z]", "", unicodedata.normalize("NFKD", str(x)).encode("ascii", "ignore").decode().lower())
+            by = {_k(r.get("teamFullName")): r for r in rows}
+            hit = 0
+            for t in standings:
+                r = by.get(_k(t.get("name")))
+                if not r: continue
+                for key, field in (("pp", "powerPlayPct"), ("pk", "penaltyKillPct"), ("fo", "faceoffWinPct"), ("ptp", "pointPct")):
+                    if r.get(field) is not None: t[key] = pct(r[field])
+                for key, field in (("sf", "shotsForPerGame"), ("sa", "shotsAgainstPerGame")):
+                    if r.get(field) is not None: t[key] = round(num(r[field]), 2)
+                hit += 1
+            print("team stats added to standings for", hit, "of", len(standings), "teams")
+        except Exception as e:
+            print("standings team stats skipped:", e)
+
 data = {"season": season, "skaters": skaters, "goalies": goalies, "standings": standings, "team": team}
 
 try:

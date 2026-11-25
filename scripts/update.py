@@ -576,6 +576,16 @@ for _grp in ("skaters", "goalies"):
         if "splits" in _rec and len(_real) < 2 and (norm(_who), _grp) not in totals_seen and not any(x.get("keep") for x in _rec["splits"]):
             changed.append((_who, "splits", "removed", None)); del _rec["splits"]
 
+# ---- hand-entered games: a game EliteProspects hasn't posted yet. Season totals AFTER that game; used only while EP is behind ----
+# {"Name": {"gp": games, "g": goals, "a": assists}}  (skaters) - remove a line once EP has caught up
+HAND_STATS = {"Basile Sansonnens": {"gp": 23, "g": 2, "a": 1}}   # Nov 24 vs Rapperswil-Jona, 6:40 TOI, no points
+for _n, _h in HAND_STATS.items():
+    _r = data["skaters"].get(_n)
+    if _r and _r.get("gp", 0) < _h["gp"]:
+        _r["gp"], _r["g"], _r["a"] = _h["gp"], _h["g"], _h["a"]
+        _r["tp"] = _h["g"] + _h["a"]; _r["ppg"] = _r["tp"] / _r["gp"]
+        print("hand-entered stats used for", _n, ": EP is behind,", _h)
+
 missing = [n for k, n in {**known_sk, **known_g}.items() if k not in seen]
 print(f"parsed {len(seen)} of {len(known_sk) + len(known_g)} known players, {len(changed)} field changes")
 if missing: print("not found on page:", missing)

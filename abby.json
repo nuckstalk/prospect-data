@@ -5807,6 +5807,26 @@
    "dseq": 3
   },
   {
+   "abbr": "TOR",
+   "name": "Toronto Marlies",
+   "nick": "Marlies",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 19,
+   "w": 10,
+   "l": 5,
+   "otl": 4,
+   "pts": 24,
+   "gf": 66,
+   "ga": 53,
+   "diff": 13,
+   "l10": "5-2-2-1",
+   "strk": "2-0-0-1",
+   "lseq": 8,
+   "cseq": 4,
+   "dseq": 4
+  },
+  {
    "abbr": "ROC",
    "name": "Rochester Americans",
    "nick": "Americans",
@@ -5922,8 +5942,8 @@
    "diff": 4,
    "l10": "5-5-0",
    "strk": "1-0-0-0",
-   "lseq": 8,
-   "cseq": 4,
+   "lseq": 9,
+   "cseq": 5,
    "dseq": 1
   },
   {
@@ -5965,26 +5985,6 @@
    "lseq": 13,
    "cseq": 6,
    "dseq": 2
-  },
-  {
-   "abbr": "TOR",
-   "name": "Toronto Marlies",
-   "nick": "Marlies",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 18,
-   "w": 9,
-   "l": 5,
-   "otl": 4,
-   "pts": 22,
-   "gf": 66,
-   "ga": 53,
-   "diff": 13,
-   "l10": "4-3-2-1",
-   "strk": "1-0-0-1",
-   "lseq": 9,
-   "cseq": 5,
-   "dseq": 4
   },
   {
    "abbr": "SD",
@@ -6092,19 +6092,19 @@
    "nick": "Senators",
    "div": "North",
    "conf": "Eastern",
-   "gp": 20,
+   "gp": 21,
    "w": 9,
-   "l": 9,
+   "l": 10,
    "otl": 2,
    "pts": 20,
    "gf": 59,
    "ga": 67,
    "diff": -8,
    "l10": "5-5-0",
-   "strk": "0-1-0-0",
-   "lseq": 21,
-   "cseq": 10,
-   "dseq": 5
+   "strk": "0-2-0-0",
+   "lseq": 23,
+   "cseq": 12,
+   "dseq": 7
   },
   {
    "abbr": "CLE",
@@ -6122,9 +6122,9 @@
    "diff": -3,
    "l10": "4-6-0",
    "strk": "1-0-0-0",
-   "lseq": 22,
-   "cseq": 11,
-   "dseq": 6
+   "lseq": 21,
+   "cseq": 10,
+   "dseq": 5
   },
   {
    "abbr": "TEX",
@@ -6162,9 +6162,9 @@
    "diff": -6,
    "l10": "4-3-3",
    "strk": "1-0-0-0",
-   "lseq": 23,
-   "cseq": 12,
-   "dseq": 7
+   "lseq": 22,
+   "cseq": 11,
+   "dseq": 6
   },
   {
    "abbr": "CHI",
@@ -6376,5 +6376,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-25T18:00:29Z"
+ "updated": "2026-11-25T18:15:26Z"
 }

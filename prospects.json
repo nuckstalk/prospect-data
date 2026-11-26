@@ -401,6 +401,71 @@
      "sg": 2,
      "sa": 3,
      "stp": 5
+    },
+    {
+     "k": "S",
+     "name": "Riley Patterson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 19,
+     "sg": 6,
+     "sa": 5,
+     "stp": 11
+    },
+    {
+     "k": "S",
+     "name": "Sawyer Mynio",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 18,
+     "sg": 1,
+     "sa": 9,
+     "stp": 10
+    },
+    {
+     "k": "S",
+     "name": "Kirill Kudryavtsev",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 14,
+     "sg": 0,
+     "sa": 9,
+     "stp": 9
+    },
+    {
+     "k": "S",
+     "name": "Vilmer Alriksson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 19,
+     "sg": 3,
+     "sa": 3,
+     "stp": 6
+    },
+    {
+     "k": "S",
+     "name": "Anri Ravinskis",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 16,
+     "sg": 1,
+     "sa": 5,
+     "stp": 6
     }
    ]
   },

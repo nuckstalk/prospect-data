@@ -5951,9 +5951,9 @@
    "diff": 29,
    "l10": "6-2-2",
    "strk": "0-2-0-0",
-   "lseq": 4,
-   "cseq": 2,
-   "dseq": 2
+   "lseq": 3,
+   "cseq": 1,
+   "dseq": 1
   },
   {
    "abbr": "TUC",
@@ -5994,6 +5994,26 @@
    "lseq": 11,
    "cseq": 6,
    "dseq": 4
+  },
+  {
+   "abbr": "HFD",
+   "name": "Hartford Wolf Pack",
+   "nick": "Wolf Pack",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 22,
+   "w": 12,
+   "l": 9,
+   "otl": 1,
+   "pts": 25,
+   "gf": 61,
+   "ga": 57,
+   "diff": 4,
+   "l10": "7-3-0",
+   "strk": "1-0-0-0",
+   "lseq": 15,
+   "cseq": 7,
+   "dseq": 3
   },
   {
    "abbr": "CV",
@@ -6071,26 +6091,6 @@
    "diff": 0,
    "l10": "4-5-1",
    "strk": "0-1-0-0",
-   "lseq": 18,
-   "cseq": 8,
-   "dseq": 4
-  },
-  {
-   "abbr": "HFD",
-   "name": "Hartford Wolf Pack",
-   "nick": "Wolf Pack",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 21,
-   "w": 11,
-   "l": 9,
-   "otl": 1,
-   "pts": 23,
-   "gf": 61,
-   "ga": 57,
-   "diff": 4,
-   "l10": "7-3-0",
-   "strk": "0-1-0-0",
    "lseq": 19,
    "cseq": 9,
    "dseq": 5
@@ -6161,19 +6161,19 @@
    "nick": "Comets",
    "div": "North",
    "conf": "Eastern",
-   "gp": 15,
+   "gp": 16,
    "w": 11,
-   "l": 4,
+   "l": 5,
    "otl": 0,
    "pts": 22,
    "gf": 44,
    "ga": 39,
    "diff": 5,
    "l10": "7-3-0",
-   "strk": "0-1-0-0",
-   "lseq": 3,
-   "cseq": 1,
-   "dseq": 1
+   "strk": "0-2-0-0",
+   "lseq": 4,
+   "cseq": 2,
+   "dseq": 2
   },
   {
    "abbr": "PRO",
@@ -6186,9 +6186,9 @@
    "l": 8,
    "otl": 0,
    "pts": 22,
-   "gf": 68,
+   "gf": 69,
    "ga": 54,
-   "diff": 14,
+   "diff": 15,
    "l10": "8-2-0",
    "strk": "5-0-0-0",
    "lseq": 13,
@@ -6211,7 +6211,7 @@
    "diff": 9,
    "l10": "5-3-2",
    "strk": "0-1-1-0",
-   "lseq": 17,
+   "lseq": 18,
    "cseq": 10,
    "dseq": 7
   },
@@ -6271,9 +6271,9 @@
    "diff": 0,
    "l10": "5-3-2",
    "strk": "0-1-0-0",
-   "lseq": 16,
-   "cseq": 7,
-   "dseq": 3
+   "lseq": 17,
+   "cseq": 8,
+   "dseq": 4
   },
   {
    "abbr": "ABB",
@@ -6291,7 +6291,7 @@
    "diff": -3,
    "l10": "3-5-0-2",
    "strk": "0-3-0-0",
-   "lseq": 15,
+   "lseq": 16,
    "cseq": 9,
    "dseq": 6
   },
@@ -6527,8 +6527,8 @@
    "otl": 1,
    "pts": 13,
    "gf": 49,
-   "ga": 74,
-   "diff": -25,
+   "ga": 75,
+   "diff": -26,
    "l10": "2-8-0",
    "strk": "0-4-0-0",
    "lseq": 30,
@@ -6547,7 +6547,7 @@
   },
   "pt": {
    "v": 55.3,
-   "rank": 15
+   "rank": 16
   }
  },
  "live": false,
@@ -6585,5 +6585,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-26T02:30:21Z"
+ "updated": "2026-11-26T02:45:19Z"
 }

@@ -544,6 +544,7 @@ if not skaters:
 
 # ---- is an Abbotsford game being played right now? (stats posted mid-game must not be treated as final) ----
 live = False
+dec = {}
 try:
     sb = ht({"feed": "modulekit", "view": "scorebar", "numberofdaysahead": 0, "numberofdaysback": 1}, quick=True) or {}
     games_sb = (sb.get("SiteKit") or {}).get("Scorebar") or []
@@ -572,6 +573,16 @@ try:
             live = True; print("game", newest, "has no decision yet - treating it as in progress")
 except Exception as e:
     print("log live check skipped:", e)
+# pre-game check: the AHL adds tonight's game to every dressed skater's log (and counts the GP) as soon as the lineup is posted,
+# before the scorebar says "started". If a skater log has a recent game that no goalie has a decision for yet, it is not final.
+try:
+    sdates = [row[0] for sk in skaters for row in (sk.get("log") or []) if row and row[0]]
+    if sdates and goalies:
+        snew = max(sdates)
+        if snew >= (NOW - datetime.timedelta(days=1)).strftime("%Y-%m-%d") and not dec.get(snew):
+            live = True; print("skater log has game", snew, "with no goalie decision yet (pre-game or in progress) - treating it as in progress")
+except Exception as e:
+    print("pre-game live check skipped:", e)
 
 # ---- Abbotsford's next game (used by the Prospect Portal "next game") ----
 nxt = None

@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-26T01:00:21Z",
+ "updated": "2026-11-26T03:15:17Z",
  "results": [
+  {
+   "opp": "Detroit Red Wings",
+   "abbr": "DET",
+   "home": false,
+   "date": "Nov 25",
+   "us": 1,
+   "them": 5,
+   "res": "L"
+  },
   {
    "opp": "Chicago Blackhawks",
    "abbr": "CHI",
@@ -18,15 +27,6 @@
    "us": 4,
    "them": 3,
    "res": "W"
-  },
-  {
-   "opp": "Seattle Kraken",
-   "abbr": "SEA",
-   "home": false,
-   "date": "Nov 19",
-   "us": 1,
-   "them": 5,
-   "res": "L"
   }
  ],
  "upcoming": [

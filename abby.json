@@ -5654,7 +5654,7 @@
      "",
      10,
      3,
-     1187,
+     1200,
      0,
      1
     ],
@@ -5934,6 +5934,26 @@
    "dseq": 2
   },
   {
+   "abbr": "TUC",
+   "name": "Tucson Roadrunners",
+   "nick": "Roadrunners",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 19,
+   "w": 13,
+   "l": 3,
+   "otl": 3,
+   "pts": 29,
+   "gf": 63,
+   "ga": 41,
+   "diff": 22,
+   "l10": "8-1-1",
+   "strk": "3-0-1-0",
+   "lseq": 2,
+   "cseq": 2,
+   "dseq": 1
+  },
+  {
    "abbr": "LAV",
    "name": "Laval Rocket",
    "nick": "Rocket",
@@ -5951,26 +5971,6 @@
    "strk": "0-2-0-0",
    "lseq": 3,
    "cseq": 1,
-   "dseq": 1
-  },
-  {
-   "abbr": "TUC",
-   "name": "Tucson Roadrunners",
-   "nick": "Roadrunners",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 18,
-   "w": 12,
-   "l": 3,
-   "otl": 3,
-   "pts": 27,
-   "gf": 63,
-   "ga": 41,
-   "diff": 22,
-   "l10": "8-1-1",
-   "strk": "2-0-1-0",
-   "lseq": 2,
-   "cseq": 2,
    "dseq": 1
   },
   {
@@ -6359,17 +6359,17 @@
    "nick": "Stars",
    "div": "Central",
    "conf": "Western",
-   "gp": 20,
+   "gp": 21,
    "w": 7,
-   "l": 9,
+   "l": 10,
    "otl": 4,
    "pts": 18,
    "gf": 55,
    "ga": 76,
    "diff": -21,
    "l10": "5-3-1-1",
-   "strk": "2-0-0-0",
-   "lseq": 25,
+   "strk": "0-1-0-0",
+   "lseq": 26,
    "cseq": 13,
    "dseq": 5
   },
@@ -6469,7 +6469,7 @@
    "diff": -18,
    "l10": "3-4-1-2",
    "strk": "1-0-0-0",
-   "lseq": 26,
+   "lseq": 25,
    "cseq": 13,
    "dseq": 6
   },
@@ -6583,5 +6583,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-26T03:45:18Z"
+ "updated": "2026-11-26T03:50:35Z"
 }

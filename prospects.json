@@ -346,11 +346,11 @@
    "team": "Peterborough Petes",
    "lg": "OHL",
    "gp": 14,
-   "gaa": 2.98,
-   "svp": ".904",
+   "gaa": 2.89,
+   "svp": ".907",
    "so": 1,
    "rec": "7-4-2",
-   "toi": 806.08,
+   "toi": 830.12,
    "splits": [
     {
      "team": "London Knights",
@@ -366,11 +366,11 @@
      "team": "Peterborough Petes",
      "lg": "OHL",
      "gp": 6,
-     "gaa": 2.34,
-     "svp": ".923",
+     "gaa": 2.18,
+     "svp": ".928",
      "so": 1,
      "rec": "4-1-0",
-     "toi": 333.9
+     "toi": 357.93
     }
    ]
   },

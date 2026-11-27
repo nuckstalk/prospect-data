@@ -401,6 +401,19 @@
      "sg": 2,
      "sa": 1,
      "stp": 3
+    },
+    {
+     "k": "S",
+     "name": "Ty Mueller",
+     "lg": "NHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 4,
+     "sg": 0,
+     "sa": 0,
+     "stp": 0
     }
    ]
   },

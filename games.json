@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:15:17Z",
+ "updated": "2026-11-27T20:15:19Z",
  "results": [
   {
    "opp": "Detroit Red Wings",
@@ -31,14 +31,6 @@
  ],
  "upcoming": [
   {
-   "opp": "Philadelphia Flyers",
-   "abbr": "PHI",
-   "home": false,
-   "date": "Fri Nov 27",
-   "time": "1:00 PM PT",
-   "utc": "2026-11-27T20:00:00Z"
-  },
-  {
    "opp": "Boston Bruins",
    "abbr": "BOS",
    "home": false,
@@ -53,6 +45,14 @@
    "date": "Tue Dec 1",
    "time": "5:00 PM PT",
    "utc": "2026-12-02T00:00:00Z"
+  },
+  {
+   "opp": "Buffalo Sabres",
+   "abbr": "BUF",
+   "home": true,
+   "date": "Fri Dec 4",
+   "time": "7:00 PM PT",
+   "utc": "2026-12-05T02:00:00Z"
   }
  ]
 }

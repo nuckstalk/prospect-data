@@ -1,6 +1,15 @@
 {
- "updated": "2026-11-27T20:15:19Z",
+ "updated": "2026-11-27T22:45:19Z",
  "results": [
+  {
+   "opp": "Philadelphia Flyers",
+   "abbr": "PHI",
+   "home": false,
+   "date": "Nov 27",
+   "us": 2,
+   "them": 5,
+   "res": "L"
+  },
   {
    "opp": "Detroit Red Wings",
    "abbr": "DET",
@@ -18,15 +27,6 @@
    "us": 3,
    "them": 6,
    "res": "L"
-  },
-  {
-   "opp": "Minnesota Wild",
-   "abbr": "MIN",
-   "home": true,
-   "date": "Nov 21",
-   "us": 4,
-   "them": 3,
-   "res": "W"
   }
  ],
  "upcoming": [

@@ -30,13 +30,13 @@
    "ep": 3,
    "team": "Peterborough Petes",
    "lg": "OHL",
-   "gp": 23,
-   "g": 16,
+   "gp": 24,
+   "g": 17,
    "a": 14,
-   "tp": 30,
-   "ppg": 1.3043478260869565,
+   "tp": 31,
+   "ppg": 1.2916666666666667,
    "pim": 14,
-   "pm": 6
+   "pm": 7
   },
   "Braeden Cootes": {
    "ep": 4,
@@ -345,12 +345,12 @@
   "Alexei Medvedev": {
    "team": "Peterborough Petes",
    "lg": "OHL",
-   "gp": 13,
-   "gaa": 2.88,
-   "svp": ".905",
+   "gp": 14,
+   "gaa": 2.98,
+   "svp": ".904",
    "so": 1,
    "rec": "7-4-2",
-   "toi": 771.42,
+   "toi": 806.08,
    "splits": [
     {
      "team": "London Knights",
@@ -365,12 +365,12 @@
     {
      "team": "Peterborough Petes",
      "lg": "OHL",
-     "gp": 5,
-     "gaa": 2.01,
-     "svp": ".929",
+     "gp": 6,
+     "gaa": 2.34,
+     "svp": ".923",
      "so": 1,
      "rec": "4-1-0",
-     "toi": 299.23
+     "toi": 333.9
     }
    ]
   },
@@ -412,6 +412,31 @@
      "sg": 1,
      "sa": 1,
      "stp": 2
+    },
+    {
+     "k": "S",
+     "name": "Adam Novotný",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 1,
+     "da": 0,
+     "dtp": 1,
+     "sgp": 24,
+     "sg": 17,
+     "sa": 14,
+     "stp": 31
+    },
+    {
+     "k": "G",
+     "name": "Alexei Medvedev",
+     "lg": "OHL",
+     "dgp": 1,
+     "res": "",
+     "gaa": 2.98,
+     "svp": ".904",
+     "sgp": 14,
+     "rec0": "7-4-2",
+     "ga": 3
     }
    ]
   },
@@ -1167,9 +1192,5 @@
     }
    ]
   }
- ],
- "status": {
-  "msg": "FETCH FAILED: urllib: HTTP Error 403: Forbidden; chrome: HTTP 403; safari: HTTP 403; edge: HTTP 403",
-  "at": "2026-11-27T02:15Z"
- }
+ ]
 }

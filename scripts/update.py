@@ -744,6 +744,7 @@ for n, r in data["goalies"].items():
                 ga_new = round(r["gaa"] * r["toi"] / 60)
                 ga_old = round(o["gaa"] * o["toi"] / 60) if o["gp"] > 0 else 0
                 if ga_new - ga_old >= 0: item["ga"] = ga_new - ga_old
+                if dgp == 1 and o["gp"] > 0: item["min"] = round(r["toi"] - o["toi"], 1)   # minutes he played this game
             if "ga" not in item and o["gp"] > 0 and o.get("toi") and o.get("gaa") is not None:
                 item["gaa0"], item["toi0"] = o["gaa"], o["toi"]     # GA can be worked out later, once EliteProspects posts this game's minutes
         except Exception as e:
@@ -866,10 +867,57 @@ for d in watch:
             if gg.get("toi") and gg.get("gaa") is not None and gg["toi"] > it["toi0"]:
                 ga = round(gg["gaa"] * gg["toi"] / 60) - round(it["gaa0"] * it["toi0"] / 60)
                 if ga >= 0:
+                    if it.get("dgp", 1) == 1: it["min"] = round(gg["toi"] - it["toi0"], 1)
                     it["ga"] = ga; it["svp"] = gg["svp"]; it["gaa"] = gg["gaa"]; it.pop("gaa0", None); it.pop("toi0", None)
                     print("GA filled in:", it["name"], ga)
+# CHL / ECHL goalies: if the stats source hasn't posted the W/L yet, take it straight from the league's final score
+# (his team won = W, lost in regulation = L, lost in OT or a shootout = OTL). Only fills blanks, never overrides; any problem is just printed.
+# STRICT: only when we KNOW he played the whole game (59+ minutes in his line for that game) and the goals against add up.
+# If anything is missing or doesn't match, the result stays blank until the stats source posts it. No guessing.
+try:
+    import urllib.parse as _up2
+    _SB_FEEDS = {"OHL": ("ohl", ["2976319eb44abe94"], "https://ontariohockeyleague.com/"),
+                 "WHL": ("whl", ["41b145a848f4bd67", "f1aa699db3d81487", "2976319eb44abe94"], "https://chl.ca/whl/"),
+                 "ECHL": ("echl", ["2c2b89ea7345cae8", "ccb91f29d6744675", "50c2cd9b5e18e390"], "https://echl.com/")}
+    _SB = {}
+    def _scorebar(lg):
+        if lg in _SB: return _SB[lg]
+        code, keys, ref = _SB_FEEDS[lg]; _SB[lg] = []
+        for k in keys:
+            try:
+                q = {"feed": "modulekit", "view": "scorebar", "numberofdaysahead": 0, "numberofdaysback": 3, "key": k, "client_code": code, "fmt": "json", "lang": "en"}
+                req = urllib.request.Request("https://lscluster.hockeytech.com/feed/index.php?" + _up2.urlencode(q),
+                                             headers={"User-Agent": "Mozilla/5.0", "Referer": ref, "Origin": ref.rstrip("/")})
+                raw = urllib.request.urlopen(req, timeout=40).read().decode("utf-8", "replace").strip()
+                raw = re.sub(r"^[\w.$]*\(", "", raw); raw = re.sub(r"\)\s*;?\s*$", "", raw)
+                _SB[lg] = (json.loads(raw).get("SiteKit") or {}).get("Scorebar") or []
+                print("result check:", lg, "scorebar games:", len(_SB[lg])); break
+            except Exception as e:
+                print("result check:", lg, "scorebar failed:", str(e)[:80])
+        return _SB[lg]
+    for d in watch:
+        for it in d["items"]:
+            if it.get("k") != "G" or it.get("res") or it.get("lg") not in _SB_FEEDS: continue
+            if it.get("dgp", 1) != 1 or (it.get("min") or 0) < 59 or it.get("ga") is None: continue   # not sure he played the full game: leave blank
+            if d["date"] < (NOW - datetime.timedelta(days=3)).strftime("%Y-%m-%d"): continue
+            tm = norm((data["goalies"].get(it["name"]) or {}).get("team", ""))
+            if not tm: continue
+            for gm in _scorebar(it["lg"]):
+                hn, vn = norm(str(gm.get("HomeLongName", ""))), norm(str(gm.get("VisitorLongName", "")))
+                gdt = str(gm.get("Date") or gm.get("GameDateISO8601") or "")[:10]
+                if gdt != d["date"] or tm not in (hn, vn): continue
+                st = (str(gm.get("GameStatusString", "")) + " " + str(gm.get("GameStatusStringLong", ""))).upper()
+                if "FINAL" not in st and str(gm.get("GameStatus", "")) != "4": break   # not over yet: leave it
+                hg, vg = int(gm.get("HomeGoals") or 0), int(gm.get("VisitorGoals") or 0)
+                mine, theirs = (hg, vg) if tm == hn else (vg, hg)
+                if mine == theirs or it["ga"] > theirs: break   # tie score or his goals against don't fit the final: leave blank
+                it["res"] = "W" if mine > theirs else ("OTL" if (" OT" in st or "SO" in st or "SHOOTOUT" in st or "OVERTIME" in st) else "L")
+                it.pop("rec0", None); print("result from final score:", it["name"], d["date"], it["res"], "(%d-%d)" % (mine, theirs))
+                break
+except Exception as e:
+    print("result check skipped:", str(e)[:100])
 # one-off hand corrections to a goalie's logged result (confirmed from his game log): {(name, watch date): result}
-RESULT_FIXES = {("Dmitri Ivchenko", "2026-10-21"): "OTL"}   # Oct 21 was a shootout loss, wrongly stamped W
+RESULT_FIXES = {("Dmitri Ivchenko", "2026-10-21"): "OTL", ("Alexei Medvedev", "2026-11-26"): "W"}   # Oct 21 was a shootout loss, wrongly stamped W; Nov 26 Medvedev won 6-3 (record source was slow to post it)
 for d in watch:
     for it in d["items"]:
         fx = RESULT_FIXES.get((it["name"], d["date"]))

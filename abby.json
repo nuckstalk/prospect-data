@@ -6349,7 +6349,7 @@
    "diff": 1,
    "l10": "4-5-1",
    "strk": "1-0-0-0",
-   "lseq": 15,
+   "lseq": 16,
    "cseq": 7,
    "dseq": 3
   },
@@ -6414,6 +6414,26 @@
    "dseq": 4
   },
   {
+   "abbr": "SD",
+   "name": "San Diego Gulls",
+   "nick": "Gulls",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 21,
+   "w": 10,
+   "l": 7,
+   "otl": 4,
+   "pts": 24,
+   "gf": 62,
+   "ga": 51,
+   "diff": 11,
+   "l10": "5-3-2",
+   "strk": "1-0-0-0",
+   "lseq": 15,
+   "cseq": 9,
+   "dseq": 6
+  },
+  {
    "abbr": "ONT",
    "name": "Ontario Reign",
    "nick": "Reign",
@@ -6474,41 +6494,21 @@
    "dseq": 7
   },
   {
-   "abbr": "SD",
-   "name": "San Diego Gulls",
-   "nick": "Gulls",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 20,
-   "w": 9,
-   "l": 7,
-   "otl": 4,
-   "pts": 22,
-   "gf": 62,
-   "ga": 51,
-   "diff": 11,
-   "l10": "5-3-2",
-   "strk": "0-1-1-0",
-   "lseq": 16,
-   "cseq": 9,
-   "dseq": 6
-  },
-  {
    "abbr": "COL",
    "name": "Colorado Eagles",
    "nick": "Eagles",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 21,
+   "gp": 22,
    "w": 9,
-   "l": 8,
+   "l": 9,
    "otl": 4,
    "pts": 22,
    "gf": 64,
    "ga": 65,
    "diff": -1,
    "l10": "3-5-2",
-   "strk": "1-0-2-0",
+   "strk": "0-1-2-0",
    "lseq": 19,
    "cseq": 11,
    "dseq": 8
@@ -6807,5 +6807,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-28T04:00:21Z"
+ "updated": "2026-11-28T04:15:16Z"
 }

@@ -90,13 +90,13 @@
    "ep": 8,
    "team": "Univ. of Michigan",
    "lg": "NCAA",
-   "gp": 5,
+   "gp": 6,
    "g": 0,
    "a": 0,
    "tp": 0,
    "ppg": 0,
-   "pim": 2,
-   "pm": 0
+   "pim": 4,
+   "pm": -1
   },
   "Niklas Aaram-Olsen": {
    "ep": 9,
@@ -336,11 +336,11 @@
    "team": "Kalamazoo Wings",
    "lg": "ECHL",
    "gp": 7,
-   "gaa": 2.62,
-   "svp": ".926",
+   "gaa": 2.97,
+   "svp": ".912",
    "so": 0,
-   "rec": "3-1-2",
-   "toi": 390.05
+   "rec": "3-2-2",
+   "toi": 423.75
   },
   "Alexei Medvedev": {
    "team": "Peterborough Petes",
@@ -563,13 +563,25 @@
      "name": "Aku Koskenvuo",
      "lg": "ECHL",
      "dgp": 1,
-     "res": "",
-     "gaa": 2.62,
-     "svp": ".926",
+     "res": "L",
+     "gaa": 2.97,
+     "svp": ".912",
      "sgp": 7,
-     "rec0": "3-1-2",
      "ga": 2,
      "min": 26.2
+    },
+    {
+     "k": "S",
+     "name": "Kieren Dervin",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 6,
+     "sg": 0,
+     "sa": 0,
+     "stp": 0
     }
    ]
   },

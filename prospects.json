@@ -54,13 +54,13 @@
    "ep": 5,
    "team": "Univ. of North Dakota",
    "lg": "NCAA",
-   "gp": 12,
+   "gp": 13,
    "g": 1,
    "a": 5,
    "tp": 6,
-   "ppg": 0.5,
+   "ppg": 0.46153846153846156,
    "pim": 2,
-   "pm": 0
+   "pm": -1
   },
   "Yaroslav Bryzgalov": {
    "ep": 6,
@@ -608,6 +608,19 @@
      "sg": 2,
      "sa": 3,
      "stp": 5
+    },
+    {
+     "k": "S",
+     "name": "Connor Davis",
+     "lg": "NCAA",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 13,
+     "sg": 1,
+     "sa": 5,
+     "stp": 6
     }
    ]
   },

@@ -66,13 +66,13 @@
    "ep": 6,
    "team": "Medicine Hat Tigers",
    "lg": "WHL",
-   "gp": 21,
+   "gp": 22,
    "g": 6,
-   "a": 11,
-   "tp": 17,
-   "ppg": 0.8095238095238095,
+   "a": 13,
+   "tp": 19,
+   "ppg": 0.8636363636363636,
    "pim": 22,
-   "pm": 7
+   "pm": 9
   },
   "Brooks Rogowski": {
    "ep": 7,
@@ -126,11 +126,11 @@
    "ep": 11,
    "team": "Kitchener Rangers",
    "lg": "OHL",
-   "gp": 9,
+   "gp": 10,
    "g": 2,
    "a": 3,
    "tp": 5,
-   "ppg": 0.5555555555555556,
+   "ppg": 0.5,
    "pim": 8,
    "pm": 7,
    "splits": [
@@ -145,7 +145,7 @@
     {
      "team": "Kitchener Rangers",
      "lg": "OHL",
-     "gp": 7,
+     "gp": 8,
      "g": 2,
      "a": 2,
      "tp": 4
@@ -582,6 +582,32 @@
      "sg": 0,
      "sa": 0,
      "stp": 0
+    },
+    {
+     "k": "S",
+     "name": "Yaroslav Bryzgalov",
+     "lg": "WHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 2,
+     "dtp": 2,
+     "sgp": 22,
+     "sg": 6,
+     "sa": 13,
+     "stp": 19
+    },
+    {
+     "k": "S",
+     "name": "Gabriel Chiarot",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 10,
+     "sg": 2,
+     "sa": 3,
+     "stp": 5
     }
    ]
   },
@@ -1359,9 +1385,5 @@
     }
    ]
   }
- ],
- "status": {
-  "msg": "FETCH FAILED: urllib: HTTP Error 403: Forbidden; chrome: HTTP 403; safari: HTTP 403; edge: HTTP 403",
-  "at": "2026-11-28T03:15Z"
- }
+ ]
 }

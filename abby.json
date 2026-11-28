@@ -6139,16 +6139,16 @@
    "nick": "Griffins",
    "div": "Central",
    "conf": "Western",
-   "gp": 22,
+   "gp": 23,
    "w": 17,
-   "l": 2,
+   "l": 3,
    "otl": 3,
    "pts": 37,
    "gf": 90,
    "ga": 59,
    "diff": 31,
-   "l10": "8-1-0-1",
-   "strk": "7-0-0-1",
+   "l10": "7-2-0-1",
+   "strk": "0-1-0-1",
    "lseq": 1,
    "cseq": 1,
    "dseq": 1
@@ -6234,6 +6234,26 @@
    "dseq": 2
   },
   {
+   "abbr": "PRO",
+   "name": "Providence Bruins",
+   "nick": "Bruins",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 21,
+   "w": 13,
+   "l": 8,
+   "otl": 0,
+   "pts": 26,
+   "gf": 74,
+   "ga": 57,
+   "diff": 17,
+   "l10": "8-2-0",
+   "strk": "7-0-0-0",
+   "lseq": 9,
+   "cseq": 5,
+   "dseq": 1
+  },
+  {
    "abbr": "CV",
    "name": "Coachella Valley Firebirds",
    "nick": "Firebirds",
@@ -6249,7 +6269,7 @@
    "diff": 1,
    "l10": "7-2-1",
    "strk": "3-0-0-0",
-   "lseq": 9,
+   "lseq": 10,
    "cseq": 5,
    "dseq": 3
   },
@@ -6272,6 +6292,26 @@
    "lseq": 13,
    "cseq": 7,
    "dseq": 4
+  },
+  {
+   "abbr": "ROC",
+   "name": "Rochester Americans",
+   "nick": "Americans",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 19,
+   "w": 12,
+   "l": 6,
+   "otl": 1,
+   "pts": 25,
+   "gf": 66,
+   "ga": 46,
+   "diff": 20,
+   "l10": "8-2-0",
+   "strk": "5-0-0-0",
+   "lseq": 7,
+   "cseq": 3,
+   "dseq": 3
   },
   {
    "abbr": "CLT",
@@ -6329,26 +6369,6 @@
    "diff": 8,
    "l10": "6-4-0",
    "strk": "0-1-0-0",
-   "lseq": 11,
-   "cseq": 5,
-   "dseq": 1
-  },
-  {
-   "abbr": "PRO",
-   "name": "Providence Bruins",
-   "nick": "Bruins",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 20,
-   "w": 12,
-   "l": 8,
-   "otl": 0,
-   "pts": 24,
-   "gf": 74,
-   "ga": 57,
-   "diff": 17,
-   "l10": "8-2-0",
-   "strk": "6-0-0-0",
    "lseq": 12,
    "cseq": 6,
    "dseq": 2
@@ -6374,26 +6394,6 @@
    "dseq": 4
   },
   {
-   "abbr": "ROC",
-   "name": "Rochester Americans",
-   "nick": "Americans",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 18,
-   "w": 11,
-   "l": 6,
-   "otl": 1,
-   "pts": 23,
-   "gf": 65,
-   "ga": 46,
-   "diff": 19,
-   "l10": "7-3-0",
-   "strk": "4-0-0-0",
-   "lseq": 7,
-   "cseq": 3,
-   "dseq": 3
-  },
-  {
    "abbr": "MIL",
    "name": "Milwaukee Admirals",
    "nick": "Admirals",
@@ -6409,7 +6409,7 @@
    "diff": 4,
    "l10": "5-4-1",
    "strk": "1-0-0-0",
-   "lseq": 10,
+   "lseq": 11,
    "cseq": 6,
    "dseq": 3
   },
@@ -6469,7 +6469,7 @@
    "diff": -7,
    "l10": "1-6-0-3",
    "strk": "0-0-1-0",
-   "lseq": 20,
+   "lseq": 18,
    "cseq": 10,
    "dseq": 7
   },
@@ -6509,7 +6509,7 @@
    "diff": 0,
    "l10": "3-5-2",
    "strk": "1-0-2-0",
-   "lseq": 21,
+   "lseq": 19,
    "cseq": 11,
    "dseq": 8
   },
@@ -6519,18 +6519,18 @@
    "nick": "Penguins",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 20,
+   "gp": 21,
    "w": 9,
-   "l": 8,
+   "l": 9,
    "otl": 3,
    "pts": 21,
    "gf": 67,
    "ga": 69,
    "diff": -2,
-   "l10": "4-4-2",
-   "strk": "0-2-0-0",
-   "lseq": 19,
-   "cseq": 10,
+   "l10": "3-5-2",
+   "strk": "0-3-0-0",
+   "lseq": 20,
+   "cseq": 9,
    "dseq": 5
   },
   {
@@ -6559,18 +6559,38 @@
    "nick": "Crunch",
    "div": "North",
    "conf": "Eastern",
-   "gp": 18,
+   "gp": 19,
    "w": 8,
-   "l": 7,
+   "l": 8,
    "otl": 3,
    "pts": 19,
    "gf": 50,
-   "ga": 57,
-   "diff": -7,
-   "l10": "5-3-2",
+   "ga": 58,
+   "diff": -8,
+   "l10": "4-4-2",
+   "strk": "0-1-0-0",
+   "lseq": 21,
+   "cseq": 10,
+   "dseq": 5
+  },
+  {
+   "abbr": "IA",
+   "name": "Iowa Wild",
+   "nick": "Wild",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 21,
+   "w": 8,
+   "l": 10,
+   "otl": 3,
+   "pts": 19,
+   "gf": 53,
+   "ga": 62,
+   "diff": -9,
+   "l10": "5-4-1",
    "strk": "2-0-0-0",
-   "lseq": 18,
-   "cseq": 9,
+   "lseq": 26,
+   "cseq": 13,
    "dseq": 5
   },
   {
@@ -6609,9 +6629,9 @@
    "diff": -20,
    "l10": "5-3-1-1",
    "strk": "0-1-0-0",
-   "lseq": 26,
-   "cseq": 13,
-   "dseq": 5
+   "lseq": 27,
+   "cseq": 14,
+   "dseq": 6
   },
   {
    "abbr": "CHI",
@@ -6651,26 +6671,6 @@
    "strk": "2-0-0-0",
    "lseq": 25,
    "cseq": 13,
-   "dseq": 6
-  },
-  {
-   "abbr": "IA",
-   "name": "Iowa Wild",
-   "nick": "Wild",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 20,
-   "w": 7,
-   "l": 10,
-   "otl": 3,
-   "pts": 17,
-   "gf": 53,
-   "ga": 62,
-   "diff": -9,
-   "l10": "4-5-1",
-   "strk": "1-0-0-0",
-   "lseq": 27,
-   "cseq": 14,
    "dseq": 6
   },
   {
@@ -6781,11 +6781,11 @@
   },
   "ga": {
    "v": 3.14,
-   "rank": 19
+   "rank": 20
   },
   "pt": {
    "v": 52.4,
-   "rank": 20
+   "rank": 18
   }
  },
  "live": false,
@@ -6807,5 +6807,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-28T02:30:19Z"
+ "updated": "2026-11-28T02:45:16Z"
 }

@@ -6214,6 +6214,26 @@
    "dseq": 1
   },
   {
+   "abbr": "CV",
+   "name": "Coachella Valley Firebirds",
+   "nick": "Firebirds",
+   "div": "Pacific",
+   "conf": "Western",
+   "gp": 22,
+   "w": 12,
+   "l": 6,
+   "otl": 4,
+   "pts": 28,
+   "gf": 72,
+   "ga": 70,
+   "diff": 2,
+   "l10": "7-2-1",
+   "strk": "4-0-0-0",
+   "lseq": 8,
+   "cseq": 5,
+   "dseq": 3
+  },
+  {
    "abbr": "HSK",
    "name": "Henderson Silver Knights",
    "nick": "Silver Knights",
@@ -6249,29 +6269,9 @@
    "diff": 17,
    "l10": "8-2-0",
    "strk": "7-0-0-0",
-   "lseq": 10,
+   "lseq": 11,
    "cseq": 5,
    "dseq": 1
-  },
-  {
-   "abbr": "CV",
-   "name": "Coachella Valley Firebirds",
-   "nick": "Firebirds",
-   "div": "Pacific",
-   "conf": "Western",
-   "gp": 21,
-   "w": 11,
-   "l": 6,
-   "otl": 4,
-   "pts": 26,
-   "gf": 72,
-   "ga": 70,
-   "diff": 2,
-   "l10": "7-2-1",
-   "strk": "3-0-0-0",
-   "lseq": 11,
-   "cseq": 6,
-   "dseq": 3
   },
   {
    "abbr": "CGY",
@@ -6329,8 +6329,8 @@
    "diff": 4,
    "l10": "5-4-1",
    "strk": "2-0-0-0",
-   "lseq": 9,
-   "cseq": 5,
+   "lseq": 10,
+   "cseq": 6,
    "dseq": 3
   },
   {
@@ -6409,7 +6409,7 @@
    "diff": 13,
    "l10": "5-2-2-1",
    "strk": "2-0-0-1",
-   "lseq": 8,
+   "lseq": 9,
    "cseq": 4,
    "dseq": 4
   },
@@ -6709,7 +6709,7 @@
    "diff": -23,
    "l10": "4-6-0",
    "strk": "1-0-0-0",
-   "lseq": 29,
+   "lseq": 30,
    "cseq": 14,
    "dseq": 8
   },
@@ -6739,17 +6739,17 @@
    "nick": "Condors",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 18,
+   "gp": 19,
    "w": 5,
    "l": 10,
-   "otl": 3,
-   "pts": 13,
+   "otl": 4,
+   "pts": 14,
    "gf": 42,
    "ga": 64,
    "diff": -22,
    "l10": "2-5-1-2",
-   "strk": "0-3-0-1",
-   "lseq": 30,
+   "strk": "0-3-1-1",
+   "lseq": 29,
    "cseq": 16,
    "dseq": 10
   },
@@ -6807,5 +6807,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-28T05:45:16Z"
+ "updated": "2026-11-28T06:00:19Z"
 }

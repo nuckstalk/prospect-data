@@ -6169,9 +6169,29 @@
    "diff": 18,
    "l10": "6-3-1",
    "strk": "3-0-1-0",
-   "lseq": 6,
+   "lseq": 5,
    "cseq": 4,
    "dseq": 2
+  },
+  {
+   "abbr": "LAV",
+   "name": "Laval Rocket",
+   "nick": "Rocket",
+   "div": "North",
+   "conf": "Eastern",
+   "gp": 21,
+   "w": 14,
+   "l": 5,
+   "otl": 2,
+   "pts": 30,
+   "gf": 78,
+   "ga": 48,
+   "diff": 30,
+   "l10": "6-2-2",
+   "strk": "1-0-0-0",
+   "lseq": 3,
+   "cseq": 1,
+   "dseq": 1
   },
   {
    "abbr": "TUC",
@@ -6194,26 +6214,6 @@
    "dseq": 1
   },
   {
-   "abbr": "LAV",
-   "name": "Laval Rocket",
-   "nick": "Rocket",
-   "div": "North",
-   "conf": "Eastern",
-   "gp": 20,
-   "w": 13,
-   "l": 5,
-   "otl": 2,
-   "pts": 28,
-   "gf": 78,
-   "ga": 48,
-   "diff": 30,
-   "l10": "6-2-2",
-   "strk": "0-2-0-0",
-   "lseq": 4,
-   "cseq": 1,
-   "dseq": 1
-  },
-  {
    "abbr": "HSK",
    "name": "Henderson Silver Knights",
    "nick": "Silver Knights",
@@ -6229,7 +6229,7 @@
    "diff": 14,
    "l10": "8-1-0-1",
    "strk": "5-0-0-1",
-   "lseq": 3,
+   "lseq": 4,
    "cseq": 3,
    "dseq": 2
   },
@@ -6309,9 +6309,9 @@
    "diff": 20,
    "l10": "8-2-0",
    "strk": "5-0-0-0",
-   "lseq": 7,
-   "cseq": 3,
-   "dseq": 3
+   "lseq": 6,
+   "cseq": 2,
+   "dseq": 2
   },
   {
    "abbr": "CLT",
@@ -6404,9 +6404,9 @@
    "l": 7,
    "otl": 1,
    "pts": 23,
-   "gf": 49,
+   "gf": 50,
    "ga": 45,
-   "diff": 4,
+   "diff": 5,
    "l10": "5-4-1",
    "strk": "1-0-0-0",
    "lseq": 11,
@@ -6439,19 +6439,19 @@
    "nick": "Comets",
    "div": "North",
    "conf": "Eastern",
-   "gp": 16,
+   "gp": 17,
    "w": 11,
-   "l": 5,
+   "l": 6,
    "otl": 0,
    "pts": 22,
    "gf": 45,
    "ga": 41,
    "diff": 4,
-   "l10": "7-3-0",
-   "strk": "0-2-0-0",
-   "lseq": 5,
-   "cseq": 2,
-   "dseq": 2
+   "l10": "6-4-0",
+   "strk": "0-3-0-0",
+   "lseq": 7,
+   "cseq": 3,
+   "dseq": 3
   },
   {
    "abbr": "ABB",
@@ -6645,8 +6645,8 @@
    "otl": 1,
    "pts": 17,
    "gf": 50,
-   "ga": 69,
-   "diff": -19,
+   "ga": 70,
+   "diff": -20,
    "l10": "5-5-0",
    "strk": "0-1-0-0",
    "lseq": 24,
@@ -6777,7 +6777,7 @@
  "team": {
   "gf": {
    "v": 2.81,
-   "rank": 18
+   "rank": 17
   },
   "ga": {
    "v": 3.14,
@@ -6807,5 +6807,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-28T03:00:23Z"
+ "updated": "2026-11-28T03:15:22Z"
 }

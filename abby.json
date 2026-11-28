@@ -6299,17 +6299,17 @@
    "nick": "Wolf Pack",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 22,
+   "gp": 23,
    "w": 12,
-   "l": 9,
+   "l": 10,
    "otl": 1,
    "pts": 25,
    "gf": 62,
    "ga": 62,
    "diff": 0,
-   "l10": "7-3-0",
-   "strk": "1-0-0-0",
-   "lseq": 16,
+   "l10": "6-4-0",
+   "strk": "0-1-0-0",
+   "lseq": 17,
    "cseq": 8,
    "dseq": 4
   },
@@ -6344,9 +6344,9 @@
    "l": 8,
    "otl": 0,
    "pts": 24,
-   "gf": 70,
+   "gf": 71,
    "ga": 54,
-   "diff": 16,
+   "diff": 17,
    "l10": "8-2-0",
    "strk": "6-0-0-0",
    "lseq": 12,
@@ -6489,7 +6489,7 @@
    "diff": 9,
    "l10": "5-3-2",
    "strk": "0-1-1-0",
-   "lseq": 17,
+   "lseq": 16,
    "cseq": 9,
    "dseq": 6
   },
@@ -6525,8 +6525,8 @@
    "otl": 3,
    "pts": 21,
    "gf": 64,
-   "ga": 65,
-   "diff": -1,
+   "ga": 66,
+   "diff": -2,
    "l10": "4-4-2",
    "strk": "0-2-0-0",
    "lseq": 19,
@@ -6584,9 +6584,9 @@
    "l": 9,
    "otl": 0,
    "pts": 18,
-   "gf": 58,
+   "gf": 59,
    "ga": 61,
-   "diff": -3,
+   "diff": -2,
    "l10": "4-6-0",
    "strk": "1-0-0-0",
    "lseq": 22,
@@ -6632,6 +6632,26 @@
    "lseq": 24,
    "cseq": 12,
    "dseq": 4
+  },
+  {
+   "abbr": "SPR",
+   "name": "Springfield Thunderbirds",
+   "nick": "Thunderbirds",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 18,
+   "w": 6,
+   "l": 7,
+   "otl": 5,
+   "pts": 17,
+   "gf": 45,
+   "ga": 59,
+   "diff": -14,
+   "l10": "3-4-1-2",
+   "strk": "2-0-0-0",
+   "lseq": 25,
+   "cseq": 13,
+   "dseq": 6
   },
   {
    "abbr": "IA",
@@ -6694,26 +6714,6 @@
    "dseq": 7
   },
   {
-   "abbr": "SPR",
-   "name": "Springfield Thunderbirds",
-   "nick": "Thunderbirds",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 17,
-   "w": 5,
-   "l": 7,
-   "otl": 5,
-   "pts": 15,
-   "gf": 45,
-   "ga": 59,
-   "diff": -14,
-   "l10": "3-4-1-2",
-   "strk": "1-0-0-0",
-   "lseq": 25,
-   "cseq": 13,
-   "dseq": 6
-  },
-  {
    "abbr": "HAM",
    "name": "Hamilton Hammers",
    "nick": "Hammers",
@@ -6725,8 +6725,8 @@
    "otl": 2,
    "pts": 14,
    "gf": 52,
-   "ga": 78,
-   "diff": -26,
+   "ga": 79,
+   "diff": -27,
    "l10": "3-6-0-1",
    "strk": "0-3-0-0",
    "lseq": 32,
@@ -6777,7 +6777,7 @@
  "team": {
   "gf": {
    "v": 2.81,
-   "rank": 18
+   "rank": 17
   },
   "ga": {
    "v": 3.14,
@@ -6807,5 +6807,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-28T00:30:23Z"
+ "updated": "2026-11-28T00:45:16Z"
 }

@@ -192,12 +192,12 @@
    "ep": 16,
    "team": "Abbotsford Canucks",
    "lg": "AHL",
-   "gp": 19,
+   "gp": 20,
    "g": 1,
-   "a": 9,
-   "tp": 10,
-   "ppg": 0.5263157894736842,
-   "pim": 22,
+   "a": 10,
+   "tp": 11,
+   "ppg": 0.55,
+   "pim": 24,
    "pm": -12
   },
   "Kirill Kudryavtsev": {
@@ -414,6 +414,58 @@
      "sg": 0,
      "sa": 0,
      "stp": 0
+    },
+    {
+     "k": "S",
+     "name": "Sawyer Mynio",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 20,
+     "sg": 1,
+     "sa": 10,
+     "stp": 11
+    },
+    {
+     "k": "S",
+     "name": "Riley Patterson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 20,
+     "sg": 6,
+     "sa": 5,
+     "stp": 11
+    },
+    {
+     "k": "S",
+     "name": "Kirill Kudryavtsev",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 15,
+     "sg": 0,
+     "sa": 10,
+     "stp": 10
+    },
+    {
+     "k": "S",
+     "name": "Vilmer Alriksson",
+     "lg": "AHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 20,
+     "sg": 3,
+     "sa": 3,
+     "stp": 6
     }
    ]
   },

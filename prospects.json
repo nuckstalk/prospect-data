@@ -30,12 +30,12 @@
    "ep": 3,
    "team": "Peterborough Petes",
    "lg": "OHL",
-   "gp": 24,
+   "gp": 25,
    "g": 17,
    "a": 14,
    "tp": 31,
-   "ppg": 1.2916666666666667,
-   "pim": 14,
+   "ppg": 1.24,
+   "pim": 16,
    "pm": 7
   },
   "Braeden Cootes": {
@@ -78,13 +78,13 @@
    "ep": 7,
    "team": "Oshawa Generals",
    "lg": "OHL",
-   "gp": 21,
+   "gp": 22,
    "g": 5,
-   "a": 16,
-   "tp": 21,
+   "a": 17,
+   "tp": 22,
    "ppg": 1.0,
-   "pim": 13,
-   "pm": 2
+   "pim": 15,
+   "pm": 1
   },
   "Kieren Dervin": {
    "ep": 8,
@@ -156,11 +156,11 @@
    "ep": 12,
    "team": "Owen Sound Attack",
    "lg": "OHL",
-   "gp": 20,
+   "gp": 21,
    "g": 4,
    "a": 8,
    "tp": 12,
-   "ppg": 0.6,
+   "ppg": 0.5714285714285714,
    "pim": 14,
    "pm": -10
   },
@@ -335,12 +335,12 @@
   "Aku Koskenvuo": {
    "team": "Kalamazoo Wings",
    "lg": "ECHL",
-   "gp": 6,
-   "gaa": 2.47,
-   "svp": ".930",
+   "gp": 7,
+   "gaa": 2.62,
+   "svp": ".926",
    "so": 0,
    "rec": "3-1-2",
-   "toi": 363.82
+   "toi": 390.05
   },
   "Alexei Medvedev": {
    "team": "Peterborough Petes",
@@ -518,6 +518,58 @@
      "sg": 0,
      "sa": 2,
      "stp": 2
+    },
+    {
+     "k": "S",
+     "name": "Adam Novotný",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 25,
+     "sg": 17,
+     "sa": 14,
+     "stp": 31
+    },
+    {
+     "k": "S",
+     "name": "Brooks Rogowski",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 1,
+     "dtp": 1,
+     "sgp": 22,
+     "sg": 5,
+     "sa": 17,
+     "stp": 22
+    },
+    {
+     "k": "S",
+     "name": "Lucian Bernat",
+     "lg": "OHL",
+     "dgp": 1,
+     "dg": 0,
+     "da": 0,
+     "dtp": 0,
+     "sgp": 21,
+     "sg": 4,
+     "sa": 8,
+     "stp": 12
+    },
+    {
+     "k": "G",
+     "name": "Aku Koskenvuo",
+     "lg": "ECHL",
+     "dgp": 1,
+     "res": "",
+     "gaa": 2.62,
+     "svp": ".926",
+     "sgp": 7,
+     "rec0": "3-1-2",
+     "ga": 2,
+     "min": 26.2
     }
    ]
   },

@@ -5812,17 +5812,17 @@
   {
    "name": "Nikita Tolopilo",
    "id": "9983",
-   "gp": 14,
+   "gp": 15,
    "gs": null,
    "w": 7,
    "l": 4,
-   "otl": 2,
-   "gaa": 2.72,
-   "svp": ".894",
+   "otl": 3,
+   "gaa": 2.59,
+   "svp": ".899",
    "so": 0,
-   "sa": 350,
-   "sv": 313,
-   "ga": 37,
+   "sa": 376,
+   "sv": 338,
+   "ga": 38,
    "img": "https://assets.leaguestat.com/ahl/240x240/9983.jpg",
    "bd": "2000-04-06",
    "career": [
@@ -5882,7 +5882,7 @@
    "log": [
     [
      "2026-11-27",
-     "",
+     "OTL",
      26,
      1,
      3876,
@@ -6229,7 +6229,7 @@
    "diff": 1,
    "l10": "7-2-1",
    "strk": "3-0-0-0",
-   "lseq": 10,
+   "lseq": 9,
    "cseq": 5,
    "dseq": 3
   },
@@ -6254,6 +6254,26 @@
    "dseq": 4
   },
   {
+   "abbr": "CLT",
+   "name": "Charlotte Checkers",
+   "nick": "Checkers",
+   "div": "Atlantic",
+   "conf": "Eastern",
+   "gp": 22,
+   "w": 12,
+   "l": 9,
+   "otl": 1,
+   "pts": 25,
+   "gf": 62,
+   "ga": 61,
+   "diff": 1,
+   "l10": "4-5-1",
+   "strk": "1-0-0-0",
+   "lseq": 15,
+   "cseq": 7,
+   "dseq": 3
+  },
+  {
    "abbr": "HFD",
    "name": "Hartford Wolf Pack",
    "nick": "Wolf Pack",
@@ -6269,9 +6289,9 @@
    "diff": 3,
    "l10": "7-3-0",
    "strk": "1-0-0-0",
-   "lseq": 15,
-   "cseq": 7,
-   "dseq": 3
+   "lseq": 16,
+   "cseq": 8,
+   "dseq": 4
   },
   {
    "abbr": "HSK",
@@ -6299,18 +6319,18 @@
    "nick": "Bears",
    "div": "Atlantic",
    "conf": "Eastern",
-   "gp": 19,
+   "gp": 20,
    "w": 12,
-   "l": 7,
+   "l": 8,
    "otl": 0,
    "pts": 24,
    "gf": 65,
    "ga": 57,
    "diff": 8,
    "l10": "6-4-0",
-   "strk": "2-0-0-0",
-   "lseq": 8,
-   "cseq": 4,
+   "strk": "0-1-0-0",
+   "lseq": 11,
+   "cseq": 5,
    "dseq": 1
   },
   {
@@ -6349,8 +6369,8 @@
    "diff": 13,
    "l10": "5-2-2-1",
    "strk": "2-0-0-1",
-   "lseq": 9,
-   "cseq": 5,
+   "lseq": 8,
+   "cseq": 4,
    "dseq": 4
   },
   {
@@ -6389,29 +6409,9 @@
    "diff": 3,
    "l10": "5-4-1",
    "strk": "1-0-0-0",
-   "lseq": 11,
+   "lseq": 10,
    "cseq": 6,
    "dseq": 3
-  },
-  {
-   "abbr": "CLT",
-   "name": "Charlotte Checkers",
-   "nick": "Checkers",
-   "div": "Atlantic",
-   "conf": "Eastern",
-   "gp": 21,
-   "w": 11,
-   "l": 9,
-   "otl": 1,
-   "pts": 23,
-   "gf": 62,
-   "ga": 61,
-   "diff": 1,
-   "l10": "4-5-1",
-   "strk": "0-1-0-0",
-   "lseq": 17,
-   "cseq": 8,
-   "dseq": 4
   },
   {
    "abbr": "ONT",
@@ -6469,7 +6469,7 @@
    "diff": 9,
    "l10": "5-3-2",
    "strk": "0-1-1-0",
-   "lseq": 16,
+   "lseq": 17,
    "cseq": 9,
    "dseq": 6
   },
@@ -6509,7 +6509,7 @@
    "diff": 0,
    "l10": "4-4-2",
    "strk": "0-2-0-0",
-   "lseq": 20,
+   "lseq": 19,
    "cseq": 10,
    "dseq": 5
   },
@@ -6519,17 +6519,17 @@
    "nick": "Canucks",
    "div": "Pacific",
    "conf": "Western",
-   "gp": 20,
+   "gp": 21,
    "w": 9,
    "l": 8,
-   "otl": 3,
-   "pts": 21,
+   "otl": 4,
+   "pts": 22,
    "gf": 59,
    "ga": 65,
    "diff": -6,
-   "l10": "2-6-0-2",
-   "strk": "0-5-0-1",
-   "lseq": 19,
+   "l10": "2-6-1-2",
+   "strk": "0-0-1-0",
+   "lseq": 20,
    "cseq": 10,
    "dseq": 7
   },
@@ -6776,36 +6776,28 @@
  ],
  "team": {
   "gf": {
-   "v": 2.95,
-   "rank": 16
+   "v": 2.81,
+   "rank": 18
   },
   "ga": {
-   "v": 3.25,
-   "rank": 24
+   "v": 3.1,
+   "rank": 19
   },
   "pt": {
-   "v": 52.5,
-   "rank": 19
+   "v": 52.4,
+   "rank": 20
   }
  },
- "live": true,
+ "live": false,
  "next": {
-  "iso": "2026-11-27T14:00:00-07:00",
-  "date": "Fri Nov 27",
-  "time": "2:00 PM PT",
-  "opp": "Henderson Silver Knights",
+  "iso": "2026-11-28T20:10:00-07:00",
+  "date": "Sat Nov 28",
+  "time": "8:10 PM PT",
+  "opp": "Bakersfield Condors",
   "home": false,
-  "live": true
+  "live": false
  },
  "sched": [
-  {
-   "iso": "2026-11-27T14:00:00-07:00",
-   "date": "Fri Nov 27",
-   "time": "2:00 PM PT",
-   "opp": "Henderson Silver Knights",
-   "home": false,
-   "live": true
-  },
   {
    "iso": "2026-11-28T20:10:00-07:00",
    "date": "Sat Nov 28",
@@ -6815,5 +6807,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-27T23:45:16Z"
+ "updated": "2026-11-28T00:00:18Z"
 }

@@ -6249,7 +6249,7 @@
    "diff": 17,
    "l10": "8-2-0",
    "strk": "7-0-0-0",
-   "lseq": 9,
+   "lseq": 10,
    "cseq": 5,
    "dseq": 1
   },
@@ -6269,8 +6269,8 @@
    "diff": 1,
    "l10": "7-2-1",
    "strk": "3-0-0-0",
-   "lseq": 10,
-   "cseq": 5,
+   "lseq": 11,
+   "cseq": 6,
    "dseq": 3
   },
   {
@@ -6312,6 +6312,26 @@
    "lseq": 6,
    "cseq": 2,
    "dseq": 2
+  },
+  {
+   "abbr": "MIL",
+   "name": "Milwaukee Admirals",
+   "nick": "Admirals",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 20,
+   "w": 12,
+   "l": 7,
+   "otl": 1,
+   "pts": 25,
+   "gf": 50,
+   "ga": 46,
+   "diff": 4,
+   "l10": "5-4-1",
+   "strk": "2-0-0-0",
+   "lseq": 9,
+   "cseq": 5,
+   "dseq": 3
   },
   {
    "abbr": "CLT",
@@ -6392,26 +6412,6 @@
    "lseq": 8,
    "cseq": 4,
    "dseq": 4
-  },
-  {
-   "abbr": "MIL",
-   "name": "Milwaukee Admirals",
-   "nick": "Admirals",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 19,
-   "w": 11,
-   "l": 7,
-   "otl": 1,
-   "pts": 23,
-   "gf": 50,
-   "ga": 46,
-   "diff": 4,
-   "l10": "5-4-1",
-   "strk": "1-0-0-0",
-   "lseq": 11,
-   "cseq": 6,
-   "dseq": 3
   },
   {
    "abbr": "ONT",
@@ -6554,6 +6554,26 @@
    "dseq": 6
   },
   {
+   "abbr": "TEX",
+   "name": "Texas Stars",
+   "nick": "Stars",
+   "div": "Central",
+   "conf": "Western",
+   "gp": 22,
+   "w": 8,
+   "l": 10,
+   "otl": 4,
+   "pts": 20,
+   "gf": 61,
+   "ga": 79,
+   "diff": -18,
+   "l10": "5-3-1-1",
+   "strk": "1-0-0-0",
+   "lseq": 25,
+   "cseq": 12,
+   "dseq": 4
+  },
+  {
    "abbr": "SYR",
    "name": "Syracuse Crunch",
    "nick": "Crunch",
@@ -6614,44 +6634,24 @@
    "dseq": 7
   },
   {
-   "abbr": "TEX",
-   "name": "Texas Stars",
-   "nick": "Stars",
-   "div": "Central",
-   "conf": "Western",
-   "gp": 21,
-   "w": 7,
-   "l": 10,
-   "otl": 4,
-   "pts": 18,
-   "gf": 61,
-   "ga": 79,
-   "diff": -18,
-   "l10": "5-3-1-1",
-   "strk": "0-1-0-0",
-   "lseq": 27,
-   "cseq": 14,
-   "dseq": 6
-  },
-  {
    "abbr": "CHI",
    "name": "Chicago Wolves",
    "nick": "Wolves",
    "div": "Central",
    "conf": "Western",
-   "gp": 18,
+   "gp": 19,
    "w": 8,
-   "l": 9,
+   "l": 10,
    "otl": 1,
    "pts": 17,
    "gf": 51,
    "ga": 70,
    "diff": -19,
-   "l10": "5-5-0",
-   "strk": "0-1-0-0",
-   "lseq": 24,
-   "cseq": 12,
-   "dseq": 4
+   "l10": "4-6-0",
+   "strk": "0-2-0-0",
+   "lseq": 27,
+   "cseq": 14,
+   "dseq": 6
   },
   {
    "abbr": "SPR",
@@ -6669,7 +6669,7 @@
    "diff": -14,
    "l10": "3-4-1-2",
    "strk": "2-0-0-0",
-   "lseq": 25,
+   "lseq": 24,
    "cseq": 13,
    "dseq": 6
   },
@@ -6709,7 +6709,7 @@
    "diff": -23,
    "l10": "4-6-0",
    "strk": "1-0-0-0",
-   "lseq": 30,
+   "lseq": 29,
    "cseq": 14,
    "dseq": 8
   },
@@ -6719,18 +6719,18 @@
    "nick": "IceHogs",
    "div": "Central",
    "conf": "Western",
-   "gp": 20,
+   "gp": 21,
    "w": 7,
-   "l": 12,
+   "l": 13,
    "otl": 1,
    "pts": 15,
    "gf": 47,
    "ga": 68,
    "diff": -21,
-   "l10": "3-6-0-1",
-   "strk": "0-4-0-0",
-   "lseq": 29,
-   "cseq": 16,
+   "l10": "3-7-0",
+   "strk": "0-5-0-0",
+   "lseq": 31,
+   "cseq": 17,
    "dseq": 7
   },
   {
@@ -6749,8 +6749,8 @@
    "diff": -21,
    "l10": "2-5-1-2",
    "strk": "0-3-0-1",
-   "lseq": 31,
-   "cseq": 17,
+   "lseq": 30,
+   "cseq": 16,
    "dseq": 10
   },
   {
@@ -6777,7 +6777,7 @@
  "team": {
   "gf": {
    "v": 2.81,
-   "rank": 19
+   "rank": 17
   },
   "ga": {
    "v": 3.14,
@@ -6807,5 +6807,5 @@
    "live": false
   }
  ],
- "updated": "2026-11-28T03:45:23Z"
+ "updated": "2026-11-28T04:00:21Z"
 }
